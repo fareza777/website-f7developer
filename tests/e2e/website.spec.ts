@@ -228,11 +228,14 @@ test("product catalogues are available before JavaScript loads", async ({
     testInfo.project.name !== "desktop",
     "Static HTML check runs once.",
   );
-  const context = await browser.newContext({ javaScriptEnabled: false });
+  const context = await browser.newContext({
+    javaScriptEnabled: false,
+    baseURL: testInfo.project.use.baseURL,
+  });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:4177/games/");
+  await page.goto("/games/");
   await expect(page.locator(".game-card")).toHaveCount(5);
-  await page.goto("http://127.0.0.1:4177/products/");
+  await page.goto("/products/");
   await expect(page.locator(".app-card")).toHaveCount(8);
   await expect(page.locator(".web-card")).toHaveCount(2);
   await context.close();

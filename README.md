@@ -57,3 +57,5 @@ npm run test:e2e
 ```
 
 Browser tests cover desktop and mobile, all main routes, catalogue search and filters, navigation between filtered and complete catalogues, official store URLs, the screenshot viewer, keyboard navigation, email drafts, missing images, overflow, and WCAG A/AA accessibility through axe. Product catalogues are also checked with JavaScript disabled. Screenshots are saved in the ignored `artifacts/` directory.
+
+Set `PLAYWRIGHT_BASE_URL` to a deployment's public URL to run the same browser checks against the deployed website without starting a local preview server.
