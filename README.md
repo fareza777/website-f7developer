@@ -30,12 +30,19 @@ Open http://127.0.0.1:4177. Set `PORT` to change the preview port.
 - Five individual game pages and eight individual app pages
 - Four release-note articles, website privacy, and a custom 404
 - Search and category filters, direct category links, keyboard-friendly mobile navigation, and screenshot lightboxes
+- F7 Discover with daily third-party games/apps, compound filters, dated archives, F7 Insights, source evidence and artwork acknowledgments
 
 Product data and release notes are in `src/lib/data.ts`. Official product artwork and screenshots are stored locally in `public/images/products`. Asset source keys are documented in `scripts/asset-sources.json`; run `node scripts/import-assets.mjs` to refresh the official images.
 
 The home and studio background is original AI-generated promotional concept art. It is not presented as a screenshot from any game. All product cards and screenshot galleries use official Google Play assets.
 
 The catalogue was checked against [F7 Developer on Google Play](https://play.google.com/store/apps/dev?id=7590575640597683388) on October 10, 2026. The web projects are [Game Asset Radar](https://gameassetradar.top/) and [AI Radar](https://ai-radar-lilac.vercel.app/).
+
+## F7 Discover
+
+Verified editions live in `content/discover/editions`; incomplete research stays in `content/discover/review.json`, outside the frontend. No Google Play API, database or paid backend is used. The daily target is seven games and seven Android apps, with honest partial editions when verification is incomplete.
+
+See [operations](docs/discover/OPERATIONS.md), [source access policy](docs/discover/SOURCES.md) and [Cursor automation instructions](docs/discover/CURSOR_AUTOMATION.md). Builds validate all content before exporting. Daily owner/Cursor content PRs are checked with trusted code before automatic publication; broader changes cannot use that route.
 
 ## Contact
 

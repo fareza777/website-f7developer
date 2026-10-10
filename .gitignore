@@ -9,3 +9,7 @@ playwright-report/
 test-results/
 .vercel/
 artifacts/
+content/discover/.publish.lock
+content/discover/.publish-journal.json
+content/discover/*.tmp
+content/discover/editions/*.tmp

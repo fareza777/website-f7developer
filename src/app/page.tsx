@@ -19,12 +19,20 @@ import {
 import { Reveal } from "@/components/reveal";
 import { games, apps, updates } from "@/lib/data";
 import { siteOrigin } from "@/lib/seo";
+import { getLatestEdition, discoveryPath, discoverDate } from "@/lib/discover";
 
 export const metadata: Metadata = siteOrigin
   ? { alternates: { canonical: new URL("/", siteOrigin).href } }
   : {};
 
 export default function Home() {
+  const discover = getLatestEdition();
+  const discoverPreview = discover
+    ? [
+        discover.entries.find((entry) => entry.kind === "game"),
+        discover.entries.find((entry) => entry.kind === "app"),
+      ].filter((entry) => entry !== undefined)
+    : [];
   return (
     <>
       <section className="hero" aria-labelledby="hero-title">
@@ -156,6 +164,46 @@ export default function Home() {
           <WebProjects />
         </Reveal>
       </section>
+      {discover && (
+        <section className="home-discover">
+          <div className="container home-discover-inner">
+            <div>
+              <span className="discover-kicker">
+                BEYOND OUR STUDIO / {discoverDate(discover.date, true)}
+              </span>
+              <h2>
+                F7 Discover<span>.</span>
+              </h2>
+              <p>
+                Independent games. Useful Android apps. A daily selection of
+                ideas worth finding, from creators around the world.
+              </p>
+              <Link href="/discover/" className="text-link">
+                Explore the daily picks <ArrowUpRightIcon size={20} />
+              </Link>
+            </div>
+            <div className="home-discover-preview">
+              {discoverPreview.map((entry) => (
+                <Link href={discoveryPath(entry)} key={entry.slug}>
+                  <Image
+                    src={entry.asset.path}
+                    alt={entry.asset.alt}
+                    width={100}
+                    height={80}
+                  />
+                  <div>
+                    <strong>{entry.name}</strong>
+                    <span>
+                      {entry.category} · By {entry.developer}
+                    </span>
+                  </div>
+                  <ArrowUpRightIcon size={22} />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
       <section className="about-section">
         <div className="container about-grid">
           <Reveal className="about-art">

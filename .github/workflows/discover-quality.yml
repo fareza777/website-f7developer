@@ -1,0 +1,70 @@
+name: Discover quality and publication
+
+on:
+  push:
+    branches: [main]
+  pull_request_target:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "content/discover/**"
+      - "public/images/discover/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: discover-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      head: ${{ steps.content.outputs.head }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - name: Prepare only eligible daily content from the exact PR head
+        if: github.event_name == 'pull_request_target'
+        id: content
+        run: node scripts/verify-discover-pr.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DISCOVER_PR_NUMBER: ${{ github.event.pull_request.number }}
+      - run: npm ci
+      - run: npm run discover:validate
+      - run: npm test
+      - run: npm run lint
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://f7developer.com
+      - run: npm run typecheck
+      - run: npm run verify:export
+
+  publish:
+    if: github.event_name == 'pull_request_target' && needs.verify.outputs.head != ''
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Merge only the verified immutable head
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          VERIFIED_HEAD: ${{ needs.verify.outputs.head }}
+        run: gh api --method PUT "repos/$GH_REPO/pulls/$PR_NUMBER/merge" -f sha="$VERIFIED_HEAD" -f merge_method=squash

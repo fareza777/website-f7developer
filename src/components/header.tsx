@@ -8,6 +8,7 @@ import { ArrowUpRightIcon, ListIcon, XIcon } from "@/components/icons";
 const navigation = [
   ["Games", "/games/"],
   ["Products", "/products/"],
+  ["Discover", "/discover/"],
   ["Studio", "/studio/"],
   ["Updates", "/updates/"],
   ["Contact", "/contact/"],

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "npm run discover:validate",
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
     "start": "node scripts/preview.mjs",
@@ -12,7 +13,9 @@
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "playwright test",
     "verify:export": "node scripts/verify-export.mjs",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "discover:validate": "node scripts/discover.mjs validate",
+    "discover:publish": "node scripts/discover.mjs publish"
   },
   "dependencies": {
     "@phosphor-icons/react": "2.1.10",

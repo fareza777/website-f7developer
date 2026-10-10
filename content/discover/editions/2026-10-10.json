@@ -1,0 +1,1452 @@
+{
+  "date": "2026-10-10",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-10T09:36:18.696Z",
+  "entries": [
+    {
+      "slug": "veloren",
+      "kind": "game",
+      "name": "Veloren",
+      "developer": "Veloren community",
+      "category": "Action RPG",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "officialUrl": "https://veloren.net/",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://veloren.net/"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://book.veloren.net/players/faq.html",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Veloren is a community-built fantasy action RPG with a world made from voxels. Explore mountains, deserts and caves, gather materials, craft equipment and fight creatures with different weapon styles. Towns and dungeons give the journey structure, while multiplayer servers let friends explore together. Its procedural world is still being developed, making this a discovery for players who enjoy following an evolving project.",
+      "features": [
+        "Procedural world with caves and dungeons",
+        "Weapon-based combat and equipment crafting",
+        "Online and LAN multiplayer"
+      ],
+      "insight": "Veloren pairs an inviting visual style with systems that make wandering feel purposeful. For F7, it is a useful example of community development shaping both a game's world and its tools, with room for players to become contributors.",
+      "discoverySource": {
+        "name": "Official Veloren site",
+        "url": "https://veloren.net/"
+      },
+      "distribution": [
+        {
+          "label": "Official launcher",
+          "url": "https://veloren.net/download/"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/veloren.jpg",
+        "sourceUrl": "https://book.veloren.net/contributors/journalists/data/screenshots/Savannah%20Exploration.jpg",
+        "license": "Official press-kit screenshot permission",
+        "licenseUrl": "https://book.veloren.net/contributors/journalists/press-kit.html",
+        "attribution": "Savannah Exploration screenshot from the official Veloren press kit, by the Veloren community. Reused under the press kit's express permission to illustrate text. Original image, unchanged.",
+        "alt": "Official Veloren screenshot of a voxel forest overlooking a desert settlement"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://veloren.net/",
+            "label": "Official gameplay overview",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://book.veloren.net/introduction/who-builds-veloren.html",
+            "label": "Volunteer development community",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://veloren.net/download/",
+            "label": "Official launcher and supported platforms",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://book.veloren.net/players/faq.html",
+            "label": "Official free-content policy",
+            "checks": [
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://book.veloren.net/contributors/journalists/press-kit.html",
+            "label": "Express permission for press-kit screenshots",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "localsend",
+      "kind": "app",
+      "name": "LocalSend",
+      "developer": "Tien Do Nam and LocalSend contributors",
+      "category": "File sharing",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://localsend.org/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Move files and text between nearby phones and computers on the same network. LocalSend keeps the transfer local and does not need an account or an internet connection.",
+      "features": [
+        "Share files and text across Android, iOS, Windows, macOS, and Linux.",
+        "Find receiving devices over your local Wi-Fi network.",
+        "Protect transfers with HTTPS encryption and an optional receiving PIN."
+      ],
+      "insight": "A practical bridge between a phone and a work computer. We like the short path from choosing a file to delivering it, especially when a cloud upload would add an unnecessary step.",
+      "officialUrl": "https://localsend.org/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/localsend/localsend"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.localsend.localsend_app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.localsend.localsend_app/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/localsend/localsend/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://localsend.org/",
+        "androidPackageId": "org.localsend.localsend_app",
+        "githubRepo": "localsend/localsend"
+      },
+      "asset": {
+        "path": "/images/discover/localsend.png",
+        "sourceUrl": "https://github.com/localsend/localsend/blob/main/app/assets/img/logo-512.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://github.com/localsend/localsend/blob/main/LICENSE",
+        "attribution": "LocalSend icon, copyright 2022–2026 Tien Do Nam. Apache License 2.0; used unmodified.",
+        "alt": "Official LocalSend icon",
+        "noticePath": "/images/discover/licenses/localsend-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://localsend.org/",
+            "label": "Official features, supported systems, and free pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/localsend/localsend",
+            "label": "Official project and developer-linked distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/localsend/localsend/blob/main/LICENSE",
+            "label": "Project copyright and full Apache 2.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/localsend/localsend/blob/main/app/assets/img/logo-512.png",
+            "label": "Original icon tracked in the official licensed project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "unciv",
+      "kind": "game",
+      "name": "Unciv",
+      "developer": "yairm210 and contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "officialUrl": "https://github.com/yairm210/Unciv",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/yairm210/Unciv",
+        "androidPackageId": "com.unciv.app",
+        "githubRepo": "yairm210/Unciv"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://yairm210.itch.io/unciv",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Unciv packages civilization-building strategy into a compact interface for Android and desktop. Develop cities, research technologies, manage an expanding civilization and compete with rival powers. The project emphasizes modding and lightweight presentation, with its own illustrated tiles and icons rather than elaborate animation. It is a free community project aimed at players who want long strategic decisions in a small, practical package.",
+      "features": [
+        "City growth and technology research",
+        "Moddable 4X strategy",
+        "Android and desktop play"
+      ],
+      "insight": "Unciv is a good reminder that strategic depth can come from rules and readable feedback. Its restrained presentation makes it worth studying for small teams building ambitious systems without a large animation or rendering budget.",
+      "discoverySource": {
+        "name": "Official itch.io page",
+        "url": "https://yairm210.itch.io/unciv"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.unciv.app"
+        },
+        {
+          "label": "itch.io for desktop",
+          "url": "https://yairm210.itch.io/unciv"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/unciv.png",
+        "sourceUrl": "https://raw.githubusercontent.com/yairm210/Unciv/master/android/assets/ExtraImages/banner.png",
+        "license": "CC BY-SA 3.0; component credits apply",
+        "licenseUrl": "https://github.com/yairm210/Unciv/blob/master/docs/Credits.md",
+        "attribution": "Unciv banner by letstalkaboutdune, with tiles by The Bucketeer / @GeneralWadaling and logo by yairm210 and u-ndefine, CC BY-SA 3.0. Logo: CC BY 4.0; incorporated CC BY 3.0 icons by Alex Bickov, Pedro Gonçalves, Eliricon, Delwar Hossain, Naomi Atkinson, Alexander Skowalsky and Muhajir ila Robbi. See linked credits for component sources. Original image, unchanged.",
+        "alt": "Official Unciv banner showing its hexagonal logo over a game map",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://github.com/yairm210/Unciv",
+            "label": "Official repository, platform instructions and developer-linked stores",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://yairm210.itch.io/unciv",
+            "label": "Creator's game page and free-price statement",
+            "checks": [
+              "identity",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/yairm210/Unciv/blob/master/docs/Credits.md",
+            "label": "Asset-specific banner, logo and component credits",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-gallery",
+      "kind": "app",
+      "name": "Fossify Gallery",
+      "developer": "Fossify",
+      "category": "Photography",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/gallery/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "An Android gallery for managing photos and videos stored on your device. Its editing and organisation tools are designed around a local library, with no internet permission required.",
+      "features": [
+        "Browse local photo and video folders and organise albums.",
+        "Crop, rotate, resize, draw on, and apply filters to images.",
+        "Hide selected folders and recover deleted items through the recycle bin."
+      ],
+      "insight": "Worth a look when the camera roll needs attention. The combination of local browsing, everyday edits, and a recovery bin covers the jobs many people otherwise split across several apps.",
+      "officialUrl": "https://www.fossify.org/apps/gallery/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/FossifyOrg/Gallery"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.gallery"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/org.fossify.gallery/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/FossifyOrg/Gallery/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/gallery/",
+        "androidPackageId": "org.fossify.gallery",
+        "githubRepo": "FossifyOrg/Gallery"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-gallery.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/gallery/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Gallery icon by Fossify. Used unmodified under the official press-kit guidelines.",
+        "alt": "Official Fossify Gallery icon"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/gallery/",
+            "label": "Official Android features and store links; monetary price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/FossifyOrg/Gallery",
+            "label": "Official developer repository and package identity",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Explicit permission and usage guidelines for current app icons in directories and articles",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "0-ad",
+      "kind": "game",
+      "name": "0 A.D.",
+      "developer": "Wildfire Games",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "officialUrl": "https://play0ad.com/",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://play0ad.com/"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play0ad.com/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "0 A.D. is a historical real-time strategy game made by Wildfire Games' international volunteer team. Build a city, gather resources and raise an army with a civilization whose units, buildings and technologies shape its play style. Citizen soldiers can work as well as fight, tying economic decisions to military strength. An included map editor and accessible game files also make it a place to explore scenario design and modding.",
+      "features": [
+        "Distinct civilizations and technology trees",
+        "Citizen soldiers who build, gather and fight",
+        "Atlas map editor and mod support"
+      ],
+      "insight": "The citizen-soldier system makes 0 A.D. especially interesting: economic workers and military units are partly the same people. That connection gives small changes in timing a strategic cost, a useful idea for designers exploring economy and combat together.",
+      "discoverySource": {
+        "name": "Official Wildfire Games site",
+        "url": "https://play0ad.com/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://play0ad.com/download/"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/0-ad.png",
+        "sourceUrl": "https://play0ad.com/wp-content/uploads/2014/10/Empires-Ascendant-2048.png",
+        "license": "Official editorial logo permission",
+        "licenseUrl": "https://play0ad.com/about/official-logos/",
+        "attribution": "0 A.D. Empires Ascendant logo © Wildfire Games. Used under official permission to describe 0 A.D. and link to its website. Original image, unchanged.",
+        "alt": "Official gold 0 A.D. Empires Ascendant logo",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://play0ad.com/",
+            "label": "Official developer, gameplay and gratis-download statement",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://play0ad.com/game-info/features/",
+            "label": "Official gameplay, editor and modding features",
+            "checks": [
+              "features"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://play0ad.com/download/",
+            "label": "Official Windows, macOS and Linux downloads",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://play0ad.com/about/official-logos/",
+            "label": "Explicit permission to use these logos to describe the game",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "antennapod",
+      "kind": "app",
+      "name": "AntennaPod",
+      "developer": "AntennaPod contributors",
+      "category": "Podcasts",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://antennapod.org/about/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Build a podcast library from RSS feeds and keep episodes ready for listening away from a connection. AntennaPod pairs a flexible queue with practical controls for a regular listening routine.",
+      "features": [
+        "Subscribe to podcasts using their RSS feeds.",
+        "Download episodes for offline listening and configure automatic downloads.",
+        "Adjust playback speed and automate deletion of finished episodes."
+      ],
+      "insight": "A good discovery for listeners who want to choose their own feeds. Automatic downloads and cleanup make it especially appealing for a commute or a recurring listening schedule.",
+      "officialUrl": "https://antennapod.org/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/AntennaPod/AntennaPod"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=de.danoeh.antennapod"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.danoeh.antennapod/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://antennapod.org/",
+        "androidPackageId": "de.danoeh.antennapod",
+        "githubRepo": "AntennaPod/AntennaPod"
+      },
+      "asset": {
+        "path": "/images/discover/antennapod.png",
+        "sourceUrl": "https://antennapod.org/assets/branding/launcher-icons/ic_launcher.png",
+        "license": "Official media-kit permission",
+        "licenseUrl": "https://antennapod.org/media-kit/",
+        "attribution": "AntennaPod production launcher icon by the AntennaPod project. Used unmodified under the official media-kit guidelines.",
+        "alt": "Official AntennaPod icon"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://antennapod.org/",
+            "label": "Official Android podcast features",
+            "checks": [
+              "identity",
+              "platforms",
+              "features"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://antennapod.org/about/",
+            "label": "Volunteer project, free price, and listening controls",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://antennapod.org/download/",
+            "label": "Official Google Play and F-Droid distribution channels",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/AntennaPod/AntennaPod",
+            "label": "Official repository with Google Play package identifier",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://antennapod.org/media-kit/",
+            "label": "Original production icon and explicit press/media permission",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "supertuxkart",
+      "kind": "game",
+      "name": "SuperTuxKart",
+      "developer": "SuperTuxKart Team",
+      "category": "Racing",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "officialUrl": "https://supertuxkart.net/",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://supertuxkart.net/",
+        "androidPackageId": "org.supertuxkart.stk",
+        "githubRepo": "supertuxkart/stk-code"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free; optional supporter track package",
+        "sourceUrl": "https://www.supertuxkart.net/FAQ",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "SuperTuxKart is a colorful arcade racing game built around open-source project mascots. Race through varied tracks, use powerups and tackle a story mode, Grand Prix cups or time trials. Local and online multiplayer support shared competition, while soccer, battle and egg-hunt modes offer different ways to use the same driving skills. Community tracks and karts extend what is included in the main download.",
+      "features": [
+        "Story, Grand Prix and time-trial modes",
+        "Local and online multiplayer",
+        "Community karts and tracks"
+      ],
+      "insight": "SuperTuxKart shows how a familiar control scheme can support very different goals. Its extra modes are worth exploring as examples of reusing a game's strongest mechanics, and its community addons show how a small project can keep expanding.",
+      "discoverySource": {
+        "name": "Official SuperTuxKart site",
+        "url": "https://www.supertuxkart.net/Discover"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.supertuxkart.stk"
+        },
+        {
+          "label": "Official downloads",
+          "url": "https://www.supertuxkart.net/Download"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/supertuxkart.png",
+        "sourceUrl": "https://raw.githubusercontent.com/supertuxkart/stk-code/master/data/gui/icons/logo.png",
+        "license": "CC BY-SA 3.0 or later",
+        "licenseUrl": "https://github.com/supertuxkart/stk-code/blob/master/data/gui/icons/licenses.txt",
+        "attribution": "SuperTuxKart logo by rastapax, CC BY-SA 3.0 or later, as specified for logo*.png in the official icons license file. Original image, unchanged.",
+        "alt": "Official orange SuperTuxKart logo",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://www.supertuxkart.net/Discover",
+            "label": "Official game modes, community content and team identity",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://www.supertuxkart.net/FAQ",
+            "label": "Official platform and free-price policy, including supporter-track exception",
+            "checks": [
+              "platforms",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://www.supertuxkart.net/Download",
+            "label": "Developer-linked Google Play and desktop downloads",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.supertuxkart.stk",
+            "label": "Developer-linked Android listing",
+            "checks": [
+              "identity",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/supertuxkart/stk-code/blob/master/data/gui/icons/licenses.txt",
+            "label": "File-specific logo*.png author and CC BY-SA grant",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "urlcheck",
+      "kind": "app",
+      "name": "URLCheck",
+      "developer": "TrianguloY",
+      "category": "Link tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/TrianguloY/URLCheck/blob/master/fastlane/metadata/android/en-US/full_description.txt",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Put an editable preview between tapping a link and opening it. URLCheck exposes the address, offers optional cleanup modules, and lets you choose the app that should receive it.",
+      "features": [
+        "Inspect and edit a URL before handing it to another app.",
+        "Remove recognised tracking parameters with the ClearURLs module.",
+        "Check HTTP status and follow redirects in deliberate steps."
+      ],
+      "insight": "Small links can hide a lot of routing. This adds a useful pause for understanding where a shared address goes, although a cleaner URL is not a guarantee that a destination is trustworthy.",
+      "officialUrl": "https://github.com/TrianguloY/URLCheck",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/TrianguloY/URLCheck"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.trianguloy.urlchecker/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/TrianguloY/URLCheck/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/TrianguloY/URLCheck",
+        "androidPackageId": "com.trianguloy.urlchecker",
+        "githubRepo": "TrianguloY/URLCheck"
+      },
+      "asset": {
+        "path": "/images/discover/urlcheck.png",
+        "sourceUrl": "https://github.com/TrianguloY/URLCheck/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "attribution": "URLCheck icon by TrianguloY. Creative Commons Attribution 4.0 International; used unmodified.",
+        "alt": "Official URLCheck icon"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://github.com/TrianguloY/URLCheck",
+            "label": "Official Android project, store links, modules, and explicit asset reuse with visible credit",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/TrianguloY/URLCheck/blob/master/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Developer-maintained feature and free-price metadata",
+            "checks": [
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+            "label": "Full Creative Commons Attribution 4.0 terms",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pioneer",
+      "kind": "game",
+      "name": "Pioneer",
+      "developer": "Pioneer Developers",
+      "category": "Space Simulation",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "officialUrl": "https://pioneerspacesim.net/",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://pioneerspacesim.net/",
+        "githubRepo": "pioneerspacesim/pioneer"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://pioneerspacesim.net/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Pioneer is an open-ended space adventure set across a simulated Milky Way. Fly between star systems, land on planets and choose how to earn a living through trade, missions or less lawful work. Its emphasis on flight and a vast galaxy gives journeys as much weight as destinations. The project is still in development, with free Windows and Linux builds available from its official download page.",
+      "features": [
+        "Explore millions of star systems",
+        "Planetary landings and spaceflight",
+        "Trading, missions and piracy"
+      ],
+      "insight": "Pioneer is worth discovering for the sense of scale created by travel rather than a fixed sequence of levels. It offers a useful reference for designers thinking about how movement, distance and player freedom can become the main experience.",
+      "discoverySource": {
+        "name": "Official Pioneer site",
+        "url": "https://pioneerspacesim.net/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://pioneerspacesim.net/page/download/"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/pioneer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/pioneerspacesim/pioneer/master/data/icons/badge.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://github.com/pioneerspacesim/pioneer/blob/master/AUTHORS.txt",
+        "attribution": "Pioneer badge © 2008–2026 Pioneer Developers. CC BY-SA 3.0, under the official art-and-assets grant in AUTHORS.txt; the separately listed third-party exceptions do not identify this badge. Original image, unchanged.",
+        "alt": "Official Pioneer mission-style badge with a spaceship and stars",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://pioneerspacesim.net/",
+            "label": "Official open-ended gameplay, free download and project identity",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://pioneerspacesim.net/page/download/",
+            "label": "Current official Windows and Linux builds",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/pioneerspacesim/pioneer",
+            "label": "Official repository with planetary-landing and mission overview",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/pioneerspacesim/pioneer/blob/master/AUTHORS.txt",
+            "label": "Explicit art-and-assets license and listed exceptions",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "material-files",
+      "kind": "app",
+      "name": "Material Files",
+      "developer": "Hai Zhang",
+      "category": "File management",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/zhanghai/MaterialFiles/blob/master/PRIVACY.md",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Manage local files and network folders through an Android file browser with clear navigation. Material Files brings archive tools and several server protocols into the same interface.",
+      "features": [
+        "Use breadcrumb navigation to move between folder levels.",
+        "View, create, and extract common archive formats.",
+        "Access files on FTP, SFTP, SMB, and WebDAV servers."
+      ],
+      "insight": "A useful step up when moving files extends beyond Downloads. We particularly like having archives and a home server within reach of the same folder navigation.",
+      "officialUrl": "https://github.com/zhanghai/MaterialFiles",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/zhanghai/MaterialFiles"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/me.zhanghai.android.files/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/zhanghai/MaterialFiles/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/zhanghai/MaterialFiles",
+        "androidPackageId": "me.zhanghai.android.files",
+        "githubRepo": "zhanghai/MaterialFiles"
+      },
+      "asset": {
+        "path": "/images/discover/material-files.png",
+        "sourceUrl": "https://github.com/zhanghai/MaterialFiles/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE",
+        "attribution": "Material Files icon, copyright Hai Zhang. GNU GPL version 3 or later; used unmodified. Original asset source is linked.",
+        "alt": "Official Material Files icon",
+        "noticePath": "/images/discover/licenses/material-files-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://github.com/zhanghai/MaterialFiles",
+            "label": "Official Android features, author copyright, project license, and linked distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/zhanghai/MaterialFiles/blob/master/PRIVACY.md",
+            "label": "Author identity and explicit no-cost availability",
+            "checks": [
+              "identity",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE",
+            "label": "Full GNU GPL version 3 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/zhanghai/MaterialFiles/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Original launcher icon tracked in the official project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "naev",
+      "kind": "game",
+      "name": "Naev",
+      "developer": "Naev Team",
+      "category": "Space Adventure",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "officialUrl": "https://naev.org/",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://naev.org/"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://store.steampowered.com/app/598530/Naev/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Naev is a top-down space game about finding a place in a galaxy of trade, combat and faction politics. Fly different ships, customize their equipment and earn money through missions or other work. Its real-time movement uses semi-Newtonian physics, while a built-in plugin manager makes community additions easier to explore. This is a continuing hobby project with free downloads for Windows, macOS and Linux.",
+      "features": [
+        "Semi-Newtonian real-time spaceflight",
+        "Customizable ships and distinct factions",
+        "Built-in plugin manager"
+      ],
+      "insight": "Naev puts a lot of variety behind a clear top-down view. The combination of flight feel, ship choices and community plugins is worth exploring for anyone interested in how a focused interface can support a large game.",
+      "discoverySource": {
+        "name": "Official itch.io page",
+        "url": "https://naev.itch.io/naev"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://naev.org/downloads/"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/598530/Naev/"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://naev.itch.io/naev"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/naev.webp",
+        "sourceUrl": "https://naev.org/imgs/screenshots_0.13.0/title_screen.webp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://naev.org/media/",
+        "attribution": "Official Naev 0.13.0 title-screen screenshot by the Naev Team. CC BY-SA 4.0 under the original-content license on the official media page; the developer's itch.io page also identifies game assets as CC BY-SA 4.0. Original image, unchanged.",
+        "alt": "Official Naev title-screen screenshot with a spaceship, planets and stars"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://naev.org/",
+            "label": "Official project and current gameplay features",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://naev.org/downloads/",
+            "label": "Official platform and distribution instructions",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://naev.itch.io/naev",
+            "label": "Developer's platform, distribution and asset-license declarations",
+            "checks": [
+              "identity",
+              "platforms",
+              "distribution",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://store.steampowered.com/app/598530/Naev/",
+            "label": "Developer-linked Steam free-price statement",
+            "checks": [
+              "identity",
+              "price",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://naev.org/media/",
+            "label": "Official screenshot gallery and original-content CC BY-SA 4.0 grant",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/naev/naev/blob/main/org.naev.Naev.metainfo.xml",
+            "label": "Official metadata identifies the exact title-screen image URL",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "heliboard",
+      "kind": "app",
+      "name": "HeliBoard",
+      "developer": "HeliBoard contributors",
+      "category": "Keyboard",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://github.com/HeliBorg/HeliBoard",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "An Android keyboard with extensive layout and theme controls. HeliBoard works without internet permission and gives multilingual typing, clipboard tools, and alternative keyboard arrangements a central place.",
+      "features": [
+        "Customise keyboard layouts, colours, and themes.",
+        "Type in multiple languages and add dictionaries for suggestions.",
+        "Use clipboard history, one-handed mode, and split layouts."
+      ],
+      "insight": "A keyboard is one of the most-used tools on a phone. HeliBoard is worth exploring if key placement, language switching, or a particular screen size makes the default keyboard feel awkward.",
+      "officialUrl": "https://github.com/HeliBorg/HeliBoard",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/HeliBorg/HeliBoard"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/helium314.keyboard/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/HeliBorg/HeliBoard/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/HeliBorg/HeliBoard",
+        "androidPackageId": "helium314.keyboard",
+        "githubRepo": "HeliBorg/HeliBoard"
+      },
+      "asset": {
+        "path": "/images/discover/heliboard.png",
+        "sourceUrl": "https://github.com/HeliBorg/HeliBoard/blob/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://github.com/HeliBorg/HeliBoard/blob/main/LICENSE-CC-BY-SA-4.0",
+        "attribution": "HeliBoard icon by Fabian OvrWrt, with contributions from The Eclectic Dyslexic. Creative Commons Attribution-ShareAlike 4.0 International; used unmodified.",
+        "alt": "Official HeliBoard icon"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://github.com/HeliBorg/HeliBoard",
+            "label": "Official Android features, F-Droid/GitHub distribution, icon credit and icon-specific license; monetary price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/HeliBorg/HeliBoard/blob/main/LICENSE-CC-BY-SA-4.0",
+            "label": "Full icon-specific Creative Commons Attribution-ShareAlike 4.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "endless-sky",
+      "kind": "game",
+      "name": "Endless Sky",
+      "developer": "Michael Zahniser and contributors",
+      "category": "Space Adventure",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "officialUrl": "https://endless-sky.github.io/",
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://endless-sky.github.io/",
+        "githubRepo": "endless-sky/endless-sky"
+      },
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://endless-sky.github.io/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Endless Sky is a free space trading and combat game where a tiny starter ship is the beginning of an open-ended career. Carry cargo or passengers, accept missions, hunt pirates and use the proceeds to improve your ship or build a fleet. A story campaign runs alongside that freedom, so players can follow its conflicts or spend their time exploring and making their own living.",
+      "features": [
+        "Trading, passenger jobs and missions",
+        "Ship upgrades and fleet building",
+        "Story campaign with open exploration"
+      ],
+      "insight": "The appeal of Endless Sky is the way a small starting ship gives progression a clear meaning. Each upgrade changes what work becomes possible, making it an approachable reference for designers connecting an economy to player freedom.",
+      "discoverySource": {
+        "name": "Official GitHub repository",
+        "url": "https://github.com/endless-sky/endless-sky"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/endless-sky/endless-sky/releases/latest"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/404410/Endless_Sky/"
+        }
+      ],
+      "asset": {
+        "path": "/images/discover/endless-sky.png",
+        "sourceUrl": "https://raw.githubusercontent.com/endless-sky/endless-sky/master/icons/endless-sky.iconset/icon_512x512%402x.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://github.com/endless-sky/endless-sky/blob/master/copyright",
+        "attribution": "Endless Sky icon © Michael Zahniser and Endless Sky contributors. GPL-3.0-or-later under the machine-readable copyright file's Files: * grant; its images/* exceptions do not apply to this icons/ file. Original PNG, unchanged. Full GPL text accompanies the local asset in licenses/endless-sky-GPL-3.0.txt.",
+        "alt": "Official Endless Sky icon showing a spaceship with glowing engines",
+        "noticePath": "/images/discover/licenses/endless-sky-GPL-3.0.txt",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://endless-sky.github.io/",
+            "label": "Official gameplay overview, platforms and free availability",
+            "checks": [
+              "identity",
+              "features",
+              "platforms",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/endless-sky/endless-sky",
+            "label": "Official repository and developer-linked distribution",
+            "checks": [
+              "identity",
+              "features",
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/endless-sky/endless-sky/blob/master/copyright",
+            "label": "Machine-readable copyright explicitly covers all files and asset exceptions",
+            "checks": [
+              "identity",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/endless-sky/endless-sky/blob/master/license.txt",
+            "label": "Full GPL version 3 terms, also supplied with local image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "streetcomplete",
+      "kind": "app",
+      "name": "StreetComplete",
+      "developer": "Tobias Zwick and StreetComplete contributors",
+      "category": "Maps",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://streetcomplete.app/",
+        "checkedAt": "2026-10-10"
+      },
+      "summary": "Turn a walk into small improvements to OpenStreetMap. StreetComplete marks nearby gaps in map data and asks questions you can answer by observing the place in front of you.",
+      "features": [
+        "Find nearby places that need a survey through map quest markers.",
+        "Answer plain-language questions without learning OpenStreetMap tags.",
+        "Survey offline and upload map edits through your OpenStreetMap account."
+      ],
+      "insight": "An appealing way to contribute something useful during an ordinary walk. The task-sized questions lower the barrier to mapping, while on-site observation keeps each answer grounded in the real place.",
+      "officialUrl": "https://streetcomplete.app/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/streetcomplete/StreetComplete"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.westnordost.streetcomplete/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/streetcomplete/StreetComplete/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://streetcomplete.app/",
+        "androidPackageId": "de.westnordost.streetcomplete",
+        "githubRepo": "streetcomplete/StreetComplete"
+      },
+      "asset": {
+        "path": "/images/discover/streetcomplete.png",
+        "sourceUrl": "https://github.com/streetcomplete/StreetComplete/blob/master/metadata/en/images/icon.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+        "attribution": "StreetComplete app icon derived from Elegant Themes’ Beautiful Flat Icons, with StreetComplete artwork by Tobias Zwick. GNU GPL version 2, as recorded in the project artwork credits; used unmodified.",
+        "alt": "Official StreetComplete icon",
+        "noticePath": "/images/discover/licenses/streetcomplete-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-10",
+        "sources": [
+          {
+            "url": "https://streetcomplete.app/",
+            "label": "Official purpose and on-site mapping workflow; monetary price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/streetcomplete/StreetComplete",
+            "label": "Official Android features, offline surveying, and developer-linked distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/streetcomplete/StreetComplete/blob/master/AUTHORS.md",
+            "label": "Maintainer identity and separate asset-license policy",
+            "checks": [
+              "identity",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/streetcomplete/StreetComplete/blob/master/res/graphics/authors.txt",
+            "label": "Asset-specific original app-icon credit and GPL 2.0 assignment",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-free",
+            "label": "Original icon collection explicitly allows personal and commercial GPL use",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+            "label": "Full GNU General Public License version 2 terms",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          },
+          {
+            "url": "https://github.com/streetcomplete/StreetComplete/blob/master/res/graphics/app%20icon/appicon_flat.svg",
+            "label": "Editable original flat app-icon source, explicitly GPL 2.0 in artwork credits",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-10"
+          }
+        ]
+      }
+    }
+  ]
+}

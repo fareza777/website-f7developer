@@ -1,0 +1,197 @@
+[
+  {
+    "candidate": {
+      "slug": "thrive",
+      "kind": "game",
+      "name": "Thrive",
+      "officialUrl": "https://www.revolutionarygamesstudio.com/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-conflict"
+      ],
+      "reason": "The official Get Involved page names CC BY-SA 3.0 for art but also describes reuse as non-commercial. The press kit contains suitable screenshots without a separate explicit reuse statement resolving that wording. No image downloaded or entry published until the asset-specific grant is unambiguous.",
+      "sources": [
+        "https://www.revolutionarygamesstudio.com/get-involved",
+        "https://www.revolutionarygamesstudio.com/press-kit/",
+        "https://www.revolutionarygamesstudio.com/downloads"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The official Get Involved page names CC BY-SA 3.0 for art but also describes reuse as non-commercial. The press kit contains suitable screenshots without a separate explicit reuse statement resolving that wording. No image downloaded or entry published until the asset-specific grant is unambiguous."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "widelands",
+      "kind": "game",
+      "name": "Widelands",
+      "officialUrl": "https://www.widelands.org/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "source-blocked",
+        "verification-incomplete"
+      ],
+      "reason": "The official homepage returned an anti-bot challenge. Research stopped there; identity, current details and artwork reuse were not completed.",
+      "sources": [
+        "https://www.widelands.org/"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The official homepage returned an anti-bot challenge. Research stopped there; identity, current details and artwork reuse were not completed."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "mindustry",
+      "kind": "game",
+      "name": "Mindustry",
+      "officialUrl": "https://mindustrygame.github.io/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified"
+      ],
+      "reason": "Official gameplay and distribution pages were readable, but this bounded pass did not establish an explicit artwork grant for a selected image. The repository's source-code license was not treated as automatic proof for screenshots or branding.",
+      "sources": [
+        "https://mindustrygame.github.io/",
+        "https://github.com/Anuken/Mindustry",
+        "https://mindustrygame.github.io/wiki/faq/"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "Official gameplay and distribution pages were readable, but this bounded pass did not establish an explicit artwork grant for a selected image. The repository's source-code license was not treated as automatic proof for screenshots or branding."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "taisei",
+      "kind": "game",
+      "name": "Taisei Project",
+      "officialUrl": "https://taisei-project.org/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified"
+      ],
+      "reason": "The project's COPYING file separates portrait and soundtrack licenses, and says some background photographs have incomplete historical provenance. No particular cover image was selected with all applicable rights verified in this pass.",
+      "sources": [
+        "https://github.com/taisei-project/taisei",
+        "https://raw.githubusercontent.com/taisei-project/taisei/master/COPYING.txt"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The project's COPYING file separates portrait and soundtrack licenses, and says some background photographs have incomplete historical provenance. No particular cover image was selected with all applicable rights verified in this pass."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "open-surge",
+      "kind": "game",
+      "name": "Surge the Rabbit / Open Surge",
+      "officialUrl": "https://opensurge2d.org/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified"
+      ],
+      "reason": "The current official project presents an engine and its featured platform game. A specific official cover asset and its applicable artwork/trademark conditions were not fully verified in this bounded pass.",
+      "sources": [
+        "https://opensurge2d.org/",
+        "https://github.com/alemart/opensurge",
+        "https://wiki.opensurge2d.org/Trademark_Policy"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The current official project presents an engine and its featured platform game. A specific official cover asset and its applicable artwork/trademark conditions were not fully verified in this bounded pass."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "supertux",
+      "kind": "game",
+      "name": "SuperTux",
+      "officialUrl": "https://www.supertux.org/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified"
+      ],
+      "reason": "The current asset credits contain multiple licenses and some non-commercial exceptions. A specific cover with an unambiguous applicable grant was not selected. This candidate was held back without using a broad code-license assumption.",
+      "sources": [
+        "https://www.supertux.org/",
+        "https://github.com/SuperTux/supertux",
+        "https://raw.githubusercontent.com/SuperTux/supertux/master/data/AUTHORS"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The current asset credits contain multiple licenses and some non-commercial exceptions. A specific cover with an unambiguous applicable grant was not selected. This candidate was held back without using a broad code-license assumption."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "breezy-weather",
+      "kind": "app",
+      "name": "Breezy Weather",
+      "officialUrl": "https://github.com/breezy-weather/breezy-weather",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified"
+      ],
+      "reason": "The official README explicitly reserves rights in logos and requires forks to change the icon and name. No separate press permission for the original icon was established, so the source-code license was not used as an artwork grant.",
+      "sources": [
+        "https://github.com/breezy-weather/breezy-weather",
+        "https://github.com/breezy-weather/breezy-weather/blob/main/LICENSE_ADDITIONAL"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The official README explicitly reserves rights in logos and requires forks to change the icon and name. No separate press permission for the original icon was established, so the source-code license was not used as an artwork grant."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "kde-connect",
+      "kind": "app",
+      "name": "KDE Connect",
+      "officialUrl": "https://kdeconnect.kde.org/",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified"
+      ],
+      "reason": "Official functionality, free availability, and Google Play distribution were verified. The original Android launcher art has a separate creator credit in its SVG, but this pass did not establish an explicit applicable grant for that exact artwork. It is held back pending that check.",
+      "sources": [
+        "https://kdeconnect.kde.org/",
+        "https://kdeconnect.kde.org/download.html",
+        "https://github.com/KDE/kdeconnect-android",
+        "https://github.com/KDE/kdeconnect-android/blob/master/icon.svg"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "Official functionality, free availability, and Google Play distribution were verified. The original Android launcher art has a separate creator credit in its SVG, but this pass did not establish an explicit applicable grant for that exact artwork. It is held back pending that check."
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "markor",
+      "kind": "app",
+      "name": "Markor",
+      "officialUrl": "https://github.com/gsantner/markor",
+      "checkedAt": "2026-10-10",
+      "reasonCodes": [
+        "asset-license-unverified",
+        "verification-incomplete"
+      ],
+      "reason": "The official repository identifies an Android text editor and links F-Droid and GitHub releases. Its README specifically describes the app code as Apache 2.0 and some other materials as CC0; a grant covering a selected original launcher icon was not established in this bounded pass.",
+      "sources": [
+        "https://github.com/gsantner/markor"
+      ]
+    },
+    "queuedAt": "2026-10-10",
+    "reasons": [
+      "The official repository identifies an Android text editor and links F-Droid and GitHub releases. Its README specifically describes the app code as Apache 2.0 and some other materials as CC0; a grant covering a selected original launcher icon was not established in this bounded pass."
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "veloren",
+    "path": "/images/discover/veloren.jpg",
+    "sourceUrl": "https://book.veloren.net/contributors/journalists/data/screenshots/Savannah%20Exploration.jpg",
+    "licenseUrl": "https://book.veloren.net/contributors/journalists/press-kit.html",
+    "sha256": "7fe1da94be67834d6a1e5cd1be3a0937e9a261587d1dd5ee2644896e8bd44bee",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "localsend",
+    "path": "/images/discover/localsend.png",
+    "sourceUrl": "https://github.com/localsend/localsend/blob/main/app/assets/img/logo-512.png",
+    "licenseUrl": "https://github.com/localsend/localsend/blob/main/LICENSE",
+    "sha256": "d7e6016dd11ff9ce48ed6f1f24d8090b85d70982a450f1f1e51943739e166a48",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "unciv",
+    "path": "/images/discover/unciv.png",
+    "sourceUrl": "https://raw.githubusercontent.com/yairm210/Unciv/master/android/assets/ExtraImages/banner.png",
+    "licenseUrl": "https://github.com/yairm210/Unciv/blob/master/docs/Credits.md",
+    "sha256": "866c35b5a4925a3ea99fd23bb807267f784276de7d98471f0c026f2428ef9015",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "fossify-gallery",
+    "path": "/images/discover/fossify-gallery.webp",
+    "sourceUrl": "https://www.fossify.org/assets/apps/gallery/icon.webp",
+    "licenseUrl": "https://www.fossify.org/press/",
+    "sha256": "d2bbabbe9f66c9c47483d5c14a6655c05cb5f881bc195d5d4fc6bf65aeab6af8",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "0-ad",
+    "path": "/images/discover/0-ad.png",
+    "sourceUrl": "https://play0ad.com/wp-content/uploads/2014/10/Empires-Ascendant-2048.png",
+    "licenseUrl": "https://play0ad.com/about/official-logos/",
+    "sha256": "2491b769320a5e8a9f07d0aa6b0f93de883ab5b1de65417cf874b656b21a152d",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "antennapod",
+    "path": "/images/discover/antennapod.png",
+    "sourceUrl": "https://antennapod.org/assets/branding/launcher-icons/ic_launcher.png",
+    "licenseUrl": "https://antennapod.org/media-kit/",
+    "sha256": "e3f772834bf6182c4a1f20efb1c93aba0239bbc2260471a95cb0bc2ab62f1337",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "supertuxkart",
+    "path": "/images/discover/supertuxkart.png",
+    "sourceUrl": "https://raw.githubusercontent.com/supertuxkart/stk-code/master/data/gui/icons/logo.png",
+    "licenseUrl": "https://github.com/supertuxkart/stk-code/blob/master/data/gui/icons/licenses.txt",
+    "sha256": "665000b981cf43306ec7e26ac20d2fc3ee3141649ff1c1f9b82e8a4c9f7206c6",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "urlcheck",
+    "path": "/images/discover/urlcheck.png",
+    "sourceUrl": "https://github.com/TrianguloY/URLCheck/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+    "sha256": "91b07f20bf4ac9ecf5741170fad741451a60a7b397cedd89b5fae666f24a0ba9",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "pioneer",
+    "path": "/images/discover/pioneer.png",
+    "sourceUrl": "https://raw.githubusercontent.com/pioneerspacesim/pioneer/master/data/icons/badge.png",
+    "licenseUrl": "https://github.com/pioneerspacesim/pioneer/blob/master/AUTHORS.txt",
+    "sha256": "cb8fa1100b047879a85add8b66e64bbd851ab6de89e226a194a2a7f39815aad5",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "material-files",
+    "path": "/images/discover/material-files.png",
+    "sourceUrl": "https://github.com/zhanghai/MaterialFiles/blob/master/fastlane/metadata/android/en-US/images/icon.png",
+    "licenseUrl": "https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE",
+    "sha256": "920164da7c4ff11bd419fa0613fa70b8c0479c7607133be6fde84654fc1ad7f0",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "naev",
+    "path": "/images/discover/naev.webp",
+    "sourceUrl": "https://naev.org/imgs/screenshots_0.13.0/title_screen.webp",
+    "licenseUrl": "https://naev.org/media/",
+    "sha256": "02c202e64976bd9fdadf4c5afb5ad20416bc57474c927cf4444b588101e34daf",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "heliboard",
+    "path": "/images/discover/heliboard.png",
+    "sourceUrl": "https://github.com/HeliBorg/HeliBoard/blob/main/fastlane/metadata/android/en-US/images/icon.png",
+    "licenseUrl": "https://github.com/HeliBorg/HeliBoard/blob/main/LICENSE-CC-BY-SA-4.0",
+    "sha256": "5150d002a92cad468a1b0302f239de62a9ec4969a216cae4e059511666ca065c",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "endless-sky",
+    "path": "/images/discover/endless-sky.png",
+    "sourceUrl": "https://raw.githubusercontent.com/endless-sky/endless-sky/master/icons/endless-sky.iconset/icon_512x512%402x.png",
+    "licenseUrl": "https://github.com/endless-sky/endless-sky/blob/master/copyright",
+    "sha256": "bff3711ede2ca7e0d1057546c1132def66848821533db72bf6558d2824dc658a",
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "slug": "streetcomplete",
+    "path": "/images/discover/streetcomplete.png",
+    "sourceUrl": "https://github.com/streetcomplete/StreetComplete/blob/master/metadata/en/images/icon.png",
+    "licenseUrl": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+    "sha256": "4c0209c699dc9aa17af641db049e2925df8e62d2bab39c886f8dd33b44500039",
+    "checkedAt": "2026-10-10"
+  }
+]
