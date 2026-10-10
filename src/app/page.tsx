@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -17,6 +18,11 @@ import {
 } from "@/components/ui";
 import { Reveal } from "@/components/reveal";
 import { games, apps, updates } from "@/lib/data";
+import { siteOrigin } from "@/lib/seo";
+
+export const metadata: Metadata = siteOrigin
+  ? { alternates: { canonical: new URL("/", siteOrigin).href } }
+  : {};
 
 export default function Home() {
   return (

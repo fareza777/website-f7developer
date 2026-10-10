@@ -2,6 +2,8 @@
 
 The official F7 Developer studio website. Built around original games, Android apps, and web projects with a cinematic dark theme and English content.
 
+Live website: [f7developer.com](https://f7developer.com/). The `www` address redirects to the main domain.
+
 ## Run locally
 
 Use Node.js 22.13 or later.
@@ -43,7 +45,7 @@ The form prepares a `mailto:` draft. It does not submit, store, or send visitor 
 
 The build exports static HTML into `out/`. Deploy that folder to any static host, or import the repository into Vercel with the Next.js preset. No database or API secrets are required.
 
-Set `NEXT_PUBLIC_SITE_URL` to the real public origin before building on a host other than Vercel. Vercel's production origin is detected automatically. This configures canonical URLs, social previews, robots, and the sitemap. The production domain is intentionally not invented in source code.
+Set `NEXT_PUBLIC_SITE_URL=https://f7developer.com` before building. This is configured in Vercel's production and preview environments and documented in `.env.example`. It keeps canonical URLs, social previews, robots, and the sitemap on the official domain. If deploying to another host, set the same variable there. Redeploy after changing it because the metadata is generated at build time.
 
 ## Checks
 

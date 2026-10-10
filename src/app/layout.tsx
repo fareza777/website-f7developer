@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   applicationName: "F7 Developer",
   openGraph: {
     type: "website",
+    ...(siteOrigin ? { url: new URL("/", siteOrigin).href } : {}),
     locale: "en_US",
     siteName: "F7 Developer",
     title: "F7 Developer | Small Studio. Big Ideas.",
