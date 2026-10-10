@@ -17,6 +17,15 @@ export const developerUrl =
 export const supportEmail = "fajar.mreza@gmail.com";
 export const businessEmail = "founder@wawasanai.com";
 
+export const founderSocialLinks = [
+  { name: "X", href: "https://x.com/FReza1984" },
+  { name: "Threads", href: "https://www.threads.com/@fajar_mreza" },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/fajar-m-reza-b4b741321/",
+  },
+] as const;
+
 export const products: Product[] = [
   {
     slug: "shardfall",

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Brand } from "./header";
 import { ArrowUpRightIcon, GithubLogoIcon, GooglePlayLogoIcon } from "./icons";
 import { developerUrl } from "@/lib/data";
+import { SocialLinks } from "./social-links";
 
 export function Footer() {
   return (
@@ -35,6 +36,7 @@ export function Footer() {
             >
               <GithubLogoIcon size={18} /> GitHub <ArrowUpRightIcon size={15} />
             </a>
+            <SocialLinks />
           </div>
         </div>
         <div className="footer-bottom">

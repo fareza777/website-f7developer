@@ -5,7 +5,9 @@ import {
   GameControllerIcon,
   CodeIcon,
   SparkleIcon,
+  GithubLogoIcon,
 } from "@/components/icons";
+import { SocialLinks } from "@/components/social-links";
 import { ContactBanner, PageIntro } from "@/components/ui";
 import { Reveal } from "@/components/reveal";
 import { pageMetadata } from "@/lib/seo";
@@ -123,15 +125,19 @@ export default function StudioPage() {
             Based in Indonesia. Building games, practical AI applications, and
             digital tools with an independent spirit.
           </p>
-          <a
-            className="text-link"
-            href="https://github.com/fareza777"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Explore on GitHub
-            <ArrowUpRightIcon size={18} />
-          </a>
+          <div className="founder-socials">
+            <a
+              className="text-link"
+              href="https://github.com/fareza777"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubLogoIcon size={18} aria-hidden="true" />
+              GitHub
+              <ArrowUpRightIcon size={15} aria-hidden="true" />
+            </a>
+            <SocialLinks className="text-link" />
+          </div>
         </div>
         <Link href="/products/" className="button button-outline">
           Explore our products

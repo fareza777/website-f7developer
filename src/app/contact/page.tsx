@@ -1,5 +1,6 @@
 import { PageIntro } from "@/components/ui";
 import { ContactForm } from "@/components/contact-form";
+import { SocialLinks } from "@/components/social-links";
 import {
   ArrowUpRightIcon,
   EnvelopeSimpleIcon,
@@ -69,6 +70,7 @@ export default function ContactPage() {
               GitHub
               <ArrowUpRightIcon size={16} />
             </a>
+            <SocialLinks iconSize={20} arrowSize={16} />
           </div>
         </div>
         <ContactForm />
