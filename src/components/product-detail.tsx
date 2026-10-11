@@ -64,7 +64,6 @@ export function ProductDetail({ product }: { product: Product }) {
               rel="noopener noreferrer"
               aria-label="Approved on PixelPicked"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://api.pixelpicked.com/api/badges/2gNWbZmxQQj/live.png?theme=dark"
                 width="250"
