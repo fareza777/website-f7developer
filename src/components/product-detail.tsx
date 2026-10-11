@@ -56,6 +56,23 @@ export function ProductDetail({ product }: { product: Product }) {
             <AndroidLogoIcon size={18} />
             Available on Android
           </span>
+          {product.slug === "oathfire" && (
+            <a
+              className="pixelpicked-badge"
+              href="https://pixelpicked.com/game/2gNWbZmxQQj/oathfire-rpg-chapter-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Approved on PixelPicked"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://api.pixelpicked.com/api/badges/2gNWbZmxQQj/live.png?theme=dark"
+                width="250"
+                height="54"
+                alt="Approved on PixelPicked"
+              />
+            </a>
+          )}
         </div>
         <div className="product-art">
           <Image
