@@ -193,5 +193,405 @@
     "reasons": [
       "The official repository identifies an Android text editor and links F-Droid and GitHub releases. Its README specifically describes the app code as Apache 2.0 and some other materials as CC0; a grant covering a selected original launcher icon was not established in this bounded pass."
     ]
+  },
+  {
+    "candidate": {
+      "slug": "ringblocks",
+      "kind": "game",
+      "name": "RingBlocks",
+      "officialUrl": "https://elementrelation.com/ringblocks/",
+      "identity": {
+        "canonicalUrl": "https://elementrelation.com/ringblocks/"
+      },
+      "researchNote": "itch.io listed a first publish on 11 October 2026 and the developer site explains the free 3D ring puzzle, but neither page states an artwork license. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://elementrelation.com/ringblocks/",
+        "licenseUrl": "https://elementrelation.com/ringblocks/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "hedgewars",
+      "kind": "game",
+      "name": "Hedgewars",
+      "officialUrl": "https://www.hedgewars.org/",
+      "identity": {
+        "canonicalUrl": "https://www.hedgewars.org/"
+      },
+      "researchNote": "The media page shows official screenshots, and its footer says all rights reserved. No separate reuse grant was found for a selected image.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://www.hedgewars.org/",
+        "licenseUrl": "https://www.hedgewars.org/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "luanti",
+      "kind": "game",
+      "name": "Luanti",
+      "officialUrl": "https://www.luanti.org/",
+      "identity": {
+        "canonicalUrl": "https://www.luanti.org/"
+      },
+      "researchNote": "The site offers a press kit, while the footer says media are under various licenses. No single gallery or press image had an unambiguous reuse grant.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://www.luanti.org/",
+        "licenseUrl": "https://www.luanti.org/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "battle-for-wesnoth",
+      "kind": "game",
+      "name": "Battle for Wesnoth",
+      "officialUrl": "https://www.wesnoth.org/",
+      "identity": {
+        "canonicalUrl": "https://www.wesnoth.org/"
+      },
+      "researchNote": "The repository copyright header licenses the program under GPL-2.0-or-later. That statement was not treated as permission for a selected official screenshot.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://www.wesnoth.org/",
+        "licenseUrl": "https://www.wesnoth.org/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "zero-k",
+      "kind": "game",
+      "name": "Zero-K",
+      "officialUrl": "https://zero-k.info/",
+      "identity": {
+        "canonicalUrl": "https://zero-k.info/"
+      },
+      "researchNote": "The site confirms a free real-time strategy game and a media section. The separate press-kit host had no readable robots policy, and the media page did not grant a specific image.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://zero-k.info/",
+        "licenseUrl": "https://zero-k.info/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "unvanquished",
+      "kind": "game",
+      "name": "Unvanquished",
+      "officialUrl": "https://unvanquished.net/",
+      "identity": {
+        "canonicalUrl": "https://unvanquished.net/"
+      },
+      "researchNote": "Official pages describe the free alien-versus-human strategy shooter and show screenshots. No asset-specific reuse grant was found on the media page.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://unvanquished.net/",
+        "licenseUrl": "https://unvanquished.net/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "beyond-all-reason",
+      "kind": "game",
+      "name": "Beyond All Reason",
+      "officialUrl": "https://www.beyondallreason.info/",
+      "identity": {
+        "canonicalUrl": "https://www.beyondallreason.info/"
+      },
+      "researchNote": "The official site describes a free large-scale real-time strategy game. No artwork reuse grant was found on the pages read.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://www.beyondallreason.info/",
+        "licenseUrl": "https://www.beyondallreason.info/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "hyperrogue",
+      "kind": "game",
+      "name": "HyperRogue",
+      "officialUrl": "https://www.roguetemple.com/z/hyper/",
+      "identity": {
+        "canonicalUrl": "https://www.roguetemple.com/z/hyper/"
+      },
+      "researchNote": "The official game page returned HTTP 403, so research stopped before identity, features, or artwork could be verified.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://www.roguetemple.com/z/hyper/",
+        "licenseUrl": "https://www.roguetemple.com/z/hyper/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-11",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
   }
 ]

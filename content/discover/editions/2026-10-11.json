@@ -1,0 +1,1010 @@
+{
+  "date": "2026-10-11",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-11T01:24:07.541Z",
+  "entries": [
+    {
+      "slug": "warzone-2100",
+      "kind": "game",
+      "name": "Warzone 2100",
+      "developer": "Warzone 2100 Project",
+      "category": "Real-time strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://wz2100.net/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Warzone 2100 is a free 3D real-time strategy game from the Warzone 2100 Project. You lead the forces of The Project after nuclear missiles have nearly destroyed humanity, taking ground, gathering resources, and growing bases through production and research. Matches can be played alone or with other people on a local network or online. Installers are published for Windows, macOS, and Linux.",
+      "features": [
+        "Lead The Project in a 3D campaign set after a nuclear war.",
+        "Capture territory and resources, then expand bases, production, and research.",
+        "Join LAN or online battles for as many as 10 players.",
+        "Install official builds for Windows, macOS, and Linux."
+      ],
+      "insight": "The base-building loop is tied to a world that has to be rebuilt, so expansion feels like recovery rather than a generic skirmish. For F7, it is a clear example of a fully free strategy game that still offers large multiplayer battles.",
+      "officialUrl": "https://wz2100.net/",
+      "discoverySource": {
+        "name": "Official Warzone 2100 site",
+        "url": "https://wz2100.net/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://wz2100.net/"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://warzone-2100.itch.io/warzone2100"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/Warzone2100/warzone2100"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://wz2100.net/",
+        "githubRepo": "Warzone2100/warzone2100"
+      },
+      "asset": {
+        "path": "/images/discover/warzone-2100.png",
+        "sourceUrl": "https://wz2100.net/img/screenshots/wz2100-CAM_3A50.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://github.com/Warzone2100/warzone2100/blob/master/COPYING.README",
+        "attribution": "Official Warzone 2100 campaign screenshot. Source code, data, videos, and music are GPL-2.0-or-later; the project also permits use of the Warzone 2100 name and logos. Image used unmodified.",
+        "alt": "Official Warzone 2100 screenshot of a battlefield base",
+        "noticePath": "/images/discover/licenses/warzone-2100-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://wz2100.net/",
+            "label": "Official free 3D strategy overview, platforms, campaign, and multiplayer",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://github.com/Warzone2100/warzone2100/blob/master/COPYING.README",
+            "label": "GPL-2.0-or-later for included source and data, plus permission to use the name and logos",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "flare-empyrean-campaign",
+      "kind": "game",
+      "name": "Flare: Empyrean Campaign",
+      "developer": "Flare team",
+      "category": "Action RPG",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://flarerpg.org/download/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Flare: Empyrean Campaign is a free 2D action role-playing game by the Flare team. The story starts with exile from Empyrean and follows a journey back through several regions and optional side quests. The team describes the fantasycore art as dark fantasy, with violence and some blood. Windows, macOS, and Linux downloads include both the engine and the game.",
+      "features": [
+        "Begin exiled from Empyrean and quest for a way to return.",
+        "Travel through multiple regions, with side quests along the route.",
+        "Play a 2D action RPG on the free Flare engine.",
+        "Download Windows, macOS, and Linux packages that bundle the engine and game."
+      ],
+      "insight": "Exile gives the combat a destination: each region is a step toward getting home, and the side quests let that journey wander. F7 likes that the same team ships both the engine and a complete campaign other people can still mod.",
+      "officialUrl": "https://flarerpg.org/mods/flare-empyrean/",
+      "discoverySource": {
+        "name": "Official Flare site",
+        "url": "https://flarerpg.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://flarerpg.org/download/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://flarerpg.org/mods/flare-empyrean/",
+        "githubRepo": "flareteam/flare-game"
+      },
+      "asset": {
+        "path": "/images/discover/flare-empyrean.jpg",
+        "sourceUrl": "https://flarerpg.org/wp-content/uploads/2026/05/empyrean_1-2048x1152.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://github.com/flareteam/flare-game",
+        "attribution": "Flare: Empyrean Campaign screenshot by the Flare team. Art and data files are CC BY-SA 3.0; later versions are permitted. Image used unmodified.",
+        "alt": "Official Flare Empyrean Campaign scene of a fantasy character in a dark environment",
+        "noticePath": "/images/discover/licenses/flare-empyrean-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://flarerpg.org/mods/flare-empyrean/",
+            "label": "Official campaign story, regions, side quests, and art note",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://flarerpg.org/",
+            "label": "Flare identified as a free 2D action RPG engine",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://flarerpg.org/download/",
+            "label": "Free downloads of engine-and-game packages for Windows, macOS, and Linux",
+            "checks": [
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://github.com/flareteam/flare-game",
+            "label": "Empyrean Campaign art and data released under CC BY-SA 3.0",
+            "checks": [
+              "asset-license",
+              "identity"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "red-eclipse",
+      "kind": "game",
+      "name": "Red Eclipse",
+      "developer": "Quinton Reeves and Lee Salzman",
+      "category": "Arena shooter",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "BSD"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.redeclipse.net/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Red Eclipse is a free arena shooter by Quinton Reeves and Lee Salzman. Movement is the main skill: parkour, impulse boosts, and dashing sit alongside arena combat. Players can change matches with a large set of mutators, and maps can be built together in a real-time cooperative editor. Packages are offered for Windows, Linux, BSD, and macOS.",
+      "features": [
+        "Move with parkour, impulse boosts, dashing, and other agility tricks.",
+        "Change matches using a large set of mutators and game variables.",
+        "Build maps with other players in a real-time cooperative editor.",
+        "Download official packages for Windows, Linux, BSD, and macOS."
+      ],
+      "insight": "Most arena shooters ask you to aim first. Red Eclipse asks you to arrive first, then aim. That parkour-led pace, plus a cooperative map editor, makes it a strong find for players who want a match they can also reshape.",
+      "officialUrl": "https://www.redeclipse.net/",
+      "discoverySource": {
+        "name": "Official Red Eclipse site",
+        "url": "https://www.redeclipse.net/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.redeclipse.net/download"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.redeclipse.net/"
+      },
+      "asset": {
+        "path": "/images/discover/red-eclipse.jpg",
+        "sourceUrl": "https://www.redeclipse.net/bits/images/001.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://www.redeclipse.net/docs/License",
+        "attribution": "Official Red Eclipse screenshot. Game content without a more specific license is CC BY-SA 4.0 or later, copyright 2009-2019 Red Eclipse Team. The mark policy allows reference to the official game. Image used unmodified.",
+        "alt": "Official Red Eclipse screenshot of an arena match",
+        "noticePath": "/images/discover/licenses/red-eclipse-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.redeclipse.net/",
+            "label": "Official free arena shooter, movement, mutators, co-op editing, and platforms",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.redeclipse.net/download",
+            "label": "Official download page linked for Windows, Linux, BSD, and macOS packages",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.redeclipse.net/docs/License",
+            "label": "Default CC BY-SA 4.0-or-later grant for game content without a separate license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.redeclipse.net/docs/Trademark-Policy",
+            "label": "Marks may be used to refer to substantially unmodified Red Eclipse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xonotic",
+      "kind": "game",
+      "name": "Xonotic",
+      "developer": "Team Xonotic",
+      "category": "Arena shooter",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://xonotic.org/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Xonotic is a free arena shooter from Team Xonotic for Windows, macOS, and Linux. It ships with a large weapon set, each gun having a primary and secondary fire, and modes that run from deathmatch and capture the flag to race, Nexball, and freeze tag. Twenty-five official maps are included, and an editor ships with the game. Player statistics through XonStat are optional and do not require an account.",
+      "features": [
+        "Choose among 9 core weapons and 16 full weapons, each with two firing modes.",
+        "Play deathmatch, capture the flag, clan arena, race, Nexball, and freeze tag.",
+        "Start with 25 official maps and open the included editor to make more.",
+        "Track optional XonStat results, including accuracy, without creating a login."
+      ],
+      "insight": "Xonotic keeps the arena-shooter promise of fast rooms, distinct weapons, and modes you can learn in one match, while leaving statistics off until a player asks for them. F7 sees a complete shooter that does not hide those modes behind a store page.",
+      "officialUrl": "https://xonotic.org/",
+      "discoverySource": {
+        "name": "Official Xonotic site",
+        "url": "https://xonotic.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://xonotic.org/download/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://xonotic.org/"
+      },
+      "asset": {
+        "path": "/images/discover/xonotic.jpg",
+        "sourceUrl": "https://xonotic.org/m/uploads/2012/07/frontpage_005.jpg",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://xonotic.org/",
+        "attribution": "Official Xonotic media screenshot. Team Xonotic states that the game is free to play and modify under the GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Official Xonotic screenshot of an arena firefight",
+        "noticePath": "/images/discover/licenses/xonotic-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://xonotic.org/",
+            "label": "Official free GPL-3.0-or-later arena shooter, weapons, modes, maps, and XonStat",
+            "checks": [
+              "identity",
+              "features",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://xonotic.org/download/",
+            "label": "Downloads for Linux, Windows, and macOS",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://xonotic.org/media/",
+            "label": "Official media screenshot published by Team Xonotic",
+            "checks": [
+              "asset-license",
+              "identity"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-calendar",
+      "kind": "app",
+      "name": "Fossify Calendar",
+      "developer": "Fossify",
+      "category": "Calendar",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/calendar/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Fossify Calendar is an Android calendar for events and reminders stored on the device. It offers day, week, month, year, and event-list views, plus recurring events, holidays, and home-screen widgets. You can import and export calendar data. The app does not request Android's Internet permission, and Fossify does not run its own calendar sync service.",
+      "features": [
+        "Plan events in day, week, month, year, and event-list views.",
+        "Add recurring events, reminders, holidays, and celebrations.",
+        "Import and export calendar data and pin schedule widgets.",
+        "Keep calendar data local; the app does not request Internet permission."
+      ],
+      "insight": "A calendar that can show the whole month and still export the data is the practical pair. F7 likes that reminders and widgets are here without a Fossify account sitting in the middle.",
+      "officialUrl": "https://www.fossify.org/apps/calendar/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.calendar"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.calendar/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Calendar"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/calendar/",
+        "androidPackageId": "org.fossify.calendar",
+        "githubRepo": "FossifyOrg/Calendar"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-calendar.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/calendar/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Calendar icon by Fossify. Used unmodified under the official press-kit guidelines for directories and articles.",
+        "alt": "Official Fossify Calendar icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/calendar/",
+            "label": "Official Android features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Permission to use current app icons in articles and directories, without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-keyboard",
+      "kind": "app",
+      "name": "Fossify Keyboard",
+      "developer": "Fossify",
+      "category": "Keyboard",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/keyboard/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Fossify Keyboard is an Android keyboard that types offline. It includes multiple languages and layouts, numbers, symbols, emoji, and clipboard snippets for text you reuse. Typed text is delivered to the app you are using and is not sent to Fossify. The current release is marked beta, and the app does not request Internet permission.",
+      "features": [
+        "Type offline with multiple languages, layouts, numbers, and symbols.",
+        "Insert emoji and saved clipboard snippets.",
+        "Adjust typing preferences, vibration, and the theme.",
+        "Keep keystrokes on the device; the app does not request Internet permission."
+      ],
+      "insight": "A replacement keyboard is present in every app, so an offline design matters. F7 would rather keep snippets and layouts on the device than send typing to a suggestion service.",
+      "officialUrl": "https://www.fossify.org/apps/keyboard/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.keyboard"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.keyboard/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Keyboard"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/keyboard/",
+        "androidPackageId": "org.fossify.keyboard",
+        "githubRepo": "FossifyOrg/Keyboard"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-keyboard.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/keyboard/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Keyboard icon by Fossify. Used unmodified under the official press-kit guidelines for directories and articles.",
+        "alt": "Official Fossify Keyboard icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/keyboard/",
+            "label": "Official Android features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Permission to use current app icons in articles and directories, without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-music-player",
+      "kind": "app",
+      "name": "Fossify Music Player",
+      "developer": "Fossify",
+      "category": "Music",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/music-player/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Fossify Music Player plays music files already stored on an Android device. You can browse by album, artist, genre, and folder, then use a queue, shuffle, repeat, an equalizer, and a sleep timer. Home-screen widgets and lock-screen controls are included. It does not require a streaming account, and it does not request Internet permission.",
+      "features": [
+        "Play local albums, artists, songs, and playlists without a streaming account.",
+        "Control the queue, shuffle, repeat, equalizer, and a sleep timer.",
+        "Browse the library by album, artist, genre, and folder.",
+        "Use home-screen widgets and lock-screen controls while playback stays offline."
+      ],
+      "insight": "A local library still needs a queue and a sleep timer, not only a file list. Music Player covers that path for people who already keep the songs on the device.",
+      "officialUrl": "https://www.fossify.org/apps/music-player/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.musicplayer"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.musicplayer/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Music-Player"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/music-player/",
+        "androidPackageId": "org.fossify.musicplayer",
+        "githubRepo": "FossifyOrg/Music-Player"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-music-player.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/music-player/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Music Player icon by Fossify. Used unmodified under the official press-kit guidelines for directories and articles.",
+        "alt": "Official Fossify Music Player icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/music-player/",
+            "label": "Official Android features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Permission to use current app icons in articles and directories, without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-notes",
+      "kind": "app",
+      "name": "Fossify Notes",
+      "developer": "Fossify",
+      "category": "Notes",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/notes/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Fossify Notes keeps text notes and checklists on Android, with home-screen widgets so a list stays visible. Individual notes can be locked, and the app can import, export, or automatically back up its data. There is no account to create. The release is marked beta, and the app does not request Internet permission.",
+      "features": [
+        "Write text notes, shopping lists, and checklists.",
+        "Pin notes to the home screen with widgets.",
+        "Lock the app or a note, with fingerprint as an option.",
+        "Import, export, and optionally back up notes without signing in."
+      ],
+      "insight": "A shopping list should not require an account. Fossify Notes stays on the phone, puts the list on the home screen, and still gives you a file you can export.",
+      "officialUrl": "https://www.fossify.org/apps/notes/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.notes"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.notes/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Notes"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/notes/",
+        "androidPackageId": "org.fossify.notes",
+        "githubRepo": "FossifyOrg/Notes"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-notes.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/notes/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Notes icon by Fossify. Used unmodified under the official press-kit guidelines for directories and articles.",
+        "alt": "Official Fossify Notes icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/notes/",
+            "label": "Official Android features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Permission to use current app icons in articles and directories, without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-messages",
+      "kind": "app",
+      "name": "Fossify Messages",
+      "developer": "Fossify",
+      "category": "Messaging",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/messages/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "Fossify Messages is an Android SMS and MMS app. It handles one-to-one and group conversations, search, blocking, and importing or exporting blocked numbers. You can back up and restore message history, schedule a message, and send a quick reply. The stable release is linked from Google Play, F-Droid, and GitHub.",
+      "features": [
+        "Send SMS and MMS, including group conversations.",
+        "Search conversations, block numbers, and move blocked-number lists.",
+        "Back up and restore message history.",
+        "Schedule messages and send quick replies."
+      ],
+      "insight": "Search and a backup matter once a message history gets long. F7 likes that scheduling and blocking sit in the same local SMS app.",
+      "officialUrl": "https://www.fossify.org/apps/messages/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.messages"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.messages/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Messages"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/messages/",
+        "androidPackageId": "org.fossify.messages",
+        "githubRepo": "FossifyOrg/Messages"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-messages.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/messages/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Messages icon by Fossify. Used unmodified under the official press-kit guidelines for directories and articles.",
+        "alt": "Official Fossify Messages icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/messages/",
+            "label": "Official Android features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Permission to use current app icons in articles and directories, without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "newpipe",
+      "kind": "app",
+      "name": "NewPipe",
+      "developer": "Team NewPipe",
+      "category": "Video",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://newpipe.net/",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "NewPipe is a free Android app for YouTube and PeerTube. It avoids proprietary Google APIs, lets you choose a resolution, and can save video, audio, or captions for offline playback. Videos can keep playing in the background or in a movable popup. Subscriptions, playlists, bookmarks, and history stay on the device. Team NewPipe distributes it on F-Droid and through GitHub releases.",
+      "features": [
+        "Watch YouTube and PeerTube and choose the resolution and file format.",
+        "Save video, audio, or captions for offline playback.",
+        "Keep playing in a background audio player or a movable popup.",
+        "Store subscriptions, playlists, bookmarks, and history on the device."
+      ],
+      "insight": "Background audio and a popup player cover the two ways people keep a video going while doing something else. F7 likes that those tools sit next to on-device subscriptions, so the useful parts do not depend on a store account.",
+      "officialUrl": "https://newpipe.net/",
+      "discoverySource": {
+        "name": "Official NewPipe site",
+        "url": "https://newpipe.net/"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.schabi.newpipe/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/TeamNewPipe/NewPipe/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://newpipe.net/",
+        "androidPackageId": "org.schabi.newpipe",
+        "githubRepo": "TeamNewPipe/NewPipe"
+      },
+      "asset": {
+        "path": "/images/discover/newpipe.png",
+        "sourceUrl": "https://newpipe.net/img/logo_app_400.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://newpipe.net/press/logo/",
+        "attribution": "NewPipe app icon by Christian Schabesberger. GPL-3.0, as stated in the official press kit. Used unmodified.",
+        "alt": "Official NewPipe app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/newpipe-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://newpipe.net/",
+            "label": "Official free Android client, YouTube and PeerTube features, and F-Droid and GitHub distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://newpipe.net/press/logo/",
+            "label": "App icon by Christian Schabesberger under GPL-3.0, with an official PNG",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://newpipe-ev.de/policy/trademark/",
+            "label": "Word mark policy; reviews of the official product are not treated as unauthorized mark use",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "davx5",
+      "kind": "app",
+      "name": "DAVx⁵",
+      "developer": "bitfire web engineering",
+      "category": "Sync",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "paid",
+        "label": "Paid on Google Play; free F-Droid builds",
+        "sourceUrl": "https://www.davx5.com/download",
+        "checkedAt": "2026-10-11"
+      },
+      "summary": "DAVx⁵ syncs contacts, calendars, and tasks between Android and CalDAV, CardDAV, and WebDAV servers. Address books can include photos, groups, and shared read-only books. Calendars keep recurring events, invitations, and time zones. WebDAV folders can be browsed and edited directly, including more than one cloud. bitfire charges a fee on Google Play and also points to free F-Droid builds.",
+      "features": [
+        "Sync contacts, including photos, groups, and shared address books.",
+        "Sync calendars with recurring events, invitations, and time zones.",
+        "Browse, edit, and stream files from one or more WebDAV clouds.",
+        "Choose the paid Google Play build or a free F-Droid build."
+      ],
+      "insight": "Phone calendars and address books are more useful when they can live on a server you choose. DAVx⁵ is that bridge, including shared books and recurring events, while the phone's own calendar and contacts apps stay in place.",
+      "officialUrl": "https://www.davx5.com/",
+      "discoverySource": {
+        "name": "Official DAVx⁵ site",
+        "url": "https://www.davx5.com/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=at.bitfire.davdroid"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/at.bitfire.davdroid/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/bitfireAT/davx5-ose"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.davx5.com/",
+        "androidPackageId": "at.bitfire.davdroid",
+        "githubRepo": "bitfireAT/davx5-ose"
+      },
+      "asset": {
+        "path": "/images/discover/davx5.png",
+        "sourceUrl": "https://www.davx5.com/fileadmin/user_upload/logos/davx5_icon_green_bg.svg",
+        "license": "Official logo use permission",
+        "licenseUrl": "https://www.davx5.com/about/logos",
+        "attribution": "Standard DAVx⁵ logo by bitfire web engineering. The publisher permits this logo for referring to DAVx⁵ if it is not altered or presented as someone else's product. This PNG is a same-design raster of the official SVG.",
+        "alt": "Official DAVx⁵ logo",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-11",
+        "sources": [
+          {
+            "url": "https://www.davx5.com/",
+            "label": "Official Android sync features for contacts, calendars, tasks, and WebDAV",
+            "checks": [
+              "identity",
+              "platforms",
+              "features"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.davx5.com/download",
+            "label": "Google Play and F-Droid distribution; Play builds are paid and F-Droid builds are free",
+            "checks": [
+              "distribution",
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-10-11"
+          },
+          {
+            "url": "https://www.davx5.com/about/logos",
+            "label": "Permission to use the unaltered official logo when referring to DAVx⁵",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-11"
+          }
+        ]
+      }
+    }
+  ]
+}
