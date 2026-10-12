@@ -593,5 +593,416 @@
       "Artwork license URL must have asset-license evidence",
       "Existing products must be newly-discovered with no claimed launch date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "battle-healer-hildegard",
+      "kind": "game",
+      "name": "Battle Healer Hildegard",
+      "officialUrl": "https://funday-games.itch.io/battle-healer-hildegard",
+      "identity": {
+        "canonicalUrl": "https://funday-games.itch.io/battle-healer-hildegard"
+      },
+      "researchNote": "itch.io featured this free HTML5 prototype by Funday Games, published about 11 days before 12 October 2026. The page describes a top-down roguelike where a healer supports knights. No artwork reuse grant was stated. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://funday-games.itch.io/battle-healer-hildegard",
+        "licenseUrl": "https://funday-games.itch.io/battle-healer-hildegard",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "colobot-gold-edition",
+      "kind": "game",
+      "name": "Colobot: Gold Edition",
+      "officialUrl": "https://colobot.info/",
+      "identity": {
+        "canonicalUrl": "https://colobot.info/",
+        "githubRepo": "colobot/colobot"
+      },
+      "researchNote": "The official site and colobot/colobot readme describe a free-to-download programming strategy game for Windows, Linux, and macOS. Game data lives in colobot/colobot-data, whose readme lists textures and models but no license file was found at the usual LICENSE or COPYING paths. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://colobot.info/",
+        "licenseUrl": "https://colobot.info/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "shattered-pixel-dungeon",
+      "kind": "game",
+      "name": "Shattered Pixel Dungeon",
+      "officialUrl": "https://shatteredpixel.com/shatteredpd/",
+      "identity": {
+        "canonicalUrl": "https://shatteredpixel.com/shatteredpd/",
+        "githubRepo": "00-Evan/shattered-pixel-dungeon"
+      },
+      "researchNote": "The official game page and repository describe Evan Debenham's roguelike for Android and desktop stores. The repository LICENSE file is the GPL-3 text without an artwork grant, so site images were not reused.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://shatteredpixel.com/shatteredpd/",
+        "licenseUrl": "https://shatteredpixel.com/shatteredpd/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "organic-maps",
+      "kind": "app",
+      "name": "Organic Maps",
+      "officialUrl": "https://organicmaps.app/",
+      "identity": {
+        "canonicalUrl": "https://organicmaps.app/",
+        "githubRepo": "organicmaps/organicmaps"
+      },
+      "researchNote": "The official site describes a free offline maps app for Android with hiking, cycling, and driving navigation, and links Google Play id app.organicmaps. The repository says the code is Apache-2.0 and map data is separate. No grant was found for the site screenshots. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://organicmaps.app/",
+        "licenseUrl": "https://organicmaps.app/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Apps must support Android",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "obtainium",
+      "kind": "app",
+      "name": "Obtainium",
+      "officialUrl": "https://github.com/ImranR98/Obtainium",
+      "identity": {
+        "canonicalUrl": "https://github.com/ImranR98/Obtainium",
+        "githubRepo": "ImranR98/Obtainium"
+      },
+      "researchNote": "The repository describes an Android app that installs updates from the original source and is marked GPL-3.0. That code license was not treated as permission for assets/graphics/icon_small.png. No image was published.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/ImranR98/Obtainium",
+        "licenseUrl": "https://github.com/ImranR98/Obtainium",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Apps must support Android",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "aegis-authenticator",
+      "kind": "app",
+      "name": "Aegis Authenticator",
+      "officialUrl": "https://github.com/beemdevelopment/Aegis",
+      "identity": {
+        "canonicalUrl": "https://github.com/beemdevelopment/Aegis",
+        "githubRepo": "beemdevelopment/Aegis"
+      },
+      "researchNote": "The readme describes a free open-source Android app for 2FA tokens and says the project is GPL-3.0, with exceptions only for two vendored libraries. That statement was not treated as an explicit grant for metadata/en-US/images/icon.png. No image was published.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/beemdevelopment/Aegis",
+        "licenseUrl": "https://github.com/beemdevelopment/Aegis",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Apps must support Android",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "kiwix-android",
+      "kind": "app",
+      "name": "Kiwix",
+      "officialUrl": "https://kiwix.org/en/",
+      "identity": {
+        "canonicalUrl": "https://kiwix.org/en/",
+        "githubRepo": "kiwix/kiwix-android"
+      },
+      "researchNote": "The Android readme describes an offline ZIM reader, Play id org.kiwix.kiwixmobile, and a full build org.kiwix.kiwixmobile.standalone. The site footer mentions CC-BY-SA, but sponsor logos on the page are third-party marks, and no Kiwix-owned icon was separated under that grant. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://kiwix.org/en/",
+        "licenseUrl": "https://kiwix.org/en/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Apps must support Android",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "pingus",
+      "kind": "game",
+      "name": "Pingus",
+      "officialUrl": "https://github.com/Pingus/pingus",
+      "identity": {
+        "canonicalUrl": "https://github.com/Pingus/pingus",
+        "githubRepo": "Pingus/pingus"
+      },
+      "researchNote": "The readme says Pingus is a free Lemmings-style game for GNU/Linux and Windows, licensed GPL-3.0-or-later. pingus.github.io had no robots.txt (HTTP 404), so that site was skipped. No in-repository screenshot path was confirmed. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/Pingus/pingus",
+        "licenseUrl": "https://github.com/Pingus/pingus",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-12",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
   }
 ]
