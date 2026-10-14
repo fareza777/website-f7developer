@@ -1,0 +1,1034 @@
+{
+  "date": "2026-10-14",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-14T01:31:17.537Z",
+  "entries": [
+    {
+      "slug": "unknown-horizons",
+      "kind": "game",
+      "name": "Unknown Horizons",
+      "developer": "The Unknown Horizons Developers",
+      "category": "City builder",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/unknown-horizons/unknown-horizons/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Unknown Horizons is a free 2D strategy game about growing a small settlement into a colony. Players collect taxes, supply goods, and use trade and diplomacy alongside the economy. The playable release is the legacy FIFE version; the newer Godot port has no playable build yet. Its own artwork, including the sailing-ship logo, is under CC BY-SA 3.0.",
+      "features": [
+        "Build a colony economy with taxes, goods, trade, and diplomacy.",
+        "Download the legacy 2019.1 Windows installer from the official downloads page.",
+        "The same page links a 2019.1 source archive for Linux and build notes for GNU/Linux.",
+        "No macOS build of 2019.1 is offered; a 2014.1 disk image remains available.",
+        "The current Godot port is listed separately and is not playable yet."
+      ],
+      "insight": "The interesting part is the colony ledger: maps, goods, and trade are data the player can reason about, while the sailing-ship mark is covered by the project's own CC BY-SA grant rather than a loose code license.",
+      "officialUrl": "https://unknown-horizons.org/",
+      "discoverySource": {
+        "name": "Official Unknown Horizons repository",
+        "url": "https://github.com/unknown-horizons/unknown-horizons"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://unknown-horizons.org/downloads/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/unknown-horizons/unknown-horizons/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://unknown-horizons.org/",
+        "githubRepo": "unknown-horizons/unknown-horizons"
+      },
+      "asset": {
+        "path": "/images/discover/unknown-horizons.png",
+        "sourceUrl": "https://raw.githubusercontent.com/unknown-horizons/unknown-horizons/master/content/gfx/uh.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+        "attribution": "Unknown Horizons logo from content/gfx/uh.png. The project's doc/LICENSE places its own audiovisual media under CC BY-SA 3.0 and lists third-party exceptions; this logo is not one of them. Image used unmodified.",
+        "alt": "Unknown Horizons logo with a sailing ship over a scroll",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/unknown-horizons-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/unknown-horizons/unknown-horizons/master/README.md",
+            "label": "Official readme: free colony strategy game, Linux/Windows/macOS build guides, and license pointer",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://unknown-horizons.org/downloads/",
+            "label": "Official downloads: legacy 2019.1 Windows installer, Linux archive, no current macOS build, Godot port not playable",
+            "checks": [
+              "distribution",
+              "platforms",
+              "features"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/unknown-horizons/unknown-horizons/master/doc/LICENSE",
+            "label": "Own audiovisual media is CC BY-SA 3.0, with listed third-party exceptions",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+            "label": "CC BY-SA 3.0 legal text for the Unknown Horizons logo notice",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hedgewars",
+      "kind": "game",
+      "name": "Hedgewars",
+      "developer": "Andrey Korotaev and others",
+      "category": "Turn-based artillery",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "FreeBSD",
+        "iOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://hedgewars.org/download.html",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Hedgewars is a turn-based artillery game in which each player fields a team of hedgehogs and takes shots with whatever weapons the turn allows. Official downloads list Windows, macOS, GNU/Linux, FreeBSD, iOS, and source. The project calls itself free software in the freedom sense and does not state a monetary price on the download page. Images and sounds are under the GNU Free Documentation License 1.2.",
+      "features": [
+        "Take turns attacking with teams of up to eight hedgehogs.",
+        "Download release 1.0.0 for Windows and macOS 10.8 or later from the official page.",
+        "GNU/Linux packages, a FreeBSD port, an iOS listing, and source are on the same page.",
+        "The readme lists a Lua API for customizing adventures.",
+        "Desktop guidance asks for about 1024 by 768, 200 MiB of disk, and 1 GiB of RAM."
+      ],
+      "insight": "The turn is a small physics puzzle: one hedgehog, one shot, and a field that remembers the mess. For F7, the pink hedgehog mark is usable because the project puts images under the GFDL rather than leaving them as an unnamed extra.",
+      "officialUrl": "https://hedgewars.org/",
+      "discoverySource": {
+        "name": "Official Hedgewars repository mirror",
+        "url": "https://github.com/hedgewars/hw"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://hedgewars.org/download.html"
+        },
+        {
+          "label": "Official GitHub mirror",
+          "url": "https://github.com/hedgewars/hw"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://hedgewars.org/",
+        "githubRepo": "hedgewars/hw"
+      },
+      "asset": {
+        "path": "/images/discover/hedgewars.png",
+        "sourceUrl": "https://raw.githubusercontent.com/hedgewars/hw/master/misc/hedgewars.png",
+        "license": "GFDL-1.2",
+        "licenseUrl": "https://raw.githubusercontent.com/hedgewars/hw/master/COPYING",
+        "attribution": "Hedgewars logo from misc/hedgewars.png. The README states that images and sounds are under the GNU Free Documentation License 1.2, and COPYING includes that license. Image used unmodified.",
+        "alt": "Pink cartoon hedgehog with blue spikes on a purple background",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/hedgewars-GFDL-1.2.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/hedgewars/hw/master/README.md",
+            "label": "Official readme: hedgehog artillery, platforms, requirements, Lua, and image license",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://hedgewars.org/download.html",
+            "label": "Official downloads for release 1.0.0; no monetary price is stated",
+            "checks": [
+              "distribution",
+              "platforms",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hedgewars/hw/master/COPYING",
+            "label": "GNU Free Documentation License 1.2 text covering Hedgewars images",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cataclysm-dda",
+      "kind": "game",
+      "name": "Cataclysm: Dark Days Ahead",
+      "developer": "CleverRaven",
+      "category": "Survival roguelike",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "BSD"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Cataclysm: Dark Days Ahead is a free turn-based survival game in a persistent, procedurally generated world. Players scavenge food, equipment, and vehicles, and deal with monsters and other survivors. The project publishes tiles and terminal builds and documents Linux, macOS, Windows, and BSD. Code and content are CC BY-SA 3.0 except files that carry their own license notices.",
+      "features": [
+        "Scavenge a generated world for food, equipment, and vehicles.",
+        "Face monsters and other survivors in turn-based play.",
+        "Start a tutorial from the Special menu or create a world from the World menu.",
+        "Build for Linux, OS X, Windows, and BSD, with distro packages and a Flathub listing.",
+        "Stable and experimental releases are linked from the official readme."
+      ],
+      "insight": "The showcase is four different places in one ruleset: street, woods, farm, and a sealed interior. That range is why the tiles build is worth a look, and the project license covers the screenshot apart from named font and library exceptions.",
+      "officialUrl": "https://cataclysmdda.org/",
+      "discoverySource": {
+        "name": "Official Cataclysm: Dark Days Ahead repository",
+        "url": "https://github.com/CleverRaven/Cataclysm-DDA"
+      },
+      "distribution": [
+        {
+          "label": "Official releases",
+          "url": "https://cataclysmdda.org/releases/"
+        },
+        {
+          "label": "Flathub",
+          "url": "https://flathub.org/apps/org.cataclysmdda.CataclysmDDA"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/CleverRaven/Cataclysm-DDA"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://cataclysmdda.org/",
+        "githubRepo": "CleverRaven/Cataclysm-DDA"
+      },
+      "asset": {
+        "path": "/images/discover/cataclysm-dda.png",
+        "sourceUrl": "https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/data/screenshots/ultica-showcase-sep-2021.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+        "attribution": "Ultica tileset showcase from data/screenshots/ultica-showcase-sep-2021.png. LICENSE.txt places Cataclysm code and content under CC BY-SA 3.0 and names separate licenses for specific fonts and libraries. This screenshot is not one of those exceptions. Image used unmodified.",
+        "alt": "Four Cataclysm scenes: a street, autumn woods, a farm, and a tiled interior",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/cataclysm-dda-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/README.md",
+            "label": "Official readme: survival play, platforms, releases, Flathub, and free reuse of code and content",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CleverRaven/Cataclysm-DDA/master/LICENSE.txt",
+            "label": "CC BY-SA 3.0 for the project, with named exceptions for fonts and libraries",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+            "label": "CC BY-SA 3.0 legal text for the Cataclysm screenshot notice",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "megaglest",
+      "kind": "game",
+      "name": "MegaGlest",
+      "developer": "MegaGlest project",
+      "category": "Real-time strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://megaglest.org/",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "MegaGlest is a free 3D real-time strategy game. Players pick one of seven factions, gather resources, and train units on maps with rivers, mountains, seas, or cliffs. Official installers cover Linux, Windows, and macOS, and the download page also links Steam and GitHub. Images and other game data are under the project's CC-BY-SA terms.",
+      "features": [
+        "Command one of seven factions: Tech, Magic, Egypt, Indians, Norsemen, Persian, or Romans.",
+        "Gather energy, food, gold, housing, stone, and wood, then train units.",
+        "Play on maps with plains, rivers, mountains, seas, or cliffs.",
+        "Download extra game data from inside the game at no cost.",
+        "Install Linux, Windows, and macOS builds, or use the linked Steam and GitHub releases."
+      ],
+      "insight": "Seven factions on one ruleset is a useful study in readable asymmetry. The sword-and-lettering logo can be shown because the project puts images in the CC-BY-SA data grant, separate from the GPL source.",
+      "officialUrl": "https://megaglest.org/",
+      "discoverySource": {
+        "name": "Official MegaGlest site",
+        "url": "https://megaglest.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://megaglest.org/download"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/578870/MegaGlest/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/MegaGlest/megaglest-source/releases/3.13.0/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://megaglest.org/",
+        "githubRepo": "MegaGlest/megaglest-source"
+      },
+      "asset": {
+        "path": "/images/discover/megaglest.png",
+        "sourceUrl": "https://megaglest.org/assets/logo.png",
+        "license": "CC-BY-SA",
+        "licenseUrl": "https://megaglest.org/license",
+        "attribution": "MegaGlest logo from the official site. The license page places all MegaGlest data, including images, under CC-BY-SA and does not number the version. Image used unmodified.",
+        "alt": "MegaGlest logo with gold lettering and a blue sword",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/megaglest-CC-BY-SA.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://megaglest.org/",
+            "label": "Official site: free 3D strategy game, factions, resources, and in-game data",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://megaglest.org/download",
+            "label": "Official Linux, Windows, macOS, Steam, and GitHub downloads",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://megaglest.org/license",
+            "label": "Source is GPL-3.0-or-later; images and other data are CC-BY-SA",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "keepassdx",
+      "kind": "app",
+      "name": "KeePassDX",
+      "developer": "Kunzisoft (Jeremy Jamet)",
+      "category": "Password manager",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "KeePassDX is a free, ad-free Android app for editing an encrypted KeePass database in one file. The project says the main features stay free and that encryption is the same for every user. It is GPL-3.0, published by Jeremy Jamet of Kunzisoft, and links a Google Play build plus GitHub releases. The repository license does not exclude the key icon.",
+      "features": [
+        "Edit encrypted data stored in a KeePass file.",
+        "Use the same encryption on the free build as on any other build.",
+        "Install the free Google Play listing or a GitHub release.",
+        "A separate libre package is also linked for F-Droid.",
+        "The app is GPL-3.0 and described as ad-free."
+      ],
+      "insight": "A password safe is only useful if the file format stays portable. KeePassDX keeps that file on Android without treating encryption as a paid extra, and the key icon ships inside the GPL grant.",
+      "officialUrl": "https://github.com/Kunzisoft/KeePassDX",
+      "discoverySource": {
+        "name": "Official KeePassDX repository",
+        "url": "https://github.com/Kunzisoft/KeePassDX"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free"
+        },
+        {
+          "label": "F-Droid libre build",
+          "url": "https://f-droid.org/en/packages/com.kunzisoft.keepass.libre/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/Kunzisoft/KeePassDX/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Kunzisoft/KeePassDX",
+        "androidPackageId": "com.kunzisoft.keepass.free",
+        "githubRepo": "Kunzisoft/KeePassDX"
+      },
+      "asset": {
+        "path": "/images/discover/keepassdx.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/art/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/LICENSE",
+        "attribution": "KeePassDX icon from art/icon.png by Kunzisoft (Jeremy Jamet). The README and LICENSE apply GPL-3.0-or-later to the project and do not exclude this icon. Image used unmodified.",
+        "alt": "White key crossed by a diagonal bar on a green square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/keepassdx-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/README.md",
+            "label": "Official readme: KeePass editing, free and ad-free, Play, F-Droid, and GitHub",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Kunzisoft/KeePassDX/master/LICENSE",
+            "label": "GPL-3.0-or-later text for KeePassDX, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "feeder",
+      "kind": "app",
+      "name": "Feeder",
+      "developer": "spacecowboy",
+      "category": "RSS reader",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/spacecowboy/Feeder/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Feeder is a free Android reader for RSS, Atom, and JSON Feed, maintained in the spacecowboy/Feeder repository since 2014. It stores the library on the device and does not require an account. The readme lists offline reading, notifications, and OPML import and export. The app is GPLv3, with Google Play, F-Droid, and GitHub releases.",
+      "features": [
+        "Read RSS, Atom, and JSON Feed subscriptions on Android.",
+        "Keep reading available offline, without a remote account.",
+        "Import and export subscriptions with OPML.",
+        "Use notifications for new posts.",
+        "Install from Google Play, F-Droid, or GitHub releases."
+      ],
+      "insight": "Feeder treats the feed list as a private local library. That is a useful contrast with readers that start by asking for an account, and the green mark is part of the GPL project rather than a separate logo reservation.",
+      "officialUrl": "https://github.com/spacecowboy/Feeder",
+      "discoverySource": {
+        "name": "Official Feeder repository",
+        "url": "https://github.com/spacecowboy/Feeder"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.nononsenseapps.feeder/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/spacecowboy/Feeder/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/spacecowboy/Feeder",
+        "androidPackageId": "com.nononsenseapps.feeder.play",
+        "githubRepo": "spacecowboy/Feeder"
+      },
+      "asset": {
+        "path": "/images/discover/feeder.png",
+        "sourceUrl": "https://raw.githubusercontent.com/spacecowboy/Feeder/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/spacecowboy/Feeder/master/LICENSE",
+        "attribution": "Feeder icon from the official fastlane metadata. The README states GPLv3 and the LICENSE file is the GPL-3.0 text, with no icon exception. Image used unmodified.",
+        "alt": "White stylized F on a green square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/feeder-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/spacecowboy/Feeder/master/README.md",
+            "label": "Official readme: free local feed reader, features, and Play, F-Droid, and GitHub links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/spacecowboy/Feeder/master/LICENSE",
+            "label": "GPL-3.0 text for Feeder, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "binary-eye",
+      "kind": "app",
+      "name": "Binary Eye",
+      "developer": "Markus Fisch",
+      "category": "Barcode scanner",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/markusfisch/BinaryEye/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Binary Eye is a free, ad-free Android barcode tool by Markus Fisch. It reads codes in portrait or landscape, including inverted codes, and can also generate barcodes. The readme credits ZXing for scanning and links Google Play and F-Droid. The project license is MIT and does not carve out the icon.",
+      "features": [
+        "Read barcodes in portrait and landscape, including inverted codes.",
+        "Generate barcodes as well as scan them.",
+        "Use ZXing formats such as QR Code, EAN-13, Code 128, Data Matrix, and PDF417.",
+        "Install the free, ad-free app from Google Play or F-Droid.",
+        "The repository is under the MIT license by Markus Fisch."
+      ],
+      "insight": "Scanning and composing live in the same small tool, so a code can be checked and then recreated without a second app. The barcode mark is covered by the MIT grant on the repository.",
+      "officialUrl": "https://github.com/markusfisch/BinaryEye",
+      "discoverySource": {
+        "name": "Official Binary Eye repository",
+        "url": "https://github.com/markusfisch/BinaryEye"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=de.markusfisch.android.binaryeye"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/de.markusfisch.android.binaryeye/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/markusfisch/BinaryEye",
+        "androidPackageId": "de.markusfisch.android.binaryeye",
+        "githubRepo": "markusfisch/BinaryEye"
+      },
+      "asset": {
+        "path": "/images/discover/binary-eye.png",
+        "sourceUrl": "https://raw.githubusercontent.com/markusfisch/BinaryEye/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/markusfisch/BinaryEye/master/LICENSE",
+        "attribution": "Binary Eye icon from the official fastlane metadata. Copyright (c) Markus Fisch, MIT license, with no icon exception. Image used unmodified.",
+        "alt": "Black barcode inside a white circle on a light green square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/binary-eye-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/markusfisch/BinaryEye/master/README.md",
+            "label": "Official readme: free ad-free scanner and generator, formats, Play, and F-Droid",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/markusfisch/BinaryEye/master/LICENSE",
+            "label": "MIT license by Markus Fisch for Binary Eye, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "image-toolbox",
+      "kind": "app",
+      "name": "Image Toolbox",
+      "developer": "T8RIN",
+      "category": "Image editor",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Image Toolbox is a free Android image editor by T8RIN. The readme describes cropping, filter chains, EXIF editing, background removal, and batch work. A comparison table shows a FOSS build without the market build's analytics and crash reporting. It is Apache 2.0 and links Google Play, F-Droid, and GitHub.",
+      "features": [
+        "Crop, rotate, and apply filter chains to photos.",
+        "Edit or delete EXIF metadata.",
+        "Erase backgrounds and run batch processing.",
+        "Use the FOSS build, which the readme shows without analytics or crash reporting.",
+        "Install from Google Play, F-Droid, or GitHub releases."
+      ],
+      "insight": "The useful split is the FOSS build versus the market build: the same editor can avoid the extra Google services. The green pencil-and-frame icon is part of the Apache 2.0 repository.",
+      "officialUrl": "https://github.com/T8RIN/ImageToolbox",
+      "discoverySource": {
+        "name": "Official Image Toolbox repository",
+        "url": "https://github.com/T8RIN/ImageToolbox"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ru.tech.imageresizershrinker"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/ru.tech.imageresizershrinker"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/T8RIN/ImageToolbox/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/T8RIN/ImageToolbox",
+        "androidPackageId": "ru.tech.imageresizershrinker",
+        "githubRepo": "T8RIN/ImageToolbox"
+      },
+      "asset": {
+        "path": "/images/discover/image-toolbox.png",
+        "sourceUrl": "https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/LICENSE",
+        "attribution": "Image Toolbox icon from the official fastlane metadata, designed and developed by T8RIN. The repository LICENSE is Apache 2.0 and does not exclude the icon. Image used unmodified.",
+        "alt": "Green image frame and pencil on a dark green background",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/image-toolbox-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/README.md",
+            "label": "Official readme: free editor features, FOSS versus market build, and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/T8RIN/ImageToolbox/master/LICENSE",
+            "label": "Apache 2.0 text for Image Toolbox, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "auxio",
+      "kind": "app",
+      "name": "Auxio",
+      "developer": "OxygenCobalt",
+      "category": "Music player",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/OxygenCobalt/Auxio/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Auxio is an Android music player for files already on the device. It uses Media3 ExoPlayer, a Material-style interface, and customizable playback behavior. The readme links F-Droid, Accrescent, and GitHub, and the repository license is GPL-3.0. It does not state a monetary download price.",
+      "features": [
+        "Play music stored on the device with Media3 ExoPlayer.",
+        "Use a Material Design interface aimed at ordinary listening.",
+        "Change playback behavior instead of keeping one fixed setup.",
+        "Install from F-Droid, Accrescent, or GitHub releases.",
+        "The project is licensed under GPL-3.0."
+      ],
+      "insight": "Auxio is a local player that starts from the files you already have. The blue note is the project's own icon under the GPL, and the readme leaves the store price unstated, so that part stays unchecked.",
+      "officialUrl": "https://github.com/OxygenCobalt/Auxio",
+      "discoverySource": {
+        "name": "Official Auxio repository",
+        "url": "https://github.com/OxygenCobalt/Auxio"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/org.oxycblt.auxio"
+        },
+        {
+          "label": "Accrescent",
+          "url": "https://accrescent.app/app/org.oxycblt.auxio"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/OxygenCobalt/Auxio/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/OxygenCobalt/Auxio",
+        "androidPackageId": "org.oxycblt.auxio",
+        "githubRepo": "OxygenCobalt/Auxio"
+      },
+      "asset": {
+        "path": "/images/discover/auxio.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OxygenCobalt/Auxio/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/OxygenCobalt/Auxio/master/LICENSE",
+        "attribution": "Auxio icon from the official fastlane metadata by OxygenCobalt. The repository LICENSE is GPL-3.0 and does not exclude the icon. Image used unmodified.",
+        "alt": "Blue musical note on a white background",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/auxio-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OxygenCobalt/Auxio/master/README.md",
+            "label": "Official readme: local player features and F-Droid, Accrescent, and GitHub links; no monetary price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OxygenCobalt/Auxio/master/LICENSE",
+            "label": "GPL-3.0 text for Auxio, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "loop-habit-tracker",
+      "kind": "app",
+      "name": "Loop Habit Tracker",
+      "developer": "Álinson Santos Xavier",
+      "category": "Habit tracker",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/iSoron/uhabits/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Loop Habit Tracker is an Android app by Álinson Santos Xavier for recording habits and seeing them change over time. It scores streaks, supports weekly or alternating schedules, and can remind you or add a home-screen widget. The readme says there are no in-app purchases and no ads, but it does not state the store download price. The app is GPL-3.0.",
+      "features": [
+        "Track habits with a score that changes when you repeat or miss a day.",
+        "Schedule habits daily, several times a week, or every other day.",
+        "Set a reminder for each habit and mark it from the notification.",
+        "Add home-screen widgets and export data to CSV or SQLite.",
+        "Use every feature without in-app purchases; the app is ad-free and GPL-3.0."
+      ],
+      "insight": "The score that survives a missed day is the useful idea: a habit tracker that does not wipe a long streak after one gap. The circular arrow icon is part of the GPL app, while the Play price is left as check-the-official-site.",
+      "officialUrl": "https://github.com/iSoron/uhabits",
+      "discoverySource": {
+        "name": "Official Loop Habit Tracker repository",
+        "url": "https://github.com/iSoron/uhabits"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.isoron.uhabits"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/org.isoron.uhabits"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/iSoron/uhabits/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/iSoron/uhabits",
+        "androidPackageId": "org.isoron.uhabits",
+        "githubRepo": "iSoron/uhabits"
+      },
+      "asset": {
+        "path": "/images/discover/loop-habit-tracker.png",
+        "sourceUrl": "https://raw.githubusercontent.com/iSoron/uhabits/master/uhabits-android/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/iSoron/uhabits/master/LICENSE.txt",
+        "attribution": "Loop Habit Tracker icon from the Android launcher resources. Copyright 2016-2021 Álinson Santos Xavier. GPL-3.0-or-later, with no icon exception. Image used unmodified.",
+        "alt": "White circular arrow on a blue circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/loop-habit-tracker-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/iSoron/uhabits/master/README.md",
+            "label": "Official readme: habit features, no in-app purchases, Play and F-Droid; store price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/iSoron/uhabits/master/LICENSE.txt",
+            "label": "GPL-3.0-or-later text for Loop Habit Tracker, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "notally",
+      "kind": "app",
+      "name": "Notally",
+      "developer": "OmGodse",
+      "category": "Notes",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/OmGodse/Notally/master/README.md",
+        "checkedAt": "2026-10-14"
+      },
+      "summary": "Notally is a small Android notes app from the OmGodse repository. Notes can be colored, pinned, and labeled, with reminders, search, pictures, and rich text. Exports include TXT, JSON, HTML, and PDF, and the readme also lists widgets and automatic backup. It is GPL-3.0 and links Google Play and F-Droid, without stating a download price.",
+      "features": [
+        "Color, pin, and label notes, then search inside them.",
+        "Write rich text and attach JPG, PNG, or WEBP pictures.",
+        "Add reminders and home-screen widgets.",
+        "Export notes as TXT, JSON, HTML, or PDF.",
+        "Install from Google Play, F-Droid, or the linked IzzyOnDroid listing."
+      ],
+      "insight": "Notally is a notes app that stays small: the readme even cites an APK around 1.4 MB. The paper icon belongs to that GPL project, and the price is left unchecked because the readme never states one.",
+      "officialUrl": "https://github.com/OmGodse/Notally",
+      "discoverySource": {
+        "name": "Official Notally repository",
+        "url": "https://github.com/OmGodse/Notally"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.omgodse.notally"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.omgodse.notally/"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/com.omgodse.notally"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/OmGodse/Notally",
+        "androidPackageId": "com.omgodse.notally",
+        "githubRepo": "OmGodse/Notally"
+      },
+      "asset": {
+        "path": "/images/discover/notally.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OmGodse/Notally/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/OmGodse/Notally/master/LICENSE.md",
+        "attribution": "Notally icon from the official fastlane metadata. LICENSE.md is the GPL-3.0 text and does not exclude the icon. Image used unmodified.",
+        "alt": "White note with gray lines on a blue square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/notally-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OmGodse/Notally/master/README.md",
+            "label": "Official readme: note features and Play, F-Droid, and IzzyOnDroid links; no monetary price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OmGodse/Notally/master/LICENSE.md",
+            "label": "GPL-3.0 text for Notally, including the icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-14"
+          }
+        ]
+      }
+    }
+  ]
+}
