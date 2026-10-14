@@ -1,0 +1,9 @@
+MegaGlest data license statement,
+accessed 2026-10-14 from https://megaglest.org/license
+The page says all MegaGlest data, including images, sounds, music, and 3D models, is provided under the Creative Commons Attribution-ShareAlike (CC-BY-SA) license.
+It does not number the CC-BY-SA version. This notice records the project's wording rather than a guessed legal-code version.
+Applies to the official logo at https://megaglest.org/assets/logo.png. Image used unmodified.
+
+MegaGlest data
+All the data (including images, sounds, music and 3D models) is provided under the Creative Commons Attribution-ShareAlike (CC-BY-SA) license. This license lets others remix, tweak, and build upon your work even for commercial reasons, as long as they credit you and license their new creations under the identical terms. This license is often compared to open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use.
+For more details about the MegaGlest data, the same page points to the Authors-Data file.
