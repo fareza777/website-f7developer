@@ -1004,5 +1004,213 @@
       "Artwork license URL must have asset-license evidence",
       "Existing products must be newly-discovered with no claimed launch date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "ddnet",
+      "kind": "game",
+      "name": "DDNet",
+      "officialUrl": "https://ddnet.org/",
+      "identity": {
+        "canonicalUrl": "https://ddnet.org/",
+        "githubRepo": "ddnet/ddnet"
+      },
+      "researchNote": "The DDNet homepage describes a cooperative Teeworlds modification with custom maps, up to 128 players, tournaments, and client 20.1.1. license.txt puts only some data under CC-BY-SA 3.0 and excludes assets, fonts, language files, and skins. No single image outside those exceptions was selected. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://ddnet.org/",
+        "licenseUrl": "https://ddnet.org/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-15",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Verification date must equal discovery date",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "blasphemer",
+      "kind": "game",
+      "name": "Blasphemer",
+      "officialUrl": "https://github.com/Blasphemer/blasphemer",
+      "identity": {
+        "canonicalUrl": "https://github.com/Blasphemer/blasphemer",
+        "githubRepo": "Blasphemer/blasphemer"
+      },
+      "researchNote": "The readme and COPYING.md license this free Heretic content pack under BSD-3-Clause. Root art found on 15 October 2026 was a GIF palette, which this edition cannot publish, and the linked screenshots were HTTP on jeshimoth.com. No PNG, JPEG, WebP, or AVIF was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/Blasphemer/blasphemer",
+        "licenseUrl": "https://github.com/Blasphemer/blasphemer",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-15",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Verification date must equal discovery date",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "frogatto",
+      "kind": "game",
+      "name": "Frogatto & Friends",
+      "officialUrl": "https://github.com/frogatto/frogatto",
+      "identity": {
+        "canonicalUrl": "https://github.com/frogatto/frogatto",
+        "githubRepo": "frogatto/frogatto"
+      },
+      "researchNote": "The repository LICENSE gives CC-BY 3.0 to most files but puts character art, tiles, levels, audio, and character designs under CC-BY-NC-SA. The frog logo is character art, so no image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/frogatto/frogatto",
+        "licenseUrl": "https://github.com/frogatto/frogatto",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-15",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Verification date must equal discovery date",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "powder-toy",
+      "kind": "game",
+      "name": "The Powder Toy",
+      "officialUrl": "https://github.com/The-Powder-Toy/The-Powder-Toy",
+      "identity": {
+        "canonicalUrl": "https://github.com/The-Powder-Toy/The-Powder-Toy",
+        "githubRepo": "The-Powder-Toy/The-Powder-Toy"
+      },
+      "researchNote": "The readme calls The Powder Toy a free physics sandbox and says the source code is GPL. That wording was not treated as a grant for a specific icon. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/The-Powder-Toy/The-Powder-Toy",
+        "licenseUrl": "https://github.com/The-Powder-Toy/The-Powder-Toy",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-14",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-15",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Verification date must equal discovery date",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
   }
 ]

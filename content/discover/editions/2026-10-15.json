@@ -1,0 +1,854 @@
+{
+  "date": "2026-10-15",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-15T01:27:49.828Z",
+  "entries": [
+    {
+      "slug": "freedoom",
+      "kind": "game",
+      "name": "Freedoom",
+      "developer": "Freedoom contributors",
+      "category": "Shooter",
+      "platforms": [
+        "Android",
+        "Doom-compatible engines"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://freedoom.github.io/about.html",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Freedoom is a free, original first-person shooter made as game data rather than an engine. Phase 1 is four nine-level episodes for Ultimate Doom mods, Phase 2 is a 32-level Doom II-compatible episode, and FreeDM is a 32-map deathmatch set. The project recommends Crispy Doom, the Eternity Engine, or GZDoom, and separately notes an Android package that bundles GZDoom. Its artwork is offered under the BSD terms in COPYING.adoc when the copyright notice and a Freedoom credit stay with the work.",
+      "features": [
+        "Phase 1 has four episodes of nine levels and targets Ultimate Doom mods.",
+        "Phase 2 is a 32-level episode compatible with Doom II mods.",
+        "FreeDM is a 32-level set built for deathmatch.",
+        "Recommended engines are Crispy Doom, the Eternity Engine, and GZDoom.",
+        "An Android GZDoom package is linked for convenience and is not an official engine fork.",
+        "The about page allows BSD reuse of the artwork if the copyright notice and Freedoom credit remain."
+      ],
+      "insight": "Freedoom is worth the download because the art, levels, and sound are the actual game. The engine's old GPL never covered Doom's content, so this project is the piece a small team can study, ship, and credit without pretending the original game data became free.",
+      "officialUrl": "https://freedoom.github.io/",
+      "discoverySource": {
+        "name": "Official Freedoom site",
+        "url": "https://freedoom.github.io/about.html"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub release",
+          "url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=net.nullsum.freedoom"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://freedoom.github.io/",
+        "androidPackageId": "net.nullsum.freedoom",
+        "githubRepo": "freedoom/freedoom"
+      },
+      "asset": {
+        "path": "/images/discover/freedoom.png",
+        "sourceUrl": "https://freedoom.github.io/favicon.png",
+        "license": "BSD-3-Clause",
+        "licenseUrl": "https://raw.githubusercontent.com/freedoom/freedoom/master/COPYING.adoc",
+        "attribution": "Freedoom favicon by contributors of the Freedoom project. The about page says the project and website use the BSD license in COPYING.adoc, and reuse needs that copyright statement plus a Freedoom credit. Image used unmodified.",
+        "alt": "Pixel-art smiling face with short brown hair on a black background",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/freedoom-BSD-3-Clause.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://freedoom.github.io/about.html",
+            "label": "Official about page: free FPS data, three games, and BSD artwork reuse",
+            "checks": [
+              "identity",
+              "features",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://freedoom.github.io/download.html",
+            "label": "Official download page: v0.13.0 release, recommended engines, and the Android package",
+            "checks": [
+              "platforms",
+              "distribution",
+              "features"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freedoom/freedoom/master/COPYING.adoc",
+            "label": "BSD-3-Clause text for the Freedoom project, including the website favicon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freedoom/freedoom/master/README.adoc",
+            "label": "Repository readme: Freedoom is the levels, artwork, sound, and music",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "freerct",
+      "kind": "game",
+      "name": "FreeRCT",
+      "developer": "FreeRCT contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/FreeRCT/FreeRCT/master/README.rst",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "FreeRCT is a free and open source theme-park game that aims for the look and play of RollerCoaster Tycoon 1 and 2. Its repository screenshot shows landscaping, fence building, guests, and a coaster in one isometric view. Linux is the system the project officially supports, while the readme says Windows and macOS should work. The graphics live in the same repository as LICENSE-gpl-2.0.txt, and that file does not exclude the screenshot.",
+      "features": [
+        "The project aims to recreate RollerCoaster Tycoon-style park building.",
+        "The official screenshot shows terrain edits, fences, guests, and a coaster.",
+        "Linux is named as the officially supported system.",
+        "The readme says Windows and macOS should work.",
+        "Game graphics are kept in graphics/sprites inside the repository.",
+        "LICENSE-gpl-2.0.txt is the repository license and does not exclude freerct.png."
+      ],
+      "insight": "Theme parks get interesting when the tool, the guest, and the money stay on one screen. FreeRCT is a compact place to study that kind of simulation, with original park art shipped beside the GPL-2.0 text instead of borrowed commercial sprites.",
+      "officialUrl": "https://github.com/FreeRCT/FreeRCT",
+      "discoverySource": {
+        "name": "Official FreeRCT repository",
+        "url": "https://github.com/FreeRCT/FreeRCT"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FreeRCT/FreeRCT"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/FreeRCT/FreeRCT",
+        "githubRepo": "FreeRCT/FreeRCT"
+      },
+      "asset": {
+        "path": "/images/discover/freerct.png",
+        "sourceUrl": "https://raw.githubusercontent.com/FreeRCT/FreeRCT/master/freerct.png",
+        "license": "GPL-2.0-only",
+        "licenseUrl": "https://raw.githubusercontent.com/FreeRCT/FreeRCT/master/LICENSE-gpl-2.0.txt",
+        "attribution": "FreeRCT screenshot freerct.png by FreeRCT contributors. The repository license is GPL-2.0-only and does not exclude this image. Image used unmodified.",
+        "alt": "Isometric theme park with a coaster, trees, guests, and landscape tools",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/freerct-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/FreeRCT/FreeRCT/master/README.rst",
+            "label": "Official readme: free theme-park game, platforms, graphics directory, and screenshot",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/FreeRCT/FreeRCT/master/LICENSE-gpl-2.0.txt",
+            "label": "GPL-2.0-only text shipped with FreeRCT, including freerct.png",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://github.com/FreeRCT/FreeRCT",
+            "label": "Official repository root listing README.rst, the license, and freerct.png",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "unexpected-keyboard",
+      "kind": "app",
+      "name": "Unexpected Keyboard",
+      "developer": "Julow",
+      "category": "Keyboard",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Julow/Unexpected-Keyboard/master/README.md",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Unexpected Keyboard is a lightweight Android keyboard that types extra characters by swiping a key toward its corners. Julow first made it for programmers using Termux, and the readme now presents it for everyday typing. It says the app has no ads and is open source. Google Play and F-Droid are both linked. The readme does not state a monetary price.",
+      "features": [
+        "Swipe from a key toward a corner to type the symbol shown there.",
+        "Built first for Termux and described as suitable for everyday use.",
+        "The readme says the application contains no ads.",
+        "Install links go to Google Play and F-Droid.",
+        "The repository license is GPL-3.0-or-later and does not exclude the store icon."
+      ],
+      "insight": "A keyboard that hides the extra symbols in the corners of each key is a better fit for a phone than another long-press popup. Unexpected Keyboard is the rare input app that started from a terminal workflow and still explains the gesture in one sentence.",
+      "officialUrl": "https://github.com/Julow/Unexpected-Keyboard",
+      "discoverySource": {
+        "name": "Official Unexpected Keyboard repository",
+        "url": "https://github.com/Julow/Unexpected-Keyboard"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=juloo.keyboard2"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/juloo.keyboard2/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Julow/Unexpected-Keyboard",
+        "androidPackageId": "juloo.keyboard2",
+        "githubRepo": "Julow/Unexpected-Keyboard"
+      },
+      "asset": {
+        "path": "/images/discover/unexpected-keyboard.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Julow/Unexpected-Keyboard/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Julow/Unexpected-Keyboard/master/LICENSE",
+        "attribution": "Unexpected Keyboard icon from the repository fastlane metadata by Julow. The README says the app is open source and the LICENSE file is GPL-3.0-or-later, with no exclusion for this icon. Image used unmodified.",
+        "alt": "Grey keyboard keys with corner symbols and black arrows",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/unexpected-keyboard-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Julow/Unexpected-Keyboard/master/README.md",
+            "label": "Official readme: swipe typing, no ads, Play, and F-Droid; no monetary price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Julow/Unexpected-Keyboard/master/LICENSE",
+            "label": "GPL-3.0-or-later text for Unexpected Keyboard, including the fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rethink-dns",
+      "kind": "app",
+      "name": "Rethink DNS + Firewall + VPN",
+      "developer": "Mohammed Hussain, Murtaza Aliakbar, and Santhosh Ponnusamy",
+      "category": "Privacy",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/celzero/rethink-app/master/README.md",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Rethink is an Android firewall, DNS client, and VPN from three developers in Coimbatore. It can send apps through WireGuard, SOCKS5, or HTTP CONNECT tunnels, block apps by screen state or network type, and log which app connected where. DNS can go to DNS over HTTPS, TLS, DNSCrypt, or Oblivious DNS over HTTPS. The readme prices the optional Rethink Proxy Network from 1.75 US dollars a month and does not state a price for the app itself.",
+      "features": [
+        "Per-app firewall rules can follow screen state, foreground use, or metered networks.",
+        "Split tunnels can send different apps through WireGuard, SOCKS5, or HTTP CONNECT.",
+        "DNS can use DNS over HTTPS, DNS over TLS, DNSCrypt, or Oblivious DNS over HTTPS.",
+        "A network monitor records which app connected, when, and where.",
+        "The optional Rethink Proxy Network is priced from 1.75 US dollars a month.",
+        "Google Play and F-Droid listings are linked from the repository."
+      ],
+      "insight": "A phone firewall is useful only if it can name the app, not just the socket. Rethink is interesting because the same screen also chooses the DNS path and the tunnel, which is the control most consumer VPN apps split across three products.",
+      "officialUrl": "https://github.com/celzero/rethink-app",
+      "discoverySource": {
+        "name": "Official Rethink repository",
+        "url": "https://github.com/celzero/rethink-app"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.celzero.bravedns"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.celzero.bravedns/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/celzero/rethink-app/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/celzero/rethink-app",
+        "androidPackageId": "com.celzero.bravedns",
+        "githubRepo": "celzero/rethink-app"
+      },
+      "asset": {
+        "path": "/images/discover/rethink-dns.png",
+        "sourceUrl": "https://raw.githubusercontent.com/celzero/rethink-app/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/celzero/rethink-app/master/LICENSE",
+        "attribution": "Rethink DNS icon from the repository fastlane metadata by Mohammed Hussain, Murtaza Aliakbar, and Santhosh Ponnusamy. The repository LICENSE is Apache-2.0 and no NOTICE file excludes this icon. Image used unmodified.",
+        "alt": "Black shield lettered dns inside a white circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/rethink-dns-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/celzero/rethink-app/master/README.md",
+            "label": "Official readme: firewall, DNS, VPN, developers, Play, F-Droid, and the paid proxy option",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/celzero/rethink-app/master/LICENSE",
+            "label": "Apache-2.0 text for the Rethink repository, including the fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "transportr",
+      "kind": "app",
+      "name": "Transportr",
+      "developer": "Transportr contributors",
+      "category": "Transit",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://transportr.app/",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Transportr is a free public-transport assistant for Android, made as a non-profit project and described as having no ads or tracking. It finds connections, shows the trip on a map, lists live departures where a network supports them, and remembers frequent places. GPS is used to find nearby stops and to follow progress along a journey. The repository says the program is GPL-3.0-or-later.",
+      "features": [
+        "Finds connections and estimates when you will arrive.",
+        "Draws stations or the whole trip on a map.",
+        "Shows upcoming departures, with real-time delays in supported areas.",
+        "Uses GPS for nearby stops and progress along the journey.",
+        "Saves frequent places and trips.",
+        "The project says the app is free, has no ads or tracking, and is GPL-3.0-or-later."
+      ],
+      "insight": "Transit apps usually stop at the next departure. Transportr is more useful because the route, the transfer, and the reminder of where to get off stay in one free app that also lets a city be added when it is missing.",
+      "officialUrl": "https://transportr.app/",
+      "discoverySource": {
+        "name": "Official Transportr site",
+        "url": "https://transportr.app/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=de.grobox.liberario"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.grobox.liberario/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/grote/Transportr"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://transportr.app/",
+        "androidPackageId": "de.grobox.liberario",
+        "githubRepo": "grote/Transportr"
+      },
+      "asset": {
+        "path": "/images/discover/transportr.png",
+        "sourceUrl": "https://raw.githubusercontent.com/grote/Transportr/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.txt",
+        "attribution": "Transportr launcher icon by Transportr contributors. The repository readme licenses the program under GPL-3.0-or-later and does not exclude this icon. The full GPL-3.0 text is stored with the image. Image used unmodified.",
+        "alt": "White tram front on a red rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/transportr-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://transportr.app/",
+            "label": "Official site: free transit assistant, maps, routing, departures, and GPS",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/grote/Transportr/master/README.md",
+            "label": "Official readme: Play, F-Droid, GitHub, and GPL-3.0-or-later",
+            "checks": [
+              "identity",
+              "distribution",
+              "features",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+            "label": "GPL-3.0 text referenced by the Transportr readme for the program and launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "delta-chat",
+      "kind": "app",
+      "name": "Delta Chat",
+      "developer": "Delta Chat contributors",
+      "category": "Messaging",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://delta.chat/en/",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Delta Chat is a decentralized messenger. The homepage describes instant messaging with multiple profiles and devices, signup through interoperable chatmail relays, web apps inside chats, and audited end-to-end encryption against network and server attacks. The Android client is GPL-3.0-or-later and links Google Play, F-Droid, and other downloads. Neither page states a monetary download price.",
+      "features": [
+        "Instant messaging with more than one profile and more than one device.",
+        "Accounts use interoperable chatmail relays.",
+        "Chats can include interactive web apps for games and collaboration.",
+        "End-to-end encryption is described as audited against network and server attacks.",
+        "The Android client links Google Play, F-Droid, and get.delta.chat.",
+        "The Android repository is licensed GPL-3.0-or-later."
+      ],
+      "insight": "A messenger gets more interesting when the address is not trapped in one company's directory. Delta Chat keeps the Android app on ordinary Internet standards and chatmail, so the encryption story and the account story are the same product.",
+      "officialUrl": "https://delta.chat/en/",
+      "discoverySource": {
+        "name": "Official Delta Chat site",
+        "url": "https://delta.chat/en/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=chat.delta"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/com.b44t.messenger"
+        },
+        {
+          "label": "Other official downloads",
+          "url": "https://get.delta.chat"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://delta.chat/en/",
+        "androidPackageId": "chat.delta",
+        "githubRepo": "deltachat/deltachat-android"
+      },
+      "asset": {
+        "path": "/images/discover/delta-chat.png",
+        "sourceUrl": "https://raw.githubusercontent.com/deltachat/deltachat-android/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/deltachat/deltachat-android/main/LICENSE",
+        "attribution": "Delta Chat Android icon from the repository fastlane metadata by Delta Chat contributors. The readme says the client is GPLv3+ and the LICENSE file does not exclude this icon. Image used unmodified.",
+        "alt": "White delta letter inside a blue-grey speech bubble",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/delta-chat-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://delta.chat/en/",
+            "label": "Official homepage: decentralized messaging, chatmail, web apps, and encryption; no download price stated",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/deltachat/deltachat-android/main/README.md",
+            "label": "Android readme: Play id chat.delta, F-Droid, other downloads, and GPLv3+",
+            "checks": [
+              "platforms",
+              "distribution",
+              "features",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/deltachat/deltachat-android/main/LICENSE",
+            "label": "GPL-3.0-or-later text for the Android client, including the fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-file-manager",
+      "kind": "app",
+      "name": "Fossify File Manager",
+      "developer": "Fossify",
+      "category": "Files",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/file-manager/",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Fossify File Manager browses folders on an Android device without a sign-in step. It can favorite paths, search and sort, show hidden files, and compress or extract archives. Copying, moving, renaming, and sharing stay on the device, with a password, pattern, or fingerprint lock available. The app does not request Android's Internet permission. The project does not state a monetary price.",
+      "features": [
+        "Browse folders, set favorites, and choose a home path.",
+        "Copy, move, rename, share, compress, and extract files.",
+        "Search, sort, show hidden files, and inspect storage details.",
+        "Lock the app with a password, pattern, or fingerprint.",
+        "The app does not request Android's Internet permission."
+      ],
+      "insight": "A file manager earns its place when archives and the storage summary are in the same app as the folder tree. Fossify File Manager keeps that work on the device, which matters more than another cloud shortcut on the home screen.",
+      "officialUrl": "https://www.fossify.org/apps/file-manager/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.filemanager"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.filemanager/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/File-Manager"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/file-manager/",
+        "androidPackageId": "org.fossify.filemanager",
+        "githubRepo": "FossifyOrg/File-Manager"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-file-manager.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/file-manager/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify File Manager icon by Fossify. Used unmodified under the press-kit permission to use current app icons in articles and directories, without changing proportions or colors.",
+        "alt": "White folder on a green square",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/file-manager/",
+            "label": "Official app page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: use current app icons in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-clock",
+      "kind": "app",
+      "name": "Fossify Clock",
+      "developer": "Fossify",
+      "category": "Clock",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/clock/",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Fossify Clock is an Android world clock, alarm, timer, and stopwatch. Cities can be labeled, alarms can use vibration and a ringtone, and volume can rise gradually with a custom snooze. Widgets put the clock on the home screen. The project marks the current release as beta and says the app does not request Internet permission. No monetary price is stated.",
+      "features": [
+        "World clock with custom labels for time zones.",
+        "Multiple alarms with labels, vibration, and ringtone controls.",
+        "Timers and a stopwatch are included.",
+        "Home-screen clock widgets are supported.",
+        "Gradual alarm volume and snooze timing can be changed.",
+        "The app does not request Android's Internet permission."
+      ],
+      "insight": "An alarm is a poor place for an account. Fossify Clock keeps cities, snooze, and widgets on the device, so the thing that has to work at 6 a.m. does not depend on a clock vendor staying online.",
+      "officialUrl": "https://www.fossify.org/apps/clock/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.clock"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.clock/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Clock"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/clock/",
+        "androidPackageId": "org.fossify.clock",
+        "githubRepo": "FossifyOrg/Clock"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-clock.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/clock/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Clock icon by Fossify. Used unmodified under the press-kit permission to use current app icons in articles and directories, without changing proportions or colors.",
+        "alt": "White clock face on a green square",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/clock/",
+            "label": "Official app page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: use current app icons in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-camera",
+      "kind": "app",
+      "name": "Fossify Camera",
+      "developer": "Fossify",
+      "category": "Camera",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/camera/",
+        "checkedAt": "2026-10-15"
+      },
+      "summary": "Fossify Camera takes photos and videos on Android without an account or a cloud gallery. It can switch cameras, zoom, use the flash, and set output quality and the save path. Location tags are optional. The project marks the current release as beta and says the app does not request Internet permission. No monetary price is stated.",
+      "features": [
+        "Capture photos and videos and switch between those modes.",
+        "Zoom, flash, and front or rear camera controls are included.",
+        "Output quality and the save path can be set.",
+        "Preview brightness can be raised to the maximum.",
+        "Photos and videos are kept without an account or cloud gallery.",
+        "The app does not request Android's Internet permission."
+      ],
+      "insight": "The useful camera setting is where the file lands. Fossify Camera makes the save path and the decision to skip a cloud gallery visible, which is the part worth copying when a capture app starts adding accounts.",
+      "officialUrl": "https://www.fossify.org/apps/camera/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.camera"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.camera/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Camera"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/camera/",
+        "androidPackageId": "org.fossify.camera",
+        "githubRepo": "FossifyOrg/Camera"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-camera.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/camera/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Camera icon by Fossify. Used unmodified under the press-kit permission to use current app icons in articles and directories, without changing proportions or colors.",
+        "alt": "White camera aperture on a green square",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-15",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/camera/",
+            "label": "Official app page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: use current app icons in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-15"
+          }
+        ]
+      }
+    }
+  ]
+}
