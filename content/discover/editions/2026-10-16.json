@@ -1,0 +1,788 @@
+{
+  "date": "2026-10-16",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-16T01:25:48.684Z",
+  "entries": [
+    {
+      "slug": "rigs-of-rods",
+      "kind": "game",
+      "name": "Rigs of Rods",
+      "developer": "Petr Ohlidal and Rigs of Rods contributors",
+      "category": "Vehicle simulation",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.rigsofrods.org/",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "Rigs of Rods is a free vehicle sandbox that treats machines as flexible structures. Cars, trucks, boats, aircraft and machinery can bend and break as they move, and the official builds run on Windows and Linux. Multiplayer servers hold up to 64 people. Extra community vehicles stay under their own creators' licenses.",
+      "features": [
+        "Simulate cars, trucks, trains, boats, aircraft and heavy machinery with soft-body physics.",
+        "Walk around a scene, enter and leave vehicles, and spawn more than one at a time.",
+        "Join a public lobby or a private server with up to 64 other players.",
+        "Download official 64-bit Windows and Linux builds from the project site.",
+        "Treat community mods as separately licensed; the core project does not claim them."
+      ],
+      "insight": "The interesting part is the chassis, not a scripted race. A beam-and-node truck can fold in a way a normal driving game hides, which makes experimentation the point of a session.",
+      "officialUrl": "https://www.rigsofrods.org/",
+      "discoverySource": {
+        "name": "Official Rigs of Rods repository",
+        "url": "https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.rigsofrods.org/download"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/RigsOfRods/rigs-of-rods"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.rigsofrods.org/",
+        "githubRepo": "RigsOfRods/rigs-of-rods"
+      },
+      "asset": {
+        "path": "/images/discover/rigs-of-rods.png",
+        "sourceUrl": "https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/master/doc/images/RoR_Banner.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/master/COPYING",
+        "attribution": "Rigs of Rods banner from the official repository, doc/images/RoR_Banner.png. Copyright (c) 2005-2013 Pierre-Michel Ricordel, 2007-2013 Thomas Fischer, and 2009-2025 Petr Ohlidal and Rigs of Rods contributors. GPL-3.0 or later, unless otherwise stated. Branding guidelines require the logo to stay unmodified. The website's separate CC BY-NC-SA 4.0 grant was not used for this file.",
+        "alt": "Rigs of Rods banner with a lifted truck, a wireframe vehicle, and the words Soft Body Physics",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/rigs-of-rods-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://www.rigsofrods.org/",
+            "label": "Official site: free soft-body vehicle simulator and GPL notice",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/master/README.md",
+            "label": "Official repository readme: vehicle types and separately licensed community mods",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://github.com/RigsOfRods/rigs-of-rods",
+            "label": "Official repository readme: vehicle types and separately licensed community mods",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.rigsofrods.org/download",
+            "label": "Official Windows and Linux downloads",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/master/COPYING",
+            "label": "GPL-3.0 license text for the game",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://docs.rigsofrods.org/tools-tutorials/branding/",
+            "label": "Branding guidelines: do not edit or recolor the logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/master/doc/images/RoR_Banner.png",
+            "label": "Official repository banner used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ultrastar-deluxe",
+      "kind": "game",
+      "name": "UltraStar Deluxe",
+      "developer": "UltraStar Deluxe contributors",
+      "category": "Karaoke",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/README.md",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "UltraStar Deluxe is a free karaoke game for singing into microphones. Up to six people can take turns or sing together while the game scores pitch and rhythm. It grew from corvus5's UltraStar and adds party mode, themes, and broader audio and video support, with Windows releases plus Linux and macOS ports.",
+      "features": [
+        "Score up to six singers on pitch and rhythm through microphones.",
+        "Use party mode, themes, and additional audio and video formats.",
+        "Point the game at more than one song directory.",
+        "Install the latest Windows release from GitHub or the Linux Flatpak.",
+        "Run the macOS port; the readme documents its song folder and config path."
+      ],
+      "insight": "Most rhythm games ship their own chart library. UltraStar Deluxe is closer to a living-room instrument: the interesting choice is which song folder you bring, and the score still depends on a real voice.",
+      "officialUrl": "https://usdx.eu/",
+      "discoverySource": {
+        "name": "Official UltraStar Deluxe repository",
+        "url": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/UltraStar-Deluxe/USDX/releases/latest"
+        },
+        {
+          "label": "Flathub",
+          "url": "https://flathub.org/apps/eu.usdx.UltraStarDeluxe"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://usdx.eu/",
+        "githubRepo": "UltraStar-Deluxe/USDX"
+      },
+      "asset": {
+        "path": "/images/discover/ultrastar-deluxe.png",
+        "sourceUrl": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/icons/ultrastardx-icon_256.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/LICENSE",
+        "attribution": "UltraStar Deluxe icon, icons/ultrastardx-icon_256.png, from the official repository. The readme identifies the project license as GPLv2 and does not state an icon exception. Image used unmodified.",
+        "alt": "UltraStar Deluxe icon of a microphone with white wings",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ultrastar-deluxe-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/README.md",
+            "label": "Official readme: free karaoke gameplay, platforms, and install channels",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/LICENSE",
+            "label": "GPLv2 license text for the project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/UltraStar-Deluxe/USDX/master/icons/ultrastardx-icon_256.png",
+            "label": "Official icon displayed by the readme, used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "trail-sense",
+      "kind": "app",
+      "name": "Trail Sense",
+      "developer": "Kyle Corry",
+      "category": "Outdoor tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://kylecorry.com/Trail-Sense/",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "Trail Sense turns a phone's own sensors into offline hiking tools. Kyle Corry's Android app can mark beacons, retrace a walk, read a compass, forecast weather from a barometer, and warn before sunset. It does not use the internet, and the project page grants the software under the MIT license, free of charge.",
+      "features": [
+        "Mark beacons, follow paths, and retrace a walk with backtrack.",
+        "Use a compass on phones that have a compass sensor.",
+        "Treat a photo as an offline map and plan a packing list.",
+        "Forecast weather where a barometer exists, and alert before sunset.",
+        "Keep sensor and location data on the device; the app does not use the internet.",
+        "Install from Google Play or F-Droid under the MIT license."
+      ],
+      "insight": "The useful constraint is the missing network. A trail tool that refuses the internet has to be honest about the sensors in your pocket, which is a better hiking companion than a forecast that disappears when the signal does.",
+      "officialUrl": "https://kylecorry.com/Trail-Sense/",
+      "discoverySource": {
+        "name": "Official Trail Sense repository",
+        "url": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kylecorry.trail_sense"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.kylecorry.trail_sense/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://kylecorry.com/Trail-Sense/",
+        "androidPackageId": "com.kylecorry.trail_sense",
+        "githubRepo": "kylecorry31/Trail-Sense"
+      },
+      "asset": {
+        "path": "/images/discover/trail-sense.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/LICENSE",
+        "attribution": "Trail Sense icon by Kyle Corry, from the official fastlane metadata. Copyright (c) 2020 Kyle Corry, MIT license. The readme does not exclude the icon. Image used unmodified.",
+        "alt": "Trail Sense icon with an orange and white compass needle on a dark circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/trail-sense-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/README.md",
+            "label": "Official readme: offline tools, Play and F-Droid links, MIT grant",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://kylecorry.com/Trail-Sense/",
+            "label": "Official project page repeating the MIT grant, including free of charge",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Developer store description of tools and offline use",
+            "checks": [
+              "features",
+              "platforms"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/LICENSE",
+            "label": "MIT license by Kyle Corry, with no icon exception",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kiss",
+      "kind": "app",
+      "name": "KISS",
+      "developer": "Neamar",
+      "category": "Launcher",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/full_description.txt",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "KISS is a small Android launcher built around typing. Neamar's app finds apps, contacts and settings from the first letters, and it promotes results you actually choose. The store text says it never connects to the internet, stays about 250 KB, and is GPLv3+ software that everyone can use, change and share.",
+      "features": [
+        "Launch apps, contacts and settings by typing the first letters.",
+        "Promote results that you open more often.",
+        "Keep data on the phone; the app does not connect to the internet.",
+        "Stay small: the developer description says KISS is 250 KB.",
+        "Install from Google Play, F-Droid or GitHub releases under GPLv3+."
+      ],
+      "insight": "A launcher that starts from the keyboard treats the home screen as a search box. That is a useful contrast with drawers full of icons, especially on a phone you want to open and leave quickly.",
+      "officialUrl": "https://github.com/Neamar/KISS",
+      "discoverySource": {
+        "name": "Official KISS repository",
+        "url": "https://raw.githubusercontent.com/Neamar/KISS/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=fr.neamar.kiss"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/fr.neamar.kiss"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Neamar/KISS/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Neamar/KISS",
+        "androidPackageId": "fr.neamar.kiss",
+        "githubRepo": "Neamar/KISS"
+      },
+      "asset": {
+        "path": "/images/discover/kiss.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Neamar/KISS/master/LICENSE",
+        "attribution": "KISS icon from the official fastlane metadata. The repository readme applies GPLv3 or later to the software and does not exclude the icon. Image used unmodified.",
+        "alt": "KISS launcher icon, a green ring on a black square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/kiss-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Neamar/KISS/master/README.md",
+            "label": "Official readme: search launcher, Play, F-Droid and GPLv3+",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Developer description: offline use, size, and libre sharing",
+            "checks": [
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Neamar/KISS/master/LICENSE",
+            "label": "Full GPLv3 text for KISS, with no icon exception",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Neamar/KISS/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "libretorrent",
+      "kind": "app",
+      "name": "LibreTorrent",
+      "developer": "Yaroslav Pronin",
+      "category": "Downloads",
+      "platforms": [
+        "Android",
+        "Android TV"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/proninyaroslav/libretorrent/master/README.md",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "LibreTorrent is Yaroslav Pronin's Android BitTorrent client. It can download with BitTorrent 2.0 and WebTorrent, pick individual files, stream in order, and create torrents. The readme also lists Android TV, scheduling, and an Atom or RSS watch list. The project calls the app free software under GPL version 3 or later, with Play and F-Droid links from the developer.",
+      "features": [
+        "Download with BitTorrent 2.0 and WebTorrent, including magnet links.",
+        "Choose files, move them during a download, and stream sequentially.",
+        "Create torrents and watch Atom or RSS feeds for new files.",
+        "Use a dark theme and a tablet layout, including Android TV.",
+        "Install the developer-linked Google Play or F-Droid build."
+      ],
+      "insight": "A torrent app is easy to hide behind a store account. LibreTorrent keeps the transfer controls in the open: which files, which order, and which feed starts the next download.",
+      "officialUrl": "https://github.com/proninyaroslav/libretorrent",
+      "discoverySource": {
+        "name": "Official LibreTorrent repository",
+        "url": "https://raw.githubusercontent.com/proninyaroslav/libretorrent/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.proninyaroslav.libretorrent"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/org.proninyaroslav.libretorrent"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/proninyaroslav/libretorrent",
+        "androidPackageId": "org.proninyaroslav.libretorrent",
+        "githubRepo": "proninyaroslav/libretorrent"
+      },
+      "asset": {
+        "path": "/images/discover/libretorrent.png",
+        "sourceUrl": "https://raw.githubusercontent.com/proninyaroslav/libretorrent/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.txt",
+        "attribution": "LibreTorrent icon from the official fastlane metadata. Copyright (C) 2016 Yaroslav Pronin. The readme places LibreTorrent under GPL-3.0 or later and does not exclude this icon. Image used unmodified.",
+        "alt": "LibreTorrent icon with a white three-node network on a purple circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/libretorrent-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/proninyaroslav/libretorrent/master/README.md",
+            "label": "Official readme: features, Play, F-Droid, and GPL-3 grant",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/proninyaroslav/libretorrent/master/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Developer listing of BitTorrent features and GPLv3+",
+            "checks": [
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+            "label": "Full GPL-3 text referenced by the project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/proninyaroslav/libretorrent/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "briar",
+      "kind": "app",
+      "name": "Briar",
+      "developer": "Michael Rogers and the Briar core team",
+      "category": "Messaging",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://briarproject.org/copyright",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "Briar is a free Android messenger for conversations that do not depend on one company's server. Michael Rogers started the project, and the Android app syncs directly between devices over Bluetooth or Wi-Fi, or through Tor when the internet is available. Messages stay on the phone. The download page points to Google Play, F-Droid and an APK from the project site.",
+      "features": [
+        "Exchange peer-to-peer messages and use forums without a central server.",
+        "Sync over Bluetooth or Wi-Fi offline, or over Tor when the internet is up.",
+        "Store messages on the device with end-to-end encryption.",
+        "Install the Android app from Google Play, the project's F-Droid page, or its APK.",
+        "Read the project copyright notice: Briar is free software under the GNU GPL."
+      ],
+      "insight": "Most messengers fail quietly when the network does. Briar is worth discovering because the nearby Bluetooth and Wi-Fi path is part of the product, not an emergency afterthought.",
+      "officialUrl": "https://briarproject.org/",
+      "discoverySource": {
+        "name": "Official Briar site",
+        "url": "https://briarproject.org/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://briarproject.org/fdroid"
+        },
+        {
+          "label": "Official APK",
+          "url": "https://briarproject.org/apk"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://briarproject.org/",
+        "androidPackageId": "org.briarproject.briar.android"
+      },
+      "asset": {
+        "path": "/images/discover/briar.png",
+        "sourceUrl": "https://briarproject.org/img/briar_logo_circle.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+        "attribution": "Briar circular logo from the official website. Website content is © 2024 Sublime Software Ltd under Creative Commons Attribution 4.0, as stated on the copyright page. Image used unmodified.",
+        "alt": "Briar logo, a green woven mark inside a white circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/briar-CC-BY-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://briarproject.org/",
+            "label": "Official homepage: peer-to-peer messaging, Tor, Bluetooth and Wi-Fi",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://briarproject.org/download-briar/",
+            "label": "Official Android download page for Play, F-Droid and APK",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://briarproject.org/about/",
+            "label": "Core team page naming Michael Rogers as the project founder",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://briarproject.org/copyright",
+            "label": "Free-software grant and CC BY 4.0 for other website content",
+            "checks": [
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+            "label": "Full Creative Commons Attribution 4.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://briarproject.org/img/briar_logo_circle.png",
+            "label": "Official website logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "app-manager",
+      "kind": "app",
+      "name": "App Manager",
+      "developer": "Muntashir Akon",
+      "category": "App management",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/fastlane/metadata/android/en-US/full_description.txt",
+        "checkedAt": "2026-10-16"
+      },
+      "summary": "App Manager is an Android toolbox for inspecting the apps already on a phone. It lists activities, permissions, tracker classes and storage, and it can back up APK files. The project describes itself as copylefted GPLv3+ software and links F-Droid plus GitHub releases. The store description checked today does not state a numeric price.",
+      "features": [
+        "List activities, services, receivers, permissions and tracker libraries.",
+        "Back up and restore APK files, including split packages and OBB data.",
+        "Read logcat and use the built-in code editor, file manager and terminal.",
+        "With root or ADB, freeze apps, clear data and revoke runtime permissions.",
+        "Install from the developer-linked F-Droid page or GitHub releases."
+      ],
+      "insight": "Installed apps are usually a grid of icons. App Manager is worth a look because it shows the parts behind an icon, from exported activities to tracker classes, before you decide what stays on the phone.",
+      "officialUrl": "https://github.com/MuntashirAkon/AppManager",
+      "discoverySource": {
+        "name": "Official App Manager repository",
+        "url": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.muntashirakon.AppManager"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/MuntashirAkon/AppManager/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MuntashirAkon/AppManager",
+        "androidPackageId": "io.github.muntashirakon.AppManager",
+        "githubRepo": "MuntashirAkon/AppManager"
+      },
+      "asset": {
+        "path": "/images/discover/app-manager.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/docs/raw/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/LICENSES/GPL-3.0",
+        "attribution": "App Manager icon, docs/raw/images/icon.png, from the official repository. COPYING applies GPL-3.0-or-later to contributions. No exception naming this icon was found. Image used unmodified.",
+        "alt": "App Manager icon, a gold letter A on a dark circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/app-manager-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/README.md",
+            "label": "Official readme: features, GPLv3+, F-Droid and releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Developer description checked for features and price",
+            "checks": [
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/COPYING",
+            "label": "COPYING applies GPL-3.0-or-later to contributions",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/LICENSES/GPL-3.0",
+            "label": "Full GPL-3.0-or-later text shipped with the project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MuntashirAkon/AppManager/master/docs/raw/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-16"
+          }
+        ]
+      }
+    }
+  ]
+}
