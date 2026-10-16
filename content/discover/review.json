@@ -1212,5 +1212,365 @@
       "Artwork license URL must have asset-license evidence",
       "Existing products must be newly-discovered with no claimed launch date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "tusky",
+      "kind": "app",
+      "name": "Tusky",
+      "officialUrl": "https://github.com/tuskyapp/Tusky",
+      "identity": {
+        "canonicalUrl": "https://github.com/tuskyapp/Tusky",
+        "androidPackageId": "com.keylesspalace.tusky",
+        "githubRepo": "tuskyapp/Tusky"
+      },
+      "researchNote": "The Tusky readme describes an Android Mastodon client and links Google Play id com.keylesspalace.tusky plus an F-Droid page. The fastlane icon was readable. LICENSE, LICENSE.md, COPYING, app assets LICENSE, and develop/LICENSE returned HTTP 404, so no artwork grant was established. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/tuskyapp/Tusky",
+        "licenseUrl": "https://github.com/tuskyapp/Tusky",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Apps must support Android",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "bzflag",
+      "kind": "game",
+      "name": "BZFlag",
+      "officialUrl": "https://www.bzflag.org/",
+      "identity": {
+        "canonicalUrl": "https://www.bzflag.org/"
+      },
+      "researchNote": "The BZFlag homepage calls it a free multiplayer 3D tank game for Windows, Linux, and macOS, with downloads for version 2.4.30. The about page credits Tim Riker, 1993-2026. The media page is a community map gallery and does not grant a project logo. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://www.bzflag.org/",
+        "licenseUrl": "https://www.bzflag.org/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "lincity-ng",
+      "kind": "game",
+      "name": "LinCity-NG",
+      "officialUrl": "https://github.com/lincity-ng/lincity-ng",
+      "identity": {
+        "canonicalUrl": "https://github.com/lincity-ng/lincity-ng",
+        "githubRepo": "lincity-ng/lincity-ng"
+      },
+      "researchNote": "The LinCity-NG readme describes a city simulation for Linux and Windows, with GitHub and Flathub binaries, and states GPL-2.0 or later for the program. COPYING and the guessed icon paths data/images/icon.png and data/images/lincity-ng.png returned HTTP 404. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/lincity-ng/lincity-ng",
+        "licenseUrl": "https://github.com/lincity-ng/lincity-ng",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "dungeon-crawl-stone-soup",
+      "kind": "game",
+      "name": "Dungeon Crawl Stone Soup",
+      "officialUrl": "https://crawl.develz.org/",
+      "identity": {
+        "canonicalUrl": "https://crawl.develz.org/",
+        "githubRepo": "crawl/crawl"
+      },
+      "researchNote": "The Crawl homepage describes an open-source roguelike for Windows, OS X, Android, and Linux. crawl-ref/CREDITS.txt thanks contributors and does not grant a specific image. crawl-ref/COPYING.txt returned HTTP 404. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://crawl.develz.org/",
+        "licenseUrl": "https://crawl.develz.org/",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "opentracks",
+      "kind": "app",
+      "name": "OpenTracks",
+      "officialUrl": "https://github.com/OpenTracksApp/OpenTracks",
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenTracksApp/OpenTracks",
+        "androidPackageId": "de.dennisguse.opentracks.playstore",
+        "githubRepo": "OpenTracksApp/OpenTracks"
+      },
+      "researchNote": "The OpenTracks readme labels the F-Droid build Free and links Google Play id de.dennisguse.opentracks.playstore. It also says artwork largely remained from Google My Tracks. NOTICE and the guessed launcher icons returned HTTP 404, so the icon grant was not separated from that history. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/OpenTracksApp/OpenTracks",
+        "licenseUrl": "https://github.com/OpenTracksApp/OpenTracks",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Apps must support Android",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "vdrift",
+      "kind": "game",
+      "name": "VDrift",
+      "officialUrl": "https://github.com/vdrift/vdrift",
+      "identity": {
+        "canonicalUrl": "https://github.com/vdrift/vdrift",
+        "githubRepo": "vdrift/vdrift"
+      },
+      "researchNote": "The VDrift readme describes a GPL-3 drift racing simulation for FreeBSD, Linux, Mac OS X, and Windows. The illustrated path in the readme was not a normal repository file, and the stated website is http://vdrift.net. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/vdrift/vdrift",
+        "licenseUrl": "https://github.com/vdrift/vdrift",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "wizznic",
+      "kind": "game",
+      "name": "Wizznic",
+      "officialUrl": "https://github.com/DusteDdk/Wizznic",
+      "identity": {
+        "canonicalUrl": "https://github.com/DusteDdk/Wizznic",
+        "githubRepo": "DusteDdk/Wizznic"
+      },
+      "researchNote": "The Wizznic readme describes a puzzle game with a built-in editor and points to GitHub releases and an http website. It states no artwork or code license. No image was saved.",
+      "asset": {
+        "license": "Not specified",
+        "path": "/images/discover/unused.png",
+        "sourceUrl": "https://github.com/DusteDdk/Wizznic",
+        "licenseUrl": "https://github.com/DusteDdk/Wizznic",
+        "attribution": "Not specified",
+        "alt": "Not specified"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-16",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-16",
+    "reasons": [
+      "Missing or invalid developer",
+      "Missing or invalid category",
+      "summary must contain 40–650 characters of original copy",
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Missing platforms",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork requires evidenced reuse permission",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
   }
 ]
