@@ -19,6 +19,13 @@ test("homepage presents real products and loads all artwork without overflow", a
     await expect(
       page.getByRole("heading", { name: section, exact: true }),
     ).toBeVisible();
+  // Scroll like a visitor so every lazy image enters the viewport on the way down.
+  await page.evaluate(async () => {
+    for (let y = 0; y < document.body.scrollHeight; y += innerHeight / 2) {
+      window.scrollTo({ top: y, behavior: "instant" });
+      await new Promise((resolve) => setTimeout(resolve, 50));
+    }
+  });
   await page.locator("footer").scrollIntoViewIfNeeded();
   await expect
     .poll(() =>
