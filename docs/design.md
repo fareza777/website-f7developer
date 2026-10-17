@@ -13,6 +13,16 @@ artwork for product cards and screenshot galleries. Restrained transitions,
 visible keyboard focus, and reduced motion support. Angular buttons and
 soft 8px media corners. Design variance 7, motion intensity 4, density 4.
 
+The home hero is the one deliberate exception: a living painting. A WebGL
+layer over the static artwork adds depth parallax (pointer or device tilt),
+drifting cloud light, falling water, a pulsing eclipse, valley mist, embers,
+and a scroll-driven push toward the citadel. Motion stays slow and calm: one
+sample of the painting per pixel (no blended copies) and no camera sway.
+Reduced motion, missing WebGL, or a failed load leave the static artwork.
+The depth map (`public/images/studio-world-depth.webp`) was generated from
+`studio-world.webp` with Depth Anything V2 (Base), dilated 7px, and blurred;
+regenerate it whenever the artwork changes.
+
 ## Implementation
 
 Next.js App Router with static export. Home, Games, Products, Studio, Updates,

@@ -50,6 +50,61 @@ test("homepage presents real products and loads all artwork without overflow", a
   });
 });
 
+test("home hero comes alive where WebGL runs and keeps the static artwork otherwise", async ({
+  page,
+}) => {
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  await page.goto("/");
+  const renderer = await page.evaluate(() => {
+    const gl = document.createElement("canvas").getContext("webgl");
+    if (!gl) return "none";
+    const info = gl.getExtension("WEBGL_debug_renderer_info");
+    return String(
+      gl.getParameter(info ? info.UNMASKED_RENDERER_WEBGL : gl.RENDERER),
+    );
+  });
+  const canAnimate =
+    !/^none$|swiftshader|llvmpipe|softpipe|software|basic render/i.test(
+      renderer,
+    );
+  await expect(page.locator(".hero-art")).toBeVisible();
+  await expect(page.locator(".hero-living")).toHaveAttribute(
+    "data-state",
+    canAnimate ? "live" : "static",
+  );
+  if (canAnimate) {
+    await page.evaluate(() => window.scrollTo(0, window.innerHeight * 0.4));
+    await expect
+      .poll(() =>
+        page
+          .locator(".hero")
+          .evaluate((hero) =>
+            Number(hero.style.getPropertyValue("--hero-scroll")),
+          ),
+      )
+      .toBeGreaterThan(0);
+  }
+  expect(errors).toEqual([]);
+});
+
+test("home hero stays still and fully readable with reduced motion", async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/");
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+  await expect(page.locator(".hero-word > span").last()).toHaveCSS(
+    "transform",
+    "none",
+  );
+  await expect(page.locator(".hero-actions")).toHaveCSS("opacity", "1");
+  await expect(page.locator(".hero-living")).toHaveAttribute(
+    "data-state",
+    "static",
+  );
+});
+
 test("catalogue filters combine with search, support empty states, and use official links", async ({
   page,
 }) => {

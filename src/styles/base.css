@@ -387,6 +387,28 @@ button:active {
   object-fit: cover;
   object-position: 62% 48%;
   z-index: -3;
+  /* Matches BASE_ZOOM in living-hero/renderer.ts so the canvas fades in seamlessly. */
+  transform: scale(1.03);
+}
+.hero-living,
+.hero-embers {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.4s ease;
+}
+.hero-living[data-state="live"],
+.hero-embers[data-state="live"] {
+  opacity: 1;
+}
+/* A runtime fallback hides the frozen canvas at once; the artwork is framed identically. */
+.hero-living[data-state="static"],
+.hero-embers[data-state="static"] {
+  transition: none;
 }
 .hero-shade {
   position: absolute;
@@ -409,6 +431,50 @@ button:active {
 }
 .hero-copy {
   max-width: 750px;
+  transform: translateY(calc(var(--hero-scroll, 0) * -120px));
+  opacity: calc(1 - var(--hero-scroll, 0) * 1.4);
+}
+.hero-eyebrow,
+.hero-tagline,
+.hero-description,
+.hero-actions {
+  opacity: 0;
+  transform: translateY(14px);
+  animation: hero-rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+.hero-eyebrow {
+  animation-delay: 0.05s;
+}
+.hero-tagline {
+  animation-delay: 0.4s;
+}
+.hero-description {
+  animation-delay: 0.5s;
+}
+.hero-actions {
+  animation-delay: 0.6s;
+}
+.hero-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  /* Room for the descender and the dot's glow inside the clipping mask. */
+  padding: 0 0.3em 0.2em 0;
+  margin: 0 -0.3em -0.2em 0;
+}
+.hero-word > span {
+  display: inline-block;
+  transform: translateY(110%);
+  animation: hero-rise 1.1s cubic-bezier(0.2, 0.8, 0.2, 1) 0.15s forwards;
+}
+.hero-word:nth-of-type(2) > span {
+  animation-delay: 0.28s;
+}
+@keyframes hero-rise {
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 .hero-eyebrow {
   margin-bottom: 27px;
@@ -422,8 +488,9 @@ button:active {
   letter-spacing: -0.065em;
   font-weight: 750;
 }
-.hero h1 > span {
+.hero-dot {
   color: var(--accent);
+  text-shadow: 0 0 28px #d5fb6399;
 }
 .hero-tagline {
   font-size: 23px;
@@ -2950,7 +3017,12 @@ body:has(.gallery-dialog[open]) {
     animation: none !important;
     transition: none !important;
   }
-  .reveal-pending {
+  .reveal-pending,
+  .hero-word > span,
+  .hero-eyebrow,
+  .hero-tagline,
+  .hero-description,
+  .hero-actions {
     opacity: 1;
     transform: none;
   }
