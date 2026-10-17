@@ -1572,5 +1572,522 @@
       "Artwork license URL must have asset-license evidence",
       "Existing products must be newly-discovered with no claimed launch date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "fossify-calculator",
+      "kind": "app",
+      "name": "Fossify Calculator",
+      "developer": "Fossify",
+      "category": "Calculator",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/calculator/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Fossify Calculator handles everyday arithmetic and unit conversions on Android without an account. The app page lists roots, powers, and common functions, a calculation history, and controls for button vibration, display, theme, and color. It does not request Android's Internet permission and says calculations are not sent to Fossify. The page does not state a monetary price.",
+      "features": [
+        "Use basic arithmetic plus roots, powers, and common functions.",
+        "Convert common units and review calculation history.",
+        "Change button vibration, display, theme, and color.",
+        "Stay offline: the app does not request Android's Internet permission.",
+        "The project says calculations and history are not sent to Fossify."
+      ],
+      "insight": "A calculator earns a place when the history is still there after the next sum. Fossify Calculator keeps that history on the phone, next to a unit conversion.",
+      "officialUrl": "https://www.fossify.org/apps/calculator/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.math"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.math/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Calculator"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/calculator/",
+        "androidPackageId": "org.fossify.math",
+        "githubRepo": "FossifyOrg/Calculator"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-calculator.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/calculator/feature.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Calculator artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Green Fossify banner with phones showing a keypad and a unit conversion",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/calculator/",
+            "label": "Official Fossify Calculator page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/calculator/feature.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-17",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "fossify-paint",
+      "kind": "app",
+      "name": "Fossify Paint",
+      "developer": "Fossify",
+      "category": "Drawing",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/paint/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Fossify Paint is an Android sketchpad for choosing brush size, color, and background, then exporting the drawing. The app page lists PNG, JPG, and SVG export and says drawing works offline without an account. It does not request Android's Internet permission, and a drawing leaves the device only when you export or share it. The page does not state a monetary price.",
+      "features": [
+        "Draw on a canvas for sketches and notes.",
+        "Change brush size, color, and the canvas background.",
+        "Export a drawing as PNG, JPG, or SVG.",
+        "Work offline without an account.",
+        "The app does not request Android's Internet permission."
+      ],
+      "insight": "Paint is a small canvas with an export button. The interesting limit is SVG as well as PNG and JPG, so a sketch can leave the phone as vectors.",
+      "officialUrl": "https://www.fossify.org/apps/paint/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.paint"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.paint/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Paint"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/paint/",
+        "androidPackageId": "org.fossify.paint",
+        "githubRepo": "FossifyOrg/Paint"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-paint.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/paint/feature.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Paint artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Green Fossify banner with phones showing a rabbit sketch and color controls",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/paint/",
+            "label": "Official Fossify Paint page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/paint/feature.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-17",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "fossify-phone",
+      "kind": "app",
+      "name": "Fossify Phone",
+      "developer": "Fossify",
+      "category": "Phone",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/phone/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Fossify Phone is an Android dialer for call history, favorites, contact shortcuts, and number blocking. The app page says multi-SIM controls appear where Android exposes them, and calls are handled by Android and the carrier rather than by a Fossify service. It does not request Android's Internet permission and does not state a monetary price. The current release is marked stable.",
+      "features": [
+        "Place calls and keep recent calls, favorites, and contact shortcuts.",
+        "Block numbers and use the dialer's call-handling controls.",
+        "Use multi-SIM options where Android exposes them.",
+        "Follow up from call history.",
+        "The app does not request Internet permission, and Fossify does not receive call content."
+      ],
+      "insight": "A dialer is doing its job when blocking and the call log live next to the keypad. Fossify Phone keeps that on the device and leaves the call itself to Android and the carrier.",
+      "officialUrl": "https://www.fossify.org/apps/phone/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.phone"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.phone/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Phone"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/phone/",
+        "androidPackageId": "org.fossify.phone",
+        "githubRepo": "FossifyOrg/Phone"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-phone.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/phone/feature.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Phone artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Green Fossify banner with phones showing a dialer and an incoming call",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/phone/",
+            "label": "Official Fossify Phone page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/phone/feature.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-17",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "fossify-contacts",
+      "kind": "app",
+      "name": "Fossify Contacts",
+      "developer": "Fossify",
+      "category": "Contacts",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/contacts/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Fossify Contacts is an Android address book for search, favorites, groups, custom fields, and vCard import and export. The app page says call, message, and email actions are available from a contact, and that Fossify does not run its own contact sync service. Accounts already on the device may still sync. The app does not request Android's Internet permission and does not state a monetary price.",
+      "features": [
+        "Search contacts and mark favorites.",
+        "Group people and edit custom fields.",
+        "Import and export contacts as vCard files.",
+        "Start a call, message, or email from a contact.",
+        "The app does not request Internet permission and does not operate a Fossify sync service."
+      ],
+      "insight": "Contacts is an address book you can take with you as a vCard. That export matters more than another account, because the file is still yours after the app is gone.",
+      "officialUrl": "https://www.fossify.org/apps/contacts/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.contacts"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.contacts/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Contacts"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/contacts/",
+        "androidPackageId": "org.fossify.contacts",
+        "githubRepo": "FossifyOrg/Contacts"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-contacts.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/contacts/feature.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Contacts artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Green Fossify banner with phones showing a contact card and a contact list",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/contacts/",
+            "label": "Official Fossify Contacts page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/contacts/feature.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-17",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "seven-kingdoms",
+      "kind": "game",
+      "name": "Seven Kingdoms: Ancient Adversaries",
+      "developer": "Trevor Chan and the 7kfans community",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.7kfans.com/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Seven Kingdoms: Ancient Adversaries is a real-time strategy game of towns, trade, and espionage. The 7kfans site says it is freely available for Windows, macOS, and Linux, and the repository COPYING file places the source and game data under GPL-2. The same file says Seven Kingdoms remains a trademark of Enlight Software and that the GPL does not transfer trademark rights. The only image retrieved was the official wordmark, so this candidate is held for a non-mark image.",
+      "features": [
+        "Compete with up to six opponents for land, trade, and peasants.",
+        "Play one of seven civilizations, including Chinese, Persian, Japanese, Greek, Norman, Viking, and Mayan.",
+        "Wage war, make alliances, and send spies.",
+        "Mine, manufacture goods, and set up trade routes.",
+        "The site says version 2.15.7 runs on Windows, macOS, and Linux."
+      ],
+      "insight": "The strategic hook is the mix of trade and spies, not only armies. Publication waits on an image that is game data rather than the Enlight wordmark.",
+      "officialUrl": "https://www.7kfans.com/",
+      "discoverySource": {
+        "name": "Official 7kfans site",
+        "url": "https://www.7kfans.com/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.7kfans.com/download/v2.15.7.html"
+        },
+        {
+          "label": "SourceForge",
+          "url": "https://sourceforge.net/projects/skfans/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/the3dfxdude/7kaa"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.7kfans.com/",
+        "githubRepo": "the3dfxdude/7kaa"
+      },
+      "asset": {
+        "path": "/images/discover/seven-kingdoms.png",
+        "sourceUrl": "https://www.7kfans.com/img/logo-semi-opacity.png",
+        "license": "not specified",
+        "licenseUrl": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/COPYING",
+        "attribution": "Not published. The retrieved file is the Seven Kingdoms wordmark. COPYING says game data is GPL-2 but the name is an Enlight trademark and the license does not transfer trademark rights.",
+        "alt": "Gold Seven Kingdoms wordmark on black",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.7kfans.com/",
+            "label": "Official site: free real-time strategy game for Windows, macOS, and Linux",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/README",
+            "label": "Repository readme: GPL release and SourceForge downloads",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/COPYING",
+            "label": "GPL-2 game data with an Enlight trademark limitation",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-17",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
   }
 ]
