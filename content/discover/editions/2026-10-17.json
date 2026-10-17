@@ -1,0 +1,1053 @@
+{
+  "date": "2026-10-17",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-17T01:32:27.962Z",
+  "entries": [
+    {
+      "slug": "pingus",
+      "kind": "game",
+      "name": "Pingus",
+      "developer": "Ingo Ruhnke",
+      "category": "Puzzle",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://pingus.github.io/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Pingus is Ingo Ruhnke's side-view puzzle game about guiding a group of walking animals to an exit. The official site describes 77 levels, a world map, secret levels, a level editor, multiplayer, and actions such as building a bridge, digging, and a jumper. Stable downloads are listed for Windows, Intel Macs, and Linux source. The site says the game is free as in freedom under the GNU GPL, and it explicitly says that does not mean free of charge.",
+      "features": [
+        "Guide walking characters to an exit with commands such as building a bridge or digging.",
+        "Play 77 levels, including a world map, secret levels, and a jumper action.",
+        "Use the built-in level editor and the multiplayer mode described on the official site.",
+        "Download stable Windows and Intel Mac builds, or the Linux source archive.",
+        "The project states a GPL freedom grant and says that is not a promise of zero price."
+      ],
+      "insight": "Pingus is worth the detour because the animals keep walking unless you spend a command. The puzzle is the timing of those commands, and the site is honest that freedom to change the game is not a price tag.",
+      "officialUrl": "https://pingus.github.io/",
+      "discoverySource": {
+        "name": "Official Pingus repository",
+        "url": "https://raw.githubusercontent.com/Pingus/pingus/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://pingus.github.io/download.html"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Pingus/pingus"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://pingus.github.io/",
+        "githubRepo": "Pingus/pingus"
+      },
+      "asset": {
+        "path": "/images/discover/pingus.png",
+        "sourceUrl": "https://pingus.github.io/images/logo_pingus.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Pingus/pingus/master/LICENSE.txt",
+        "attribution": "Pingus logo from the official website. Copyright 1998-2015 Ingo Ruhnke. The site says the game is covered by the GNU GPL. Image used unmodified.",
+        "alt": "The word Pingus in green stone-textured letters on black",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/pingus-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://pingus.github.io/",
+            "label": "Official site: GPL game, 77 levels, editor, multiplayer, and no zero-price claim",
+            "checks": [
+              "identity",
+              "features",
+              "platforms",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://pingus.github.io/download.html",
+            "label": "Official stable downloads for Windows, Mac, and Linux source",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pingus/pingus/master/README.md",
+            "label": "Repository readme: GPLv3+ and desktop builds",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pingus/pingus/master/LICENSE.txt",
+            "label": "GPL-3.0 license text for the game",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://pingus.github.io/images/logo_pingus.png",
+            "label": "Official logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "enigma",
+      "kind": "game",
+      "name": "Enigma",
+      "developer": "The Enigma Team",
+      "category": "Puzzle",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.nongnu.org/enigma/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Enigma is a volunteer-made puzzle game in which you roll a black marble and uncover matching pairs of Oxyd stones. The project readme says the landscapes add traps, mazes, and more than 1,000 levels, with a tutorial included. Windows and Mac installs are downloadable packages, and Unix systems can be built from source. The readme grants GPL version 2 or later and does not state a monetary price; the website has a donation link instead.",
+      "features": [
+        "Roll a marble and uncover matching pairs of Oxyd stones in each landscape.",
+        "Work through traps, mazes, and more than 1,000 levels, starting with the tutorial.",
+        "Install the Windows or Mac package, or compile the Unix source.",
+        "The readme grants GPL-2.0 or any later version for the game.",
+        "The official site links downloads and donations and does not list a price."
+      ],
+      "insight": "Enigma looks like a marble toy until a hidden trap changes the route. The level menu is a stack of small floor plans, so the interesting choice is which puzzle to attempt, not a score chase.",
+      "officialUrl": "https://www.nongnu.org/enigma/",
+      "discoverySource": {
+        "name": "Official Enigma repository",
+        "url": "https://raw.githubusercontent.com/Enigma-Game/Enigma/master/README"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.nongnu.org/enigma/download.html"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Enigma-Game/Enigma"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.nongnu.org/enigma/",
+        "githubRepo": "Enigma-Game/Enigma"
+      },
+      "asset": {
+        "path": "/images/discover/enigma.png",
+        "sourceUrl": "https://www.nongnu.org/enigma/images/screenshots/levelmenu.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Enigma-Game/Enigma/master/COPYING",
+        "attribution": "Enigma level-menu screenshot from the official screenshots page. The Enigma Team. GPL-2.0 or later, as stated in the repository readme and COPYING. Image used unmodified.",
+        "alt": "Enigma level menu with small floor-plan thumbnails and a Main Menu button",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/enigma-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Enigma-Game/Enigma/master/README",
+            "label": "Repository readme: marble puzzle, platforms, and GPL-2.0 or later",
+            "checks": [
+              "identity",
+              "features",
+              "platforms",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.nongnu.org/enigma/",
+            "label": "Official homepage: downloads and a donation link, with no listed price",
+            "checks": [
+              "identity",
+              "price",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.nongnu.org/enigma/screenshots.html",
+            "label": "Official screenshots page containing the level-menu image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Enigma-Game/Enigma/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Enigma-Game/Enigma/master/ACKNOWLEDGEMENTS",
+            "label": "Third-party font and library credits; no exclusion of this screenshot",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.nongnu.org/enigma/images/screenshots/levelmenu.png",
+            "label": "Official level-menu screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wesnoth",
+      "kind": "game",
+      "name": "The Battle for Wesnoth",
+      "developer": "The Battle for Wesnoth Project",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.wesnoth.org/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "The Battle for Wesnoth is an open-source, turn-based strategy game with single-player campaigns and online or hot-seat multiplayer. The official site describes hand-animated units, 17 campaigns, 55 multiplayer maps, and more than 200 unit types across seven factions. Stable builds are offered for Windows, macOS, and Linux, and the same version is also linked on Steam and itch.io. The homepage does not state a monetary price; it says donations support the servers.",
+      "features": [
+        "Play turn-based battles in single-player campaigns or in online and hot-seat multiplayer.",
+        "Choose among 17 campaigns and 55 multiplayer maps on the official feature list.",
+        "Field more than 200 unit types from seven factions, with their own abilities and weapons.",
+        "Download the stable release for Windows, macOS, or Linux, or use the Steam and itch.io links.",
+        "Add community campaigns and factions from the official add-ons server."
+      ],
+      "insight": "Wesnoth's campaigns are sequences of tactical maps with their own stakes, so a session is about which unit still matters three turns from now. The add-on server is part of the game, not an afterthought.",
+      "officialUrl": "https://www.wesnoth.org/",
+      "discoverySource": {
+        "name": "Official Wesnoth site",
+        "url": "https://www.wesnoth.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.wesnoth.org/"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://wesnoth.itch.io/battle-for-wesnoth"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/599390"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/wesnoth/wesnoth"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.wesnoth.org/",
+        "githubRepo": "wesnoth/wesnoth"
+      },
+      "asset": {
+        "path": "/images/discover/wesnoth.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wesnoth/wesnoth/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/wesnoth/wesnoth/master/COPYING",
+        "attribution": "Battle for Wesnoth icon from the official repository, fastlane/metadata/android/en-US/images/icon.png. The Battle for Wesnoth Project. GPL-2.0. The COPYING file does not exclude this icon. Image used unmodified.",
+        "alt": "Blue and gold shield with a gold scepter, crossed by two swords",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/wesnoth-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.wesnoth.org/",
+            "label": "Official site: campaigns, factions, desktop downloads, Steam, itch.io, and no listed price",
+            "checks": [
+              "identity",
+              "features",
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://github.com/wesnoth/wesnoth",
+            "label": "Official repository identified as GPL-2.0",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wesnoth/wesnoth/master/COPYING",
+            "label": "GPL-2.0 license text for the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wesnoth/wesnoth/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Repository icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "aegis",
+      "kind": "app",
+      "name": "Aegis Authenticator",
+      "developer": "Beem Development",
+      "category": "Security",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/README.md",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Aegis Authenticator is Beem Development's free and open-source Android app for HOTP and TOTP codes. The vault is encrypted with AES-256-GCM and can be unlocked with a password or biometrics. Entries can be scanned from a QR code, typed in, or imported from other authenticator apps. The readme points to Google Play and F-Droid, and it licenses the project under GPL-3.0.",
+      "features": [
+        "Store HOTP and TOTP codes in an AES-256-GCM encrypted vault.",
+        "Unlock the vault with a password or with biometrics through the Android Keystore.",
+        "Add an entry from a QR code, a saved image, or manual details.",
+        "Import from other authenticator apps, including andOTP, FreeOTP, and Google Authenticator.",
+        "Group, sort, and search entries, then export a plaintext or encrypted backup."
+      ],
+      "insight": "The useful part of Aegis is the backup, not the six-digit code. An encrypted vault you can export is a different promise from codes that exist only on one phone.",
+      "officialUrl": "https://github.com/beemdevelopment/Aegis",
+      "discoverySource": {
+        "name": "Official Aegis repository",
+        "url": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/com.beemdevelopment.aegis"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/beemdevelopment/Aegis"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/beemdevelopment/Aegis",
+        "androidPackageId": "com.beemdevelopment.aegis",
+        "githubRepo": "beemdevelopment/Aegis"
+      },
+      "asset": {
+        "path": "/images/discover/aegis.png",
+        "sourceUrl": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/LICENSE",
+        "attribution": "Aegis icon from the official repository, metadata/en-US/images/icon.png. Beem Development. GPL-3.0. The readme does not exclude this icon. Image used unmodified.",
+        "alt": "Blue letter A formed by thick strokes on a pale rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/aegis-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/README.md",
+            "label": "Official readme: free Android authenticator, features, Play, F-Droid, and GPL-3.0",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/beemdevelopment/Aegis/master/metadata/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "redreader",
+      "kind": "app",
+      "name": "RedReader",
+      "developer": "QuantumBadger",
+      "category": "Social",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/QuantumBadger/RedReader",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "RedReader is QuantumBadger's unofficial Reddit client for Android. The project describes it as free and open source, with no ads or tracking, a cache of earlier posts and comments, and support for more than one account. It includes an image viewer and a GIF and video player, and it runs on Android 5.0 and later. The same readme links Google Play, F-Droid, and GitHub releases under GPL-3.0.",
+      "features": [
+        "Browse Reddit with no ads or tracking, as stated in the project readme.",
+        "Swipe a post to upvote, downvote, save, or hide it.",
+        "Keep earlier copies of posts and comments in the app's cache.",
+        "Use more than one account and a two-column layout on a large screen.",
+        "Open images, GIFs, and video in the built-in viewer."
+      ],
+      "insight": "RedReader is built around a cache and a swipe, so a thread can still be reread after the network drops. That is a more specific idea than another skin on the official client.",
+      "officialUrl": "https://github.com/QuantumBadger/RedReader",
+      "discoverySource": {
+        "name": "Official RedReader repository",
+        "url": "https://github.com/QuantumBadger/RedReader"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.quantumbadger.redreader"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/org.quantumbadger.redreader"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/QuantumBadger/RedReader/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/QuantumBadger/RedReader",
+        "androidPackageId": "org.quantumbadger.redreader",
+        "githubRepo": "QuantumBadger/RedReader"
+      },
+      "asset": {
+        "path": "/images/discover/redreader.png",
+        "sourceUrl": "https://raw.githubusercontent.com/QuantumBadger/RedReader/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/QuantumBadger/RedReader/master/LICENSE.txt",
+        "attribution": "RedReader icon from the official fastlane metadata. QuantumBadger. GPL-3.0. The readme does not exclude the icon. Image used unmodified.",
+        "alt": "White capital R centered on a red rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/redreader-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://github.com/QuantumBadger/RedReader",
+            "label": "Official readme: free Android Reddit client, features, stores, and GPL-3.0",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/QuantumBadger/RedReader/master/LICENSE.txt",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/QuantumBadger/RedReader/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "catima",
+      "kind": "app",
+      "name": "Catima",
+      "developer": "Catima contributors",
+      "category": "Wallet",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://github.com/CatimaLoyalty/catima",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Catima is a GPLv3+ Android app for keeping store loyalty and membership cards on the device. It can show many common barcode formats, import pkpass files, and work offline. A Wear OS companion is included, and Gadgetbridge is named for selected watches. The readme links Google Play and F-Droid but does not state a monetary price. The logo is credited to il-Luca and Aeven-Dev, based on Rose's original.",
+      "features": [
+        "Store loyalty and membership cards on the phone instead of carrying the originals.",
+        "Display barcodes including QR, PDF417, EAN, Code 128, Aztec, and Data Matrix.",
+        "Import cards from files, Catima exports, FidMe, Loyalty Card Keychain, and Voucher Vault.",
+        "Open pkpass files and use the Wear OS companion or Gadgetbridge for selected watches.",
+        "Use the app fully offline, as stated in the repository readme."
+      ],
+      "insight": "Catima is a wallet that stays on the device. The interesting choice is which barcode you can show without opening someone else's account, including a pass file you already have.",
+      "officialUrl": "https://github.com/CatimaLoyalty/catima",
+      "discoverySource": {
+        "name": "Official Catima repository",
+        "url": "https://github.com/CatimaLoyalty/catima"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=me.hackerchick.catima"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/me.hackerchick.catima/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/CatimaLoyalty/catima"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/CatimaLoyalty/catima",
+        "androidPackageId": "me.hackerchick.catima",
+        "githubRepo": "CatimaLoyalty/catima"
+      },
+      "asset": {
+        "path": "/images/discover/catima.png",
+        "sourceUrl": "https://raw.githubusercontent.com/CatimaLoyalty/catima/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/CatimaLoyalty/catima/main/LICENSE",
+        "attribution": "Catima icon from the official fastlane metadata. Logo contributed by il-Luca and Aeven-Dev, based on the original logo by Rose (TangentFoxy). GPLv3 or later. Image used unmodified.",
+        "alt": "Red cat-shaped wallet with a smile on a dark blue square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/catima-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://github.com/CatimaLoyalty/catima",
+            "label": "Official readme: offline loyalty cards, stores, GPLv3+, and logo credits",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CatimaLoyalty/catima/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CatimaLoyalty/catima/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "obtainium",
+      "kind": "app",
+      "name": "Obtainium",
+      "developer": "ImranR98",
+      "category": "App installer",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://github.com/ImranR98/Obtainium",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Obtainium installs and updates Android apps from their own release pages and can notify you when a release appears. ImranR98's readme lists sources such as GitHub, GitLab, Forgejo, F-Droid, and IzzyOnDroid, and it gives the package id dev.imranr.obtainium. The app itself is offered through GitHub releases, IzzyOnDroid, and an F-Droid flavour. The readme does not state a monetary price. The repository license is GPL-3.0.",
+      "features": [
+        "Add an app from its release page and receive a notification when a new release is published.",
+        "Track open-source sources including GitHub, GitLab, Forgejo, F-Droid, and SourceHut.",
+        "Use the package id dev.imranr.obtainium, with a signing certificate published in the readme.",
+        "Install Obtainium from GitHub releases, IzzyOnDroid, or its F-Droid flavour.",
+        "Import a crowd-sourced configuration, or open an app page inside the built-in web view."
+      ],
+      "insight": "Obtainium is a catalogue of other people's release pages. The point is to update an app from the place its developer actually ships it, which is a different job from a single store client.",
+      "officialUrl": "https://github.com/ImranR98/Obtainium",
+      "discoverySource": {
+        "name": "Official Obtainium repository",
+        "url": "https://github.com/ImranR98/Obtainium"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/ImranR98/Obtainium/releases"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/fdroid/index/apk/dev.imranr.obtainium"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.imranr.obtainium.fdroid/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/ImranR98/Obtainium",
+        "androidPackageId": "dev.imranr.obtainium",
+        "githubRepo": "ImranR98/Obtainium"
+      },
+      "asset": {
+        "path": "/images/discover/obtainium.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/icon_small.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/ImranR98/Obtainium/main/LICENSE.txt",
+        "attribution": "Obtainium icon from the official repository, assets/graphics/icon_small.png. ImranR98. GPL-3.0. The license file does not exclude the icon. Image used unmodified.",
+        "alt": "Purple square icon with a folded geometric shape",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/obtainium-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://github.com/ImranR98/Obtainium",
+            "label": "Official readme: Android release tracker, package id, install routes, and no stated price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ImranR98/Obtainium/master/README.md",
+            "label": "Repository readme mirror with the same product description",
+            "checks": [
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ImranR98/Obtainium/main/LICENSE.txt",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/icon_small.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "next-player",
+      "kind": "app",
+      "name": "Next Player",
+      "developer": "anilbeesetti",
+      "category": "Video",
+      "platforms": [
+        "Android",
+        "Android TV"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/anilbeesetti/NextPlayer",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Next Player is anilbeesetti's native Android video player, also offered for Android TV. The readme calls it completely free and open source, without ads or excessive permissions, and licenses it under GPL-3.0. It can play local files and URLs, select audio and subtitle tracks, change speed, and use picture-in-picture and background playback. Google Play and F-Droid links use the package dev.anilbeesetti.nextplayer.",
+      "features": [
+        "Play videos from device storage, the Android document picker, or a URL.",
+        "Choose audio and subtitle tracks, including external subtitle files, and adjust subtitle delay.",
+        "Change playback speed, zoom, and picture-in-picture, including background playback.",
+        "Browse files in a tree, a folder, or a file view, and open network storage such as SMB or WebDAV.",
+        "Use the Android TV interface and software decoders for H.264 and HEVC."
+      ],
+      "insight": "Next Player is a player that also reaches a file on another machine. Network folders and a TV layout make it more than a button that opens a video already on the phone.",
+      "officialUrl": "https://github.com/anilbeesetti/NextPlayer",
+      "discoverySource": {
+        "name": "Official Next Player repository",
+        "url": "https://github.com/anilbeesetti/NextPlayer"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=dev.anilbeesetti.nextplayer"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.anilbeesetti.nextplayer/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/anilbeesetti/NextPlayer"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/anilbeesetti/NextPlayer",
+        "androidPackageId": "dev.anilbeesetti.nextplayer",
+        "githubRepo": "anilbeesetti/NextPlayer"
+      },
+      "asset": {
+        "path": "/images/discover/next-player.png",
+        "sourceUrl": "https://raw.githubusercontent.com/anilbeesetti/NextPlayer/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/anilbeesetti/NextPlayer/main/LICENSE",
+        "attribution": "Next Player icon from the official fastlane metadata. anilbeesetti. GPL-3.0. The readme does not exclude the icon. Image used unmodified.",
+        "alt": "Pale blue play triangle on a dark rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/next-player-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://github.com/anilbeesetti/NextPlayer",
+            "label": "Official readme: free Android and TV player, features, stores, and GPL-3.0",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/anilbeesetti/NextPlayer/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/anilbeesetti/NextPlayer/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-documents",
+      "kind": "app",
+      "name": "Fossify Documents",
+      "developer": "Fossify",
+      "category": "Documents",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/documents/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Fossify Documents reads PDF, DOCX, text, Markdown, CSV, TSV, and HTML files on Android without an account. The app page says text and Markdown can be edited, CSV and TSV can be edited as plain text, and password-protected PDFs can be opened, zoomed, and printed. Recent files, favorites, selected folders, search, and sorting stay on the device. The page does not state a monetary price, and the app does not request Android's Internet permission.",
+      "features": [
+        "Open PDF, DOCX, text, Markdown, CSV, TSV, and HTML files.",
+        "Edit text and Markdown, and edit CSV or TSV as plain text.",
+        "Keep recent documents, favorites, and selected folders, with search and sorting.",
+        "Open password-protected PDFs and use page navigation, zoom, and printing.",
+        "Work offline: the app does not request Android's Internet permission."
+      ],
+      "insight": "A document app is useful when the file never has to go through an account. Fossify Documents keeps the folder list and the password-protected PDF on the phone.",
+      "officialUrl": "https://www.fossify.org/apps/documents/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.documents"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.documents/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Documents"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/documents/",
+        "androidPackageId": "org.fossify.documents",
+        "githubRepo": "FossifyOrg/Documents"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-documents.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/documents/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Documents artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "White document glyph on a green square",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/documents/",
+            "label": "Official Fossify Documents page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/documents/icon.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-voice-recorder",
+      "kind": "app",
+      "name": "Fossify Voice Recorder",
+      "developer": "Fossify",
+      "category": "Audio",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/voice-recorder/",
+        "checkedAt": "2026-10-17"
+      },
+      "summary": "Fossify Voice Recorder captures lectures, notes, and ideas on Android and keeps the recording list on the device. The app page describes playback, renaming, sharing, and deleting, plus a plain start screen for a new recording. It does not request Android's Internet permission, and recordings leave the phone only when you share or save them elsewhere. The page labels the current release as beta and does not state a monetary price.",
+      "features": [
+        "Record voice notes, meetings, and ideas from a plain start screen.",
+        "Play recordings back from a local list and manage the files there.",
+        "Rename, share, and delete recordings.",
+        "Keep audio on the device; the app does not request Internet permission.",
+        "The project marks the current release as beta."
+      ],
+      "insight": "Voice Recorder is a tape deck with a file list. The useful detail is that a recording stays on the phone until you choose to share it.",
+      "officialUrl": "https://www.fossify.org/apps/voice-recorder/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.voicerecorder"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.voicerecorder/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Voice-Recorder"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/voice-recorder/",
+        "androidPackageId": "org.fossify.voicerecorder",
+        "githubRepo": "FossifyOrg/Voice-Recorder"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-voice-recorder.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/voice-recorder/feature.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Voice Recorder artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Green Fossify banner with phones showing a waveform and a list of recordings",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-17",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/voice-recorder/",
+            "label": "Official Fossify Voice Recorder page: Android features, package, stores, and no stated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/voice-recorder/feature.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-17"
+          }
+        ]
+      }
+    }
+  ]
+}
