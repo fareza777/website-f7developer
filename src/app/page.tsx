@@ -140,6 +140,63 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <section className="pixelpicked-launch" aria-labelledby="dawnbound-launch-title">
+        <div className="container pixelpicked-launch-inner">
+          <div className="pixelpicked-launch-copy">
+            <span className="eyebrow">Now live on Android</span>
+            <h2 id="dawnbound-launch-title">
+              Carry the flame.
+              <br />
+              Wake the dawn<span>.</span>
+            </h2>
+            <p>
+              Dawnbound is a portrait action roguelite built for one-thumb
+              play. Shape each run through branching paths, spirit Boons, and
+              boss fights, then bring the light home to Emberhollow.
+            </p>
+            <div className="pixelpicked-launch-actions">
+              <a
+                className="button button-primary"
+                href="https://play.google.com/store/apps/details?id=com.fajar.dawnbound"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Play Dawnbound
+                <ArrowUpRightIcon size={18} />
+              </a>
+              <a
+                className="text-link"
+                href="https://pixelpicked.com/game/4wURejMsb8I/dawnbound-roguelike-rpg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on PixelPicked
+                <ArrowUpRightIcon size={18} />
+              </a>
+            </div>
+          </div>
+          <a
+            className="pixelpicked-launch-badge"
+            href="https://pixelpicked.com/game/4wURejMsb8I/dawnbound-roguelike-rpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Dawnbound verified on PixelPicked"
+          >
+            <span className="pixelpicked-launch-badge-label">
+              Verified game
+            </span>
+            <img
+              src="https://api.pixelpicked.com/api/badges/4wURejMsb8I/live.png?theme=dark"
+              width="250"
+              height="54"
+              alt="Approved on PixelPicked"
+            />
+            <span className="pixelpicked-launch-badge-note">
+              Explore the launch page
+            </span>
+          </a>
+        </div>
+      </section>
       <section className="apps-section">
         <div className="container section">
           <Reveal>

@@ -1,0 +1,589 @@
+{
+  "date": "2026-10-12",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-12T01:22:45.761Z",
+  "entries": [
+    {
+      "slug": "freeorion",
+      "kind": "game",
+      "name": "FreeOrion",
+      "developer": "FreeOrion Project",
+      "category": "Turn-based strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/freeorion/freeorion/master/README.md",
+        "checkedAt": "2026-10-12"
+      },
+      "summary": "FreeOrion is a free, open-source turn-based space-empire game. It uses the classic explore, expand, exploit, and exterminate model and is inspired by Master of Orion without trying to remake that series. Scripting is there so the community can change mechanics and presentation. The project publishes Windows, macOS, and Linux builds.",
+      "features": [
+        "Play a turn-based galactic campaign built on the classic 4X model.",
+        "Use the project's scripting so mechanics and presentation can be customized.",
+        "Run official builds on Windows 8.1 or later, macOS 10.12 or later, and recent Linux.",
+        "Requires an OpenGL 2.1 graphics card and a display of about 1280 by 800 or larger.",
+        "Download stable releases from GitHub, with Linux packages and Flathub also listed."
+      ],
+      "insight": "The scripted galaxy is the part worth sitting with: new technologies and species can enter the same campaign without a closed content pipeline. For F7, it is a lesser-known 4X whose own logo is covered by the project's Creative Commons artwork grant.",
+      "officialUrl": "https://github.com/freeorion/freeorion",
+      "discoverySource": {
+        "name": "Official FreeOrion repository",
+        "url": "https://github.com/freeorion/freeorion"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/freeorion/freeorion/releases"
+        },
+        {
+          "label": "Flathub",
+          "url": "https://flathub.org/apps/details/org.freeorion.FreeOrion"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/freeorion/freeorion",
+        "githubRepo": "freeorion/freeorion"
+      },
+      "asset": {
+        "path": "/images/discover/freeorion.png",
+        "sourceUrl": "https://raw.githubusercontent.com/freeorion/freeorion/master/default/data/art/logo.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/freeorion/freeorion/master/default/COPYING",
+        "attribution": "FreeOrion logo from default/data/art/logo.png. Artistic content, including artwork, is CC BY-SA 3.0 as stated in the project COPYING file. Not one of the listed third-party font or library exceptions. Image used unmodified.",
+        "alt": "FreeOrion wordmark in silver letters on red and blue bands",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/freeorion-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/freeorion/freeorion/master/README.md",
+            "label": "Official readme: free 4X game, platforms, downloads, and asset license summary",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freeorion/freeorion/master/default/COPYING",
+            "label": "Artistic content, including artwork, is CC BY-SA 3.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+            "label": "CC BY-SA 3.0 legal text for the FreeOrion logo notice",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "neverball",
+      "kind": "game",
+      "name": "Neverball",
+      "developer": "Robert Kooima",
+      "category": "Puzzle",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://neverball.org/",
+        "checkedAt": "2026-10-12"
+      },
+      "summary": "Neverball is a free, open-source skill and puzzle game led by Robert Kooima. You tilt the floor so a ball rolls through an obstacle course before the clock runs out, and coins open the exit and add extra balls. Desktop builds for Linux, Windows, and macOS also include Neverputt, a hot-seat miniature golf game. A browser version can be played without an install.",
+      "features": [
+        "Tilt the floor to guide a ball through a timed obstacle course.",
+        "Collect coins to unlock the exit and earn extra balls.",
+        "Play free official builds for Linux, Windows, and macOS.",
+        "The desktop download also includes Neverputt, a hot-seat miniature golf game.",
+        "Start a browser version from the official site, including on a phone home screen."
+      ],
+      "insight": "The tilt is the whole sport: the course stays still until you tip the world under the ball. For F7, Neverball is a small puzzle game that still ships a desktop set and a no-install browser build under a GPL grant that covers this course screenshot.",
+      "officialUrl": "https://neverball.org/",
+      "discoverySource": {
+        "name": "Official Neverball site",
+        "url": "https://neverball.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://neverball.org/download"
+        },
+        {
+          "label": "Web version",
+          "url": "https://play.neverball.org"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/Neverball/neverball"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://neverball.org/",
+        "githubRepo": "Neverball/neverball"
+      },
+      "asset": {
+        "path": "/images/discover/neverball.jpg",
+        "sourceUrl": "https://neverball.org/images/shots/01-neverball-easy/easy-07-01.jpg",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Neverball/neverball/master/LICENSE.md",
+        "attribution": "Official Neverball easy-course screenshot. Neverball is GPL-2.0-or-later; listed exceptions cover libraries, third-party fonts, and the separate Octocat ball. This image shows the checkerboard ball. Image used unmodified.",
+        "alt": "Neverball course with a checkerboard ball, coins, and a countdown",
+        "noticePath": "/images/discover/licenses/neverball-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": [
+          {
+            "url": "https://neverball.org/",
+            "label": "Official site: free puzzle game, desktop platforms, browser build, and Neverputt",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Neverball/neverball/master/README.md",
+            "label": "Readme: tilt controls, coins, extra balls, and the easy-course screenshot",
+            "checks": [
+              "features"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Neverball/neverball/master/LICENSE.md",
+            "label": "GPL-2.0-or-later for Neverball, with listed exceptions that do not cover this ball",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+            "label": "GNU GPL version 2 text included with the screenshot notice",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "openttd",
+      "kind": "game",
+      "name": "OpenTTD",
+      "developer": "OpenTTD Team",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/master/README.md",
+        "checkedAt": "2026-10-12"
+      },
+      "summary": "OpenTTD is a free transport simulation based on Transport Tycoon Deluxe, maintained as its own open-source game and extended with newer features. The project supports Linux, macOS, and Windows, with stable and nightly downloads from the official site. The same readme also lists free copies on Steam, GOG, and the Microsoft Store. A community wiki holds the gameplay manual.",
+      "features": [
+        "Run a transport simulation that follows Transport Tycoon Deluxe and adds newer features.",
+        "Choose a tested stable download or a newer nightly build from the official site.",
+        "Play on Linux, macOS, and Windows.",
+        "Install a free copy from Steam, GOG, or the Microsoft Store, as listed by the project.",
+        "Read the community wiki for the gameplay manual and tips."
+      ],
+      "insight": "OpenTTD keeps a deep transport sandbox officially free on Steam as well as on its own site. The orange dollar-sign icon in this edition is a file inside that same GPL distribution, not a separately reserved logo.",
+      "officialUrl": "https://www.openttd.org/",
+      "discoverySource": {
+        "name": "Official OpenTTD repository",
+        "url": "https://github.com/OpenTTD/OpenTTD"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://www.openttd.org/"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1536610/OpenTTD/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/OpenTTD/OpenTTD"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.openttd.org/",
+        "githubRepo": "OpenTTD/OpenTTD"
+      },
+      "asset": {
+        "path": "/images/discover/openttd.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/master/media/openttd.128.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/master/README.md",
+        "attribution": "OpenTTD icon, media/openttd.128.png. The project readme says GPL-2.0 applies to every file in the distribution except listed third-party code, and this icon is not in that list. Image used unmodified.",
+        "alt": "Orange OpenTTD diamond logo with a dollar sign",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openttd-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/master/README.md",
+            "label": "Official readme: free transport sim, platforms, stores, and GPL scope for all files",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/master/COPYING.md",
+            "label": "GPL-2.0 license text shipped with OpenTTD",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+            "label": "GNU GPL version 2 text included with the icon notice",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gadgetbridge",
+      "kind": "app",
+      "name": "Gadgetbridge",
+      "developer": "Gadgetbridge project",
+      "category": "Device companion",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://gadgetbridge.org/",
+        "checkedAt": "2026-10-12"
+      },
+      "summary": "Gadgetbridge is a free, open-source Android app for pairing smart watches, bands, headphones, and similar gadgets without the vendor's closed application. The project says you do not need an account and that your data is not sent to the vendor's servers. The homepage names Pebble, Mi Band, Amazfit Bip, HPlus, and other devices. Standard builds and a separate nightly repository are linked from the site.",
+      "features": [
+        "Pair watches, bands, headphones, and other gadgets without the vendor app.",
+        "Skip the vendor account and avoid sending gadget data to the vendor's servers.",
+        "Use named support for Pebble, Mi Band, Amazfit Bip, HPlus, and more devices.",
+        "Install the standard release from F-Droid, as linked on the official site.",
+        "Add the project's nightly F-Droid repository when you want newer, less stable builds."
+      ],
+      "insight": "Gadgetbridge treats the watch as a local device rather than an account. For F7, it is a practical Android tool whose launcher icon has its own Creative Commons credit, separate from the AGPL that covers the code.",
+      "officialUrl": "https://gadgetbridge.org/",
+      "discoverySource": {
+        "name": "Official Gadgetbridge site",
+        "url": "https://gadgetbridge.org/"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/app/nodomain.freeyourgadget.gadgetbridge"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/fdroid/index/apk/nodomain.freeyourgadget.gadgetbridge"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/Freeyourgadget/Gadgetbridge"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://gadgetbridge.org/",
+        "androidPackageId": "nodomain.freeyourgadget.gadgetbridge",
+        "githubRepo": "Freeyourgadget/Gadgetbridge"
+      },
+      "asset": {
+        "path": "/images/discover/gadgetbridge.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Freeyourgadget/Gadgetbridge/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Freeyourgadget/Gadgetbridge/master/LICENSE.artwork",
+        "attribution": "Gadgetbridge launcher icon by xphnx. LICENSE.artwork places ic_launcher.png under CC BY-SA 4.0. Image used unmodified.",
+        "alt": "Blue Gadgetbridge icon with a raised fist wearing a watch",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/gadgetbridge-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": [
+          {
+            "url": "https://gadgetbridge.org/",
+            "label": "Official site: free Android gadget companion, devices, and F-Droid links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Freeyourgadget/Gadgetbridge/master/LICENSE.artwork",
+            "label": "ic_launcher.png is CC BY-SA 4.0 by xphnx",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+            "label": "CC BY-SA 4.0 legal text included with the icon notice",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gpstest",
+      "kind": "app",
+      "name": "GPSTest",
+      "developer": "Sean J. Barbeau",
+      "category": "Navigation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/barbeau/gpstest/master/README.md",
+        "checkedAt": "2026-10-12"
+      },
+      "summary": "GPSTest is Sean J. Barbeau's open-source Android app for inspecting a phone's satellite navigation. Where the hardware and Android 8 or newer allow it, the app reads dual-frequency signals from GPS, GLONASS, Galileo, BeiDou, QZSS, and NavIC, plus several regional augmentation systems. The repository also explains how to send those measurements to the system log. The readme does not state a monetary price.",
+      "features": [
+        "Inspect GNSS signals, including dual-frequency data when the phone and Android version support it.",
+        "Read GPS, GLONASS, Galileo, BeiDou, QZSS, and NavIC constellations.",
+        "Show augmentation systems such as WAAS, EGNOS, GAGAN, MSAS, and SouthPAN.",
+        "Log GNSS measurements for later accuracy checks, as described in the project docs.",
+        "Install the Google Play build or the separate F-Droid osmdroid build linked in the readme."
+      ],
+      "insight": "GPSTest is a field instrument rather than a map: it tells you which satellites the phone can actually see. For F7, that makes it a useful Android utility from a single maintainer, with a launcher icon that sits inside the Apache-licensed repository.",
+      "officialUrl": "https://github.com/barbeau/gpstest",
+      "discoverySource": {
+        "name": "Official GPSTest repository",
+        "url": "https://github.com/barbeau/gpstest"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.android.gpstest"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.android.gpstest.osmdroid/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/barbeau/gpstest",
+        "androidPackageId": "com.android.gpstest",
+        "githubRepo": "barbeau/gpstest"
+      },
+      "asset": {
+        "path": "/images/discover/gpstest.png",
+        "sourceUrl": "https://raw.githubusercontent.com/barbeau/gpstest/master/icons/ic_launcher-playstore.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/barbeau/gpstest/master/LICENSE",
+        "attribution": "GPSTest launcher icon from icons/ic_launcher-playstore.png. Repository LICENSE is Apache-2.0 and copyrights The Android Open Source Project and Sean J. Barbeau. No root NOTICE file was present. Image used unmodified.",
+        "alt": "GPSTest icon with a blue satellite arc over two peaks",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/gpstest-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/barbeau/gpstest/master/README.md",
+            "label": "Official readme: GNSS constellations, logging, Play and F-Droid links; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/barbeau/gpstest/master/LICENSE",
+            "label": "Apache-2.0 for the repository, with no icon exception in that file",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "open-food-facts",
+      "kind": "app",
+      "name": "Open Food Facts",
+      "developer": "Open Food Facts",
+      "category": "Food",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://world.openfoodfacts.org/terms-of-use",
+        "checkedAt": "2026-10-12"
+      },
+      "summary": "Open Food Facts is a nonprofit that keeps a collaborative database of packaged foods. Its Android app, linked from the official site, opens a shared product record from a barcode, including nutrition and environmental notes shown in the project's app mockup. The press hub calls that app open source, ad-free, and privacy-first. The terms and press pages checked do not state a download price.",
+      "features": [
+        "Scan a barcode to open a collaboratively edited packaged-food record.",
+        "Read nutrition details and environmental notes such as Nutri-Score and Eco-Score in the official mockup.",
+        "Use product photos that contributors place under CC BY-SA, with the database under the Open Database License.",
+        "Install the Android app from the Google Play listing linked on the official site.",
+        "Read the project description of the app as open source, ad-free, and privacy-first."
+      ],
+      "insight": "Open Food Facts turns a grocery barcode into a public record instead of a private loyalty profile. For F7, the Android app is a practical scanner from a French nonprofit, and the press mockup used here is media the project itself marks as Creative Commons.",
+      "officialUrl": "https://world.openfoodfacts.org/",
+      "discoverySource": {
+        "name": "Official Open Food Facts site",
+        "url": "https://world.openfoodfacts.org/press"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/openfoodfacts/smooth-app"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://world.openfoodfacts.org/",
+        "androidPackageId": "org.openfoodfacts.scanner",
+        "githubRepo": "openfoodfacts/smooth-app"
+      },
+      "asset": {
+        "path": "/images/discover/open-food-facts.png",
+        "sourceUrl": "https://world.openfoodfacts.org/images/misc/mobileapp/new_openfoodfacts_app_en_light_3_screenshots.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+        "attribution": "Official Open Food Facts Android app mockup from the press hub. The hub states that media are CC-BY-SA, and the terms of use identify images as CC BY-SA 3.0. Open Food Facts. Image used unmodified.",
+        "alt": "Three phones showing the Open Food Facts app and its logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/open-food-facts-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-12",
+        "sources": [
+          {
+            "url": "https://world.openfoodfacts.org/terms-of-use",
+            "label": "Terms: open food database, image CC BY-SA 3.0, and the official Play listing; no app price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://world.openfoodfacts.org/press",
+            "label": "Press hub: ad-free privacy-first Android app mockup, and media marked CC-BY-SA",
+            "checks": [
+              "features",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+            "label": "CC BY-SA 3.0 legal text for the press mockup",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-12"
+          }
+        ]
+      }
+    }
+  ]
+}
