@@ -17,6 +17,7 @@ import {
   ContactBanner,
 } from "@/components/ui";
 import { Reveal } from "@/components/reveal";
+import { LivingHero } from "@/components/living-hero/living-hero";
 import { games, apps, updates } from "@/lib/data";
 import { siteOrigin } from "@/lib/seo";
 import { getLatestEdition, discoveryPath, discoverDate } from "@/lib/discover";
@@ -44,6 +45,7 @@ export default function Home() {
           priority
           sizes="100vw"
         />
+        <LivingHero />
         <div className="hero-shade" />
         <div className="container hero-inner">
           <div className="hero-copy">
@@ -52,9 +54,15 @@ export default function Home() {
               Independent game & software studio
             </span>
             <h1 id="hero-title">
-              F7
+              <span className="hero-word">
+                <span>F7</span>
+              </span>
               <br />
-              Developer<span>.</span>
+              <span className="hero-word">
+                <span>
+                  Developer<span className="hero-dot">.</span>
+                </span>
+              </span>
             </h1>
             <p className="hero-tagline">Small Studio. Big Ideas.</p>
             <p className="hero-description">
