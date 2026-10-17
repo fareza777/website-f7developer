@@ -91,7 +91,7 @@ export default function DiscoverAboutPage() {
             factual corrections and artwork requests.
           </p>
           <a
-            href="mailto:fajar.mreza@gmail.com?subject=F7%20Discover%20correction"
+            href="mailto:fajar.mreza@f7developer.com?subject=F7%20Discover%20correction"
             className="button button-primary"
           >
             Send a correction

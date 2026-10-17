@@ -26,6 +26,6 @@ export function buildContactEmail({ name, email, topic, message }) {
   const recipient =
     topic === "Press & collaboration"
       ? "founder@wawasanai.com"
-      : "fajar.mreza@gmail.com";
+      : "fajar.mreza@f7developer.com";
   return `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }

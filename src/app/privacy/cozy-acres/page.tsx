@@ -78,7 +78,7 @@ export default function CozyAcresPrivacyPage() {
       <h2>Contact</h2>
       <p>
         Questions about this policy can be sent to{" "}
-        <a href="mailto:fajar.mreza@gmail.com">fajar.mreza@gmail.com</a>.
+        <a href="mailto:fajar.mreza@f7developer.com">fajar.mreza@f7developer.com</a>.
       </p>
     </article>
   );

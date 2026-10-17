@@ -41,7 +41,7 @@ test("contact drafts preserve special characters without creating extra email he
     message: "Hello?\nI need help & details.",
   });
   const url = new URL(email);
-  assert.equal(url.pathname, "fajar.mreza@gmail.com");
+  assert.equal(url.pathname, "fajar.mreza@f7developer.com");
   assert.equal(url.searchParams.get("subject"), "F7 Developer | Game support");
   assert.match(url.searchParams.get("body"), /A & B/);
   assert.match(

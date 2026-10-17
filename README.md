@@ -46,7 +46,7 @@ See [operations](docs/discover/OPERATIONS.md), [source access policy](docs/disco
 
 ## Contact
 
-The form prepares a `mailto:` draft. It does not submit, store, or send visitor messages. Visitors review and send the draft in their own email app. Support drafts use `fajar.mreza@gmail.com`; press and collaboration drafts use `founder@wawasanai.com`. Both addresses were verified on the public Google Play listing. Direct email links remain available if no email app is configured.
+The form prepares a `mailto:` draft. It does not submit, store, or send visitor messages. Visitors review and send the draft in their own email app. Support drafts use `fajar.mreza@f7developer.com`; press and collaboration drafts use `founder@wawasanai.com`. The support address is the studio's own f7developer.com mailbox; the press address was verified on the public Google Play listing. Direct email links remain available if no email app is configured.
 
 ## Deployment
 

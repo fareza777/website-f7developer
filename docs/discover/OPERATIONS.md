@@ -40,7 +40,7 @@ Use your shell's environment syntax on Windows. Images are checked before applyi
 
 Review records are `{ candidate, queuedAt, reasons }`. Candidates may be incomplete and are never shown as verified entries. Preserve prior records in daily automation. A separately reviewed maintenance change can resolve/archive them; the daily path cannot delete them. Never publish uncertainty to empty the queue.
 
-Historical corrections or artwork requests are separate reviewed changes with a reason and fresh evidence. Contact: `fajar.mreza@gmail.com`.
+Historical corrections or artwork requests are separate reviewed changes with a reason and fresh evidence. Contact: `fajar.mreza@f7developer.com`.
 
 ## Recovery and performance
 

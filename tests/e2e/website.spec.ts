@@ -249,7 +249,7 @@ test("contact prepares a truthful, correctly addressed email draft", async ({
   const draft = await page
     .getByRole("link", { name: "open the draft", exact: true })
     .getAttribute("href");
-  expect(draft).toContain("mailto:fajar.mreza@gmail.com?");
+  expect(draft).toContain("mailto:fajar.mreza@f7developer.com?");
   expect(decodeURIComponent(draft!)).toContain("Alex & Morgan");
   await expect(page.locator(".draft-status")).not.toContainText(
     "sent successfully",

@@ -14,7 +14,7 @@ export type Product = {
 
 export const developerUrl =
   "https://play.google.com/store/apps/dev?id=7590575640597683388";
-export const supportEmail = "fajar.mreza@gmail.com";
+export const supportEmail = "fajar.mreza@f7developer.com";
 export const businessEmail = "founder@wawasanai.com";
 
 export const founderSocialLinks = [
