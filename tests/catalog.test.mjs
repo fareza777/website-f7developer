@@ -51,12 +51,12 @@ test("contact drafts preserve special characters without creating extra email he
   assert.equal([...url.searchParams.keys()].length, 2);
 });
 
-test("press and collaboration drafts go to the studio's business address", () => {
+test("press and collaboration drafts go to the same studio address", () => {
   const draft = buildContactEmail({
     name: "Alex",
     email: "alex@example.com",
     topic: "Press & collaboration",
     message: "Studio enquiry",
   });
-  assert.equal(new URL(draft).pathname, "founder@wawasanai.com");
+  assert.equal(new URL(draft).pathname, "fajar.mreza@f7developer.com");
 });

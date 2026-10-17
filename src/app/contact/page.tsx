@@ -7,7 +7,7 @@ import {
   GooglePlayLogoIcon,
   GithubLogoIcon,
 } from "@/components/icons";
-import { supportEmail, businessEmail, developerUrl } from "@/lib/data";
+import { supportEmail, developerUrl } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata(
@@ -33,26 +33,16 @@ export default function ContactPage() {
           <div className="contact-channel">
             <EnvelopeSimpleIcon size={24} />
             <div>
-              <h3>Game & app support</h3>
+              <h3>Support, press & collaboration</h3>
               <a href={`mailto:${supportEmail}`}>
                 {supportEmail}
                 <ArrowUpRightIcon size={16} />
               </a>
               <p>
                 Include the product name, device, and app version when reporting
-                an issue.
+                an issue. Studio enquiries, coverage, and collaborations are
+                welcome too.
               </p>
-            </div>
-          </div>
-          <div className="contact-channel">
-            <ArrowUpRightIcon size={24} />
-            <div>
-              <h3>Press & collaboration</h3>
-              <a href={`mailto:${businessEmail}`}>
-                {businessEmail}
-                <ArrowUpRightIcon size={16} />
-              </a>
-              <p>For studio enquiries, coverage, and working together.</p>
             </div>
           </div>
           <div className="contact-links">

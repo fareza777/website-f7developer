@@ -23,9 +23,6 @@ export function filterCatalog(entries, filter = "All", query = "") {
 export function buildContactEmail({ name, email, topic, message }) {
   const subject = `F7 Developer | ${topic.replace(/[\r\n]/g, " ")}`;
   const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-  const recipient =
-    topic === "Press & collaboration"
-      ? "founder@wawasanai.com"
-      : "fajar.mreza@f7developer.com";
+  const recipient = "fajar.mreza@f7developer.com";
   return `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
