@@ -1,0 +1,725 @@
+{
+  "date": "2026-10-24",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-24T01:14:36.446Z",
+  "entries": [
+    {
+      "slug": "teeworlds",
+      "kind": "game",
+      "name": "Teeworlds",
+      "developer": "Magnus Auvinen",
+      "category": "Shooter",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.teeworlds.com/",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "Teeworlds is Magnus Auvinen's retro online shooter. The official site calls it a free multiplayer game for major operating systems and describes battles of up to 16 players, including Team Deathmatch and Capture The Flag, plus the option to design maps. Version 0.7.5 is offered there as Windows, Linux, and Mac OS X downloads, with source archives and a GitHub link.",
+      "features": [
+        "Play online with up to 16 players in modes that include Team Deathmatch and Capture The Flag.",
+        "Design maps as well as joining matches, according to the official site.",
+        "Download Teeworlds 0.7.5 for Windows 64-bit and 32-bit, Linux x86 and x86_64, and Mac OS X.",
+        "Source zip and tar.gz archives are linked beside those builds.",
+        "Repository license.txt places data and datasrc artwork, except the font, under CC BY-SA 3.0."
+      ],
+      "insight": "Teeworlds is a small-arena shooter where the interesting part is the map you bring, not a ladder. Sixteen players and a map editor on the same free download is a compact way to learn why its physics still has a following.",
+      "officialUrl": "https://www.teeworlds.com/",
+      "discoverySource": {
+        "name": "Official Teeworlds site",
+        "url": "https://www.teeworlds.com/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.teeworlds.com/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/teeworlds/teeworlds"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.teeworlds.com/",
+        "githubRepo": "teeworlds/teeworlds"
+      },
+      "asset": {
+        "path": "/images/discover/teeworlds.png",
+        "sourceUrl": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/datasrc/game.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+        "attribution": "Teeworlds datasrc/game.png by the content authors named in license.txt, including Magnus Auvinen. Content under data and datasrc except the font is CC BY-SA 3.0. Image used unmodified.",
+        "alt": "Sprite sheet of Teeworlds weapons, flags, hearts, and projectiles on white",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/teeworlds-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://www.teeworlds.com/",
+            "label": "Official site: free shooter, 16 players, modes, map design, and 0.7.5 downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/README.md",
+            "label": "Repository readme: original author Magnus Auvinen and the same game description",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/license.txt",
+            "label": "license.txt: CC BY-SA 3.0 for data and datasrc except the font",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+            "label": "CC BY-SA 3.0 legal code saved locally",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/datasrc/game.png",
+            "label": "Official datasrc sprite sheet used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "freeciv",
+      "kind": "game",
+      "name": "Freeciv",
+      "developer": "The Freeciv project",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.freeciv.org/download.html",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "Freeciv is an open-source empire-building strategy game inspired by the history of human civilization. The official site describes leading a tribe from the Stone Age to the Space Age. Stable 3.2.6 source archives are posted with Windows 10-or-later installers, including clients that include a map editor, a ruleset editor, and Linux AppImages. The download page does not state a monetary price.",
+      "features": [
+        "Build an empire in a strategy game the site ties to the history of human civilization.",
+        "The site's own description says the mission runs from the Stone Age to the Space Age.",
+        "Windows packages include GTK clients with a map editor, a Qt client, an SDL2 client, and a ruleset editor.",
+        "Linux players can use the gtk4 AppImage with a map editor and a separate modpack installer AppImage.",
+        "Source is available as tar.xz and zip archives, and the repository identifies the game as GPL v2."
+      ],
+      "insight": "Freeciv is worth opening for the client choice on one ruleset: a map editor, a ruleset editor, and an experimental SDL view are separate downloads of the same game. The site still does not turn its open-source wording into a price, so the download page is the place to check.",
+      "officialUrl": "https://www.freeciv.org/",
+      "discoverySource": {
+        "name": "Official Freeciv repository",
+        "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.freeciv.org/download.html"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/freeciv/freeciv"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.freeciv.org/",
+        "githubRepo": "freeciv/freeciv"
+      },
+      "asset": {
+        "path": "/images/discover/freeciv.png",
+        "sourceUrl": "https://raw.githubusercontent.com/freeciv/freeciv/main/data/icons/128x128/freeciv-client.png",
+        "license": "GPL-2.0-only",
+        "licenseUrl": "https://raw.githubusercontent.com/freeciv/freeciv/main/COPYING",
+        "attribution": "Freeciv client icon from data/icons/128x128/freeciv-client.png. The repository COPYING file is GPL version 2. Image used unmodified.",
+        "alt": "Golden globe icon labeled FREECIV",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/freeciv-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://www.freeciv.org/",
+            "label": "Official site: empire-building game and Stone Age to Space Age description",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.freeciv.org/download.html",
+            "label": "Official downloads: Windows and Linux clients, editors, source, and no stated price",
+            "checks": [
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/README.md",
+            "label": "Repository readme: GPL v2 empire-building strategy game",
+            "checks": [
+              "identity",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/COPYING",
+            "label": "GPL version 2 text for the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/data/icons/128x128/freeciv-client.png",
+            "label": "Official client icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-calculator",
+      "kind": "app",
+      "name": "Fossify Calculator",
+      "developer": "Fossify",
+      "category": "Utilities",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/calculator/",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "Fossify Calculator is an Android utility for offline arithmetic, advanced functions, and unit conversion. The official page lists history, button vibration, display preferences, and theme controls. It says the app does not request Android's Internet permission and does not send calculations or history to Fossify. The page names package org.fossify.math and links Google Play, F-Droid, and GitHub, without stating a monetary price.",
+      "features": [
+        "Run basic arithmetic plus roots, powers, and other common functions.",
+        "Convert common units and review calculation history on the device.",
+        "Adjust button vibration, the display, and theme colors.",
+        "Use it offline: the page says it does not request the Internet permission.",
+        "The page identifies the Android package as org.fossify.math and marks the app beta."
+      ],
+      "insight": "A calculator that keeps history on the phone and skips the Internet permission is a small tool with a clear boundary. F7 is pointing at it because the conversion and history stay in the app page's own description, not in an account.",
+      "officialUrl": "https://www.fossify.org/apps/calculator/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/calculator/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.math"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.math/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Calculator"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/calculator/",
+        "androidPackageId": "org.fossify.math",
+        "githubRepo": "FossifyOrg/Calculator"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-calculator.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/calculator/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Calculator icon by Fossify. Used unmodified from the current app page under the press-kit permission for articles and directories, without changing proportions or colors.",
+        "alt": "Official Fossify Calculator icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/calculator/",
+            "label": "Official features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app icons in articles and directories if proportions and colors stay intact",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/calculator/icon.webp",
+            "label": "Official calculator icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-paint",
+      "kind": "app",
+      "name": "Fossify Paint",
+      "developer": "Fossify",
+      "category": "Drawing",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/paint/",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "Fossify Paint is an Android drawing app for sketches and notes. The official page describes a canvas, brush size and color controls, custom backgrounds, and export to PNG, JPG, and SVG. It says drawing works offline without an account and that the app does not request Android's Internet permission. Package org.fossify.paint is linked to Google Play, F-Droid, and GitHub. No monetary price is stated.",
+      "features": [
+        "Draw on a canvas with brush size and color controls.",
+        "Set a custom background for sketches and notes.",
+        "Export drawings as PNG, JPG, or SVG.",
+        "Work offline without a Fossify account, and without the Internet permission.",
+        "The page says drawings leave the device only when you export or share them."
+      ],
+      "insight": "Fossify Paint is a sketchbook that ends in a file you chose to export, including SVG. That export step is the useful part: the drawing stays on the device until you send it somewhere else.",
+      "officialUrl": "https://www.fossify.org/apps/paint/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/paint/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.paint"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.paint/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Paint"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/paint/",
+        "androidPackageId": "org.fossify.paint",
+        "githubRepo": "FossifyOrg/Paint"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-paint.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/paint/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Paint icon by Fossify. Used unmodified from the current app page under the press-kit permission for articles and directories, without changing proportions or colors.",
+        "alt": "Official Fossify Paint icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/paint/",
+            "label": "Official drawing features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app icons in articles and directories if proportions and colors stay intact",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/paint/icon.webp",
+            "label": "Official paint icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-phone",
+      "kind": "app",
+      "name": "Fossify Phone",
+      "developer": "Fossify",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/phone/",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "Fossify Phone is an Android dialer for calls, favorites, blocking, and call history. The official page lists contact shortcuts, number blocking, multi-SIM support where Android exposes it, and theme controls. It says the app does not request the Internet permission and that Fossify does not receive call content or call history. Package org.fossify.phone is linked to Google Play, F-Droid, and GitHub. No monetary price is stated.",
+      "features": [
+        "Place calls from a dialer with recent calls, favorites, and contact shortcuts.",
+        "Block numbers and use call-handling controls.",
+        "Use multi-SIM support where Android exposes it.",
+        "Keep call history for follow-up actions, with theme and color controls.",
+        "The page says Fossify does not receive call content or call history and does not request Internet access."
+      ],
+      "insight": "Fossify Phone is a dialer that states a hard limit: the carrier and the phone account handle the call, and Fossify says it does not receive the history. That is the reason to try it when the default phone app is doing more than dialing.",
+      "officialUrl": "https://www.fossify.org/apps/phone/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/phone/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.phone"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.phone/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Phone"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/phone/",
+        "androidPackageId": "org.fossify.phone",
+        "githubRepo": "FossifyOrg/Phone"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-phone.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/phone/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Phone icon by Fossify. Used unmodified from the current app page under the press-kit permission for articles and directories, without changing proportions or colors.",
+        "alt": "Official Fossify Phone icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/phone/",
+            "label": "Official dialer features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app icons in articles and directories if proportions and colors stay intact",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/phone/icon.webp",
+            "label": "Official phone icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-contacts",
+      "kind": "app",
+      "name": "Fossify Contacts",
+      "developer": "Fossify",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/contacts/",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "Fossify Contacts is an Android address book for people stored on the device. The official page describes search, favorites, groups, custom fields, and vCard import and export, plus actions to call, message, or email. It says the app does not request the Internet permission and that Fossify does not run its own contact sync service. Package org.fossify.contacts is linked to Google Play, F-Droid, and GitHub. No monetary price is stated.",
+      "features": [
+        "Search contacts, mark favorites, and edit custom fields.",
+        "Group people and teams in the on-device address book.",
+        "Import and export contacts as vCard files.",
+        "Start a call, message, or email from a contact.",
+        "The page says Fossify does not operate a contact sync service and does not request Internet access."
+      ],
+      "insight": "The useful split is local editing plus vCard files, while any sync stays with an account already on the phone. Fossify Contacts says it does not add a sync service of its own, which is the part worth checking against the contacts app you use now.",
+      "officialUrl": "https://www.fossify.org/apps/contacts/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/contacts/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.contacts"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.contacts/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Contacts"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/contacts/",
+        "androidPackageId": "org.fossify.contacts",
+        "githubRepo": "FossifyOrg/Contacts"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-contacts.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/contacts/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Contacts icon by Fossify. Used unmodified from the current app page under the press-kit permission for articles and directories, without changing proportions or colors.",
+        "alt": "Official Fossify Contacts icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/contacts/",
+            "label": "Official address-book features, package, store links, and unstated monetary price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app icons in articles and directories if proportions and colors stay intact",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/contacts/icon.webp",
+            "label": "Official contacts icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fairemail",
+      "kind": "app",
+      "name": "FairEmail",
+      "developer": "FairCode B.V.",
+      "category": "Email",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/M66B/FairEmail/master/README.md",
+        "checkedAt": "2026-10-24"
+      },
+      "summary": "FairEmail is FairCode B.V.'s Android email client for providers you already have, including accounts reached by IMAP, POP3, and SMTP. The repository describes a unified inbox, conversation threading, two-way sync, push, offline storage, and OpenPGP or S/MIME. It also lists optional pro conveniences and says Play Store and GitHub builds are the official releases. The readme does not state a monetary price.",
+      "features": [
+        "Read and send mail through standard IMAP, POP3, and SMTP, with multiple accounts and a unified inbox.",
+        "Thread conversations, sync both ways, store mail for offline use, and receive push with IMAP IDLE.",
+        "Confirm images and links, and use OpenPGP or S/MIME when you need encryption.",
+        "Optional pro tools include per-account notification sounds, snooze, reply templates, and scheduled send.",
+        "The project says Play Store and GitHub releases are official, and it links F-Droid with extra cautions."
+      ],
+      "insight": "FairEmail is an inbox for an address you already own, with the tracking prompts placed before images and links open. The pro list is real, and the readme still does not price it, so the official repository is the page to check before assuming the base app and the extras cost the same.",
+      "officialUrl": "https://github.com/M66B/FairEmail",
+      "discoverySource": {
+        "name": "Official FairEmail repository",
+        "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=eu.faircode.email"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/M66B/FairEmail/releases"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/eu.faircode.email/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/M66B/FairEmail",
+        "androidPackageId": "eu.faircode.email",
+        "githubRepo": "M66B/FairEmail"
+      },
+      "asset": {
+        "path": "/images/discover/fairemail.png",
+        "sourceUrl": "https://raw.githubusercontent.com/M66B/FairEmail/master/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/M66B/FairEmail/master/LICENSE",
+        "attribution": "FairEmail launcher icon by Marcel Bokhorst, FairCode B.V. The repository LICENSE is GPL-3.0-or-later. ATTRIBUTION.md lists other libraries and icons and does not name this launcher file as an exception. Image used unmodified.",
+        "alt": "Blue rounded square with a white envelope",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/fairemail-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-24",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/README.md",
+            "label": "Official readme: Android email features, Play and GitHub distribution, pro features, and no stated price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/LICENSE",
+            "label": "GPL-3.0-or-later license text for the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/ATTRIBUTION.md",
+            "label": "Third-party notices do not exclude the launcher file",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-24"
+          }
+        ]
+      }
+    }
+  ]
+}
