@@ -1,0 +1,1246 @@
+{
+  "date": "2026-10-25",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-25T01:26:29.251Z",
+  "entries": [
+    {
+      "slug": "teeworlds",
+      "kind": "game",
+      "name": "Teeworlds",
+      "developer": "Magnus Auvinen and contributors",
+      "category": "Shooter",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.teeworlds.com/",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Teeworlds is Magnus Auvinen's retro online multiplayer shooter. The official site and repository describe battles with up to 16 players, Team Deathmatch and Capture The Flag, and a built-in map editor. Version 0.7.5 is offered as Windows 32-bit and 64-bit, Linux x86 and x86_64, macOS, and source archives. license.txt places the engine under a zlib-style grant and datasrc artwork under CC-BY-SA 3.0.",
+      "features": [
+        "Play a retro multiplayer shooter with up to 16 people on one server.",
+        "Use game modes that include Team Deathmatch and Capture The Flag.",
+        "Design maps in the editor described on the official site.",
+        "Download 0.7.5 for Windows, Linux, and macOS from teeworlds.com.",
+        "Treat datasrc graphics as CC-BY-SA 3.0; the engine uses a separate zlib-style notice."
+      ],
+      "insight": "The interesting constraint is the cartoon physics, not a military sim. Sixteen players on a hand-made map still has to read as a doodle, which is why the art grant on datasrc matters as much as the netcode.",
+      "officialUrl": "https://www.teeworlds.com/",
+      "discoverySource": {
+        "name": "Official Teeworlds repository",
+        "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.teeworlds.com/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/teeworlds/teeworlds"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.teeworlds.com/",
+        "githubRepo": "teeworlds/teeworlds"
+      },
+      "asset": {
+        "path": "/images/discover/teeworlds.png",
+        "sourceUrl": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/datasrc/game.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/license.txt",
+        "attribution": "Teeworlds datasrc/game.png by the Teeworlds content authors listed in license.txt. CC-BY-SA 3.0. Image used unmodified.",
+        "alt": "Teeworlds sprite sheet of cartoon characters and game objects on a transparent field",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/teeworlds-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://www.teeworlds.com/",
+            "label": "Official site: free multiplayer shooter, 16 players, modes, map editor, and OS downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/README.md",
+            "label": "Official readme: platforms, zlib-style software notice, and teeworlds.com",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/license.txt",
+            "label": "license.txt: datasrc content is CC-BY-SA 3.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/teeworlds/teeworlds/master/datasrc/game.png",
+            "label": "Official datasrc sprite sheet used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "terasology",
+      "kind": "game",
+      "name": "Terasology",
+      "developer": "MovingBlocks",
+      "category": "Voxel sandbox",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/MovingBlocks/Terasology/develop/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Terasology is MovingBlocks' voxel sandbox that began as a Minecraft-inspired tech demo and is now a module platform. The readme requires Windows, macOS, or 64-bit Linux, a dual-core CPU, 4 GB of RAM, and OpenGL 3.3, and it points people to the launcher at terasology.org/downloads plus GitHub releases. Code is Apache 2.0. Artwork, including the repository logo, is CC BY 4.0 unless a credit says otherwise. Monetary price is not stated.",
+      "features": [
+        "Play a voxel world intended as a platform for several gameplay modules.",
+        "Meet the stated 64-bit Windows, macOS, or Linux setup with OpenGL 3.3.",
+        "Install through the official launcher, or use a GitHub release if you already have JDK 17.",
+        "Download modules after the first launcher fetch; offline play is described once that step is done.",
+        "Treat code as Apache 2.0 and artwork as CC BY 4.0 unless a credit names an exception."
+      ],
+      "insight": "Terasology is interesting as a kit, not a finished theme park. The launcher-and-module split is the product: you are meant to swap rules in a voxel world instead of waiting for one studio campaign.",
+      "officialUrl": "https://github.com/MovingBlocks/Terasology",
+      "discoverySource": {
+        "name": "Official Terasology repository",
+        "url": "https://raw.githubusercontent.com/MovingBlocks/Terasology/develop/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://terasology.org/downloads/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/MovingBlocks/Terasology"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MovingBlocks/Terasology",
+        "githubRepo": "MovingBlocks/Terasology"
+      },
+      "asset": {
+        "path": "/images/discover/terasology.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MovingBlocks/Terasology/develop/docs/images/terasology-logo.png",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Terasology logo from docs/images/terasology-logo.png by MovingBlocks contributors. CC BY 4.0 as stated in the README artwork licence. Image used unmodified.",
+        "alt": "Terasology wordmark in blocky letters with a voxel creature beside it",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/terasology-CC-BY-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MovingBlocks/Terasology/develop/README.md",
+            "label": "Official readme: voxel platform, OS requirements, launcher, Apache code, CC BY 4.0 art",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "label": "CC BY 4.0 deed linked from the Terasology README artwork badge",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MovingBlocks/Terasology/develop/docs/images/terasology-logo.png",
+            "label": "Official repository logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://terasology.org/downloads/",
+            "label": "Official launcher download page linked from the README",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "stendhal",
+      "kind": "game",
+      "name": "Stendhal",
+      "developer": "Arianne Project",
+      "category": "MMORPG",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://stendhalgame.org/",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Stendhal is the Arianne Project's free multiplayer online adventure. The official site describes a large world of cities, forests, mountains, plains, and dungeons, with NPCs that hand out quests. A Java desktop client runs on Windows, Mac, and Linux. An Android client is offered, and the download page links F-Droid package org.stendhalgame.client. Client and server are stated to be GNU GPL. Play in a browser is also described.",
+      "features": [
+        "Explore towns, wilderness, and dungeons in a persistent multiplayer world.",
+        "Take quests from NPCs and fight creatures to gain experience.",
+        "Play the classic Java client on Windows, Mac, and Linux.",
+        "Install the Android client from the developer-linked F-Droid package org.stendhalgame.client.",
+        "Use the browser client described on the homepage when a Java install is not wanted."
+      ],
+      "insight": "Stendhal is worth a look because the same GPL client, server, and world data are the product. You are not renting a shard; the Arianne project publishes the pieces you would need to host or change the game.",
+      "officialUrl": "https://stendhalgame.org/",
+      "discoverySource": {
+        "name": "Official Stendhal site",
+        "url": "https://stendhalgame.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://stendhalgame.org/download.html"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.stendhalgame.client/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/arianne/stendhal"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://stendhalgame.org/",
+        "androidPackageId": "org.stendhalgame.client",
+        "githubRepo": "arianne/stendhal"
+      },
+      "asset": {
+        "path": "/images/discover/stendhal.png",
+        "sourceUrl": "https://stendhalgame.org/wiki/images/0/08/Web_client-2020.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/arianne/stendhal/master/LICENSE.txt",
+        "attribution": "Official Stendhal web-client screenshot Web_client-2020.png from the project screenshots gallery. Arianne Project. GNU GPL as stated on the download page. Image used unmodified.",
+        "alt": "Stendhal web client showing a tiled town square with player characters",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/stendhal-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://stendhalgame.org/",
+            "label": "Official homepage: free MORPG, world, quests, and open source claim",
+            "checks": [
+              "identity",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://stendhalgame.org/download.html",
+            "label": "Download page: GPL client and server, desktop, Android, and F-Droid",
+            "checks": [
+              "platforms",
+              "distribution",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/arianne/stendhal/master/LICENSE.txt",
+            "label": "GPL-2.0 license text from the official repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/arianne/stendhal/master/README.md",
+            "label": "Official readme: browser, mobile PWA, and independent open-source stack",
+            "checks": [
+              "identity",
+              "platforms",
+              "features"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://stendhalgame.org/wiki/images/0/08/Web_client-2020.png",
+            "label": "Official screenshots-gallery image used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tux-paint",
+      "kind": "game",
+      "name": "Tux Paint",
+      "developer": "Bill Kendrick and Tux Paint contributors",
+      "category": "Kids drawing",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://tuxpaint.org/",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Tux Paint is free drawing software for children. The official site says it is aimed at ages 3 to 12, plays sound effects, and uses a cartoon mascot for hints. Drawing tools include brushes, stamps, lines, shapes, fill, and magic effects. Builds are listed for Windows 8 and later, macOS 10.10 and later, Linux, Android phones and tablets, Haiku, and Android-capable Chromebooks. The download page states there is no cost and no advertisements, under GPL version 2. Google Play package org.tuxpaint.android is linked by the Android download page.",
+      "features": [
+        "Draw on a fixed canvas with brushes, stamps, lines, shapes, fill, and magic effects.",
+        "Hear sound effects and see Tux give hints while tools are used.",
+        "Save and load pictures as thumbnails so children do not need filenames.",
+        "Install on Windows, macOS, Linux, Android, and Android-capable Chromebooks.",
+        "Use the developer Google Play listing org.tuxpaint.android or the linked F-Droid page."
+      ],
+      "insight": "Tux Paint is interesting because it hides the filesystem. The canvas size is fixed on purpose, which is a design choice most adult art tools refuse, and that is exactly why a school machine can run it without a lesson on folders.",
+      "officialUrl": "https://tuxpaint.org/",
+      "discoverySource": {
+        "name": "Official Tux Paint site",
+        "url": "https://tuxpaint.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://tuxpaint.org/download/"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.tuxpaint.android"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/repository/browse/?fdid=org.tuxpaint"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://tuxpaint.org/",
+        "androidPackageId": "org.tuxpaint.android"
+      },
+      "asset": {
+        "path": "/images/discover/tux-paint.png",
+        "sourceUrl": "https://tuxpaint.org/screenshots/start-t.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://tuxpaint.org/download/",
+        "attribution": "Official Tux Paint developer screenshot start-t.png from tuxpaint.org/screenshots/. The download page releases Tux Paint under GNU GPL version 2. Image used unmodified.",
+        "alt": "Tux Paint window with an empty canvas, tool bar, and Tux the penguin",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/tux-paint-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://tuxpaint.org/",
+            "label": "Official homepage: free kids drawing software, platforms, and no-advertisement claim",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://tuxpaint.org/download/",
+            "label": "Download page: GPL-2, no cost, and desktop packages",
+            "checks": [
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://tuxpaint.org/download/android/",
+            "label": "Android download page: Google Play org.tuxpaint.android and F-Droid",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://tuxpaint.org/features/",
+            "label": "Features page: tools, stamps, simple interface, and OS list",
+            "checks": [
+              "features",
+              "platforms"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://tuxpaint.org/screenshots/start-t.png",
+            "label": "Official developer screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "angband",
+      "kind": "game",
+      "name": "Angband",
+      "developer": "Angband Dev Team",
+      "category": "Roguelike",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/angband/angband/master/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Angband is a graphical dungeon adventure in the Rogue and NetHack tradition. The official repository describes walls, floors, and inhabitants as characters or tiles, and it points to in-game help on the question-mark key. copying.rst licenses the game under GNU GPL version 2 or the Angband licence, with named exceptions for SDL and certain tilesets. Monetary price is not stated. The GitHub readme is used as the primary evidence because angband.github.io returned a GitHub Pages site-not-found robots response.",
+      "features": [
+        "Explore a dungeon represented with characters or optional tile graphics.",
+        "Open in-game help with the question-mark key described in the readme.",
+        "Compile from the official GitHub sources, or follow the compiling notes linked there.",
+        "Treat the core game as GPL-2 or the Angband licence, and keep named tileset exceptions separate."
+      ],
+      "insight": "Angband is still a long-form dungeon, not a mobile session. The useful discovery is how carefully copying.rst splits the tilesets from the game, which is the same discipline a studio should use before reuse.",
+      "officialUrl": "https://github.com/angband/angband",
+      "discoverySource": {
+        "name": "Official Angband repository",
+        "url": "https://raw.githubusercontent.com/angband/angband/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/angband/angband"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/angband/angband",
+        "githubRepo": "angband/angband"
+      },
+      "asset": {
+        "path": "/images/discover/angband.png",
+        "sourceUrl": "https://raw.githubusercontent.com/angband/angband/master/screenshots/title.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/angband/angband/master/docs/copying.rst",
+        "attribution": "Official Angband title screenshot screenshots/title.png from the repository. GPL-2 or Angband licence per docs/copying.rst; this file is not a named tileset exception. Image used unmodified.",
+        "alt": "Angband title screen with a dungeon adventurer and the Angband wordmark",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/angband-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/angband/angband/master/README.md",
+            "label": "Official readme: dungeon adventure, help key, and GitHub distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/angband/angband/master/docs/copying.rst",
+            "label": "copying.rst: GPL-2 or Angband licence and named graphics exceptions",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/angband/angband/master/screenshots/title.png",
+            "label": "Official title screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fairemail",
+      "kind": "app",
+      "name": "FairEmail",
+      "developer": "Marcel Bokhorst / FairCode B.V.",
+      "category": "Email",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/M66B/FairEmail/master/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "FairEmail is Marcel Bokhorst's privacy-oriented Android email client. The official readme says it works with ordinary providers such as Gmail, Outlook, and Yahoo, and that you bring your own address. It lists unlimited accounts, a unified inbox, conversation threading, two-way sync, push notifications, offline storage, OpenPGP and S/MIME, and a small APK. Google Play, GitHub releases, and F-Droid are linked for package eu.faircode.email. Play versus GitHub differences are documented, so monetary price is not claimed.",
+      "features": [
+        "Connect ordinary IMAP and SMTP accounts, including Gmail, Outlook, and Yahoo, using your own address.",
+        "Use a unified inbox, conversation threading, two-way sync, and push notifications.",
+        "Keep messages available offline and compose with common text styles.",
+        "Encrypt with OpenPGP or S/MIME and confirm images and links before they load.",
+        "Install the developer-linked Google Play, GitHub, or F-Droid builds of eu.faircode.email."
+      ],
+      "insight": "FairEmail is useful because it treats images and links as hazards until you agree. That is a better default for mail than a client that fetches every remote asset to look modern.",
+      "officialUrl": "https://github.com/M66B/FairEmail",
+      "discoverySource": {
+        "name": "Official FairEmail repository",
+        "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=eu.faircode.email"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/eu.faircode.email/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/M66B/FairEmail"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/M66B/FairEmail",
+        "androidPackageId": "eu.faircode.email",
+        "githubRepo": "M66B/FairEmail"
+      },
+      "asset": {
+        "path": "/images/discover/fairemail.png",
+        "sourceUrl": "https://raw.githubusercontent.com/M66B/FairEmail/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/M66B/FairEmail/master/LICENSE",
+        "attribution": "FairEmail launcher icon from the official repository. Copyright 2018-2026 Marcel Bokhorst. GPL-3.0-or-later as stated in the README. Image used unmodified.",
+        "alt": "FairEmail envelope icon on a blue rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/fairemail-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/README.md",
+            "label": "Official readme: Android mail client, features, Play, F-Droid, GitHub, and GPL-3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/FairEmail/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ankidroid",
+      "kind": "app",
+      "name": "AnkiDroid",
+      "developer": "AnkiDroid Open Source Team",
+      "category": "Education",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "AnkiDroid is the official Android port of the Anki spaced-repetition flashcard system. The readme lists night mode, a whiteboard, a progress widget, statistics, AnkiWeb sync, optional typed answers, text-to-speech, FSRS scheduling, and cards that may include text, images, sound, and MathJax. It links Google Play package com.ichi2.anki and an F-Droid browse page, and COPYING is GNU GPL version 3. Monetary price is not stated on the readme.",
+      "features": [
+        "Review flashcards with spaced repetition, including the FSRS scheduler named in the readme.",
+        "Sync decks with AnkiWeb and add cards from other apps by intent.",
+        "Use night mode, a whiteboard, statistics, and an optional typed-answer field.",
+        "Play text-to-speech and show images, sound, or MathJax on a card.",
+        "Install the developer-linked Google Play listing com.ichi2.anki."
+      ],
+      "insight": "AnkiDroid is the phone half of a desktop study habit. The useful part is that a deck you already maintain on a computer can move to a commute without becoming a separate product.",
+      "officialUrl": "https://github.com/ankidroid/Anki-Android",
+      "discoverySource": {
+        "name": "Official AnkiDroid repository",
+        "url": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ichi2.anki"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/repository/browse/?fdid=com.ichi2.anki"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/ankidroid/Anki-Android"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/ankidroid/Anki-Android",
+        "androidPackageId": "com.ichi2.anki",
+        "githubRepo": "ankidroid/Anki-Android"
+      },
+      "asset": {
+        "path": "/images/discover/ankidroid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/docs/graphics/logos/ankidroid_logo.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/COPYING",
+        "attribution": "AnkiDroid logo from docs/graphics/logos/ankidroid_logo.png in the official repository. GPL-3.0 via COPYING; no separate exclusion was found for this file. Image used unmodified.",
+        "alt": "AnkiDroid star-like mark in blue and green on a dark circle",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ankidroid-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/README.md",
+            "label": "Official readme: Android Anki port, features, Play, F-Droid, and COPYING",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/COPYING",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ankidroid/Anki-Android/main/docs/graphics/logos/ankidroid_logo.png",
+            "label": "Official logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ntfy",
+      "kind": "app",
+      "name": "ntfy",
+      "developer": "Philipp C. Heckel",
+      "category": "Notifications",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/binwiederhier/ntfy/master/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "ntfy is Philipp C. Heckel's HTTP pub-sub notification tool. The server readme says you can send a message to a phone or desktop with PUT or POST, without signing up or paying fees, and that you may run your own instance. The Android app repository places the client on Google Play and F-Droid as io.heckel.ntfy under Apache License 2.0. ntfy.sh itself returned no robots file, so the GitHub readmes are the evidence used here.",
+      "features": [
+        "Publish a notification with a simple HTTP PUT or POST.",
+        "Receive those messages on the official Android app.",
+        "Skip an account on the public service, as the server readme describes.",
+        "Run your own ntfy instance when you do not want a shared host.",
+        "Install io.heckel.ntfy from the developer-linked Play Store or F-Droid page."
+      ],
+      "insight": "ntfy is useful because a cron job can talk to a phone without a vendor SDK. That is a better fit for a homelab than a closed push console.",
+      "officialUrl": "https://github.com/binwiederhier/ntfy",
+      "discoverySource": {
+        "name": "Official ntfy Android repository",
+        "url": "https://raw.githubusercontent.com/binwiederhier/ntfy-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.heckel.ntfy"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.heckel.ntfy/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/binwiederhier/ntfy-android"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/binwiederhier/ntfy-android",
+        "androidPackageId": "io.heckel.ntfy",
+        "githubRepo": "binwiederhier/ntfy-android"
+      },
+      "asset": {
+        "path": "/images/discover/ntfy.png",
+        "sourceUrl": "https://raw.githubusercontent.com/binwiederhier/ntfy/master/web/public/static/images/ntfy.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/binwiederhier/ntfy/master/LICENSE",
+        "attribution": "ntfy mark from web/public/static/images/ntfy.png in the official ntfy repository. Apache License 2.0. Image used unmodified.",
+        "alt": "ntfy bell-and-speech-bubble mark on a dark rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ntfy-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/binwiederhier/ntfy/master/README.md",
+            "label": "ntfy server readme: HTTP pub-sub, no signup or fees, self-host option",
+            "checks": [
+              "identity",
+              "features",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/binwiederhier/ntfy-android/main/README.md",
+            "label": "Android app readme: Play, F-Droid, GitHub, Apache 2.0",
+            "checks": [
+              "identity",
+              "platforms",
+              "distribution",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/binwiederhier/ntfy/master/LICENSE",
+            "label": "Apache License 2.0 text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/binwiederhier/ntfy/master/web/public/static/images/ntfy.png",
+            "label": "Official ntfy mark used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/binwiederhier/ntfy-android/main/LICENSE",
+            "label": "Android app Apache License 2.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "thunderbird-android",
+      "kind": "app",
+      "name": "Thunderbird for Android",
+      "developer": "MZLA Technologies and Thunderbird contributors",
+      "category": "Email",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Thunderbird for Android is the Thunderbird project's privacy-focused mail app, based on K-9 Mail. The official readme describes multiple accounts, an optional unified inbox, Google Play and F-Droid listings for net.thunderbird.android, and GitHub releases. The repository LICENSE is Apache License 2.0. Monetary price is not stated.",
+      "features": [
+        "Manage more than one email account in a single Android app.",
+        "Use an optional unified inbox as described in the official readme.",
+        "Install the developer-linked Google Play listing net.thunderbird.android.",
+        "Install the same package from the developer-linked F-Droid page or GitHub releases.",
+        "Review the Apache License 2.0 text shipped in the official repository."
+      ],
+      "insight": "Thunderbird for Android is the K-9 lineage with a public mail brand. The useful discovery is that the same open client now sits next to the desktop app instead of being a separate unofficial fork.",
+      "officialUrl": "https://github.com/thunderbird/thunderbird-android",
+      "discoverySource": {
+        "name": "Official Thunderbird for Android repository",
+        "url": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=net.thunderbird.android"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.thunderbird.android"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/thunderbird/thunderbird-android"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/thunderbird/thunderbird-android",
+        "androidPackageId": "net.thunderbird.android",
+        "githubRepo": "thunderbird/thunderbird-android"
+      },
+      "asset": {
+        "path": "/images/discover/thunderbird-android.png",
+        "sourceUrl": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/app-metadata/net.thunderbird.android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/LICENSE",
+        "attribution": "Thunderbird for Android icon from official Play metadata in the repository. Apache License 2.0. Image used unmodified.",
+        "alt": "Thunderbird bird mark in orange, yellow, and blue",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/thunderbird-android-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/README.md",
+            "label": "Official readme: Android mail app, accounts, Play, F-Droid, GitHub",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/LICENSE",
+            "label": "Apache License 2.0 text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/thunderbird/thunderbird-android/main/app-metadata/net.thunderbird.android/en-US/images/icon.png",
+            "label": "Official metadata icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "etar",
+      "kind": "app",
+      "name": "Etar Calendar",
+      "developer": "Etar Group",
+      "category": "Calendar",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Etar is an open-source Material calendar for Android. The readme lists month, week, day, and agenda views, Android calendar storage, dark and light themes, an offline calendar, an agenda widget, and ICS import, export, and sharing. Google Play and F-Droid listings for ws.xsoh.etar are linked. CalDAV sync is described as a job for another app such as DAVx5. LICENSE is GNU GPL version 3. Monetary price is not stated.",
+      "features": [
+        "View calendars in month, week, day, and agenda layouts.",
+        "Use Android calendar storage, including an offline calendar you create on the device.",
+        "Switch dark and light Material themes and place an agenda widget.",
+        "Import, export, and share calendars as ICS files.",
+        "Install ws.xsoh.etar from the developer-linked Google Play or F-Droid page."
+      ],
+      "insight": "Etar is useful because it refuses to be the sync engine. It shows providers the phone already has, which keeps CalDAV policy in DAVx5 instead of a second closed account screen.",
+      "officialUrl": "https://github.com/Etar-Group/Etar-Calendar",
+      "discoverySource": {
+        "name": "Official Etar repository",
+        "url": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ws.xsoh.etar"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/ws.xsoh.etar/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Etar-Group/Etar-Calendar"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Etar-Group/Etar-Calendar",
+        "androidPackageId": "ws.xsoh.etar",
+        "githubRepo": "Etar-Group/Etar-Calendar"
+      },
+      "asset": {
+        "path": "/images/discover/etar.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/LICENSE",
+        "attribution": "Etar launcher icon from the official repository. GPL-3.0. Image used unmodified.",
+        "alt": "Etar calendar leaf icon in red and white",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/etar-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/README.md",
+            "label": "Official readme: Material calendar, views, Play, F-Droid, GPL-3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Etar-Group/Etar-Calendar/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "termux",
+      "kind": "app",
+      "name": "Termux",
+      "developer": "Termux developers",
+      "category": "Terminal",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/termux/termux-app/master/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Termux is an Android terminal and Linux environment. The official readme says this repository is the user interface and terminal emulation, while packages live in termux/termux-packages. Installation is documented for Android 7 and later from F-Droid package com.termux and GitHub, with a warning that Play Store builds are an experimental branch. LICENSE.md places termux-app under GPLv3 only. Monetary price is not stated.",
+      "features": [
+        "Run a terminal and Linux environment on Android 7 and later.",
+        "Install optional plugins such as Termux:API, Boot, Float, Styling, Tasker, and Widget.",
+        "Use F-Droid package com.termux or GitHub builds; signatures differ between sources.",
+        "Treat packages as a separate termux-packages project from the app UI.",
+        "Read the Android 12 process-limit warning before relying on long-running jobs."
+      ],
+      "insight": "Termux is useful as a pocket POSIX box, not as a Play-store toy. The important operational fact is that F-Droid and GitHub signatures are different, so you pick one source and stay there.",
+      "officialUrl": "https://github.com/termux/termux-app",
+      "discoverySource": {
+        "name": "Official Termux repository",
+        "url": "https://raw.githubusercontent.com/termux/termux-app/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.termux/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/termux/termux-app"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/termux/termux-app",
+        "androidPackageId": "com.termux",
+        "githubRepo": "termux/termux-app"
+      },
+      "asset": {
+        "path": "/images/discover/termux.png",
+        "sourceUrl": "https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-only",
+        "licenseUrl": "https://raw.githubusercontent.com/termux/termux-app/master/LICENSE.md",
+        "attribution": "Termux launcher icon from the official repository. GPLv3 only per LICENSE.md; named exceptions cover terminal libraries, not this icon. Image used unmodified.",
+        "alt": "Termux white greater-than prompt on a dark rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/termux-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/termux/termux-app/master/README.md",
+            "label": "Official readme: Android terminal, plugins, F-Droid, GitHub, Android 7+",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/termux/termux-app/master/LICENSE.md",
+            "label": "GPLv3-only statement with named library exceptions",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/termux/termux-app/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "seal",
+      "kind": "app",
+      "name": "Seal",
+      "developer": "JunkFood02",
+      "category": "Media",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/JunkFood02/Seal/main/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "Seal is JunkFood02's Android video and audio downloader built around yt-dlp. The official readme lists playlist downloads, aria2c, subtitle embedding, metadata and thumbnail embedding for audio, custom command templates, and a Material Design 3 interface. Stable builds are on GitHub releases and F-Droid package com.junkfood.seal. LICENSE is GNU GPL version 3. Monetary price is not stated. No Google Play link appears in the readme.",
+      "features": [
+        "Download video and audio from sites supported by yt-dlp.",
+        "Grab a whole playlist in one action and optionally embed subtitles.",
+        "Embed metadata and thumbnails into extracted audio with mutagen.",
+        "Run custom yt-dlp command templates and use embedded aria2c.",
+        "Install com.junkfood.seal from GitHub releases or the developer-linked F-Droid page."
+      ],
+      "insight": "Seal is useful as a licensed front-end for yt-dlp on a phone. The interesting part is the template, not a single site button, because that is how you keep a download recipe when a host changes.",
+      "officialUrl": "https://github.com/JunkFood02/Seal",
+      "discoverySource": {
+        "name": "Official Seal repository",
+        "url": "https://raw.githubusercontent.com/JunkFood02/Seal/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.junkfood.seal"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/JunkFood02/Seal"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/JunkFood02/Seal",
+        "androidPackageId": "com.junkfood.seal",
+        "githubRepo": "JunkFood02/Seal"
+      },
+      "asset": {
+        "path": "/images/discover/seal.png",
+        "sourceUrl": "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/JunkFood02/Seal/main/LICENSE",
+        "attribution": "Seal Fastlane icon from the official repository. GPL-3.0. Image used unmodified.",
+        "alt": "Seal app icon of a stylized sea lion on a dark rounded square",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/seal-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/JunkFood02/Seal/main/README.md",
+            "label": "Official readme: yt-dlp Android client, features, F-Droid, GitHub",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/JunkFood02/Seal/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official Fastlane icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    }
+  ]
+}
