@@ -2089,5 +2089,491 @@
     "reasons": [
       "Artwork requires evidenced reuse permission"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "icsx5",
+      "kind": "app",
+      "name": "ICSx5",
+      "developer": "bitfire web engineering",
+      "category": "Calendar",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md",
+        "checkedAt": "2026-10-25"
+      },
+      "summary": "ICSx5 subscribes Android to remote Webcal / iCalendar feeds. The official readme points to F-Droid package at.bitfire.icsdroid and GNU GPL v3. The project website robots.txt was a GitHub Pages not-found document, so that host was not used as evidence.",
+      "features": [
+        "Subscribe to remote Webcal feeds and iCalendar files.",
+        "Install at.bitfire.icsdroid from the developer-linked F-Droid page.",
+        "Redistribute under GNU GPL v3 as stated in the readme."
+      ],
+      "insight": "ICSx5 is the subscribe-only twin of a CalDAV stack: feeds in, without pretending to be a full account client.",
+      "officialUrl": "https://github.com/bitfireAT/icsx5",
+      "discoverySource": {
+        "name": "Official ICSx5 repository",
+        "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/at.bitfire.icsdroid/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bitfireAT/icsx5"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/bitfireAT/icsx5",
+        "androidPackageId": "at.bitfire.icsdroid",
+        "githubRepo": "bitfireAT/icsx5"
+      },
+      "asset": {
+        "path": "/images/discover/icsx5.png",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/LICENSE",
+        "attribution": "ICSx5 launcher icon from the official repository. GPL-3.0. Image used unmodified.",
+        "alt": "ICSx5 calendar mark",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/icsx5-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-25",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md",
+            "label": "Official readme: Webcal subscriber, F-Droid, GPL-3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-25"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "triplea",
+      "kind": "game",
+      "name": "TripleA",
+      "developer": "TripleA contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "summary": "Incomplete: GPL-3 strategy engine with Windows, Mac, and Linux installers on triplea-game.org, but no isolated official PNG was retrieved from the repository.",
+      "features": [
+        "Turn-based strategy engine",
+        "Community maps",
+        "Multiplayer lobby"
+      ],
+      "insight": "Held for artwork.",
+      "officialUrl": "https://triplea-game.org/download/",
+      "identity": {
+        "canonicalUrl": "https://triplea-game.org/",
+        "githubRepo": "triplea-game/triplea"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "insight must contain 30–650 characters",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "openra",
+      "kind": "game",
+      "name": "OpenRA",
+      "developer": "OpenRA developers",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "summary": "Incomplete: GPL-3 RTS engine for Westwood classics; openra.net robots.txt returned the HTML 404 page so the site was skipped, and packaging PNG paths 404ed.",
+      "features": [
+        "Red Alert",
+        "Tiberian Dawn",
+        "Dune 2000 mods"
+      ],
+      "insight": "Held for artwork and original-game-data dependency notes.",
+      "officialUrl": "https://github.com/OpenRA/OpenRA",
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenRA/OpenRA",
+        "githubRepo": "OpenRA/OpenRA"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "the-mana-world",
+      "kind": "game",
+      "name": "The Mana World",
+      "developer": "The Mana World",
+      "category": "MMORPG",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "summary": "Incomplete: official site describes a GPL 2D MMORPG, but no isolated licensed PNG was retrieved after /about redirected.",
+      "features": [
+        "2D MMORPG",
+        "GPL server"
+      ],
+      "insight": "Held for artwork.",
+      "officialUrl": "https://www.themanaworld.org/",
+      "identity": {
+        "canonicalUrl": "https://www.themanaworld.org/"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "joplin",
+      "kind": "app",
+      "name": "Joplin",
+      "developer": "Laurent Cozic",
+      "category": "Notes",
+      "platforms": [
+        "Android"
+      ],
+      "summary": "Incomplete: AGPL code, but LICENSE reserves Joplin logos and icons without permission.",
+      "features": [
+        "Markdown notes",
+        "E2EE sync"
+      ],
+      "insight": "Artwork not reusable.",
+      "officialUrl": "https://github.com/laurent22/joplin",
+      "identity": {
+        "canonicalUrl": "https://github.com/laurent22/joplin",
+        "githubRepo": "laurent22/joplin"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "vinyl-music-player",
+      "kind": "app",
+      "name": "Vinyl Music Player",
+      "developer": "VinylMusicPlayer contributors",
+      "category": "Music",
+      "platforms": [
+        "Android"
+      ],
+      "summary": "Incomplete: GPL-3 player, but the readme credits the icon to Nikita Golubev on Flaticon, which is not a Discover reuse grant.",
+      "features": [
+        "Local music player",
+        "Android Auto"
+      ],
+      "insight": "Icon is third-party Flaticon art.",
+      "officialUrl": "https://github.com/VinylMusicPlayer/VinylMusicPlayer",
+      "identity": {
+        "canonicalUrl": "https://github.com/VinylMusicPlayer/VinylMusicPlayer",
+        "androidPackageId": "com.poupa.vinylmusicplayer",
+        "githubRepo": "VinylMusicPlayer/VinylMusicPlayer"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "features must contain 3–6 substantiated highlights",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "amaze-file-manager",
+      "kind": "app",
+      "name": "Amaze File Manager",
+      "developer": "TeamAmaze",
+      "category": "Files",
+      "platforms": [
+        "Android"
+      ],
+      "summary": "Incomplete: Play and F-Droid links for com.amaze.filemanager, but LICENSE and LICENSE.md at repository root returned 404.",
+      "features": [
+        "Material file manager",
+        "Root explorer"
+      ],
+      "insight": "Missing license file at guessed paths.",
+      "officialUrl": "https://github.com/TeamAmaze/AmazeFileManager",
+      "identity": {
+        "canonicalUrl": "https://github.com/TeamAmaze/AmazeFileManager",
+        "androidPackageId": "com.amaze.filemanager",
+        "githubRepo": "TeamAmaze/AmazeFileManager"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "features must contain 3–6 substantiated highlights",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "home-assistant-companion",
+      "kind": "app",
+      "name": "Home Assistant Companion",
+      "developer": "Home Assistant",
+      "category": "Home automation",
+      "platforms": [
+        "Android"
+      ],
+      "summary": "Incomplete: Play listing io.homeassistant.companion.android is developer-linked, but no isolated artwork reuse grant was retrieved from the Android readme.",
+      "features": [
+        "Control Home Assistant",
+        "Play Store listing"
+      ],
+      "insight": "Missing evidenced icon grant.",
+      "officialUrl": "https://github.com/home-assistant/android",
+      "identity": {
+        "canonicalUrl": "https://github.com/home-assistant/android",
+        "androidPackageId": "io.homeassistant.companion.android",
+        "githubRepo": "home-assistant/android"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-25",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-25",
+    "reasons": [
+      "insight must contain 30–650 characters",
+      "features must contain 3–6 substantiated highlights",
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
   }
 ]
