@@ -2575,5 +2575,159 @@
       "Existing products must be newly-discovered with no claimed launch date",
       "Daily target already filled; retain candidate for fresh verification on a later date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "icsx5",
+      "kind": "app",
+      "name": "ICSx5",
+      "developer": "bitfire web engineering",
+      "category": "Calendar",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md",
+        "checkedAt": "2026-10-26"
+      },
+      "summary": "ICSx5 subscribes Android to remote Webcal feeds and iCalendar files such as school timetables or team calendars. The official readme points to F-Droid package at.bitfire.icsdroid and GNU GPL v3. The project website was not used: robots.txt was a GitHub Pages not-found document on a prior check and was not retried as a workaround.",
+      "features": [
+        "Subscribe to remote Webcal feeds and iCalendar files.",
+        "Install at.bitfire.icsdroid from the developer-linked F-Droid page.",
+        "Redistribute under GNU GPL v3 as stated in the readme."
+      ],
+      "insight": "ICSx5 is the subscribe-only twin of a CalDAV stack: feeds in, without pretending to be a full account client.",
+      "officialUrl": "https://github.com/bitfireAT/icsx5",
+      "discoverySource": {
+        "name": "Official ICSx5 repository",
+        "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/at.bitfire.icsdroid/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bitfireAT/icsx5"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/bitfireAT/icsx5",
+        "androidPackageId": "at.bitfire.icsdroid",
+        "githubRepo": "bitfireAT/icsx5"
+      },
+      "asset": {
+        "path": "/images/discover/icsx5.png",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/LICENSE",
+        "attribution": "ICSx5 launcher icon from the official repository. GPL-3.0. Image used unmodified.",
+        "alt": "ICSx5 calendar mark",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/icsx5-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-26",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md",
+            "label": "Official readme: Webcal subscriber, F-Droid, GPL-3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-26"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-26"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-26"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-26",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "widelands",
+      "kind": "game",
+      "name": "Widelands",
+      "developer": "Widelands Development Team",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "summary": "Incomplete: GitHub README confirms a GPL-2+ RTS inspired by Settlers II and compiling for Linux, Windows, and macOS, but it also says some assets use various Creative Commons licenses in their folders. The logos folder had no LICENSE file at the guessed paths, so the retrieved PNG was not published. The official website was previously blocked by an anti-bot challenge and was not reused.",
+      "features": [
+        "Real-time strategy campaigns",
+        "Multiplayer",
+        "GPL-2+ code"
+      ],
+      "insight": "Held because mixed asset licenses were not pinned to the selected logo.",
+      "officialUrl": "https://github.com/widelands/widelands",
+      "identity": {
+        "canonicalUrl": "https://github.com/widelands/widelands",
+        "githubRepo": "widelands/widelands"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-10-26",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-10-26",
+    "reasons": [
+      "Unsafe or missing discovery source URL",
+      "Missing discovery source name",
+      "Missing official distribution",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Only verified entries may publish",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Existing products must be newly-discovered with no claimed launch date"
+    ]
   }
 ]
