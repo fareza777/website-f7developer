@@ -2575,5 +2575,238 @@
       "Existing products must be newly-discovered with no claimed launch date",
       "Daily target already filled; retain candidate for fresh verification on a later date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "hyperrogue",
+      "kind": "game",
+      "name": "HyperRogue",
+      "developer": "Zeno Rogue",
+      "category": "Roguelike",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "HyperRogue is Zeno Rogue's puzzle roguelike played on a hyperbolic plane where treasure hunts draw in monsters and rare orbs bend the rules. The official readme explains numpad, vi, and mouse movement, dozens of land types, and optional geometry experiments through RogueViz. Builds are GPL-2; free executables are linked from itch.io and the Rogue Temple download page.",
+      "features": [
+        "Explore a procedurally growing hyperbolic world where backtracking is unlikely.",
+        "Collect treasures and orbs across more than 60 land types with distinct hazards.",
+        "Fight or avoid monsters with chess-like protection against accidental suicide moves.",
+        "Build from source on Linux or macOS with SDL and PNG dependencies listed in the readme.",
+        "Download compiled builds from itch.io or the official Rogue Temple download page."
+      ],
+      "insight": "HyperRogue is worth a look because the geometry is the mechanic: distance and repetition behave unlike Euclidean maps, so a roguelike loop becomes a lesson in how space can feel alien without extra UI.",
+      "officialUrl": "https://github.com/zenorogue/hyperrogue",
+      "discoverySource": {
+        "name": "Official HyperRogue repository",
+        "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://zenorogue.itch.io/hyperrogue"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/zenorogue/hyperrogue"
+        },
+        {
+          "label": "Official download page",
+          "url": "http://www.roguetemple.com/z/hyper/download.php"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://zenorogue.itch.io/hyperrogue",
+        "githubRepo": "zenorogue/hyperrogue"
+      },
+      "asset": {
+        "path": "/images/discover/hyperrogue.png",
+        "sourceUrl": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/hyperroid/app/src/main/res/drawable/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/COPYING",
+        "attribution": "HyperRogue Android launcher icon from the official repository. GNU GPL v2 or later. Image used unmodified.",
+        "alt": "HyperRogue Android app icon with stylized hyperbolic motif",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/hyperrogue-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/README.md",
+            "label": "Official readme: hyperbolic roguelike, platforms, itch.io and download links, GPL-2",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://zenorogue.itch.io/hyperrogue",
+            "label": "itch.io listing confirms free distribution channel",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/COPYING",
+            "label": "COPYING is GNU GPL version 2",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/hyperroid/app/src/main/res/drawable/icon.png",
+            "label": "Official Android icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-27",
+    "reasons": [
+      "Unsafe or missing distribution URL"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "colobot",
+      "kind": "game",
+      "name": "Colobot: Gold Edition",
+      "developer": "TerranovaTeam",
+      "category": "Programming strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://colobot.info/download-colobot-gold/",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Colobot: Gold Edition is TerranovaTeam's modernized take on Epsitec's programming adventure where you command a bot with CBOT code across Earth and alien missions. The official site offers Windows, Linux, and macOS builds, while the colobot and colobot-data repositories carry GPLv3 sources and packaged art. Modes such as Missions+ and CodeBattles extend the campaign with mod-friendly assets.",
+      "features": [
+        "Program your robot in CBOT to solve 3D missions on Earth and other worlds.",
+        "Download stable Windows, Linux, and macOS builds from colobot.info.",
+        "Play Missions+ and CodeBattles modes highlighted on the project readme.",
+        "Install community mods from the linked ModDB page.",
+        "Use GPLv3 sources split between the engine and colobot-data asset repository."
+      ],
+      "insight": "Colobot is compelling because the puzzle is really about reading terrain: you are not clicking units but debugging a small program that must survive dust storms, cliffs, and hostile wildlife.",
+      "officialUrl": "https://colobot.info/",
+      "discoverySource": {
+        "name": "Official Colobot repository",
+        "url": "https://raw.githubusercontent.com/colobot/colobot/dev/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://colobot.info/download-colobot-gold/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/colobot/colobot"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://colobot.info/",
+        "githubRepo": "colobot/colobot"
+      },
+      "asset": {
+        "path": "/images/discover/colobot.png",
+        "sourceUrl": "https://raw.githubusercontent.com/colobot/colobot-data/master/icons/human.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/colobot/colobot-data/master/LICENSE.txt",
+        "attribution": "Colobot icons/human.png from the official colobot-data repository. GNU GPL v3. Image used unmodified.",
+        "alt": "Colobot in-game human icon portrait",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/colobot-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://colobot.info/",
+            "label": "Official site: Gold Edition branding, news, and download links",
+            "checks": [
+              "identity",
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot/dev/README.md",
+            "label": "Official readme: TerranovaTeam, modes, multiplatform builds, data submodule",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot-data/master/README.md",
+            "label": "colobot-data readme: GPLv3 grant for bundled assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot-data/master/LICENSE.txt",
+            "label": "colobot-data LICENSE.txt is GNU GPL version 3",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot-data/master/icons/human.png",
+            "label": "Official in-game icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-10-27",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
   }
 ]

@@ -1,0 +1,1385 @@
+{
+  "date": "2026-10-27",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-27T01:03:57.980Z",
+  "entries": [
+    {
+      "slug": "emptyepsilon",
+      "kind": "game",
+      "name": "EmptyEpsilon",
+      "developer": "daid and contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "EmptyEpsilon is a cross-platform spaceship bridge simulator that began as an open-source counterpart to Artemis and now adds its own Game Master tools and several AI factions. The official readme lists Windows ZIP archives, a Linux .deb, and a beta Android APK for ARM, and it warns that every station on a session must run the same version. Releases are offered from GitHub; the project site was not used because its robots.txt was a GitHub Pages not-found document.",
+      "features": [
+        "Crew a shared starship bridge with stations that must share one version number.",
+        "Use the Game Master mode and multiple AI factions described in the readme.",
+        "Download Windows ZIP builds, a Linux .deb, or the ARM Android APK from GitHub releases.",
+        "Store options in options.ini under .emptyepsilon or beside the launcher.",
+        "Contribute models, sound, and music; donations are described as buying better assets."
+      ],
+      "insight": "EmptyEpsilon is interesting because the fun is a room of people sharing one ship, not a lone ace. The version pin and the ARM Android build are the practical constraints that make a living-room bridge actually start.",
+      "officialUrl": "https://github.com/daid/EmptyEpsilon",
+      "discoverySource": {
+        "name": "Official EmptyEpsilon repository",
+        "url": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/daid/EmptyEpsilon/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/daid/EmptyEpsilon"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/daid/EmptyEpsilon",
+        "githubRepo": "daid/EmptyEpsilon"
+      },
+      "asset": {
+        "path": "/images/discover/emptyepsilon.png",
+        "sourceUrl": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/resources/logo_full.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/LICENSE",
+        "attribution": "EmptyEpsilon resources/logo_full.png from the official repository. GNU GPL v2 or later. Image used unmodified.",
+        "alt": "EmptyEpsilon wordmark logo on a dark field",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/emptyepsilon-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/README.md",
+            "label": "Official readme: bridge sim, Windows/Linux/Android, GitHub releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/LICENSE",
+            "label": "Repository LICENSE is GNU GPL version 2",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/daid/EmptyEpsilon/master/resources/logo_full.png",
+            "label": "Official logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "astromenace",
+      "kind": "game",
+      "name": "AstroMenace",
+      "developer": "Viewizard",
+      "category": "Shooter",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/viewizard/astromenace/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "AstroMenace is Viewizard's 3D space shooter with fifteen levels, weapon upgrades bought with combat earnings, and large boss fights. The official readme points to a Windows installer on GitHub Releases and to distro, Flatpak, and Snap packages named astromenace. Screenshots in the share folder are released under CC BY-SA 4.0; most other game assets are GPL-3 except listed third-party packs.",
+      "features": [
+        "Fight through 15 levels with bosses and upgradeable ship weapons.",
+        "Spend money earned in combat on stronger guns and defenses.",
+        "Install from GitHub Windows releases or Linux distro, Flatpak, and Snap packages.",
+        "Treat share/ gameplay screenshots as CC BY-SA 4.0; most other assets are GPL-3."
+      ],
+      "insight": "AstroMenace still sells the arcade loop of earning a better gun mid-run. The useful part for Discover is that the screenshot grant is written next to the code grant, so the picture is not a leftover store banner.",
+      "officialUrl": "https://github.com/viewizard/astromenace",
+      "discoverySource": {
+        "name": "Official AstroMenace repository",
+        "url": "https://raw.githubusercontent.com/viewizard/astromenace/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/viewizard/astromenace/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/viewizard/astromenace"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/viewizard/astromenace",
+        "githubRepo": "viewizard/astromenace"
+      },
+      "asset": {
+        "path": "/images/discover/astromenace.png",
+        "sourceUrl": "https://raw.githubusercontent.com/viewizard/astromenace/master/share/preview1.png",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/viewizard/astromenace/master/licenses/CC-BY-SA-4.0.txt",
+        "attribution": "AstroMenace share/preview1.png by Viewizard. CC BY-SA 4.0. Image used unmodified.",
+        "alt": "AstroMenace screenshot of a spaceship fighting enemies in a nebula",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/astromenace-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/viewizard/astromenace/master/README.md",
+            "label": "Official readme: 15 levels, Windows installer, Linux packages",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/viewizard/astromenace/master/LICENSE.md",
+            "label": "LICENSE.md: share screenshots are CC BY-SA 4.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/viewizard/astromenace/master/licenses/CC-BY-SA-4.0.txt",
+            "label": "Full CC BY-SA 4.0 text in the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/viewizard/astromenace/master/share/preview1.png",
+            "label": "Official share screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "brogue-ce",
+      "kind": "game",
+      "name": "Brogue: Community Edition",
+      "developer": "tmewett and Brogue CE contributors",
+      "category": "Roguelike",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Brogue: Community Edition continues Brian Walker's dungeon crawl: reach the Amulet of Yendor on level 26 through a generated cave of creatures, traps, and items. The official readme documents Windows, macOS, and Linux launches, SDL2 tiles that toggle with G, and GitHub release builds. The project is licensed AGPL-3.0. A separate Android port is linked and was not treated as this repository's binary.",
+      "features": [
+        "Descend a generated dungeon toward the Amulet of Yendor on level 26.",
+        "Toggle the included graphical tiles with the G key.",
+        "Run the Windows exe, the macOS app, or the Linux brogue script from GitHub releases.",
+        "Redistribute under the GNU Affero GPL version 3 in LICENSE.txt."
+      ],
+      "insight": "Brogue CE is worth the bookmark because it keeps Walker's tight dungeon while publishing an AGPL tree people can actually build. The tile toggle is the honest tell: ASCII or sprites, the same 26 floors.",
+      "officialUrl": "https://github.com/tmewett/BrogueCE",
+      "discoverySource": {
+        "name": "Official Brogue CE repository",
+        "url": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/tmewett/BrogueCE/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/tmewett/BrogueCE"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/tmewett/BrogueCE",
+        "githubRepo": "tmewett/BrogueCE"
+      },
+      "asset": {
+        "path": "/images/discover/brogue-ce.png",
+        "sourceUrl": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/bin/assets/icon.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/LICENSE.txt",
+        "attribution": "Brogue CE bin/assets/icon.png from the official repository. GNU AGPL v3. Image used unmodified.",
+        "alt": "Brogue Community Edition dungeon icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/brogue-ce-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/README.md",
+            "label": "Official readme: dungeon crawl, Windows/macOS/Linux, GitHub releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/LICENSE.txt",
+            "label": "LICENSE.txt is GNU AGPL version 3",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tmewett/BrogueCE/master/bin/assets/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "opentyrian",
+      "kind": "game",
+      "name": "OpenTyrian",
+      "developer": "OpenTyrian contributors",
+      "category": "Shooter",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "OpenTyrian is an open-source port of the DOS vertical shooter Tyrian. The official readme describes story mode, one- and two-player arcade, and networked multiplayer, and it ships GitHub builds for Windows, macOS, and Linux that include the freeware Tyrian 2.1 data. Configuration lives under AppData or XDG. COPYING is GNU GPL v2; the 128-pixel icon from linux/icons is stored in the same repository.",
+      "features": [
+        "Play story mode plus one- and two-player arcade shooting in 20,031.",
+        "Start a networked two-player match from the command line on UDP 1333.",
+        "Download Windows, macOS, and Linux builds that already include Tyrian 2.1 data.",
+        "Keep saves in AppData on Windows or ~/.config/opentyrian on Unix."
+      ],
+      "insight": "OpenTyrian matters because the port does not send you hunting for a 1995 CD. The data is in the zip, and the netplay is still a typed hostname rather than a lobby product.",
+      "officialUrl": "https://github.com/opentyrian/opentyrian",
+      "discoverySource": {
+        "name": "Official OpenTyrian repository",
+        "url": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/opentyrian/opentyrian/releases/latest"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/opentyrian/opentyrian"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/opentyrian/opentyrian",
+        "githubRepo": "opentyrian/opentyrian"
+      },
+      "asset": {
+        "path": "/images/discover/opentyrian.png",
+        "sourceUrl": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/linux/icons/tyrian-128.png",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/COPYING",
+        "attribution": "OpenTyrian linux/icons/tyrian-128.png from the official repository. GNU GPL v2. Image used unmodified.",
+        "alt": "OpenTyrian square icon with a spacecraft mark",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/opentyrian-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/README.md",
+            "label": "Official readme: Tyrian port, OS builds, freeware data included",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/COPYING",
+            "label": "COPYING is GNU GPL version 2",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/opentyrian/opentyrian/master/linux/icons/tyrian-128.png",
+            "label": "Official linux icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-calculator",
+      "kind": "app",
+      "name": "Fossify Calculator",
+      "developer": "Fossify",
+      "category": "Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/calculator/",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Fossify Calculator is an offline Android calculator. The official page lists basic arithmetic, roots, powers, unit conversions, local history, theme and haptic settings, and package org.fossify.math. It is published as a beta at GitHub v1.4.0 and does not request the Internet permission. Google Play and F-Droid links are on the same page; monetary price is not stated.",
+      "features": [
+        "Use basic arithmetic plus roots, powers, and common functions without an Internet permission.",
+        "Convert common units and keep a local calculation history.",
+        "Adjust display colors and optional button vibration.",
+        "Install org.fossify.math from the developer-linked Google Play or F-Droid listing."
+      ],
+      "insight": "The useful constraint is the missing Internet permission. History stays on the phone, which is the whole product, not a cloud sheet with extra buttons.",
+      "officialUrl": "https://www.fossify.org/apps/calculator/",
+      "discoverySource": {
+        "name": "Official Fossify app page",
+        "url": "https://www.fossify.org/apps/calculator/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.math"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.math/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/FossifyOrg/Calculator"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/calculator/",
+        "androidPackageId": "org.fossify.math",
+        "githubRepo": "FossifyOrg/Calculator"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-calculator.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/calculator/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Calculator icon by Fossify. Used unmodified under the official press-kit guidelines for articles, directories, and videos.",
+        "alt": "Official Fossify Calculator icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/calculator/",
+            "label": "Official page: Beta Android app org.fossify.math, Play and F-Droid; price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app artwork for directories",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/calculator/icon.webp",
+            "label": "Current official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-paint",
+      "kind": "app",
+      "name": "Fossify Paint",
+      "developer": "Fossify",
+      "category": "Graphics",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/paint/",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Fossify Paint is an offline Android sketchpad. The official page describes brush size and color, background choices, and export to PNG, JPG, and SVG, with package org.fossify.paint. It is a beta at GitHub v1.4.0, does not request Internet, and says drawings leave the device only when you export or share them. Play and F-Droid links are listed; monetary price is not stated.",
+      "features": [
+        "Draw on a canvas with brush size and color controls.",
+        "Change backgrounds and export PNG, JPG, or SVG.",
+        "Work offline with no Internet permission; sharing is only through export.",
+        "Install org.fossify.paint from the developer-linked Google Play or F-Droid listing."
+      ],
+      "insight": "Paint is the small Fossify app that still has a file-format opinion: SVG export on a phone sketchpad is the reason to keep it instead of a screenshot of a doodle.",
+      "officialUrl": "https://www.fossify.org/apps/paint/",
+      "discoverySource": {
+        "name": "Official Fossify app page",
+        "url": "https://www.fossify.org/apps/paint/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.paint"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.paint/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/FossifyOrg/Paint"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/paint/",
+        "androidPackageId": "org.fossify.paint",
+        "githubRepo": "FossifyOrg/Paint"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-paint.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/paint/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Paint icon by Fossify. Used unmodified under the official press-kit guidelines for articles, directories, and videos.",
+        "alt": "Official Fossify Paint icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/paint/",
+            "label": "Official page: Beta Android app org.fossify.paint, Play and F-Droid; price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app artwork for directories",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/paint/icon.webp",
+            "label": "Current official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-phone",
+      "kind": "app",
+      "name": "Fossify Phone",
+      "developer": "Fossify",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/phone/",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Fossify Phone is a stable Android dialer. The official page lists call logs, favorites, number blocking, contact shortcuts, and multi-SIM support where Android exposes it, with package org.fossify.phone and GitHub v1.11.1. It does not request Internet; calls stay with Android and the carrier. Play and F-Droid links are listed; monetary price is not stated.",
+      "features": [
+        "Place and review calls with logs, favorites, and contact shortcuts.",
+        "Block numbers and handle calls, including multi-SIM where Android exposes it.",
+        "Skip an Internet permission; Fossify does not receive call content.",
+        "Install org.fossify.phone from the developer-linked Google Play or F-Droid listing."
+      ],
+      "insight": "Fossify Phone is worth installing when the stock dialer is a storefront. Blocking and multi-SIM are ordinary jobs, and the missing Internet permission is the policy, not a slogan.",
+      "officialUrl": "https://www.fossify.org/apps/phone/",
+      "discoverySource": {
+        "name": "Official Fossify app page",
+        "url": "https://www.fossify.org/apps/phone/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.phone"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.phone/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/FossifyOrg/Phone"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/phone/",
+        "androidPackageId": "org.fossify.phone",
+        "githubRepo": "FossifyOrg/Phone"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-phone.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/phone/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Phone icon by Fossify. Used unmodified under the official press-kit guidelines for articles, directories, and videos.",
+        "alt": "Official Fossify Phone icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/phone/",
+            "label": "Official page: Stable Android app org.fossify.phone, Play and F-Droid; price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app artwork for directories",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/phone/icon.webp",
+            "label": "Current official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-contacts",
+      "kind": "app",
+      "name": "Fossify Contacts",
+      "developer": "Fossify",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://www.fossify.org/apps/contacts/",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Fossify Contacts is a stable Android address book. The official page lists search, favorites, groups, custom fields, vCard import and export, and call, message, or email actions, with package org.fossify.contacts and GitHub v1.6.0. It does not request Internet and does not run a Fossify sync service. Play and F-Droid links are listed; monetary price is not stated.",
+      "features": [
+        "Search, favorite, group, and edit contacts stored on the device.",
+        "Import and export vCard files.",
+        "Start a call, message, or email from a contact without a Fossify account.",
+        "Install org.fossify.contacts from the developer-linked Google Play or F-Droid listing."
+      ],
+      "insight": "Contacts is the address book that refuses to become another cloud. Groups and vCard are the whole sync story unless you already configured an Android provider.",
+      "officialUrl": "https://www.fossify.org/apps/contacts/",
+      "discoverySource": {
+        "name": "Official Fossify app page",
+        "url": "https://www.fossify.org/apps/contacts/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.contacts"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.contacts/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/FossifyOrg/Contacts"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/contacts/",
+        "androidPackageId": "org.fossify.contacts",
+        "githubRepo": "FossifyOrg/Contacts"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-contacts.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/contacts/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Contacts icon by Fossify. Used unmodified under the official press-kit guidelines for articles, directories, and videos.",
+        "alt": "Official Fossify Contacts icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/contacts/",
+            "label": "Official page: Stable Android app org.fossify.contacts, Play and F-Droid; price not stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit permits current app artwork for directories",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/contacts/icon.webp",
+            "label": "Current official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "florisboard",
+      "kind": "app",
+      "name": "FlorisBoard",
+      "developer": "Patrick Gold and contributors",
+      "category": "Keyboard",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/florisboard/florisboard/main/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "FlorisBoard is a free and open-source keyboard for Android 8 and newer, currently in beta. The official readme highlights a clipboard manager, theming, evolving extensions, and an emoji keyboard, and it states that word suggestions are not in current releases. Distribution is listed on F-Droid as dev.patrickgold.florisboard, with a Google Play store entry after joining the test group. The project is Apache License 2.0; the main icon is credited to Nikolay Anzarov.",
+      "features": [
+        "Type on Android 8+ with a privacy-focused open-source keyboard still in beta.",
+        "Use the built-in clipboard history, themes, extensions, and emoji keyboard.",
+        "Install stable builds from F-Droid package dev.patrickgold.florisboard or the Play store entry after the test group.",
+        "Note that word suggestions are not included in current releases."
+      ],
+      "insight": "FlorisBoard is honest about the missing dictionary. You get clipboard history and themes now, and the readme does not pretend the suggestion engine already shipped.",
+      "officialUrl": "https://github.com/florisboard/florisboard",
+      "discoverySource": {
+        "name": "Official FlorisBoard repository",
+        "url": "https://raw.githubusercontent.com/florisboard/florisboard/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=dev.patrickgold.florisboard"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.patrickgold.florisboard"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/florisboard/florisboard"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/florisboard/florisboard",
+        "androidPackageId": "dev.patrickgold.florisboard",
+        "githubRepo": "florisboard/florisboard"
+      },
+      "asset": {
+        "path": "/images/discover/florisboard.png",
+        "sourceUrl": "https://raw.githubusercontent.com/florisboard/florisboard/main/.github/repo_icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/florisboard/florisboard/main/LICENSE",
+        "attribution": "FlorisBoard app icon by Nikolay Anzarov, in the official repository. Apache License 2.0. Image used unmodified.",
+        "alt": "FlorisBoard app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/florisboard-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/florisboard/florisboard/main/README.md",
+            "label": "Official readme: Android 8+ keyboard, F-Droid, Play entry, Apache 2.0",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/florisboard/florisboard/main/LICENSE",
+            "label": "Apache License 2.0 text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/florisboard/florisboard/main/.github/repo_icon.png",
+            "label": "Official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "adaway",
+      "kind": "app",
+      "name": "AdAway",
+      "developer": "AdAway contributors",
+      "category": "Security",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/AdAway/AdAway/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "AdAway is an open-source Android ad blocker that uses the hosts file and a local VPN. The official readme requires Android 8 or newer for current builds, describes hosts sources, and links F-Droid package org.adaway. Preview APKs on the project website were not fetched. Permissions listed include downloading hosts lists, running a VPN, and optional opt-in telemetry. LICENSE.md is GNU GPL v3; the launcher icon is in the repository.",
+      "features": [
+        "Block ads on Android 8+ with a hosts file and a local VPN.",
+        "Add extra hosts sources from the project's documented list.",
+        "Install org.adaway from the developer-linked F-Droid page.",
+        "Keep telemetry off unless the user opts in, as the readme describes."
+      ],
+      "insight": "AdAway is still the hosts-file tool that grew a VPN path for unrooted phones. The interesting part is the source list you choose, not a secret cloud filter.",
+      "officialUrl": "https://github.com/AdAway/AdAway",
+      "discoverySource": {
+        "name": "Official AdAway repository",
+        "url": "https://raw.githubusercontent.com/AdAway/AdAway/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.adaway/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/AdAway/AdAway"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/AdAway/AdAway",
+        "androidPackageId": "org.adaway",
+        "githubRepo": "AdAway/AdAway"
+      },
+      "asset": {
+        "path": "/images/discover/adaway.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AdAway/AdAway/master/app/src/main/res/mipmap-xxxhdpi/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/AdAway/AdAway/master/LICENSE.md",
+        "attribution": "AdAway launcher icon from the official repository. GNU GPL v3. Image used unmodified.",
+        "alt": "AdAway hexagonal launcher icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/adaway-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AdAway/AdAway/master/README.md",
+            "label": "Official readme: hosts/VPN blocker, Android 8+, F-Droid org.adaway",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AdAway/AdAway/master/LICENSE.md",
+            "label": "LICENSE.md is GNU GPL version 3",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AdAway/AdAway/master/app/src/main/res/mipmap-xxxhdpi/icon.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vanilla-music",
+      "kind": "app",
+      "name": "Vanilla Music",
+      "developer": "Vanilla Music contributors",
+      "category": "Music",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Vanilla Music is a GPLv3 Android player for MP3, OGG, FLAC, and PCM. The official readme lists multiple playlists, grouping by artist, album, or genre, filesystem browsing, ReplayGain, headset and Bluetooth controls, shake control, cover art, and Simple Last.fm Scrobbler support. It links F-Droid package ch.blinkenlights.android.vanilla and states the app left Google Play on 23 June 2024. The launcher icon is in the repository under the same GPL.",
+      "features": [
+        "Play MP3, OGG, FLAC, and PCM files from local storage.",
+        "Build multiple playlists and browse by artist, album, genre, or folders.",
+        "Use ReplayGain, headset or Bluetooth controls, and optional shake control.",
+        "Install ch.blinkenlights.android.vanilla from the developer-linked F-Droid page."
+      ],
+      "insight": "Vanilla Music is the player that still thinks a folder is a library. Leaving Play in 2024 is documented, so F-Droid is the intended storefront, not a fallback.",
+      "officialUrl": "https://github.com/vanilla-music/vanilla",
+      "discoverySource": {
+        "name": "Official Vanilla Music repository",
+        "url": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/ch.blinkenlights.android.vanilla/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/vanilla-music/vanilla"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/vanilla-music/vanilla",
+        "androidPackageId": "ch.blinkenlights.android.vanilla",
+        "githubRepo": "vanilla-music/vanilla"
+      },
+      "asset": {
+        "path": "/images/discover/vanilla-music.png",
+        "sourceUrl": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/app/src/main/res/mipmap-xxxhdpi/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/LICENSE",
+        "attribution": "Vanilla Music launcher icon from the official repository. GNU GPL v3. Image used unmodified.",
+        "alt": "Vanilla Music orange note launcher icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/vanilla-music-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/README.md",
+            "label": "Official readme: local audio player, F-Droid, left Play in 2024",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/LICENSE",
+            "label": "LICENSE is GNU GPL version 3",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/vanilla-music/vanilla/master/app/src/main/res/mipmap-xxxhdpi/icon.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hyperrogue",
+      "kind": "game",
+      "name": "HyperRogue",
+      "developer": "Zeno Rogue",
+      "category": "Roguelike",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "HyperRogue is Zeno Rogue's puzzle roguelike played on a hyperbolic plane where treasure hunts draw in monsters and rare orbs bend the rules. The official readme explains numpad, vi, and mouse movement, dozens of land types, and optional geometry experiments through RogueViz. Builds are GPL-2; free executables are linked from itch.io and the Rogue Temple download page.",
+      "features": [
+        "Explore a procedurally growing hyperbolic world where backtracking is unlikely.",
+        "Collect treasures and orbs across more than 60 land types with distinct hazards.",
+        "Fight or avoid monsters with chess-like protection against accidental suicide moves.",
+        "Build from source on Linux or macOS with SDL and PNG dependencies listed in the readme.",
+        "Download compiled builds from itch.io or the official Rogue Temple download page."
+      ],
+      "insight": "HyperRogue is worth a look because the geometry is the mechanic: distance and repetition behave unlike Euclidean maps, so a roguelike loop becomes a lesson in how space can feel alien without extra UI.",
+      "officialUrl": "https://github.com/zenorogue/hyperrogue",
+      "discoverySource": {
+        "name": "Official HyperRogue repository",
+        "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://zenorogue.itch.io/hyperrogue"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/zenorogue/hyperrogue"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://zenorogue.itch.io/hyperrogue",
+        "githubRepo": "zenorogue/hyperrogue"
+      },
+      "asset": {
+        "path": "/images/discover/hyperrogue.png",
+        "sourceUrl": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/hyperroid/app/src/main/res/drawable/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/COPYING",
+        "attribution": "HyperRogue Android launcher icon from the official repository. GNU GPL v2 or later. Image used unmodified.",
+        "alt": "HyperRogue Android app icon with stylized hyperbolic motif",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/hyperrogue-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/README.md",
+            "label": "Official readme: hyperbolic roguelike, platforms, itch.io and download links, GPL-2",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://zenorogue.itch.io/hyperrogue",
+            "label": "itch.io listing confirms free distribution and pricing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/COPYING",
+            "label": "COPYING is GNU GPL version 2",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/zenorogue/hyperrogue/master/hyperroid/app/src/main/res/drawable/icon.png",
+            "label": "Official Android icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "open-surge",
+      "kind": "game",
+      "name": "Open Surge",
+      "developer": "Alexandre Martins and contributors",
+      "category": "Platformer",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/alemart/opensurge/master/README.md",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Open Surge is a GPLv3 retro game engine whose showcase game, Surge the Rabbit, recreates 16-bit jump-and-run levels with bosses and user-made stages. The readme highlights SurgeScript for custom mechanics, mobile exports, and repology packaging across Linux distributions. Downloads are advertised at opensurge2d.org; this pass relied on the GitHub readme and repository license because opensurge2d.org returned no robots.txt file.",
+      "features": [
+        "Play Surge the Rabbit, the bundled Sonic-inspired platform campaign.",
+        "Author new games with SurgeScript and share levels with friends.",
+        "Package builds for PC and mobile using paths documented in the readme.",
+        "Ship assets under GPLv3 with images and audio in the share directory.",
+        "Track releases through GitHub and distribution badges linked from the readme."
+      ],
+      "insight": "Open Surge stands out as an engine-first platformer: the interesting part is not one campaign but the scripting layer that lets a 90s-style hopper become a classroom for mechanics design.",
+      "officialUrl": "https://github.com/alemart/opensurge",
+      "discoverySource": {
+        "name": "Official Open Surge repository",
+        "url": "https://raw.githubusercontent.com/alemart/opensurge/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Project download page",
+          "url": "https://opensurge2d.org"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/alemart/opensurge/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/alemart/opensurge"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/alemart/opensurge",
+        "githubRepo": "alemart/opensurge"
+      },
+      "asset": {
+        "path": "/images/discover/open-surge.png",
+        "sourceUrl": "https://raw.githubusercontent.com/alemart/opensurge/master/images/heroes.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/alemart/opensurge/master/LICENSE",
+        "attribution": "Open Surge images/heroes.png sprite sheet from the official repository. GNU GPL v3 or later. Image used unmodified.",
+        "alt": "Open Surge heroes sprite sheet with Surge and allies",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/open-surge-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/alemart/opensurge/master/README.md",
+            "label": "Official readme: engine, Surge the Rabbit, SurgeScript, GPLv3 license link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/alemart/opensurge/master/LICENSE",
+            "label": "Repository LICENSE is GNU GPL version 3",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/alemart/opensurge/master/images/heroes.png",
+            "label": "Official heroes sprite sheet used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "colobot",
+      "kind": "game",
+      "name": "Colobot: Gold Edition",
+      "developer": "TerranovaTeam",
+      "category": "Programming strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://colobot.info/download-colobot-gold/",
+        "checkedAt": "2026-10-27"
+      },
+      "summary": "Colobot: Gold Edition is TerranovaTeam's modernized take on Epsitec's programming adventure where you command a bot with CBOT code across Earth and alien missions. The official site offers Windows, Linux, and macOS builds, while the colobot and colobot-data repositories carry GPLv3 sources and packaged art. Modes such as Missions+ and CodeBattles extend the campaign with mod-friendly assets.",
+      "features": [
+        "Program your robot in CBOT to solve 3D missions on Earth and other worlds.",
+        "Download stable Windows, Linux, and macOS builds from colobot.info.",
+        "Play Missions+ and CodeBattles modes highlighted on the project readme.",
+        "Install community mods from the linked ModDB page.",
+        "Use GPLv3 sources split between the engine and colobot-data asset repository."
+      ],
+      "insight": "Colobot is compelling because the puzzle is really about reading terrain: you are not clicking units but debugging a small program that must survive dust storms, cliffs, and hostile wildlife.",
+      "officialUrl": "https://colobot.info/",
+      "discoverySource": {
+        "name": "Official Colobot repository",
+        "url": "https://raw.githubusercontent.com/colobot/colobot/dev/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://colobot.info/download-colobot-gold/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/colobot/colobot"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://colobot.info/",
+        "githubRepo": "colobot/colobot"
+      },
+      "asset": {
+        "path": "/images/discover/colobot.png",
+        "sourceUrl": "https://raw.githubusercontent.com/colobot/colobot-data/master/icons/human.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/colobot/colobot-data/master/LICENSE.txt",
+        "attribution": "Colobot icons/human.png from the official colobot-data repository. GNU GPL v3. Image used unmodified.",
+        "alt": "Colobot in-game human icon portrait",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/colobot-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-27",
+        "sources": [
+          {
+            "url": "https://colobot.info/",
+            "label": "Official site: Gold Edition branding, news, and download links",
+            "checks": [
+              "identity",
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://colobot.info/download-colobot-gold/",
+            "label": "Official download page lists free stable builds",
+            "checks": [
+              "price",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot/dev/README.md",
+            "label": "Official readme: TerranovaTeam, modes, multiplatform builds, data submodule",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot-data/master/README.md",
+            "label": "colobot-data readme: GPLv3 grant for bundled assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot-data/master/LICENSE.txt",
+            "label": "colobot-data LICENSE.txt is GNU GPL version 3",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/colobot/colobot-data/master/icons/human.png",
+            "label": "Official in-game icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-27"
+          }
+        ]
+      }
+    }
+  ]
+}
