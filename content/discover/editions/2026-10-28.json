@@ -1,0 +1,1351 @@
+{
+  "date": "2026-10-28",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-28T01:11:34.921Z",
+  "entries": [
+    {
+      "slug": "mindustry",
+      "kind": "game",
+      "name": "Mindustry",
+      "developer": "Anuken",
+      "category": "Strategy",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Anuken/Mindustry/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Mindustry is Anuken's factory-building game that mixes tower defense with real-time strategy. The official readme links itch.io, Google Play, F-Droid, and Flathub builds, and it describes conveyor-fed turrets, liquid cooling, unit production lines, and a two-planet campaign with procedurally generated sectors alongside hand-made maps.",
+      "features": [
+        "Route production blocks into turrets and advanced materials on shared maps.",
+        "Play cross-platform multiplayer co-op or team PvP described in the store copy.",
+        "Conquer Serpulo and Erekir across campaign maps and generated sectors.",
+        "Build units and assembly lines for base defense or assaults on enemy cores.",
+        "Download bleeding-edge builds from GitHub or tagged releases when compiling locally."
+      ],
+      "insight": "Mindustry stands out because logistics is the weapon: belts, liquids, and power are as important as tower placement, and the same rules apply whether you are holding a wave or rushing a neighbor's core.",
+      "officialUrl": "https://github.com/Anuken/Mindustry",
+      "discoverySource": {
+        "name": "Official Mindustry repository",
+        "url": "https://raw.githubusercontent.com/Anuken/Mindustry/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.anuke.mindustry"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.anuke.mindustry/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Anuken/Mindustry/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Anuken/Mindustry",
+        "androidPackageId": "io.anuke.mindustry",
+        "githubRepo": "Anuken/Mindustry"
+      },
+      "asset": {
+        "path": "/images/discover/mindustry.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets/icons/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Anuken/Mindustry/master/LICENSE",
+        "attribution": "Mindustry core/assets/icons/icon.png from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Mindustry cube icon on a blue field",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/mindustry-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Anuken/Mindustry/master/README.md",
+            "label": "Readme: platforms, distribution badges, campaign features",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Anuken/Mindustry/master/LICENSE",
+            "label": "GPL-3.0-or-later license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets/icons/icon.png",
+            "label": "Official icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "luanti",
+      "kind": "game",
+      "name": "Luanti",
+      "developer": "Luanti contributors",
+      "category": "Sandbox",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/luanti-org/luanti/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Luanti is the open voxel game engine formerly known as Minetest. The official readme describes a mod-friendly sandbox with configurable controls, documented compile paths for Linux, Windows, and macOS, and Android integration notes in the project documentation.",
+      "features": [
+        "Run a voxel sandbox engine designed for easy modding and game creation.",
+        "Rebind movement, digging, inventory, and debug keys listed in the readme.",
+        "Install desktop builds from distribution packages or compile from source.",
+        "Store worlds under documented per-platform user paths.",
+        "Extend gameplay through Lua mods and community content."
+      ],
+      "insight": "Luanti matters because it treats worlds as data: the engine stays small, paths and configs are explicit, and creators can ship whole games without a proprietary toolchain.",
+      "officialUrl": "https://www.luanti.org/",
+      "discoverySource": {
+        "name": "Official Luanti repository",
+        "url": "https://raw.githubusercontent.com/luanti-org/luanti/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website downloads",
+          "url": "https://www.luanti.org/downloads/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/luanti-org/luanti/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.luanti.org/",
+        "githubRepo": "luanti-org/luanti"
+      },
+      "asset": {
+        "path": "/images/discover/luanti.png",
+        "sourceUrl": "https://raw.githubusercontent.com/luanti-org/luanti/master/textures/base/pack/logo.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/luanti-org/luanti/master/LICENSE.txt",
+        "attribution": "Luanti textures/base/pack/logo.png from the official repository. CC BY-SA 3.0 per LICENSE.txt for main-distribution textures. Image used unmodified.",
+        "alt": "Luanti green cube logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/luanti-textures-CC-BY-SA-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/luanti-org/luanti/master/README.md",
+            "label": "Readme: engine scope, controls, compile targets",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/luanti-org/luanti/master/LICENSE.txt",
+            "label": "Texture license: CC BY-SA 3.0 for main distribution art",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/luanti-org/luanti/master/textures/base/pack/logo.png",
+            "label": "Official logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "scummvm",
+      "kind": "game",
+      "name": "ScummVM",
+      "developer": "ScummVM Team",
+      "category": "Adventure",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/scummvm/scummvm/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "ScummVM is a virtual machine that runs classic graphic adventures and related engines when you supply the original game data. The official readme explains replacing shipped executables, adding game directories, and starting play from the built-in game list, with ports maintained for phones and desktops alike.",
+      "features": [
+        "Play LucasArts SCUMM titles and many other supported engines from your own data files.",
+        "Add games by choosing folders rather than individual data files.",
+        "Configure per-game options before launching from the ScummVM UI.",
+        "Download official builds for desktop and mobile from the project website.",
+        "Consult the wiki compatibility list for supported titles and engines."
+      ],
+      "insight": "ScummVM is a preservation tool with a practical ritual: point at a folder of legally owned data, pick a title, and get a maintained engine instead of fighting aging installers.",
+      "officialUrl": "https://www.scummvm.org/",
+      "discoverySource": {
+        "name": "Official ScummVM repository",
+        "url": "https://raw.githubusercontent.com/scummvm/scummvm/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://www.scummvm.org/downloads/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/scummvm/scummvm"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.scummvm.org/",
+        "githubRepo": "scummvm/scummvm"
+      },
+      "asset": {
+        "path": "/images/discover/scummvm.png",
+        "sourceUrl": "https://raw.githubusercontent.com/scummvm/scummvm/master/dists/android/store/scummvm_logo.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/scummvm/scummvm/master/COPYING",
+        "attribution": "ScummVM dists/android/store/scummvm_logo.png from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "ScummVM feather logo wordmark",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/scummvm-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/scummvm/scummvm/master/README.md",
+            "label": "Readme: data-file workflow and quickstart",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/scummvm/scummvm/master/COPYING",
+            "label": "GPL-3.0-or-later COPYING",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/scummvm/scummvm/master/dists/android/store/scummvm_logo.png",
+            "label": "Official Android store logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "shattered-pixel-dungeon",
+      "kind": "game",
+      "name": "Shattered Pixel Dungeon",
+      "developer": "Evan Debenham",
+      "category": "Roguelike",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Shattered Pixel Dungeon is Evan Debenham's open-source roguelike fork of Watabou's Pixel Dungeon. The official readme lists Google Play, App Store, Steam, GOG, itch.io, and GitHub releases, and it compiles for Android, iOS, and desktop targets with randomized levels and hundreds of items.",
+      "features": [
+        "Play a traditional roguelike with randomized floors and large item pools.",
+        "Install from Google Play, desktop stores, or GitHub releases named in the readme.",
+        "Build Android, iOS, or desktop binaries using the project compile guides.",
+        "Follow the recommended-changes doc when shipping a derivative version.",
+        "Contribute translations through the linked Transifex project."
+      ],
+      "insight": "Shattered Pixel Dungeon keeps the one-more-floor loop honest: it is openly forkable, multi-store, and explicit about where compilation differs from the builds Evan ships himself.",
+      "officialUrl": "https://shatteredpixel.com/shatteredpd/",
+      "discoverySource": {
+        "name": "Official Shattered Pixel Dungeon repository",
+        "url": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.shatteredpixel.shatteredpixeldungeon"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1769170/Shattered_Pixel_Dungeon/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://shatteredpixel.com/shatteredpd/",
+        "androidPackageId": "com.shatteredpixel.shatteredpixeldungeon",
+        "githubRepo": "00-Evan/shattered-pixel-dungeon"
+      },
+      "asset": {
+        "path": "/images/discover/shattered-pixel-dungeon.png",
+        "sourceUrl": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/android/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/LICENSE.txt",
+        "attribution": "Shattered Pixel Dungeon Android launcher icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Shattered Pixel Dungeon pixel helm icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/shattered-pixel-dungeon-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/README.md",
+            "label": "Readme: platforms, stores, roguelike scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/LICENSE.txt",
+            "label": "GPL-3.0-or-later license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/00-Evan/shattered-pixel-dungeon/master/android/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ddnet",
+      "kind": "game",
+      "name": "DDraceNetwork",
+      "developer": "DDNet contributors",
+      "category": "Platformer",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/ddnet/ddnet/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "DDraceNetwork is the DDNet community's Teeworlds mod focused on cooperative racing and tricky movement. The official readme points to ddnet.org downloads, a Steam listing, repository install notes, and developer chat channels, and it ships a distinct GUI logo in the data tree.",
+      "features": [
+        "Play cooperative DDRace-style maps built on the Teeworlds engine.",
+        "Download binaries from the official site or install from distro packages listed in the readme.",
+        "Join community discussion on IRC or Discord channels linked in the repository.",
+        "Browse source through the project's code browser and generated docs.",
+        "Clone shallow or full trees depending on whether bundled libraries are required."
+      ],
+      "insight": "DDNet turns Teeworlds into a precision sport: movement tech is the content, and the project keeps tooling for mappers and runners close to the same repository.",
+      "officialUrl": "https://ddnet.org/",
+      "discoverySource": {
+        "name": "Official DDNet repository",
+        "url": "https://raw.githubusercontent.com/ddnet/ddnet/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://ddnet.org/downloads/"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/412220/DDraceNetwork/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/ddnet/ddnet"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://ddnet.org/",
+        "githubRepo": "ddnet/ddnet"
+      },
+      "asset": {
+        "path": "/images/discover/ddnet.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ddnet/ddnet/master/data/gui_logo.png",
+        "license": "CC-BY-SA-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/ddnet/ddnet/master/license.txt",
+        "attribution": "DDNet data/gui_logo.png from the official repository. CC BY-SA 3.0 for data content per license.txt. Image used unmodified.",
+        "alt": "DDraceNetwork wordmark logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ddnet-license.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ddnet/ddnet/master/README.md",
+            "label": "Readme: DDNet scope, downloads, Steam, clone options",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ddnet/ddnet/master/license.txt",
+            "label": "Data content licensed CC BY-SA 3.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ddnet/ddnet/master/data/gui_logo.png",
+            "label": "Official GUI logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "openra",
+      "kind": "game",
+      "name": "OpenRA",
+      "developer": "OpenRA developers",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "OpenRA is a libre real-time strategy engine that recreates Command & Conquer: Red Alert, Tiberian Dawn, and Dune 2000 with modern tooling. The official readme stresses that EA does not endorse the project, links install and mapping docs, and distributes mod artwork inside the repository packaging tree.",
+      "features": [
+        "Play reimagined Red Alert, Tiberian Dawn, and Dune 2000 campaigns and skirmishes.",
+        "Download official builds for Windows, Linux, and macOS from project releases.",
+        "Create maps with the mapping tutorial and Lua mission API linked from the readme.",
+        "Mod the engine using the OpenRA Mod SDK repository.",
+        "Join community chat on Libera IRC or Discord via the linked bridges."
+      ],
+      "insight": "OpenRA is for players who want Westwood-era RTS design with open tooling: the readme is candid about trademark boundaries while keeping mapping and modding first-class.",
+      "officialUrl": "https://github.com/OpenRA/OpenRA",
+      "discoverySource": {
+        "name": "Official OpenRA repository",
+        "url": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/OpenRA/OpenRA/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/OpenRA/OpenRA"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenRA/OpenRA",
+        "githubRepo": "OpenRA/OpenRA"
+      },
+      "asset": {
+        "path": "/images/discover/openra.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/packaging/artwork/ra_256x256.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/COPYING",
+        "attribution": "OpenRA packaging/artwork/ra_256x256.png from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "OpenRA Red Alert-style emblem",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openra-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/README.md",
+            "label": "Readme: supported mods, EA disclaimer, docs",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/COPYING",
+            "label": "GPL-3.0-or-later COPYING",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenRA/OpenRA/master/packaging/artwork/ra_256x256.png",
+            "label": "Official Red Alert packaging icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "supertux",
+      "kind": "game",
+      "name": "SuperTux",
+      "developer": "SuperTux contributors",
+      "category": "Platformer",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/SuperTux/supertux/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "SuperTux is a open-source platformer starring Tux in a Mario-style adventure. The official readme highlights CI builds for desktop and Android, community levels, and a large data tree with credited music and graphics documented in the AUTHORS file.",
+      "features": [
+        "Run and jump through official worlds and contributed levels.",
+        "Build desktop or Android binaries using the documented CI workflows.",
+        "Browse asset credits that list per-file licenses in data/AUTHORS.",
+        "Play with community-contributed levels shipped alongside the engine.",
+        "Download releases from the project website and GitHub."
+      ],
+      "insight": "SuperTux is a cheerful proof that a mascot platformer can stay community-owned: levels, audio, and art carry explicit credits instead of hiding behind a single stock license paragraph.",
+      "officialUrl": "https://www.supertux.org/",
+      "discoverySource": {
+        "name": "Official SuperTux repository",
+        "url": "https://raw.githubusercontent.com/SuperTux/supertux/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website downloads",
+          "url": "https://www.supertux.org/download.html"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/SuperTux/supertux/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.supertux.org/",
+        "githubRepo": "SuperTux/supertux"
+      },
+      "asset": {
+        "path": "/images/discover/supertux.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/engine/menu/logo.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/SuperTux/supertux/master/LICENSE.txt",
+        "attribution": "SuperTux data/images/engine/menu/logo.png from the official repository. GPLv2 or later per LICENSE.txt; core graphics credited in data/AUTHORS. Image used unmodified.",
+        "alt": "SuperTux title logo with Tux",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/supertux-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SuperTux/supertux/master/README.md",
+            "label": "Readme: Android CI badge and project scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SuperTux/supertux/master/LICENSE.txt",
+            "label": "GPL-2.0-or-later license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SuperTux/supertux/master/data/images/engine/menu/logo.png",
+            "label": "Official menu logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "icsx5",
+      "kind": "app",
+      "name": "ICSx5",
+      "developer": "bitfire web engineering",
+      "category": "Calendar",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "ICSx5 subscribes Android to remote Webcal and iCalendar feeds without pretending to be a full CalDAV client. The official readme points to the at.bitfire.icsdroid F-Droid package, documents GNU GPL v3, and keeps subscription logic in the bitfireAT GitHub repository.",
+      "features": [
+        "Subscribe to remote Webcal feeds and iCalendar files on Android.",
+        "Install at.bitfire.icsdroid from the developer-linked F-Droid listing.",
+        "Redistribute under GNU GPL v3 as stated in the repository license.",
+        "Pair with DAVx⁵ when you need CalDAV alongside feed subscriptions.",
+        "Review source on GitHub for sync behavior and permissions."
+      ],
+      "insight": "ICSx5 is the lightweight half of a calendar stack: feeds in, refresh on schedule, without turning every shared URL into a full account sync problem.",
+      "officialUrl": "https://github.com/bitfireAT/icsx5",
+      "discoverySource": {
+        "name": "Official ICSx5 repository",
+        "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/at.bitfire.icsdroid/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bitfireAT/icsx5"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/bitfireAT/icsx5",
+        "androidPackageId": "at.bitfire.icsdroid",
+        "githubRepo": "bitfireAT/icsx5"
+      },
+      "asset": {
+        "path": "/images/discover/icsx5.png",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/LICENSE",
+        "attribution": "ICSx5 launcher icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "ICSx5 calendar grid icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/icsx5-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/README.md",
+            "label": "Readme: Webcal subscriber, F-Droid, GPL-3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfireAT/icsx5/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "markor",
+      "kind": "app",
+      "name": "Markor",
+      "developer": "Gregor Santner",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/gsantner/markor/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Markor is Gregor Santner's offline-first Android text editor for Markdown, todo.txt, Zim, and other plaintext formats. The official readme links F-Droid and GitHub releases, documents notebook folders, QuickNote and To-Do files, PDF export, and optional AES256 encryption on supported Android versions.",
+      "features": [
+        "Edit Markdown, todo.txt, Zim, CSV, YAML, and other plaintext formats offline.",
+        "Organize notes in a configurable notebook root with QuickNote and To-Do files.",
+        "Preview and share documents as HTML or PDF from the editor.",
+        "Install net.gsantner.markor from F-Droid or GitHub APK releases.",
+        "Customize themes, syntax highlighting, and keyboard shortcuts including markor:// deep links."
+      ],
+      "insight": "Markor treats notes as files you own: no account, interoperable plaintext, and editor features that respect sync tools instead of replacing them.",
+      "officialUrl": "https://github.com/gsantner/markor",
+      "discoverySource": {
+        "name": "Official Markor repository",
+        "url": "https://raw.githubusercontent.com/gsantner/markor/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.gsantner.markor/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/gsantner/markor/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/gsantner/markor",
+        "androidPackageId": "net.gsantner.markor",
+        "githubRepo": "gsantner/markor"
+      },
+      "asset": {
+        "path": "/images/discover/markor.png",
+        "sourceUrl": "https://raw.githubusercontent.com/gsantner/markor/master/app/src/main/ic_launcher-web.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/gsantner/markor/master/LICENSE.txt",
+        "attribution": "Markor ic_launcher-web.png from the official repository. Apache-2.0. Image used unmodified.",
+        "alt": "Markor green notebook icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/markor-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/gsantner/markor/master/README.md",
+            "label": "Readme: formats, F-Droid, offline editing, encryption",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gsantner/markor/master/LICENSE.txt",
+            "label": "Apache-2.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gsantner/markor/master/app/src/main/ic_launcher-web.png",
+            "label": "Official launcher artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "organic-maps",
+      "kind": "app",
+      "name": "Organic Maps",
+      "developer": "Organic Maps contributors",
+      "category": "Navigation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Organic Maps is a privacy-oriented offline maps and GPS app built by former MAPS.ME founders using OpenStreetMap data. The official readme highlights hiking and cycling routes, contour lines, voice navigation, bookmark import, and distribution badges for Google Play, F-Droid, and other stores without ads or tracking.",
+      "features": [
+        "Download offline maps with hiking, cycling, and driving navigation.",
+        "Use contour lines, elevation profiles, and Wikipedia place articles offline.",
+        "Import and export bookmarks and tracks in KML, KMZ, GPX, and GeoJSON.",
+        "Install app.organicmaps from Google Play or F-Droid links in the readme.",
+        "Run entirely without ads, analytics, or mandatory accounts per project claims."
+      ],
+      "insight": "Organic Maps is the anti-feed map app: offline tiles, OpenStreetMap detail, and a readme that brags about what it refuses to phone home.",
+      "officialUrl": "https://organicmaps.app/",
+      "discoverySource": {
+        "name": "Official Organic Maps repository",
+        "url": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=app.organicmaps"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/app.organicmaps/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://organicmaps.app/",
+        "androidPackageId": "app.organicmaps",
+        "githubRepo": "organicmaps/organicmaps"
+      },
+      "asset": {
+        "path": "/images/discover/organic-maps.png",
+        "sourceUrl": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/qt/res/logo.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/LICENSES/Apache-2.0.txt",
+        "attribution": "Organic Maps qt/res/logo.png from the official repository. Apache-2.0 per REUSE dep5 Files: *. Image used unmodified.",
+        "alt": "Organic Maps green leaf pin logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/organic-maps-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/README.md",
+            "label": "Readme: offline navigation, stores, privacy claims",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/LICENSES/Apache-2.0.txt",
+            "label": "Apache-2.0 license for repository files",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/qt/res/logo.png",
+            "label": "Official logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kde-connect",
+      "kind": "app",
+      "name": "KDE Connect",
+      "developer": "KDE Community",
+      "category": "Utilities",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "KDE Connect links Android phones with desktops over TLS-encrypted plugins for clipboard sync, notifications, file sharing, SMS, and remote input. The Android readme lists Google Play and F-Droid packages, documents supported desktop environments, and notes the companion kdeconnect-kde desktop repository.",
+      "features": [
+        "Sync clipboard text between phone and computer wirelessly.",
+        "Read and reply to Android notifications from a paired desktop.",
+        "Share files and URLs with filesystem integration on Linux desktops.",
+        "Use the phone as a presentation remote, touchpad, or media control.",
+        "Install org.kde.kdeconnect_tp from Google Play or F-Droid as linked in the readme."
+      ],
+      "insight": "KDE Connect is a toolkit of small bridges—clipboard, notifications, input—that make a phone feel like part of a Linux desktop without a proprietary cloud middleman.",
+      "officialUrl": "https://kdeconnect.kde.org/",
+      "discoverySource": {
+        "name": "Official KDE Connect Android repository",
+        "url": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.kde.kdeconnect_tp/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://kdeconnect.kde.org/",
+        "androidPackageId": "org.kde.kdeconnect_tp",
+        "githubRepo": "KDE/kdeconnect-android"
+      },
+      "asset": {
+        "path": "/images/discover/kde-connect.png",
+        "sourceUrl": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/COPYING",
+        "attribution": "KDE Connect fastlane store icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "KDE Connect intertwined rings icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/kde-connect-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/README.md",
+            "label": "Readme: features, Play Store, F-Droid, desktop pairing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/COPYING",
+            "label": "GPL-2.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/KDE/kdeconnect-android/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official Play Store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "amaze-file-manager",
+      "kind": "app",
+      "name": "Amaze File Manager",
+      "developer": "Team Amaze",
+      "category": "Utilities",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Amaze File Manager is Team Amaze's Material Design file browser for Android with tabs, root access, encryption, and built-in viewers. The official readme links Google Play and IzzyOnDroid builds, stresses signed APKs for plugin compatibility, and documents SMB, FTP, and cloud plugin options.",
+      "features": [
+        "Browse, copy, compress, and extract files with a navigation drawer and tabs.",
+        "Open archives, APKs, databases, and common document types with built-in viewers.",
+        "Encrypt files with AES on supported Android versions.",
+        "Install com.amaze.filemanager from Google Play or the linked IzzyOnDroid repo.",
+        "Extend cloud support through optional plugins named in the readme."
+      ],
+      "insight": "Amaze keeps Android file work local and readable: tabs for real multitasking, root for power users, and no ad stack funding the maintainer.",
+      "officialUrl": "https://teamamaze.xyz/",
+      "discoverySource": {
+        "name": "Official Amaze File Manager repository",
+        "url": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.amaze.filemanager"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/fdroid/index/apk/com.amaze.filemanager"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://teamamaze.xyz/",
+        "androidPackageId": "com.amaze.filemanager",
+        "githubRepo": "TeamAmaze/AmazeFileManager"
+      },
+      "asset": {
+        "path": "/images/discover/amaze-file-manager.png",
+        "sourceUrl": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/LICENSE.txt",
+        "attribution": "Amaze File Manager icon.png from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Amaze File Manager orange folder icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/amaze-file-manager-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/README.md",
+            "label": "Readme: features, Play Store, IzzyOnDroid, plugins",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/LICENSE.txt",
+            "label": "GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/TeamAmaze/AmazeFileManager/master/icon.png",
+            "label": "Official repository icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tusky",
+      "kind": "app",
+      "name": "Tusky",
+      "developer": "Tusky contributors",
+      "category": "Social",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "Tusky is an open-source Mastodon client for Android with Material Design, multi-account support, and draft posts. The official readme links F-Droid and Google Play builds, documents dark and black themes, and notes that the app avoids Google proprietary services.",
+      "features": [
+        "Read and post to Mastodon instances with multi-account switching.",
+        "Compose drafts and choose emoji styles from the client settings.",
+        "Install com.keylesspalace.tusky from Google Play or F-Droid badges in the readme.",
+        "Test nightly builds through the separate Play listing for tusky.test.",
+        "Discuss features on Matrix and open issues on GitHub."
+      ],
+      "insight": "Tusky is the credible alternative client: federated timelines without locking you into the official app's release cadence or Google-only plumbing.",
+      "officialUrl": "https://github.com/tuskyapp/Tusky",
+      "discoverySource": {
+        "name": "Official Tusky repository",
+        "url": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.keylesspalace.tusky"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.keylesspalace.tusky/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/tuskyapp/Tusky",
+        "androidPackageId": "com.keylesspalace.tusky",
+        "githubRepo": "tuskyapp/Tusky"
+      },
+      "asset": {
+        "path": "/images/discover/tusky.png",
+        "sourceUrl": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/LICENSE.txt",
+        "attribution": "Tusky fastlane store icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Tusky blue elephant icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/tusky-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/README.md",
+            "label": "Readme: Mastodon client, stores, themes",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/LICENSE.txt",
+            "label": "GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tuskyapp/Tusky/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "netguard",
+      "kind": "app",
+      "name": "NetGuard",
+      "developer": "Marcel Bokhorst",
+      "category": "Privacy",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/M66B/NetGuard/master/README.md",
+        "checkedAt": "2026-10-28"
+      },
+      "summary": "NetGuard is Marcel Bokhorst's no-root firewall that lets you allow or deny Wi-Fi and mobile data per app and address. The official readme warns about a unrelated Samsung store impostor package, documents IPv4/IPv6 support, tethering, and links the Google Play listing for eu.faircode.netguard.",
+      "features": [
+        "Block or allow internet access per application without root.",
+        "Filter separate Wi-Fi and mobile connections with optional screen-on rules.",
+        "Support IPv4 and IPv6 TCP and UDP traffic including tethering.",
+        "Install eu.faircode.netguard from the developer-linked Google Play page.",
+        "Review open-source code with no analytics or calling-home claims in the readme."
+      ],
+      "insight": "NetGuard is the pragmatic privacy lever on stock Android: per-app network gates without rooting, plus a readme blunt enough to warn about look-alike store listings.",
+      "officialUrl": "https://github.com/M66B/NetGuard",
+      "discoverySource": {
+        "name": "Official NetGuard repository",
+        "url": "https://raw.githubusercontent.com/M66B/NetGuard/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=eu.faircode.netguard"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/M66B/NetGuard"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/M66B/NetGuard",
+        "androidPackageId": "eu.faircode.netguard",
+        "githubRepo": "M66B/NetGuard"
+      },
+      "asset": {
+        "path": "/images/discover/netguard.png",
+        "sourceUrl": "https://raw.githubusercontent.com/M66B/NetGuard/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/M66B/NetGuard/master/LICENSE",
+        "attribution": "NetGuard launcher icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "NetGuard shield icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/netguard-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-28",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/M66B/NetGuard/master/README.md",
+            "label": "Readme: no-root firewall, Play link, impostor warning",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/NetGuard/master/LICENSE",
+            "label": "GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M66B/NetGuard/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-28"
+          }
+        ]
+      }
+    }
+  ]
+}
