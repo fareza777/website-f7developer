@@ -2808,5 +2808,98 @@
     "reasons": [
       "Price source URL must have price evidence"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "andors-trail",
+      "kind": "game",
+      "name": "Andor's Trail",
+      "developer": "Andor's Trail contributors",
+      "category": "Role-playing",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Andor's Trail is a GPLv2 roguelike RPG about uncovering what happened to your village and missing brother. The official readme describes quest-driven exploration, turn-based combat, equipment progression, and a developer-linked Google Play package, and states the game is completely free.",
+      "features": [
+        "Explore an overworld with quests, dungeons, and turn-based battles.",
+        "Install com.gpl.rpg.AndorsTrail from the Play Store link in the readme.",
+        "Collect equipment and gain levels while following the main story arc.",
+        "Study combat, flee, and inventory rules linked from the readme wiki pages.",
+        "Build from source on GitHub when you want to inspect or patch the RPG systems."
+      ],
+      "insight": "Andor's Trail is a rare fully open mobile RPG: story-first quests, transparent GPLv2 licensing, and no paywall between you and the endgame.",
+      "officialUrl": "https://github.com/AndorsTrail/andors-trail",
+      "discoverySource": {
+        "name": "Official Andor's Trail repository",
+        "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/AndorsTrail/andors-trail"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/AndorsTrail/andors-trail",
+        "androidPackageId": "com.gpl.rpg.AndorsTrail",
+        "githubRepo": "AndorsTrail/andors-trail"
+      },
+      "asset": {
+        "path": "/images/discover/andors-trail.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+        "attribution": "Andor's Trail icon.png from the official repository. GPLv2 per project readme. Image used unmodified.",
+        "alt": "Andor's Trail game icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/andors-trail-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+            "label": "Readme: Android RPG scope, GPLv2, Play link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+            "label": "Official icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    "queuedAt": "2026-10-29",
+    "reasons": [
+      "Local official artwork file is missing or cannot be decoded"
+    ]
   }
 ]
