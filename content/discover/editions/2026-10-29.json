@@ -1,0 +1,1199 @@
+{
+  "date": "2026-10-29",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-29T01:16:40.647Z",
+  "entries": [
+    {
+      "slug": "pixel-wheels",
+      "kind": "game",
+      "name": "Pixel Wheels",
+      "developer": "Aurélien Gâteau",
+      "category": "Racing",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/agateau/pixelwheels/master/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Pixel Wheels is Aurélien Gâteau's retro top-down racer with multiple tracks, vehicles, weapons, and bonuses. The official readme lists Google Play, F-Droid, and itch.io builds for Android alongside desktop binaries, and separates GPL game logic from CC BY-SA 4.0 artwork.",
+      "features": [
+        "Race on several tracks with distinct vehicles, weapons, and pickup bonuses.",
+        "Install com.agateau.tinywheels.android from developer-linked Google Play or F-Droid.",
+        "Play solo or local two-player on desktop builds described in the readme.",
+        "Download desktop builds from itch.io or builds.agateau.com when you want offline installs.",
+        "Study CC BY-SA asset terms before reusing art outside the shipped game packages."
+      ],
+      "insight": "Pixel Wheels keeps arcade combat readable: short races, messy weapon lanes, and a license split that makes the art reuse rules explicit instead of hiding them behind a single repo badge.",
+      "officialUrl": "https://github.com/agateau/pixelwheels",
+      "discoverySource": {
+        "name": "Official Pixel Wheels repository",
+        "url": "https://raw.githubusercontent.com/agateau/pixelwheels/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.agateau.tinywheels.android"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.agateau.tinywheels.android/"
+        },
+        {
+          "label": "Official itch.io page",
+          "url": "https://agateau.itch.io/pixelwheels"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/agateau/pixelwheels",
+        "androidPackageId": "com.agateau.tinywheels.android",
+        "githubRepo": "agateau/pixelwheels"
+      },
+      "asset": {
+        "path": "/images/discover/pixel-wheels.png",
+        "sourceUrl": "https://raw.githubusercontent.com/agateau/pixelwheels/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/agateau/pixelwheels/master/LICENSE.CC-BY-SA",
+        "attribution": "Pixel Wheels store icon from the official repository. CC BY-SA 4.0. Image used unmodified.",
+        "alt": "Pixel Wheels game icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/pixel-wheels-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/agateau/pixelwheels/master/README.md",
+            "label": "Readme: Android stores, platforms, license split",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/agateau/pixelwheels/master/LICENSE.CC-BY-SA",
+            "label": "CC BY-SA 4.0 asset license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/agateau/pixelwheels/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "gcompris",
+      "kind": "game",
+      "name": "GCompris",
+      "developer": "GCompris contributors",
+      "category": "Educational",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://gcompris.net/downloads-en.html",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "GCompris is a KDE/GNU educational suite with more than a hundred small activities for children, mixing playful games with counting, reading, and logic exercises. The official downloads page distributes Android builds through Google Play and signed APKs, documents 32- and 64-bit packages, and states the project is free software under AGPLv3 with GPL-licensed components.",
+      "features": [
+        "Browse a unified launcher covering math, literacy, geography, and puzzle mini-games.",
+        "Install net.gcompris.full from the developer-linked Google Play listing.",
+        "Download signed Android APKs directly from KDE mirrors when sideloading is required.",
+        "Run the same QtQuick activity set on desktop builds for classroom or home use.",
+        "Extend or translate activities through the KDE developer wiki linked from the readme."
+      ],
+      "insight": "GCompris earns its shelf space as a curated activity cabinet: one child-friendly shell, many vetted exercises, and store links that stay on the project's own download page.",
+      "officialUrl": "https://gcompris.net/index-en.html",
+      "discoverySource": {
+        "name": "Official GCompris downloads page",
+        "url": "https://gcompris.net/downloads-en.html"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=net.gcompris.full"
+        },
+        {
+          "label": "Official KDE Android APKs",
+          "url": "https://gcompris.net/downloads-en.html#android"
+        },
+        {
+          "label": "Official GCompris repository",
+          "url": "https://github.com/GCompris/GCompris-qt"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://gcompris.net/index-en.html",
+        "androidPackageId": "net.gcompris.full",
+        "githubRepo": "GCompris/GCompris-qt"
+      },
+      "asset": {
+        "path": "/images/discover/gcompris.png",
+        "sourceUrl": "https://raw.githubusercontent.com/gcompris/GCompris-qt/master/src/core/resource/gcompris-icon.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/gcompris/GCompris-qt/master/README.md",
+        "attribution": "GCompris icon from the official repository. AGPL-3.0-or-later (program). Image used unmodified.",
+        "alt": "GCompris balloon icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/gcompris-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://gcompris.net/downloads-en.html",
+            "label": "Downloads: Play Store package, APK mirrors, Android section",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gcompris/GCompris-qt/master/README.md",
+            "label": "Readme: activity scope and AGPL/GPL licensing",
+            "checks": [
+              "identity",
+              "features",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gcompris/GCompris-qt/master/src/core/resource/gcompris-icon.png",
+            "label": "Official icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "sgt-puzzles",
+      "kind": "game",
+      "name": "Simon Tatham's Puzzles",
+      "developer": "Chris Boyle (Android port)",
+      "category": "Puzzle",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/chrisboyle/sgtpuzzles/main/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "This Android port packages Simon Tatham's Portable Puzzle Collection: dozens of generated logic puzzles with adjustable sizes and difficulty, playable offline without ads. Chris Boyle's project readme and product page link Google Play, emphasize upstream parity, and point to the MIT license that governs the published source while excluding extra store-only graphics.",
+      "features": [
+        "Play many single-player logic puzzles with freshly generated boards each run.",
+        "Install name.boyle.chris.sgtpuzzles from the developer-linked Google Play listing.",
+        "Adjust puzzle parameters so boards stay challenging without running out of content.",
+        "Run fully offline with documentation bundled inside the app as described on the product page.",
+        "Report Android-specific issues through the GitHub tracker linked from Chris Boyle's site."
+      ],
+      "insight": "The collection is a pocketable puzzle lab: one install, many rule sets, and honest notes about which graphics are covered by the MIT source release versus Play-only artwork.",
+      "officialUrl": "https://chris.boyle.name/projects/android-puzzles/",
+      "discoverySource": {
+        "name": "Chris Boyle Android puzzles page",
+        "url": "https://chris.boyle.name/projects/android-puzzles/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=name.boyle.chris.sgtpuzzles"
+        },
+        {
+          "label": "Official GitHub port",
+          "url": "https://github.com/chrisboyle/sgtpuzzles"
+        },
+        {
+          "label": "Upstream puzzle collection",
+          "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://chris.boyle.name/projects/android-puzzles/",
+        "androidPackageId": "name.boyle.chris.sgtpuzzles",
+        "githubRepo": "chrisboyle/sgtpuzzles"
+      },
+      "asset": {
+        "path": "/images/discover/sgt-puzzles.png",
+        "sourceUrl": "https://raw.githubusercontent.com/chrisboyle/sgtpuzzles/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "MIT",
+        "licenseUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/licence.html#licence",
+        "attribution": "Launcher icon from the official GitHub port. MIT (upstream licence). Image used unmodified.",
+        "alt": "Simon Tatham's Puzzles launcher icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/sgt-puzzles-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://chris.boyle.name/projects/android-puzzles/",
+            "label": "Product page: Play link, offline play, MIT scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/chrisboyle/sgtpuzzles/main/README.md",
+            "label": "Readme: upstream collection and Play install",
+            "checks": [
+              "identity",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/licence.html#licence",
+            "label": "Upstream MIT licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/chrisboyle/sgtpuzzles/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon from source release",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "hextris",
+      "kind": "game",
+      "name": "Hextris",
+      "developer": "Logan Engstrom and collaborators",
+      "category": "Puzzle",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://hextris.github.io/presskit/info.html",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Hextris is a fast hexagonal puzzle game inspired by Tetris, playable in the browser and through native mobile builds. The official press kit links Google Play and iOS stores, hosts logo assets, and the GitHub readme releases the project under GPLv3.",
+      "features": [
+        "Rotate a hexagon to match falling colored segments before the stack overflows.",
+        "Install com.hextris.hexts from the Android store link on the press kit.",
+        "Play the web demo at hextris.github.io when you want instant access.",
+        "Review GPLv3 terms in the upstream repository before redistributing builds.",
+        "Use press-kit logos that match the documented Android branding files."
+      ],
+      "insight": "Hextris survives years of clones because the official stores, press kit, and GPLv3 source stay aligned—you always know which build is the real hexagonal sprint.",
+      "officialUrl": "https://hextris.github.io/",
+      "discoverySource": {
+        "name": "Official Hextris press kit",
+        "url": "https://hextris.github.io/presskit/info.html"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hextris.hexts"
+        },
+        {
+          "label": "Play in browser",
+          "url": "https://hextris.github.io/hextris/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/hextris/hextris"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://hextris.github.io/",
+        "androidPackageId": "com.hextris.hexts",
+        "githubRepo": "hextris/hextris"
+      },
+      "asset": {
+        "path": "/images/discover/hextris.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Hextris/hextris/gh-pages/images/twitter-opengraph.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/hextris/hextris/master/LICENSE.md",
+        "attribution": "Hextris social preview image from the official gh-pages branch. GPLv3. Image used unmodified.",
+        "alt": "Hextris logo on dark background",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/hextris-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://hextris.github.io/presskit/info.html",
+            "label": "Press kit: Android store, branding files",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hextris/hextris/master/README.md",
+            "label": "Readme: puzzle description and GPLv3",
+            "checks": [
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hextris/hextris/master/LICENSE.md",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hextris/hextris/gh-pages/images/twitter-opengraph.png",
+            "label": "Official promotional image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "2048-android",
+      "kind": "game",
+      "name": "2048",
+      "developer": "Gabriele Cirulli (Android port by Álvaro Menezes)",
+      "category": "Puzzle",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/uberspot/2048-android/master/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "This Android build wraps Gabriele Cirulli's 2048 in a local WebView so the sliding-tile puzzle runs offline without extra permissions. The port readme links Google Play and F-Droid, documents submodule build steps, and releases the wrapper under the MIT license.",
+      "features": [
+        "Play the classic 2048 tile-merging rules entirely offline.",
+        "Install com.uberspot.a2048 from developer-linked Google Play or F-Droid badges.",
+        "Avoid network permissions because assets ship inside the APK.",
+        "Build from GitHub with submodules when packaging your own release.",
+        "Contribute Android-specific fixes upstream via pull requests."
+      ],
+      "insight": "2048 on Android here is deliberately minimal: no accounts, no ads in the wrapper readme story—just the original math puzzle cached on your phone.",
+      "officialUrl": "https://github.com/uberspot/2048-android",
+      "discoverySource": {
+        "name": "Official 2048 Android port",
+        "url": "https://raw.githubusercontent.com/uberspot/2048-android/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.uberspot.a2048"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.uberspot.a2048/"
+        },
+        {
+          "label": "Original 2048 game",
+          "url": "https://github.com/gabrielecirulli/2048"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/uberspot/2048-android",
+        "androidPackageId": "com.uberspot.a2048",
+        "githubRepo": "uberspot/2048-android"
+      },
+      "asset": {
+        "path": "/images/discover/2048-android.png",
+        "sourceUrl": "https://raw.githubusercontent.com/uberspot/2048-android/master/metadata/en-US/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/uberspot/2048-android/master/LICENSE",
+        "attribution": "2048 Android store icon from the official repository. MIT. Image used unmodified.",
+        "alt": "2048 Android app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/2048-android-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/uberspot/2048-android/master/README.md",
+            "label": "Readme: offline WebView port, stores, MIT license",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/uberspot/2048-android/master/LICENSE",
+            "label": "MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/uberspot/2048-android/master/metadata/en-US/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "osmand",
+      "kind": "app",
+      "name": "OsmAnd",
+      "developer": "OsmAnd contributors",
+      "category": "Maps & navigation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "freemium",
+        "label": "Free with paid map downloads",
+        "sourceUrl": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "OsmAnd is an OpenStreetMap-powered map and navigation app with offline vector maps, voice routing, and POI search. The official readme documents car, bike, and pedestrian routing, offline storage, and links to Google Play, F-Droid, and other Android stores maintained by the project.",
+      "features": [
+        "Download regional vector maps for offline turn-by-turn routing.",
+        "Switch between online tiles and compact offline data as described in the readme.",
+        "Search addresses, categories, and coordinates without leaving the app.",
+        "Install net.osmand.plus from developer-linked Google Play or F-Droid badges.",
+        "Layer GPX tracks, Wikipedia POIs, and contour overlays when maps provide them."
+      ],
+      "insight": "OsmAnd is the offline navigator for travelers who treat map files like luggage: download once, route without roaming, and keep OpenStreetMap attribution visible.",
+      "officialUrl": "https://github.com/osmandapp/OsmAnd",
+      "discoverySource": {
+        "name": "Official OsmAnd repository",
+        "url": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=net.osmand.plus"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.osmand.plus/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/osmandapp/OsmAnd"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/osmandapp/OsmAnd",
+        "androidPackageId": "net.osmand.plus",
+        "githubRepo": "osmandapp/OsmAnd"
+      },
+      "asset": {
+        "path": "/images/discover/osmand.png",
+        "sourceUrl": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/OsmAnd/res/mipmap-xxxhdpi/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/LICENSE",
+        "attribution": "OsmAnd icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "OsmAnd map pin icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/osmand-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/README.md",
+            "label": "Readme: offline maps, routing, store badges",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/osmandapp/OsmAnd/master/OsmAnd/res/mipmap-xxxhdpi/icon.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "tasks",
+      "kind": "app",
+      "name": "Tasks.org",
+      "developer": "Alex Baker",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/tasks/tasks/main/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Tasks.org is Alex Baker's open-source task list built on Astrid's Android codebase, with Google Play and F-Droid builds plus optional desktop alpha downloads. The readme links store badges, documents release signing keys, and points to tasks.org for user documentation.",
+      "features": [
+        "Manage lists, reminders, and recurring tasks with Astrid-era flexibility.",
+        "Install org.tasks from developer-linked Google Play or F-Droid listings.",
+        "Verify APK signatures using the SHA-256 fingerprints published in the readme.",
+        "Sync through CalDAV or local storage depending on your chosen backend.",
+        "Try desktop alpha builds from tasks.org/download when you need a larger screen."
+      ],
+      "insight": "Tasks.org keeps todo data portable: no proprietary cloud lock-in, published signing keys, and a codebase descended from a beloved sync-friendly task app.",
+      "officialUrl": "https://tasks.org",
+      "discoverySource": {
+        "name": "Official Tasks.org repository",
+        "url": "https://raw.githubusercontent.com/tasks/tasks/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.tasks"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.tasks/"
+        },
+        {
+          "label": "Project website",
+          "url": "https://tasks.org"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://tasks.org",
+        "androidPackageId": "org.tasks",
+        "githubRepo": "tasks/tasks"
+      },
+      "asset": {
+        "path": "/images/discover/tasks.png",
+        "sourceUrl": "https://raw.githubusercontent.com/tasks/tasks/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/tasks/tasks/main/LICENSE",
+        "attribution": "Tasks.org store icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Tasks.org checkmark icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/tasks-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tasks/tasks/main/README.md",
+            "label": "Readme: stores, signing keys, Astrid lineage",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tasks/tasks/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tasks/tasks/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "connectbot",
+      "kind": "app",
+      "name": "ConnectBot",
+      "developer": "ConnectBot contributors",
+      "category": "Developer tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/connectbot/connectbot/main/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "ConnectBot is a longstanding open-source SSH and Telnet client for Android maintained by Kenny Root and contributors. The readme links Google Play, GitHub releases, and documents google versus oss APK variants plus the Kotlin cbssh/cbtelnet libraries powering sessions.",
+      "features": [
+        "Open interactive SSH shells with port forwarding and SFTP support.",
+        "Install org.connectbot from the developer-linked Google Play listing.",
+        "Choose google or oss release APKs when sideloading from GitHub releases.",
+        "Manage host keys and known hosts with standard OpenSSH expectations.",
+        "Build with Android Studio using the documented Gradle wrapper steps."
+      ],
+      "insight": "ConnectBot remains the no-nonsense mobile terminal: cryptographic sessions first, minimal UI, and transparent release channels for Play versus fully open builds.",
+      "officialUrl": "https://github.com/connectbot/connectbot",
+      "discoverySource": {
+        "name": "Official ConnectBot repository",
+        "url": "https://raw.githubusercontent.com/connectbot/connectbot/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.connectbot"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/connectbot/connectbot/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/connectbot/connectbot",
+        "androidPackageId": "org.connectbot",
+        "githubRepo": "connectbot/connectbot"
+      },
+      "asset": {
+        "path": "/images/discover/connectbot.png",
+        "sourceUrl": "https://raw.githubusercontent.com/connectbot/connectbot/main/app/src/main/res/mipmap-xxxhdpi/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/connectbot/connectbot/main/LICENSE",
+        "attribution": "ConnectBot icon from the official repository. Apache-2.0. Image used unmodified.",
+        "alt": "ConnectBot terminal icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/connectbot-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/connectbot/connectbot/main/README.md",
+            "label": "Readme: SSH client scope, Play link, APK variants",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/connectbot/connectbot/main/LICENSE",
+            "label": "Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/connectbot/connectbot/main/app/src/main/res/mipmap-xxxhdpi/icon.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "orgzly",
+      "kind": "app",
+      "name": "Orgzly",
+      "developer": "Orgzly contributors",
+      "category": "Notes",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/README.org",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Orgzly is an Android outliner that stores notebooks as plain-text Org mode files and syncs them with local folders, WebDAV, or Dropbox. The official readme links Google Play, describes Org mode compatibility, and releases the project under GPLv3 or later.",
+      "features": [
+        "Edit Org mode outlines with TODO states, tags, and scheduled items.",
+        "Sync notebooks with directories, WebDAV, or Dropbox as documented on orgzly.com.",
+        "Install com.orgzly from the developer-linked Google Play badge.",
+        "Keep files interoperable with desktop Org mode editors.",
+        "Track issues and translations through the GitHub orgzly-android repository."
+      ],
+      "insight": "Orgzly bridges mobile capture and Emacs-friendly Org files without inventing a proprietary note format—handy if your task system already speaks Org syntax.",
+      "officialUrl": "https://orgzly.com/",
+      "discoverySource": {
+        "name": "Official Orgzly repository",
+        "url": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/README.org"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.orgzly"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/orgzly/orgzly-android"
+        },
+        {
+          "label": "Project website",
+          "url": "https://orgzly.com/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://orgzly.com/",
+        "androidPackageId": "com.orgzly",
+        "githubRepo": "orgzly/orgzly-android"
+      },
+      "asset": {
+        "path": "/images/discover/orgzly.png",
+        "sourceUrl": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/app/src/main/res/mipmap-xxxhdpi/cic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/LICENSE",
+        "attribution": "Orgzly launcher icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Orgzly notebook icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/orgzly-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/README.org",
+            "label": "Readme: Org mode scope, Play badge, GPLv3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/orgzly/orgzly-android/master/app/src/main/res/mipmap-xxxhdpi/cic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "vlc",
+      "kind": "app",
+      "name": "VLC for Android",
+      "developer": "VideoLAN",
+      "category": "Media",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/videolan/vlc-android/master/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "VLC for Android is VideoLAN's official mobile port of the classic media player, playing local files and streams with the same codec breadth as desktop VLC. The readme outlines LibVLC modules, GPLv2 licensing, and build instructions for the Android application and engine.",
+      "features": [
+        "Play common audio and video formats without extra codec packs.",
+        "Browse local media libraries and network streams supported by LibVLC.",
+        "Install org.videolan.vlc from developer-linked store listings referenced on videolan.org.",
+        "Use LibVLC in other apps under the documented LGPL engine terms.",
+        "Report bugs through the VideoLAN GitLab tracker linked from the readme."
+      ],
+      "insight": "VLC for Android is the portable reference player: if a format plays here, VideoLAN's engine really does handle it—no store-bought codec unlocks required.",
+      "officialUrl": "https://videolan.org/vlc/download-android.html",
+      "discoverySource": {
+        "name": "Official VLC for Android repository",
+        "url": "https://raw.githubusercontent.com/videolan/vlc-android/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official Android download page",
+          "url": "https://videolan.org/vlc/download-android.html"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/videolan/vlc-android"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://videolan.org/vlc/download-android.html",
+        "androidPackageId": "org.videolan.vlc",
+        "githubRepo": "videolan/vlc-android"
+      },
+      "asset": {
+        "path": "/images/discover/vlc.png",
+        "sourceUrl": "https://raw.githubusercontent.com/videolan/vlc-android/master/application/resources/src/main/res/drawable-xxxhdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/videolan/vlc-android/master/COPYING",
+        "attribution": "VLC for Android icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "VLC cone icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/vlc-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/videolan/vlc-android/master/README.md",
+            "label": "Readme: Android port scope, LibVLC, licensing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/videolan/vlc-android/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/videolan/vlc-android/master/application/resources/src/main/res/drawable-xxxhdpi/icon.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "shelter",
+      "kind": "app",
+      "name": "Shelter",
+      "developer": "Peter Cai",
+      "category": "Privacy",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Shelter is Peter Cai's GPLv3 app that uses Android work profiles to isolate or clone applications. The readme links F-Droid and a signed custom repository, documents freeze and dual-install features, and explains maintenance-mode expectations around work-profile APIs.",
+      "features": [
+        "Install apps inside a work profile to separate them from your personal profile.",
+        "Freeze work-profile apps so they cannot run in the background until you unfreeze them.",
+        "Clone supported apps to run two signed-in accounts on one device.",
+        "Install net.typeblog.shelter from F-Droid or the documented custom repository.",
+        "Review setup wizard caveats about work-profile security boundaries."
+      ],
+      "insight": "Shelter turns Android's work profile into a user-facing sandbox—lighter than a full second phone, but explicit about what the OS isolation can and cannot promise.",
+      "officialUrl": "https://github.com/PeterCxy/Shelter",
+      "discoverySource": {
+        "name": "Official Shelter repository",
+        "url": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.typeblog.shelter/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/PeterCxy/Shelter"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/PeterCxy/Shelter",
+        "androidPackageId": "net.typeblog.shelter",
+        "githubRepo": "PeterCxy/Shelter"
+      },
+      "asset": {
+        "path": "/images/discover/shelter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/metadata/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/LICENSE",
+        "attribution": "Shelter store icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Shelter work profile icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/shelter-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/README.md",
+            "label": "Readme: work profile features, F-Droid, GPLv3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PeterCxy/Shelter/master/metadata/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "syncthing",
+      "kind": "app",
+      "name": "Syncthing-Android",
+      "developer": "Syncthing contributors",
+      "category": "File sync",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/README.md",
+        "checkedAt": "2026-10-29"
+      },
+      "summary": "Syncthing-Android wraps the Syncthing file-sync engine for Android with a Material UI and Weblate-powered translations. The readme notes the app is discontinued after December 2024 but remains open source under MPL-2.0, with build instructions and listing screenshots in the repository.",
+      "features": [
+        "Sync folders peer-to-peer through the embedded Syncthing engine.",
+        "Install com.nutomic.syncthingandroid from historical Google Play or F-Droid builds referenced in community docs.",
+        "Review MPL-2.0 terms before redistributing modified APKs.",
+        "Configure devices and shared folders using the in-app UI backed by Syncthing core.",
+        "Contribute translations via the linked Hosted Weblate project."
+      ],
+      "insight": "Even with maintenance winding down, Syncthing-Android documents a complete local-first sync stack—useful if you still sideload the last release or study how the engine embeds on mobile.",
+      "officialUrl": "https://github.com/syncthing/syncthing-android",
+      "discoverySource": {
+        "name": "Official Syncthing-Android repository",
+        "url": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/syncthing/syncthing-android"
+        },
+        {
+          "label": "Syncthing project site",
+          "url": "https://syncthing.net/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/syncthing/syncthing-android",
+        "androidPackageId": "com.nutomic.syncthingandroid",
+        "githubRepo": "syncthing/syncthing-android"
+      },
+      "asset": {
+        "path": "/images/discover/syncthing.png",
+        "sourceUrl": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "MPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/LICENSE",
+        "attribution": "Syncthing-Android launcher icon from the official repository. MPL-2.0. Image used unmodified.",
+        "alt": "Syncthing for Android icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/syncthing-MPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-29",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/README.md",
+            "label": "Readme: wrapper scope, discontinuation note, MPL-2.0",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/LICENSE",
+            "label": "MPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/syncthing/syncthing-android/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-29"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    }
+  ]
+}
