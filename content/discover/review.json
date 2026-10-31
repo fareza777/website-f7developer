@@ -2901,5 +2901,316 @@
     "reasons": [
       "Local official artwork file is missing or cannot be decoded"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "lincity-ng",
+      "kind": "game",
+      "name": "LinCity-NG",
+      "developer": "LinCity-NG contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/lincity-ng/lincity-ng",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "LinCity-NG modernizes the classic LinCity city simulation with updated graphics and tooling. The repository readme explains sustainable-economy and evacuation victory paths, CMake build steps, and in-game help accessed with F1.",
+      "features": [
+        "Zone residential, commercial, and industrial areas while balancing power and transport.",
+        "Win by reaching a sustainable economy or evacuating citizens with spaceships.",
+        "Build from source using the documented CMake workflow on Linux and other platforms.",
+        "Read dependency and option lists in doc/DEPENDENCIES.md and doc/BUILD_OPTIONS.md.",
+        "Launch installed binaries or run directly from a local build directory."
+      ],
+      "insight": "LinCity-NG is a patient planner’s game: success is measured in water lines and freight routes, not battle loot.",
+      "officialUrl": "https://github.com/lincity-ng/lincity-ng",
+      "discoverySource": {
+        "name": "Official LinCity-NG repository",
+        "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/lincity-ng/lincity-ng"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/lincity-ng/lincity-ng/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/lincity-ng/lincity-ng",
+        "githubRepo": "lincity-ng/lincity-ng"
+      },
+      "asset": {
+        "path": "/images/discover/lincity-ng.png",
+        "sourceUrl": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/data/io.github.lincity_ng.lincity-ng.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/COPYING.txt",
+        "attribution": "LinCity-NG application icon from the official repository data directory. GPL-2.0-or-later (game data also offered under CC-BY-SA-2.0). Image used unmodified.",
+        "alt": "LinCity-NG application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/lincity-ng-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/README.md",
+            "label": "Readme: gameplay goals and build instructions",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/COPYING-data.txt",
+            "label": "Data licensing (GPL and CC-BY-SA-2.0)",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/COPYING.txt",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/data/io.github.lincity_ng.lincity-ng.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    "queuedAt": "2026-10-31",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "blasphemer",
+      "kind": "game",
+      "name": "Blasphemer",
+      "developer": "Blasphemer contributors",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/Blasphemer/blasphemer",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Blasphemer is a free IWAD for Heretic-compatible engines, themed around dark fantasy metal aesthetics. The readme explains that any Heretic-capable source port can play the data, and the project wiki documents contribution workflows for art and maps.",
+      "features": [
+        "Play a complete free IWAD with modern Heretic-compatible engines.",
+        "Use the project wiki and CONTRIBUTING guide to submit art or level fixes.",
+        "Report issues through the official GitHub issue tracker linked in the readme.",
+        "Join community discussion threads referenced from the repository readme.",
+        "Combine the IWAD with user-made Heretic PWADs as described by the project."
+      ],
+      "insight": "Blasphemer shows how a mature free-data pack can keep an older engine ecosystem alive without asking players to hunt abandoned retail discs.",
+      "officialUrl": "https://github.com/Blasphemer/blasphemer",
+      "discoverySource": {
+        "name": "Official Blasphemer repository",
+        "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Blasphemer/blasphemer"
+        },
+        {
+          "label": "Official free download notes",
+          "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/Blasphemer/blasphemer",
+        "githubRepo": "Blasphemer/blasphemer"
+      },
+      "asset": {
+        "path": "/images/discover/blasphemer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/lumps/title.png",
+        "license": "BSD-3-Clause",
+        "licenseUrl": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/COPYING",
+        "attribution": "Blasphemer title graphic from the official repository lumps. BSD-3-Clause. Image used unmodified.",
+        "alt": "Blasphemer title graphic",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/blasphemer-BSD-3-Clause.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md",
+            "label": "Readme: IWAD scope, engines, community links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/COPYING",
+            "label": "BSD-3-Clause license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/lumps/title.png",
+            "label": "Official title graphic",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    "queuedAt": "2026-10-31",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "f-droid",
+      "kind": "app",
+      "name": "F-Droid",
+      "developer": "F-Droid Limited",
+      "category": "Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://f-droid.org/F-Droid.apk",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "The F-Droid client browses and installs free and open source Android apps from the F-Droid repository. The readme documents Gradle builds, direct APK downloads from f-droid.org, and reusable library modules for other storefront experiments.",
+      "features": [
+        "Install and update apps compiled from published source per F-Droid policy.",
+        "Download the client APK directly from f-droid.org when sideloading is required.",
+        "Enable the privileged extension workflow described in the readme for system installs.",
+        "Browse repository metadata without Google Play tracking or accounts.",
+        "Reuse documented library modules when building compatible store clients."
+      ],
+      "insight": "F-Droid is the reference client for auditable Android software: it treats apps as published source trees, not opaque binaries.",
+      "officialUrl": "https://f-droid.org/",
+      "discoverySource": {
+        "name": "Official F-Droid client repository",
+        "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Direct APK",
+          "url": "https://f-droid.org/F-Droid.apk"
+        },
+        {
+          "label": "F-Droid app listing",
+          "url": "https://f-droid.org/packages/org.fdroid.fdroid/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://f-droid.org/",
+        "androidPackageId": "org.fdroid.fdroid",
+        "githubRepo": "f-droid/fdroidclient"
+      },
+      "asset": {
+        "path": "/images/discover/f-droid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/src/full/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/LICENSE",
+        "attribution": "F-Droid client icon from the official repository fastlane metadata. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "F-Droid client icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/f-droid-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/README.md",
+            "label": "Readme: purpose, builds, downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/src/full/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    "queuedAt": "2026-10-31",
+    "reasons": [
+      "Unsafe or missing distribution URL",
+      "Unsafe or missing price source URL"
+    ]
   }
 ]
