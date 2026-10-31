@@ -1,0 +1,1388 @@
+{
+  "date": "2026-10-31",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-10-31T01:07:50.963Z",
+  "entries": [
+    {
+      "slug": "widelands",
+      "kind": "game",
+      "name": "Widelands",
+      "developer": "Widelands development team",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.widelands.org/wiki/Download/",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Widelands is a Settlers II–inspired real-time strategy game with single-player campaigns, skirmishes, and online multiplayer. The official wiki download page lists installers for Windows, Linux, and macOS, and the repository readme describes GPL v2+ code with some Creative Commons art in specific asset folders.",
+      "features": [
+        "Build roads, manage carriers, and expand tribes across hand-crafted maps and campaigns.",
+        "Host or join multiplayer matches using the project’s documented online setup.",
+        "Install current builds from the official widelands.org download documentation.",
+        "Study map scripts and tribe data shipped in the public Git repository.",
+        "Read mixed GPL and Creative Commons notices in asset folders before reusing art."
+      ],
+      "insight": "Widelands keeps the slow-burn economy of classic settlement games while remaining fully open source, which makes it a calm counterpoint to faster RTS picks elsewhere on Discover.",
+      "officialUrl": "https://www.widelands.org/",
+      "discoverySource": {
+        "name": "Official Widelands repository",
+        "url": "https://raw.githubusercontent.com/widelands/widelands/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://www.widelands.org/wiki/Download/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/widelands/widelands/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.widelands.org/",
+        "githubRepo": "widelands/widelands"
+      },
+      "asset": {
+        "path": "/images/discover/widelands.png",
+        "sourceUrl": "https://raw.githubusercontent.com/widelands/widelands/master/data/images/logos/wl-ico-128.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/widelands/widelands/master/COPYING",
+        "attribution": "Widelands application icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Widelands game icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/widelands-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/widelands/widelands/master/README.md",
+            "label": "Readme: genre, license overview, download link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.widelands.org/wiki/Download/",
+            "label": "Official download documentation",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/widelands/widelands/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/widelands/widelands/master/data/images/logos/wl-ico-128.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "dungeon-crawl-stone-soup",
+      "kind": "game",
+      "name": "Dungeon Crawl Stone Soup",
+      "developer": "DCSS community",
+      "category": "Roguelike",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://crawl.develz.org/download.htm",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Dungeon Crawl Stone Soup is a deep roguelike of dungeon exploration, tactical combat, and religion mechanics. The project homepage documents browser play, downloadable tiles and ASCII builds, and community support channels, while the repository ships tutorials and manual files for new players.",
+      "features": [
+        "Learn through in-game tutorials or the quickstart guide in the repository docs tree.",
+        "Play online via webtiles or offline with tiles and ASCII builds linked from the homepage.",
+        "Choose among many species, backgrounds, and gods with diverging tactical constraints.",
+        "Follow public design discussions on the Tavern forum and GitHub issue tracker.",
+        "Install community builds for desktop platforms from the official download page."
+      ],
+      "insight": "DCSS rewards readable failure: every run teaches trap placement, god conduct, and inventory discipline without hiding its systems behind a cinematic wrapper.",
+      "officialUrl": "https://crawl.develz.org/",
+      "discoverySource": {
+        "name": "Official DCSS homepage",
+        "url": "https://crawl.develz.org/"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://crawl.develz.org/download.htm"
+        },
+        {
+          "label": "Play online (webtiles)",
+          "url": "https://crawl.develz.org/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://crawl.develz.org/",
+        "githubRepo": "crawl/crawl"
+      },
+      "asset": {
+        "path": "/images/discover/dungeon-crawl-stone-soup.png",
+        "sourceUrl": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/source/dat/tiles/stone_soup_icon-512x512.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/COPYING",
+        "attribution": "Dungeon Crawl Stone Soup icon from the official repository tiles. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Dungeon Crawl Stone Soup icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/dungeon-crawl-stone-soup-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/crawl/crawl/master/README.md",
+            "label": "Readme: gameplay overview and community links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://crawl.develz.org/download.htm",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/source/dat/tiles/stone_soup_icon-512x512.png",
+            "label": "Official Stone Soup icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "freeciv",
+      "kind": "game",
+      "name": "Freeciv",
+      "developer": "Freeciv contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.freeciv.org/",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Freeciv is a long-running open empire-building strategy game inspired by classic civilization games. The project website and repository describe GPL-licensed clients and servers, community forums, and modpack tooling for custom rulesets and maps.",
+      "features": [
+        "Lead a nation from early settlements through research, diplomacy, and warfare.",
+        "Play single-player scenarios or multiplayer matches using documented server setups.",
+        "Download current releases from freeciv.org and companion documentation in the doc/ tree.",
+        "Extend rules with modpack and ruledit tooling referenced in the repository readme.",
+        "Join forum.freeciv.org for ruleset discussion and release announcements."
+      ],
+      "insight": "Freeciv turns marathon 4X pacing into a community sport: the same GPL engine hosts casual evenings and serious ruleset experiments.",
+      "officialUrl": "https://www.freeciv.org/",
+      "discoverySource": {
+        "name": "Official Freeciv repository",
+        "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://www.freeciv.org/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/freeciv/freeciv/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.freeciv.org/",
+        "githubRepo": "freeciv/freeciv"
+      },
+      "asset": {
+        "path": "/images/discover/freeciv.png",
+        "sourceUrl": "https://raw.githubusercontent.com/freeciv/freeciv/main/data/icons/128x128/freeciv-client.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/freeciv/freeciv/main/COPYING",
+        "attribution": "Freeciv client icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Freeciv client icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/freeciv-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/README.md",
+            "label": "Readme: project summary and community links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.freeciv.org/",
+            "label": "Official project website",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/freeciv/freeciv/main/data/icons/128x128/freeciv-client.png",
+            "label": "Official client icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "lincity-ng",
+      "kind": "game",
+      "name": "LinCity-NG",
+      "developer": "LinCity-NG contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "LinCity-NG modernizes the classic LinCity city simulation with updated graphics and tooling. The repository readme explains sustainable-economy and evacuation victory paths, CMake build steps, and in-game help accessed with F1.",
+      "features": [
+        "Zone residential, commercial, and industrial areas while balancing power and transport.",
+        "Win by reaching a sustainable economy or evacuating citizens with spaceships.",
+        "Build from source using the documented CMake workflow on Linux and other platforms.",
+        "Read dependency and option lists in doc/DEPENDENCIES.md and doc/BUILD_OPTIONS.md.",
+        "Launch installed binaries or run directly from a local build directory."
+      ],
+      "insight": "LinCity-NG is a patient planner’s game: success is measured in water lines and freight routes, not battle loot.",
+      "officialUrl": "https://github.com/lincity-ng/lincity-ng",
+      "discoverySource": {
+        "name": "Official LinCity-NG repository",
+        "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/lincity-ng/lincity-ng"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/lincity-ng/lincity-ng/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/lincity-ng/lincity-ng",
+        "githubRepo": "lincity-ng/lincity-ng"
+      },
+      "asset": {
+        "path": "/images/discover/lincity-ng.png",
+        "sourceUrl": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/data/io.github.lincity_ng.lincity-ng.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/COPYING.txt",
+        "attribution": "LinCity-NG application icon from the official repository data directory. GPL-2.0-or-later (game data also offered under CC-BY-SA-2.0). Image used unmodified.",
+        "alt": "LinCity-NG application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/lincity-ng-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/README.md",
+            "label": "Readme: gameplay goals and build instructions",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/COPYING-data.txt",
+            "label": "Data licensing (GPL and CC-BY-SA-2.0)",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/COPYING.txt",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lincity-ng/lincity-ng/master/data/io.github.lincity_ng.lincity-ng.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "blasphemer",
+      "kind": "game",
+      "name": "Blasphemer",
+      "developer": "Blasphemer contributors",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Blasphemer is a free IWAD for Heretic-compatible engines, themed around dark fantasy metal aesthetics. The readme explains that any Heretic-capable source port can play the data, and the project wiki documents contribution workflows for art and maps.",
+      "features": [
+        "Play a complete free IWAD with modern Heretic-compatible engines.",
+        "Use the project wiki and CONTRIBUTING guide to submit art or level fixes.",
+        "Report issues through the official GitHub issue tracker linked in the readme.",
+        "Join community discussion threads referenced from the repository readme.",
+        "Combine the IWAD with user-made Heretic PWADs as described by the project."
+      ],
+      "insight": "Blasphemer shows how a mature free-data pack can keep an older engine ecosystem alive without asking players to hunt abandoned retail discs.",
+      "officialUrl": "https://github.com/Blasphemer/blasphemer",
+      "discoverySource": {
+        "name": "Official Blasphemer repository",
+        "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Blasphemer/blasphemer"
+        },
+        {
+          "label": "Official free download notes",
+          "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/Blasphemer/blasphemer",
+        "githubRepo": "Blasphemer/blasphemer"
+      },
+      "asset": {
+        "path": "/images/discover/blasphemer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/lumps/title.png",
+        "license": "BSD-3-Clause",
+        "licenseUrl": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/COPYING",
+        "attribution": "Blasphemer title graphic from the official repository lumps. BSD-3-Clause. Image used unmodified.",
+        "alt": "Blasphemer title graphic",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/blasphemer-BSD-3-Clause.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/README.md",
+            "label": "Readme: IWAD scope, engines, community links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/COPYING",
+            "label": "BSD-3-Clause license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Blasphemer/blasphemer/master/lumps/title.png",
+            "label": "Official title graphic",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "powder-toy",
+      "kind": "game",
+      "name": "The Powder Toy",
+      "developer": "The Powder Toy contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://powdertoy.co.uk/Download.html",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "The Powder Toy is a physics sandbox where players combine elements, gases, electronics, and explosives. The readme links to powdertoy.co.uk downloads, Steam, community saves, and a Lua API for automation and plugins.",
+      "features": [
+        "Simulate heat, pressure, gravity, and reactions across hundreds of materials.",
+        "Save, share, and browse community creations through the official website.",
+        "Script interactions with the documented Lua API for tools and plugins.",
+        "Install desktop builds from powdertoy.co.uk or Steam per the readme links.",
+        "Use keyboard shortcuts listed in the repository readme for precision editing."
+      ],
+      "insight": "The Powder Toy turns curiosity into circuitry: one afternoon you are mixing powders, the next you are debugging a virtual reactor.",
+      "officialUrl": "https://powdertoy.co.uk/",
+      "discoverySource": {
+        "name": "Official Powder Toy repository",
+        "url": "https://raw.githubusercontent.com/The-Powder-Toy/The-Powder-Toy/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official downloads",
+          "url": "https://powdertoy.co.uk/Download.html"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/1148350/The_Powder_Toy/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://powdertoy.co.uk/",
+        "githubRepo": "The-Powder-Toy/The-Powder-Toy"
+      },
+      "asset": {
+        "path": "/images/discover/powder-toy.png",
+        "sourceUrl": "https://raw.githubusercontent.com/The-Powder-Toy/The-Powder-Toy/master/resources/generated_icons/icon_exe_48.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/The-Powder-Toy/The-Powder-Toy/master/LICENSE",
+        "attribution": "The Powder Toy application icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "The Powder Toy application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/powder-toy-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/The-Powder-Toy/The-Powder-Toy/master/README.md",
+            "label": "Readme: gameplay, downloads, controls, API",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://powdertoy.co.uk/Download.html",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/The-Powder-Toy/The-Powder-Toy/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/The-Powder-Toy/The-Powder-Toy/master/resources/generated_icons/icon_exe_48.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "bzflag",
+      "kind": "game",
+      "name": "BZFlag",
+      "developer": "BZFlag contributors",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.bzflag.org/",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "BZFlag is an open-source 3D tank battle game with capture-the-flag and free-for-all modes. The repository COPYING file offers dual LGPL-2.1 and MPL-2.0 licensing, and data icons ship alongside the client in the public tree.",
+      "features": [
+        "Pilot customizable tanks with jump and radar features in online arenas.",
+        "Join public servers or host matches using documented client and server builds.",
+        "Download installers from bzflag.org and follow platform notes in the repository.",
+        "Modify and share code under the stated LGPL-2.1 or MPL-2.0 license options.",
+        "Use team-colored assets from the official data directory during events."
+      ],
+      "insight": "BZFlag keeps multiplayer tank combat approachable: short rounds, bold flags, and licenses that welcome fork-friendly leagues.",
+      "officialUrl": "https://www.bzflag.org/",
+      "discoverySource": {
+        "name": "Official BZFlag repository",
+        "url": "https://raw.githubusercontent.com/BZFlag-Dev/bzflag/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://www.bzflag.org/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/BZFlag-Dev/bzflag"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.bzflag.org/",
+        "githubRepo": "BZFlag-Dev/bzflag"
+      },
+      "asset": {
+        "path": "/images/discover/bzflag.png",
+        "sourceUrl": "https://raw.githubusercontent.com/BZFlag-Dev/bzflag/master/data/red_icon.png",
+        "license": "LGPL-2.1-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/BZFlag-Dev/bzflag/master/COPYING.LGPL",
+        "attribution": "BZFlag team icon from the official repository data directory. LGPL-2.1-or-later (project also offers MPL-2.0). Image used unmodified.",
+        "alt": "BZFlag team icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/bzflag-LGPL-2.1.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/BZFlag-Dev/bzflag/master/README.md",
+            "label": "Readme: project overview",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.bzflag.org/",
+            "label": "Official website",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/BZFlag-Dev/bzflag/master/COPYING.LGPL",
+            "label": "LGPL-2.1 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/BZFlag-Dev/bzflag/master/data/red_icon.png",
+            "label": "Official team icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "opentracks",
+      "kind": "app",
+      "name": "OpenTracks",
+      "developer": "OpenTracks contributors",
+      "category": "Health & fitness",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "OpenTracks is a privacy-oriented GPS activity tracker for Android that stores recordings on-device. The readme links Google Play and F-Droid listings for de.dennisguse.opentracks.playstore and documents a humane-design pledge with no ads or analytics.",
+      "features": [
+        "Record activities offline with tracks kept on your device rather than a vendor cloud.",
+        "Install via developer-linked Google Play or the documented F-Droid repository.",
+        "Export GPX and interact with other fitness tools using the formats described in docs.",
+        "Support development through the Liberapay link in the official readme.",
+        "Contribute translations through the linked Weblate project."
+      ],
+      "insight": "OpenTracks is for hikers who want GPS traces without surrendering their workout map to an ad network.",
+      "officialUrl": "https://github.com/OpenTracksApp/OpenTracks",
+      "discoverySource": {
+        "name": "Official OpenTracks repository",
+        "url": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.dennisguse.opentracks.playstore/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenTracksApp/OpenTracks",
+        "androidPackageId": "de.dennisguse.opentracks.playstore",
+        "githubRepo": "OpenTracksApp/OpenTracks"
+      },
+      "asset": {
+        "path": "/images/discover/opentracks.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/fastlane/metadata/android/en-US/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/LICENSE",
+        "attribution": "OpenTracks store icon from the official repository fastlane metadata. Apache-2.0. Image used unmodified.",
+        "alt": "OpenTracks app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/opentracks-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/README.md",
+            "label": "Readme: features, stores, privacy stance",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/LICENSE",
+            "label": "Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenTracksApp/OpenTracks/main/fastlane/metadata/android/en-US/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "f-droid",
+      "kind": "app",
+      "name": "F-Droid",
+      "developer": "F-Droid Limited",
+      "category": "Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "The F-Droid client browses and installs free and open source Android apps from the F-Droid repository. The readme documents Gradle builds, direct APK downloads from f-droid.org, and reusable library modules for other storefront experiments.",
+      "features": [
+        "Install and update apps compiled from published source per F-Droid policy.",
+        "Download the client APK directly from f-droid.org when sideloading is required.",
+        "Enable the privileged extension workflow described in the readme for system installs.",
+        "Browse repository metadata without Google Play tracking or accounts.",
+        "Reuse documented library modules when building compatible store clients."
+      ],
+      "insight": "F-Droid is the reference client for auditable Android software: it treats apps as published source trees, not opaque binaries.",
+      "officialUrl": "https://f-droid.org/",
+      "discoverySource": {
+        "name": "Official F-Droid client repository",
+        "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid app listing",
+          "url": "https://f-droid.org/packages/org.fdroid.fdroid/"
+        },
+        {
+          "label": "Official project website",
+          "url": "https://f-droid.org/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://f-droid.org/",
+        "androidPackageId": "org.fdroid.fdroid",
+        "githubRepo": "f-droid/fdroidclient"
+      },
+      "asset": {
+        "path": "/images/discover/f-droid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/src/full/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/LICENSE",
+        "attribution": "F-Droid client icon from the official repository fastlane metadata. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "F-Droid client icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/f-droid-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/README.md",
+            "label": "Readme: purpose, builds, downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f-droid/fdroidclient/master/src/full/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "anysoftkeyboard",
+      "kind": "app",
+      "name": "AnySoftKeyboard",
+      "developer": "AnySoftKeyboard contributors",
+      "category": "Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "AnySoftKeyboard is an open on-screen keyboard with language packs, gesture typing, and privacy features such as incognito mode. The readme links Google Play and F-Droid listings for com.menny.android.anysoftkeyboard and documents release channels on the project site.",
+      "features": [
+        "Switch among QWERTY, Dvorak, Colemak, and many community language layouts.",
+        "Enable gesture typing, per-app tinting, and optional sound or vibration feedback.",
+        "Use incognito mode to disable learning and emoji history during sensitive typing.",
+        "Install language packs from the documented add-on packs list.",
+        "Follow alpha, beta, and stable channels described in the readme release section."
+      ],
+      "insight": "AnySoftKeyboard proves Android input can stay customizable without shipping a cloud keyboard that logs every keystroke.",
+      "officialUrl": "https://anysoftkeyboard.github.io/",
+      "discoverySource": {
+        "name": "Official AnySoftKeyboard repository",
+        "url": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.menny.android.anysoftkeyboard"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.menny.android.anysoftkeyboard/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://anysoftkeyboard.github.io/",
+        "androidPackageId": "com.menny.android.anysoftkeyboard",
+        "githubRepo": "AnySoftKeyboard/AnySoftKeyboard"
+      },
+      "asset": {
+        "path": "/images/discover/anysoftkeyboard.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/StoreStuff/ic_launcher-web.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/LICENSE",
+        "attribution": "AnySoftKeyboard launcher artwork from the official StoreStuff directory. Apache-2.0. Image used unmodified.",
+        "alt": "AnySoftKeyboard app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/anysoftkeyboard-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/README.md",
+            "label": "Readme: features, stores, release channels",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/LICENSE",
+            "label": "Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AnySoftKeyboard/AnySoftKeyboard/main/StoreStuff/ic_launcher-web.png",
+            "label": "Official launcher artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "wikipedia",
+      "kind": "app",
+      "name": "Wikipedia",
+      "developer": "Wikimedia Foundation",
+      "category": "Reference",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "The official Wikipedia Android app provides read and edit access to Wikimedia projects with feed, search, and saved pages. The repository readme links the Google Play listing for org.wikipedia and points contributors to MediaWiki documentation for hacking the client.",
+      "features": [
+        "Read and edit Wikipedia with account support and offline saved pages.",
+        "Browse the explore feed and on-this-day highlights shipped in the app.",
+        "Install org.wikipedia from the developer-linked Google Play listing.",
+        "File bugs through the Wikimedia Phabricator workflow linked in the readme.",
+        "Follow MediaWiki Android hacking docs for build and contribution steps."
+      ],
+      "insight": "The Wikipedia app keeps the encyclopedia one tap away while staying tied to Wikimedia’s public source and issue trackers.",
+      "officialUrl": "https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android",
+      "discoverySource": {
+        "name": "Official Wikipedia Android repository",
+        "url": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.wikipedia"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android",
+        "androidPackageId": "org.wikipedia",
+        "githubRepo": "wikimedia/apps-android-wikipedia"
+      },
+      "asset": {
+        "path": "/images/discover/wikipedia.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/COPYING",
+        "attribution": "Wikipedia app icon from the official repository fastlane metadata. Apache-2.0. Image used unmodified.",
+        "alt": "Wikipedia app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/wikipedia-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/README.md",
+            "label": "Readme: Play listing and contributor docs",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/COPYING",
+            "label": "Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wikimedia/apps-android-wikipedia/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "home-assistant",
+      "kind": "app",
+      "name": "Home Assistant",
+      "developer": "Home Assistant",
+      "category": "Home automation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/home-assistant/android/main/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "The Home Assistant Companion app connects Android phones to self-hosted Home Assistant instances for dashboards, notifications, and sensors. The repository readme documents Google Play builds for io.homeassistant.companion.android plus sideload and beta channels.",
+      "features": [
+        "Control entities and dashboards from a linked Home Assistant server.",
+        "Receive actionable notifications and sensor updates documented in the app guides.",
+        "Install io.homeassistant.companion.android from the developer-linked Play listing.",
+        "Use full and minimal APK variants described in the project release notes.",
+        "Contribute translations and fixes through the public GitHub workflow."
+      ],
+      "insight": "Home Assistant’s companion app keeps smart-home control on your infrastructure instead of a proprietary cloud dashboard.",
+      "officialUrl": "https://www.home-assistant.io/",
+      "discoverySource": {
+        "name": "Official Home Assistant Android repository",
+        "url": "https://raw.githubusercontent.com/home-assistant/android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.homeassistant.companion.android"
+        },
+        {
+          "label": "GitHub releases",
+          "url": "https://github.com/home-assistant/android/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.home-assistant.io/",
+        "androidPackageId": "io.homeassistant.companion.android",
+        "githubRepo": "home-assistant/android"
+      },
+      "asset": {
+        "path": "/images/discover/home-assistant.png",
+        "sourceUrl": "https://raw.githubusercontent.com/home-assistant/android/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/home-assistant/android/main/LICENSE",
+        "attribution": "Home Assistant Companion icon from the official repository fastlane metadata. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Home Assistant Companion icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/home-assistant-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/home-assistant/android/main/README.md",
+            "label": "Readme: companion features and install paths",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/home-assistant/android/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/home-assistant/android/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "kiwix",
+      "kind": "app",
+      "name": "Kiwix",
+      "developer": "Kiwix contributors",
+      "category": "Reference",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://kiwix.org/en/",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Kiwix for Android reads offline ZIM archives of Wikipedia, TED talks, and other packages without a live connection. The kiwix-android repository documents Google Play identifiers org.kiwix.kiwixmobile and standalone builds plus sideload workflows on kiwix.org.",
+      "features": [
+        "Open large ZIM files stored locally for offline reading and search.",
+        "Install org.kiwix.kiwixmobile from developer-linked store listings referenced in docs.",
+        "Download content packages from kiwix.org and load them through the library UI.",
+        "Use standalone builds documented for devices without Play services.",
+        "Contribute fixes through the public kiwix-android GitHub project."
+      ],
+      "insight": "Kiwix turns pocket Wikipedia into a file you own—ideal for travel through areas where mobile data is unreliable.",
+      "officialUrl": "https://kiwix.org/en/",
+      "discoverySource": {
+        "name": "Official Kiwix Android repository",
+        "url": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.kiwix.kiwixmobile"
+        },
+        {
+          "label": "Official website",
+          "url": "https://kiwix.org/en/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://kiwix.org/en/",
+        "androidPackageId": "org.kiwix.kiwixmobile",
+        "githubRepo": "kiwix/kiwix-android"
+      },
+      "asset": {
+        "path": "/images/discover/kiwix.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/COPYING",
+        "attribution": "Kiwix app icon from the official repository fastlane metadata. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Kiwix app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/kiwix-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/README.md",
+            "label": "Readme: offline ZIM reader scope and build notes",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://kiwix.org/en/",
+            "label": "Official Kiwix website",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/COPYING",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kiwix/kiwix-android/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    },
+    {
+      "slug": "element",
+      "kind": "app",
+      "name": "Element",
+      "developer": "Element",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/element-hq/element-android/main/README.md",
+        "checkedAt": "2026-10-31"
+      },
+      "summary": "Element is a Matrix client for Android with end-to-end encrypted chats, voice, and room management. The readme links the Google Play listing for im.vector.app and documents beta enrollment plus build instructions for contributors.",
+      "features": [
+        "Join Matrix rooms with optional end-to-end encryption and cross-device sync.",
+        "Install im.vector.app from the developer-linked Google Play badge in the readme.",
+        "Opt into beta releases through the Play testing link documented by the project.",
+        "Bridge to other networks when homeserver administrators enable integrations.",
+        "Build from source using Gradle steps in the repository documentation."
+      ],
+      "insight": "Element keeps decentralized chat approachable: one Matrix account can move between self-hosted homeservers without losing your client.",
+      "officialUrl": "https://element.io/",
+      "discoverySource": {
+        "name": "Official Element Android repository",
+        "url": "https://raw.githubusercontent.com/element-hq/element-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=im.vector.app"
+        },
+        {
+          "label": "Official website",
+          "url": "https://element.io/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://element.io/",
+        "androidPackageId": "im.vector.app",
+        "githubRepo": "element-hq/element-android"
+      },
+      "asset": {
+        "path": "/images/discover/element.png",
+        "sourceUrl": "https://raw.githubusercontent.com/element-hq/element-android/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/element-hq/element-android/main/LICENSE",
+        "attribution": "Element app icon from the official repository fastlane metadata. AGPL-3.0-or-later. Image used unmodified.",
+        "alt": "Element app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/element-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/element-hq/element-android/main/README.md",
+            "label": "Readme: Play listing and beta instructions",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/element-hq/element-android/main/LICENSE",
+            "label": "AGPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/element-hq/element-android/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-10-31"
+          }
+        ]
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      }
+    }
+  ]
+}
