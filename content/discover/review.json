@@ -3212,5 +3212,310 @@
       "Unsafe or missing distribution URL",
       "Unsafe or missing price source URL"
     ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+            "label": "Readme: gameplay summary and official download link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "http://bitfighter.org/downloads/",
+            "label": "Official downloads page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+            "label": "Official Android icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "bitfighter",
+      "kind": "game",
+      "name": "Bitfighter",
+      "developer": "Bitfighter contributors",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "http://bitfighter.org/downloads/",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Bitfighter is a fast team-based space combat game with flag capture, core destruction, and customizable ships. The project readme links to official downloads, community wiki documentation, and build instructions for desktop and Android targets.",
+      "features": [
+        "Fight in outer-space arenas with teams, flags, and destructible bases.",
+        "Customize ships for stealth or heavy firepower as described on bitfighter.org.",
+        "Download builds from the official Bitfighter downloads page.",
+        "Join community discussion through the linked Discord and forums.",
+        "Compile from source using the documented CMake workflow on Linux."
+      ],
+      "insight": "Bitfighter keeps arcade team combat approachable with small installs and clear official downloads, which is a nice change from heavier online shooters.",
+      "officialUrl": "http://bitfighter.org/",
+      "discoverySource": {
+        "name": "Official Bitfighter repository",
+        "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "http://bitfighter.org/downloads/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bitfighter/bitfighter"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "http://bitfighter.org/",
+        "githubRepo": "bitfighter/bitfighter"
+      },
+      "asset": {
+        "path": "/images/discover/bitfighter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+        "attribution": "Bitfighter Android launcher icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Bitfighter game icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/bitfighter-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+          "label": "Readme: gameplay summary and official download link",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "http://bitfighter.org/downloads/",
+          "label": "Official downloads page",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+          "label": "Official Android icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-01",
+    "reasons": [
+      "Unsafe or missing official URL",
+      "Unsafe or missing canonical identity URL",
+      "Unsafe or missing distribution URL",
+      "Unsafe or missing price source URL",
+      "Unsafe or missing verification source URL"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+            "label": "Readme: gameplay summary and official download link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "http://bitfighter.org/downloads/",
+            "label": "Official downloads page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+            "label": "Official Android icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "bitfighter",
+      "kind": "game",
+      "name": "Bitfighter",
+      "developer": "Bitfighter contributors",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://bitfighter.org/downloads/",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Bitfighter is a fast team-based space combat game with flag capture, core destruction, and customizable ships. The project readme links to official downloads, community wiki documentation, and build instructions for desktop and Android targets.",
+      "features": [
+        "Fight in outer-space arenas with teams, flags, and destructible bases.",
+        "Customize ships for stealth or heavy firepower as described on bitfighter.org.",
+        "Download builds from the official Bitfighter downloads page.",
+        "Join community discussion through the linked Discord and forums.",
+        "Compile from source using the documented CMake workflow on Linux."
+      ],
+      "insight": "Bitfighter keeps arcade team combat approachable with small installs and clear official downloads, which is a nice change from heavier online shooters.",
+      "officialUrl": "https://bitfighter.org/",
+      "discoverySource": {
+        "name": "Official Bitfighter repository",
+        "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://bitfighter.org/downloads/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bitfighter/bitfighter"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://bitfighter.org/",
+        "githubRepo": "bitfighter/bitfighter"
+      },
+      "asset": {
+        "path": "/images/discover/bitfighter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+        "attribution": "Bitfighter Android launcher icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Bitfighter game icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/bitfighter-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+          "label": "Readme: gameplay summary and official download link",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://bitfighter.org/downloads/",
+          "label": "Official downloads page",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+          "label": "Official Android icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-01",
+    "reasons": [
+      "Unsafe or missing verification source URL",
+      "Price source URL must have price evidence"
+    ]
   }
 ]

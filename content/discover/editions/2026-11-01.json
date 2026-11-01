@@ -1,0 +1,1987 @@
+{
+  "date": "2026-11-01",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-01T01:12:43.636Z",
+  "entries": [
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/README.md",
+            "label": "Readme: genre, platforms, downloads, license overview",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://openrct2.io/download/release/latest",
+            "label": "Official release download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/resources/logo/icon_x256.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "openrct2",
+      "kind": "game",
+      "name": "OpenRCT2",
+      "developer": "OpenRCT2 contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://openrct2.io/download/release/latest",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "OpenRCT2 is an open-source re-implementation of RollerCoaster Tycoon 2 that runs modern builds on Windows, Linux, and macOS. The official site documents portable installers and a launcher, and the readme states you still need legally purchased RCT2 data files to play.",
+      "features": [
+        "Build and manage amusement parks with rides, shops, staff, and finance systems familiar from RCT2.",
+        "Play scenarios and sandbox parks with multiplayer support documented on openrct2.io.",
+        "Download current release and development builds from the official OpenRCT2 download pages.",
+        "Extend the game with documented scripting and community plugins.",
+        "Read mixed licensing notes in the repository before reusing art outside code."
+      ],
+      "insight": "OpenRCT2 keeps a beloved management sim alive on current systems while staying transparent about needing original game data, which makes it a practical pick for preservation-minded players.",
+      "officialUrl": "https://openrct2.io/",
+      "discoverySource": {
+        "name": "Official OpenRCT2 repository",
+        "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://openrct2.io/download/release/latest"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/OpenRCT2/OpenRCT2/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://openrct2.io/",
+        "githubRepo": "OpenRCT2/OpenRCT2"
+      },
+      "asset": {
+        "path": "/images/discover/openrct2.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/resources/logo/icon_x256.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/COPYING",
+        "attribution": "OpenRCT2 application icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "OpenRCT2 application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openrct2-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/README.md",
+          "label": "Readme: genre, platforms, downloads, license overview",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://openrct2.io/download/release/latest",
+          "label": "Official release download page",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/resources/logo/icon_x256.png",
+          "label": "Official application icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/README.md",
+            "label": "Readme: platforms, releases, gameplay features",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://github.com/CorsixTH/CorsixTH/releases",
+            "label": "GitHub releases download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LICENSE.txt",
+            "label": "Project license terms",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LevelEdit/src/icon256.png",
+            "label": "Official LevelEdit icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "corsixth",
+      "kind": "game",
+      "name": "CorsixTH",
+      "developer": "CorsixTH contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/CorsixTH/CorsixTH/releases",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "CorsixTH is an open-source clone of Theme Hospital that adds widescreen support, custom maps, and ongoing fixes while requiring legally obtained original game data. The readme documents GitHub releases for Windows, macOS, and Linux builds plus community multiplayer guidance.",
+      "features": [
+        "Run a hospital management sim compatible with Theme Hospital data files you already own.",
+        "Download official Windows, macOS, Linux, and AppImage builds from GitHub releases.",
+        "Use the in-game map editor and Lua scripting hooks described in project documentation.",
+        "Join community multiplayer and LAN sessions documented on the project wiki.",
+        "Track ongoing development through the public GitHub issue tracker and Discord."
+      ],
+      "insight": "CorsixTH shows how a focused open-source remake can modernize a classic sim without hiding the fact that players must supply original Theme Hospital assets.",
+      "officialUrl": "https://github.com/CorsixTH/CorsixTH",
+      "discoverySource": {
+        "name": "Official CorsixTH repository",
+        "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/CorsixTH/CorsixTH/releases"
+        },
+        {
+          "label": "Official repository",
+          "url": "https://github.com/CorsixTH/CorsixTH"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/CorsixTH/CorsixTH",
+        "githubRepo": "CorsixTH/CorsixTH"
+      },
+      "asset": {
+        "path": "/images/discover/corsixth.png",
+        "sourceUrl": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LevelEdit/src/icon256.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LICENSE.txt",
+        "attribution": "CorsixTH LevelEdit icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "CorsixTH application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/corsixth-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/README.md",
+          "label": "Readme: platforms, releases, gameplay features",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/CorsixTH/CorsixTH/releases",
+          "label": "GitHub releases download page",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LICENSE.txt",
+          "label": "Project license terms",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LevelEdit/src/icon256.png",
+          "label": "Official LevelEdit icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/README.md",
+            "label": "Readme: engine scope, platforms, GPLv3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/files/launcher/images/openmw.png",
+            "label": "Official launcher logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "openmw",
+      "kind": "game",
+      "name": "OpenMW",
+      "developer": "OpenMW contributors",
+      "category": "Role-playing",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenMW/openmw/master/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "OpenMW is an open-source engine re-implementation that plays The Elder Scrolls III: Morrowind when you supply legal game data. The readme documents supported desktop platforms, OpenMW-CS editing tools, and GPLv3 licensing for the engine code.",
+      "features": [
+        "Play Morrowind and official expansions with improved stability and modern desktop support.",
+        "Use OpenMW-CS, the bundled replacement for Bethesda's Construction Set.",
+        "Install builds for Windows, Linux, and macOS listed in the platform support section.",
+        "Import many legacy mods while reading documented compatibility limits on the wiki.",
+        "Extend the project through the public GitLab/GitHub issue trackers and community chat bridges."
+      ],
+      "insight": "OpenMW separates engine freedom from proprietary art, which makes it a strong discover for players who want Morrowind modding without abandoning open-source values.",
+      "officialUrl": "https://www.openmw.org/",
+      "discoverySource": {
+        "name": "Official OpenMW repository",
+        "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://www.openmw.org/"
+        },
+        {
+          "label": "Official GitHub mirror",
+          "url": "https://github.com/OpenMW/openmw"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.openmw.org/",
+        "githubRepo": "OpenMW/openmw"
+      },
+      "asset": {
+        "path": "/images/discover/openmw.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenMW/openmw/master/files/launcher/images/openmw.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenMW/openmw/master/LICENSE",
+        "attribution": "OpenMW launcher logo from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "OpenMW launcher logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openmw-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/README.md",
+          "label": "Readme: engine scope, platforms, GPLv3",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/LICENSE",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/OpenMW/openmw/master/files/launcher/images/openmw.png",
+          "label": "Official launcher logo",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+            "label": "Readme: gameplay summary and official download link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://bitfighter.org/downloads/",
+            "label": "Official downloads page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+            "label": "Official Android icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "bitfighter",
+      "kind": "game",
+      "name": "Bitfighter",
+      "developer": "Bitfighter contributors",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Bitfighter is a fast team-based space combat game with flag capture, core destruction, and customizable ships. The project readme links to official downloads, community wiki documentation, and build instructions for desktop and Android targets.",
+      "features": [
+        "Fight in outer-space arenas with teams, flags, and destructible bases.",
+        "Customize ships for stealth or heavy firepower as described on bitfighter.org.",
+        "Download builds from the official Bitfighter downloads page.",
+        "Join community discussion through the linked Discord and forums.",
+        "Compile from source using the documented CMake workflow on Linux."
+      ],
+      "insight": "Bitfighter keeps arcade team combat approachable with small installs and clear official downloads, which is a nice change from heavier online shooters.",
+      "officialUrl": "https://bitfighter.org/",
+      "discoverySource": {
+        "name": "Official Bitfighter repository",
+        "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://bitfighter.org/downloads/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bitfighter/bitfighter"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://bitfighter.org/",
+        "githubRepo": "bitfighter/bitfighter"
+      },
+      "asset": {
+        "path": "/images/discover/bitfighter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+        "attribution": "Bitfighter Android launcher icon from the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Bitfighter game icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/bitfighter-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/README.md",
+          "label": "Readme: gameplay summary and official download link",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://bitfighter.org/downloads/",
+          "label": "Official downloads page",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/bitfighter/bitfighter/master/build/android/SDL-android-project/res/drawable-hdpi/icon.png",
+          "label": "Official Android icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/README.md",
+            "label": "Readme: engine description, games, GPLv3 badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://www.solarus-games.org/source-code/compilation-instructions/",
+            "label": "Official compilation instructions",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/COPYING",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/images/solarus_logo.png",
+            "label": "Official Solarus logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "solarus",
+      "kind": "game",
+      "name": "Solarus",
+      "developer": "Solarus team",
+      "category": "Adventure",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.solarus-games.org/source-code/compilation-instructions/",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Solarus is a GPLv3 Zelda-like 2D engine written in C++ with Lua scripting for quests and cutscenes. The readme links to official fangames, the Quest Editor companion project, and compilation instructions on solarus-games.org.",
+      "features": [
+        "Run Lua-scripted top-down action adventures in the Solarus engine.",
+        "Play official fangames such as Mystery of Solarus DX linked from the readme.",
+        "Build the engine on Windows, Linux, and macOS using documented compilation steps.",
+        "Pair the engine with Solarus Quest Editor for designing new games.",
+        "Read GPLv3 licensing and contributor guidance in the public repository."
+      ],
+      "insight": "Solarus gives indie creators a focused 2D adventure toolkit instead of a general-purpose engine, which keeps Discover's game list varied beyond shooters and strategy titles.",
+      "officialUrl": "https://www.solarus-games.org/",
+      "discoverySource": {
+        "name": "Official Solarus repository",
+        "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://www.solarus-games.org/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/solarus-games/solarus"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://www.solarus-games.org/",
+        "githubRepo": "solarus-games/solarus"
+      },
+      "asset": {
+        "path": "/images/discover/solarus.png",
+        "sourceUrl": "https://raw.githubusercontent.com/solarus-games/solarus/master/images/solarus_logo.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/solarus-games/solarus/master/COPYING",
+        "attribution": "Solarus logo from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Solarus engine logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/solarus-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/README.md",
+          "label": "Readme: engine description, games, GPLv3 badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://www.solarus-games.org/source-code/compilation-instructions/",
+          "label": "Official compilation instructions",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/COPYING",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/solarus-games/solarus/master/images/solarus_logo.png",
+          "label": "Official Solarus logo",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/README.md",
+            "label": "Readme: genre, release downloads, license section",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://github.com/OpenLoco/OpenLoco/releases",
+            "label": "GitHub releases download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/LICENSE.txt",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/src/Resources/src/logo/icon_x256.png",
+            "label": "Official application icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "openloco",
+      "kind": "game",
+      "name": "OpenLoco",
+      "developer": "OpenLoco contributors",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/OpenLoco/OpenLoco/releases",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "OpenLoco is an open-source re-implementation of Chris Sawyer's Locomotion focused on running a transport company in a construction and management sim. The readme documents GitHub release builds for Windows, Linux, and macOS under GPLv3.",
+      "features": [
+        "Manage trains, routes, and finances in a Locomotion-style transport sim.",
+        "Download official CI-built releases for Windows, Linux, and macOS from GitHub.",
+        "Compile the project using prerequisites listed in the readme.",
+        "Discuss development in the linked community chat channels.",
+        "Contribute through the public GitHub workflow and issue tracker."
+      ],
+      "insight": "OpenLoco pairs nicely with other open transport remakes on Discover, giving tycoon fans another legally transparent path to play Locomotion-era design.",
+      "officialUrl": "https://github.com/OpenLoco/OpenLoco",
+      "discoverySource": {
+        "name": "Official OpenLoco repository",
+        "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/OpenLoco/OpenLoco/releases"
+        },
+        {
+          "label": "Official repository",
+          "url": "https://github.com/OpenLoco/OpenLoco"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenLoco/OpenLoco",
+        "githubRepo": "OpenLoco/OpenLoco"
+      },
+      "asset": {
+        "path": "/images/discover/openloco.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/src/Resources/src/logo/icon_x256.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/LICENSE.txt",
+        "attribution": "OpenLoco application icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "OpenLoco application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openloco-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/README.md",
+          "label": "Readme: genre, release downloads, license section",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/OpenLoco/OpenLoco/releases",
+          "label": "GitHub releases download page",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/LICENSE.txt",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/OpenLoco/OpenLoco/master/src/Resources/src/logo/icon_x256.png",
+          "label": "Official application icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SFTtech/openage/master/README.md",
+            "label": "Readme: engine scope, asset requirements, GPLv3 badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SFTtech/openage/master/legal/GPLv3",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SFTtech/openage/master/assets/logo/banner.png",
+            "label": "Official banner logo asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "openage",
+      "kind": "game",
+      "name": "openage",
+      "developer": "SFTtech / openage authors",
+      "category": "Strategy",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/SFTtech/openage/master/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "openage is a volunteer project building a free engine clone of the Genie Engine used by Age of Empires and Age of Empires II. The readme explains that players must supply original game assets, lists comparable open remakes, and documents GPLv3+ licensing.",
+      "features": [
+        "Target Age of Empires and Age of Empires II mechanics with a modern C++26 and Python codebase.",
+        "Convert original game media using documented conversion tooling when you own the games.",
+        "Follow build instructions and developer blogs linked from the repository.",
+        "Collaborate through Matrix chat, GitHub issues, and discussion forums.",
+        "Track separate openage-data efforts for replacement art under their own licenses."
+      ],
+      "insight": "openage is still ambitious engineering, but its clear asset requirements and GPLv3 foundation make it worth watching for strategy fans who already own classic AoE discs.",
+      "officialUrl": "https://openage.dev/",
+      "discoverySource": {
+        "name": "Official openage repository",
+        "url": "https://raw.githubusercontent.com/SFTtech/openage/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://openage.dev/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/SFTtech/openage"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://openage.dev/",
+        "githubRepo": "SFTtech/openage"
+      },
+      "asset": {
+        "path": "/images/discover/openage.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SFTtech/openage/master/assets/logo/banner.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/SFTtech/openage/master/legal/GPLv3",
+        "attribution": "openage banner logo from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "openage project logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openage-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/SFTtech/openage/master/README.md",
+          "label": "Readme: engine scope, asset requirements, GPLv3 badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/SFTtech/openage/master/legal/GPLv3",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/SFTtech/openage/master/assets/logo/banner.png",
+          "label": "Official banner logo asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/README.md",
+            "label": "Readme: features, F-Droid badge, GPLv3",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://f-droid.org/en/packages/com.github.libretube/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "libretube",
+      "kind": "app",
+      "name": "LibreTube",
+      "developer": "LibreTube contributors",
+      "category": "Video",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "LibreTube is a GPLv3 YouTube client for Android that emphasizes ad-free playback, SponsorBlock integration, and account-free use. The readme links to official F-Droid packages and documents feature highlights on GitHub.",
+      "features": [
+        "Watch YouTube with SponsorBlock, DeArrow, and Return YouTube Dislike integrations listed in the readme.",
+        "Subscribe to channels and manage playlists without a Google account.",
+        "Download media for offline viewing where supported in the app.",
+        "Install from F-Droid using the badge link in the official readme.",
+        "Customize themes and player behavior described in project documentation."
+      ],
+      "insight": "LibreTube shows how a community client can rethink YouTube on Android while staying fully open source and easy to grab from F-Droid.",
+      "officialUrl": "https://github.com/libre-tube/LibreTube",
+      "discoverySource": {
+        "name": "Official LibreTube repository",
+        "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.github.libretube/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/libre-tube/LibreTube"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/libre-tube/LibreTube",
+        "androidPackageId": "com.github.libretube",
+        "githubRepo": "libre-tube/LibreTube"
+      },
+      "asset": {
+        "path": "/images/discover/libretube.png",
+        "sourceUrl": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/LICENSE",
+        "attribution": "LibreTube launcher icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "LibreTube app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/libretube-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/README.md",
+          "label": "Readme: features, F-Droid badge, GPLv3",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://f-droid.org/en/packages/com.github.libretube/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/LICENSE",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/libre-tube/LibreTube/master/fastlane/metadata/android/en-US/images/icon.png",
+          "label": "Official fastlane icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/koreader/koreader/master/README.md",
+            "label": "Readme: reader scope, downloads, AGPL badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://github.com/koreader/koreader/releases",
+            "label": "Official GitHub releases",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/full_description.txt",
+            "label": "Store metadata feature list",
+            "checks": [
+              "features"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/koreader/koreader/master/COPYING",
+            "label": "AGPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/icon.png",
+            "label": "Official metadata icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "koreader",
+      "kind": "app",
+      "name": "KOReader",
+      "developer": "KOReader contributors",
+      "category": "Books & reading",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/koreader/koreader/releases",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "KOReader is an AGPL ebook reader tuned for phones and e-ink devices with broad format support and deep typography controls. The readme and F-Droid metadata describe reflowable and fixed-layout formats, plugins, and Android packages distributed via GitHub releases.",
+      "features": [
+        "Open EPUB, PDF, DjVu, CBZ, FB2, and many other formats listed in store metadata.",
+        "Reflow scanned PDFs and tune hyphenation, fonts, and margins for comfortable reading.",
+        "Install Android builds from the official GitHub releases page linked on koreader.rocks.",
+        "Extend reading with plugins and scripting documented in the project wiki.",
+        "Sync reading progress through optional services described in project docs."
+      ],
+      "insight": "KOReader is one of the few readers that treats Android phones and e-ink hardware equally seriously, which makes it essential for heavy readers.",
+      "officialUrl": "https://koreader.rocks/",
+      "discoverySource": {
+        "name": "Official KOReader repository",
+        "url": "https://raw.githubusercontent.com/koreader/koreader/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/koreader/koreader/releases"
+        },
+        {
+          "label": "Official website",
+          "url": "https://koreader.rocks/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://koreader.rocks/",
+        "githubRepo": "koreader/koreader"
+      },
+      "asset": {
+        "path": "/images/discover/koreader.png",
+        "sourceUrl": "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/icon.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/koreader/koreader/master/COPYING",
+        "attribution": "KOReader icon from official store metadata in the repository. AGPL-3.0-or-later. Image used unmodified.",
+        "alt": "KOReader app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/koreader-AGPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/koreader/koreader/master/README.md",
+          "label": "Readme: reader scope, downloads, AGPL badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/koreader/koreader/releases",
+          "label": "Official GitHub releases",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/full_description.txt",
+          "label": "Store metadata feature list",
+          "checks": [
+            "features"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/koreader/koreader/master/COPYING",
+          "label": "AGPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/koreader/koreader/master/metadata/en-US/images/icon.png",
+          "label": "Official metadata icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/README.md",
+            "label": "Readme: Play and F-Droid links, project summary",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.runnerup",
+            "label": "Google Play listing referenced in readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/app/listings/play/listings/en-US/graphics/icon/ic_launcher.png",
+            "label": "Official Play listing icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "runnerup",
+      "kind": "app",
+      "name": "RunnerUp",
+      "developer": "Jonas Oreland and contributors",
+      "category": "Health & fitness",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "RunnerUp is an open-source GPS running tracker with interval workouts, audio cues, and heart-rate support. The readme links to Google Play and F-Droid packages and documents GPLv3 licensing.",
+      "features": [
+        "Record runs with GPS tracks, lap splits, and configurable audio feedback.",
+        "Plan interval workouts and export activities as described in project docs.",
+        "Install from Google Play or the F-Droid build noted in the readme.",
+        "Pair Bluetooth heart-rate monitors supported by the app.",
+        "Review source code and contribute through the public GitHub repository."
+      ],
+      "insight": "RunnerUp keeps run tracking transparent and offline-friendly, which is refreshing compared with ad-heavy fitness apps.",
+      "officialUrl": "https://github.com/jonasoreland/runnerup",
+      "discoverySource": {
+        "name": "Official RunnerUp repository",
+        "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.runnerup"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/org.runnerup.free/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/jonasoreland/runnerup",
+        "androidPackageId": "org.runnerup",
+        "githubRepo": "jonasoreland/runnerup"
+      },
+      "asset": {
+        "path": "/images/discover/runnerup.png",
+        "sourceUrl": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/app/listings/play/listings/en-US/graphics/icon/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/LICENSE",
+        "attribution": "RunnerUp Play Store icon from the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "RunnerUp app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/runnerup-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/README.md",
+          "label": "Readme: Play and F-Droid links, project summary",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=org.runnerup",
+          "label": "Google Play listing referenced in readme",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/LICENSE",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jonasoreland/runnerup/master/app/listings/play/listings/en-US/graphics/icon/ic_launcher.png",
+          "label": "Official Play listing icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/README.md",
+            "label": "Readme: features and GitHub release download badges",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://github.com/NeoApplications/Neo-Launcher/releases",
+            "label": "Official GitHub releases",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "neo-launcher",
+      "kind": "app",
+      "name": "Neo Launcher",
+      "developer": "Neo Applications contributors",
+      "category": "Personalization",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/NeoApplications/Neo-Launcher/releases",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Neo Launcher is a GPLv3 home-screen replacement forked from AOSP Launcher3 with deep customization for power users. The readme highlights GitHub release downloads, gesture controls, and icon pack support.",
+      "features": [
+        "Replace the default launcher with customizable grids, docks, and gestures.",
+        "Back up and restore preferences using tools linked in the readme.",
+        "Install official APK builds from GitHub releases badges in the repository.",
+        "Apply icon packs and adaptive icon options documented for Neo Launcher.",
+        "Tune performance-oriented options aimed at advanced Android users."
+      ],
+      "insight": "Neo Launcher trades flashy storefront marketing for GitHub-delivered builds and granular control, which suits readers who treat their home screen like a workspace.",
+      "officialUrl": "https://github.com/NeoApplications/Neo-Launcher",
+      "discoverySource": {
+        "name": "Official Neo Launcher repository",
+        "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/NeoApplications/Neo-Launcher/releases"
+        },
+        {
+          "label": "Official repository",
+          "url": "https://github.com/NeoApplications/Neo-Launcher"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/NeoApplications/Neo-Launcher",
+        "androidPackageId": "com.saggitt.omega",
+        "githubRepo": "NeoApplications/Neo-Launcher"
+      },
+      "asset": {
+        "path": "/images/discover/neo-launcher.png",
+        "sourceUrl": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/LICENSE",
+        "attribution": "Neo Launcher icon from official fastlane metadata. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Neo Launcher app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/neo-launcher-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/README.md",
+          "label": "Readme: features and GitHub release download badges",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://github.com/NeoApplications/Neo-Launcher/releases",
+          "label": "Official GitHub releases",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/LICENSE",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/NeoApplications/Neo-Launcher/main/fastlane/metadata/android/en-US/images/icon.png",
+          "label": "Official fastlane icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/README.md",
+            "label": "Readme: Android Play link, APK downloads, AGPL badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=chat.simplex.app",
+            "label": "Google Play listing referenced in readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/LICENSE",
+            "label": "AGPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "simplex-chat",
+      "kind": "app",
+      "name": "SimpleX Chat",
+      "developer": "SimpleX Chat contributors",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "SimpleX Chat is an AGPL messenger that routes messages without assigning users a permanent identifier. The readme documents Android Google Play and direct APK downloads plus end-to-end encryption goals.",
+      "features": [
+        "Send messages over a decentralized network without a phone-number-based ID.",
+        "Use end-to-end encryption with protections against spam and abuse described in docs.",
+        "Install Android builds from the Google Play link in the official readme.",
+        "Download APK artifacts attached to GitHub releases when preferred.",
+        "Join desktop and iOS clients listed in the project README for cross-device chat."
+      ],
+      "insight": "SimpleX Chat experiments with metadata-minimized messaging while still offering a polished Android client linked directly from its readme.",
+      "officialUrl": "https://simplex.chat/",
+      "discoverySource": {
+        "name": "Official SimpleX Chat repository",
+        "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=chat.simplex.app"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/simplex-chat/simplex-chat"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://simplex.chat/",
+        "androidPackageId": "chat.simplex.app",
+        "githubRepo": "simplex-chat/simplex-chat"
+      },
+      "asset": {
+        "path": "/images/discover/simplex-chat.png",
+        "sourceUrl": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/LICENSE",
+        "attribution": "SimpleX Chat icon from official fastlane metadata. AGPL-3.0-or-later. Image used unmodified.",
+        "alt": "SimpleX Chat app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/simplex-chat-AGPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/README.md",
+          "label": "Readme: Android Play link, APK downloads, AGPL badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=chat.simplex.app",
+          "label": "Google Play listing referenced in readme",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/LICENSE",
+          "label": "AGPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/fastlane/metadata/android/en-US/images/icon.png",
+          "label": "Official fastlane icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://acode.app/",
+            "label": "Official site: Play and GitHub links in structured metadata",
+            "checks": [
+              "identity",
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Fastlane description: terminal, Git, SSH features",
+            "checks": [
+              "features"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.foxdebug.acodefree",
+            "label": "Google Play listing referenced on acode.app",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/license.txt",
+            "label": "MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "acode",
+      "kind": "app",
+      "name": "Acode",
+      "developer": "Foxdebug / Acode Foundation",
+      "category": "Developer tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://acode.app/",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Acode is an open-source Android code editor and web IDE with Git, SSH, plugin support, and an embedded terminal. The official acode.app site links to Google Play and GitHub, and fastlane metadata summarizes supported workflows.",
+      "features": [
+        "Edit web and project files with syntax highlighting and plugin extensions.",
+        "Use Git, SFTP/FTP, and SSH workflows described in fastlane metadata.",
+        "Run commands in an embedded Linux terminal environment documented for the app.",
+        "Install from Google Play using the package referenced on acode.app.",
+        "Install the F-Droid build linked from community packaging metadata."
+      ],
+      "insight": "Acode turns a phone into a credible lightweight IDE, which is surprisingly useful for quick fixes when you are away from a laptop.",
+      "officialUrl": "https://acode.app/",
+      "discoverySource": {
+        "name": "Official Acode repository",
+        "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/fastlane/metadata/android/en-US/full_description.txt"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.foxdebug.acodefree"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.foxdebug.acode/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://acode.app/",
+        "androidPackageId": "com.foxdebug.acodefree",
+        "githubRepo": "Acode-Foundation/Acode"
+      },
+      "asset": {
+        "path": "/images/discover/acode.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/license.txt",
+        "attribution": "Acode icon from official fastlane metadata. MIT license. Image used unmodified.",
+        "alt": "Acode app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/acode-MIT.txt"
+      },
+      "sources": [
+        {
+          "url": "https://acode.app/",
+          "label": "Official site: Play and GitHub links in structured metadata",
+          "checks": [
+            "identity",
+            "platforms",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/fastlane/metadata/android/en-US/full_description.txt",
+          "label": "Fastlane description: terminal, Git, SSH features",
+          "checks": [
+            "features"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.foxdebug.acodefree",
+          "label": "Google Play listing referenced on acode.app",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/license.txt",
+          "label": "MIT license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Acode-Foundation/Acode/main/fastlane/metadata/android/en-US/images/icon.png",
+          "label": "Official fastlane icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/README.md",
+            "label": "Readme: Tor proxy overview and Play Store link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.torproject.android",
+            "label": "Google Play listing referenced in readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/LICENSE",
+            "label": "Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-01"
+          }
+        ]
+      },
+      "slug": "orbot",
+      "kind": "app",
+      "name": "Orbot",
+      "developer": "Guardian Project",
+      "category": "Privacy & security",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/guardianproject/orbot/main/README.md",
+        "checkedAt": "2026-11-01"
+      },
+      "summary": "Orbot is Guardian Project's Tor proxy for Android that routes app traffic through the Tor network. The readme links to the Google Play listing for org.torproject.android and documents how Orbot connects mobile apps to Tor.",
+      "features": [
+        "Route supported apps through Tor using Orbot's VPN or proxy modes.",
+        "Configure bridges and privacy settings described in Guardian Project docs.",
+        "Install from Google Play via the link embedded in the official readme.",
+        "Review Tor routing behavior in the public GitHub source repository.",
+        "Pair with other Guardian Project privacy tools listed on their site."
+      ],
+      "insight": "Orbot remains the straightforward way to put Android apps behind Tor without rooting, which makes it a privacy essential on Discover.",
+      "officialUrl": "https://guardianproject.info/apps/orbot/",
+      "discoverySource": {
+        "name": "Official Orbot repository",
+        "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.torproject.android"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/guardianproject/orbot"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://guardianproject.info/apps/orbot/",
+        "androidPackageId": "org.torproject.android",
+        "githubRepo": "guardianproject/orbot"
+      },
+      "asset": {
+        "path": "/images/discover/orbot.png",
+        "sourceUrl": "https://raw.githubusercontent.com/guardianproject/orbot/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/guardianproject/orbot/main/LICENSE",
+        "attribution": "Orbot icon from official fastlane metadata. Apache-2.0. Image used unmodified.",
+        "alt": "Orbot app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/orbot-Apache-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/README.md",
+          "label": "Readme: Tor proxy overview and Play Store link",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=org.torproject.android",
+          "label": "Google Play listing referenced in readme",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/LICENSE",
+          "label": "Apache-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/guardianproject/orbot/main/fastlane/metadata/android/en-US/images/icon.png",
+          "label": "Official fastlane icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-01"
+        }
+      ]
+    }
+  ]
+}
