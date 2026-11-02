@@ -3517,5 +3517,1618 @@
       "Unsafe or missing verification source URL",
       "Price source URL must have price evidence"
     ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/README.md",
+            "label": "Readme: Jazz Jackrabbit engine scope and license",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/licenses.txt",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/res/unix/OpenJazz.png",
+            "label": "Official OpenJazz icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "openjazz",
+      "kind": "game",
+      "name": "OpenJazz",
+      "developer": "OpenJazz contributors",
+      "category": "Platformer",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/AlisterT/openjazz",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "OpenJazz is a GPL-licensed reimplementation of the classic Jazz Jackrabbit engine that runs on desktops, homebrew ports, and a browser build when you supply original game data. The readme documents decades of community ports plus multiplayer experiments added since the project moved to GitHub.",
+      "features": [
+        "Play shareware and full Jazz Jackrabbit data after pointing OpenJazz at original game files.",
+        "Build native clients for Windows, Linux, macOS, and numerous homebrew platforms listed in the readme.",
+        "Launch the Emscripten web port linked from the repository for browser play with your own data.",
+        "Extend the engine with community fixes while keeping GPLv2 licensing documented in licenses.txt.",
+        "Use the bundled OpenJazz.png icon under the same GPL terms when crediting upstream artwork."
+      ],
+      "insight": "OpenJazz is a patient fan-engine project: it chases faithful Jazz Jackrabbit behaviour across odd platforms instead of chasing modern store trends, which makes it a fun pick for retro PC collectors.",
+      "officialUrl": "https://github.com/AlisterT/openjazz",
+      "discoverySource": {
+        "name": "Official OpenJazz repository",
+        "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/AlisterT/openjazz"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/AlisterT/openjazz",
+        "githubRepo": "AlisterT/openjazz"
+      },
+      "asset": {
+        "path": "/images/discover/openjazz.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AlisterT/openjazz/master/res/unix/OpenJazz.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/AlisterT/openjazz/master/licenses.txt",
+        "attribution": "OpenJazz icon from the official repository. GPL-2.0-or-later; image used unmodified.",
+        "alt": "OpenJazz logo icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openjazz-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/README.md",
+          "label": "Readme: Jazz Jackrabbit engine scope and license",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/licenses.txt",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AlisterT/openjazz/master/res/unix/OpenJazz.png",
+          "label": "Official OpenJazz icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/README.md",
+            "label": "Readme: Infinity Engine reimplementation and platforms",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://gemrb.org/",
+            "label": "Official project website",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/artwork/gemrb-logo.png",
+            "label": "Official GemRB logo artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "gemrb",
+      "kind": "game",
+      "name": "GemRB",
+      "developer": "GemRB contributors",
+      "category": "Role-playing",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://gemrb.org/",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "GemRB is an open-source reimplementation of BioWare’s Infinity Engine used by Baldur’s Gate, Icewind Dale, and Planescape: Torment. The readme and gemrb.org explain that you need legally obtained original game data—or the bundled trivial demo—to see content beyond the sample scenario.",
+      "features": [
+        "Run Infinity Engine RPGs with cleaner modding hooks than the original executables.",
+        "Install original PC game data via WINE, installers, or extraction tools documented on gemrb.org.",
+        "Try the included trivial demo when you do not yet have full game archives.",
+        "Build on Linux, Windows, macOS, and community ports including Android listed in the readme.",
+        "Reuse the GemRB logo under GPL terms with attribution to the artwork folder in the repository."
+      ],
+      "insight": "GemRB matters because it keeps isometric RPG classics moddable on modern systems while stating plainly that players must supply original discs or GOG installs—no hidden piracy hand-waving.",
+      "officialUrl": "https://gemrb.org/",
+      "discoverySource": {
+        "name": "Official GemRB repository",
+        "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://gemrb.org/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/gemrb/gemrb"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://gemrb.org/",
+        "githubRepo": "gemrb/gemrb"
+      },
+      "asset": {
+        "path": "/images/discover/gemrb.png",
+        "sourceUrl": "https://raw.githubusercontent.com/gemrb/gemrb/master/artwork/gemrb-logo.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/gemrb/gemrb/master/COPYING",
+        "attribution": "GemRB logo from the official artwork directory. GPL-2.0-or-later; image used unmodified.",
+        "alt": "GemRB logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/gemrb-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/README.md",
+          "label": "Readme: Infinity Engine reimplementation and platforms",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://gemrb.org/",
+          "label": "Official project website",
+          "checks": [
+            "identity",
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gemrb/gemrb/master/artwork/gemrb-logo.png",
+          "label": "Official GemRB logo artwork",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+            "label": "Readme: RPG scope, platforms, GPL license",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+            "label": "Official Android icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "andors-trail",
+      "kind": "game",
+      "name": "Andor's Trail",
+      "developer": "Andor's Trail contributors",
+      "category": "Role-playing",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "Andor's Trail is a GPLv2 roguelike RPG on Android about uncovering what happened to your village and missing brother. The readme links to Google Play, community forums, and quest-driven dungeon crawling with equipment and experience progression.",
+      "features": [
+        "Follow a story-driven campaign with quests, hidden treasure, and tactical combat on Android.",
+        "Install the free build from the Google Play listing referenced in the official readme.",
+        "Discuss gameplay and contribute through the forums linked from the repository readme.",
+        "Build from source using the AndorsTrail Android project in the GitHub repository.",
+        "Reuse the launcher icon under GPL-2.0 terms with attribution to the drawable asset path."
+      ],
+      "insight": "Andor's Trail is a rare fully open mobile RPG with a coherent story arc—worth a look if you want offline fantasy crawling without gacha mechanics or account lock-in.",
+      "officialUrl": "https://github.com/AndorsTrail/andors-trail",
+      "discoverySource": {
+        "name": "Official Andor's Trail repository",
+        "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/AndorsTrail/andors-trail"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/AndorsTrail/andors-trail",
+        "androidPackageId": "com.gpl.rpg.AndorsTrail",
+        "githubRepo": "AndorsTrail/andors-trail"
+      },
+      "asset": {
+        "path": "/images/discover/andors-trail.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/COPYING",
+        "attribution": "Andor's Trail launcher icon from the official Android resources. GPL-2.0-or-later; image used unmodified.",
+        "alt": "Andor's Trail app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/andors-trail-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+          "label": "Readme: RPG scope, platforms, GPL license",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+          "label": "Official Android icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/README.md",
+            "label": "Readme: Play client features and F-Droid badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://f-droid.org/packages/com.aurora.store/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/LICENSE",
+            "label": "GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official fastlane icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "aurora-store",
+      "kind": "app",
+      "name": "Aurora Store",
+      "developer": "Aurora OSS",
+      "category": "Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://f-droid.org/packages/com.aurora.store/",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "Aurora Store is a GPLv3 client that lets you search, inspect, and download apps from Google Play using your own account or an anonymous session. The readme documents Exodus and Plexus privacy integrations, spoofing controls, and limitations around paid titles.",
+      "features": [
+        "Browse Play Store listings with Material 3 UI while downloading APKs through your Google account.",
+        "Review tracker reports via integrated Exodus Privacy and Plexus compatibility scores.",
+        "Install from F-Droid using the badge linked in the official readme.",
+        "Blacklist unwanted updates and fetch older APK builds when Google still hosts them.",
+        "Read documented limitations on paid apps and Play Asset Delivery before relying on Aurora for purchases."
+      ],
+      "insight": "Aurora Store is transparent about being an unofficial Play front-end—useful for power users who want FOSS tooling and privacy labels without pretending Google endorses the client.",
+      "officialUrl": "https://github.com/whyorean/AuroraStore",
+      "discoverySource": {
+        "name": "Official Aurora Store repository",
+        "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.aurora.store/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/whyorean/AuroraStore"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/whyorean/AuroraStore",
+        "androidPackageId": "com.aurora.store",
+        "githubRepo": "whyorean/AuroraStore"
+      },
+      "asset": {
+        "path": "/images/discover/aurora-store.png",
+        "sourceUrl": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/LICENSE",
+        "attribution": "Aurora Store launcher icon from fastlane metadata. GPL-3.0-or-later; image used unmodified.",
+        "alt": "Aurora Store app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/aurora-store-GPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/README.md",
+          "label": "Readme: Play client features and F-Droid badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://f-droid.org/packages/com.aurora.store/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/LICENSE",
+          "label": "GPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/whyorean/AuroraStore/master/fastlane/metadata/android/en-US/images/icon.png",
+          "label": "Official fastlane icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/README.md",
+            "label": "Readme: Firefox for Android scope and Play badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/LICENSE",
+            "label": "MPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "firefox-android",
+      "kind": "app",
+      "name": "Firefox for Android",
+      "developer": "Mozilla",
+      "category": "Browser",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "Firefox for Android (Fenix) is Mozilla’s GeckoView-based mobile browser built on Android Components. The readme links to Google Play, Matrix support channels, and contribution guides for the fully open browser replacing legacy Firefox for Android.",
+      "features": [
+        "Browse with Mozilla’s Gecko engine and Android Components instead of the system WebView.",
+        "Install from the Google Play badge embedded in the official GitHub readme.",
+        "Use privacy and sync features documented across Mozilla’s Fenix wiki and support sites.",
+        "Contribute via GitHub issues following Mozilla’s community participation guidelines.",
+        "Reuse the launcher icon under MPL-2.0 terms from the repository mipmap asset."
+      ],
+      "insight": "Firefox for Android remains the flagship open mobile browser from Mozilla—worth revisiting if you want Gecko’s tracking protections on Android without a Chromium-only stack.",
+      "officialUrl": "https://github.com/mozilla-mobile/fenix",
+      "discoverySource": {
+        "name": "Official Fenix repository",
+        "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/mozilla-mobile/fenix"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/mozilla-mobile/fenix",
+        "androidPackageId": "org.mozilla.firefox",
+        "githubRepo": "mozilla-mobile/fenix"
+      },
+      "asset": {
+        "path": "/images/discover/firefox-android.png",
+        "sourceUrl": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "MPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/LICENSE",
+        "attribution": "Firefox for Android launcher icon from the Fenix repository. MPL-2.0; image used unmodified.",
+        "alt": "Firefox for Android icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/firefox-android-MPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/README.md",
+          "label": "Readme: Firefox for Android scope and Play badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/LICENSE",
+          "label": "MPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mozilla-mobile/fenix/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "label": "Official launcher icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/README.md",
+            "label": "Readme: Commons upload scope and store badges",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://f-droid.org/packages/fr.free.nrw.commons/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "wikimedia-commons",
+      "kind": "app",
+      "name": "Wikimedia Commons",
+      "developer": "Wikimedia Commons app team",
+      "category": "Photography",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "The Wikimedia Commons Android app uploads photos from your device to Wikimedia Commons with categorization helpers and community documentation. The readme links to Google Play, F-Droid, and extensive contributor docs maintained by volunteers.",
+      "features": [
+        "Upload pictures from Android phones and tablets directly to Wikimedia Commons.",
+        "Install via Google Play or F-Droid badges referenced in the official readme.",
+        "Follow user and developer documentation linked from the Commons app docs site.",
+        "Collaborate through GitHub issues and translation workflows noted in the repository.",
+        "Reuse the launcher icon under the project Apache license with attribution to Wikimedia volunteers."
+      ],
+      "insight": "This app turns everyday photos into freely licensed Commons media—a practical Android tool for travelers who want their shots to outlive proprietary camera rolls.",
+      "officialUrl": "https://commons-app.github.io/",
+      "discoverySource": {
+        "name": "Official Wikimedia Commons app repository",
+        "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/fr.free.nrw.commons/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://commons-app.github.io/",
+        "androidPackageId": "fr.free.nrw.commons",
+        "githubRepo": "commons-app/apps-android-commons"
+      },
+      "asset": {
+        "path": "/images/discover/wikimedia-commons.png",
+        "sourceUrl": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/LICENSE",
+        "attribution": "Wikimedia Commons app icon from the official repository. Apache-2.0; image used unmodified.",
+        "alt": "Wikimedia Commons app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/wikimedia-commons-Apache-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/README.md",
+          "label": "Readme: Commons upload scope and store badges",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://f-droid.org/packages/fr.free.nrw.commons/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "label": "Official launcher icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Artwork license URL must have asset-license evidence",
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/android/master/README.md",
+            "label": "Readme: Nextcloud Android scope and store badges",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.nextcloud.client",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://f-droid.org/packages/com.nextcloud.client/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/android/master/COPYING",
+            "label": "AGPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "nextcloud",
+      "kind": "app",
+      "name": "Nextcloud",
+      "developer": "Nextcloud GmbH and contributors",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.nextcloud.client",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "The official Nextcloud Android client syncs files, photos, and notifications with self-hosted Nextcloud servers. The readme advertises Google Play, F-Droid, and Obtainium install routes under AGPL-3.0 licensing with REUSE metadata.",
+      "features": [
+        "Connect to your self-hosted Nextcloud for files, sharing, and auto-upload workflows.",
+        "Install from Google Play, F-Droid, or Obtainium badges linked in the repository readme.",
+        "Review AGPL-3.0 licensing and REUSE compliance badges in the project README.",
+        "Follow Nextcloud’s issue tracker and contribution guides for Android-specific fixes.",
+        "Reuse the launcher icon under AGPL-3.0 terms from the official mipmap asset."
+      ],
+      "insight": "Nextcloud’s Android app is the missing piece for many homelab setups—offline-friendly syncing without surrendering files to a proprietary cloud dashboard.",
+      "officialUrl": "https://nextcloud.com/install/#install-clients",
+      "discoverySource": {
+        "name": "Official Nextcloud Android repository",
+        "url": "https://raw.githubusercontent.com/nextcloud/android/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nextcloud.client"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.nextcloud.client/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/nextcloud/android",
+        "androidPackageId": "com.nextcloud.client",
+        "githubRepo": "nextcloud/android"
+      },
+      "asset": {
+        "path": "/images/discover/nextcloud.png",
+        "sourceUrl": "https://raw.githubusercontent.com/nextcloud/android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/nextcloud/android/master/COPYING",
+        "attribution": "Nextcloud Android launcher icon from the official repository. AGPL-3.0-or-later; image used unmodified.",
+        "alt": "Nextcloud Android app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/nextcloud-AGPL-3.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/nextcloud/android/master/README.md",
+          "label": "Readme: Nextcloud Android scope and store badges",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.nextcloud.client",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://f-droid.org/packages/com.nextcloud.client/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/nextcloud/android/master/COPYING",
+          "label": "AGPL-3.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/nextcloud/android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "label": "Official launcher icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/almalence/OpenCamera/master/README.md",
+            "label": "Readme: camera app scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://f-droid.org/packages/net.sourceforge.opencamera/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=net.sourceforge.opencamera",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/almalence/OpenCamera/master/res/drawable-hdpi/icon.png",
+            "label": "Official launcher icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "open-camera",
+      "kind": "app",
+      "name": "Open Camera",
+      "developer": "Mark Harman",
+      "category": "Photography",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=net.sourceforge.opencamera",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "Open Camera is a feature-rich Android camera app from the almalence GitHub mirror with manual controls, scene modes, and plugins. The readme describes it as a multi-functional camera application, with distribution on Google Play and F-Droid under the net.sourceforge.opencamera package.",
+      "features": [
+        "Shoot photos and video with manual exposure, focus, and scene controls on Android.",
+        "Install from the Google Play listing tied to net.sourceforge.opencamera.",
+        "Grab builds from F-Droid when you prefer fully open distribution mirrors.",
+        "Extend capture with plugins referenced in the project’s resource tree.",
+        "Reuse the hdpi icon asset from the repository when providing GPL/BSD attribution noted upstream."
+      ],
+      "insight": "Open Camera is a dependable replacement for stock camera apps—lightweight, offline-friendly, and maintained openly long after many OEM cameras locked features behind proprietary skins.",
+      "officialUrl": "https://github.com/almalence/OpenCamera",
+      "discoverySource": {
+        "name": "Official Open Camera repository",
+        "url": "https://raw.githubusercontent.com/almalence/OpenCamera/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=net.sourceforge.opencamera"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/net.sourceforge.opencamera/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/almalence/OpenCamera",
+        "androidPackageId": "net.sourceforge.opencamera",
+        "githubRepo": "almalence/OpenCamera"
+      },
+      "asset": {
+        "path": "/images/discover/open-camera.png",
+        "sourceUrl": "https://raw.githubusercontent.com/almalence/OpenCamera/master/res/drawable-hdpi/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://github.com/almalence/OpenCamera/blob/master/README.md",
+        "attribution": "Open Camera icon from the official repository drawable assets. License described in project documentation; image used unmodified.",
+        "alt": "Open Camera app icon",
+        "presentation": "contain"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/almalence/OpenCamera/master/README.md",
+          "label": "Readme: camera app scope",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://f-droid.org/packages/net.sourceforge.opencamera/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=net.sourceforge.opencamera",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/almalence/OpenCamera/master/res/drawable-hdpi/icon.png",
+          "label": "Official launcher icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Artwork license URL must have asset-license evidence",
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/README.md",
+            "label": "Readme: GitHub client features and F-Droid badge",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://f-droid.org/packages/com.gh4a/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/COPYING",
+            "label": "Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/app/src/main/res/drawable-xxhdpi/octodroid.png",
+            "label": "Official Octodroid mascot icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "octodroid",
+      "kind": "app",
+      "name": "OctoDroid",
+      "developer": "OctoDroid contributors",
+      "category": "Developer tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://f-droid.org/packages/com.gh4a/",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "OctoDroid (gh4a) is an open-source GitHub client for Android covering repositories, issues, pull requests, gists, and notifications. The readme embeds an F-Droid badge for com.gh4a and documents OAuth setup for building from source.",
+      "features": [
+        "Browse repositories, commits, and file trees with syntax-highlighted diffs on Android.",
+        "Manage issues and pull requests including comments, labels, and milestones.",
+        "Explore trending projects and GitHub timelines from the Explore section.",
+        "Install from F-Droid using the badge linked in the official readme.",
+        "Register a GitHub OAuth application with callback gh4a://oauth when building custom builds."
+      ],
+      "insight": "OctoDroid is still one of the most complete open GitHub clients on Android—handy for maintainers who want issue triage on the go without a proprietary wrapper.",
+      "officialUrl": "https://github.com/slapperwan/gh4a",
+      "discoverySource": {
+        "name": "Official OctoDroid repository",
+        "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.gh4a/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/slapperwan/gh4a"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/slapperwan/gh4a",
+        "androidPackageId": "com.gh4a",
+        "githubRepo": "slapperwan/gh4a"
+      },
+      "asset": {
+        "path": "/images/discover/octodroid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/slapperwan/gh4a/master/app/src/main/res/drawable-xxhdpi/octodroid.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/slapperwan/gh4a/master/COPYING",
+        "attribution": "OctoDroid mascot icon from the official repository. Apache-2.0; image used unmodified.",
+        "alt": "OctoDroid mascot icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/octodroid-Apache-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/README.md",
+          "label": "Readme: GitHub client features and F-Droid badge",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://f-droid.org/packages/com.gh4a/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/COPYING",
+          "label": "Apache-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/slapperwan/gh4a/master/app/src/main/res/drawable-xxhdpi/octodroid.png",
+          "label": "Official Octodroid mascot icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/README.md",
+            "label": "Readme: Commons upload scope and store badges",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://f-droid.org/packages/fr.free.nrw.commons/",
+            "label": "F-Droid package listing",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "wikimedia-commons",
+      "kind": "app",
+      "name": "Wikimedia Commons",
+      "developer": "Wikimedia Commons app team",
+      "category": "Photography",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "The Wikimedia Commons Android app uploads photos from your device to Wikimedia Commons with categorization helpers and community documentation. The readme links to Google Play, F-Droid, and extensive contributor docs maintained by volunteers.",
+      "features": [
+        "Upload pictures from Android phones and tablets directly to Wikimedia Commons.",
+        "Install via Google Play or F-Droid badges referenced in the official readme.",
+        "Follow user and developer documentation linked from the Commons app docs site.",
+        "Collaborate through GitHub issues and translation workflows noted in the repository.",
+        "Reuse the launcher icon under the project Apache license with attribution to Wikimedia volunteers."
+      ],
+      "insight": "This app turns everyday photos into freely licensed Commons media—a practical Android tool for travelers who want their shots to outlive proprietary camera rolls.",
+      "officialUrl": "https://commons-app.github.io/",
+      "discoverySource": {
+        "name": "Official Wikimedia Commons app repository",
+        "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/fr.free.nrw.commons/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://commons-app.github.io/",
+        "androidPackageId": "fr.free.nrw.commons",
+        "githubRepo": "commons-app/apps-android-commons"
+      },
+      "asset": {
+        "path": "/images/discover/wikimedia-commons.png",
+        "sourceUrl": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/LICENSE",
+        "attribution": "Wikimedia Commons app icon from the official repository. Apache-2.0; image used unmodified.",
+        "alt": "Wikimedia Commons app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/wikimedia-commons-Apache-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/README.md",
+          "label": "Readme: Commons upload scope and store badges",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=fr.free.nrw.commons",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://f-droid.org/packages/fr.free.nrw.commons/",
+          "label": "F-Droid package listing",
+          "checks": [
+            "distribution"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/commons-app/apps-android-commons/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "label": "Official launcher icon",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Artwork license URL must have asset-license evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+            "label": "Readme: RPG scope, platforms, GPL license",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail",
+            "label": "Developer-linked Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+            "label": "Official Android icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/COPYING",
+            "label": "GPL-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-02"
+          }
+        ]
+      },
+      "slug": "andors-trail",
+      "kind": "game",
+      "name": "Andor's Trail",
+      "developer": "Andor's Trail contributors",
+      "category": "Role-playing",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail",
+        "checkedAt": "2026-11-02"
+      },
+      "summary": "Andor's Trail is a GPLv2 roguelike RPG on Android about uncovering what happened to your village and missing brother. The readme links to Google Play, community forums, and quest-driven dungeon crawling with equipment and experience progression.",
+      "features": [
+        "Follow a story-driven campaign with quests, hidden treasure, and tactical combat on Android.",
+        "Install the free build from the Google Play listing referenced in the official readme.",
+        "Discuss gameplay and contribute through the forums linked from the repository readme.",
+        "Build from source using the AndorsTrail Android project in the GitHub repository.",
+        "Reuse the launcher icon under GPL-2.0 terms with attribution to the drawable asset path."
+      ],
+      "insight": "Andor's Trail is a rare fully open mobile RPG with a coherent story arc—worth a look if you want offline fantasy crawling without gacha mechanics or account lock-in.",
+      "officialUrl": "https://github.com/AndorsTrail/andors-trail",
+      "discoverySource": {
+        "name": "Official Andor's Trail repository",
+        "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/AndorsTrail/andors-trail"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/AndorsTrail/andors-trail",
+        "androidPackageId": "com.gpl.rpg.AndorsTrail",
+        "githubRepo": "AndorsTrail/andors-trail"
+      },
+      "asset": {
+        "path": "/images/discover/andors-trail.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/COPYING",
+        "attribution": "Andor's Trail launcher icon from the official Android resources. GPL-2.0-or-later; image used unmodified.",
+        "alt": "Andor's Trail app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/andors-trail-GPL-2.0.txt"
+      },
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/README.md",
+          "label": "Readme: RPG scope, platforms, GPL license",
+          "checks": [
+            "identity",
+            "platforms",
+            "features",
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.gpl.rpg.AndorsTrail",
+          "label": "Developer-linked Google Play listing",
+          "checks": [
+            "distribution",
+            "price"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/AndorsTrail/res/drawable-xxhdpi/icon.png",
+          "label": "Official Android icon asset",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AndorsTrail/andors-trail/master/COPYING",
+          "label": "GPL-2.0 license text",
+          "checks": [
+            "asset-license"
+          ],
+          "accessedAt": "2026-11-02"
+        }
+      ]
+    },
+    "queuedAt": "2026-11-02",
+    "reasons": [
+      "Local official artwork file is missing or cannot be decoded"
+    ]
   }
 ]
