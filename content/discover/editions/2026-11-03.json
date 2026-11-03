@@ -1,0 +1,1497 @@
+{
+  "date": "2026-11-03",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-03T01:13:44.645Z",
+  "entries": [
+    {
+      "slug": "zero-k",
+      "kind": "game",
+      "name": "Zero-K",
+      "developer": "Zero-K contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://zero-k.info/Wiki/Download",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Zero-K is a libre real-time strategy game built on the Spring/Recoil engine, emphasizing physical projectiles, automation-friendly units, and a capable UI. The module readme states that gameplay files live in this repository while lobby and artwork live in companion projects, with downloads routed through zero-k.info.",
+      "features": [
+        "Command armies where projectiles obey physics rather than abstract hit rolls, as described on zero-k.info.",
+        "Download the official Zero-K lobby linked from the repository readme to fetch engine content and join multiplayer.",
+        "Extend or study the game module under the GPL-2.0 license shipped with the Zero-K repository.",
+        "Follow the Zero-K development wiki linked from the readme for mapping and engine import workflows.",
+        "Play on Windows, Linux, and macOS builds distributed through the official download page."
+      ],
+      "insight": "Zero-K rewards players who want RTS depth without the usual click-tax: the combination of smart unit automation and Spring-era moddability keeps matches readable even when the battlefield gets chaotic.",
+      "officialUrl": "https://zero-k.info/",
+      "discoverySource": {
+        "name": "Official Zero-K repository",
+        "url": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://zero-k.info/Wiki/Download"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/ZeroK-RTS/Zero-K"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://zero-k.info/",
+        "githubRepo": "ZeroK-RTS/Zero-K"
+      },
+      "asset": {
+        "path": "/images/discover/zero-k.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K-Infrastructure/master/Zero-K.info/img/logo_big.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K-Infrastructure/master/LICENSE",
+        "attribution": "Zero-K logo from the official Zero-K.info infrastructure repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Zero-K logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/zero-k-infrastructure-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K/master/README.md",
+            "label": "Readme: engine module scope and download links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://zero-k.info/Wiki/Download",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K/master/LICENSE",
+            "label": "Game module GPL-2.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K-Infrastructure/master/LICENSE",
+            "label": "Infrastructure GPL-2.0 license for site logo",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ZeroK-RTS/Zero-K-Infrastructure/master/Zero-K.info/img/logo_big.png",
+            "label": "Official site logo asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "unvanquished",
+      "kind": "game",
+      "name": "Unvanquished",
+      "developer": "Unvanquished team",
+      "category": "Action",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://unvanquished.net/download/",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Unvanquished blends fast arena combat with light RTS base building as humans fight the alien Strogg-inspired faction. The readme points to official downloads on unvanquished.net, community translation on Weblate, and separate asset packages for a complete install.",
+      "features": [
+        "Fight asymmetric human-versus-alien matches with buildable structures noted in the project readme.",
+        "Install ready-to-run packages for Windows, Linux, and macOS from the official download page.",
+        "Join community chat via linked Matrix, Discord, and IRC bridges.",
+        "Contribute translations through the hosted Weblate project referenced in the readme.",
+        "Build from source using the documented C++14 toolchain requirements."
+      ],
+      "insight": "Unvanquished keeps the spirit of Tremulous-style asymmetric shooters alive with modern engine work and transparent asset packaging—ideal if you want teamwork that goes beyond pure deathmatch.",
+      "officialUrl": "https://unvanquished.net/",
+      "discoverySource": {
+        "name": "Official Unvanquished repository",
+        "url": "https://raw.githubusercontent.com/Unvanquished/Unvanquished/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://unvanquished.net/download/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Unvanquished/Unvanquished/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://unvanquished.net/",
+        "githubRepo": "Unvanquished/Unvanquished"
+      },
+      "asset": {
+        "path": "/images/discover/unvanquished.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Unvanquished/Unvanquished/master/dist/icons/512x512/unvanquished.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Unvanquished/Unvanquished/master/COPYING.txt",
+        "attribution": "Unvanquished application icon from the official repository dist/icons tree. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Unvanquished application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/unvanquished-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Unvanquished/Unvanquished/master/README.md",
+            "label": "Readme: gameplay, downloads, translation",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://unvanquished.net/download/",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Unvanquished/Unvanquished/master/COPYING.txt",
+            "label": "GPL-3.0-or-later COPYING",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Unvanquished/Unvanquished/master/dist/icons/512x512/unvanquished.png",
+            "label": "Official 512px icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "frogatto",
+      "kind": "game",
+      "name": "Frogatto & Friends",
+      "developer": "Lost Pixel Games",
+      "category": "Platformer",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.frogatto.com/download",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Frogatto & Friends is a polished 2D action-adventure starring a witty frog hero, built on the Anura engine. The readme links to frogatto.com downloads and documents that licensing details live in the repository LICENSE file, with engine sources separated into Anura for newer releases.",
+      "features": [
+        "Explore hand-crafted platforming levels with combat and puzzles highlighted on frogatto.com.",
+        "Download builds for desktop and mobile platforms from the official downloads page.",
+        "Study the Anura engine module structure referenced in the readme for modding.",
+        "Join community chat through linked Discord and Matrix rooms.",
+        "Compile from source using INSTALL instructions in the repository."
+      ],
+      "insight": "Frogatto shows how a small team can push pixel-art platformers forward: the game is charming on the surface but serious about engine reuse through Anura.",
+      "officialUrl": "https://www.frogatto.com/",
+      "discoverySource": {
+        "name": "Official Frogatto repository",
+        "url": "https://raw.githubusercontent.com/frogatto/frogatto/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://www.frogatto.com/download"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/frogatto/frogatto"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.frogatto.com/",
+        "githubRepo": "frogatto/frogatto"
+      },
+      "asset": {
+        "path": "/images/discover/frogatto.png",
+        "sourceUrl": "https://raw.githubusercontent.com/frogatto/frogatto/master/images/os/frogatto-icon.png",
+        "license": "CC-BY-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/frogatto/frogatto/master/LICENSE",
+        "attribution": "Frogatto icon from images/os in the official repository. CC-BY-3.0 per LICENSE (outside listed NC-SA directories). Image used unmodified.",
+        "alt": "Frogatto application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/frogatto-CC-BY-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/frogatto/frogatto/master/README.md",
+            "label": "Readme: downloads and engine notes",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://www.frogatto.com/download",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/frogatto/frogatto/master/LICENSE",
+            "label": "Asset and code license boundaries",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/frogatto/frogatto/master/images/os/frogatto-icon.png",
+            "label": "Official OS icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "seven-kaa",
+      "kind": "game",
+      "name": "Seven Kingdoms: Ancient Adversaries",
+      "developer": "Seven Kingdoms open-source contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.7kfans.com/",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Seven Kingdoms: Ancient Adversaries is the GPL-licensed release of Enlight’s classic RTS, revived by the 7kfans community. The repository COPYING file releases source and game data under GPL-2.0, while 7kfans.com hosts installers and community updates for desktop and Android ports.",
+      "features": [
+        "Run the classic Seven Kingdoms campaign and skirmish modes with updated open-source builds.",
+        "Download Windows, Linux, and Android packages linked from 7kfans.com.",
+        "Modify C++ sources and data under the GPL-2.0 COPYING file in the repository.",
+        "Join community forums and wiki resources linked from the official fan site.",
+        "Play multiplayer sessions supported by the modernized networking stack documented on 7kfans."
+      ],
+      "insight": "Seven Kingdoms mixes diplomacy, espionage, and empire building in a way few RTS titles attempt; the open release keeps a cult classic reachable without abandonware hunting.",
+      "officialUrl": "https://www.7kfans.com/",
+      "discoverySource": {
+        "name": "Official 7kaa repository",
+        "url": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/README"
+      },
+      "distribution": [
+        {
+          "label": "Official 7kfans site",
+          "url": "https://www.7kfans.com/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/the3dfxdude/7kaa"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.7kfans.com/",
+        "githubRepo": "the3dfxdude/7kaa"
+      },
+      "asset": {
+        "path": "/images/discover/seven-kaa.png",
+        "sourceUrl": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/doc/assets/7klogo.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/COPYING",
+        "attribution": "Seven Kingdoms logo from doc/assets in the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "Seven Kingdoms logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/seven-kaa-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/README",
+            "label": "Readme: project scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://www.7kfans.com/",
+            "label": "Official fan site and downloads",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/COPYING",
+            "label": "GPL-2.0 COPYING for code and data",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/the3dfxdude/7kaa/master/doc/assets/7klogo.png",
+            "label": "Official logo asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wizznic",
+      "kind": "game",
+      "name": "Wizznic!",
+      "developer": "DusteD",
+      "category": "Puzzle",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/DusteDdk/Wizznic/releases",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Wizznic! is a block-pushing puzzle game with a built-in level editor, distributed through GitHub releases and wizznic.org. The doc/media-licenses.txt file states that media ship under GPLv3, while the readme highlights challenging brick-matching puzzles and community ports.",
+      "features": [
+        "Clear levels by sliding bricks together to destroy them, as described in the readme.",
+        "Download builds for desktop and handheld targets from GitHub Releases.",
+        "Create and share custom puzzles with the integrated level editor noted on wizznic.org.",
+        "Study puzzle pack definitions under the packs directory for modding examples.",
+        "Play Android builds published through the project release channels."
+      ],
+      "insight": "Wizznic! is a reminder that great puzzle design does not need a franchise budget—the editor turns players into designers without leaving the game.",
+      "officialUrl": "https://wizznic.org/",
+      "discoverySource": {
+        "name": "Official Wizznic repository",
+        "url": "https://raw.githubusercontent.com/DusteDdk/Wizznic/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/DusteDdk/Wizznic/releases"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://wizznic.org/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://wizznic.org/",
+        "githubRepo": "DusteDdk/Wizznic"
+      },
+      "asset": {
+        "path": "/images/discover/wizznic.png",
+        "sourceUrl": "https://raw.githubusercontent.com/DusteDdk/Wizznic/master/data/wmicon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/DusteDdk/Wizznic/master/doc/media-licenses.txt",
+        "attribution": "Wizznic icon from data/wmicon.png in the official repository. GPLv3 per doc/media-licenses.txt. Image used unmodified.",
+        "alt": "Wizznic application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/wizznic-media-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/DusteDdk/Wizznic/master/README.md",
+            "label": "Readme: puzzle gameplay and releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://github.com/DusteDdk/Wizznic/releases",
+            "label": "Official GitHub releases",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/DusteDdk/Wizznic/master/doc/media-licenses.txt",
+            "label": "Media GPLv3 statement",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/DusteDdk/Wizznic/master/data/wmicon.png",
+            "label": "Official wmicon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "openxcom",
+      "kind": "game",
+      "name": "OpenXcom",
+      "developer": "OpenXcom contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://openxcom.org/downloads/",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "OpenXcom is an open-source engine recreation of UFO: Enemy Unknown/X-COM: UFO Defense that requires legally obtained original data files. The project site documents enhanced UI, mod support, and cross-platform builds while keeping classic tactical gameplay intact.",
+      "features": [
+        "Import original X-COM data files to play the classic campaign with QoL improvements.",
+        "Download nightly and stable builds for desktop and Android from openxcom.org.",
+        "Mod the game using the documented modding APIs and active forums.",
+        "Adjust difficulty and UI options beyond what the 1994 release allowed.",
+        "Build from the GitHub sources under the GPL-3.0 license."
+      ],
+      "insight": "OpenXcom respects the original design while fixing decades of friction—ideal for newcomers who want the classic campaign without the original interface fighting them.",
+      "officialUrl": "https://openxcom.org/",
+      "discoverySource": {
+        "name": "Official OpenXcom repository",
+        "url": "https://raw.githubusercontent.com/OpenXcom/OpenXcom/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official download page",
+          "url": "https://openxcom.org/downloads/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/OpenXcom/OpenXcom"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://openxcom.org/",
+        "githubRepo": "OpenXcom/OpenXcom"
+      },
+      "asset": {
+        "path": "/images/discover/openxcom.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenXcom/OpenXcom/master/res/linux/icons/openxcom_128x128.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenXcom/OpenXcom/master/LICENSE.txt",
+        "attribution": "OpenXcom icon from res/linux/icons in the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "OpenXcom application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openxcom-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenXcom/OpenXcom/master/README.md",
+            "label": "Readme: project scope and data requirements",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://openxcom.org/downloads/",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenXcom/OpenXcom/master/LICENSE.txt",
+            "label": "GPL-3.0 LICENSE.txt",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenXcom/OpenXcom/master/res/linux/icons/openxcom_128x128.png",
+            "label": "Official Linux icon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "openapoc",
+      "kind": "game",
+      "name": "OpenApoc",
+      "developer": "OpenApoc contributors",
+      "category": "Strategy",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/OpenApoc/OpenApoc/releases",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "OpenApoc is a GPL-3.0 reimplementation of X-COM: Apocalypse that requires original game files and runs on SDL2. The readme stresses buying the classic release, documents mod support, and links to community translation and Discord resources.",
+      "features": [
+        "Load original Apocalypse data to play the city-scale campaign in a modern engine.",
+        "Download cross-platform builds from GitHub releases and AppVeyor artifacts linked in the readme.",
+        "Mod factions, units, and UI elements with the project’s open data formats.",
+        "Contribute translations through the linked Transifex project.",
+        "Follow documented setup steps for Windows, Linux, and macOS builds."
+      ],
+      "insight": "Apocalypse’s multi-city chaos finally gets a maintainable codebase—OpenApoc is for players who want the strangest X-COM entry to stay moddable without DOS-era friction.",
+      "officialUrl": "https://github.com/OpenApoc/OpenApoc",
+      "discoverySource": {
+        "name": "Official OpenApoc repository",
+        "url": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/OpenApoc/OpenApoc/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/OpenApoc/OpenApoc"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenApoc/OpenApoc",
+        "githubRepo": "OpenApoc/OpenApoc"
+      },
+      "asset": {
+        "path": "/images/discover/openapoc.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/master/data/ui/logo.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/master/LICENSE",
+        "attribution": "OpenApoc logo from data/ui/logo.png in the official repository. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "OpenApoc logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/openapoc-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/master/README.md",
+            "label": "Readme: scope, copyright, and builds",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://github.com/OpenApoc/OpenApoc/releases",
+            "label": "Official GitHub releases",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/master/LICENSE",
+            "label": "GPL-3.0 LICENSE",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenApoc/OpenApoc/master/data/ui/logo.png",
+            "label": "Official UI logo asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vinyl-music-player",
+      "kind": "app",
+      "name": "Vinyl Music Player",
+      "developer": "Poussinou and contributors",
+      "category": "Music",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Vinyl Music Player is a GPLv3 Android music client forked from Phonograph, focused on local library playback with Material Design polish. The readme links to Google Play and F-Droid builds and documents feature parity with modern Android storage expectations.",
+      "features": [
+        "Browse and play on-device music libraries with gapless playback and replay gain options documented in the readme.",
+        "Install from Google Play or F-Droid using the badges linked in the repository readme.",
+        "Customize themes and now-playing layouts aimed at offline collections.",
+        "Support multiple file formats commonly stored in local music libraries.",
+        "Review source under GPLv3 via the LICENSE.txt file in the repository."
+      ],
+      "insight": "Vinyl keeps the Phonograph lineage alive for listeners who want a straightforward offline player without streaming subscriptions or cloud lock-in.",
+      "officialUrl": "https://github.com/VinylMusicPlayer/VinylMusicPlayer",
+      "discoverySource": {
+        "name": "Official Vinyl Music Player repository",
+        "url": "https://raw.githubusercontent.com/VinylMusicPlayer/VinylMusicPlayer/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.poupa.vinylmusicplayer/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/VinylMusicPlayer/VinylMusicPlayer",
+        "androidPackageId": "com.poupa.vinylmusicplayer",
+        "githubRepo": "VinylMusicPlayer/VinylMusicPlayer"
+      },
+      "asset": {
+        "path": "/images/discover/vinyl-music-player.png",
+        "sourceUrl": "https://raw.githubusercontent.com/VinylMusicPlayer/VinylMusicPlayer/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/VinylMusicPlayer/VinylMusicPlayer/master/LICENSE.txt",
+        "attribution": "Vinyl Music Player launcher icon from the official Android resources. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Vinyl Music Player icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/vinyl-music-player-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/VinylMusicPlayer/VinylMusicPlayer/master/README.md",
+            "label": "Readme: features and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/VinylMusicPlayer/VinylMusicPlayer/master/LICENSE.txt",
+            "label": "GPL-3.0 LICENSE.txt",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/VinylMusicPlayer/VinylMusicPlayer/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ppsspp",
+      "kind": "app",
+      "name": "PPSSPP",
+      "developer": "PPSSPP contributors",
+      "category": "Emulation",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "freemium",
+        "label": "Free; optional Gold upgrade",
+        "sourceUrl": "https://www.ppsspp.org/download/",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "PPSSPP is an HLE PlayStation Portable emulator with native builds for phones and desktops. The readme notes that no BIOS is required, highlights frequent performance improvements, and links to ppsspp.org downloads plus the Google Play listing for Android.",
+      "features": [
+        "Play PSP ISOs and homebrew with enhanced resolution and texture upscaling.",
+        "Install the free Android build from Google Play or sideload APKs listed on ppsspp.org.",
+        "Sync saves and settings across devices using documented import/export tools.",
+        "Map touch and controller input with per-game profiles.",
+        "Support RetroAchievements integration noted in recent release notes."
+      ],
+      "insight": "PPSSPP remains the practical way to revisit PSP libraries on modern hardware—especially on Android where touch controls and ad hoc multiplayer still feel surprisingly current.",
+      "officialUrl": "https://www.ppsspp.org/",
+      "discoverySource": {
+        "name": "Official PPSSPP repository",
+        "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.ppsspp.ppsspp"
+        },
+        {
+          "label": "Official download page",
+          "url": "https://www.ppsspp.org/download/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.ppsspp.org/",
+        "androidPackageId": "org.ppsspp.ppsspp",
+        "githubRepo": "hrydgard/ppsspp"
+      },
+      "asset": {
+        "path": "/images/discover/ppsspp.png",
+        "sourceUrl": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/icons/hicolor/512x512/apps/ppsspp.png",
+        "license": "GPL-2.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/LICENSE.TXT",
+        "attribution": "PPSSPP icon from icons/hicolor/512x512/apps in the official repository. GPL-2.0-or-later. Image used unmodified.",
+        "alt": "PPSSPP application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ppsspp-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/README.md",
+            "label": "Readme: emulator scope and releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://www.ppsspp.org/download/",
+            "label": "Official download page",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.ppsspp.ppsspp",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/LICENSE.TXT",
+            "label": "GPL-2.0 LICENSE.TXT",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/icons/hicolor/512x512/apps/ppsspp.png",
+            "label": "Official 512px icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "immich",
+      "kind": "app",
+      "name": "Immich",
+      "developer": "Immich contributors",
+      "category": "Photography",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free (self-hosted server)",
+        "sourceUrl": "https://immich.app/docs/overview/quick-start",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Immich is a self-hosted photo and video backup platform pairing a mobile uploader with a server you control. The readme describes automatic background backup, multi-user libraries, and machine-learning features such as facial recognition when enabled on the server.",
+      "features": [
+        "Back up camera rolls from Android to a self-hosted Immich server.",
+        "Browse timelines, albums, and shared links documented on immich.app.",
+        "Run optional ML tagging and facial recognition when server hardware allows.",
+        "Install the mobile client from Google Play or build from the monorepo sources.",
+        "Deploy server components via Docker Compose guides linked from the docs."
+      ],
+      "insight": "Immich gives Android photographers a credible alternative to proprietary cloud galleries—provided you are willing to operate the server, the mobile app stays out of your way.",
+      "officialUrl": "https://immich.app/",
+      "discoverySource": {
+        "name": "Official Immich repository",
+        "url": "https://raw.githubusercontent.com/immich-app/immich/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=app.immich.android"
+        },
+        {
+          "label": "Official documentation",
+          "url": "https://immich.app/docs/overview/quick-start"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://immich.app/",
+        "androidPackageId": "app.immich.android",
+        "githubRepo": "immich-app/immich"
+      },
+      "asset": {
+        "path": "/images/discover/immich.png",
+        "sourceUrl": "https://raw.githubusercontent.com/immich-app/immich/main/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/immich-app/immich/main/LICENSE",
+        "attribution": "Immich launcher icon from the official Android resources. AGPL-3.0-or-later. Image used unmodified.",
+        "alt": "Immich application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/immich-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/immich-app/immich/main/README.md",
+            "label": "Readme: platform overview",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://immich.app/docs/overview/quick-start",
+            "label": "Official quick start documentation",
+            "checks": [
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=app.immich.android",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/immich-app/immich/main/LICENSE",
+            "label": "AGPL-3.0 LICENSE",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/immich-app/immich/main/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nextcloud-talk",
+      "kind": "app",
+      "name": "Nextcloud Talk",
+      "developer": "Nextcloud GmbH and contributors",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.nextcloud.talk2",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Nextcloud Talk is the official Android client for self-hosted voice, video, and chat built on Nextcloud. The readme links to Google Play and F-Droid packages, documents beta channels, and explains how the app pairs with a Nextcloud server you operate.",
+      "features": [
+        "Join voice and video calls hosted on your Nextcloud server.",
+        "Send chat messages and share files using Talk integrations documented on nextcloud.com.",
+        "Install stable builds from Google Play or F-Droid using readme badges.",
+        "Enroll in beta builds through the Play testing channel linked in the readme.",
+        "Authenticate with server credentials and SSO flows supported by Nextcloud."
+      ],
+      "insight": "Talk closes the loop for teams already running Nextcloud files—calls stay on infrastructure you control instead of a separate proprietary messenger.",
+      "officialUrl": "https://github.com/nextcloud/talk-android",
+      "discoverySource": {
+        "name": "Official Nextcloud Talk repository",
+        "url": "https://raw.githubusercontent.com/nextcloud/talk-android/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nextcloud.talk2"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.nextcloud.talk2/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/nextcloud/talk-android",
+        "androidPackageId": "com.nextcloud.talk2",
+        "githubRepo": "nextcloud/talk-android"
+      },
+      "asset": {
+        "path": "/images/discover/nextcloud-talk.png",
+        "sourceUrl": "https://raw.githubusercontent.com/nextcloud/talk-android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/nextcloud/talk-android/master/LICENSES/GPL-3.0-or-later.txt",
+        "attribution": "Nextcloud Talk launcher icon from the official Android resources. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Nextcloud Talk icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/nextcloud-talk-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/talk-android/master/README.md",
+            "label": "Readme: store links and beta info",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.nextcloud.talk2",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/talk-android/master/LICENSES/GPL-3.0-or-later.txt",
+            "label": "GPL-3.0-or-later license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/talk-android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "standard-notes",
+      "kind": "app",
+      "name": "Standard Notes",
+      "developer": "Standard Notes",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "freemium",
+        "label": "Free core; paid plans on official site",
+        "sourceUrl": "https://standardnotes.com/plans",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Standard Notes is an end-to-end encrypted notes app with open-source clients, including Android builds linked from the app monorepo readme. The project documents optional paid plans while keeping the core editor free and privacy focused.",
+      "features": [
+        "Create encrypted notes that sync through Standard Notes servers or self-hosted setups documented on standardnotes.com.",
+        "Install the Android client from Google Play using the readme link.",
+        "Extend notes with editors and themes described in the product documentation.",
+        "Review client source in the app monorepo under AGPL-3.0.",
+        "Export notes using formats outlined in the help center."
+      ],
+      "insight": "Standard Notes trades flashy formatting for credible encryption defaults—useful when your notebook needs to stay private without running your own stack.",
+      "officialUrl": "https://standardnotes.com/",
+      "discoverySource": {
+        "name": "Official Standard Notes app repository",
+        "url": "https://raw.githubusercontent.com/standardnotes/app/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.standardnotes"
+        },
+        {
+          "label": "Official product site",
+          "url": "https://standardnotes.com/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://standardnotes.com/",
+        "androidPackageId": "com.standardnotes",
+        "githubRepo": "standardnotes/app"
+      },
+      "asset": {
+        "path": "/images/discover/standard-notes.png",
+        "sourceUrl": "https://raw.githubusercontent.com/standardnotes/app/main/packages/web/src/favicon/android-chrome-512x512.png",
+        "license": "AGPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/standardnotes/app/main/LICENSE",
+        "attribution": "Standard Notes favicon from the official app monorepo. AGPL-3.0-or-later. Image used unmodified.",
+        "alt": "Standard Notes icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/standard-notes-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/standardnotes/app/main/README.md",
+            "label": "Readme: platforms including Android",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.standardnotes",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://standardnotes.com/plans",
+            "label": "Official plans page",
+            "checks": [
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/standardnotes/app/main/LICENSE",
+            "label": "AGPL-3.0 LICENSE",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/standardnotes/app/main/packages/web/src/favicon/android-chrome-512x512.png",
+            "label": "Official favicon asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "duckduckgo-android",
+      "kind": "app",
+      "name": "DuckDuckGo Privacy Browser",
+      "developer": "DuckDuckGo",
+      "category": "Web",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "DuckDuckGo Privacy Browser for Android blocks hidden trackers by default, grades sites on privacy, and ships the DuckDuckGo search experience without a separate browser extension. The open-source repository documents build steps and links to the Google Play listing.",
+      "features": [
+        "Block third-party trackers automatically while browsing.",
+        "View privacy grades for visited sites via the built-in rating UI.",
+        "Use DuckDuckGo Search without signing in to a profile.",
+        "Install from Google Play using the applicationId documented in Gradle sources.",
+        "Review browser changes in the public Android repository under Apache-2.0."
+      ],
+      "insight": "For Android users who want fewer trackers without configuring uBlock lists, DuckDuckGo’s browser keeps the defaults sensible while staying auditable.",
+      "officialUrl": "https://github.com/duckduckgo/Android",
+      "discoverySource": {
+        "name": "Official DuckDuckGo Android repository",
+        "url": "https://raw.githubusercontent.com/duckduckgo/Android/develop/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/duckduckgo/Android"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/duckduckgo/Android",
+        "androidPackageId": "com.duckduckgo.mobile.android",
+        "githubRepo": "duckduckgo/Android"
+      },
+      "asset": {
+        "path": "/images/discover/duckduckgo-android.png",
+        "sourceUrl": "https://raw.githubusercontent.com/duckduckgo/Android/develop/app/src/main/ic_launcher-web.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/duckduckgo/Android/develop/LICENSE",
+        "attribution": "DuckDuckGo launcher artwork from app/src/main/ic_launcher-web.png. Apache-2.0. Image used unmodified.",
+        "alt": "DuckDuckGo Privacy Browser icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/duckduckgo-android-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/duckduckgo/Android/develop/README.md",
+            "label": "Readme: project overview",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/duckduckgo/Android/develop/LICENSE",
+            "label": "Apache-2.0 LICENSE",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/duckduckgo/Android/develop/app/src/main/ic_launcher-web.png",
+            "label": "Official launcher web asset",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nextcloud-notes",
+      "kind": "app",
+      "name": "Nextcloud Notes",
+      "developer": "Stefan Niedermann and contributors",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes",
+        "checkedAt": "2026-11-03"
+      },
+      "summary": "Nextcloud Notes is the official Android client for the Notes app inside Nextcloud, offering Markdown editing and offline sync against a server you control. The readme links to Google Play and F-Droid packages with the it.niedermann.owncloud.notes application id.",
+      "features": [
+        "Create and edit Markdown notes synced to a Nextcloud Notes app instance.",
+        "Work offline with background sync when connectivity returns.",
+        "Install from Google Play or F-Droid using links in the repository readme.",
+        "Organize notes with categories supported by the Nextcloud Notes server app.",
+        "Review GPLv3+ sources in the notes-android repository."
+      ],
+      "insight": "Pairing this client with your own Nextcloud keeps quick thoughts out of proprietary notebooks while still giving you Markdown and sync on Android.",
+      "officialUrl": "https://github.com/nextcloud/notes-android",
+      "discoverySource": {
+        "name": "Official Nextcloud Notes repository",
+        "url": "https://raw.githubusercontent.com/nextcloud/notes-android/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/it.niedermann.owncloud.notes/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/nextcloud/notes-android",
+        "androidPackageId": "it.niedermann.owncloud.notes",
+        "githubRepo": "nextcloud/notes-android"
+      },
+      "asset": {
+        "path": "/images/discover/nextcloud-notes.png",
+        "sourceUrl": "https://raw.githubusercontent.com/nextcloud/notes-android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/nextcloud/talk-android/master/LICENSES/GPL-3.0-or-later.txt",
+        "attribution": "Nextcloud Notes launcher icon from the official Android resources. GPL-3.0-or-later. Image used unmodified.",
+        "alt": "Nextcloud Notes icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/nextcloud-notes-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-03",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/notes-android/master/README.md",
+            "label": "Readme: store badges and scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes",
+            "label": "Google Play listing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/talk-android/master/LICENSES/GPL-3.0-or-later.txt",
+            "label": "GPL-3.0-or-later license text (Nextcloud Android family)",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nextcloud/notes-android/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-03"
+          }
+        ]
+      }
+    }
+  ]
+}
