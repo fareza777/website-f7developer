@@ -5130,5 +5130,236 @@
     "reasons": [
       "Local official artwork file is missing or cannot be decoded"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "suflyor",
+      "kind": "app",
+      "name": "Suflyor",
+      "developer": "olerast67",
+      "category": "Teleprompter",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, with no ads, accounts or paid features",
+        "sourceUrl": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/README.md",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Suflyor is a free, open-source teleprompter for Android that follows your voice using on-device streaming recognition, then floats its text over the camera app so Instagram, TikTok or the stock camera keeps recording with its own audio. The build carries no INTERNET permission, so Android will not let it connect anywhere, and signed releases are published on GitHub. Scripts import from almost any text format.",
+      "features": [
+        "On-device streaming speech recognition for English, Russian and Turkish, with ten more languages as one-time speech packs.",
+        "Re-reading a line returns the script to it after about two words, while pauses and off-script talk leave the text where it is.",
+        "Lock mode passes touches straight through the overlay to the camera app's own buttons, and landscape mode turns the text even when the camera stays portrait.",
+        "A Quick Settings tile starts the prompter over any app, and volume keys, Bluetooth selfie remotes, clickers and keyboards can each be assigned.",
+        "Imports TXT in several encodings, Markdown and Obsidian notes, DOCX, ODT, RTF, HTML and PDF, and exports the whole library as a zip of Markdown."
+      ],
+      "insight": "Shipping a voice-following prompter with no INTERNET permission is a strong design statement, because the recognition could so easily have been a cloud call. F7 respects the trade: the app pins its own speech models at build time and lets you verify the permission list yourself.",
+      "officialUrl": "https://github.com/olerast67/voice-teleprompter-android",
+      "discoverySource": {
+        "name": "Official Suflyor repository",
+        "url": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/olerast67/voice-teleprompter-android/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/olerast67/voice-teleprompter-android"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/olerast67/voice-teleprompter-android",
+        "githubRepo": "olerast67/voice-teleprompter-android"
+      },
+      "asset": {
+        "path": "/images/discover/suflyor.png",
+        "sourceUrl": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/docs/images/banner.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/LICENSE",
+        "attribution": "Suflyor banner from docs/images in the official olerast67/voice-teleprompter-android repository, whose LICENSE is GPLv3. Image used unmodified; full licence text is stored with this edition.",
+        "alt": "Suflyor teleprompter banner showing the overlay over a camera app",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/suflyor-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/README.md",
+            "label": "Repository readme: on-device recognition languages, overlay behaviour, lock mode, landscape, Quick Settings tile, imports, no INTERNET permission, free licensing statement, release route",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://github.com/olerast67/voice-teleprompter-android",
+            "label": "Official repository confirming Android app and public releases",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/LICENSE",
+            "label": "Repository GPLv3 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/olerast67/voice-teleprompter-android/main/docs/images/banner.png",
+            "label": "Official banner asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-04",
+    "reasons": [
+      "Missing source label"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "calibraw",
+      "kind": "app",
+      "name": "CalibRaw",
+      "developer": "Duecki1",
+      "category": "Image editor",
+      "platforms": [
+        "Android",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/README.md",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "CalibRaw is a free, open-source RAW photo editor for Linux, Android, Windows and macOS, written in Rust with a wgpu and egui interface that runs image processing in compute shaders. It works in a scene-referred pipeline with Sigmoid tone mapping and keeps every slider, curve and mask in lightweight .calibraw JSON sidecars. Its AI tools, including masks, AI Remove and denoise, all run offline on your own machine.",
+      "features": [
+        "Develop panels for light, tone curve, colour, colour mixer, grading, detail, optics, effects and masks, with eyedropper point colour.",
+        "Shader-based demosaicing for Bayer RCD and Fujifilm X-Trans, plus dual demosaicing to reduce noise and artefacts in high-ISO images.",
+        "Offline AI subject, sky, depth and click-to-select object masks, AI Remove that blends its fill into the photo's own grain, and RawNIND denoise.",
+        "The Android ARM64 app uses the same engine and .calibraw sidecars as the desktop build, with touch layouts and MediaStore exporting.",
+        "Edit Replay exports a 30 FPS MP4 of an edit step by step, while tiled export and a command-line tool render large RAW batches."
+      ],
+      "insight": "An ARM64 Android build that opens the same sidecar files as the desktop app is the cross-platform trick F7 keeps chasing: one Rust engine and one project format, with touch layouts instead of a watered-down mobile core.",
+      "officialUrl": "https://github.com/Duecki1/CalibRaw",
+      "discoverySource": {
+        "name": "Official CalibRaw repository",
+        "url": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/de.duecki.calibraw/"
+        },
+        {
+          "label": "Official Flathub page",
+          "url": "https://flathub.org/en/apps/io.github.Duecki1.CalibRaw"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Duecki1/CalibRaw/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Duecki1/CalibRaw",
+        "androidPackageId": "de.duecki.calibraw",
+        "githubRepo": "Duecki1/CalibRaw"
+      },
+      "asset": {
+        "path": "/images/discover/calibraw.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/COPYING",
+        "attribution": "CalibRaw app icon from the fastlane metadata tree of the official Duecki1/CalibRaw repository, whose COPYING is GPLv3 (or later). Image used unmodified; full licence text is stored with this edition.",
+        "alt": "CalibRaw application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/calibraw-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/README.md",
+            "label": "Repository readme: free open-source RAW editor, platform downloads, Rust and wgpu architecture, pipeline and AI features, Android build, sidecar format",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://f-droid.org/packages/de.duecki.calibraw/",
+            "label": "F-Droid package page linked by the developer readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://flathub.org/en/apps/io.github.Duecki1.CalibRaw",
+            "label": "Flathub page linked by the developer readme for Linux",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/COPYING",
+            "label": "Repository GPLv3 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Duecki1/CalibRaw/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-04",
+    "reasons": [
+      "Missing source label"
+    ]
   }
 ]

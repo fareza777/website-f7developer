@@ -1,0 +1,1219 @@
+{
+  "date": "2026-11-04",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-04T07:45:17.566Z",
+  "entries": [
+    {
+      "slug": "beltz",
+      "kind": "game",
+      "name": "Beltz",
+      "developer": "Roman Laptev",
+      "category": "Puzzle",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://carapacik.github.io/Beltz/",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Beltz is a browser-playable logic puzzle about routing pulleys with belts: an open belt links two pulleys turning the same way, a crossed belt links opposite directions, and the board is solved when every connection agrees so the machine runs. Four rule sets add swapping belts, tapping pulleys to flip them, reversing rotation and locked pulleys across 120 levels that unlock ten at a time.",
+      "features": [
+        "120 levels split into four sections, with a level browser for replaying boards you have already solved.",
+        "Rule sets escalate from swapping belts to tapping pulleys, reversing rotation and combining both around locked elements.",
+        "Procedural level generation verifies solvability and varies pulley positions, distances and connection counts by difficulty.",
+        "Interactive tutorial for every section runs the solved machine before asking the player to rebuild it.",
+        "Hints, undo and restart, saved progress with session recovery, and independent music and sound controls."
+      ],
+      "insight": "F7 builds puzzle systems where one rule should carry a whole level, so Beltz's teaching method caught our attention: no mechanic is explained in a text box. The tutorial hands you a machine that already works, which is the same test we apply to our own onboarding passes.",
+      "officialUrl": "https://carapacik.github.io/Beltz/",
+      "discoverySource": {
+        "name": "Official Beltz repository",
+        "url": "https://raw.githubusercontent.com/Carapacik/Beltz/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://carapacik.github.io/Beltz/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Carapacik/Beltz"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://carapacik.github.io/Beltz/",
+        "githubRepo": "Carapacik/Beltz"
+      },
+      "asset": {
+        "path": "/images/discover/beltz.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Carapacik/Beltz/main/Screenshots/home.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Carapacik/Beltz/main/LICENSE",
+        "attribution": "Beltz home screen screenshot from Screenshots/home.png in the official Carapacik/Beltz repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Beltz puzzle board with pulleys connected by open and crossed belts",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/beltz-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Carapacik/Beltz/main/README.md",
+            "label": "Repository readme: mechanics, level and rule-set counts, tutorial and generation details",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://carapacik.github.io/Beltz/",
+            "label": "Official browser build page; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Carapacik/Beltz/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Carapacik/Beltz/main/Screenshots/home.png",
+            "label": "Official screenshot asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rota-bend-gravity",
+      "kind": "game",
+      "name": "ROTA: Bend Gravity",
+      "developer": "Harmony Monroe",
+      "category": "Platformer",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free to download (pay what you want on itch.io)",
+        "sourceUrl": "https://harmonymonroe.itch.io/rota",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "ROTA: Bend Gravity is a gravity-bending puzzle platformer built with Godot by Harmony Monroe. Rotating the world and moving blocks changes which surface counts as down, so the route to the exit is rebuilt instead of simply run. itch.io lists downloadable builds for Windows, Linux, macOS marked experimental and Android as pay-what-you-want downloads, and the same game is on Steam.",
+      "features": [
+        "Bending gravity is the core verb: turn the level to slide blocks and redefine which ledges are reachable.",
+        "Downloadable builds for Windows, Linux, macOS and Android from one Godot project.",
+        "Published simultaneously on itch.io and Steam so players can choose their storefront.",
+        "Public repository holds the game media, capsule art and soundtrack link beside the source."
+      ],
+      "insight": "One Godot codebase reaching four platforms and two storefronts is the pipeline lesson F7 keeps re-learning. ROTA's public project shows how cheaply a small puzzle game can follow the player onto phone and desktop without a rewrite per target.",
+      "officialUrl": "https://harmonymonroe.itch.io/rota",
+      "discoverySource": {
+        "name": "Official ROTA repository",
+        "url": "https://raw.githubusercontent.com/HarmonyHoney/ROTA/master4/readme.md"
+      },
+      "distribution": [
+        {
+          "label": "Official itch.io page",
+          "url": "https://harmonymonroe.itch.io/rota"
+        },
+        {
+          "label": "Official Steam page",
+          "url": "https://store.steampowered.com/app/1993830/ROTA/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/HarmonyHoney/ROTA"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://harmonymonroe.itch.io/rota",
+        "githubRepo": "HarmonyHoney/ROTA"
+      },
+      "asset": {
+        "path": "/images/discover/rota-bend-gravity.png",
+        "sourceUrl": "https://raw.githubusercontent.com/HarmonyHoney/ROTA/master4/media/image/assets/main_capsule.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/HarmonyHoney/ROTA/master4/LICENSE",
+        "attribution": "ROTA capsule image from media/image/assets in the official HarmonyHoney/ROTA repository. The repository LICENSE file (MIT text) grants reuse; the readme excludes only the addons folder. Image used unmodified.",
+        "alt": "ROTA: Bend Gravity capsule artwork",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/rota-bend-gravity-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/HarmonyHoney/ROTA/master4/readme.md",
+            "label": "Repository readme: Godot build, platform list, Steam and itch.io links, license pointer",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://harmonymonroe.itch.io/rota",
+            "label": "Official itch.io page with Windows, Linux, Mac and Android downloads and pay-what-you-want pricing",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://store.steampowered.com/app/1993830/ROTA/",
+            "label": "Steam listing linked by the developer readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HarmonyHoney/ROTA/master4/LICENSE",
+            "label": "Repository license text (MIT)",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HarmonyHoney/ROTA/master4/media/image/assets/main_capsule.png",
+            "label": "Official capsule asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "candy-wrapper",
+      "kind": "game",
+      "name": "Candy Wrapper",
+      "developer": "Harmony Monroe",
+      "category": "Arcade",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free to download (pay what you want on itch.io)",
+        "sourceUrl": "https://harmonymonroe.itch.io/candy",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Candy Wrapper is a looping arcade platformer from Harmony Monroe, built with Godot 4.4.1. Twenty levels are arranged around screen-wrapping: leaving one edge brings you back from the other, so the arena is one continuous path. Windows, Linux and Mac builds are pay-what-you-want downloads on itch.io, with the jam versions and source project published beside them.",
+      "features": [
+        "Twenty levels of screen-wrapping arcade action, as the developer describes the game.",
+        "Windows, Linux and macOS downloads on itch.io with pay-what-you-want pricing.",
+        "Jam version and the source project are separate listed downloads, so the design history is inspectable.",
+        "Godot 4.4.1 project with icon and screenshot media kept in the public repository."
+      ],
+      "insight": "F7 likes a game that states its whole idea in one rule. Candy Wrapper wraps the screen and lets twenty short levels do the arguing, which is a useful counter-example to our own habit of padding a mechanic out with systems.",
+      "officialUrl": "https://harmonymonroe.itch.io/candy",
+      "discoverySource": {
+        "name": "Official Candy Wrapper repository",
+        "url": "https://raw.githubusercontent.com/HarmonyHoney/CandyWrapper/master/readme.md"
+      },
+      "distribution": [
+        {
+          "label": "Official itch.io page",
+          "url": "https://harmonymonroe.itch.io/candy"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/HarmonyHoney/CandyWrapper"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://harmonymonroe.itch.io/candy",
+        "githubRepo": "HarmonyHoney/CandyWrapper"
+      },
+      "asset": {
+        "path": "/images/discover/candy-wrapper.png",
+        "sourceUrl": "https://raw.githubusercontent.com/HarmonyHoney/CandyWrapper/master/media/image/screens/1.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/HarmonyHoney/CandyWrapper/master/LICENSE",
+        "attribution": "Candy Wrapper screenshot from media/image/screens in the official HarmonyHoney/CandyWrapper repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Candy Wrapper gameplay screenshot",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/candy-wrapper-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/HarmonyHoney/CandyWrapper/master/readme.md",
+            "label": "Repository readme: looping platformer arcade game, Godot 4.4.1, itch.io link, MIT license pointer, screenshots",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://harmonymonroe.itch.io/candy",
+            "label": "Official itch.io page: 20 levels, Windows, Linux and Mac downloads, pay-what-you-want pricing, jam and source downloads",
+            "checks": [
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HarmonyHoney/CandyWrapper/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HarmonyHoney/CandyWrapper/master/media/image/screens/1.png",
+            "label": "Official screenshot asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pimple-popper",
+      "kind": "game",
+      "name": "Pimple Popper",
+      "developer": "Crazy Marvin",
+      "category": "Casual",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=rocks.poopjournal.pimplepopper",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Pimple Popper is a Godot-made Android game about squeezing pimples and removing blackheads, whiteheads and lipomas, published as a free download on Google Play by Crazy Marvin. The project is open source under MIT, keeps its store artwork in the repository fastlane tree and runs its translations through a public Crowdin project.",
+      "features": [
+        "Built with the Godot Engine and distributed on Google Play as a free Android game.",
+        "Translations handled by a public Crowdin project rather than code changes.",
+        "Open source under MIT, with a development branch for features and a trunk branch for releases.",
+        "Store icon and screenshots are versioned in the repository's fastlane metadata tree."
+      ],
+      "insight": "Silly premise, serious plumbing. The way this small game keeps store artwork, licence text and translations in one open repository is exactly the release shape F7 wants for its own titles: nothing about shipping the app is hidden.",
+      "officialUrl": "https://crazymarvin.com/pimple-popper/",
+      "discoverySource": {
+        "name": "Official Pimple Popper repository",
+        "url": "https://raw.githubusercontent.com/Crazy-Marvin/PimplePopper/development/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=rocks.poopjournal.pimplepopper"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Crazy-Marvin/PimplePopper"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://crazymarvin.com/pimple-popper/",
+        "androidPackageId": "rocks.poopjournal.pimplepopper",
+        "githubRepo": "Crazy-Marvin/PimplePopper"
+      },
+      "asset": {
+        "path": "/images/discover/pimple-popper.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Crazy-Marvin/PimplePopper/development/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Crazy-Marvin/PimplePopper/development/LICENSE",
+        "attribution": "Pimple Popper app icon from the fastlane metadata tree of the official Crazy-Marvin/PimplePopper repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Pimple Popper application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/pimple-popper-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Crazy-Marvin/PimplePopper/development/README.md",
+            "label": "Repository readme: game premise, Godot Engine, Google Play link, Crowdin translations, license and branch workflow",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=rocks.poopjournal.pimplepopper",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://crazymarvin.com/pimple-popper/",
+            "label": "Developer product page for Pimple Popper",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Crazy-Marvin/PimplePopper/development/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Crazy-Marvin/PimplePopper/development/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tetraforce",
+      "kind": "game",
+      "name": "TetraForce",
+      "developer": "Joseph Lesko",
+      "category": "Adventure",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://theretrodragon.itch.io/tetraforce",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "TetraForce is an open-source top-down action-adventure from Joseph Lesko and Loud Smile Studios, built in Godot and inspired by the classic Legend of Zelda games and CrossCode. What is downloadable today is a demo: a slice of overworld and a partial dungeon with no bosses, packaged for Windows, macOS and Linux while the project keeps developing publicly on GitHub.",
+      "features": [
+        "Easy-to-use multiplayer is listed by the developer as one of three headline features.",
+        "An item randomizer is designed in for replay value by solo and co-op players.",
+        "Moddability is an explicit design goal of the open Godot project.",
+        "Demo builds for Windows, macOS and Linux are published on itch.io while development continues."
+      ],
+      "insight": "A multi-year open project that ships a playable demo instead of a promise is worth surfacing. TetraForce is the honest middle state of indie development, systems in place and content still being filled, and the repository makes that progress legible.",
+      "officialUrl": "https://theretrodragon.itch.io/tetraforce",
+      "discoverySource": {
+        "name": "Official TetraForce repository",
+        "url": "https://raw.githubusercontent.com/loudsmilestudios/TetraForce/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official itch.io page",
+          "url": "https://theretrodragon.itch.io/tetraforce"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/loudsmilestudios/TetraForce"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://theretrodragon.itch.io/tetraforce",
+        "githubRepo": "loudsmilestudios/TetraForce"
+      },
+      "asset": {
+        "path": "/images/discover/tetraforce.png",
+        "sourceUrl": "https://github.com/user-attachments/assets/012812a1-d500-433c-9817-aeda9028b068",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/loudsmilestudios/TetraForce/master/LICENSE",
+        "attribution": "TetraForce fully rendered logo, embedded in the official loudsmilestudios/TetraForce readme as the project's own artwork. Repository LICENSE is MIT. Image used unmodified.",
+        "alt": "TetraForce game logo",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/tetraforce-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/loudsmilestudios/TetraForce/master/README.md",
+            "label": "Repository readme: genre inspirations, Godot engine, multiplayer, item randomizer and moddability, itch.io link",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://theretrodragon.itch.io/tetraforce",
+            "label": "Official itch.io page: demo scope, Windows, macOS and Linux downloads, no price stated",
+            "checks": [
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/loudsmilestudios/TetraForce/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://github.com/user-attachments/assets/012812a1-d500-433c-9817-aeda9028b068",
+            "label": "Official logo asset embedded in the readme, used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sand-slide",
+      "kind": "game",
+      "name": "Sand Slide",
+      "developer": "Eric Alfaro",
+      "category": "Sandbox",
+      "platforms": [
+        "Android",
+        "Windows"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=org.godotengine.sandslide",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Sand Slide is a falling-sand sandbox by Eric Alfaro, built as a Godot 4 interface around a C++ GDExtension that runs the simulation itself. Elements fall, burn and react through per-element rules for temperature, toxicity and acid or explosion resistance. The full game is free on Google Play for Android and as a Windows download on itch.io, and saves are stored so they can be edited in external programs.",
+      "features": [
+        "Simulation logic is a C++ GDExtension compiled into the game, with the user interface created in a Godot 4 project.",
+        "New elements are classes implementing process, explode resistance and acid resistance, plus temperature and toxicity values.",
+        "Save folders pair a Godot resource with an image whose per-pixel luminosity encodes each cell's element ID, so levels can be edited externally and reloaded.",
+        "Custom elements are stored as Godot resource files next to the saves for reuse.",
+        "Documented build steps with git submodules and a scons target let players compile the game themselves."
+      ],
+      "insight": "F7 is a studio first, and Sand Slide reads like an engine lesson: the physics core is split from the UI, moddable elements are one class file away, and the save format doubles as an image you can open in another program. That is the kind of idea we think about borrowing.",
+      "officialUrl": "https://kiwijuice56.itch.io/sand-slide",
+      "discoverySource": {
+        "name": "Official sand-slide repository",
+        "url": "https://raw.githubusercontent.com/kiwijuice56/sand-slide/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.godotengine.sandslide"
+        },
+        {
+          "label": "Official itch.io page",
+          "url": "https://kiwijuice56.itch.io/sand-slide"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/kiwijuice56/sand-slide"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://kiwijuice56.itch.io/sand-slide",
+        "androidPackageId": "org.godotengine.sandslide",
+        "githubRepo": "kiwijuice56/sand-slide"
+      },
+      "asset": {
+        "path": "/images/discover/sand-slide.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kiwijuice56/sand-slide/main/docs/promotional_material/icon_extra_large.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/kiwijuice56/sand-slide/main/LICENSE.md",
+        "attribution": "Sand Slide icon from docs/promotional_material in the official kiwijuice56/sand-slide repository, whose LICENSE.md is MIT. Image used unmodified.",
+        "alt": "Sand Slide application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/sand-slide-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kiwijuice56/sand-slide/main/README.md",
+            "label": "Repository readme: falling-sand premise, Godot 4 GDExtension architecture, element class rules, save format, free downloads on itch.io and Google Play",
+            "checks": [
+              "identity",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.godotengine.sandslide",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://kiwijuice56.itch.io/sand-slide",
+            "label": "Official itch.io page with the Windows build download",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kiwijuice56/sand-slide/main/LICENSE.md",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kiwijuice56/sand-slide/main/docs/promotional_material/icon_extra_large.png",
+            "label": "Official promotional icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gander",
+      "kind": "app",
+      "name": "Gander",
+      "developer": "Arjun Maniyani",
+      "category": "File viewer",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.arjun.gander",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Gander is a small, fully offline file viewer for Android 8.0 and newer that opens documents, spreadsheets, slides, images, video, audio, Markdown, code and 3D models in one place. It requests no permissions at all, not even INTERNET, browses folders through one-time system grants, and installs from Google Play or from signed GitHub releases.",
+      "features": [
+        "One viewer for PDF, Word, OpenDocument, spreadsheets, presentations, images, video, audio, Markdown, code and 3D models.",
+        "ZIP archives list like a folder and each entry opens in its usual viewer, read straight out of the archive with nothing unzipped to the phone.",
+        "Night mode turns PDF and Word pages over for reading in the dark, keeping each colour's hue and leaving photographs as printed.",
+        "Find in document, text selection in PDFs, screen-reader reading, print through Android's own print screen, and resume at the last page or line.",
+        "The About screen asks Android what the app requests and shows the answer next to the licence text of every bundled library."
+      ],
+      "insight": "The zero-permission stance is the engineering story: Gander reaches folders through one-time system grants instead of storage permissions, then proves the claim in the app by reading Android's own answer back to you. F7 wants that kind of self-audit in our own builds.",
+      "officialUrl": "https://arjun.maniyani.com/gander/",
+      "discoverySource": {
+        "name": "Official Gander repository",
+        "url": "https://raw.githubusercontent.com/mokshablr/gander/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.arjun.gander"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/mokshablr/gander/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://arjun.maniyani.com/gander/",
+        "androidPackageId": "com.arjun.gander",
+        "githubRepo": "mokshablr/gander"
+      },
+      "asset": {
+        "path": "/images/discover/gander.png",
+        "sourceUrl": "https://raw.githubusercontent.com/mokshablr/gander/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/mokshablr/gander/main/LICENSE",
+        "attribution": "Gander app icon from the fastlane metadata tree of the official mokshablr/gander repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Gander application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/gander-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mokshablr/gander/main/README.md",
+            "label": "Repository readme: format support, offline and zero-permission design, zip reading, night mode, install routes, Android 8.0+",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.arjun.gander",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://arjun.maniyani.com/gander/",
+            "label": "Developer product page describing the same viewer",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mokshablr/gander/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mokshablr/gander/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "liseur",
+      "kind": "app",
+      "name": "Liseur",
+      "developer": "Chmouel Boudjnah",
+      "category": "Reading",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.chmouel.liseur",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Liseur is an Android EPUB reader built on the Readium engine, with four reading themes, per-book typography and layout control and a paced auto-scroll that survives chapter boundaries. Its library is one shelf whether books come from local folders, Calibre-web, Komga, BookOrbit, liseur-sync or any OPDS catalogue, and reading position syncs across devices. There are no ads, no account and no trackers in its own code.",
+      "features": [
+        "Readium rendering in open typefaces such as Literata, Vollkorn, Atkinson Hyperlegible and Inter, with Light, Sepia, Dark and OLED Black themes.",
+        "Auto-scroll runs at a set pace across chapters with on-page controls to pause, change speed or stop.",
+        "Inline highlights, margin notes, bookmarks, dictionary lookups and footnote cards instead of jumps to the back of the book.",
+        "One shelf for local folders, Calibre-web, Komga, BookOrbit, liseur-sync and OPDS catalogues, with series grouped into stacks that track reading order.",
+        "Position sync down to the exact sentence on supported servers, and an on-device index of people, places and groups that works with no server at all."
+      ],
+      "insight": "F7 admires a reader that treats story metadata as part of reading. Liseur builds its character and place index on the phone by default and only reaches a server for the optional companion answers, which is the right way round for a book app.",
+      "officialUrl": "https://github.com/chmouel/liseur",
+      "discoverySource": {
+        "name": "Official Liseur repository",
+        "url": "https://raw.githubusercontent.com/chmouel/liseur/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.chmouel.liseur"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.chmouel.liseur/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/chmouel/liseur/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/chmouel/liseur",
+        "androidPackageId": "com.chmouel.liseur",
+        "githubRepo": "chmouel/liseur"
+      },
+      "asset": {
+        "path": "/images/discover/liseur.png",
+        "sourceUrl": "https://raw.githubusercontent.com/chmouel/liseur/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/chmouel/liseur/main/LICENSE",
+        "attribution": "Liseur app icon from the fastlane metadata tree of the official chmouel/liseur repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Liseur application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/liseur-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/chmouel/liseur/main/README.md",
+            "label": "Repository readme: Readium engine, themes and typefaces, auto-scroll, annotations, library sources, sync servers, privacy statement, install links",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.chmouel.liseur",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://f-droid.org/en/packages/com.chmouel.liseur/",
+            "label": "F-Droid package page linked by the developer readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/chmouel/liseur/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/chmouel/liseur/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fair-scan",
+      "kind": "app",
+      "name": "FairScan",
+      "developer": "pynicolas",
+      "category": "Documents",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=org.fairscan.app",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "FairScan is a document scanner for Android 8.0 and newer that detects the page with its own on-device segmentation model, corrects perspective, enhances the image and writes a PDF without asking you to adjust anything. All processing stays local, permissions are minimal, and the app is free and GPLv3 on Google Play and F-Droid. Its stated job is a fast scan, review and save flow, not fine-grained editing.",
+      "features": [
+        "Automatic document detection driven by a custom segmentation model the developer publishes separately.",
+        "Automatic perspective correction and image enhancement followed by fast PDF generation.",
+        "Every document is processed locally on the device, with no cloud processing and minimal permissions.",
+        "An experimental scan-to-PDF intent lets another app hand a capture straight into FairScan's scan mode."
+      ],
+      "insight": "Most scanners bury the page under editing tools. FairScan is explicit about what it will not do, and ships the detection model as its own open repository, which gives F7 a rare thing to study: an explainable, auditable capture pipeline.",
+      "officialUrl": "https://fairscan.org",
+      "discoverySource": {
+        "name": "Official FairScan repository",
+        "url": "https://raw.githubusercontent.com/pynicolas/FairScan/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fairscan.app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/org.fairscan.app/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://fairscan.org",
+        "androidPackageId": "org.fairscan.app",
+        "githubRepo": "pynicolas/FairScan"
+      },
+      "asset": {
+        "path": "/images/discover/fair-scan.png",
+        "sourceUrl": "https://raw.githubusercontent.com/pynicolas/FairScan/main/metadata/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/pynicolas/FairScan/main/LICENSE",
+        "attribution": "FairScan app icon from the metadata tree of the official pynicolas/FairScan repository, whose LICENSE is GPLv3. Image used unmodified; full licence text is stored with this edition.",
+        "alt": "FairScan application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/fair-scan-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/pynicolas/FairScan/main/README.md",
+            "label": "Repository readme: feature list, on-device processing, segmentation model, minimal permissions, Android 8.0+, store links, non-goals",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=org.fairscan.app",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://fairscan.org",
+            "label": "Official project site: free and open source, no ads, trackers or built-in cloud",
+            "checks": [
+              "identity",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://f-droid.org/en/packages/org.fairscan.app/",
+            "label": "F-Droid package page linked by the developer readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/pynicolas/FairScan/main/LICENSE",
+            "label": "Repository GPLv3 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/pynicolas/FairScan/main/metadata/en-US/images/icon.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "actua",
+      "kind": "app",
+      "name": "Actua",
+      "developer": "azimul-kabir",
+      "category": "Personal finance",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.azimulkabir.actua",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "Actua is a native Android client for Actual Budget written in Kotlin and Jetpack Compose. It runs full envelope budgeting either against your own self-hosted Actual server or standalone on the phone, with scheduled posting, automatic local backups and import or export compatible with Actual archives. Optional Google Drive and WebDAV backups are encrypted on the device before they leave it.",
+      "features": [
+        "Standalone on-device budgets with envelope budgeting, automated schedule posting and Actual archive compatibility.",
+        "Server sync with bank sync through your own Actual instance via SimpleFIN, GoCardless, Pluggy.ai, Akahu and Enable Banking.",
+        "Rules and automatic categorisation, category targets checked against Actual's template engine, and a bills calendar with due reminders.",
+        "Custom reports with line, bar, donut, Sankey, calendar, Budget Analysis and Monte Carlo charts, plus CSV, OFX, QFX, QIF, CAMT.053, XLSX, PDF and SMS imports.",
+        "Client-side AES-256-GCM encrypted Google Drive backup, optional WebDAV backup for Nextcloud and ownCloud, app lock and a screenshot-blocking setting."
+      ],
+      "insight": "F7's own tooling lesson applies here: Actua keeps the server optional. Budgeting works with no account and no backend, and the self-hosted Actual connection is an upgrade you choose later rather than a gate at install.",
+      "officialUrl": "https://actua.azimulkabir.com/",
+      "discoverySource": {
+        "name": "Official Actua repository",
+        "url": "https://raw.githubusercontent.com/azimul-kabir/actua/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.azimulkabir.actua"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/azimul-kabir/actua/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://actua.azimulkabir.com/",
+        "androidPackageId": "com.azimulkabir.actua",
+        "githubRepo": "azimul-kabir/actua"
+      },
+      "asset": {
+        "path": "/images/discover/actua.png",
+        "sourceUrl": "https://raw.githubusercontent.com/azimul-kabir/Actua/main/artwork/actua-hero.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/azimul-kabir/Actua/main/LICENSE",
+        "attribution": "Actua hero artwork from the artwork tree of the official azimul-kabir/actua repository, whose LICENSE is GPLv3. Image used unmodified; full licence text is stored with this edition.",
+        "alt": "Actua budget app hero artwork",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/actua-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/azimul-kabir/actua/main/README.md",
+            "label": "Repository readme: Kotlin and Compose client, feature list, standalone and server modes, backup encryption, report and import support",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.azimulkabir.actua",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://actua.azimulkabir.com",
+            "label": "Official project site describing the app as free and GPLv3",
+            "checks": [
+              "identity",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/azimul-kabir/Actua/main/LICENSE",
+            "label": "Repository GPLv3 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/azimul-kabir/Actua/main/artwork/actua-hero.png",
+            "label": "Official hero artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "majority-judgment-offline-urn",
+      "kind": "app",
+      "name": "Majority Judgment Offline Urn",
+      "developer": "MieuxVoter",
+      "category": "Civic voting",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=fr.mieuxvoter.urn",
+        "checkedAt": "2026-11-04"
+      },
+      "summary": "This Android app turns one phone into a private, offline ballot box. A group grades every candidate on a Majority Judgment scale instead of choosing a single favourite, and the app computes the results, proportional percentages for each candidate and an optional weighted lottery draw. It needs no network, asks no permissions and is free, GPLv3 software published on Google Play and F-Droid.",
+      "features": [
+        "Sets up a local, offline poll on a single phone that people pass around to cast grades.",
+        "Majority Judgment grading lets a voter rate every candidate instead of throwing a vote away.",
+        "Computes proportional representation percentages per candidate, and an optional weighted lottery to pick a winner.",
+        "No tracking, no ads and no permissions required, with translations coordinated on Weblate."
+      ],
+      "insight": "F7 is drawn to systems whose rules you can see. An offline urn lets a small meeting test Majority Judgment on one handset with no infrastructure and no accounts, which is the most convincing demonstration of an electoral idea a project can ship.",
+      "officialUrl": "https://github.com/MieuxVoter/majority-judgment-offline-urn-android",
+      "discoverySource": {
+        "name": "Official Majority Judgment Offline Urn repository",
+        "url": "https://raw.githubusercontent.com/MieuxVoter/majority-judgment-offline-urn-android/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=fr.mieuxvoter.urn"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.illiouchine.jm"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MieuxVoter/majority-judgment-offline-urn-android",
+        "androidPackageId": "fr.mieuxvoter.urn",
+        "githubRepo": "MieuxVoter/majority-judgment-offline-urn-android"
+      },
+      "asset": {
+        "path": "/images/discover/majority-judgment-offline-urn.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MieuxVoter/majority-judgment-offline-urn-android/main/metadata/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/MieuxVoter/majority-judgment-offline-urn-android/main/LICENSE",
+        "attribution": "Majority Judgment Offline Urn app icon from the metadata tree of the official MieuxVoter repository, whose LICENSE is GPLv3. Image used unmodified; full licence text is stored with this edition.",
+        "alt": "Majority Judgment Offline Urn application icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/majority-judgment-offline-urn-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-04",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MieuxVoter/majority-judgment-offline-urn-android/main/README.md",
+            "label": "Repository readme: offline mobile urn, grading, proportional representation, weighted lottery, no anti-features, store links, Weblate translations",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=fr.mieuxvoter.urn",
+            "label": "Official Google Play listing: Android distribution with price 0",
+            "checks": [
+              "platforms",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://f-droid.org/packages/com.illiouchine.jm",
+            "label": "F-Droid package page linked by the developer readme",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MieuxVoter/majority-judgment-offline-urn-android/main/LICENSE",
+            "label": "Repository GPLv3 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MieuxVoter/majority-judgment-offline-urn-android/main/metadata/en-US/images/icon.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-04"
+          }
+        ]
+      }
+    }
+  ]
+}
