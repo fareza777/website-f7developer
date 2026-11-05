@@ -5361,5 +5361,95 @@
     "reasons": [
       "Missing source label"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "open-spades",
+      "kind": "game",
+      "name": "OpenSpades",
+      "developer": "yvt",
+      "category": "Shooter",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/yvt/openspades/master/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "OpenSpades is a free, open-source compatible client for Ace of Spades 0.75 servers, with OpenGL rendering, cross-platform builds and Snap and Flatpak packaging. Held in review because the repository separates its media from its code licence.",
+      "features": [
+        "Connects to vanilla, pyspades and pysnip servers for the original Ace of Spades 0.75 protocol.",
+        "Uses OpenGL and OpenAL, and builds for Linux, Windows and macOS.",
+        "Distributed as a Snap package and a Flathub Flatpak as well as source builds.",
+        "The build pulls pak000-Nonfree.pak from the separate openspades-paks project unless the OPENSPADES_NONFREE_RESOURCES flag is turned off."
+      ],
+      "insight": "The non-free pak split is the reason this is queued rather than published: the code is GPL but the default media set is labelled non-free by the developer, so a cover image needs its own permission check.",
+      "officialUrl": "https://github.com/yvt/openspades",
+      "discoverySource": {
+        "name": "Official OpenSpades repository",
+        "url": "https://raw.githubusercontent.com/yvt/openspades/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/yvt/openspades/releases"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://openspades.yvt.jp"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/yvt/openspades",
+        "githubRepo": "yvt/openspades"
+      },
+      "asset": {
+        "path": "/images/discover/open-spades.png",
+        "sourceUrl": "https://raw.githubusercontent.com/yvt/openspades/master/README.md",
+        "license": "Unverified: repository labels its default media pak as non-free",
+        "licenseUrl": "https://raw.githubusercontent.com/yvt/openspades/master/LICENSE",
+        "attribution": "No artwork selected. The GPL-3.0 licence covers the code, but the readme states that default resources come from a separate non-free pak, so no in-repo image has an evidenced reuse grant for this entry.",
+        "alt": "OpenSpades pending artwork"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/yvt/openspades/master/README.md",
+            "label": "Developer readme: compatible-client scope, server types, OpenGL/AL, platforms, packaging and the non-free resources pak; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yvt/openspades/master/LICENSE",
+            "label": "Repository GPL-3.0 license text covering code only",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-05",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
   }
 ]

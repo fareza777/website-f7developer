@@ -1,0 +1,1223 @@
+{
+  "date": "2026-11-05",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-05T07:33:07.625Z",
+  "entries": [
+    {
+      "slug": "sandspiel",
+      "kind": "game",
+      "name": "sandspiel",
+      "developer": "Max Bittker",
+      "category": "Sandbox",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "sandspiel is a falling-sand toy that runs in the browser: particles of sand, liquid and gas fall, flow and pile up according to simple cellular-automata rules, and the interesting part is what happens when you combine them. The simulation core is written in Rust, compiled to WebAssembly and drawn with WebGL. Creations can be shared and forked, so a board you build becomes a starting point for someone else.",
+      "features": [
+        "Falling-sand simulation compiled from Rust to WebAssembly and rendered with WebGL, playable in the browser with no install.",
+        "Materials obey automata rules rather than scripted level logic, so new behaviour emerges from combinations the author did not author.",
+        "Boards can be shared and forked with other players, which the readme names as the point of the platform.",
+        "A direct successor to the author's earlier dust and sand-toy experiments, with the fluid solver credited to PavelDoGreat's WebGL-Fluid-Simulation."
+      ],
+      "insight": "F7 builds puzzle levels around one rule doing many jobs, and sandspiel is that idea taken to its limit: there is no win state at all. The engineering lesson is in the sharing model, where a board is data a stranger can fork instead of a build they have to download.",
+      "officialUrl": "https://sandspiel.club",
+      "discoverySource": {
+        "name": "Official sandspiel repository",
+        "url": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://sandspiel.club"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/MaxBittker/sandspiel"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MaxBittker/sandspiel",
+        "githubRepo": "MaxBittker/sandspiel"
+      },
+      "asset": {
+        "path": "/images/discover/sandspiel.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/LICENSE",
+        "attribution": "sandspiel screenshot from Screenshot.png in the official MaxBittker/sandspiel repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "sandspiel running in a browser window with falling sand and fluid particles",
+        "noticePath": "/images/discover/licenses/sandspiel-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/README.md",
+            "label": "Developer readme: engine, browser play link, share and fork goal, credited dependencies; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MaxBittker/sandspiel/master/Screenshot.png",
+            "label": "Official screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cube-composer",
+      "kind": "game",
+      "name": "Cube Composer",
+      "developer": "David Peter",
+      "category": "Puzzle",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Cube Composer is a puzzle game about function composition, made explicit: each level shows a wall of coloured cubes and a target wall, and the only tools you get are the chapter's transformers, which are functions such as map Yellow to Red. Solving a level means chaining them in the right order, so the difficulty curve is really a curriculum about composing small pure functions.",
+      "features": [
+        "Levels are grouped into chapters, and each chapter ships its own set of transformers, which are functions rewriting a wall of cube stacks.",
+        "Every puzzle defines an initial wall and a target wall, so the goal is always verifiable rather than scored.",
+        "Levels carry a difficulty label of Easy, Medium or Hard plus optional help text shown in a side panel.",
+        "Chapters are plain data files in the repository, and a command-line build lists the shortest solutions for every level so new puzzles can be checked before release.",
+        "Written in PureScript and playable from a static browser build; the readme invites pull requests for new puzzle chapters."
+      ],
+      "insight": "Most puzzle games hide their rule language behind icons; Cube Composer prints the function on the button. For F7's own onboarding work it is a useful test case: a player who clears a level has demonstrably understood the composition, because there is no other way through.",
+      "officialUrl": "https://david-peter.de/cube-composer",
+      "discoverySource": {
+        "name": "Official Cube Composer repository",
+        "url": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://david-peter.de/cube-composer"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/sharkdp/cube-composer"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/sharkdp/cube-composer",
+        "githubRepo": "sharkdp/cube-composer"
+      },
+      "asset": {
+        "path": "/images/discover/cube-composer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/img/favicon-196.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/LICENSE",
+        "attribution": "Cube Composer icon from img/favicon-196.png in the official sharkdp/cube-composer repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Cube Composer icon: two adjacent square tiles lettered C, one orange and one dark brown",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/cube-composer-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/README.md",
+            "label": "Developer readme: chapters, transformer types, difficulty and help fields, solution checker, browser play link; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/sharkdp/cube-composer/master/img/favicon-196.png",
+            "label": "Official icon asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tetro-tui",
+      "kind": "game",
+      "name": "Tetro TUI",
+      "developer": "Lucas W",
+      "category": "Arcade",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Tetro TUI is a tetromino stacker that lives entirely in a terminal window and is configured like one. It draws pieces with Unicode, ASCII or an Elektronika character style, exposes rotation systems and frame timings as settings, and adds modes beyond the usual marathon, including puzzle and combo runs. Because the presentation is the host terminal's own grid, the game inherits any font, palette or CRT emulator you already like.",
+      "features": [
+        "Unicode, ASCII and Elektronika drawing styles, ten colour palettes and separate effects for hard drop, piece lock and line clear.",
+        "Competitive handling settings: rotation systems, piece randomisers, adjustable preview and tunable DAS, ARR, SDF, ARE and lock-delay timings, with remappable keys.",
+        "Game modes include Marathon, 40-Lines Swift, Classic and Master unlocks, Puzzle, Cheese, Combo and a Custom mode where you set the win condition, initial gravity, start board and seed.",
+        "Highscores, replays and all-time statistics are kept in a single savefile that can be backed up.",
+        "Installed from crates.io or as a platform binary, and it compiles from source; the readme documents its own rotation system against the common ones with comparison heatmaps."
+      ],
+      "insight": "F7's own build tests are run in a terminal, so a stacker whose whole presentation layer is a character grid appeals for the same reason the numbers appeal: the tuning is visible. Its rotation-system heatmaps are the part we would steal, because they turn a house rule into something a player can check.",
+      "officialUrl": "https://github.com/Strophox/tetro-tui",
+      "discoverySource": {
+        "name": "Official Tetro TUI repository",
+        "url": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Strophox/tetro-tui"
+        },
+        {
+          "label": "Official crates.io package",
+          "url": "https://crates.io/crates/tetro-tui"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Strophox/tetro-tui",
+        "githubRepo": "Strophox/tetro-tui"
+      },
+      "asset": {
+        "path": "/images/discover/tetro-tui.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/demo_assets/tetro-tui-v3.0.0_gnome-standard-replay-harddrop.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/LICENSE",
+        "attribution": "Tetro TUI gameplay capture from demo_assets in the official Strophox/tetro-tui repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Tetro TUI running in a terminal with a stacked board, score panel and game over overlay",
+        "noticePath": "/images/discover/licenses/tetro-tui-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/README.md",
+            "label": "Developer readme: drawing styles, palettes, handling settings, mode list, savefile, install routes and rotation-system comparison; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Strophox/tetro-tui/main/demo_assets/tetro-tui-v3.0.0_gnome-standard-replay-harddrop.png",
+            "label": "Official gameplay capture used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "chess-tui",
+      "kind": "game",
+      "name": "chess-tui",
+      "developer": "Thomas Mauran",
+      "category": "Board",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "chess-tui is a free, open-source chess client whose entire interface is a terminal grid. It covers the three ways people actually play at a desk: two players on one keyboard, a game against any UCI engine such as Stockfish, and real games on Lichess started from the command line, with skins and a helper menu so the board stays readable during a long session.",
+      "features": [
+        "Local two-player mode plus play against any UCI engine, launched with a path such as chess-tui -e /path/to/stockfish.",
+        "Lichess integration through an API token: seek a game, join by code, resume ongoing games and work through puzzles without leaving the terminal.",
+        "Online multiplayer over a LAN or an internet tunnel, documented in its own multiplayer page.",
+        "Custom skins plus config.toml and skins.json in the user config directory for bot, logging and theme settings.",
+        "Packaged for Cargo, Homebrew, Debian and Ubuntu, Arch, NixOS and Docker, and built with ratatui, shakmaty and ruci."
+      ],
+      "insight": "The interesting decision in chess-tui is not the terminal, it is treating Lichess as a first-class opponent rather than a novelty. F7 ships desktop builds where the online layer is always the last thing to land, so a chess client that keeps engine play, local play and server play in one text UI is a useful reference for scope.",
+      "officialUrl": "https://github.com/thomas-mauran/chess-tui",
+      "discoverySource": {
+        "name": "Official chess-tui repository",
+        "url": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/thomas-mauran/chess-tui/releases/latest"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/thomas-mauran/chess-tui"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/thomas-mauran/chess-tui",
+        "githubRepo": "thomas-mauran/chess-tui"
+      },
+      "asset": {
+        "path": "/images/discover/chess-tui.png",
+        "sourceUrl": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/examples/screenshot.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/LICENSE",
+        "attribution": "chess-tui screenshot from examples/screenshot.png in the official thomas-mauran/chess-tui repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "chess-tui board drawn in a terminal with a move list and status panels",
+        "noticePath": "/images/discover/licenses/chess-tui-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/README.md",
+            "label": "Developer readme: free and open source statement, local, engine, Lichess and multiplayer features, skins, packaging and platforms",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/thomas-mauran/chess-tui/main/examples/screenshot.png",
+            "label": "Official screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tabletop-club",
+      "kind": "game",
+      "name": "Tabletop Club",
+      "developer": "Benjamin Beddows",
+      "category": "Simulation",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Tabletop Club puts a physics-driven 3D table where your own board games go: cards get shuffled and thrown, dice tumble, miniatures stack, and multiplayer sessions let people play at the same virtual table from different machines. Content is added through asset packs the project documents as easy to make, so the game is closer to a sandbox of components than a fixed catalogue of licensed board games.",
+      "features": [
+        "Physics simulation for tabletop objects, so cards, dice, boards and miniatures behave like the real things instead of snapping to slots.",
+        "Multiplayer support alongside singleplayer, letting a group share one virtual table.",
+        "Custom asset packs add new games and components, with a dedicated section of the project documentation for making them.",
+        "Built with the Godot engine and distributed as binaries for Windows, macOS and Linux, or compiled from source.",
+        "Interface and documentation translated into eighteen languages through the project's Weblate instance, including Indonesian and Tamil."
+      ],
+      "insight": "F7 ships games where the content pipeline is usually the hard part, and Tabletop Club solved it by making the asset pack the unit of modding rather than the code branch. The eighteen-language translation list is the other quiet signal: a hobby project that treats localisation as a routine contribution gets reach its engine choice never promised.",
+      "officialUrl": "https://tabletopclub.net",
+      "discoverySource": {
+        "name": "Official Tabletop Club repository",
+        "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official itch.io page",
+          "url": "https://drwhut.itch.io/tabletop-club"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/drwhut/tabletop-club"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/drwhut/tabletop-club",
+        "githubRepo": "drwhut/tabletop-club"
+      },
+      "asset": {
+        "path": "/images/discover/tabletop-club.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/screenshots.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/LICENSE",
+        "attribution": "Tabletop Club screenshots montage from screenshots.jpg in the official drwhut/tabletop-club repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Tabletop Club scenes showing cards, dice and miniatures on a simulated 3D table",
+        "noticePath": "/images/discover/licenses/tabletop-club-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/README.md",
+            "label": "Developer readme: open-source 3D physics tabletop game with asset packs, Windows/macOS/Linux builds, itch.io link, 18 languages; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/drwhut/tabletop-club/master/screenshots.jpg",
+            "label": "Official screenshot montage used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "razzia",
+      "kind": "game",
+      "name": "Razzia",
+      "developer": "Ralex",
+      "category": "Party",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Ralex91/Razzia/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Razzia is a self-hosted quiz game for smaller live events, the kind of pub quiz or family night where one screen shows the question and everyone else answers on a phone. A host opens a password-protected manager, shares a game URL and room code, and runs rounds of multiple-choice questions while scores update live. Sessions, quizzes and results are also reachable through an HTTP API, so the game can be driven by something other than a browser.",
+      "features": [
+        "Manager interface behind a configured password handles joining, round start and scoring for the room.",
+        "Players join with a game URL and room code, then answer multiple-choice questions against the clock.",
+        "HTTP API covers sessions, quiz and result CRUD and game creation, documented separately from the game itself.",
+        "A WebSocket protocol page invites custom clients, with an ESP32 physical buzzer given as the example.",
+        "Optional branding for custom theming, and deployment through Docker or a plain build behind Traefik, Nginx, Caddy or another reverse proxy."
+      ],
+      "insight": "The buzzer line is what sold us. Razzia exposes its realtime protocol as part of the product, so a host can wire a physical button to a quiz round; that is the same argument F7 makes about playable builds, applied to an event tool nobody thought of as a platform.",
+      "officialUrl": "https://github.com/Ralex91/Razzia",
+      "discoverySource": {
+        "name": "Official Razzia repository",
+        "url": "https://raw.githubusercontent.com/Ralex91/Razzia/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Ralex91/Razzia"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Ralex91/Razzia",
+        "githubRepo": "Ralex91/Razzia"
+      },
+      "asset": {
+        "path": "/images/discover/razzia.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Ralex91/Razzia/main/.github/previews/3.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Ralex91/Razzia/main/LICENSE",
+        "attribution": "Razzia question screen preview from .github/previews/3.png in the official Ralex91/Razzia repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Razzia question screen with a countdown ring, an image prompt and four coloured answer tiles",
+        "noticePath": "/images/discover/licenses/razzia-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Ralex91/Razzia/main/README.md",
+            "label": "Developer readme: self-hosted quiz rooms with manager and room codes, HTTP API and WebSocket buzzer example, deployment notes; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Ralex91/Razzia/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Ralex91/Razzia/main/.github/previews/3.png",
+            "label": "Official preview screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "zenconverter",
+      "kind": "app",
+      "name": "ZenConverter",
+      "developer": "Jasonzhu1207",
+      "category": "Utilities",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "ZenConverter is a file converter that does the work on the phone. Video, audio, images, PDFs, fonts and Office documents are handled by local engines, so a conversion never depends on someone else's upload queue. The project is explicit about why: converter apps are usually cluttered, ad-heavy or oddly priced, and this one is built to avoid all three while still treating a large video file as a normal case rather than an error.",
+      "features": [
+        "On-device conversion with no ads, accounts, paywalls or remote uploads, stated as the design constraint in the readme.",
+        "FFmpeg compatibility path for video and audio targets, GIF output, SRT, VTT and ASS subtitles, advanced processing and optical-flow interpolation.",
+        "Native path using Android bitmap and PDF handling plus PDFBox-Android for PDF merging, text extraction and security work, with a first-pass local renderer for DOCX, PPTX and XLSX.",
+        "Local AI passes run through Tencent NCNN with Vulkan: Real-ESRGAN super-resolution and RIFE 2x frame interpolation, downloaded on demand.",
+        "A native google/woff2 engine for WOFF2 font compression and decompression, and a public support matrix listing which conversions are covered.",
+        "The INTERNET permission is only used for manual update checks and on-demand model or font downloads, with a SafeCache fallback for providers that cannot supply usable file descriptors."
+      ],
+      "insight": "F7's own asset pipeline hits the same wall ZenConverter is aimed at: conversion tools that are fine until the file is big or the format is unusual. Publishing a support matrix instead of a feature claim is the part we would copy, because it tells you where the tool stops before you build on it.",
+      "officialUrl": "https://github.com/Jasonzhu1207/ZenConverter",
+      "discoverySource": {
+        "name": "Official ZenConverter repository",
+        "url": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.zenconverter.app"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Jasonzhu1207/ZenConverter/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Jasonzhu1207/ZenConverter",
+        "androidPackageId": "org.zenconverter.app",
+        "githubRepo": "Jasonzhu1207/ZenConverter"
+      },
+      "asset": {
+        "path": "/images/discover/zenconverter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/docs/assets/zenconverter-cover.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/LICENSE",
+        "attribution": "ZenConverter app icon from docs/assets/zenconverter-cover.png in the official Jasonzhu1207/ZenConverter repository, whose LICENSE is AGPL-3.0. Image used unmodified.",
+        "alt": "ZenConverter app icon, a blue rounded square with white conversion arrows",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/zenconverter-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/README.md",
+            "label": "Developer readme: local-first scope, no ads or paywalls, engine list, AI passes, permissions, support matrix and Google Play link with package ID",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/LICENSE",
+            "label": "Repository AGPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Jasonzhu1207/ZenConverter/main/docs/assets/zenconverter-cover.png",
+            "label": "Official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "capy-reader",
+      "kind": "app",
+      "name": "Capy Reader",
+      "developer": "jocmp",
+      "category": "News",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/jocmp/capyreader/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Capy Reader is a smallish RSS reader for Android that keeps the feed model simple and lets the sync backend be someone else's choice. It reads local feeds or connects to Feedbin, FreshRSS, Miniflux and Google Reader-style services, and when a feed only publishes a snippet it tries to pull the full article from the site. Releases land weekly across its stores, with nightlies kept in a separate package so testing does not contaminate a normal install.",
+      "features": [
+        "Local feeds plus Feedbin, FreshRSS, Miniflux and Google Reader-compatible sync backends.",
+        "Full-content mode extracts the article body when a feed ships only a snippet, and the maintainer takes per-site parser reports in a separate category.",
+        "Free across all sources, distributed on Google Play, F-Droid, IzzyOnDroid and GitHub releases for Android 11 and later.",
+        "Weekly store releases tied to features and fixes, with unstable nightlies published as a separate package suffixed -nightly.",
+        "Translations hosted on Weblate and open to anyone, and bug reports described as a top priority."
+      ],
+      "insight": "Two habits here are worth more than the feature list: shipping nightlies under a different package ID, and treating a missing full-content parser as its own bug class. F7 files both under polish, and both are the reason a small app stays usable while a bigger one drifts.",
+      "officialUrl": "https://github.com/jocmp/capyreader",
+      "discoverySource": {
+        "name": "Official Capy Reader repository",
+        "url": "https://raw.githubusercontent.com/jocmp/capyreader/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.capyreader.app"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/jocmp/capyreader/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/jocmp/capyreader",
+        "androidPackageId": "com.capyreader.app",
+        "githubRepo": "jocmp/capyreader"
+      },
+      "asset": {
+        "path": "/images/discover/capy-reader.png",
+        "sourceUrl": "https://raw.githubusercontent.com/jocmp/capyreader/main/site/capy.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/jocmp/capyreader/main/LICENSE",
+        "attribution": "Capy Reader logo from site/capy.png in the official jocmp/capyreader repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Capy Reader logo: a flat line-art capybara face in dark grey",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/capy-reader-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jocmp/capyreader/main/README.md",
+            "label": "Developer readme: sync backends, full-content mode, Android 11 minimum, release cadence, nightlies, translations, Google Play package ID",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jocmp/capyreader/main/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jocmp/capyreader/main/site/capy.png",
+            "label": "Official logo asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "change-detection",
+      "kind": "app",
+      "name": "ChangeDetection",
+      "developer": "Berna Ferrari",
+      "category": "Utilities",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "ChangeDetection watches the pages you keep refreshing yourself and reports what actually moved. An alert is only the entry point: opening it shows screenshots side by side, the changed text, or the page source, and every check is stored so two older versions can be compared later. The phone does the checking, so watched pages, settings and history stay on the device with no account and no hosted service.",
+      "features": [
+        "Three comparison views for a detected change: screenshots side by side, changed text only, or the raw page source.",
+        "Region focus lets you watch one part of a page so ads and timestamps stop producing false alerts.",
+        "Full check history, so any two saved versions of a page can be compared after the fact.",
+        "Turbo mode re-checks selected pages every 5 to 60 seconds for up to three hours, with the battery and data cost stated plainly.",
+        "On-device checking with no account, hosted service or analytics; the readme notes plainly that websites still see the requests your device makes.",
+        "Android 8 and later on Google Play, development builds for desktop and iOS, page capture through the developer's kmpwright library and eight interface languages."
+      ],
+      "insight": "The sentence about websites still seeing your device's requests is why this made the edition. F7 writes the privacy notes for its own tools, and the honest version has to describe what the network still observes rather than claiming the app makes you invisible.",
+      "officialUrl": "https://github.com/bernaferrari/ChangeDetection",
+      "discoverySource": {
+        "name": "Official ChangeDetection repository",
+        "url": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bernaferrari.changedetection"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/bernaferrari/ChangeDetection"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/bernaferrari/ChangeDetection",
+        "androidPackageId": "com.bernaferrari.changedetection",
+        "githubRepo": "bernaferrari/ChangeDetection"
+      },
+      "asset": {
+        "path": "/images/discover/change-detection.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/store-listing/en-US/readme/what-changed.jpg",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/LICENSE",
+        "attribution": "ChangeDetection comparison artwork from store-listing/en-US/readme/what-changed.jpg in the official bernaferrari/ChangeDetection repository, whose LICENSE is Apache-2.0. Image used unmodified.",
+        "alt": "ChangeDetection showing a price drop from 1,599 to 1,349 and a moved fellowship deadline on two phone screens",
+        "noticePath": "/images/discover/licenses/change-detection-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/README.md",
+            "label": "Developer readme: comparison views, region focus, history, Turbo intervals, on-device scope, Android 8 Play listing; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/LICENSE",
+            "label": "Repository Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/bernaferrari/ChangeDetection/main/store-listing/en-US/readme/what-changed.jpg",
+            "label": "Official store-listing artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "adaptive-theme",
+      "kind": "app",
+      "name": "Adaptive Theme",
+      "developer": "Lexip",
+      "category": "Customisation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Adaptive Theme changes the system light or dark theme based on how bright the room is instead of what time it is. It reads the phone's ambient light sensor once each time the screen turns on, compares it against a threshold you set, and switches before you start interacting. Wallpaper pairing, a night lock window and pocket detection sit on top of that single idea, and the whole app is free, open source and ad-free.",
+      "features": [
+        "Sensor-driven switching that uses the physical ambient light sensor rather than a clock or sunset schedule.",
+        "Adjustable lux threshold with presets for indoor, outdoor and sunlight conditions.",
+        "Wallpaper theme sync swaps home and lock-screen wallpapers with the theme, and an optional blur is applied to the lock screen.",
+        "Night lock holds dark mode through a fixed window such as 9 PM to 6 AM, and Battery Saver suppresses switches.",
+        "Battery friendly by construction: the sensor is sampled only after the screen turns on, with proximity-based pocket detection to prevent false switches.",
+        "Shizuku support as one of several setup options, a Quick Settings tile, Material You theming and localisation in more than fifty languages."
+      ],
+      "insight": "Replacing a schedule with a measurement is a small change that fixes a whole class of complaints, which is exactly the kind of fix F7 looks for in its own tuning passes. The pocket-detection guard is the tell: the author found the failure mode a sensor-based rule creates and closed it.",
+      "officialUrl": "https://github.com/xLexip/Adaptive-Theme",
+      "discoverySource": {
+        "name": "Official Adaptive Theme repository",
+        "url": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=dev.lexip.hecate"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/xLexip/Adaptive-Theme/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/xLexip/Adaptive-Theme",
+        "androidPackageId": "dev.lexip.hecate",
+        "githubRepo": "xLexip/Adaptive-Theme"
+      },
+      "asset": {
+        "path": "/images/discover/adaptive-theme.png",
+        "sourceUrl": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/.github/resources/feature-graphic.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/LICENSE",
+        "attribution": "Adaptive Theme feature graphic from .github/resources/feature-graphic.png in the official xLexip/Adaptive-Theme repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Adaptive Theme feature graphic showing automatic day and night switching across two phone mockups",
+        "noticePath": "/images/discover/licenses/adaptive-theme-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/README.md",
+            "label": "Developer readme: sensor-driven switching, lux presets, wallpaper sync, night lock, Shizuku, free and ad-free, Google Play package ID",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/xLexip/Adaptive-Theme/main/.github/resources/feature-graphic.png",
+            "label": "Official feature graphic used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "keypass",
+      "kind": "app",
+      "name": "KeyPass",
+      "developer": "Yogesh Choudhary Paliyal",
+      "category": "Security",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "KeyPass is an offline password manager that keeps the network out of the design: the app ships without the INTERNET permission, so entries are stored, backed up and filled without ever leaving the phone. It covers the surrounding jobs people now expect from a vault, including TOTP codes, encrypted backup and restore, autofill and unlocking with the device's own credentials.",
+      "features": [
+        "Complete offline operation, with the readme noting no internet permission has been added to the app.",
+        "Encrypted backup and restore plus an auto-backup option for routine exports.",
+        "TOTP support, so second-factor codes live beside the passwords instead of in a separate app.",
+        "Autofill service, screenshot blocking and authentication with device PIN, pattern or biometrics.",
+        "Import from Google Chrome CSV and KeePass CSV today, with Bitwarden listed as not yet done.",
+        "Material Design 3 interface with dark mode, written with Jetpack Compose."
+      ],
+      "insight": "Absence is a feature you can verify: a password app with no INTERNET permission can be checked in its manifest before you trust it. F7 applies the same test to its own builds, and it is a better guarantee than any policy page.",
+      "officialUrl": "https://github.com/yogeshpaliyal/KeyPass",
+      "discoverySource": {
+        "name": "Official KeyPass repository",
+        "url": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.yogeshpaliyal.keypass"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/yogeshpaliyal/KeyPass"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/yogeshpaliyal/KeyPass",
+        "androidPackageId": "com.yogeshpaliyal.keypass",
+        "githubRepo": "yogeshpaliyal/KeyPass"
+      },
+      "asset": {
+        "path": "/images/discover/keypass.png",
+        "sourceUrl": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/cover.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/LICENSE",
+        "attribution": "KeyPass cover artwork from cover.png in the official yogeshpaliyal/KeyPass repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "KeyPass cover showing the app name, its tagline and a strip of interface screens",
+        "noticePath": "/images/discover/licenses/keypass-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/README.md",
+            "label": "Developer readme: offline no-internet-permission claim, feature checklist, import status, Material 3 and Compose; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yogeshpaliyal/KeyPass/master/cover.png",
+            "label": "Official cover artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "myne",
+      "kind": "app",
+      "name": "Myne",
+      "developer": "Stɑrry Shivɑm",
+      "category": "Books",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Myne is a free and open-source Android app for downloading and reading ebooks from Project Gutenberg, plus any EPUB you already own. It queries the developer's own gutendex metadata API rather than scraping the catalogue pages, then reads the result in a built-in reader or hands the file to a third-party reader if you prefer one. The Material 3 interface carries light and dark themes and dynamic colour on newer devices.",
+      "features": [
+        "Browse and download from Project Gutenberg's catalogue of more than 70k free ebooks in multiple languages, updated daily.",
+        "Built-in EPUB reader, with the option to open books in a third-party reader app instead.",
+        "Imports your own EPUB files, so the app works as a general reader and not only as a store front.",
+        "Material Design 3 interface with Material You dynamic theming on Android 12 and later, and light and dark modes.",
+        "Compatible with Android 8.0 and above, written in Kotlin with Jetpack Compose in a single activity with composable destinations."
+      ],
+      "insight": "The public-domain catalogue is the interesting product decision: Myne gets a legal, deep library without licensing anything, and its own metadata API keeps the app off Gutenberg's HTML. F7 hits the same pattern in its own tooling, where a thin API in front of a public source is cheaper than scraping.",
+      "officialUrl": "https://github.com/Pool-Of-Tears/Myne",
+      "discoverySource": {
+        "name": "Official Myne repository",
+        "url": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.starry.myne"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Pool-Of-Tears/Myne/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Pool-Of-Tears/Myne",
+        "androidPackageId": "com.starry.myne",
+        "githubRepo": "Pool-Of-Tears/Myne"
+      },
+      "asset": {
+        "path": "/images/discover/myne.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/LICENSE",
+        "attribution": "Myne launcher icon from app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png in the official Pool-Of-Tears/Myne repository, whose LICENSE is Apache-2.0. Image used unmodified.",
+        "alt": "Myne launcher icon: a green rounded tile with a stylised face",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/myne-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/README.md",
+            "label": "Developer readme: free open-source reader, Gutenberg catalogue and metadata API, Android 8 minimum, Google Play package ID; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/LICENSE",
+            "label": "Repository Apache-2.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pool-Of-Tears/Myne/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "droidputer",
+      "kind": "app",
+      "name": "Droidputer",
+      "developer": "Felipe Cavalcanti",
+      "category": "Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/README.md",
+        "checkedAt": "2026-11-05"
+      },
+      "summary": "Droidputer runs open-source Cardputer apps on an Android phone. Plug an ESP32-S3 board in over USB-OTG and the phone becomes the screen, keyboard, GPS and flasher for the device, while the app rebuilds each game or tool on demand from its GitHub repository against a display and keyboard shim. It is a hardware project that treats the phone as a general-purpose terminal for a microcontroller.",
+      "features": [
+        "Mirrors an ESP32-S3 board's screen on the phone and supplies the Cardputer's own 4x14 key matrix, fn and shift layers included, with an option to hide the keys for a full-screen mirror.",
+        "Rebuilds apps on demand from a target selector, a recipe, any GitHub repository or a LauncherHub prebuilt, then shows parts, offsets, hashes and verdicts per build.",
+        "Flashes the firmware from the phone and files a works or broken verdict with one tap.",
+        "Documents its own memory limit honestly: a 240x135 screen copy costs 64,800 bytes, and a 4 KB staging buffer is upgraded to 32 KB only when enough free on-chip RAM exists.",
+        "Works with bare devkit boards as well as the Cardputer, and lists first-flash gotchas such as boards still running MicroPython or UiFlow2.",
+        "MIT-licensed Android app with its own project site and privacy page."
+      ],
+      "insight": "F7 ports games to odd hardware, so the part that stopped us was the staging-buffer note: the readme publishes the measured cost of mirroring and the exact condition under which it upgrades. Shipping the constraint with the feature is how you keep a hardware promise from becoming a bug report.",
+      "officialUrl": "https://droidputer.vercel.app",
+      "discoverySource": {
+        "name": "Official Droidputer repository",
+        "url": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.droidputter"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/fcavalcantirj/droidputer"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/fcavalcantirj/droidputer",
+        "androidPackageId": "com.droidputter",
+        "githubRepo": "fcavalcantirj/droidputer"
+      },
+      "asset": {
+        "path": "/images/discover/droidputer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/docs/img/app-catalog.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/LICENSE",
+        "attribution": "Droidputer app catalog screenshot from docs/img/app-catalog.png in the official fcavalcantirj/droidputer repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Droidputer library screen listing rebuildable Cardputer apps with flash buttons and a target selector",
+        "noticePath": "/images/discover/licenses/droidputer-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-05",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/README.md",
+            "label": "Developer readme: OTG mirroring scope, key matrix, flash and verdict flow, measured memory numbers, MIT licence, Google Play package ID",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fcavalcantirj/droidputer/main/docs/img/app-catalog.png",
+            "label": "Official screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-05"
+          }
+        ]
+      }
+    }
+  ]
+}
