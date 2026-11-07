@@ -1,0 +1,5 @@
+Prism header image from demo/header.jpg in the official Hash-Studios/Prism repository, whose LICENSE.txt is BSD 3-Clause, 2020 Hash Studios. Image used unmodified.
+
+License: BSD-3-Clause
+License URL: https://raw.githubusercontent.com/Hash-Studios/Prism/master/LICENSE.txt
+Source: https://raw.githubusercontent.com/Hash-Studios/Prism/master/demo/header.jpg

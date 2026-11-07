@@ -1,0 +1,5 @@
+Linkit cover artwork from https://remarkablegames.org/linkit/cover.png on the developer's official site; the identical file is public/cover.png in remarkablegames/linkit, whose LICENSE is MIT, 2024 Menglin "Mark" Xu. Image used unmodified.
+
+License: MIT
+License URL: https://raw.githubusercontent.com/remarkablegames/linkit/main/LICENSE
+Source: https://remarkablegames.org/linkit/cover.png

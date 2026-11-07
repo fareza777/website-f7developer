@@ -1,0 +1,5 @@
+Pixel Dungeon Neukölln title art from docs/readme/titel.png in the official repository, licensed GPL-3.0 (LICENSE.txt). Image used unmodified.
+
+License: GPL-3.0
+License URL: https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/LICENSE.txt
+Source: https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/docs/readme/titel.png

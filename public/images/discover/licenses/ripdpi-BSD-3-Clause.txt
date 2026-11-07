@@ -1,0 +1,5 @@
+RIPDPI feature graphic from docs/screenshots/en/feature-graphic.png in the official po4yka/RIPDPI repository, whose LICENSE is BSD 3-Clause, 2026 Nikita Pochaev. Image used unmodified.
+
+License: BSD-3-Clause
+License URL: https://raw.githubusercontent.com/po4yka/RIPDPI/main/LICENSE
+Source: https://raw.githubusercontent.com/po4yka/RIPDPI/main/docs/screenshots/en/feature-graphic.png

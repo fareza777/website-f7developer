@@ -1,0 +1,5 @@
+DreamPlayer Android library screenshot from docs/screenshots/android/library-smb.jpg in the official repository, whose LICENSE is the GNU General Public License version 3. Image used unmodified.
+
+License: GPL-3.0
+License URL: https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/LICENSE
+Source: https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/docs/screenshots/android/library-smb.jpg

@@ -1,0 +1,5 @@
+mpvium app icon from docs/icon.png in the official aryan447/mpvium repository, whose LICENSE is the GNU General Public License version 3. Image used unmodified.
+
+License: GPL-3.0
+License URL: https://raw.githubusercontent.com/aryan447/mpvium/main/LICENSE
+Source: https://raw.githubusercontent.com/aryan447/mpvium/main/docs/icon.png

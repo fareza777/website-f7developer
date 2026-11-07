@@ -1,0 +1,5 @@
+Series of Tubes key art from site/images/og-image.png in the official fjaeckel/seriesoftubes repository, whose LICENSE is MIT, copyright 2026 Frederic Jung. Image used unmodified.
+
+License: MIT
+License URL: https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/LICENSE
+Source: https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/site/images/og-image.png

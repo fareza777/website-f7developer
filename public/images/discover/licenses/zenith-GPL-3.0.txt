@@ -1,0 +1,5 @@
+Zenith app icon from fastlane/metadata/android/en-US/images/icon.png in the official 1372Slash/Zenith repository, whose LICENSE is the GNU General Public License version 3. Image used unmodified.
+
+License: GPL-3.0
+License URL: https://raw.githubusercontent.com/1372Slash/Zenith/master/LICENSE
+Source: https://raw.githubusercontent.com/1372Slash/Zenith/master/fastlane/metadata/android/en-US/images/icon.png

@@ -1,0 +1,1409 @@
+{
+  "date": "2026-11-07",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-07T07:04:48.288Z",
+  "entries": [
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "series-of-tubes",
+      "kind": "game",
+      "name": "Series of Tubes",
+      "developer": "Frederic Jung",
+      "category": "Simulation",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Series of Tubes is a cartoon internet-operator simulation that starts with one router in one city and works up to a transit-free Tier 1 network. Customers arrive with specific demands — home broadband, enterprises, hosting, L2VPNs, DDoS protection, traders with latency budgets and AI data centres — while you lease waves on subsea cable systems, light dark fibre with DWDM and ZR+ optics, and choose between internet exchanges, selective peering and private interconnects. Traffic engineering, router generations that cap port speeds and link aggregation decide what your budget actually buys, and progress is stored in your own browser.",
+      "features": [
+        "Around 40 subsea cable systems modelled on real ones, plus dark fibre you can lease or build and light yourself.",
+        "Peering ranges from open and selective internet exchanges to paid private network interconnects and NNI fabrics.",
+        "Per-link traffic views let you retune link metrics and egress preferences, or route traders on the fastest path.",
+        "Incidents keep the map moving: backhoes, sharks, route leaks, RPKI mishaps, cooling failures and cable cuts.",
+        "English, Italian, Portuguese, French, Spanish and German, following the browser language on first run."
+      ],
+      "insight": "F7 designs systems a player should be able to read from the picture alone, and Series of Tubes does that for a subject normally explained in slides. Its own readme admits the game gets things wrong on purpose and links a serious companion explainer, which is rarer and more useful than a feature list.",
+      "officialUrl": "https://seriesoftub.es",
+      "discoverySource": {
+        "name": "Official Series of Tubes repository",
+        "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser game",
+          "url": "https://seriesoftub.es"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/fjaeckel/seriesoftubes"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/fjaeckel/seriesoftubes",
+        "githubRepo": "fjaeckel/seriesoftubes"
+      },
+      "asset": {
+        "path": "/images/discover/series-of-tubes.png",
+        "sourceUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/site/images/og-image.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/LICENSE",
+        "attribution": "Series of Tubes key art from site/images/og-image.png in the official fjaeckel/seriesoftubes repository, whose LICENSE is MIT, copyright 2026 Frederic Jung. Image used unmodified.",
+        "alt": "Cartoon map of a growing internet backbone in Series of Tubes",
+        "noticePath": "/images/discover/licenses/series-of-tubes-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/README.md",
+            "label": "Repository readme: premise, mechanics, incident list, languages and free browser play",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/main/site/images/og-image.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://seriesoftub.es",
+            "label": "Official game page confirming browser distribution",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "kodeida",
+      "kind": "game",
+      "name": "Kodeida",
+      "developer": "f3an",
+      "category": "Puzzle",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/f3an/kodeida/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Kodeida turns interview algorithms into a pixel-art adventure: you write a function with a real LeetCode signature and the world executes it step by step, with Aeneas walking the route and Mykyta the Fox pointing at the cells your code reads. The pre-alpha build covers worlds 0 to 8, 54 exercises from a first move call to Combination Sum, and an eight-chapter ABC that teaches Python, JavaScript or TypeScript from scratch on Ukrainian fairy tales. A Greedy Wolf shows how many steps brute force would have taken, and there are no AI hints.",
+      "features": [
+        "Your own function drives the level and is executed visibly, cell by cell, inside the game world.",
+        "Hidden tests run solutions up to 10,000 inputs and compare them against the Wolf's brute force.",
+        "The ABC path teaches Python, JavaScript and TypeScript through eight chapters of four lessons each.",
+        "Ten cutscenes and a guided Sibyl tour lead into the first real editor session.",
+        "Installers for macOS, Windows and Linux self-update in the background from GitHub Releases."
+      ],
+      "insight": "F7's teaching rule is that a mechanic must be legible before it is explained, and Kodeida applies it to something nobody expects to be legible: complexity. Putting your step count next to the wolf's is the same move we make with difficulty curves — show the cost instead of describing it.",
+      "officialUrl": "https://f3an.github.io/kodeida/",
+      "discoverySource": {
+        "name": "Official Kodeida repository",
+        "url": "https://raw.githubusercontent.com/f3an/kodeida/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/f3an/kodeida/releases/latest"
+        },
+        {
+          "label": "Official Kodeida site",
+          "url": "https://f3an.github.io/kodeida/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/f3an/kodeida",
+        "githubRepo": "f3an/kodeida"
+      },
+      "asset": {
+        "path": "/images/discover/kodeida.png",
+        "sourceUrl": "https://raw.githubusercontent.com/f3an/kodeida/main/docs/media/hero.png",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/f3an/kodeida/main/LICENSE-CONTENT.md",
+        "attribution": "Kodeida hero artwork from docs/media/hero.png. Credit required by the project content licence: \"Kodeida (https://github.com/f3an/kodeida)\", CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/legalcode. Image used unmodified.",
+        "alt": "Pixel-art Aeneas with the Crystal Pysanka and Mykyta the Fox",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/kodeida-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/f3an/kodeida/main/README.md",
+            "label": "Repository readme: mechanics, exercise and chapter counts, platforms, releases and pre-alpha status",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f3an/kodeida/main/LICENSE-CONTENT.md",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f3an/kodeida/main/docs/media/hero.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/f3an/kodeida/main/LICENSE-CONTENT.md",
+            "label": "Content licence naming docs/media images as CC BY-SA 4.0 with credit terms",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://f3an.github.io/kodeida/",
+            "label": "Official site with downloads and trailer",
+            "checks": [
+              "identity",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "hearthlight",
+      "kind": "game",
+      "name": "Hearthlight",
+      "developer": "The Hearthlight authors",
+      "category": "Role-playing",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Hearthlight is a story-driven pixel-art game about Marigold Cove, a seaside village, and the two continents beyond it. You make your character, pick one of eight heroes and play ten chapters of dungeons, bosses and festival events, including a world boss fought from boats. Party Mode runs on the big screen while up to eight people play with whatever is in their hands: a phone becomes your controller and your own private screen for talents, gear, map and quest journal, and gamepads can join mid-adventure. Every sprite, texture, model and sound is generated in code.",
+      "features": [
+        "Up to eight players on one screen, with the view splitting when the party wanders apart.",
+        "A phone is both controller and personal screen for hero, talents, gear, map, journal and wardrobe.",
+        "Desktop builds let phones on the same Wi-Fi join with no internet connection at all.",
+        "All art and audio is generated in code, so the build ships no image or sound files.",
+        "English, French, Spanish, German and Italian, taken from the system and changed in settings."
+      ],
+      "insight": "The constraint impresses us most: generating every asset in code removes the rights mess inherited by most indie builds, and the readme says so plainly. It also labels itself a demo cleared by test bots rather than players, which is a more honest status report than a trailer.",
+      "officialUrl": "https://hearthlight.github.io",
+      "discoverySource": {
+        "name": "Official Hearthlight repository",
+        "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://hearthlight.github.io"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Hearthlight/hearthlight.github.io/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/Hearthlight/hearthlight.github.io",
+        "githubRepo": "Hearthlight/hearthlight.github.io"
+      },
+      "asset": {
+        "path": "/images/discover/hearthlight.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/docs/screenshots/party_8views.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/LICENSE",
+        "attribution": "Hearthlight Party Mode screenshot from docs/screenshots/party_8views.png in the official repository, whose LICENSE is MIT, 2026 the Hearthlight authors. Image used unmodified.",
+        "alt": "Hearthlight split into eight player views during Party Mode"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/README.md",
+            "label": "Repository readme: party rules, chapters, languages, platforms and demo status",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/main/docs/screenshots/party_8views.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://hearthlight.github.io",
+            "label": "Official browser build confirming identity and distribution",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "pixel-dungeon-neukoelln",
+      "kind": "game",
+      "name": "Pixel Dungeon Neukölln",
+      "developer": "codeausberlin",
+      "category": "Roguelike",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Pixel Dungeon Neukölln is a German-language roguelike built on the open-source Shattered Pixel Dungeon, set not in a mine but in a Berlin tenement: you went down to fetch your bicycle from the cellar, the fire door slammed, and now you are negotiating 25 levels deeper with the end boss, the Eternal Rent Index. Combat is turn-based and tactical, the pixel art is deliberately cute, and the enemies come from the stairway — property managers, rental scooters and estate agents. It is free, without advertising or in-app purchases, and iOS is named only as a later target.",
+      "features": [
+        "Written in German throughout, from menus to item names, rather than translated afterwards.",
+        "25 descending floors of tactical turn-based combat with very local enemies.",
+        "Free of charge, with no advertising and no in-app purchases.",
+        "Signed Android APK plus Windows, macOS and Linux packages built per release by GitHub Actions.",
+        "A development test mode jumps straight to any floor for checking a region."
+      ],
+      "insight": "F7 puts its jokes in level language instead of cut scenes, so a dungeon whose final negotiation is the rent index reads like our own test suite. The German here is the design rather than a locale file, which is the kind of decision most forks never make.",
+      "officialUrl": "https://github.com/codeausberlin/pixel-dungeon-neukoelln",
+      "discoverySource": {
+        "name": "Official Pixel Dungeon Neukölln repository",
+        "url": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/codeausberlin/pixel-dungeon-neukoelln/releases/latest"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/codeausberlin/pixel-dungeon-neukoelln"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/codeausberlin/pixel-dungeon-neukoelln",
+        "githubRepo": "codeausberlin/pixel-dungeon-neukoelln"
+      },
+      "asset": {
+        "path": "/images/discover/pixel-dungeon-neukoelln.png",
+        "sourceUrl": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/docs/readme/titel.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/LICENSE.txt",
+        "attribution": "Pixel Dungeon Neukölln title art from docs/readme/titel.png in the official repository, licensed GPL-3.0 (LICENSE.txt). Image used unmodified.",
+        "alt": "Pixel Dungeon Neukölln title banner",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/pixel-dungeon-neukoelln-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/README.md",
+            "label": "Repository readme: premise, floors, platforms, package list, licence and no-purchase statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/LICENSE.txt",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/codeausberlin/pixel-dungeon-neukoelln/main/docs/readme/titel.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "slg-three-kingdoms",
+      "kind": "game",
+      "name": "SLG · Let Your AI Fight the Three Kingdoms",
+      "developer": "athlan20",
+      "category": "Strategy",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://slg.yuntianyou.cc",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "SLG is a browser Three Kingdoms grand-strategy game with two doors. You can sign in with Google or GitHub and play it yourself — found cities, raise armies, take territory on a shared map — or issue an agent token and let an AI client run the same empire through the official slg-mcp package on npm. One block in a client's MCP config, holding your token and the WebSocket address, is the whole integration. The service is in open beta, the repository is MIT licensed, and self-hosting is documented with Node 20 or newer and PostgreSQL 13 or newer.",
+      "features": [
+        "An agent token plus the slg-mcp npm package lets any MCP client play on your behalf.",
+        "Open beta runs in the browser with Google or GitHub sign-in and nothing to install.",
+        "Classic grand-strategy loop of founding cities, recruiting armies and conquering territory.",
+        "Documented agent API and WebSocket server, with a self-hosting guide in the repository."
+      ],
+      "insight": "Most studios add an AI layer on top of a game; SLG builds the game so that an agent can be the player. F7 is skeptical of agent claims without an interface, and a published MCP package with a written agent API is the honest version of that claim.",
+      "officialUrl": "https://slg.yuntianyou.cc",
+      "discoverySource": {
+        "name": "Official SLG repository",
+        "url": "https://raw.githubusercontent.com/athlan20/slg/main/README.en.md"
+      },
+      "distribution": [
+        {
+          "label": "Official open beta server",
+          "url": "https://slg.yuntianyou.cc"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/athlan20/slg"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/athlan20/slg",
+        "githubRepo": "athlan20/slg"
+      },
+      "asset": {
+        "path": "/images/discover/slg-three-kingdoms.png",
+        "sourceUrl": "https://raw.githubusercontent.com/athlan20/slg/main/docs/screenshots_en/en-02-map.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/athlan20/slg/main/LICENSE",
+        "attribution": "SLG world-map screenshot from docs/screenshots_en/en-02-map.png in the official athlan20/slg repository, whose LICENSE is MIT, 2026 athlan20. Image used unmodified.",
+        "alt": "SLG strategic world map of the Three Kingdoms server"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/athlan20/slg/main/README.en.md",
+            "label": "English readme: gameplay, agent token, MCP package, beta access and hosting requirements",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/athlan20/slg/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/athlan20/slg/main/docs/screenshots_en/en-02-map.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://slg.yuntianyou.cc",
+            "label": "Official open beta page: sign-in, browser play and pricing",
+            "checks": [
+              "identity",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "slash-saber",
+      "kind": "game",
+      "name": "Slash Saber",
+      "developer": "honzaap",
+      "category": "Arcade",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/README.MD",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Slash Saber is an endless browser slashing game built with three.js and Vue, where obstacles fly towards you and the only input is the direction of your mouse stroke. Some obstacles can be cut from one side only, so a run becomes a fast read of geometry rather than a test of reflex speed, and letting three obstacles hit you ends it. The repository publishes code and artwork together under CC BY 4.0, and the Blender sources for some 3D assets are kept alongside them.",
+      "features": [
+        "One mouse gesture is the entire control scheme, aimed at slashing rather than selecting.",
+        "Obstacles that can only be cut from one direction teach the rule without a tutorial.",
+        "Three missed obstacles end the run, keeping sessions short and scores comparable.",
+        "Built with three.js, Vue 3, Vite, cannon-es physics and a TypeScript rewrite of a trail renderer."
+      ],
+      "insight": "F7 prototypes input by stripping verbs until a single gesture has to carry the game, and Slash Saber is a clean result of that reduction. The one-directional obstacles are the kind of rule that reads instantly on screen, which is what a slashing game needs.",
+      "officialUrl": "https://honzaap.github.io/SlashSaber/",
+      "discoverySource": {
+        "name": "Official Slash Saber repository",
+        "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/README.MD"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://honzaap.github.io/SlashSaber/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/honzaap/SlashSaber"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/honzaap/SlashSaber",
+        "githubRepo": "honzaap/SlashSaber"
+      },
+      "asset": {
+        "path": "/images/discover/slash-saber.png",
+        "sourceUrl": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/public/metaimg.png",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/LICENSE",
+        "attribution": "Slash Saber key art from public/metaimg.png in the official honzaap/SlashSaber repository, whose LICENSE is CC BY 4.0. Image used unmodified.",
+        "alt": "Slash Saber artwork of a blade cutting through incoming obstacles"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/README.MD",
+            "label": "Repository readme: rules, lives, technology stack and browser build",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/public/metaimg.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://honzaap.github.io/SlashSaber/",
+            "label": "Official browser build confirming identity and distribution",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "linkit",
+      "kind": "game",
+      "name": "Linkit",
+      "developer": "Menglin \"Mark\" Xu",
+      "category": "Puzzle",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://remarkablegames.org/linkit/",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Linkit is a connect-the-dots route puzzle: every level is a grid holding pairs of same-coloured dots, and you draw a line between each pair so that no two lines cross and every pair is joined. Difficulty comes from two knobs only — more coloured pairs and a larger grid — which is also how its level generator varies boards, by columns, rows, colours and fill ratio. It was built for the Gamedev.js Jam 2024 with Phaser and kept going: playable in the browser on four portals, or downloadable as Windows, macOS and Linux builds.",
+      "features": [
+        "Connect every pair of matching dots without a single crossing line.",
+        "Difficulty scales only through grid size and the number of coloured pairs.",
+        "A generator script produces candidate boards from columns, rows, colour count and fill ratio.",
+        "Browser builds run on the developer's own site plus itch.io, Newgrounds and Wavedash.",
+        "Windows, macOS and Linux downloads come from GitHub Releases."
+      ],
+      "insight": "F7 asks whether a player can state the goal after one look. Linkit passes with two colours and a grid, and its history argues for restraint: a jam entry about power that survived by removing everything except routing.",
+      "officialUrl": "https://remarkablegames.org/linkit/",
+      "discoverySource": {
+        "name": "Official Linkit repository",
+        "url": "https://raw.githubusercontent.com/remarkablegames/linkit/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://remarkablegames.org/linkit/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/remarkablegames/linkit/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/remarkablegames/linkit",
+        "githubRepo": "remarkablegames/linkit"
+      },
+      "asset": {
+        "path": "/images/discover/linkit.png",
+        "sourceUrl": "https://remarkablegames.org/linkit/cover.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/remarkablegames/linkit/main/LICENSE",
+        "attribution": "Linkit cover artwork from https://remarkablegames.org/linkit/cover.png on the developer's official site; the identical file is public/cover.png in remarkablegames/linkit, whose LICENSE is MIT, 2024 Menglin \"Mark\" Xu. Image used unmodified.",
+        "alt": "Linkit cover art showing coloured dot pairs on a puzzle grid",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/linkit-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/remarkablegames/linkit/main/README.md",
+            "label": "Repository readme: rules, features, jam origin, portals and desktop downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/remarkablegames/linkit/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://remarkablegames.org/linkit/cover.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://remarkablegames.org/linkit/",
+            "label": "Official game page: browser build and share image",
+            "checks": [
+              "identity",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://remarkablegames.org/posts/linkit/",
+            "label": "Developer post: origin, how the puzzle works, credits",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "anti-vocale",
+      "kind": "app",
+      "name": "Anti-Vocale",
+      "developer": "RisorseArtificiali",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "Anti-Vocale transcribes voice messages on the phone itself, with no internet connection required. Audio shared from WhatsApp, Telegram or any other app is run through on-device speech models and the result arrives as a notification with one-tap copy and share-back; new WhatsApp notes can transcribe themselves on arrival, and clients such as Forkgram can use it as their offline transcriber. Long recordings are split and stitched automatically, a failed run keeps the transcript already produced, and results export as SRT or VTT subtitles or timestamped text.",
+      "features": [
+        "On-device speech models, so a recording never has to leave the phone.",
+        "Receives audio through the Android share sheet or from a file picked inside the app.",
+        "Recordings past a model's limit are split and stitched, up to two hours on the streaming path.",
+        "Exports subtitles as SRT or VTT and timestamped text, with optional SPEAKER labels per turn.",
+        "A protection toggle keeps transcription running under Oppo, Realme, OnePlus and Vivo battery managers."
+      ],
+      "insight": "The gap Anti-Vocale fills is a platform decision rather than a technical one, and the readme names it: some messengers transcribe four languages, others sell transcription. Shipping the model on the handset and publishing the whole app under Apache 2.0 is F7's kind of answer to a paywalled feature.",
+      "officialUrl": "https://github.com/RisorseArtificiali/anti-vocale",
+      "discoverySource": {
+        "name": "Official Anti-Vocale repository",
+        "url": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.antivocale.app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.antivocale.app/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/RisorseArtificiali/anti-vocale/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/RisorseArtificiali/anti-vocale",
+        "androidPackageId": "com.antivocale.app",
+        "githubRepo": "RisorseArtificiali/anti-vocale"
+      },
+      "asset": {
+        "path": "/images/discover/anti-vocale.png",
+        "sourceUrl": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/docs/screenshots/log_tab.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/LICENSE",
+        "attribution": "Anti-Vocale transcription log screenshot from docs/screenshots/log_tab.png in the official repository, licensed Apache-2.0 (LICENSE). Image used unmodified.",
+        "alt": "Anti-Vocale transcription log screen on Android",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/anti-vocale-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/README.md",
+            "label": "Repository readme: on-device transcription, share-sheet flow, exports, limits, store links and free statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/docs/screenshots/log_tab.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "untracker",
+      "kind": "app",
+      "name": "Untracker",
+      "developer": "zhanghai",
+      "category": "Privacy",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/zhanghai/Untracker/master/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "Untracker strips tracking information from links before you pass them on. Share a URL into the app from the system share sheet and it copies or re-shares the cleaned version; select text anywhere and an Untracker action in the selection toolbar replaces it in place. The rules that decide what counts as tracking are editable, and new ones can be written in JavaScript for parameters the defaults miss. It is published on Google Play and F-Droid, with a universal APK on GitHub Releases.",
+      "features": [
+        "A share-sheet entry removes tracking parameters and lets you copy or share the result again.",
+        "An Untracker button in the Android text-selection toolbar cleans selected text where it stands.",
+        "Rules can be turned off individually or added by hand as JavaScript.",
+        "Distributed as a universal APK on GitHub alongside Google Play and F-Droid builds."
+      ],
+      "insight": "Link tracking is a five-minute problem that every phone answers with a paste-and-hope routine, so a small app owning the share and selection paths is the right shape of fix. F7 likes that the rule set is user-editable JavaScript instead of a list someone else freezes.",
+      "officialUrl": "https://github.com/zhanghai/Untracker",
+      "discoverySource": {
+        "name": "Official Untracker repository",
+        "url": "https://raw.githubusercontent.com/zhanghai/Untracker/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=me.zhanghai.android.untracker"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/me.zhanghai.android.untracker/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/zhanghai/Untracker/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/zhanghai/Untracker",
+        "androidPackageId": "me.zhanghai.android.untracker",
+        "githubRepo": "zhanghai/Untracker"
+      },
+      "asset": {
+        "path": "/images/discover/untracker.png",
+        "sourceUrl": "https://raw.githubusercontent.com/zhanghai/Untracker/master/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/zhanghai/Untracker/master/LICENSE",
+        "attribution": "Untracker launcher icon from app/src/main/res/mipmap-xxxhdpi/launcher_icon.png in the official zhanghai/Untracker repository, licensed Apache-2.0, copyright 2023 Google LLC. Image used unmodified.",
+        "alt": "Untracker app launcher icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/untracker-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/zhanghai/Untracker/master/README.md",
+            "label": "Repository readme: purpose, share-sheet and selection flows, JavaScript rules, stores and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/zhanghai/Untracker/master/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/zhanghai/Untracker/master/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mpvium",
+      "kind": "app",
+      "name": "mpvium",
+      "developer": "aryan447",
+      "category": "Video Player",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/aryan447/mpvium/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "mpvium is an Android video player built on mpv and libmpv with a Material 3 interface, aimed at people who want the engine's control without editing a config file just to watch something. It plays local and network media — SMB, FTP and WebDAV — browses folders as a tree, keeps chapters, playlists and history with resume, and takes external subtitle and audio tracks. Intro and recap skipping is one tap with a countdown chip and an offline cache, picture-in-picture and background playback work, and mpv configuration, scripts and advanced options stay available. There are no advertisements.",
+      "features": [
+        "Hardware-accelerated playback through libmpv with a Material 3 interface.",
+        "One-tap intro and recap skipping, with a countdown chip and offline cache.",
+        "Network playback over SMB, FTP and WebDAV plus folder and tree browsing for local files.",
+        "External subtitles and audio tracks, chapters, playlists and playback history with resume.",
+        "Custom mpv configuration, scripts and advanced options, with no ads and no needless permissions."
+      ],
+      "insight": "libmpv is the most capable playback engine on Android and the least friendly to configure, so the interesting design problem is the default layer. F7 recognises the shape: keep the escape hatch, make the first tap work, then let power users open the same file the engine reads.",
+      "officialUrl": "https://github.com/aryan447/mpvium",
+      "discoverySource": {
+        "name": "Official mpvium repository",
+        "url": "https://raw.githubusercontent.com/aryan447/mpvium/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/aryan447/mpvium/releases"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/aryan447/mpvium"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/aryan447/mpvium",
+        "githubRepo": "aryan447/mpvium"
+      },
+      "asset": {
+        "path": "/images/discover/mpvium.png",
+        "sourceUrl": "https://raw.githubusercontent.com/aryan447/mpvium/main/docs/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/aryan447/mpvium/main/LICENSE",
+        "attribution": "mpvium app icon from docs/icon.png in the official aryan447/mpvium repository, whose LICENSE is the GNU General Public License version 3. Image used unmodified.",
+        "alt": "mpvium app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/mpvium-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/aryan447/mpvium/main/README.md",
+            "label": "Repository readme: engine, feature list, network protocols, APK flavours, free and open-source statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/aryan447/mpvium/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/aryan447/mpvium/main/docs/icon.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "zenith",
+      "kind": "app",
+      "name": "Zenith",
+      "developer": "1372slash",
+      "category": "Digital Wellbeing",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/1372Slash/Zenith/master/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "Zenith is a digital wellbeing assistant built in Material Design 3 Expressive that intervenes before a scrolling session starts instead of only counting it afterwards. Apps can be shielded with mindful pauses, usage limits and emergency quotas, and a Pause Point can demand a breathing exercise, a QR or NFC scan, a math or typing task before an app opens. Bedtime mode, focus schedules with notification interception, Pomodoro cycles, a Lockdown window that stops you editing your own shields, website shielding across more than twelve browsers and long-term heatmaps round it out. It ships two APK flavours with the same app ID.",
+      "features": [
+        "Shield Mode combines mindful pauses, usage-frequency limits and emergency-use quotas per app.",
+        "Pause Point dismiss tasks include waiting, breathing, QR or NFC scans, math, typing and switch flips.",
+        "Bedtime Mode schedules Wind Down notifications and automatic Do Not Disturb.",
+        "Focus schedules block or allow apps by time and can intercept notifications, with Lockdown windows.",
+        "Website tracking and shielding across more than twelve browsers, with weekly to yearly heatmaps."
+      ],
+      "insight": "Wellbeing tools usually report the damage after it happened; Zenith puts friction at the entry point, which is the only moment a habit can actually be interrupted. F7 took note of the store flavour too: the same app shipped with its internet permission removed at build time.",
+      "officialUrl": "https://github.com/1372Slash/Zenith",
+      "discoverySource": {
+        "name": "Official Zenith repository",
+        "url": "https://raw.githubusercontent.com/1372Slash/Zenith/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/1372Slash/Zenith/releases"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/com.etrisad.zenith"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/1372Slash/Zenith",
+        "androidPackageId": "com.etrisad.zenith",
+        "githubRepo": "1372Slash/Zenith"
+      },
+      "asset": {
+        "path": "/images/discover/zenith.png",
+        "sourceUrl": "https://raw.githubusercontent.com/1372Slash/Zenith/master/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/1372Slash/Zenith/master/LICENSE",
+        "attribution": "Zenith app icon from fastlane/metadata/android/en-US/images/icon.png in the official 1372Slash/Zenith repository, whose LICENSE is the GNU General Public License version 3. Image used unmodified.",
+        "alt": "Zenith app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/zenith-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/1372Slash/Zenith/master/README.md",
+            "label": "Repository readme: interventions, permissions, schedule modes, release flavours and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/1372Slash/Zenith/master/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/1372Slash/Zenith/master/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ripdpi",
+      "kind": "app",
+      "name": "RIPDPI",
+      "developer": "Nikita Pochaev",
+      "category": "Networking",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "RIPDPI is an Android network-path toolkit that measures why a target is failing, changes the packets themselves on the device, and reaches relay servers only when the direct path cannot be recovered. Strategies include TCP segment splitting and disorder, fake packet injection, out-of-band urgent pointers, TLS record fragmentation, fake TLS first-flight, QUIC handshake variation, UDP length variation and IPv6 extension headers, described in the repository's own Rust crates and scriptable in Lua. Each target and network is classified separately, validated outcomes are remembered, and the failure verdict is shown rather than hidden.",
+      "features": [
+        "On-device packet strategies, including TCP splitting, fake packets, OOB pointers and TLS record fragmentation.",
+        "QUIC handshake variation, UDP length-field changes and IPv6 extension-header insertion.",
+        "Per-target scans return one of three typed verdicts instead of a single global policy.",
+        "Lua-defined raw packet sends and adaptive markers resolved against live TCP_INFO.",
+        "Encrypted DNS settings and optional relays you host yourself, with backup and restore."
+      ],
+      "insight": "F7 reads this as a diagnostics problem before a circumvention one: the app keeps a typed verdict per target and shows it, which is what most network tooling refuses to do. The readme is equally blunt that the project is mid-refactor, and we are publishing it for that reason rather than in spite of it.",
+      "officialUrl": "https://github.com/po4yka/RIPDPI",
+      "discoverySource": {
+        "name": "Official RIPDPI repository",
+        "url": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/po4yka/RIPDPI/releases/latest"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/po4yka/RIPDPI"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/po4yka/RIPDPI",
+        "githubRepo": "po4yka/RIPDPI"
+      },
+      "asset": {
+        "path": "/images/discover/ripdpi.png",
+        "sourceUrl": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/docs/screenshots/en/feature-graphic.png",
+        "license": "BSD-3-Clause",
+        "licenseUrl": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/LICENSE",
+        "attribution": "RIPDPI feature graphic from docs/screenshots/en/feature-graphic.png in the official po4yka/RIPDPI repository, whose LICENSE is BSD 3-Clause, 2026 Nikita Pochaev. Image used unmodified.",
+        "alt": "RIPDPI feature graphic showing connection controls",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ripdpi-BSD-3-Clause.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/README.md",
+            "label": "Repository readme: capabilities, packet techniques, typed verdicts, Android 8.1+ requirement and releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/po4yka/RIPDPI/main/docs/screenshots/en/feature-graphic.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dreamplayer",
+      "kind": "app",
+      "name": "DreamPlayer",
+      "developer": "mangeshghodke",
+      "category": "Video Player",
+      "platforms": [
+        "Android",
+        "Android TV",
+        "iOS"
+      ],
+      "price": {
+        "model": "freemium",
+        "label": "Free on Android; iOS offers a trial and optional Premium",
+        "sourceUrl": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "DreamPlayer is a cross-platform video player aimed at formats phone software usually gives up on: Dolby Vision profiles 7, 8 and 9, HDR10, HDR10+ and HLG on capable panels, plus lossless audio such as DTS-HD, TrueHD, E-AC3 and FLAC. It plays from local storage, SMB and NAS shares, WebDAV, FTP and SFTP, Jellyfin and DLNA, and accepts hand-offs from other apps. Subtitles can be searched and downloaded, chapters and picture-in-picture work in the background, and an auto-skip option removes intros, recaps and credits. Android builds are completely free with no paywall; the App Store version gates some features behind Premium.",
+      "features": [
+        "Dolby Vision, HDR10, HDR10+ and HLG playback on capable iPhone, iPad and Android panels.",
+        "Libraries from local storage, SMB and NAS, WebDAV, FTP and SFTP, Jellyfin and DLNA.",
+        "Android builds stay completely free, every feature, with no paywall, on GitHub Releases.",
+        "Skip intro, recap and credits with an on-screen button or automatic skipping.",
+        "Subtitle search and download, chapters, picture-in-picture, background audio and resume."
+      ],
+      "insight": "HDR tone-mapping on a phone is mostly a claim about the panel, so an app that names the Dolby Vision profiles it handles and marks Profile 4 as Android-only is doing the sort of specification work F7 wants in its own release notes. The split pricing — free on Android, gated on iOS — is stated plainly in the same readme.",
+      "officialUrl": "https://dreamplayer.isroot.in/",
+      "discoverySource": {
+        "name": "Official DreamPlayer repository",
+        "url": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/mangeshghodke/DreamPlayer/releases"
+        },
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/dreamplayer-video-player/id6813066889"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/mangeshghodke/DreamPlayer",
+        "androidPackageId": "com.dreamplayer.app",
+        "githubRepo": "mangeshghodke/DreamPlayer"
+      },
+      "asset": {
+        "path": "/images/discover/dreamplayer.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/docs/screenshots/android/library-smb.jpg",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/LICENSE",
+        "attribution": "DreamPlayer Android library screenshot from docs/screenshots/android/library-smb.jpg in the official repository, whose LICENSE is the GNU General Public License version 3. Image used unmodified.",
+        "alt": "DreamPlayer on Android showing a poster library from an SMB share",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/dreamplayer-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/README.md",
+            "label": "Repository readme: codecs, sources, skip behaviour, platform list, store link and pricing terms",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/docs/screenshots/android/library-smb.jpg",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://dreamplayer.isroot.in/",
+            "label": "Official site listing features, codecs and downloads",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "prism-wallpapers",
+      "kind": "app",
+      "name": "Prism",
+      "developer": "Hash Studios",
+      "category": "Personalisation",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "price": {
+        "model": "freemium",
+        "label": "Free; Prism Coins and optional Prism Pro unlock more",
+        "sourceUrl": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "Prism pulls community uploads, Wallhaven and Pexels into one feed that learns what you like, with a Wall of the Day, weekly and all-time trending rows, and search by keyword, colour or tag. Wallpapers can be previewed behind a clock overlay, set with fill or fit, cropped, edited with stacked filters, blur and hue or saturation controls, or made to move as a live or video wallpaper on Android; iPhone can rotate one through a Shortcuts automation. Creators upload art for review and can be followed. Downloads and premium filters are paid for with Prism Coins earned from rewarded ads, or unlocked outright by Prism Pro.",
+      "features": [
+        "One feed combining community uploads, Wallhaven and Pexels with a personalised home page.",
+        "Search by keyword, colour or tag, plus More like this, categories, collections and followed creators.",
+        "Live and video wallpapers, clock-overlay previews and a stacked filter editor with blur and HSL controls.",
+        "Scheduled rotation of favourites or downloads, gated to Prism Pro on Android.",
+        "Upload review workflow for creators and AI wallpaper generation from text prompts."
+      ],
+      "insight": "F7 is wary of a wallpaper app that hides which sources are whose, and Prism states its three feeds and its coin economy in the same readme, including which actions a rewarded ad pays for. The Pro timer rotation is an honest boundary: one feature, clearly marked.",
+      "officialUrl": "https://github.com/Hash-Studios/Prism",
+      "discoverySource": {
+        "name": "Official Prism repository",
+        "url": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hash.prism"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Hash-Studios/Prism/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/Hash-Studios/Prism",
+        "androidPackageId": "com.hash.prism",
+        "githubRepo": "Hash-Studios/Prism"
+      },
+      "asset": {
+        "path": "/images/discover/prism-wallpapers.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/demo/header.jpg",
+        "license": "BSD-3-Clause",
+        "licenseUrl": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/LICENSE.txt",
+        "attribution": "Prism header image from demo/header.jpg in the official Hash-Studios/Prism repository, whose LICENSE.txt is BSD 3-Clause, 2020 Hash Studios. Image used unmodified.",
+        "alt": "Prism wallpaper app header showing a grid of wallpapers",
+        "noticePath": "/images/discover/licenses/prism-wallpapers-BSD-3-Clause.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/README.md",
+            "label": "Repository readme: sources, editors, live wallpaper support, coin and Pro terms, platforms and stores",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/LICENSE.txt",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hash-Studios/Prism/master/demo/header.jpg",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    }
+  ]
+}

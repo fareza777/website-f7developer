@@ -1,0 +1,5 @@
+Kodeida hero artwork from docs/media/hero.png. Credit required by the project content licence: "Kodeida (https://github.com/f3an/kodeida)", CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/legalcode. Image used unmodified.
+
+License: CC-BY-SA-4.0
+License URL: https://raw.githubusercontent.com/f3an/kodeida/main/LICENSE-CONTENT.md
+Source: https://raw.githubusercontent.com/f3an/kodeida/main/docs/media/hero.png

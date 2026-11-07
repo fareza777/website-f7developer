@@ -1,0 +1,5 @@
+Untracker launcher icon from app/src/main/res/mipmap-xxxhdpi/launcher_icon.png in the official zhanghai/Untracker repository, licensed Apache-2.0, copyright 2023 Google LLC. Image used unmodified.
+
+License: Apache-2.0
+License URL: https://raw.githubusercontent.com/zhanghai/Untracker/master/LICENSE
+Source: https://raw.githubusercontent.com/zhanghai/Untracker/master/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png

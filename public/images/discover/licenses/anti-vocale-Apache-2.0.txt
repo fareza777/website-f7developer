@@ -1,0 +1,5 @@
+Anti-Vocale transcription log screenshot from docs/screenshots/log_tab.png in the official repository, licensed Apache-2.0 (LICENSE). Image used unmodified.
+
+License: Apache-2.0
+License URL: https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/LICENSE
+Source: https://raw.githubusercontent.com/RisorseArtificiali/anti-vocale/main/docs/screenshots/log_tab.png
