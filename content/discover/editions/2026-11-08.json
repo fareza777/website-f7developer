@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-08",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-08T07:10:17.433Z",
+  "entries": [
+    {
+      "slug": "blockdrop",
+      "kind": "game",
+      "name": "BlockDrop",
+      "developer": "brandonp2412",
+      "category": "Puzzle",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/brandonp2412/BlockDrop",
+        "checkedAt": "2026-11-08"
+      },
+      "summary": "BlockDrop is a cross-platform falling-block puzzle game built with Flutter. The game offers classic block-stacking mechanics with modern visuals and smooth animations. Players can compete for high scores across multiple platforms including Android, iOS, desktop, and web browsers. The project is open source under the MIT license.",
+      "features": [
+        "Classic falling-block puzzle gameplay with modern Flutter rendering.",
+        "Cross-platform support: Android, iOS, Windows, macOS, Linux, and Web.",
+        "High score tracking and competitive gameplay.",
+        "Smooth animations and responsive controls.",
+        "Open source under MIT license with active development."
+      ],
+      "insight": "BlockDrop takes the familiar tetromino formula and rebuilds it in Flutter, which means one codebase runs everywhere from phones to browsers. The MIT license and active maintenance make it a rare example of a polished cross-platform puzzle game that stays free and open.",
+      "officialUrl": "https://github.com/brandonp2412/BlockDrop",
+      "discoverySource": {
+        "name": "Official BlockDrop repository",
+        "url": "https://github.com/brandonp2412/BlockDrop"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.blockdrop.game/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/brandonp2412/BlockDrop"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/brandonp2412/BlockDrop",
+        "androidPackageId": "com.blockdrop.game",
+        "githubRepo": "brandonp2412/BlockDrop"
+      },
+      "asset": {
+        "path": "/images/discover/blockdrop.webp",
+        "sourceUrl": "https://raw.githubusercontent.com/brandonp2412/BlockDrop/main/android/app/src/main/res/mipmap-xxxhdpi/launcher_icon.webp",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/brandonp2412/BlockDrop/main/LICENSE",
+        "attribution": "BlockDrop icon from the official brandonp2412/BlockDrop repository, MIT license. Image used unmodified.",
+        "alt": "BlockDrop game icon showing a stylized block",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/blockdrop-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-08",
+        "sources": [
+          {
+            "url": "https://github.com/brandonp2412/BlockDrop",
+            "label": "Official repository: description, platforms, license, and download links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/BlockDrop/main/LICENSE",
+            "label": "MIT license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/BlockDrop/main/android/app/src/main/res/mipmap-xxxhdpi/launcher_icon.webp",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "15-puzzle",
+      "kind": "game",
+      "name": "15 Puzzle",
+      "developer": "italankin",
+      "category": "Puzzle",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://github.com/italankin/15Puzzle",
+        "checkedAt": "2026-11-08"
+      },
+      "summary": "15 Puzzle is a simple Android sliding puzzle game with a clean interface. Players rearrange numbered tiles in a 4x4 grid to restore the correct order. The game is open source under the MIT license and available on Google Play and F-Droid. It offers a minimalist design focused on the classic puzzle mechanics.",
+      "features": [
+        "Classic 15-puzzle sliding tile gameplay.",
+        "Clean, minimalist Android interface.",
+        "Open source under MIT license.",
+        "Available on Google Play and F-Droid.",
+        "Lightweight and ad-free."
+      ],
+      "insight": "The 15 puzzle is one of those simple ideas that has survived for over a century. This Android version keeps it honest: no ads, no complications, just the tiles and the MIT license. It is a good example of a classic game done right on mobile.",
+      "officialUrl": "https://github.com/italankin/15Puzzle",
+      "discoverySource": {
+        "name": "Official 15 Puzzle repository",
+        "url": "https://github.com/italankin/15Puzzle"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.italankin.puzzle15"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.italankin.puzzle15/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/italankin/15Puzzle"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/italankin/15Puzzle",
+        "androidPackageId": "com.italankin.puzzle15",
+        "githubRepo": "italankin/15Puzzle"
+      },
+      "asset": {
+        "path": "/images/discover/15-puzzle.png",
+        "sourceUrl": "https://raw.githubusercontent.com/italankin/15Puzzle/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/italankin/15Puzzle/master/LICENSE",
+        "attribution": "15 Puzzle icon from the official italankin/15Puzzle repository, MIT license. Image used unmodified.",
+        "alt": "15 Puzzle app icon showing numbered tiles",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/15-puzzle-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-08",
+        "sources": [
+          {
+            "url": "https://github.com/italankin/15Puzzle",
+            "label": "Official repository: description, platforms, license, and download links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/italankin/15Puzzle/master/LICENSE",
+            "label": "MIT license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/italankin/15Puzzle/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fossify-launcher",
+      "kind": "app",
+      "name": "Fossify Launcher",
+      "developer": "Fossify",
+      "category": "Launcher",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://www.fossify.org/apps/launcher/",
+        "checkedAt": "2026-11-08"
+      },
+      "summary": "Fossify Launcher is an Android home screen replacement that lets you customize your layout, app drawer, widgets, and search without a content feed. The app works offline and does not request Internet permission. It is part of the Fossify suite of privacy-focused Android apps and is available on Google Play and F-Droid.",
+      "features": [
+        "Customize home screen layout, app drawer, and widgets.",
+        "Search apps and content directly from the home screen.",
+        "Works offline without requesting Internet permission.",
+        "Part of the Fossify privacy-focused app suite.",
+        "Available on Google Play and F-Droid."
+      ],
+      "insight": "A launcher is the first thing you see on your phone, and Fossify Launcher makes that first impression count without tracking you. No content feed, no Internet permission, just your apps arranged the way you want them. It is what a launcher should be when the goal is usefulness rather than engagement metrics.",
+      "officialUrl": "https://www.fossify.org/apps/launcher/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.home"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.fossify.home/"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Launcher"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/launcher/",
+        "androidPackageId": "org.fossify.home",
+        "githubRepo": "FossifyOrg/Launcher"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-launcher.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/launcher/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Launcher artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Fossify Launcher app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-08",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/launcher/",
+            "label": "Official Fossify Launcher page: Android features, package, stores, and free price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/launcher/icon.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          }
+        ]
+      }
+    }
+  ]
+}

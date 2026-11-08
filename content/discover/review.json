@@ -5451,5 +5451,397 @@
     "reasons": [
       "Artwork requires evidenced reuse permission"
     ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "alex-vs-bus",
+      "kind": "game",
+      "name": "Alex vs Bus: The Race",
+      "developer": "M374LX",
+      "category": "Platformer",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Alex vs Bus: The Race is a free and open-source platform runner about a man who depends on public transport in a developing country and has to sprint to catch his bus. The C port, rewritten from the discontinued Java original with a modified raylib, is finished rather than work in progress: 13 levels across three difficulties, a cutscene per level and an ending sequence, in an 8-bit-inspired audio and visual style. Keyboard, gamepad and touchscreen input are supported, with Android the only touch platform. The project warns that a paid Google Play listing of the old Java build is not official.",
+      "features": [
+        "13 finished levels across three difficulty settings, each with its own clearing cutscene.",
+        "Keyboard, gamepad and touchscreen input, the last one on Android only.",
+        "Customisable screen size and an optional scanline effect.",
+        "Officially distributed on GitHub and F-Droid, free of charge, after a paid unofficial Play listing appeared."
+      ],
+      "insight": "The readme's warning that a paid Play copy of the abandoned Java build is not official is the sort of provenance note F7 wishes more projects carried. The artwork grant is what stopped this entry: see the review reason.",
+      "officialUrl": "https://github.com/M374LX/alexvsbus",
+      "discoverySource": {
+        "name": "Official Alex vs Bus repository",
+        "url": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/M374LX/alexvsbus/releases/latest"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.github.m374lx.alexvsbus/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/M374LX/alexvsbus",
+        "githubRepo": "M374LX/alexvsbus"
+      },
+      "asset": {
+        "path": "/images/discover/alex-vs-bus.png",
+        "sourceUrl": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/docs/img/screenshot1.png",
+        "license": "Reuse permission not specified for docs/img screenshots",
+        "licenseUrl": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/LICENSE.txt",
+        "attribution": "docs/img/screenshot1.png in M374LX/alexvsbus. The repository LICENSE.txt grants GPL-3.0 to code and CC BY-SA 4.0 to the assets directory only, so no licence covers the screenshots used for card art.",
+        "alt": "Alex vs Bus gameplay screenshot"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/README.md",
+            "label": "Repository readme: levels, difficulties, input devices, platforms, distribution and unofficial Play warning",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/LICENSE.txt",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/M374LX/alexvsbus/main/docs/img/screenshot1.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-07",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "mah",
+      "kind": "game",
+      "name": "Mah - Mahjong Solitaire",
+      "developer": "ffalt",
+      "category": "Board",
+      "platforms": [
+        "Web",
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/ffalt/mah/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "summary": "Mah is an open-source Mahjong Solitaire that runs in the browser or as a native build, with 84 built-in layouts from the classic Turtle and Dragon boards to custom designs, 13 tile image sets and a seed-based layout generator for shareable boards. A daily challenge gives everyone the same board and ruleset, tracked in seven types with a local streak, result calendar and per-type best score. Zen mode, pan and pinch-zoom, full keyboard play with screen-reader announcements and 40 languages are included, and nothing is saved to a cloud service.",
+      "features": [
+        "84 built-in layouts plus a seed-based generator whose boards can be shared and replayed.",
+        "Seven daily challenge types with a local streak, result calendar and best score per type.",
+        "13 tile image sets and heavy visual customization, including backgrounds, colour themes and 3D tiles.",
+        "Playable by keyboard throughout, with visible focus and screen-reader announcements.",
+        "40 languages, and game state and best times stored only in the browser."
+      ],
+      "insight": "F7 would ship this as a reference for input work: keyboard play, announcements and zoom handled as first-class rather than as an afterthought. It stayed in review only because the tile artwork's own licences could not be cleared for our card image.",
+      "officialUrl": "https://ffalt.github.io/mah/",
+      "discoverySource": {
+        "name": "Official Mah repository",
+        "url": "https://raw.githubusercontent.com/ffalt/mah/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://ffalt.github.io/mah/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/ffalt/mah/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/ffalt/mah",
+        "githubRepo": "ffalt/mah"
+      },
+      "asset": {
+        "path": "/images/discover/mah.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ffalt/mah/main/screenshot.jpg",
+        "license": "Not specified per tile set; third-party artwork credits only",
+        "licenseUrl": "https://raw.githubusercontent.com/ffalt/mah/main/src/assets/svg/README.md",
+        "attribution": "screenshot.jpg in ffalt/mah. The repository is MIT licensed, but its asset credits list tile sets under CC BY 4.0, GPL-3.0 and other terms, and some without a stated licence, so the gameplay screenshot's reuse permission is unresolved.",
+        "alt": "Mah Mahjong Solitaire board screenshot"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ffalt/mah/main/README.md",
+            "label": "Repository readme: layouts, challenge types, languages, platforms and downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ffalt/mah/main/src/assets/svg/README.md",
+            "label": "Asset credits listing third-party tile artwork licences",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-07",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "flick",
+      "kind": "app",
+      "name": "Flick",
+      "developer": "moss-apps",
+      "category": "Music",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/moss-apps/flick/main/README.md",
+        "checkedAt": "2026-11-07"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "summary": "Flick is an Android music player with a Rust audio engine behind it: bit-perfect PCM to USB DACs over UAC 2.0, native DSD for DSF, DFF and WavPack files, DoP and high-resolution output on digital audio players through exclusive-mode Oboe or AAudio, falling back to Android's normal pipeline when a device will not cooperate. A 31-band parametric equaliser with compressor and limiter, convolution reverb from impulse responses, crossfade and gapless playback sit on top of a MediaStore library that syncs differentially, reads SD and USB storage and writes metadata back to files.",
+      "features": [
+        "Rust audio engine with bit-perfect USB DAC output, native DSD, DoP and exclusive-mode hi-res playback.",
+        "31-band parametric equaliser with dynamics, convolution reverb from IR files, crossfade and gapless.",
+        "Library scanner with differential sync, removable storage support, metadata written back to files and CUE sheet support.",
+        "Synced lyrics from LRCLib with an in-app editor, and player widgets that work when the app is killed.",
+        "MIT licensed with no ads, no premium features and no tracking, built on GitHub Releases and Google Play."
+      ],
+      "insight": "Flick is the rare player that states its output path instead of promising quality, and the MIT licence plus a no-tracking line makes the promise checkable. Research was complete today, but the seven Android app slots were already filled, so it stays here for fresh verification on a later date.",
+      "officialUrl": "https://github.com/moss-apps/flick",
+      "discoverySource": {
+        "name": "Official Flick repository",
+        "url": "https://raw.githubusercontent.com/moss-apps/flick/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mossapps.flick"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/moss-apps/flick/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/moss-apps/flick",
+        "androidPackageId": "com.mossapps.flick",
+        "githubRepo": "moss-apps/flick"
+      },
+      "asset": {
+        "path": "/images/discover/flick.png",
+        "sourceUrl": "https://raw.githubusercontent.com/moss-apps/flick/main/android/app/src/main/res/mipmap-xxxhdpi/flick_launcher_icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/moss-apps/flick/main/LICENSE",
+        "attribution": "Candidate artwork is the official launcher icon at android/app/src/main/res/mipmap-xxxhdpi/flick_launcher_icon.png in the moss-apps/flick repository, licensed MIT (LICENSE). No local copy is staged because today's Android app slots are already full.",
+        "alt": "Flick app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-07",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/moss-apps/flick/main/README.md",
+            "label": "Repository readme: audio engine, equaliser, library features, licence and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/moss-apps/flick/main/LICENSE",
+            "label": "Official license file covering the artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/moss-apps/flick/main/android/app/src/main/res/mipmap-xxxhdpi/flick_launcher_icon.png",
+            "label": "Official artwork file used here, unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-07"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-07",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "fossify-thank-you",
+      "kind": "app",
+      "name": "Fossify Thank You",
+      "developer": "Fossify",
+      "category": "Support",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "paid",
+        "label": "Paid",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=org.fossify.thankyou",
+        "checkedAt": "2026-11-08"
+      },
+      "summary": "Fossify Thank You is a paid Android app that supports Fossify development and unlocks additional customization options and shared settings across supported Fossify apps. Purchasing it funds the project and provides extra features like enhanced theming and synchronized preferences. It is available on Google Play.",
+      "features": [
+        "Supports Fossify development financially.",
+        "Unlocks additional customization options in supported apps.",
+        "Enables shared settings across Fossify apps.",
+        "One-time purchase with no subscriptions.",
+        "Available on Google Play."
+      ],
+      "insight": "Fossify Thank You turns support into a feature: paying once funds the project and unlocks extra customization across the suite. It is a model that respects users while keeping development sustainable, and the shared settings mean your preferences follow you from one Fossify app to the next.",
+      "officialUrl": "https://www.fossify.org/apps/thank-you/",
+      "discoverySource": {
+        "name": "Official Fossify site",
+        "url": "https://www.fossify.org/apps/"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.fossify.thankyou"
+        },
+        {
+          "label": "Official GitHub",
+          "url": "https://github.com/FossifyOrg/Thank-You"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.fossify.org/apps/thank-you/",
+        "androidPackageId": "org.fossify.thankyou",
+        "githubRepo": "FossifyOrg/Thank-You"
+      },
+      "asset": {
+        "path": "/images/discover/fossify-thank-you.webp",
+        "sourceUrl": "https://www.fossify.org/assets/apps/thank-you/icon.webp",
+        "license": "Official press-kit permission",
+        "licenseUrl": "https://www.fossify.org/press/",
+        "attribution": "Fossify Thank You artwork by Fossify, from the current app page. Used unmodified under the press-kit permission for articles and directories. Proportions and colors unchanged.",
+        "alt": "Fossify Thank You app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-08",
+        "sources": [
+          {
+            "url": "https://www.fossify.org/apps/thank-you/",
+            "label": "Official Fossify Thank You page: Android features, package, store, and paid price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://www.fossify.org/press/",
+            "label": "Press kit: current app artwork may be used in articles and directories without changing proportions or colors",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          },
+          {
+            "url": "https://www.fossify.org/assets/apps/thank-you/icon.webp",
+            "label": "Official app artwork used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-08"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-08",
+    "reasons": [
+      "Price source URL must have price evidence"
+    ]
   }
 ]
