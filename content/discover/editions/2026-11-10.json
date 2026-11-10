@@ -1,0 +1,1224 @@
+{
+  "date": "2026-11-10",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-10T07:20:53.916Z",
+  "entries": [
+    {
+      "slug": "series-of-tubes",
+      "kind": "game",
+      "name": "Series of Tubes",
+      "developer": "Frederic Jung",
+      "category": "Simulation",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "Series of Tubes is a cartoon management game about running an internet provider, where you grow from one router in one city into a network that no longer has to buy transit. Demand arrives as different customer types with different requirements, capacity is bought and lit rather than discovered, and traffic is visible link by link so every congestion problem has a cause you can inspect. The readme states plainly that it simplifies and sometimes gets things wrong on purpose, with a companion resource for the real engineering.",
+      "features": [
+        "Customer demand is split into distinct types: home broadband, enterprises, hosting, VPN services, high-frequency traders with latency budgets, GPU data centres and large interconnection deals.",
+        "Interconnection options include transit billed on the 95th percentile, exchanges with route servers, peering at four levels of openness, private network interconnects and embedded cache nodes.",
+        "Capacity is built from around 40 subsea cable systems, leased or self-built dark fibre lit with DWDM and ZR+ optics, router generations that cap port speeds and bundled link aggregation.",
+        "Traffic engineering shows what fills each link and lets you retune link metrics and egress preferences to hold the fastest path for latency-sensitive customers.",
+        "The failure set is continuous: cable cuts, backhoes, route leaks, protection incidents, cooling faults and geopolitical events all remove capacity mid-game."
+      ],
+      "insight": "F7 designs systems that teach one mechanic without a tutorial, and Series of Tubes does it for network engineering: every invoice, outage and routing decision is on screen, so the rules are discoverable instead of explained. Making each company a pun is the production trick that keeps a dense subject playable.",
+      "officialUrl": "https://seriesoftub.es",
+      "discoverySource": {
+        "name": "Official Series of Tubes repository readme",
+        "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://seriesoftub.es"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/fjaeckel/seriesoftubes"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://seriesoftub.es",
+        "githubRepo": "fjaeckel/seriesoftubes"
+      },
+      "asset": {
+        "path": "/images/discover/series-of-tubes.png",
+        "sourceUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/site/icon-512.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/LICENSE",
+        "attribution": "Series of Tubes application icon from site/icon-512.png in the official fjaeckel/seriesoftubes repository, whose LICENSE is MIT (Copyright 2026 Frederic Jung). Image used unmodified.",
+        "alt": "Official Series of Tubes app icon",
+        "noticePath": "/images/discover/licenses/series-of-tubes-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/README.md",
+            "label": "Official Series of Tubes repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/LICENSE",
+            "label": "Series of Tubes repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mgame",
+      "kind": "game",
+      "name": "MGame",
+      "developer": "MGame contributors",
+      "category": "Racing",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/gre-42/MGame/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "MGame turns OpenStreetMap data into rally stages, so the road surface, the corners and the city blocks are mapped by volunteers rather than modelled by the developer. The same build reaches desktop executables, an Android release and a browser client, and the project documents how players can add their own stage from map data. Stages range from invented circuits to named real roads.",
+      "features": [
+        "Track geometry comes from OpenStreetMap mapping data rather than hand-authored circuits, and the contributing guide explains how to add a custom stage.",
+        "Ships desktop executables for Linux and Windows, an Android build on Google Play and a browser version on the developer's own game host.",
+        "Published screenshots cover separate environments including snow, desert, forest and island stages plus city courses.",
+        "Real-world roads appear as stages, including an alpine pass route and courses set in New York City and San Francisco.",
+        "The project credits the OpenStreetMap community as the content source and invites players to contribute mapping data."
+      ],
+      "insight": "Using a crowdsourced map database as the level pipeline means the content is finished before the developer touches it, and every stage is somewhere a player can recognise. For a studio that hand-blocks tracks, the interesting problem here is not rendering roads but choosing which real roads read as a fair stage.",
+      "officialUrl": "https://github.com/gre-42/MGame",
+      "discoverySource": {
+        "name": "Official MGame repository readme",
+        "url": "https://raw.githubusercontent.com/gre-42/MGame/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hallo2hallo.vanillarally"
+        },
+        {
+          "label": "Official browser build",
+          "url": "https://myfps.fun/client/game"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/gre-42/MGame/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/gre-42/MGame",
+        "androidPackageId": "com.hallo2hallo.vanillarally",
+        "githubRepo": "gre-42/MGame"
+      },
+      "asset": {
+        "path": "/images/discover/mgame.png",
+        "sourceUrl": "https://raw.githubusercontent.com/gre-42/MGame/HEAD/icons/vanilla_rally_icon.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/gre-42/MGame/HEAD/LICENSE",
+        "attribution": "MGame icon from icons/vanilla_rally_icon.png in the official gre-42/MGame repository, whose LICENSE is MIT (Copyright 2025 MGame contributors). Image used unmodified.",
+        "alt": "Official MGame rally icon",
+        "noticePath": "/images/discover/licenses/mgame-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/gre-42/MGame/HEAD/README.md",
+            "label": "Official MGame repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/gre-42/MGame/HEAD/LICENSE",
+            "label": "MGame repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wikispeedrun",
+      "kind": "game",
+      "name": "WikiSpeedrun",
+      "developer": "Henry Bao",
+      "category": "Puzzle",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/HenryBao912/WikiSpeedrun/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "WikiSpeedrun races you from one Wikipedia article to another using only the links inside articles, solo or against friends in a shared room, with no signup, download or advertising. Content is not licensed or mirrored: the client fetches live article HTML straight from Wikipedia's public REST API. A pre-computed graph around the destination keeps the hint showing progress without hammering the API on every click.",
+      "features": [
+        "Classic mode is a race to reach the target article first, while Tri mode asks you to visit three targets in any order.",
+        "Marathon mode runs time-boxed chains of 3, 5, 8 or 12 minutes, scores efficiency by click count and awards completion bonuses at 5, 10 and 15 targets.",
+        "Start and target articles are drawn from Wikipedia's pageview statistics so puzzles are solvable but not one hop apart.",
+        "The server pre-computes the one, two and three hop neighbourhood of the destination so distance feedback needs no round trip per click.",
+        "Room state is pushed over Server-Sent Events from a dependency-free Node http server, with a single HTML client that strips navigation, references and edit sections before rendering."
+      ],
+      "insight": "The build is deliberately empty: no framework, no database of its own, one HTML file, because the difficulty already exists inside Wikipedia's link graph. F7 keeps meeting the same trade-off, where removing our own layers leaves the rules as the only thing that can be wrong.",
+      "officialUrl": "https://wikispeedrun.io",
+      "discoverySource": {
+        "name": "Official WikiSpeedrun repository readme",
+        "url": "https://raw.githubusercontent.com/HenryBao912/WikiSpeedrun/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://wikispeedrun.io"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/HenryBao912/WikiSpeedrun"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://wikispeedrun.io",
+        "githubRepo": "HenryBao912/WikiSpeedrun"
+      },
+      "asset": {
+        "path": "/images/discover/wikispeedrun.png",
+        "sourceUrl": "https://raw.githubusercontent.com/HenryBao912/WikiSpeedrun/HEAD/preview.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/HenryBao912/WikiSpeedrun/HEAD/LICENSE",
+        "attribution": "WikiSpeedrun gameplay preview from preview.png in the official HenryBao912/WikiSpeedrun repository, whose LICENSE is MIT (Copyright 2026 Henry Bao). Image used unmodified.",
+        "alt": "WikiSpeedrun game preview screen",
+        "noticePath": "/images/discover/licenses/wikispeedrun-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/HenryBao912/WikiSpeedrun/HEAD/README.md",
+            "label": "Official WikiSpeedrun repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HenryBao912/WikiSpeedrun/HEAD/LICENSE",
+            "label": "WikiSpeedrun repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "caviardeul",
+      "kind": "game",
+      "name": "Caviardeul",
+      "developer": "Julien Chaumont",
+      "category": "Word",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/julienc91/caviardeul/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "Caviardeul takes the daily redacted-article format and builds it for French: an encyclopaedia entry is hidden behind blacked-out words and each correct guess opens more of the text until players can name the subject. The project describes itself as a French-language game based on the Redactle concept rather than a translation of it, which matters because the vocabulary and the article pool both change with the language. It is played in a browser on the developer's own domain.",
+      "features": [
+        "One hidden article per day, solved by guessing words that reveal the redacted text around them.",
+        "Built for French using French-language encyclopaedia content, not an adapted English puzzle pool.",
+        "Playable in a browser with no client download on the developer's caviardeul.fr domain.",
+        "Open source under the MIT licence, with the logo asset published inside the repository."
+      ],
+      "insight": "Localising a game format is a production decision, not a translation pass: the word distribution, the trivia density and the difficulty curve all move with the language. It is a cheap way to serve a community the original never designed for.",
+      "officialUrl": "https://caviardeul.fr",
+      "discoverySource": {
+        "name": "Official Caviardeul repository readme",
+        "url": "https://raw.githubusercontent.com/julienc91/caviardeul/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://caviardeul.fr"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/julienc91/caviardeul"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://caviardeul.fr",
+        "githubRepo": "julienc91/caviardeul"
+      },
+      "asset": {
+        "path": "/images/discover/caviardeul.png",
+        "sourceUrl": "https://raw.githubusercontent.com/julienc91/caviardeul/HEAD/frontend/public/caviardeul.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/julienc91/caviardeul/HEAD/LICENSE",
+        "attribution": "Caviardeul logo from frontend/public/caviardeul.png in the official julienc91/caviardeul repository, whose LICENSE is MIT (Copyright 2022 Julien Chaumont). Image used unmodified.",
+        "alt": "Official Caviardeul logo",
+        "noticePath": "/images/discover/licenses/caviardeul-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/julienc91/caviardeul/HEAD/README.md",
+            "label": "Official Caviardeul repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/julienc91/caviardeul/HEAD/LICENSE",
+            "label": "Caviardeul repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cuttle",
+      "kind": "game",
+      "name": "Cuttle",
+      "developer": "Ryan Emberling",
+      "category": "Card",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/cuttle-cards/cuttle/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "Cuttle is a two-player battle card game played live in the browser, published as a complete open-source web application rather than just a client. The project treats its community as part of the product: the rules are documented separately for new players, a design guide sits beside the code and the team runs two organised events a week. The stack is deliberately conventional, which keeps the barrier to contributing low.",
+      "features": [
+        "Real-time two-player card matches played as a single-page application in the browser with no install.",
+        "Full-stack open source: a Vue and Vuetify client over a Node.js API built with Sails.js.",
+        "End-to-end tested with Cypress, so gameplay regressions are caught in the match flow rather than in unit isolation.",
+        "Rules are published separately from the code so a new player can learn the game before queueing.",
+        "An active community runs two scheduled events a week and the repository links a design guide and contribution guide."
+      ],
+      "insight": "Live card games usually die from empty lobbies rather than bad rules, and Cuttle's answer is unglamorous: a fixed weekly calendar, public rules and an open codebase that makes staying cheap. A studio with a small audience should copy the calendar before the code.",
+      "officialUrl": "https://www.cuttle.cards",
+      "discoverySource": {
+        "name": "Official Cuttle repository readme",
+        "url": "https://raw.githubusercontent.com/cuttle-cards/cuttle/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://www.cuttle.cards"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/cuttle-cards/cuttle"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.cuttle.cards",
+        "githubRepo": "cuttle-cards/cuttle"
+      },
+      "asset": {
+        "path": "/images/discover/cuttle.png",
+        "sourceUrl": "https://raw.githubusercontent.com/cuttle-cards/cuttle/HEAD/public/pwa-icons/logo-head-128.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/cuttle-cards/cuttle/HEAD/LICENSE.md",
+        "attribution": "Cuttle logo from public/pwa-icons/logo-head-128.png in the official cuttle-cards/cuttle repository, whose LICENSE.md is MIT (Copyright 2016-present Ryan Emberling). Image used unmodified.",
+        "alt": "Official Cuttle card game logo",
+        "noticePath": "/images/discover/licenses/cuttle-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/cuttle-cards/cuttle/HEAD/README.md",
+            "label": "Official Cuttle repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/cuttle-cards/cuttle/HEAD/LICENSE.md",
+            "label": "Cuttle repository LICENSE.md: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "openschafkopf",
+      "kind": "game",
+      "name": "OpenSchafkopf",
+      "developer": "phimuemue",
+      "category": "Card",
+      "platforms": [
+        "Desktop",
+        "Browser extension"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/phimuemue/openschafkopf/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "OpenSchafkopf is a Rust engine that plays and analyses Schafkopf, the Bavarian trick-taking game, exposing the full rule space rather than a single house variant. Game types, payment extras and table conventions are configured through ruleset files, so a variant is data you can read instead of a code fork. The same repository also carries a browser extension build, keeping the engine and the presentation separate.",
+      "features": [
+        "Supports Rufspiel, Solo, Wenz, Farbwenz, Geier and Farbgeier including Tout and Sie, plus Bettel and Ramsch.",
+        "Configures the payment extras Schneider, Schwarz, Laufende, Stoss and Doppeln alongside short and long card variants, Stock and Steigern.",
+        "Rulesets are published as example files in the repository, so a table's house rules can be described without changing code.",
+        "Built in Rust against the stable toolchain and run from the command line with usage documentation.",
+        "The repository also ships a browser extension directory, so the same engine can be hosted inside a web page."
+      ],
+      "insight": "Publishing a card game as a rules engine plus readable ruleset examples is how you hand analysis tools to players instead of just a table to click at. F7's rules code is nowhere this portable, and that is the difference between a game people play and a game people study.",
+      "officialUrl": "https://github.com/phimuemue/openschafkopf",
+      "discoverySource": {
+        "name": "Official OpenSchafkopf repository readme",
+        "url": "https://raw.githubusercontent.com/phimuemue/openschafkopf/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/phimuemue/openschafkopf"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/phimuemue/openschafkopf",
+        "githubRepo": "phimuemue/openschafkopf"
+      },
+      "asset": {
+        "path": "/images/discover/openschafkopf.png",
+        "sourceUrl": "https://raw.githubusercontent.com/phimuemue/openschafkopf/HEAD/sauspiel_webext/assets/screenshot.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/phimuemue/openschafkopf/HEAD/LICENSE",
+        "attribution": "OpenSchafkopf gameplay screenshot from sauspiel_webext/assets/screenshot.png in the official phimuemue/openschafkopf repository, whose LICENSE is MIT (Copyright 2019 phimuemue). Image used unmodified.",
+        "alt": "OpenSchafkopf game screenshot",
+        "noticePath": "/images/discover/licenses/openschafkopf-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/phimuemue/openschafkopf/HEAD/README.md",
+            "label": "Official OpenSchafkopf repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/phimuemue/openschafkopf/HEAD/LICENSE",
+            "label": "OpenSchafkopf repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "the-human-box",
+      "kind": "game",
+      "name": "The Human Box",
+      "developer": "Mohamad Homsi",
+      "category": "Simulation",
+      "platforms": [
+        "Web",
+        "Desktop"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "The Human Box is a civilisation sandbox that states its premise directly: nothing is scripted, only world laws. Autonomous people form tribes, develop languages and cultures, build cities, found religions, wage wars, sign treaties and reach computers across 45 eras, and you can either watch or intervene as a god who answers prayers and reshapes the land. The whole simulation is Rust compiled to WebAssembly running on your own device, with no account and every chronicle written by the simulation itself.",
+      "features": [
+        "Simulation compiled from Rust to WebAssembly that runs locally in the browser or as a desktop app with no signup.",
+        "Agents develop language, culture, religion, technology and treaties from world laws rather than authored event trees.",
+        "Progress is inherited across generations through 45 eras, so culture moves sideways instead of resetting.",
+        "Player intervention is framed as answered prayers, blessings, plagues, disasters and land reshaping.",
+        "Worlds save locally and can be exported, and the thoughts, conversations and chronicles are generated by the simulation."
+      ],
+      "insight": "Removing authored content almost entirely moves the risk somewhere else: quality now depends on whether emergence reads as story. Exportable local worlds are the quiet product lesson, because retention then costs the developer nothing.",
+      "officialUrl": "https://thehumanbox.com",
+      "discoverySource": {
+        "name": "Official The Human Box repository readme",
+        "url": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://thehumanbox.com"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/1homsi/thehumanbox"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://thehumanbox.com",
+        "githubRepo": "1homsi/thehumanbox"
+      },
+      "asset": {
+        "path": "/images/discover/the-human-box.png",
+        "sourceUrl": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/apps/desktop/build/icon.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/LICENSE",
+        "attribution": "The Human Box application icon from apps/desktop/build/icon.png in the official 1homsi/thehumanbox repository, whose LICENSE is MIT (Copyright 2026 Mohamad Homsi). Image used unmodified.",
+        "alt": "Official The Human Box app icon",
+        "noticePath": "/images/discover/licenses/the-human-box-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/README.md",
+            "label": "Official The Human Box repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/LICENSE",
+            "label": "The Human Box repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "marketmonk",
+      "kind": "app",
+      "name": "MarketMonk",
+      "developer": "brandonp2412",
+      "category": "Finance",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/brandonp2412/MarketMonk/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "MarketMonk is a stock charting and portfolio tracker that keeps the same features on a phone and a desktop: daily and intraday charts, holdings, trades and performance, with chart settings, currencies and dashboard layout left to the user. Market data comes from Yahoo Finance, and a broker account can be mirrored through an optional read-only Interactive Brokers source instead of a trading connection. The project publishes donation and sponsorship routes and has retired iOS and macOS rather than leaving them half-supported.",
+      "features": [
+        "Daily and intraday charts built on Yahoo Finance data, with user-selected chart settings and currencies.",
+        "Portfolio tracking for holdings, individual trades and overall performance across a configurable dashboard.",
+        "Optional read-only Interactive Brokers portfolio source, which mirrors a broker account without exposing order placement.",
+        "Android distributed through Google Play, F-Droid and a GitHub APK, with Windows via the Microsoft Store and Linux as a release archive.",
+        "Support is funded by published Bitcoin and Monero addresses and GitHub sponsorship, and the readme records that iOS and macOS are no longer supported."
+      ],
+      "insight": "A read-only broker link is the correct boundary for an independent finance app: useful data without custody risk or a payment flow that would have to be regulated. F7 ships internal dashboards for our own metrics and this is the pattern we keep failing to formalise.",
+      "officialUrl": "https://github.com/brandonp2412/MarketMonk",
+      "discoverySource": {
+        "name": "Official MarketMonk repository readme",
+        "url": "https://raw.githubusercontent.com/brandonp2412/MarketMonk/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.codesail.market_monk"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.codesail.market_monk/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/brandonp2412/MarketMonk/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/brandonp2412/MarketMonk",
+        "androidPackageId": "com.codesail.market_monk",
+        "githubRepo": "brandonp2412/MarketMonk"
+      },
+      "asset": {
+        "path": "/images/discover/marketmonk.png",
+        "sourceUrl": "https://raw.githubusercontent.com/brandonp2412/MarketMonk/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/brandonp2412/MarketMonk/HEAD/LICENSE.md",
+        "attribution": "MarketMonk app icon from fastlane/metadata/android/en-US/images/icon.png in the official brandonp2412/MarketMonk repository, whose LICENSE.md is MIT (Copyright 2024 MarketMonk). Image used unmodified.",
+        "alt": "Official MarketMonk app icon",
+        "noticePath": "/images/discover/licenses/marketmonk-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/MarketMonk/HEAD/README.md",
+            "label": "Official MarketMonk repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/MarketMonk/HEAD/LICENSE.md",
+            "label": "MarketMonk repository LICENSE.md: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "callshield",
+      "kind": "app",
+      "name": "CallShield",
+      "developer": "SysAdminDoc",
+      "category": "Security",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/SysAdminDoc/CallShield/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "CallShield blocks spam calls and screens spam texts entirely on the phone, combining more than thirty detection layers with a bundled number database and no accounts or tracking. What makes it unusual is the distribution model for its protection data: content-addressed shards, a hash manifest and detached signatures on every feed and on the model weights, so the app refuses anything that does not verify against a built-in key. Evaluation is published too, including recall measured against a multilingual smishing corpus.",
+      "features": [
+        "Screening runs on-device with a gradient-boosted tree scorer plus bounded campaign and churn evidence, conservative carrier identity signals and a real-time caller ID layer.",
+        "Bundles 51,407 spam numbers alongside a trending-numbers feed the app re-checks every thirty minutes.",
+        "Current builds ship a hash manifest and 256 content-addressed shards, fetching only what changed and verifying each shard before a transactional database refresh.",
+        "The manifest, the legacy database, the trending feeds and the model weights each carry a detached ECDSA P-256 signature, and anything that fails verification is refused.",
+        "Regional community lists for Colombia, Chile, Turkey and Paraguay are offered as separate optional sources with their own licences and are never folded into the app's own database.",
+        "Detection quality is measured against a self-authored CC0 message corpus and a sampled academic smishing dataset, with a notice file crediting it."
+      ],
+      "insight": "An open-source spam blocker's real attack surface is its own update pipeline, and signing every shard and model file before trusting it is how CallShield closes that hole. F7 should apply the same rule to our own asset and patch delivery.",
+      "officialUrl": "https://github.com/SysAdminDoc/CallShield",
+      "discoverySource": {
+        "name": "Official CallShield repository readme",
+        "url": "https://raw.githubusercontent.com/SysAdminDoc/CallShield/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/SysAdminDoc/CallShield/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/SysAdminDoc/CallShield",
+        "githubRepo": "SysAdminDoc/CallShield"
+      },
+      "asset": {
+        "path": "/images/discover/callshield.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SysAdminDoc/CallShield/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/SysAdminDoc/CallShield/HEAD/LICENSE",
+        "attribution": "CallShield app icon from fastlane/metadata/android/en-US/images/icon.png in the official SysAdminDoc/CallShield repository, whose LICENSE is MIT (Copyright 2026 SysAdminDoc). Image used unmodified.",
+        "alt": "Official CallShield app icon",
+        "noticePath": "/images/discover/licenses/callshield-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/CallShield/HEAD/README.md",
+            "label": "Official CallShield repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/CallShield/HEAD/LICENSE",
+            "label": "CallShield repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tinykit",
+      "kind": "app",
+      "name": "TinyKit",
+      "developer": "Order52",
+      "category": "Utilities",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Order52/tinykit/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "TinyKit gathers hidden Android settings, privacy controls and system tools behind one menu and reaches shell-level permissions through Shizuku so the phone never has to be rooted. It is opinionated about footprint: no services or wake-locks unless you enable one optional switch, no ads, analytics or tracking, and an install measured in hundreds of kilobytes with a single dependency. Tasks that normally need a terminal, such as revoking permissions an app was granted or recovering deleted files, are exposed as ordinary taps.",
+      "features": [
+        "Shell-level access through Shizuku with ADB-level permissions, so nothing requires an unlocked bootloader or root.",
+        "Fake permissions, deleted-file recovery, hidden app-operations and custom Quick Settings tiles collected in one interface.",
+        "Idle by default: work happens while the app is open or through a tile or widget, with one optional switch that can block a newly installed app as it appears.",
+        "About 360 KB with the Shizuku API as its only dependency, and no ads, analytics or tracking.",
+        "Network use is limited to an update check you trigger and a public IP lookup in Network info.",
+        "Distributed as a GitHub release APK with documented Obtainium installation."
+      ],
+      "insight": "Utility apps usually install a resident service to justify their icon; TinyKit's stated rule is that nothing runs unless you asked for it, and keeping that rule in a 360 KB build is the engineering argument. It is the constraint our own Android tooling should adopt.",
+      "officialUrl": "https://github.com/Order52/tinykit",
+      "discoverySource": {
+        "name": "Official TinyKit repository readme",
+        "url": "https://raw.githubusercontent.com/Order52/tinykit/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Order52/tinykit/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Order52/tinykit",
+        "githubRepo": "Order52/tinykit"
+      },
+      "asset": {
+        "path": "/images/discover/tinykit.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Order52/tinykit/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Order52/tinykit/HEAD/LICENSE",
+        "attribution": "TinyKit app icon from fastlane/metadata/android/en-US/images/icon.png in the official Order52/tinykit repository, whose LICENSE is MIT (Copyright 2026 Order52). Image used unmodified.",
+        "alt": "Official TinyKit app icon",
+        "noticePath": "/images/discover/licenses/tinykit-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Order52/tinykit/HEAD/README.md",
+            "label": "Official TinyKit repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Order52/tinykit/HEAD/LICENSE",
+            "label": "TinyKit repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "eqtrainer",
+      "kind": "app",
+      "name": "eqTrainer",
+      "developer": "potatosalad775",
+      "category": "Education",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/potatosalad775/eqTrainer/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "eqTrainer is a critical-listening trainer modelled on Harman International's desktop How To Listen software, rebuilt in Flutter so the band-identification task reaches phones and laptops alike. Training material comes from your own music through a playlist feature and a built-in audio clip editor, which is what makes it usable between sessions rather than only in a lab. Desktop audio back ends are handled per platform, and older machines are supported by a pinned legacy release.",
+      "features": [
+        "Band-identification task inspired by Harman's free How To Listen desktop application, extended to mobile.",
+        "Playlist management and an integrated audio clip editor for preparing your own training material.",
+        "Android on Google Play plus Windows 10 and newer using WASAPI, macOS 12 as a universal binary for Intel and Apple silicon, and Linux through ALSA or JACK.",
+        "PulseAudio and PipeWire systems are served through their ALSA compatibility layers on Linux.",
+        "Multilingual interface with a dark mode, published as MIT-licensed Flutter source with release builds.",
+        "A v2.3.0 build is kept available for Windows machines older than Windows 10."
+      ],
+      "insight": "Listening training is the rare tool where your own ear is the specification, and the audio clip editor is what turns it from a test into practice. F7 mixes game audio on the same laptop and this is a cheap way to check whether a mix decision was audible at all.",
+      "officialUrl": "https://github.com/potatosalad775/eqTrainer",
+      "discoverySource": {
+        "name": "Official eqTrainer repository readme",
+        "url": "https://raw.githubusercontent.com/potatosalad775/eqTrainer/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=kr.potatosalad775.eq_trainer"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/potatosalad775/eqTrainer/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/potatosalad775/eqTrainer",
+        "androidPackageId": "kr.potatosalad775.eq_trainer",
+        "githubRepo": "potatosalad775/eqTrainer"
+      },
+      "asset": {
+        "path": "/images/discover/eqtrainer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/potatosalad775/eqTrainer/HEAD/.github/banner.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/potatosalad775/eqTrainer/HEAD/LICENSE",
+        "attribution": "eqTrainer project banner from .github/banner.png in the official potatosalad775/eqTrainer repository, whose LICENSE is MIT (Copyright 2026 potatosalad775). Image used unmodified.",
+        "alt": "eqTrainer banner showing the app",
+        "noticePath": "/images/discover/licenses/eqtrainer-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/potatosalad775/eqTrainer/HEAD/README.md",
+            "label": "Official eqTrainer repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/potatosalad775/eqTrainer/HEAD/LICENSE",
+            "label": "eqTrainer repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "deskhub",
+      "kind": "app",
+      "name": "Deskhub",
+      "developer": "Manh Pham",
+      "category": "Remote access",
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/manhpham90vn/Deskhub/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "Deskhub lets you view and control your own computer from another device with native clients on five platforms rather than a browser-only relay, and positions itself for responsive work and play rather than only remote help-desk sessions. It is open source, installs through package managers on Linux and macOS, and publishes its architecture and security model next to the install instructions. The readme is maintained in four languages, which for a remote-access tool says a lot about who it expects to read the security notes.",
+      "features": [
+        "Screen viewing and remote control between desktops and mobile devices across five native platforms: Android, iOS, macOS, Windows and Linux.",
+        "Installation through package managers on macOS, Ubuntu, Debian and Mint, with a Windows download and an Android build on Google Play.",
+        "Documentation publishes the architecture and a security model rather than only screenshots.",
+        "Readme and install guidance maintained in English, Vietnamese, Chinese and Japanese.",
+        "Built for interactive use, described by the project as responsive enough for work and play rather than support sessions only."
+      ],
+      "insight": "Remote desktop is a category of closed portals and undisclosed relays, so publishing architecture and security notes is the trust feature that actually differentiates it. F7's studio tooling should be documented that way for the same reason.",
+      "officialUrl": "https://manhdev.click/projects/deskhub",
+      "discoverySource": {
+        "name": "Official Deskhub repository readme",
+        "url": "https://raw.githubusercontent.com/manhpham90vn/Deskhub/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.manhpham.deskhub"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/manhpham90vn/Deskhub"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://manhdev.click/projects/deskhub",
+        "androidPackageId": "com.manhpham.deskhub",
+        "githubRepo": "manhpham90vn/Deskhub"
+      },
+      "asset": {
+        "path": "/images/discover/deskhub.png",
+        "sourceUrl": "https://raw.githubusercontent.com/manhpham90vn/Deskhub/HEAD/client/android/fastlane/metadata/android/en-US/images/icon.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/manhpham90vn/Deskhub/HEAD/LICENSE",
+        "attribution": "Deskhub app icon from client/android/fastlane/metadata/android/en-US/images/icon.png in the official manhpham90vn/Deskhub repository, whose LICENSE is MIT (Copyright 2026 Manh Pham). Image used unmodified.",
+        "alt": "Official Deskhub app icon",
+        "noticePath": "/images/discover/licenses/deskhub-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/manhpham90vn/Deskhub/HEAD/README.md",
+            "label": "Official Deskhub repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/manhpham90vn/Deskhub/HEAD/LICENSE",
+            "label": "Deskhub repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nibomo",
+      "kind": "app",
+      "name": "Nibomo",
+      "developer": "Kirill Markin",
+      "category": "Education",
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/kirill-markin/flashcards-open-source-app/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "Nibomo is an open-source flashcard app aimed at exam prep, vocabulary and technical memorisation, using FSRS spaced repetition to schedule reviews and AI assistance to create and improve cards so building a deck stops being the part people abandon. It is genuinely cross-platform, covering iPhone, iPad, Mac, Android and the browser with offline study and Home Screen widgets on mobile, and it also exposes a documented connector so an external AI assistant can work with the same decks.",
+      "features": [
+        "FSRS spaced-repetition scheduling instead of a fixed interval ladder, used for review across every platform.",
+        "AI-assisted card creation and card improvement, positioned for serious daily study rather than one-off decks.",
+        "Offline study on mobile with Home Screen widgets on both iOS and Android.",
+        "Android 11 through 17, iOS and iPadOS 18 or newer, macOS 15 on Apple silicon and a browser review client.",
+        "A published MCP connector lets external AI assistants reach the decks.",
+        "Open source with user guides and platform-specific developer documentation."
+      ],
+      "insight": "Scheduling is a solved problem now; the drop-off in study apps is capture, and AI card creation plus a connector for other assistants attacks exactly that. F7's internal knowledge bases have the same bottleneck and could borrow the capture-first order.",
+      "officialUrl": "https://nibomo.com",
+      "discoverySource": {
+        "name": "Official Nibomo repository readme",
+        "url": "https://raw.githubusercontent.com/kirill-markin/flashcards-open-source-app/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app"
+        },
+        {
+          "label": "Official web client",
+          "url": "https://app.nibomo.com/review"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/kirill-markin/flashcards-open-source-app"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://nibomo.com",
+        "androidPackageId": "com.flashcardsopensourceapp.app",
+        "githubRepo": "kirill-markin/flashcards-open-source-app"
+      },
+      "asset": {
+        "path": "/images/discover/nibomo.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kirill-markin/flashcards-open-source-app/HEAD/apps/web/public/icon-preview.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/kirill-markin/flashcards-open-source-app/HEAD/LICENSE",
+        "attribution": "Nibomo application icon preview from apps/web/public/icon-preview.png in the official kirill-markin/flashcards-open-source-app repository, whose LICENSE is MIT (Copyright 2026 Kirill Markin). Image used unmodified.",
+        "alt": "Official Nibomo app icon preview",
+        "noticePath": "/images/discover/licenses/nibomo-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kirill-markin/flashcards-open-source-app/HEAD/README.md",
+            "label": "Official Nibomo repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kirill-markin/flashcards-open-source-app/HEAD/LICENSE",
+            "label": "Nibomo repository LICENSE: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "the-blue-alliance",
+      "kind": "app",
+      "name": "The Blue Alliance",
+      "developer": "The Blue Alliance",
+      "category": "Reference",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/the-blue-alliance/the-blue-alliance-android/HEAD/README.md",
+        "checkedAt": "2026-11-10"
+      },
+      "summary": "The Blue Alliance is the native Android client for the volunteer-run archive of FIRST Robotics Competition information, so event data has a real app rather than a mobile website. The codebase is current by choice: Kotlin and Jetpack Compose with Material 3, Hilt for injection, Room for local storage, Retrofit for the API and Firebase behind it. Pre-release builds run through a closed alpha track, which keeps testing inside the community that generated the data in the first place.",
+      "features": [
+        "Native Android client for The Blue Alliance's public FIRST Robotics Competition data service.",
+        "Kotlin and Jetpack Compose interface on Material 3, with Hilt, Room, Retrofit and Firebase as the documented stack.",
+        "Pre-release builds distributed through a closed alpha track on Google Play that requires joining the tester group.",
+        "Built and maintained by volunteers, with a public issue tracker, a Slack workspace and setup documentation for new contributors.",
+        "Also ships Android TV resources inside the same repository."
+      ],
+      "insight": "A competition most people never watch still gets a first-class data client, because the people who care built it themselves. That is the argument for shipping tools for our own small communities instead of waiting for a publisher to find them worth funding.",
+      "officialUrl": "https://www.thebluealliance.com",
+      "discoverySource": {
+        "name": "Official The Blue Alliance repository readme",
+        "url": "https://raw.githubusercontent.com/the-blue-alliance/the-blue-alliance-android/HEAD/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.thebluealliance.androidclient"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/the-blue-alliance/the-blue-alliance-android"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://www.thebluealliance.com",
+        "androidPackageId": "com.thebluealliance.androidclient",
+        "githubRepo": "the-blue-alliance/the-blue-alliance-android"
+      },
+      "asset": {
+        "path": "/images/discover/the-blue-alliance.png",
+        "sourceUrl": "https://raw.githubusercontent.com/the-blue-alliance/the-blue-alliance-android/HEAD/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+        "presentation": "contain",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/the-blue-alliance/the-blue-alliance-android/HEAD/LICENSE.md",
+        "attribution": "The Blue Alliance launcher icon from app/src/main/res/mipmap-xxhdpi/ic_launcher.png in the official the-blue-alliance/the-blue-alliance-android repository, whose LICENSE.md is MIT (Copyright 2014 The Blue Alliance). Image used unmodified.",
+        "alt": "Official The Blue Alliance app icon",
+        "noticePath": "/images/discover/licenses/the-blue-alliance-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-10",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/the-blue-alliance/the-blue-alliance-android/HEAD/README.md",
+            "label": "Official The Blue Alliance repository readme (developer published)",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-10"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/the-blue-alliance/the-blue-alliance-android/HEAD/LICENSE.md",
+            "label": "The Blue Alliance repository LICENSE.md: artwork licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-10"
+          }
+        ]
+      }
+    }
+  ]
+}
