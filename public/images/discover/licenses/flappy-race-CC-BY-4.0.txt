@@ -1,0 +1,22 @@
+Flappy Race — artwork licence notice
+
+From the "Licensing" section of the official Jibby-Games/Flappy-Race readme:
+
+    ## Code
+    All scripts and scene files are distributed under the MIT license (LICENSE).
+
+    ## Assets
+    Unless mentioned otherwise, all art assets (images, sounds and files under
+    raw_assets/) are distributed under the Creative Commons Attribution 4.0
+    International license (https://creativecommons.org/licenses/by/4.0/).
+
+The image published with this discovery, client/menu/title/flappy_race_logo.png,
+is an art asset of the project and is therefore used under CC BY 4.0.
+
+Attribution as required by the licence: "Flappy Race by Jibby Games, CC BY 4.0".
+The image is used unmodified, so no change indication is required beyond this
+notice. The repository code itself is MIT-licensed; that grant is not relied on
+for the artwork.
+
+Readme: https://github.com/Jibby-Games/Flappy-Race/blob/main/README.md
+Licence deed: https://creativecommons.org/licenses/by/4.0/

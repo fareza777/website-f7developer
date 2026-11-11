@@ -1,0 +1,1360 @@
+{
+  "date": "2026-11-11",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-11T07:56:59.025Z",
+  "entries": [
+    {
+      "slug": "astro-loop",
+      "kind": "game",
+      "name": "Astro Loop",
+      "developer": "PubDeer",
+      "category": "Roguelike shooter",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Astro Loop is a roguelike shooter built around a loop you were never meant to escape: one ship, one pilot, endless waves of asteroids and enemies. Steering is a single finger and the guns fire on their own, so a run is decided by positioning rather than aim. Each run offers new weapons and upgrades, and recruiting pilots unlocks other ships to fly. It is GPL-3.0 source, installs from F-Droid or GitHub releases, and asks for no permissions at all.",
+      "features": [
+        "Single-finger steering with automatic weapon fire, so the run is controlled by positioning instead of aiming.",
+        "Roguelike structure: endless asteroid and enemy waves, a fresh weapon or upgrade pick every run, and pilots and ships to unlock as difficulty keeps climbing.",
+        "No game engine at all - the readme states everything is drawn as vectors on a Canvas in pure Kotlin, built with Android SDK 36 and JDK 17.",
+        "Zero internet permission and no sensitive permissions, with no ads, tracking, in-app purchases or pay-to-win; the whole game runs offline.",
+        "Distributed as com.astroloop.game on F-Droid and as APK releases on GitHub under GPL-3.0-only, with the bundled Exo 2 and Orbitron fonts under SIL OFL 1.1."
+      ],
+      "insight": "F7 ships games on a mainstream engine, so a GPL title that renders vectors straight onto an Android Canvas is the interesting part: no runtime dependency and no network permission means no remote attack surface and no engine upgrade backlog. Removing subsystems is a maintenance strategy as much as a privacy one.",
+      "officialUrl": "https://github.com/PubDeer/astro-loop",
+      "discoverySource": {
+        "name": "Official Astro Loop repository",
+        "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.astroloop.game/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/PubDeer/astro-loop/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/PubDeer/astro-loop",
+        "androidPackageId": "com.astroloop.game",
+        "githubRepo": "PubDeer/astro-loop"
+      },
+      "asset": {
+        "path": "/images/discover/astro-loop.png",
+        "sourceUrl": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/LICENSE",
+        "attribution": "Astro Loop combat screenshot from fastlane/metadata/android/en-US/images/phoneScreenshots/1.png in the official PubDeer/astro-loop repository, whose LICENSE is GPL-3.0; THIRD_PARTY_NOTICES.md lists only the Exo 2 and Orbitron fonts as third-party. Image used unmodified.",
+        "alt": "Astro Loop screenshot of a small ship in a dark field firing at asteroids and enemies in green vector art",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/astro-loop-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/README.md",
+            "label": "Developer readme: gameplay, pure Kotlin Canvas rendering, permission and pricing claims, F-Droid package and releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/LICENSE",
+            "label": "Repository GPL-3.0 license text covering the screenshot",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+            "label": "Official store screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "super-retro-mega-wars",
+      "kind": "game",
+      "name": "Super Retro Mega Wars",
+      "developer": "retrowars",
+      "category": "Retro arcade",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/retrowars/retrowars/master/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Super Retro Mega Wars puts several players in one match where everyone is playing a different retro arcade game. Scoring points in your own game handicaps every other player's game, and the same happens back at you when they score, so the match becomes a race of mutually hostile high scores. It collects six single and multiplayer takes on classic titles, sells nothing, and is GPL-3.0 source with Android builds on Google Play, F-Droid and GitHub releases.",
+      "features": [
+        "Cross-game handicapping: points scored in one mini game make the other players' games harder in ways specific to each title.",
+        "Six single and multiplayer variations on retro arcade titles, with a multiplayer lobby to set matches up and more games described as in the pipeline.",
+        "No ads and no in-app purchases; the readme states the game will always be freely available via F-Droid and open for anyone to build, fork or improve.",
+        "Ships as com.serwylo.retrowars on Google Play and F-Droid plus GitHub releases, under GPL v3, with translations on Hosted Weblate.",
+        "Published known limitations: the games still need thorough balancing play tests and are untested on multiple screen sizes."
+      ],
+      "insight": "F7 tunes one game at a time. Here the tuning surface is the relationship between games - a scoring change in one mini game rebalances the whole match - which is why the developer still lists balancing and screen-size testing as unfinished work instead of shipping it as done.",
+      "officialUrl": "https://github.com/retrowars/retrowars",
+      "discoverySource": {
+        "name": "Official Super Retro Mega Wars repository",
+        "url": "https://raw.githubusercontent.com/retrowars/retrowars/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.serwylo.retrowars"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.serwylo.retrowars/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/retrowars/retrowars/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/retrowars/retrowars",
+        "androidPackageId": "com.serwylo.retrowars",
+        "githubRepo": "retrowars/retrowars"
+      },
+      "asset": {
+        "path": "/images/discover/super-retro-mega-wars.png",
+        "sourceUrl": "https://raw.githubusercontent.com/retrowars/retrowars/master/fastlane/metadata/android/en-US/images/phoneScreenshots/05_in_game.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/retrowars/retrowars/master/LICENSE",
+        "attribution": "Super Retro Mega Wars in-game screenshot from fastlane/metadata/android/en-US/images/phoneScreenshots/05_in_game.png in the official retrowars/retrowars repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Retro pixel-art Missile Command style level with incoming missiles and explosions",
+        "noticePath": "/images/discover/licenses/super-retro-mega-wars-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/retrowars/retrowars/master/README.md",
+            "label": "Developer readme: cross-game handicap rules, six games, no ads or purchases, store links with package ID, stated limitations",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/retrowars/retrowars/master/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/retrowars/retrowars/master/fastlane/metadata/android/en-US/images/phoneScreenshots/05_in_game.png",
+            "label": "Official store screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "flappy-race",
+      "kind": "game",
+      "name": "Flappy Race",
+      "developer": "Jibby Games",
+      "category": "Multiplayer racing",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Jibby-Games/Flappy-Race/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Flappy Race turns the one-button flappy hop into a multiplayer race with items, bots and open servers, built in Godot 3. It runs on Windows, Linux and macOS and as an HTML5 build on itch.io, and the online side is not a black box: official public servers remove the port forwarding problem, self-hosted servers run on desktop, and a public server browser lists games in progress. The server stack itself is open source in a separate Flappy Backend repository.",
+      "features": [
+        "Flappy-style flight racing with items, bots and different game options, in singleplayer and online multiplayer.",
+        "Official public servers mean no port forwarding, and a public server browser shows other races you can join.",
+        "Self-hosted servers are supported on desktop, with the backend published as open source in the separate Flappy-Backend repository.",
+        "Desktop builds for Windows, Linux and Mac plus an HTML5 build playable directly on itch.io.",
+        "Code is MIT while art and audio assets are CC BY 4.0, with third-party sprites and music credited in the readme."
+      ],
+      "insight": "Most indie multiplayer projects stop at the client and leave hosting to the player. Flappy Race published its server code as its own repository and added bots, so a race is startable with one human and no sysadmin - the two things that usually kill small multiplayer games.",
+      "officialUrl": "https://github.com/Jibby-Games/Flappy-Race",
+      "discoverySource": {
+        "name": "Official Flappy Race repository",
+        "url": "https://raw.githubusercontent.com/Jibby-Games/Flappy-Race/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "itch.io web build",
+          "url": "https://jibby-games.itch.io/flappy-race"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Jibby-Games/Flappy-Race/releases/latest"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/Jibby-Games/Flappy-Race"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Jibby-Games/Flappy-Race",
+        "githubRepo": "Jibby-Games/Flappy-Race"
+      },
+      "asset": {
+        "path": "/images/discover/flappy-race.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Jibby-Games/Flappy-Race/main/client/menu/title/flappy_race_logo.png",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "Flappy Race title logo from client/menu/title/flappy_race_logo.png in the official Jibby-Games/Flappy-Race repository. The readme places art assets under CC BY 4.0 while code is MIT. Flappy Race by Jibby Games, CC BY 4.0. Image used unmodified.",
+        "alt": "Flappy Race wordmark logo in yellow and black pixel lettering",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/flappy-race-CC-BY-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Jibby-Games/Flappy-Race/main/README.md",
+            "label": "Developer readme: free and open source claim, Godot 3, desktop and HTML5 platforms, items, bots, public and self-hosted servers, asset licensing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "label": "CC BY 4.0 deed: freedom to share and adapt with appropriate credit and license link",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Jibby-Games/Flappy-Race/main/client/menu/title/flappy_race_logo.png",
+            "label": "Official title logo used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "agarust",
+      "kind": "game",
+      "name": "Agarust",
+      "developer": "jerryshell",
+      "category": "Multiplayer arcade",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://jerryshell.itch.io/agarust",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Agarust is a small open-source take on the cell-eating arena formula, run server-authoritative so the cell that ate yours is decided by the server rather than by each client. The client is Godot 4 and the server is Rust, with Protocol Buffers over WebSocket and SQLite for persistence. Mass decays slowly, sprinting costs 20 percent of it, and you may only eat another player when the mass difference is greater than 1.2 times, which stops the arena settling into one big cell.",
+      "features": [
+        "Server-authoritative real-time multiplayer: the authoritative game state lives on the server instead of being trusted from each client.",
+        "Rust server using Protocol Buffers over WebSocket with SQLite storage, paired with a Godot 4 client you build by importing the client folder.",
+        "Rules published as numbers in the readme: mass drops over time, sprinting costs 20 percent of mass, light players cannot sprint, and eating needs a mass ratio above 1.2.",
+        "Playable in the browser as a free HTML5 build on itch.io, with mouse steering and left-click sprint."
+      ],
+      "insight": "F7's networked prototypes always end in the same argument: client-side simulation is easier until someone desyncs or cheats. Agarust is a compact example of the other answer - a thin Godot client, an authoritative Rust server and a protocol defined in protobuf instead of invented per feature.",
+      "officialUrl": "https://jerryshell.itch.io/agarust",
+      "discoverySource": {
+        "name": "Official Agarust repository",
+        "url": "https://raw.githubusercontent.com/jerryshell/agarust/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "itch.io web build",
+          "url": "https://jerryshell.itch.io/agarust"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/jerryshell/agarust"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/jerryshell/agarust",
+        "githubRepo": "jerryshell/agarust"
+      },
+      "asset": {
+        "path": "/images/discover/agarust.png",
+        "sourceUrl": "https://raw.githubusercontent.com/jerryshell/agarust/master/client/assets/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/jerryshell/agarust/master/LICENSE",
+        "attribution": "Agarust icon from client/assets/icon.png in the official jerryshell/agarust repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "Agarust app icon with a dark robot-like cell character",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/agarust-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jerryshell/agarust/master/README.md",
+            "label": "Developer readme: server-authoritative design, Godot 4 and Rust stack, protobuf and WebSocket, movement and eating rules, itch.io play link",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://jerryshell.itch.io/agarust",
+            "label": "Developer itch.io page: free HTML5 build in the browser",
+            "checks": [
+              "platforms",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jerryshell/agarust/master/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jerryshell/agarust/master/client/assets/icon.png",
+            "label": "Official client icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dooz",
+      "kind": "game",
+      "name": "Dooz",
+      "developer": "yamin8000",
+      "category": "Board game",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/yamin8000/Dooz/master/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Dooz is a tic-tac-toe implementation for Android in Kotlin and Jetpack Compose that refuses to treat three-by-three as the only board. The grid stretches from three-by-three to seven-by-seven - the readme calls anything larger ridiculous and unplayable on a phone - and the opponent comes in easy, medium and hard. Hard mode does not search a game tree: it walks a documented strategy ladder, and the ladder's source is a cognitive-science paper on how children actually play tic-tac-toe.",
+      "features": [
+        "Selectable board size from three-by-three up to seven-by-seven, with the classic two-player three-by-three game kept as one variation.",
+        "Three AI levels: easy plays a random empty cell, medium chooses between easy and hard behaviour for each move on a coin flip, hard runs the strategy ladder.",
+        "Hard mode orders its moves win, block, fork, block fork, centre, corner, side - taken from Crowley and Siegler's study of children's tic-tac-toe strategy rather than a minimax search.",
+        "Built with Jetpack Compose, Material 3 and dynamic colour, and documented as compatible with SDK 21 / Android 5.0 and newer.",
+        "Distributed as io.github.yamin8000.dooz on F-Droid and through GitHub releases, under GPL v3."
+      ],
+      "insight": "A three-by-three board is small enough to solve, which makes a perfect opponent boring and a weak one dishonest. Dooz takes the honest third option: replay a human strategy ladder at three difficulties, so the AI loses in the specific ways a person loses.",
+      "officialUrl": "https://github.com/yamin8000/Dooz",
+      "discoverySource": {
+        "name": "Official Dooz repository",
+        "url": "https://raw.githubusercontent.com/yamin8000/Dooz/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.yamin8000.dooz"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/yamin8000/Dooz/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/yamin8000/Dooz",
+        "androidPackageId": "io.github.yamin8000.dooz",
+        "githubRepo": "yamin8000/Dooz"
+      },
+      "asset": {
+        "path": "/images/discover/dooz.png",
+        "sourceUrl": "https://raw.githubusercontent.com/yamin8000/Dooz/master/app/src/main/ic_launcher-playstore.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/yamin8000/Dooz/master/LICENSE",
+        "attribution": "Dooz launcher icon from app/src/main/ic_launcher-playstore.png in the official yamin8000/Dooz repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Dooz launcher icon showing a tic-tac-toe grid",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/dooz-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/yamin8000/Dooz/master/README.md",
+            "label": "Developer readme: Compose implementation, board sizes, AI difficulty rules with cited paper, SDK 21 compatibility, F-Droid package, no price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yamin8000/Dooz/master/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yamin8000/Dooz/master/app/src/main/ic_launcher-playstore.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "puzzle-games",
+      "kind": "game",
+      "name": "Puzzle",
+      "developer": "sidhant947",
+      "category": "Logic puzzle collection",
+      "platforms": [
+        "Android",
+        "Linux",
+        "macOS",
+        "Windows",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Puzzle is a Flutter suite of 304 minimalist puzzle and brain games inside one Android app, grouped by what they exercise: logic (Akari, Einstein Riddle, Sudoku), numbers (2048, KenKen, Sum Snake), memory (N-Back, Memory Palace, Chimp Test), words and typing, plus an offline Minesweeper with no ads. The same project is published for Android, Linux, macOS, Windows and the web, and the repository carries an AI-declaration file stating how much of the code was written with AI help.",
+      "features": [
+        "304 puzzle games sorted into cognitive domains in the readme: logic, math and numbers, memory, word and typing games, plus Minesweeper and 2048-style staples.",
+        "One Flutter codebase shipping Android, Linux, macOS, Windows and web builds, with Google Play, F-Droid, the Snap Store and GitHub releases as install routes.",
+        "Offline play with no ads, stated in the readme, and GPL-3.0 source you can build yourself.",
+        "A published AI-DECLARATION.md file in the repository describing the project's use of AI-generated code, with ko-fi donations instead of paid features."
+      ],
+      "insight": "F7 publishes single-mechanic puzzle games with a tuned difficulty curve; this is the opposite shape - one app, 304 small boards. The part worth copying is the disclosure: an AI-declaration file in the repo, so a reader can judge the feature list knowing how the code was made.",
+      "officialUrl": "https://github.com/sidhant947/Puzzle",
+      "discoverySource": {
+        "name": "Official Puzzle repository",
+        "url": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sidhant.puzzle"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.sidhant.puzzle"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/sidhant947/Puzzle/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/sidhant947/Puzzle",
+        "androidPackageId": "com.sidhant.puzzle",
+        "githubRepo": "sidhant947/Puzzle"
+      },
+      "asset": {
+        "path": "/images/discover/puzzle-games.png",
+        "sourceUrl": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/fastlane/metadata/android/en-US/images/featureGraphic.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/LICENSE",
+        "attribution": "Puzzle feature graphic from fastlane/metadata/android/en-US/images/featureGraphic.png in the official sidhant947/Puzzle repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Puzzle banner showing a grid of miniature puzzle game icons",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/puzzle-games-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/README.md",
+            "label": "Developer readme: 304 games and category breakdown, Flutter stack, platform and store table with package ID, offline no-ads claim, AI declaration file",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/sidhant947/Puzzle/main/fastlane/metadata/android/en-US/images/featureGraphic.png",
+            "label": "Official store feature graphic used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "slash-saber",
+      "kind": "game",
+      "name": "Slash Saber",
+      "developer": "honzaap",
+      "category": "Action",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Slash Saber is an endless browser slashing game built with three.js and Vue: obstacles fly toward you, you cut them with the mouse, some of them only break from one direction, and three missed obstacles end the run. There is nothing to install and no account - the playable build is served from GitHub Pages - and the whole repository is under Creative Commons Attribution 4.0, with the Blender source files for selected assets published separately in a dev_assets folder.",
+      "features": [
+        "Endless mode with a documented rule set: slash obstacles with the mouse, obstacles that can only be cut from one direction, and the run ends on three hits.",
+        "three.js rendering with Vue and Vuetify for the interface, cannon-es for physics, three-nebula for particles and a CSG library for mesh work.",
+        "Playable from the official GitHub Pages build with no install, and runnable locally with npm install and the Vite dev server.",
+        "Repository licensed CC BY 4.0, with Blender files for some 3D assets kept in dev_assets and released on condition of starring the project."
+      ],
+      "insight": "The difficulty lives in one input constraint: some obstacles only break from one side, so the mouse has to travel around the target instead of flicking at it. F7's prototype pile is full of stacked mechanics; this is a reminder that a single directional rule can carry an endless mode on its own.",
+      "officialUrl": "https://honzaap.github.io/SlashSaber/",
+      "discoverySource": {
+        "name": "Official Slash Saber repository",
+        "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official web build",
+          "url": "https://honzaap.github.io/SlashSaber/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/honzaap/SlashSaber"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/honzaap/SlashSaber",
+        "githubRepo": "honzaap/SlashSaber"
+      },
+      "asset": {
+        "path": "/images/discover/slash-saber.png",
+        "sourceUrl": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/public/metaimg.png",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/LICENSE",
+        "attribution": "Slash Saber key art from public/metaimg.png in the official honzaap/SlashSaber repository, whose LICENSE is the CC BY 4.0 legal code. Slash Saber by honzaap, CC BY 4.0. Image used unmodified.",
+        "alt": "Slash Saber artwork of a glowing blade slicing through neon obstacles in a dark corridor",
+        "noticePath": "/images/discover/licenses/slash-saber-CC-BY-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/README.md",
+            "label": "Developer readme: three.js and Vue stack, how-to-play rules, web build link, local install steps, dev_assets condition; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/LICENSE",
+            "label": "Repository CC BY 4.0 legal code",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/honzaap/SlashSaber/main/public/metaimg.png",
+            "label": "Official key art used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "scrib",
+      "kind": "app",
+      "name": "Scrib",
+      "developer": "23rd",
+      "category": "Transcription",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/23rd/Scrib/master/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Scrib does speech-to-text on the phone with open whisper-family models, so a voice memo, a downloaded lecture or someone else's message becomes text without leaving the device. It goes online only to fetch the model you choose. It also works as a transcription engine for other apps, which hand a voice message to Scrib and get text back. Three builds come from one repository, differing in which runtimes they can run and how large they are, not in what they promise.",
+      "features": [
+        "On-device transcription through the ggml runtime, covering Whisper, Parakeet, SenseVoice, Canary, Moonshine, GigaAM, Qwen3-ASR, Nemotron and Voxtral model families.",
+        "Two jobs from one app: transcribe an audio file you pick, or act as the offline transcriber that supporting apps such as Forkgram can call for voice messages.",
+        "Three builds - Scrib (org.scrib.transcriber) as the lean F-Droid app, Scrib Max adding sherpa-onnx runtimes and configurable remote endpoints, and Scrib Remote, which has no models and uploads to a server you control.",
+        "Models download separately rather than being bundled, can be chosen by language, added by direct link, or imported from a legacy Whisper .bin or any .gguf file.",
+        "GPL-3.0 source with releases on GitHub and the lean build published on F-Droid."
+      ],
+      "insight": "F7 treats on-device speech recognition as one heavy feature. Scrib's split is the reusable idea: the same codebase ships as a private transcriber, a wider-runtime build, and a thin client for a server you run - three privacy profiles from one repository instead of three products.",
+      "officialUrl": "https://github.com/23rd/Scrib",
+      "discoverySource": {
+        "name": "Official Scrib repository",
+        "url": "https://raw.githubusercontent.com/23rd/Scrib/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/org.scrib.transcriber/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/23rd/Scrib/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/23rd/Scrib",
+        "androidPackageId": "org.scrib.transcriber",
+        "githubRepo": "23rd/Scrib"
+      },
+      "asset": {
+        "path": "/images/discover/scrib.png",
+        "sourceUrl": "https://raw.githubusercontent.com/23rd/Scrib/master/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/23rd/Scrib/master/LICENSE",
+        "attribution": "Scrib app icon from images/icon.png in the official 23rd/Scrib repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Scrib app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/scrib-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/23rd/Scrib/master/README.md",
+            "label": "Developer readme: on-device scope, model families and runtimes, three builds with package IDs, F-Droid and GitHub release links; no price stated",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/23rd/Scrib/master/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/23rd/Scrib/master/images/icon.png",
+            "label": "Official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "green-stash",
+      "kind": "app",
+      "name": "GreenStash",
+      "developer": "Pool of Tears",
+      "category": "Personal finance",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "paid",
+        "label": "Paid on Google Play; free on F-Droid, IzzyOnDroid and GitHub releases",
+        "sourceUrl": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "GreenStash is an offline savings-goal tracker: set a target amount and a deadline and it works out what you need to put aside daily, weekly or monthly, then records every deposit and withdrawal against that goal with a history you can read back. Goals can carry images, reminders keep check-ins honest by priority, and around 100 local currency symbols are supported. The app requires no internet permission at all, and an inbuilt biometric lock keeps the numbers private on a shared phone.",
+      "features": [
+        "Savings goals with the daily, weekly and monthly amount calculated against your deadline, plus detailed withdraw and deposit transaction history.",
+        "Images attached to goals, daily, semi-weekly or weekly reminders driven by goal priority, and support for around 100 local currency symbols.",
+        "Works fully offline with no internet permission; the readme states there are no ads and no data selling, and development is funded by purchases and sponsors.",
+        "Inbuilt biometric app lock to protect financial data on a shared device.",
+        "Material 3 interface, MIT-licensed source, and free builds through F-Droid, IzzyOnDroid and GitHub releases."
+      ],
+      "insight": "The interesting constraint in GreenStash is the missing one: no internet permission. A finance app that declares no network capability makes 'we cannot see your money' verifiable from the manifest instead of a paragraph in a privacy policy - a cheap, checkable promise F7 should copy.",
+      "officialUrl": "https://github.com/Pool-Of-Tears/GreenStash",
+      "discoverySource": {
+        "name": "Official GreenStash repository",
+        "url": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.starry.greenstash"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.starry.greenstash"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/Pool-Of-Tears/GreenStash/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Pool-Of-Tears/GreenStash",
+        "androidPackageId": "com.starry.greenstash",
+        "githubRepo": "Pool-Of-Tears/GreenStash"
+      },
+      "asset": {
+        "path": "/images/discover/green-stash.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/LICENSE",
+        "attribution": "GreenStash launcher icon from app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png in the official Pool-Of-Tears/GreenStash repository, whose LICENSE is MIT. Image used unmodified.",
+        "alt": "GreenStash round launcher icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/green-stash-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/README.md",
+            "label": "Developer readme: goal planning features, currency coverage, offline and no-ads claims, Google Play purchase statement, store links with package ID",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/LICENSE",
+            "label": "Repository MIT license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pool-Of-Tears/GreenStash/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+            "label": "Official launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "grove",
+      "kind": "app",
+      "name": "Grove",
+      "developer": "resurrectdev1",
+      "category": "Habit tracker",
+      "platforms": [
+        "Android",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Grove turns a streak into something that grows. Each habit is a procedurally generated fractal tree that advances through real growth stages while you stay consistent, and together they form a forest you can browse as a 3D vertical drum roll, a horizontal carousel, a grid or a list. It runs two modes - abstinence, which logs relapses with notes, and check-in, which allows excused days and streak freezes - and works offline in 14 languages with home screen widgets.",
+      "features": [
+        "Each habit is a unique procedurally generated fractal tree that grows through stages with consistency, viewable as a 3D drum roll, carousel, grid or list.",
+        "Two tracking modes: abstinence records current streak, all-time best and every relapse with notes; check-in builds streaks with excused days and streak freezes.",
+        "Live tree and calendar home screen widgets, growth-milestone reminders, and rename, reorder, recolour or delete habits at any time.",
+        "Privacy work: biometric, fingerprint or PIN authentication, local backups, and full offline operation with no cloud and no tracking.",
+        "Android 12+ Material You theming with custom accent themes and a hex colour picker per tree, localised into 14 languages.",
+        "Free forever with no subscriptions, ads or data harvesting per the readme; GPL-3.0 source with a F-Droid reproducible-build verification entry and a browser demo build."
+      ],
+      "insight": "Habit apps usually compete on charts. Grove's bet is that an unfinished tree is harder to abandon than an unfinished graph, which is why growth stages and the relapse log hang off the same object - and a planned break reads as weather on a tree rather than a broken red line.",
+      "officialUrl": "https://github.com/resurrectdev1/Grove",
+      "discoverySource": {
+        "name": "Official Grove repository",
+        "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.resurrect.grove/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/resurrectdev1/Grove/releases/latest"
+        },
+        {
+          "label": "Official web demo",
+          "url": "https://resurrectdev1.github.io/Grove/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/resurrectdev1/Grove",
+        "androidPackageId": "com.resurrect.grove",
+        "githubRepo": "resurrectdev1/Grove"
+      },
+      "asset": {
+        "path": "/images/discover/grove.png",
+        "sourceUrl": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/assets/screenshot_1.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/LICENSE",
+        "attribution": "Grove screenshot from assets/screenshot_1.png in the official resurrectdev1/Grove repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Grove habit screen showing procedurally generated fractal trees growing for each tracked habit",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/grove-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/README.md",
+            "label": "Developer readme: fractal tree mechanic, tracking modes, widgets, offline privacy claims, 14 languages, free forever statement, F-Droid package",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/main/assets/screenshot_1.png",
+            "label": "Official screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "curium",
+      "kind": "app",
+      "name": "Curium",
+      "developer": "nylxar",
+      "category": "Utilities",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/nylxar/curium/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Curium is a QR code generator, customiser and scanner written against a business model rather than a feature list: the readme's argument is that QR codes are a public-domain standard that got paywalled and tracked, so this one ships with no analytics, no network calls and no account. In practice that means ten payload types, 21 pixel styles, logo overlays that force error correction up, batch generation with CSV and zip export, and a scanner covering QR plus five barcode symbologies.",
+      "features": [
+        "Ten payload types - URL, text, Wi-Fi, email, phone, SMS, contact, location, event and OTP auth - with 21 pixel styles, eight eye styles, 18 pupil styles and a draggable logo overlay.",
+        "Error correction selectable as L, M, Q or H and automatically raised to H when a logo is applied, with a live preview while editing.",
+        "Scanner for QR plus EAN-13, Code 128, PDF417, Aztec and Data Matrix from camera or gallery, and any scanned code can be loaded back into the generator and restyled.",
+        "Batch generation of many codes per session with CSV import and export and zip export as SVG or PNG, plus named templates for one-tap restyling.",
+        "One AGPL-3.0 codebase releasing Android APK splits including a universal APK, Windows, macOS, Linux, web and CLI builds; iOS is listed as planned, not shipped."
+      ],
+      "insight": "F7 has shipped QR codes and hit the same trap: a logo in the middle quietly destroys readability. Curium's answer is structural - error correction is forced to H whenever a logo exists, so the guard rail is in the code rather than in a design note someone has to remember.",
+      "officialUrl": "https://curium.design",
+      "discoverySource": {
+        "name": "Official Curium repository",
+        "url": "https://raw.githubusercontent.com/nylxar/curium/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official site",
+          "url": "https://curium.design"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/nylxar/curium/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/nylxar/curium",
+        "githubRepo": "nylxar/curium"
+      },
+      "asset": {
+        "path": "/images/discover/curium.png",
+        "sourceUrl": "https://raw.githubusercontent.com/nylxar/curium/main/assets/icon.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/nylxar/curium/main/LICENSE",
+        "attribution": "Curium app icon from assets/icon.png in the official nylxar/curium repository, whose LICENSE is AGPL-3.0. Image used unmodified.",
+        "alt": "Curium app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/curium-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/nylxar/curium/main/README.md",
+            "label": "Developer readme: no-analytics stance, platform badges and release matrix, generator, scanner and batch features, curium.design link; no price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nylxar/curium/main/LICENSE",
+            "label": "Repository AGPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/nylxar/curium/main/assets/icon.png",
+            "label": "Official app icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "caffeine-health",
+      "kind": "app",
+      "name": "Caffeine Health",
+      "developer": "ohuc",
+      "category": "Health tracking",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Caffeine Health models your blood-caffeine curve instead of counting shots. You log drinks from a curated catalog, the app derives a personal half-life from age range, weight, bedtime, sleep sensitivity, lifestyle factors and medications, and plots active caffeine across 24 hours with a sleep forecast that says whether tonight's coffee is still above your own threshold at lights-out. Data stays local, and the foss build carries no proprietary SDKs and no billing at all.",
+      "features": [
+        "Live 24-hour caffeine curve with emoji markers per logged drink, a today total in milligrams, and a per-drink detail sheet showing contribution, peak and current level.",
+        "Personalised pharmacokinetic modelling: half-life computed from age, weight, sleep sensitivity, smoking, alcohol and CYP1A2 inhibitors or inducers, each adjustment linked to its source.",
+        "Curated drink catalog across coffee, tea, energy drinks and soda with search and category chips, one-tap logging, custom serving sizes and recent-serving shortcuts.",
+        "Sleep forecast against a threshold you set, with bedtime, half-life tuning and date and time format options in settings.",
+        "Optional automation for Tasker, MacroDroid or NFC tags through a documented broadcast intent, com.uc.caffeine.action.LOG_DRINK, that you enable yourself.",
+        "Two editions from one source - foss for GitHub, F-Droid and IzzyOnDroid with every feature free and no proprietary SDKs, and play for Google Play - GPL-3.0 with Weblate translations."
+      ],
+      "insight": "F7's habit apps count events. Caffeine Health counts a decaying quantity, which is a different engineering problem: a model, an input surface for the model's own assumptions, and an honest way to show the forecast as an estimate. Tunable half-life is the feature we would steal.",
+      "officialUrl": "https://github.com/ohuc/CaffeineHealth",
+      "discoverySource": {
+        "name": "Official Caffeine Health repository",
+        "url": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.uc.caffeine"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/com.uc.caffeine"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/ohuc/CaffeineHealth/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/ohuc/CaffeineHealth",
+        "androidPackageId": "com.uc.caffeine",
+        "githubRepo": "ohuc/CaffeineHealth"
+      },
+      "asset": {
+        "path": "/images/discover/caffeine-health.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/screenshots/Welcome.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/LICENSE",
+        "attribution": "Caffeine Health screenshot from screenshots/Welcome.png in the official ohuc/CaffeineHealth repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Caffeine Health welcome screen with a coffee cup and heartbeat curve on a dark theme",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/caffeine-health-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/README.md",
+            "label": "Developer readme: Android badges, dashboard, catalog, onboarding model, automation intent, foss and play editions, package ID, free and no-ads claim",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ohuc/CaffeineHealth/master/screenshots/Welcome.png",
+            "label": "Official app screenshot used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nova-dial",
+      "kind": "app",
+      "name": "NovaDial",
+      "developer": "dhilipmpms",
+      "category": "Phone and contacts",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "NovaDial folds the dialer and the contacts app into one GPL-3.0 Android application. It is based on Fossify Phone and states plainly that it is an independent community fork, not affiliated with or endorsed by the Fossify organisation. Calling, telecom and call-log behaviour of the original is preserved, and full contact management is added: create and edit contacts, multiple numbers, photos, favourites, VCF import and export, QR and contact sharing, dual SIM support and several recent-calls layouts, all offline.",
+      "features": [
+        "One app for dialling and contacts - favourites, recent calls, contact creation and editing, contact photos with camera capture - without installing a separate contacts app.",
+        "Dual SIM support, fast contact lookup, direct calling from contacts and recents, and multiple recents UI styles with contact-centric grouped history.",
+        "VCF import and export plus QR and contact sharing, so moving a contact off the phone does not depend on a cloud account.",
+        "Privacy stance from the readme: no ads, open source, offline-first, no unnecessary cloud dependency, and contacts stay on the device unless you share or export them.",
+        "F-Droid build as com.novadial.phone and GitHub APK releases, GPL-3.0 like the upstream Fossify Phone project, with translations on Hosted Weblate."
+      ],
+      "insight": "F7's studio apps stay single-purpose, so a dialer that absorbs contacts is a useful counter-example: it exists because Android splits the two and users pay for that split in taps. The other part worth copying is the disclaimer - the fork says outright that upstream does not endorse it.",
+      "officialUrl": "https://github.com/dhilipmpms/NovaDial",
+      "discoverySource": {
+        "name": "Official NovaDial repository",
+        "url": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/README.md"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.novadial.phone/"
+        },
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/dhilipmpms/NovaDial/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/dhilipmpms/NovaDial",
+        "androidPackageId": "com.novadial.phone",
+        "githubRepo": "dhilipmpms/NovaDial"
+      },
+      "asset": {
+        "path": "/images/discover/nova-dial.png",
+        "sourceUrl": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/LICENSE",
+        "attribution": "NovaDial app icon from fastlane/metadata/android/en-US/images/icon.png in the official dhilipmpms/NovaDial repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "NovaDial app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/nova-dial-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/README.md",
+            "label": "Developer readme: dialer and contacts scope, feature lists, privacy claims, Fossify fork disclaimer, F-Droid package and releases; no price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/dhilipmpms/NovaDial/main/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "jotter",
+      "kind": "app",
+      "name": "Jotter",
+      "developer": "OpenAppsLabs",
+      "category": "Notes",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/README.md",
+        "checkedAt": "2026-11-11"
+      },
+      "summary": "Jotter is a notes app that stays on the phone: notes are stored locally in a Room database, there is no account and no tracking, and the interface follows Material 3 dynamic theming with dark and true-dark modes. Individual notes can be locked with a PIN or pattern, notes sort and switch between list and grid views, and trash and archive exist so deletion is not the only exit. Distribution is GitHub releases plus third-party F-Droid repositories rather than a store account.",
+      "features": [
+        "Offline-first note storage in a local Room database, with import and export for backups and restores.",
+        "Per-note locking with a PIN or pattern, plus trash and archive so nothing is lost to a single delete.",
+        "Material You dynamic colour with dark and true dark themes, list and grid view modes, sorting options and haptic feedback.",
+        "Distributed as com.openappslabs.jotter through GitHub releases and the IzzyOnDroid repository, under GPL-3.0."
+      ],
+      "insight": "Notes apps split into two kinds: those with a sync account and those with a backup file. Jotter picks the second and pays for it in trust, which is why GitHub-release distribution matters as much as the feature list - you can read the Room schema instead of a privacy policy.",
+      "officialUrl": "https://github.com/OpenAppsLabs/Jotter",
+      "discoverySource": {
+        "name": "Official Jotter repository",
+        "url": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/README.md"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub releases",
+          "url": "https://github.com/OpenAppsLabs/Jotter/releases/latest"
+        },
+        {
+          "label": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/fdroid/index/apk/com.openappslabs.jotter"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/OpenAppsLabs/Jotter",
+        "androidPackageId": "com.openappslabs.jotter",
+        "githubRepo": "OpenAppsLabs/Jotter"
+      },
+      "asset": {
+        "path": "/images/discover/jotter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/assets/images/hero-image.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/LICENSE",
+        "attribution": "Jotter hero banner from assets/images/hero-image.png in the official OpenAppsLabs/Jotter repository, whose LICENSE is GPL-3.0. Image used unmodified.",
+        "alt": "Jotter hero banner showing the notes app interface",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/jotter-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/README.md",
+            "label": "Developer readme: free offline-first notes app, feature list, Room storage, package ID in IzzyOnDroid link, GitHub and IzzyOnDroid distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/LICENSE",
+            "label": "Repository GPL-3.0 license text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OpenAppsLabs/Jotter/master/assets/images/hero-image.png",
+            "label": "Official hero banner used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-11"
+          }
+        ]
+      }
+    }
+  ]
+}
