@@ -78,11 +78,6 @@ export default function VideofitPrivacyPage() {
           connectivity before requesting an ad.
         </li>
         <li>
-          <strong>FOREGROUND_SERVICE</strong> and{" "}
-          <strong>FOREGROUND_SERVICE_DATA_SYNC</strong> — keeps a compression
-          running, with a visible notification, when you leave the app.
-        </li>
-        <li>
           <strong>POST_NOTIFICATIONS</strong> — shows the progress notification
           for a running compression.
         </li>
