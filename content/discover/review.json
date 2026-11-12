@@ -5451,5 +5451,569 @@
     "reasons": [
       "Artwork requires evidenced reuse permission"
     ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "discoverySource": {
+        "name": "itch.io",
+        "url": "https://wimpress.itch.io/little-spy"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://wimpress.itch.io/little-spy",
+            "label": "itch.io listing: Linux, Windows, macOS, Android and web builds, free, and the licence line stating assets stay all rights reserved",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wimpysworld/little-spy/HEAD/README.md",
+            "label": "Readme: jam entry link, itch.io and Snap Store distribution, free-software tools, credits naming third-party sprite and music assets",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/wimpysworld/little-spy",
+            "label": "Repository metadata: homepage https://wimpress.itch.io/little-spy and public default branch main",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wimpysworld/little-spy/HEAD/LICENSE.md",
+            "label": "Repository MIT licence text (Copyright 2021 Martin Wimpress and others) limited to source code; excluded art assets are credited to third parties",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "little-spy",
+      "name": "Little Spy",
+      "developer": "Martin Wimpress",
+      "category": "Action Platformer",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://wimpress.itch.io/little-spy",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A tight single-screen action platformer with a spy premise: you are air-dropped into an enemy stronghold to recover stolen intelligence and technology, then have to reach the extraction point before the helicopter leaves without you. Collecting more raises your agent ranking; dawdling costs the speed bonus.",
+      "features": [
+        "One-press movement with a held jump that extends height, so routes across a level depend on commitment rather than inputs",
+        "Scored around two tensions at once: how much loot you carry out and how fast you reach extraction",
+        "Built for the My First Game Jam Summer 2021 edition, whose theme was freedom, using only free software tools and free or public-domain assets",
+        "The full project and code were released under an MIT licence by the author"
+      ],
+      "insight": "The loot-versus-clock trade-off is a small mechanic doing a lot of work: it turns a platformer level into a series of gambles, which is why a short jam game can be replayed for a better risk profile rather than just a better time.",
+      "officialUrl": "https://wimpress.itch.io/little-spy",
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://wimpress.itch.io/little-spy"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wimpysworld/little-spy"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://wimpress.itch.io/little-spy",
+        "githubRepo": "wimpysworld/little-spy"
+      },
+      "asset": {
+        "path": "/images/discover/little-spy.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wimpysworld/little-spy/HEAD/.github/screenshots/level00-little-spy.png",
+        "license": "All rights reserved for art, music and sound assets; the repository MIT licence covers source code only, per the itch.io listing",
+        "licenseUrl": "https://raw.githubusercontent.com/wimpysworld/little-spy/HEAD/LICENSE.md",
+        "attribution": "Little Spy level screenshot. The itch.io listing states the MIT licence applies to source code while included assets remain all rights reserved, so no reuse permission is evidenced for this image.",
+        "alt": "Little Spy stealth level screenshot",
+        "presentation": "cover"
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "slug": "bug-star",
+      "name": "Bug Star",
+      "developer": "Harindulk",
+      "category": "Puzzle Platformer",
+      "platforms": [],
+      "summary": "A Unity puzzle-platformer made for the 2021 GitHub Game Off, built around deliberately planted bugs that the player is expected to find and exploit to finish each level.",
+      "features": [
+        "Levels are designed around intentional bugs used as solutions",
+        "Entered the 2021 GitHub Game Off game jam",
+        "Whole repository is released under CC0 1.0 Universal"
+      ],
+      "insight": "Turning planted bugs into the intended verbs is a neat inversion of puzzle design, and the CC0 release makes every asset in the repository reusable without permission chasing.",
+      "officialUrl": "https://harindulk.itch.io/bug-star",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Harindulk/bug-star"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://harindulk.itch.io/bug-star"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://harindulk.itch.io/bug-star",
+        "githubRepo": "Harindulk/bug-star"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "asset": {
+        "path": "/images/discover/bug-star.png",
+        "sourceUrl": "https://github.com/Harindulk/bug-star/blob/Harindulk/Assets/Bug%20Star%20icons/512.png",
+        "license": "CC0",
+        "licenseUrl": "https://github.com/Harindulk/bug-star/blob/Harindulk/LICENSE",
+        "attribution": "Bug Star icon from the bug-star repository, CC0.",
+        "alt": "Official Bug Star icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Harindulk/bug-star/HEAD/README.md",
+            "label": "Repository readme: Game Off 2021 entry, premise of planted bugs as solutions and the itch.io download link",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Harindulk/bug-star/HEAD/LICENSE",
+            "label": "CC0 1.0 Universal dedication for the whole repository, including the icon file",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/Harindulk/bug-star",
+            "label": "Repository metadata: canonical GitHub URL, description and default branch",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Missing platforms",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Missing platforms evidence",
+      "Missing price evidence",
+      "Artwork license URL must have asset-license evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "slug": "the-adventures-of-the-heroic-fox",
+      "name": "The Adventures of the Heroic Fox",
+      "developer": "Krasimir Balchev",
+      "category": "Turn-Based Strategy",
+      "platforms": [],
+      "summary": "A Game Off 2022 turn-based strategy game where the hero chooses his own actions and you spend a limited number of suggestions on him; encouraging his perfect plan boosts his ego, and hurting it leaves him more vulnerable.",
+      "features": [
+        "Actions are proposed by the hero rather than chosen by the player",
+        "A finite suggestion economy, where boosting or bruising the hero's ego has mechanical effects",
+        "Entered GitHub Game Off 2022; whole repository is CC0 1.0"
+      ],
+      "insight": "Removing action selection from a tactics game and leaving only influence is a compact way to make the enemy a personality instead of a stat block.",
+      "officialUrl": "https://krasi0707.itch.io/the-adventures-of-the-heroic-fox",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/krasi0707/Game-Off-2022"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://krasi0707.itch.io/the-adventures-of-the-heroic-fox"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://krasi0707.itch.io/the-adventures-of-the-heroic-fox",
+        "githubRepo": "krasi0707/Game-Off-2022"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "asset": {
+        "path": "/images/discover/the-adventures-of-the-heroic-fox.png",
+        "sourceUrl": "https://github.com/krasi0707/Game-Off-2022/blob/main/The%20Adventures%20of%20the%20Heroic%20Fox/icon.png",
+        "license": "CC0",
+        "licenseUrl": "https://github.com/krasi0707/Game-Off-2022/blob/main/LICENSE.md",
+        "attribution": "The Adventures of the Heroic Fox icon, CC0.",
+        "alt": "Official The Adventures of the Heroic Fox icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": []
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Missing platforms",
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Missing verification sources",
+      "Missing identity evidence",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence",
+      "Artwork license URL must have asset-license evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "slug": "peppertown",
+      "name": "PepperTown",
+      "developer": "Cong Xu",
+      "category": "Idle RPG",
+      "platforms": [
+        "Web browser"
+      ],
+      "summary": "An RPG-themed idle game playable in the browser, built on Phaser 3 with characters and art drawn from David Revoy's Pepper & Carrot universe.",
+      "features": [
+        "RPG-flavoured idle loop with heroes earning over time",
+        "Playable in the browser from the developer's itch.io page",
+        "Characters and art come from Pepper & Carrot by David Revoy under CC BY 4.0"
+      ],
+      "insight": "Worth revisiting as a case study in licensing hygiene: an idle game built entirely from openly licensed parts, which also means each part carries its own attribution and share-alike terms.",
+      "officialUrl": "https://congusbongus.itch.io/peppertown",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/cxong/PepperTown"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://congusbongus.itch.io/peppertown"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://congusbongus.itch.io/peppertown",
+        "githubRepo": "cxong/PepperTown"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/cxong/PepperTown/HEAD/README.md",
+            "label": "Repository readme: RPG-themed idle game, online play link and build instructions",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/cxong/PepperTown/HEAD/LICENSE.md",
+            "label": "MIT licence text (Copyright 2019 Cong Xu) covering the source and bundled art in the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Missing platforms evidence",
+      "Missing price evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "slug": "kailius",
+      "name": "Kailius",
+      "developer": "Wani Apps",
+      "category": "Platformer",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux"
+      ],
+      "summary": "A Unity-built 2D pixel-art platformer with level-by-level obstacle and timing puzzles, released for Android alongside desktop builds.",
+      "features": [
+        "Pixel-art 2D platforming across a steadily harder set of levels",
+        "Android release with Windows and Linux builds",
+        "Requires Android 5.0 or later, 2 GB RAM and a Snapdragon 625-class device per the README"
+      ],
+      "insight": "A straightforward retro platformer from a small developer is exactly the kind of thing the section exists to surface; it stays queued only because the artwork provenance needs one more check.",
+      "officialUrl": "https://play.google.com/store/apps/details?id=com.waniapps.Kailius.game.android",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Walkator/Kailius"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.waniapps.Kailius.game.android"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://play.google.com/store/apps/details?id=com.waniapps.Kailius.game.android",
+        "androidPackageId": "com.waniapps.Kailius.game.android",
+        "githubRepo": "Walkator/Kailius"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Walkator/Kailius/HEAD/README.md",
+            "label": "Repository readme: sea-trade roguelike premise, demo link and platform notes",
+            "checks": [
+              "identity",
+              "features"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Missing platforms evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "slug": "dancing-onigiri-cw-edition",
+      "name": "Dancing Onigiri (CW Edition)",
+      "developer": "cwtickle",
+      "category": "Rhythm",
+      "platforms": [
+        "Web browser"
+      ],
+      "summary": "A high-performance keyboard rhythm game engine that runs natively in the browser, maintained with Japanese and English documentation and a published wiki for how to play.",
+      "features": [
+        "Keyboard-driven rhythm play rendered in the browser without a native client",
+        "Distributed through the project's own GitHub Releases",
+        "Bilingual documentation including a How to Play wiki"
+      ],
+      "insight": "One of the few browser rhythm engines with a long maintenance history; it is queued because the only available header artwork lives on the author's external site rather than in the licensed repository.",
+      "officialUrl": "https://github.com/cwtickle/danoniplus",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/cwtickle/danoniplus"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/cwtickle/danoniplus/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/cwtickle/danoniplus",
+        "githubRepo": "cwtickle/danoniplus"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/cwtickle/danoniplus/HEAD/README.md",
+            "label": "Repository readme: browser rhythm-game scope, keyboard and controller play, release channel and licence badge",
+            "checks": [
+              "identity",
+              "features",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Missing asset-license evidence"
+    ]
+  },
+  {
+    "candidate": {
+      "kind": "game",
+      "slug": "bestia-behemoth",
+      "name": "Bestia Behemoth",
+      "developer": "Bestia Project",
+      "category": "MMORPG",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "summary": "An open-source fantasy MMORPG built as a Kotlin and Spring Boot server with a Godot client, set in a procedurally generated world that changes according to what its player base collectively decides to do.",
+      "features": [
+        "Kotlin and Spring Boot server backend paired with an open-source Godot client",
+        "Procedurally generated world spanning thousands of square kilometres",
+        "Roles framed as builders, adventurers, survivors and faction leaders whose choices reshape the world",
+        "Public documentation at docs.bestia-game.net"
+      ],
+      "insight": "The emergent-economy premise is interesting enough to re-check, but the project itself states that stable builds are not available yet, so there is no honest distribution link to publish today.",
+      "officialUrl": "https://github.com/tfelix/bestia-behemoth",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/tfelix/bestia-behemoth"
+      },
+      "distribution": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tfelix/bestia-behemoth"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/tfelix/bestia-behemoth",
+        "githubRepo": "tfelix/bestia-behemoth"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/README.md",
+            "label": "Repository readme: game premise and the itch.io play link",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/LICENSE",
+            "label": "Repository licence text governing the included source and assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-12",
+    "reasons": [
+      "Missing or invalid price",
+      "Unsafe or missing price source URL",
+      "Price must be checked on the discovery date",
+      "Artwork path must be a local image inside /images/discover/",
+      "Missing artwork license",
+      "Missing artwork attribution",
+      "Missing artwork alt",
+      "Unsafe or missing artwork source URL",
+      "Unsafe or missing asset.licenseUrl URL",
+      "Missing platforms evidence",
+      "Missing price evidence"
+    ]
   }
 ]

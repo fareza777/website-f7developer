@@ -1,0 +1,1127 @@
+{
+  "date": "2026-11-12",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-12T08:20:42.480Z",
+  "entries": [
+    {
+      "kind": "game",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/andrzej-nov/Tangler"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/andrzej-nov/Tangler/HEAD/README.md",
+            "label": "Developer readme: 'completely free' statement, Play link with package ID, JAR and APK downloads, Java 17 and Android 5.0 needs, no iOS build",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/andrzej-nov/Tangler",
+            "label": "Repository metadata: canonical GitHub URL, Kotlin description covering desktop JAR and Android, default branch and public license key",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/andrzej-nov/Tangler/HEAD/LICENSE",
+            "label": "Repository CC BY 4.0 licence text covering the icon file used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/andrzej-nov/Tangler/HEAD/android/ic_launcher-playstore.png",
+            "label": "Original store icon file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "tangler",
+      "name": "Tangler",
+      "developer": "andrzej-nov",
+      "category": "Puzzle",
+      "platforms": [
+        "Android",
+        "Desktop (Java 17+)"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/andrzej-nov/Tangler/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A meditative tile puzzle where you drop randomly generated discs onto a board and try to join their printed edges into continuous colour curves. Complete loops collapse and score, which keeps the board breathing instead of filling up. The author describes it as mandala-making rather than score-chasing, and there is no timer, no leaderboard, no sound and no ads.",
+      "features": [
+        "Three board sizes, three tile types and up to six curve colours, with a per-tile choice of unique or repeating colours",
+        "Closed colour loops disappear from the board, freeing space for further moves instead of ending the run",
+        "No timer, hall of fame, sound, ads or in-app purchases, and no internet connection or device permissions at all",
+        "Ships as an Android app on Google Play and as a plain Tangler.jar for any machine with Java 17 or later",
+        "Original board-game inspiration is named openly: it borrows Tantrix's edge-matching idea and replaces the competition with solitaire play"
+      ],
+      "insight": "Most puzzle apps manufacture urgency to justify a timer and a store of consumables. Tangler deletes all of it and keeps only the loop-closing reward, which is a useful reminder that retention mechanics and a good puzzle are separate decisions.",
+      "officialUrl": "https://github.com/andrzej-nov/Tangler",
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.andrzejn.tangler"
+        },
+        {
+          "label": "Desktop build (Tangler.jar)",
+          "url": "https://github.com/andrzej-nov/Tangler/releases/download/v1.17/Tangler.jar"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/andrzej-nov/Tangler",
+        "androidPackageId": "com.andrzejn.tangler",
+        "githubRepo": "andrzej-nov/Tangler"
+      },
+      "asset": {
+        "path": "/images/discover/tangler.png",
+        "sourceUrl": "https://raw.githubusercontent.com/andrzej-nov/Tangler/HEAD/android/ic_launcher-playstore.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/andrzej-nov/Tangler/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/tangler-CC-BY-4.0.txt",
+        "attribution": "Tangler store icon, used unmodified from the andrzej-nov/Tangler repository, whose LICENSE is Creative Commons Attribution 4.0 International.",
+        "alt": "Official Tangler icon",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "game",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/fjaeckel/seriesoftubes"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/README.md",
+            "label": "Readme: free browser game statement, ISP tycoon scope, peering and cable-fault systems, local-storage saves, supported languages",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/fjaeckel/seriesoftubes",
+            "label": "Repository metadata: homepage https://seriesoftub.es/ as the canonical product URL, public default branch main",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 Frederic Jung) covering the icon used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/site/icon-512.png",
+            "label": "Original site icon file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "series-of-tubes",
+      "name": "Series of Tubes",
+      "developer": "Frederic Jung",
+      "category": "Network Simulation",
+      "platforms": [
+        "Web browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A cartoon strategy game about operating an internet service provider. You begin with a single router in one city and grow into a transit-free Tier 1 network, buying capacity, peering politely or badly, and discovering that sharks and backhoes take out cables at the worst possible moment. Every company in it is a pun and none are real.",
+      "features": [
+        "Customer types behave differently: home broadband, enterprise, hosting, L2VPN, DDoS protection, latency-hungry traders and hyperscaler interconnect deals each demand something else",
+        "Interconnection options include 95th-percentile IP transit, internet exchanges with route servers, four peering stances, private network interconnects and embedded CDN caches",
+        "Roughly 40 subsea cable systems modelled on real ones, plus leased or self-built dark fibre lit with DWDM and ZR+ optics",
+        "Router generations cap port speeds and link aggregation bundles let you exceed a single port when one is not enough",
+        "Faults arrive constantly, from route leaks, RPKI mistakes and cooling failures to Red Sea and Baltic cable cuts and sovereign internet drills"
+      ],
+      "insight": "Business sims usually abstract supply and demand into numbers. This one makes its subject literal: you feel why a carrier argues about peering, because the game charges you for the wrong decision on a Tuesday when a cable breaks. It is the rare tycoon game whose lessons transfer to real work.",
+      "officialUrl": "https://seriesoftub.es/",
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://seriesoftub.es/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fjaeckel/seriesoftubes"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://seriesoftub.es/",
+        "githubRepo": "fjaeckel/seriesoftubes"
+      },
+      "asset": {
+        "path": "/images/discover/series-of-tubes.png",
+        "sourceUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/site/icon-512.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/fjaeckel/seriesoftubes/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/series-of-tubes-MIT.txt",
+        "attribution": "Series of Tubes application icon, used unmodified from the fjaeckel/seriesoftubes repository by Frederic Jung, MIT licensed.",
+        "alt": "Official Series of Tubes icon",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "game",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Hearthlight/hearthlight.github.io"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/HEAD/README.md",
+            "label": "Readme: browser play URL, Mac/Windows/Linux desktop builds on the latest release, co-op and party features; states no pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/Hearthlight/hearthlight.github.io",
+            "label": "Repository metadata: homepage https://hearthlight.github.io/ as the canonical URL and public default branch",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 the Hearthlight authors) covering the screenshot used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/HEAD/docs/screenshots/title.png",
+            "label": "Official title screenshot file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "hearthlight",
+      "name": "Hearthlight",
+      "developer": "the Hearthlight authors",
+      "category": "Cozy Adventure",
+      "platforms": [
+        "Web browser"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A story-driven pixel-art roleplayer about a quiet life in the seaside village of Marigold Cove and a much larger trip beyond it. The demo runs ten chapters with eight heroes, and its party mode splits the screen when friends wander off, with each phone acting as controller and private view.",
+      "features": [
+        "Ten story chapters, eight selectable heroes and a character creator, playable start to finish in the browser demo",
+        "Party Mode supports up to eight players on one screen, using their phones as controllers and personal displays",
+        "Every sprite, texture, model and sound is generated in code, so the shipped game contains no image or audio files",
+        "Two continents of overworld, dungeons and boss fights sit on top of the village life sim",
+        "World bosses include Grandmother Kraken, fought from boats"
+      ],
+      "insight": "A procedural-asset game is usually a technical flex rather than a design one. Here it enables something specific: eight views of one world on one screen without eight times the download, which is why a hobby browser project can attempt party play at all.",
+      "officialUrl": "https://hearthlight.github.io/",
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://hearthlight.github.io/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Hearthlight/hearthlight.github.io"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://hearthlight.github.io/",
+        "githubRepo": "Hearthlight/hearthlight.github.io"
+      },
+      "asset": {
+        "path": "/images/discover/hearthlight.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/HEAD/docs/screenshots/title.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Hearthlight/hearthlight.github.io/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/hearthlight-MIT.txt",
+        "attribution": "Hearthlight title screenshot from the Hearthlight/hearthlight.github.io repository, MIT licensed; image used unmodified.",
+        "alt": "Hearthlight title screen",
+        "presentation": "cover"
+      }
+    },
+    {
+      "kind": "game",
+      "discoverySource": {
+        "name": "itch.io",
+        "url": "https://praxtube.itch.io/magus-parvus"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://praxtube.itch.io/magus-parvus",
+            "label": "itch.io listing: HTML5 browser build, free, released status, action tags and the spell-crafting run description",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PraxTube/magus-parvus/HEAD/README.md",
+            "label": "Repository readme pointing to the itch.io page as the place to play the game",
+            "checks": [
+              "identity",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/PraxTube/magus-parvus",
+            "label": "Repository metadata: description, public default branch master and itch.io homepage field",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PraxTube/magus-parvus/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2023 PraxTube) covering the screenshot used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PraxTube/magus-parvus/HEAD/docs/demo/screenshot.jpg",
+            "label": "Official demo screenshot file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "magus-parvus",
+      "name": "Magus Parvus",
+      "developer": "PraxTube",
+      "category": "Typing Adventure",
+      "platforms": [
+        "Web browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://praxtube.itch.io/magus-parvus",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A small, calm top-down adventure about a mage whose spells are cast by typing their names. That single rule turns a gentle exploration game into a spelling test under pressure, and the author publishes it as a free browser title on itch.io.",
+      "features": [
+        "Spells are invoked by typing their name, so your vocabulary is the controller",
+        "Top-down 2D presentation with a deliberately cosy, low-stakes tone",
+        "Listed on itch.io as an HTML5 title, so it runs in the browser without an install",
+        "Source is public with an MIT licence covering everything in the repository that has no licence of its own"
+      ],
+      "insight": "Typing as a combat verb is older than most of the genre, but pairing it with a cosy pace instead of a countdown changes what the mechanic means: mistaking a letter becomes a small mistake in a workshop rather than a failure state.",
+      "officialUrl": "https://praxtube.itch.io/magus-parvus",
+      "distribution": [
+        {
+          "label": "itch.io (HTML5)",
+          "url": "https://praxtube.itch.io/magus-parvus"
+        },
+        {
+          "label": "Source",
+          "url": "https://github.com/PraxTube/magus-parvus"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://praxtube.itch.io/magus-parvus",
+        "githubRepo": "PraxTube/magus-parvus"
+      },
+      "asset": {
+        "path": "/images/discover/magus-parvus.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/PraxTube/magus-parvus/HEAD/docs/demo/screenshot.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/PraxTube/magus-parvus/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/magus-parvus-MIT.txt",
+        "attribution": "Magus Parvus demo screenshot from the PraxTube/magus-parvus repository, MIT licensed; image used unmodified.",
+        "alt": "Magus Parvus top-down mage gameplay",
+        "presentation": "cover"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Futsch1/medTimer"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Futsch1/medTimer/HEAD/README.md",
+            "label": "Readme: Android scope, 'free app without adds', Play and F-Droid links with package ID, FOSS and Play-Services APK flavors",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/Futsch1/medTimer",
+            "label": "Repository metadata: canonical GitHub URL, public default branch main and MIT licence key",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Futsch1/medTimer/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2024 Florian Fetz) covering the icon used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Futsch1/medTimer/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "medtimer",
+      "name": "MedTimer",
+      "developer": "Florian Fetz",
+      "category": "Health",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, no ads",
+        "sourceUrl": "https://raw.githubusercontent.com/Futsch1/medTimer/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "An Android medication tracker built around reminders you can actually describe: per-drug schedules, breaks, specific days and interval chains. Doses are confirmed or dismissed so the record shows adherence, and the whole history stays on the device and can leave as CSV or JSON.",
+      "features": [
+        "Unlimited medications, each with its own reminders, including flexible schedules with breaks and chosen days for things like contraceptive pills",
+        "Weekend mode delays reminders to a set time on selected days, and snoozes can repeat or re-notify you when you arrive home",
+        "Alarm-type reminders still fire when the phone is on silent, and stock and expiry dates raise their own reminders",
+        "Adherence is recorded by confirming or dismissing each reminder, then reviewed in chart, table or calendar views",
+        "History exports as CSV for a clinician and the medication list backs up as JSON; nothing requires an internet connection"
+      ],
+      "insight": "The interesting part is adherence as data you can hand over: confirm-and-dismiss plus CSV export turns a reminder app into something that can support a real conversation about whether a treatment is working.",
+      "officialUrl": "https://play.google.com/store/apps/details?id=com.futsch1.medtimer",
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.futsch1.medtimer"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.futsch1.medtimer/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://play.google.com/store/apps/details?id=com.futsch1.medtimer",
+        "androidPackageId": "com.futsch1.medtimer",
+        "githubRepo": "Futsch1/medTimer"
+      },
+      "asset": {
+        "path": "/images/discover/medtimer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Futsch1/medTimer/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Futsch1/medTimer/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/medtimer-MIT.txt",
+        "attribution": "MedTimer app icon from the Fastlane metadata in the Futsch1/medTimer repository, MIT licensed; image used unmodified.",
+        "alt": "MedTimer app icon",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/minimo-pro/minimo_video"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/minimo-pro/minimo_video/HEAD/README.md",
+            "label": "Readme: free app, no cloud upload or subscription, Play and App Store links, on-device compression and native-codec rationale",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/minimo-pro/minimo_video",
+            "label": "Repository metadata: homepage https://minimo-video.vercel.app, public default branch main and MIT licence key",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/minimo-pro/minimo_video/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 minimo.pro) covering the icon used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/minimo-pro/minimo_video/HEAD/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+            "label": "Official launcher icon file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "minimo-video",
+      "name": "minimo (video)",
+      "developer": "minimo.pro",
+      "category": "Video Tools",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, no subscription",
+        "sourceUrl": "https://raw.githubusercontent.com/minimo-pro/minimo_video/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A phone-side video compressor for people who do not want to upload a file to a service to shrink it. It estimates the result before encoding, lets you choose codec, resolution, frame rate and target bitrate, and shows the quality difference by dragging a divider across the original and the compressed clip.",
+      "features": [
+        "Predicted output size and space saved update while you move the compression settings, before any encoding starts",
+        "H.264 or HEVC with adjustable resolution and frame rate, and a target bitrate from 1 to 20 Mbps in 0.5 Mbps steps",
+        "A/B comparison overlays the compressed video on the original so you can inspect the same part of the same frame",
+        "On iOS it preserves capture date, location, albums and favourites where available, and only asks to delete the original after verifying the new copy",
+        "Encoding uses the platform's own codecs rather than bundling FFmpeg, which the README explains keeps the app MIT-licensed and slim"
+      ],
+      "insight": "Refusing to ship FFmpeg is a licensing decision with a user-visible consequence: system codecs mean a small install and no GPL obligations, at the cost of the codecs the device happens to provide. The README states the trade-off plainly, which is more than most tools do.",
+      "officialUrl": "https://play.google.com/store/apps/details?id=com.khlebobul.minimo_video",
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.khlebobul.minimo_video"
+        },
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/minimo-video/id6787456951"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://play.google.com/store/apps/details?id=com.khlebobul.minimo_video",
+        "androidPackageId": "com.khlebobul.minimo_video",
+        "githubRepo": "minimo-pro/minimo_video"
+      },
+      "asset": {
+        "path": "/images/discover/minimo-video.png",
+        "sourceUrl": "https://raw.githubusercontent.com/minimo-pro/minimo_video/HEAD/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/minimo-pro/minimo_video/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/minimo-video-MIT.txt",
+        "attribution": "minimo (video) launcher icon from the minimo-pro/minimo_video repository, MIT licensed; image used unmodified.",
+        "alt": "minimo video launcher icon",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/SysAdminDoc/OpenTasker"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/OpenTasker/HEAD/README.md",
+            "label": "Readme: FOSS Tasker alternative for Android 8.0+, package ID in the Obtainium link, release downloads; states no pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/SysAdminDoc/OpenTasker",
+            "label": "Repository metadata: canonical GitHub URL, public default branch master and star count",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/OpenTasker/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 SysAdminDoc) covering the launcher artwork used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/OpenTasker/HEAD/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+            "label": "Official launcher foreground asset used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "opentasker",
+      "name": "OpenTasker",
+      "developer": "SysAdminDoc",
+      "category": "Automation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/SysAdminDoc/OpenTasker/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A free-software Tasker alternative that runs entirely on the phone and deliberately avoids accessibility services, so Android's Advanced Protection limits do not disable it. Tasks, profiles and contexts are backed by an encrypted database, and actions that could mislead you are gated rather than guessed.",
+      "features": [
+        "Encrypted automation database: SQLCipher encrypts the whole Room file at rest with a key wrapped by the Android Keystore, and wrong-key opens fail closed",
+        "Preflight review of a task or profile shows synthetic event variables, branch decisions and explicit blockers before anything runs",
+        "Triggers include shake, Bluetooth connect and disconnect, Android 16 bond-loss security events and sanitised SMS receipt on standard and F-Droid builds",
+        "A small MQTT 3.1.1 client over platform sockets and TLS ships in-app, so the F-Droid build adds no MQTT dependency",
+        "Privileged actions such as airplane mode, reboot or screen lock fail honestly when the required special access is missing, and lock-device asks for force-lock only",
+        "Four Quick Settings tiles can be bound to tasks, with label, subtitle, icon and state configured by long-press"
+      ],
+      "insight": "The design stance worth noticing is the refusal to use an accessibility service. That single choice keeps automations working under Android's stricter protection modes, and it shows an alternative to the assumption that serious phone automation needs system-level trust.",
+      "officialUrl": "https://github.com/SysAdminDoc/OpenTasker",
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/SysAdminDoc/OpenTasker/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/SysAdminDoc/OpenTasker",
+        "androidPackageId": "com.opentasker.app",
+        "githubRepo": "SysAdminDoc/OpenTasker"
+      },
+      "asset": {
+        "path": "/images/discover/opentasker.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SysAdminDoc/OpenTasker/HEAD/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/SysAdminDoc/OpenTasker/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/opentasker-MIT.txt",
+        "attribution": "OpenTasker launcher artwork from the SysAdminDoc/OpenTasker repository, MIT licensed; image used unmodified.",
+        "alt": "OpenTasker launcher artwork",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/tokyoxpa3/5G-Proxy-Pro"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tokyoxpa3/5G-Proxy-Pro/HEAD/README.md",
+            "label": "Readme: Android 8.0+ requirement, cellular pinning and native SOCKS5 design, F-Droid package link, release downloads; no pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tokyoxpa3/5G-Proxy-Pro/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 tokyoxpa3) covering the icon used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tokyoxpa3/5G-Proxy-Pro/HEAD/app/src/main/res/mipmap-xhdpi/ic_launcher_preview.png",
+            "label": "Official launcher preview file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "proxy-5g",
+      "name": "5G Proxy Pro",
+      "developer": "tokyoxpa3",
+      "category": "Networking",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/tokyoxpa3/5G-Proxy-Pro/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "Pins the phone to its cellular network and shares that connection as a SOCKS5 proxy for everything else on the local Wi-Fi. A native C server handles TCP and UDP, the app binds only to LAN interfaces, and a heartbeat keeps the 5G radio from dropping into power save mid-transfer.",
+      "features": [
+        "Forces cellular egress with ConnectivityManager.requestNetwork and Network.bindSocket, so Wi-Fi cannot steal the route",
+        "A native C SOCKS5 engine with epoll multiplexing supports CONNECT and ASSOCIATE over IPv4, IPv6 and domain names",
+        "Optional RFC 1929 username and password auth, enabled only when both fields are filled so a blank value can never open the proxy by accident",
+        "Listeners bind to Wi-Fi, hotspot and USB tethering addresses plus loopback only, and never to the cellular interface",
+        "A custom UDP-in-TCP command carries UDP relay payloads over the same TCP connection to dodge UDP congestion handling",
+        "IPv6-first Happy Eyeballs racing per RFC 8305, a 20-second link heartbeat, a full self-test that marks each hop pass or fail, and one-tap diagnostic output"
+      ],
+      "insight": "This is the kind of tool that only gets written by someone who needed it: tethering over Wi-Fi is a phone feature, but routing other devices through the cellular link with a proxy protocol turns a handset into part of a network setup you can actually administer.",
+      "officialUrl": "https://github.com/tokyoxpa3/5G-Proxy-Pro",
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.tokyoxpa3.androidproxy/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/tokyoxpa3/5G-Proxy-Pro/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/tokyoxpa3/5G-Proxy-Pro",
+        "androidPackageId": "com.tokyoxpa3.androidproxy",
+        "githubRepo": "tokyoxpa3/5G-Proxy-Pro"
+      },
+      "asset": {
+        "path": "/images/discover/proxy-5g.png",
+        "sourceUrl": "https://raw.githubusercontent.com/tokyoxpa3/5G-Proxy-Pro/HEAD/app/src/main/res/mipmap-xhdpi/ic_launcher_preview.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/tokyoxpa3/5G-Proxy-Pro/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/proxy-5g-MIT.txt",
+        "attribution": "5G Proxy Pro launcher preview icon from the tokyoxpa3/5G-Proxy-Pro repository, MIT licensed; image used unmodified.",
+        "alt": "5G Proxy Pro launcher icon",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/roxycon-dev/Ciallo-Reader"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/roxycon-dev/Ciallo-Reader/HEAD/README_EN.md",
+            "label": "English readme: Android 7.0+ requirement, ebook/novel/manga scope, release downloads, retained package ID; states no pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/roxycon-dev/Ciallo-Reader",
+            "label": "Repository metadata: homepage https://roxycon-dev.github.io/Ciallo-Reader/ and public default branch main",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/roxycon-dev/Ciallo-Reader/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 roxycon-dev) covering the icon used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/roxycon-dev/Ciallo-Reader/HEAD/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+            "label": "Official launcher icon file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "ciallo-reader",
+      "name": "Ciallo Reader",
+      "developer": "roxycon-dev",
+      "category": "Reading",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/roxycon-dev/Ciallo-Reader/HEAD/README_EN.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "One Android bookshelf for novels, manga and EPUBs, with local files and configurable online sources living side by side. You search a source, download the whole book to the device, then read offline with typography, page-turn and progress settings that persist.",
+      "features": [
+        "Handles text novels, comic archives and EPUB in a single library, with import from local storage",
+        "Built-in and user-defined sources provide search, table of contents and whole-book download",
+        "When a site offers no single book file, the app fetches chapters and packages an EPUB locally, comparing the contents before and after and discarding the book if any chapter differs",
+        "Reading controls cover typesetting, page turns and progress, and the interface and reading-duration formatting switch between Chinese and English",
+        "Release APKs target arm64-v8a and are published from the project's own GitHub Releases page"
+      ],
+      "insight": "The detail that gives this away as a reader made by a reader: it verifies a fetched book by diffing the table of contents before and after, and throws the download away when a single chapter moves. That is a preservation instinct, not a feature checklist.",
+      "officialUrl": "https://github.com/roxycon-dev/Ciallo-Reader",
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/roxycon-dev/Ciallo-Reader/releases/latest"
+        },
+        {
+          "label": "Product page",
+          "url": "https://roxycon-dev.github.io/Ciallo-Reader/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/roxycon-dev/Ciallo-Reader",
+        "androidPackageId": "com.aistudio.novelreader.kxmpzq",
+        "githubRepo": "roxycon-dev/Ciallo-Reader"
+      },
+      "asset": {
+        "path": "/images/discover/ciallo-reader.webp",
+        "sourceUrl": "https://raw.githubusercontent.com/roxycon-dev/Ciallo-Reader/HEAD/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/roxycon-dev/Ciallo-Reader/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/ciallo-reader-MIT.txt",
+        "attribution": "Ciallo Reader launcher icon from the roxycon-dev/Ciallo-Reader repository, MIT licensed; image used unmodified.",
+        "alt": "Ciallo Reader launcher icon",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/MikrotikExe/headentclient"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MikrotikExe/headentclient/HEAD/README.md",
+            "label": "Readme: Android 7.0+ and Android TV scope, Tvheadend live TV/EPG/DVR features, iOS target incomplete; states no pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/MikrotikExe/headentclient",
+            "label": "Repository metadata: homepage https://headentclient.com, public default branch main and description",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/MikrotikExe/headentclient/releases/latest",
+            "label": "Latest published release, tag v1.0.6, listing the download assets that form the app's distribution channel",
+            "checks": [
+              "distribution",
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MikrotikExe/headentclient/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 Juraj Chudý) covering the banner used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MikrotikExe/headentclient/HEAD/banner.png",
+            "label": "Official project banner file used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "headent-client",
+      "name": "Headent Client",
+      "developer": "Juraj Chudy",
+      "category": "Live TV",
+      "platforms": [
+        "Android",
+        "Android TV"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/MikrotikExe/headentclient/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A front-end for a Tvheadend server you already run: live TV, programme guide, DVR recordings and radio on an Android TV box or a phone. It ships no channels and no media, which is exactly the point, and it is written in Kotlin Multiplatform so the TV and phone builds share one codebase.",
+      "features": [
+        "Live TV over both HTTP and HTSP against your own Tvheadend server, using your own credentials",
+        "Electronic programme guide with picons, now and next information, plus DVR scheduling and radio",
+        "A favourites row on the Android TV home screen and headentclient:// deep links that jump straight to a channel",
+        "Audio passthrough to a TV or AVR on Android TV, with an OpenSL ES path for phones",
+        "Tuned for D-pad remotes on set-top boxes, including standby recovery on Amlogic hardware"
+      ],
+      "insight": "Clients like this are where open-source Android is still strongest: a small native front-end to self-hosted infrastructure, with no account, no ads and no content licence to clear, because the viewer already has the server.",
+      "officialUrl": "https://headentclient.com",
+      "distribution": [
+        {
+          "label": "GitHub release v1.0.6",
+          "url": "https://github.com/MikrotikExe/headentclient/releases/tag/v1.0.6"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://headentclient.com",
+        "githubRepo": "MikrotikExe/headentclient"
+      },
+      "asset": {
+        "path": "/images/discover/headent-client.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MikrotikExe/headentclient/HEAD/banner.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/MikrotikExe/headentclient/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/headent-client-MIT.txt",
+        "attribution": "Headent Client project banner from the MikrotikExe/headentclient repository, MIT licensed; image used unmodified.",
+        "alt": "Headent Client banner artwork",
+        "presentation": "contain"
+      }
+    },
+    {
+      "kind": "app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/badruddin-tasnim/bridge"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/badruddin-tasnim/bridge/HEAD/README.md",
+            "label": "Readme: Android and macOS pairing over LAN, v1.3.2 release downloads for both, signed Android APKs; states no pricing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://api.github.com/repos/badruddin-tasnim/bridge",
+            "label": "Repository metadata: canonical GitHub URL and public default branch main",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/badruddin-tasnim/bridge/HEAD/LICENSE",
+            "label": "Repository MIT licence text (Copyright (c) 2026 Bridge Contributors) covering the icon used here",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/badruddin-tasnim/bridge/HEAD/android-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+            "label": "Official Android launcher icon used unmodified",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-12"
+          }
+        ]
+      },
+      "slug": "bridge-phone-mac",
+      "name": "Bridge",
+      "developer": "Bridge Contributors",
+      "category": "Device Connectivity",
+      "platforms": [
+        "Android",
+        "macOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/badruddin-tasnim/bridge/HEAD/README.md",
+        "checkedAt": "2026-11-12"
+      },
+      "summary": "A native link between an Android phone and a Mac over the local network, with no cloud account and no telemetry. Files move both ways while you are on the same Wi-Fi, phone notifications surface in the macOS menu bar, and pairing is a QR code or a six-digit code.",
+      "features": [
+        "Local Wi-Fi file sharing with live transfer progress, driven from a macOS menu bar app and an Android app",
+        "Android notifications appear as native macOS banners with their app icons",
+        "Share from Android's system share sheet, drag onto the menu bar icon, or use a right-click Share with Bridge in Finder",
+        "Multi-device pairing through a displayed QR code or six-digit code",
+        "Releases publish SHA256SUMS alongside the builds, and from v1.3.2 the Android APKs are signed with a dedicated release certificate"
+      ],
+      "insight": "The gap it fills is stubborn: Apple and Google both ship handoff tools that stop at their own walls. A peer-to-peer link on the LAN with checksummed builds is the pragmatic answer for anyone whose work crosses the two ecosystems daily.",
+      "officialUrl": "https://github.com/badruddin-tasnim/bridge",
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/badruddin-tasnim/bridge/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/badruddin-tasnim/bridge",
+        "githubRepo": "badruddin-tasnim/bridge"
+      },
+      "asset": {
+        "path": "/images/discover/bridge.png",
+        "sourceUrl": "https://raw.githubusercontent.com/badruddin-tasnim/bridge/HEAD/android-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/badruddin-tasnim/bridge/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/bridge-MIT.txt",
+        "attribution": "Bridge Android launcher icon from the badruddin-tasnim/bridge repository, MIT licensed; image used unmodified.",
+        "alt": "Bridge launcher icon",
+        "presentation": "contain"
+      }
+    }
+  ]
+}
