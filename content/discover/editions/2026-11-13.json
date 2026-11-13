@@ -1,0 +1,1393 @@
+{
+  "date": "2026-11-13",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-13T07:39:48.364Z",
+  "entries": [
+    {
+      "slug": "screenplink",
+      "kind": "game",
+      "name": "ScreenPlink",
+      "developer": "vkorost",
+      "category": "Shooter",
+      "platforms": [
+        "Windows"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/vkorost/screenplink/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "ScreenPlink turns a matte monitor into a laser shooting range: a webcam watches the screen instead of you, finds the exact pixel your laser dot hits, draws the bullet hole and plays the shot. Targets fall, scores count and the magazine runs dry, entirely offline with no account and no ads. Full source ships with the build under Apache-2.0.",
+      "features": [
+        "A webcam pointed at the monitor detects each laser hit at pixel level",
+        "Works with a laser training pistol or a laser bullet in a real firearm",
+        "Arcade loop with falling targets, scoring and a limited magazine",
+        "Runs fully offline with no account, no ads and no telemetry",
+        "Complete source code included with the build under Apache-2.0"
+      ],
+      "insight": "Aiming a webcam at a screen instead of at a player is the whole trick, and it makes dry-fire practice measurable on hardware most people already own. An Apache-2.0 grant that explicitly allows commercial use is a generous touch for the gun shops and bars the README imagines as homes for it.",
+      "officialUrl": "https://github.com/vkorost/screenplink",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/vkorost/screenplink"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/vkorost/screenplink/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/vkorost/screenplink",
+        "githubRepo": "vkorost/screenplink"
+      },
+      "asset": {
+        "path": "/images/discover/screenplink.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/vkorost/screenplink/HEAD/media/trailer-thumb.jpg",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/vkorost/screenplink/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/screenplink-Apache-2.0.txt",
+        "attribution": "ScreenPlink trailer still, from the vkorost/screenplink repository. Apache-2.0 license.",
+        "alt": "Two laser pistols firing at figures shown on a monitor in ScreenPlink",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/vkorost/screenplink/HEAD/README.md",
+            "label": "Official ScreenPlink readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/vkorost/screenplink",
+            "label": "ScreenPlink repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/vkorost/screenplink/HEAD/LICENSE",
+            "label": "ScreenPlink Apache-2.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/vkorost/screenplink/HEAD/media/trailer-thumb.jpg",
+            "label": "Official ScreenPlink trailer still",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "quorum",
+      "kind": "game",
+      "name": "Quorum",
+      "developer": "elianiva",
+      "category": "Simulation",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/elianiva/quorum/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Quorum is an incremental systems-design game for software engineers. You start with one virtual machine in a garage, wire components onto a board, choose a language and runtime for each server, and fight one realistic bottleneck after another until the company serves billions and goes public. Every mechanic mirrors real system behavior, and the whole game runs in the browser with no account.",
+      "features": [
+        "Mechanics model real behavior: PHP-FPM waits, Node event-loop stalls, JVM warm-up",
+        "Cache stampedes, hidden p99 latency and incident pressure arrive as you scale",
+        "Pick a language and runtime per server and wire components on a design board",
+        "A company lives in your browser and can be exported as text for backup",
+        "The companion wiki doubles as a free systems-design reference"
+      ],
+      "insight": "Most idle games reward clicking; Quorum rewards capacity planning. The fiction never lies to you — queues fill, caches stampede and averages hide the p99 — so an evening of play quietly doubles as a refresher course in production engineering.",
+      "officialUrl": "https://playquorum.dev",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/elianiva/quorum"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://playquorum.dev"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/elianiva/quorum"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://playquorum.dev",
+        "githubRepo": "elianiva/quorum"
+      },
+      "asset": {
+        "path": "/images/discover/quorum.png",
+        "sourceUrl": "https://raw.githubusercontent.com/elianiva/quorum/HEAD/docs/images/hero.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/elianiva/quorum/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/quorum-GPL-3.0.txt",
+        "attribution": "Quorum hero image, from the elianiva/quorum repository. GPL-3.0 license.",
+        "alt": "Quorum hero art: grow a startup one bottleneck at a time",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/elianiva/quorum/HEAD/README.md",
+            "label": "Official Quorum readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/elianiva/quorum",
+            "label": "Quorum repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/elianiva/quorum/HEAD/LICENSE",
+            "label": "Quorum GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/elianiva/quorum/HEAD/docs/images/hero.png",
+            "label": "Official Quorum hero image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "yarn-planet",
+      "kind": "game",
+      "name": "Yarn Planet",
+      "developer": "Maker Jackie",
+      "category": "Adventure",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://yarn.ynot.games/",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Yarn Planet is a small-planet walking game that runs in the browser. You carry a spool bigger than your head across a pencil-sketch world, and every step lays down thread: connect the generator to the lighthouse, the spring to the waterwheel, a string of lights down the old street, and color floods back like watercolor as the town wakes up. No install; plays on desktop and phone.",
+      "features": [
+        "Your walking path literally becomes the thread that powers the world",
+        "Reconnect power, water and street lights to bring color back to the planet",
+        "Color spreads like watercolor the moment a connection completes",
+        "Light multiplayer through preset greetings only, with no free-text chat",
+        "Plays in desktop and phone browsers with no installation"
+      ],
+      "insight": "The map is the mechanic: you draw the circuit by walking it. That single idea carries the whole game, and the greeting-only multiplayer keeps the mood gentle without ever pretending to be a social network. The repository even documents how the planet was made, prompt by prompt.",
+      "officialUrl": "https://yarn.ynot.games/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/makerjackie/yarn-planet"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://yarn.ynot.games/"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/makerjackie/yarn-planet"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://yarn.ynot.games/",
+        "githubRepo": "makerjackie/yarn-planet"
+      },
+      "asset": {
+        "path": "/images/discover/yarn-planet.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/makerjackie/yarn-planet/HEAD/docs/media/trailer.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/makerjackie/yarn-planet/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/yarn-planet-MIT.txt",
+        "attribution": "Yarn Planet trailer still, from the makerjackie/yarn-planet repository. MIT license.",
+        "alt": "A thread being carried across a pencil-sketch planet in Yarn Planet",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/makerjackie/yarn-planet/HEAD/README.md",
+            "label": "Official Yarn Planet readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://yarn.ynot.games/",
+            "label": "Official Yarn Planet game page",
+            "checks": [
+              "identity",
+              "price",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/makerjackie/yarn-planet",
+            "label": "Yarn Planet repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/makerjackie/yarn-planet/HEAD/LICENSE",
+            "label": "Yarn Planet MIT license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/makerjackie/yarn-planet/HEAD/docs/media/trailer.jpg",
+            "label": "Official Yarn Planet trailer still",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "snack-hole",
+      "kind": "game",
+      "name": "Snack Hole",
+      "developer": "SamadiPour",
+      "category": "Arcade",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://samadipour.itch.io/snack-hole",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Snack Hole drops a hungry hole into a bright low-poly city and asks it to eat its way up: cones, people, cars, houses, skyscrapers, cargo ships and jumbo jets all go down, feeding a deep incremental meta-game. Seven procedural maps ship with traffic, animals and events, 124 prop types, and dash, vortex and mega-mouth abilities. Play free in the browser on desktop, touch or gamepad.",
+      "features": [
+        "Seven procedural maps with traffic, animals and city events",
+        "124 prop types scale from traffic cones to jumbo jets",
+        "Dash, vortex and mega-mouth abilities mapped to keyboard, touch and gamepad",
+        "A deep incremental meta-game feeds progression between runs",
+        "The repo includes unit tests and a balance simulator with pacing targets"
+      ],
+      "insight": "The hole-that-eats-the-city formula is well worn, but this build is unusually serious about its engineering: type-checked builds, unit tests and a scripted balance harness sit behind the chaos, which is exactly what you want from a free, MIT-licensed arcade time-killer.",
+      "officialUrl": "https://samadipour.github.io/snack-hole-game/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/SamadiPour/snack-hole-game"
+      },
+      "distribution": [
+        {
+          "label": "Official web build",
+          "url": "https://samadipour.github.io/snack-hole-game/"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://samadipour.itch.io/snack-hole"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/SamadiPour/snack-hole-game"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://samadipour.github.io/snack-hole-game/",
+        "githubRepo": "SamadiPour/snack-hole-game"
+      },
+      "asset": {
+        "path": "/images/discover/snack-hole.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SamadiPour/snack-hole-game/HEAD/screenshots/desktop-05-biground.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/SamadiPour/snack-hole-game/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/snack-hole-MIT.txt",
+        "attribution": "Snack Hole screenshot, from the SamadiPour/snack-hole-game repository. MIT license.",
+        "alt": "A giant round hole swallowing a low-poly city in Snack Hole",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SamadiPour/snack-hole-game/HEAD/README.md",
+            "label": "Official Snack Hole readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://samadipour.itch.io/snack-hole",
+            "label": "Snack Hole itch.io page",
+            "checks": [
+              "identity",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/SamadiPour/snack-hole-game",
+            "label": "Snack Hole repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SamadiPour/snack-hole-game/HEAD/LICENSE",
+            "label": "Snack Hole MIT license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SamadiPour/snack-hole-game/HEAD/screenshots/desktop-05-biground.png",
+            "label": "Official Snack Hole screenshot",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "deckdelve",
+      "kind": "game",
+      "name": "Deckdelve",
+      "developer": "orumcan",
+      "category": "Roguelike",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/orumcan/Deckdelve/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Deckdelve is a free, open-source and fully offline Android version of Scoundrel, the solo card dungeon crawl by Zach Gage and Kurt Bieg. A 44-card deck deals four cards per room: resolve three and the fourth carries forward. The classic rules are kept faithful, every addition is opt-in, and a tutorial plus a rulebook walk you through a full run.",
+      "features": [
+        "Faithful implementation of the classic Scoundrel solo rules",
+        "Each room deals four cards; you resolve three and the last carries over",
+        "All rule variants are opt-in toggles in Settings",
+        "Built-in tutorial and a rulebook with worked examples",
+        "Fully offline with F-Droid and GitHub release distribution"
+      ],
+      "insight": "Adapting someone else's design this respectfully is rare: the credit is explicit, the classic rules stay intact, and new ideas arrive only as toggles. A perfect pocket dungeon crawl for commutes — no account, no network, no noise.",
+      "officialUrl": "https://github.com/orumcan/Deckdelve",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/orumcan/Deckdelve"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.orumcan.deckdelve/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/orumcan/Deckdelve/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/orumcan/Deckdelve",
+        "androidPackageId": "io.github.orumcan.deckdelve",
+        "githubRepo": "orumcan/Deckdelve"
+      },
+      "asset": {
+        "path": "/images/discover/deckdelve.png",
+        "sourceUrl": "https://raw.githubusercontent.com/orumcan/Deckdelve/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/orumcan/Deckdelve/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/deckdelve-GPL-3.0.txt",
+        "attribution": "Deckdelve app icon from the Fastlane metadata in the orumcan/Deckdelve repository. GPL-3.0 license.",
+        "alt": "Deckdelve app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/orumcan/Deckdelve/HEAD/README.md",
+            "label": "Official Deckdelve readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/orumcan/Deckdelve",
+            "label": "Deckdelve repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/orumcan/Deckdelve/HEAD/LICENSE",
+            "label": "Deckdelve GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/orumcan/Deckdelve/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official Deckdelve icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ta-reborn",
+      "kind": "game",
+      "name": "TA Reborn",
+      "developer": "Jared-woodruff",
+      "category": "RTS",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Jared-woodruff/TA-Reborn/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "TA Reborn is a clean-room reimplementation of the 1997 Total Annihilation engine, written from scratch in Rust. Point it at a copy of the original game you own and the same units, maps and campaigns fight again in a lit, living 3D world — with twenty thousand units in one battle and a cockpit view inside every one of them. Free for Windows, macOS and Linux.",
+      "features": [
+        "Clean-room Rust engine that loads original Total Annihilation data you own",
+        "Twenty thousand units in a single battle, each with a cockpit view",
+        "Windows, macOS and Linux builds for x64 and ARM64",
+        "Community mods surface a click away in the integrated launcher",
+        "Free download from GitHub Releases and ta-reborn.com"
+      ],
+      "insight": "Memory-safe Rust against a 1997 engine is a fun rematch, but the real achievement is scale: a cockpit inside every unit turns a classic RTS into a war movie you can step into. Clean-room method keeps it on the right side of the original's rights, in the best FOSS engine-remake tradition.",
+      "officialUrl": "https://ta-reborn.com/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Jared-woodruff/TA-Reborn"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://ta-reborn.com/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Jared-woodruff/TA-Reborn/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://ta-reborn.com/",
+        "githubRepo": "Jared-woodruff/TA-Reborn"
+      },
+      "asset": {
+        "path": "/images/discover/ta-reborn.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/Jared-woodruff/TA-Reborn/HEAD/docs/media/social-preview.jpg",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Jared-woodruff/TA-Reborn/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/ta-reborn-GPL-3.0.txt",
+        "attribution": "TA Reborn social preview card, from the Jared-woodruff/TA-Reborn repository. GPL-3.0 license.",
+        "alt": "TA Reborn preview art of an armored assault at golden hour",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Jared-woodruff/TA-Reborn/HEAD/README.md",
+            "label": "Official TA Reborn readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/Jared-woodruff/TA-Reborn",
+            "label": "TA Reborn repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Jared-woodruff/TA-Reborn/HEAD/LICENSE",
+            "label": "TA Reborn GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Jared-woodruff/TA-Reborn/HEAD/docs/media/social-preview.jpg",
+            "label": "Official TA Reborn preview card",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "restock",
+      "kind": "app",
+      "name": "Restock",
+      "developer": "d-plenty",
+      "category": "Shopping",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/d-plenty/Restock/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Restock is a free, open-source Android app that watches prices at the Australian supermarkets, bottle shops and chemists you choose, and tells you when a special is genuinely worth it, when to wait, and when to swap. No account, no ads and no tracking, on Android 8.0 or newer. A fresh release-candidate project from a single developer.",
+      "features": [
+        "Tracks the supermarkets, bottle shops and chemists you actually use",
+        "Judges whether a special is real, worth waiting for, or swappable",
+        "No account, no ads, no tracking — data stays local",
+        "Runs on Android 8.0 and newer",
+        "GPL-3.0 with releases published on GitHub"
+      ],
+      "insight": "Half-price claims deserve auditing, and this app does the audit for one country's grocery market with unusual focus. It is brand new and tiny, which is precisely the kind of early, useful work a daily discovery column exists to surface.",
+      "officialUrl": "https://github.com/d-plenty/Restock",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/d-plenty/Restock"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/d-plenty/Restock/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/d-plenty/Restock",
+        "githubRepo": "d-plenty/Restock"
+      },
+      "asset": {
+        "path": "/images/discover/restock.png",
+        "sourceUrl": "https://raw.githubusercontent.com/d-plenty/Restock/HEAD/docs/icon-512.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/d-plenty/Restock/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/restock-GPL-3.0.txt",
+        "attribution": "Restock app icon from the d-plenty/Restock repository. GPL-3.0 license.",
+        "alt": "Restock app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/d-plenty/Restock/HEAD/README.md",
+            "label": "Official Restock readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/d-plenty/Restock",
+            "label": "Restock repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/d-plenty/Restock/HEAD/LICENSE",
+            "label": "Restock GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/d-plenty/Restock/HEAD/docs/icon-512.png",
+            "label": "Official Restock icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "phonebox",
+      "kind": "app",
+      "name": "PhoneBox",
+      "developer": "ersinkoc",
+      "category": "Utilities",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://api.github.com/repos/ersinkoc/phonebox/releases/latest",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "PhoneBox turns an old Android phone into a live desk panel for a Windows, Linux or macOS computer: widgets for PC performance, AI coding sessions, music, weather and anything you push to it yourself. The phone pairs over USB or Wi-Fi with no cloud in between, and a browser demo lets you try the panel before installing anything.",
+      "features": [
+        "Widgets show PC stats, AI coding sessions, music and weather",
+        "Custom HTML widgets run sandboxed; Home Assistant entities can be switched",
+        "Pairs over USB or Wi-Fi with no cloud service",
+        "Android 9+ companion app with a .NET 10 desktop agent",
+        "A live browser demo previews the panel before setup"
+      ],
+      "insight": "Every household has a retired phone in a drawer; this project gives it a job a smart display would charge for. Sandboxed custom widgets keep the DIY surface safe, which is the hard part of making second-screen gadgets approachable.",
+      "officialUrl": "https://ersinkoc.github.io/phonebox/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/ersinkoc/phonebox"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://ersinkoc.github.io/phonebox/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/ersinkoc/phonebox/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://ersinkoc.github.io/phonebox/",
+        "githubRepo": "ersinkoc/phonebox"
+      },
+      "asset": {
+        "path": "/images/discover/phonebox.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ersinkoc/phonebox/HEAD/docs/hero-0.6.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/ersinkoc/phonebox/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/phonebox-MIT.txt",
+        "attribution": "PhoneBox hero image from the ersinkoc/phonebox repository. MIT license.",
+        "alt": "PhoneBox desk panel widgets shown on a phone next to a computer",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ersinkoc/phonebox/HEAD/README.md",
+            "label": "Official PhoneBox readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/ersinkoc/phonebox/releases/latest",
+            "label": "PhoneBox latest release assets",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/ersinkoc/phonebox",
+            "label": "PhoneBox repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ersinkoc/phonebox/HEAD/LICENSE",
+            "label": "PhoneBox MIT license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ersinkoc/phonebox/HEAD/docs/hero-0.6.png",
+            "label": "Official PhoneBox hero image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tellyscope",
+      "kind": "app",
+      "name": "Tellyscope",
+      "developer": "man15h",
+      "category": "Utilities",
+      "platforms": [
+        "Android",
+        "Android TV"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://api.github.com/repos/man15h/tellyscope/releases/latest",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Tellyscope manages an Android TV from your phone: debloat the launcher's clutter, install apps, and browse or transfer files on the TV, all without root and without a PC. The app is about 3 MB, ships in six languages, and an advanced monitor reports free space, CPU, RAM and network speed for the TV.",
+      "features": [
+        "Debloat and manage an Android TV with no root access needed",
+        "Install apps and browse or transfer files from the phone",
+        "Advanced monitor shows free space, CPU, RAM and network speed",
+        "Small 3 MB app translated into six languages",
+        "Google Play, Obtainium and signed GitHub APK releases"
+      ],
+      "insight": "Android TV boxes collect bloat the way boats collect barnacles, and nobody wants a keyboard on the couch. A phone-side control panel with no root requirement is the practical fix, and the signed-APK release channel keeps it installable on any box.",
+      "officialUrl": "https://man15h.github.io/tellyscope/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/man15h/tellyscope"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=app.tellyscope"
+        },
+        {
+          "label": "Obtainium",
+          "url": "https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/man15h/tellyscope"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/man15h/tellyscope/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://man15h.github.io/tellyscope/",
+        "androidPackageId": "app.tellyscope",
+        "githubRepo": "man15h/tellyscope"
+      },
+      "asset": {
+        "path": "/images/discover/tellyscope.png",
+        "sourceUrl": "https://raw.githubusercontent.com/man15h/tellyscope/HEAD/docs/logo/apple-touch-icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/man15h/tellyscope/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/tellyscope-GPL-3.0.txt",
+        "attribution": "Tellyscope app icon from the man15h/tellyscope repository. GPL-3.0 license.",
+        "alt": "Tellyscope app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/man15h/tellyscope/HEAD/README.md",
+            "label": "Official Tellyscope readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/man15h/tellyscope/releases/latest",
+            "label": "Tellyscope latest release assets",
+            "checks": [
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/man15h/tellyscope",
+            "label": "Tellyscope repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/man15h/tellyscope/HEAD/LICENSE",
+            "label": "Tellyscope GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/man15h/tellyscope/HEAD/docs/logo/apple-touch-icon.png",
+            "label": "Official Tellyscope icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cicada",
+      "kind": "app",
+      "name": "Cicada",
+      "developer": "wquguru",
+      "category": "Accessibility",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://cicada.indaloop.app/en/download/",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Cicada brings live subtitles, two-way interpreting and AI meeting notes to Mac, Windows, Linux and Android. Every call and stream gets bilingual transcripts; you can speak back and be heard in another language, and all four apps share one meeting record format. The download page states it plainly: free and open source, with a SHA-256 checksum for every file.",
+      "features": [
+        "Real-time subtitles and bilingual transcripts for meetings and streams",
+        "Two-way interpreting so you can answer in your own language",
+        "AI meeting notes with one shared record format across four apps",
+        "On Apple silicon, recording and recognition run fully on the machine",
+        "Free and open source downloads with per-file SHA-256 checksums"
+      ],
+      "insight": "Cross-platform live interpretation is usually a subscription product; Cicada ships it as an open-source suite and publishes checksums, which is exactly the kind of operational care that builds trust in a tool that hears everything you say.",
+      "officialUrl": "https://cicada.indaloop.app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/wquguru/cicada"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://cicada.indaloop.app/en/download/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/wquguru/cicada/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://cicada.indaloop.app",
+        "githubRepo": "wquguru/cicada"
+      },
+      "asset": {
+        "path": "/images/discover/cicada.png",
+        "sourceUrl": "https://raw.githubusercontent.com/wquguru/cicada/HEAD/docs/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/wquguru/cicada/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/cicada-Apache-2.0.txt",
+        "attribution": "Cicada app icon from the wquguru/cicada repository. Apache-2.0 license.",
+        "alt": "Cicada app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/wquguru/cicada/HEAD/README.md",
+            "label": "Official Cicada readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://cicada.indaloop.app/en/download/",
+            "label": "Official Cicada download page",
+            "checks": [
+              "price",
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/wquguru/cicada",
+            "label": "Cicada repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wquguru/cicada/HEAD/LICENSE",
+            "label": "Cicada Apache-2.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wquguru/cicada/HEAD/docs/icon.png",
+            "label": "Official Cicada icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "seca",
+      "kind": "app",
+      "name": "Seca",
+      "developer": "arditore",
+      "category": "Communication",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/arditore/Seca/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Seca is three Android apps — Contacts, Phone and Messages — that share one Material 3 Expressive design and one philosophy: no account, no server, no Google. Seca Contacts has no Internet permission at all, so your address book physically cannot leave the phone, while DAVx5 or another sync of your choice can still reach it. Requires Android 12 or newer.",
+      "features": [
+        "Seca Contacts runs with zero Internet permission by design",
+        "Phone and Messages share the same Material 3 Expressive design",
+        "No account, no server and no Google dependency anywhere",
+        "The address book stays reachable for DAVx5 or your chosen sync",
+        "All three apps are published on F-Droid and GitHub"
+      ],
+      "insight": "Privacy claims usually end in a privacy policy; Seca makes its claim an operating-system fact by simply never asking for the permission. Enforcing privacy architecturally is the strongest form of the argument, and a unified Material 3 design keeps it pleasant to actually use.",
+      "officialUrl": "https://github.com/arditore/Seca",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/arditore/Seca"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid (contacts)",
+          "url": "https://f-droid.org/packages/com.seca.contacts/"
+        },
+        {
+          "label": "F-Droid (phone)",
+          "url": "https://f-droid.org/packages/com.seca.phone/"
+        },
+        {
+          "label": "F-Droid (messages)",
+          "url": "https://f-droid.org/packages/com.seca.messages/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/arditore/Seca/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/arditore/Seca",
+        "androidPackageId": "com.seca.contacts",
+        "githubRepo": "arditore/Seca"
+      },
+      "asset": {
+        "path": "/images/discover/seca.png",
+        "sourceUrl": "https://raw.githubusercontent.com/arditore/Seca/HEAD/apps/contacts/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/arditore/Seca/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/seca-GPL-3.0-or-later.txt",
+        "attribution": "Seca Contacts app icon from the arditore/Seca repository. GPL-3.0-or-later; Seca Messages is AGPL-3.0-or-later.",
+        "alt": "Seca app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/arditore/Seca/HEAD/README.md",
+            "label": "Official Seca readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/arditore/Seca/HEAD/apps/contacts/fastlane/metadata/android/en-US/full_description.txt",
+            "label": "Seca Contacts store description",
+            "checks": [
+              "features"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/arditore/Seca",
+            "label": "Seca repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/arditore/Seca/HEAD/LICENSE",
+            "label": "Seca GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/arditore/Seca/HEAD/apps/contacts/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official Seca Contacts icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tapbar",
+      "kind": "app",
+      "name": "Tapbar",
+      "developer": "Earendel",
+      "category": "Productivity",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/Earendel-lab/Tapbar/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Tapbar creates tappable screen zones that open apps, trigger more than a hundred quick actions, and hand tasks to your favorite automation app. It runs completely offline, stays battery-efficient, and carries no ads or trackers. Distribution runs through F-Droid and GitHub releases under an MIT license.",
+      "features": [
+        "Draw tappable zones anywhere on the screen to launch apps",
+        "More than 100 built-in quick actions",
+        "Bridges into third-party automation apps for custom routines",
+        "Fully offline and battery-efficient operation",
+        "No ads and no trackers, MIT-licensed on F-Droid"
+      ],
+      "insight": "Gesture navigation traded reachability for screen space; Tapbar quietly gives you both by making empty screen corners tappable. It is a small idea executed precisely, and it changes how a phone feels in one hand.",
+      "officialUrl": "https://github.com/Earendel-lab/Tapbar",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Earendel-lab/Tapbar"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.earendel.tapbar/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Earendel-lab/Tapbar/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Earendel-lab/Tapbar",
+        "androidPackageId": "com.earendel.tapbar",
+        "githubRepo": "Earendel-lab/Tapbar"
+      },
+      "asset": {
+        "path": "/images/discover/tapbar.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Earendel-lab/Tapbar/HEAD/app/src/main/ic_launcher-playstore.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Earendel-lab/Tapbar/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/tapbar-MIT.txt",
+        "attribution": "Tapbar store icon from the Earendel-lab/Tapbar repository. MIT license.",
+        "alt": "Tapbar app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Earendel-lab/Tapbar/HEAD/README.md",
+            "label": "Official Tapbar readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/Earendel-lab/Tapbar",
+            "label": "Tapbar repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Earendel-lab/Tapbar/HEAD/LICENSE",
+            "label": "Tapbar MIT license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Earendel-lab/Tapbar/HEAD/app/src/main/ic_launcher-playstore.png",
+            "label": "Official Tapbar store icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "streak",
+      "kind": "app",
+      "name": "Streak",
+      "developer": "InlitX",
+      "category": "Health",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/InlitX/streak/HEAD/README.md",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "Streak is a minimal, private habit tracker that gets out of the way: log a habit in a single tap, watch the streak grow, and open statistics only when you want them. Everything stays on the device — no account, no ads, no analytics and no servers. The README states the promise outright: free, open source and free of ads, and it stays that way.",
+      "features": [
+        "One-tap habit logging with a growing streak view",
+        "Statistics and insights appear only when you ask for them",
+        "Optional habit timers for routines that need one",
+        "All data stays on the device with no account or servers",
+        "Flutter app translated into five languages on F-Droid"
+      ],
+      "insight": "Habit trackers are a saturated genre, and Streak competes by subtraction: one tap, one flame, everything else optional. The README's promise that it stays free is exactly the kind of manifesto a small tool can actually keep.",
+      "officialUrl": "https://github.com/InlitX/streak",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/InlitX/streak"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.streak.app/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/InlitX/streak/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/InlitX/streak",
+        "androidPackageId": "com.streak.app",
+        "githubRepo": "InlitX/streak"
+      },
+      "asset": {
+        "path": "/images/discover/streak.png",
+        "sourceUrl": "https://raw.githubusercontent.com/InlitX/streak/HEAD/android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/InlitX/streak/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/streak-GPL-3.0.txt",
+        "attribution": "Streak launcher icon from the InlitX/streak repository. GPL-3.0 license.",
+        "alt": "Streak app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/InlitX/streak/HEAD/README.md",
+            "label": "Official Streak readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/InlitX/streak",
+            "label": "Streak repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/InlitX/streak/HEAD/LICENSE",
+            "label": "Streak GPL-3.0 license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/InlitX/streak/HEAD/android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png",
+            "label": "Official Streak launcher icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    }
+  ]
+}

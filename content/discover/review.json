@@ -5451,5 +5451,126 @@
     "reasons": [
       "Artwork requires evidenced reuse permission"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "xnotes",
+      "kind": "app",
+      "name": "xnotes",
+      "developer": "Shardul Vikram Singh",
+      "category": "Notes",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://play.google.com/store/apps/details?id=com.xnotes",
+        "checkedAt": "2026-11-13"
+      },
+      "summary": "xnotes is a handwriting-first notebook for Android, built for the stylus. Notes, sketches and PDF annotations use pressure-sensitive, low-latency ink that behaves like a real pen, with playful extras such as neon glow and disappearing ink. MIT-licensed and available on Google Play and F-Droid for Android 8.0 and newer.",
+      "features": [
+        "Pressure-sensitive, low-latency ink tuned to feel like pen on paper",
+        "Pens and highlighters with neon glow and disappearing-ink modes",
+        "Annotate PDFs alongside free-form notes and sketches",
+        "Designed stylus-first for Android 8.0 and newer",
+        "Distributed on Google Play and F-Droid under the MIT license"
+      ],
+      "insight": "Handwriting apps usually make you choose between delightful ink and respectful pricing; xnotes ships both. Glowing pens and vanishing ink sound like gimmicks until you see how well they sell the pen-on-paper illusion to a reluctant stylus buyer.",
+      "officialUrl": "https://play.google.com/store/apps/details?id=com.xnotes",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/shardulvs/xnotes-android"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.xnotes"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.xnotes"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/shardulvs/xnotes-android/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://play.google.com/store/apps/details?id=com.xnotes",
+        "androidPackageId": "com.xnotes",
+        "githubRepo": "shardulvs/xnotes-android"
+      },
+      "asset": {
+        "path": "/images/discover/xnotes.png",
+        "sourceUrl": "https://raw.githubusercontent.com/shardulvs/xnotes-android/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/shardulvs/xnotes-android/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/xnotes-MIT.txt",
+        "attribution": "xnotes app icon from the Fastlane metadata in the shardulvs/xnotes-android repository. MIT license.",
+        "alt": "xnotes app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-13",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/shardulvs/xnotes-android/HEAD/README.md",
+            "label": "Official xnotes readme",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details?id=com.xnotes",
+            "label": "xnotes Google Play listing",
+            "checks": [
+              "identity",
+              "price",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://api.github.com/repos/shardulvs/xnotes-android",
+            "label": "xnotes repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/shardulvs/xnotes-android/HEAD/LICENSE",
+            "label": "xnotes MIT license",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/shardulvs/xnotes-android/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official xnotes icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-13"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-13",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
   }
 ]
