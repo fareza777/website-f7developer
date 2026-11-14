@@ -1,0 +1,1312 @@
+{
+  "date": "2026-11-14",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-14T07:23:17.189Z",
+  "entries": [
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "cdogs-sdl",
+      "kind": "game",
+      "name": "C-Dogs SDL",
+      "developer": "Cong Xu",
+      "category": "Run-and-gun",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free on itch.io (name your own price)",
+        "sourceUrl": "https://congusbongus.itch.io/cdogs-sdl",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "C-Dogs SDL is the open-source rebuild of the 1997 DOS shooter C-Dogs: an overhead run-and-gun with up to four players in cooperative or deathmatch play. You assemble a soldier from body, head and weapon parts, then blast, slide and slash through more than a hundred community-made campaigns. The campaign format is plain data, so new levels ship as folders that the game discovers, and the same build runs on desktop platforms from one codebase.",
+      "features": [
+        "Up to four players in cooperative and deathmatch modes",
+        "Customisable soldier with a large weapon selection",
+        "More than 100 user-created campaigns included",
+        "Blast, slide and slash combat viewed from directly above",
+        "Rebuilds the 1997-2001 freeware C-Dogs with its relicensed graphics and campaigns"
+      ],
+      "insight": "Most remakes preserve a game; C-Dogs SDL preserved a level-making culture. The original author relicensed the artwork so the whole package could travel, which is why a 1997 design still accepts new campaigns from players instead of sitting in a museum.",
+      "officialUrl": "https://cxong.github.io/cdogs-sdl/",
+      "discoverySource": {
+        "name": "itch.io",
+        "url": "https://congusbongus.itch.io/cdogs-sdl"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://congusbongus.itch.io/cdogs-sdl"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/cxong/cdogs-sdl/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://cxong.github.io/cdogs-sdl/",
+        "githubRepo": "cxong/cdogs-sdl"
+      },
+      "asset": {
+        "path": "/images/discover/cdogs-sdl.png",
+        "sourceUrl": "https://raw.githubusercontent.com/cxong/cdogs-sdl/HEAD/build/linux/cdogs-icon.256.png",
+        "license": "CC-BY-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/cxong/cdogs-sdl/HEAD/doc/README_DATA.md",
+        "noticePath": "/images/discover/licenses/cdogs-sdl-CC-BY-3.0.txt",
+        "attribution": "C-Dogs SDL icon from the cxong/cdogs-sdl repository. Game graphics copyright Ronny Wester, relicensed CC-BY on 2016-04-13 as recorded in doc/README_DATA.md.",
+        "alt": "C-Dogs SDL icon of an armed soldier seen from above",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/cxong/cdogs-sdl/HEAD/README.md",
+            "label": "Official repository readme, including the asset licence summary",
+            "checks": [
+              "identity",
+              "platforms",
+              "features"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://congusbongus.itch.io/cdogs-sdl",
+            "label": "Developer itch.io page with downloads, platforms and price",
+            "checks": [
+              "price",
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/cxong/cdogs-sdl",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/cxong/cdogs-sdl/releases/latest",
+            "label": "Latest GitHub release builds for Linux, macOS and Windows",
+            "checks": [
+              "platforms",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/cxong/cdogs-sdl/HEAD/doc/README_DATA.md",
+            "label": "Data licence notice: graphics relicensed CC-BY by Ronny Wester",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/cxong/cdogs-sdl/HEAD/build/linux/cdogs-icon.256.png",
+            "label": "Official icon file used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "hypersomnia",
+      "kind": "game",
+      "name": "Hypersomnia",
+      "developer": "Team Hypersomnia",
+      "category": "Multiplayer arena shooter",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free",
+        "sourceUrl": "https://raw.githubusercontent.com/TeamHypersomnia/Hypersomnia/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Hypersomnia is a competitive top-down shooter written in modern C++ without a games engine, built around duels and larger clan fights on user-made maps. It ships a browser client, downloadable desktop builds and a server generator, so a community can run its own matches instead of depending on the developers. An in-game editor is bundled with the download.",
+      "features": [
+        "One-on-one duels and larger clan battles, written in modern C++ without a games engine",
+        "Playable in a browser as well as through Windows, Linux and macOS builds",
+        "In-game map editor shipped with the client",
+        "Public tool to host and configure your own dedicated server",
+        "Distributed on Steam and directly from the project's own site"
+      ],
+      "insight": "Hypersomnia is a reminder that multiplayer games survive on servers, not storefronts. Because the project publishes its own builds and a server generator, the community that kept it alive can still field it years after any single distribution channel closes.",
+      "officialUrl": "https://hypersomnia.io/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/TeamHypersomnia/Hypersomnia"
+      },
+      "distribution": [
+        {
+          "label": "Official builds",
+          "url": "https://hypersomnia.io/builds/latest/Hypersomnia-for-Windows.zip"
+        },
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/2660970/Hypersomnia"
+        },
+        {
+          "label": "Browser play",
+          "url": "https://play.hypersomnia.io/"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://hypersomnia.io/",
+        "githubRepo": "TeamHypersomnia/Hypersomnia"
+      },
+      "asset": {
+        "path": "/images/discover/hypersomnia.png",
+        "sourceUrl": "https://raw.githubusercontent.com/TeamHypersomnia/Hypersomnia/HEAD/hypersomnia/content/gfx/necessary/menu_game_logo.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/TeamHypersomnia/Hypersomnia/HEAD/LICENSE.md",
+        "noticePath": "/images/discover/licenses/hypersomnia-AGPL-3.0.txt",
+        "attribution": "Hypersomnia menu logo from the TeamHypersomnia/Hypersomnia repository, which is licensed as a whole under AGPL-3.0.",
+        "alt": "Hypersomnia game logo",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/TeamHypersomnia/Hypersomnia/HEAD/README.md",
+            "label": "Official repository readme with features, platforms, links and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/TeamHypersomnia/Hypersomnia",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/TeamHypersomnia/Hypersomnia/HEAD/LICENSE.md",
+            "label": "Repository licence covering code and bundled content",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/TeamHypersomnia/Hypersomnia/HEAD/hypersomnia/content/gfx/necessary/menu_game_logo.png",
+            "label": "Official logo file used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "rizu",
+      "kind": "game",
+      "name": "Rizu",
+      "developer": "semyon422",
+      "category": "Rhythm game",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://rizu.su",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Rizu is an open-source rhythm game that treats the chart library as the point. It loads several established beatmap formats, so collections built for other games can be played without conversion, and it layers on community services: leaderboards, difficulty tables and replays. Skins can be written in Lua, and the client exposes detailed play adjustments such as asynchronous input and automatic offset correction.",
+      "features": [
+        "Reads bms, ksh, mid, ojn, osu, qua and sm chart formats",
+        "Leaderboards, community difficulty tables and replay support",
+        "osu! skin compatibility plus a Lua skinning API",
+        "Asynchronous input on Windows and integrated offset auto-adjustment",
+        "Large modifier set, including an anyK-to-anyK converter"
+      ],
+      "insight": "Rhythm games live or die by how many charts they accept. Rizu's answer is to read seven established formats instead of inventing one, which turns every existing chart archive into launch content and lets players keep the library they already built.",
+      "officialUrl": "https://rizu.su",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/semyon422/rizu"
+      },
+      "distribution": [
+        {
+          "label": "Official download",
+          "url": "https://dl.rizu.su/rizu.zip"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/semyon422/rizu/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://rizu.su",
+        "githubRepo": "semyon422/rizu"
+      },
+      "asset": {
+        "path": "/images/discover/rizu.png",
+        "sourceUrl": "https://raw.githubusercontent.com/semyon422/rizu/HEAD/resources/logo.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/semyon422/rizu/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/rizu-GPL-3.0.txt",
+        "attribution": "Rizu logo from the semyon422/rizu repository; the project states it is licensed under GPL-3.0.",
+        "alt": "Rizu logo",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/semyon422/rizu/HEAD/README.md",
+            "label": "Official repository readme with features, platforms and download links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://rizu.su",
+            "label": "Official Rizu site; no monetary price published",
+            "checks": [
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/semyon422/rizu",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/semyon422/rizu/HEAD/LICENSE",
+            "label": "Repository licence covering the logo artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/semyon422/rizu/HEAD/resources/logo.png",
+            "label": "Official logo file used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "max-downforce",
+      "kind": "game",
+      "name": "Max Downforce",
+      "developer": "Foppygames",
+      "category": "Racing",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free on itch.io (name your own price)",
+        "sourceUrl": "https://foppygames.itch.io/max-downforce",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Max Downforce is a pseudo-3D racing game written in Lua for LÖVE that deliberately revives the Pole Position shape: you must clear each lap inside a time limit while computer-driven rivals occupy the same road. It renders at 356 x 200 and scales that buffer to a large window or full screen, which keeps the pixel texture of an 8-bit racer while fitting a wide modern display.",
+      "features": [
+        "Lap-by-lap time-attack structure modelled on classic pseudo-3D racers",
+        "Field of computer-controlled opponents that block the racing line",
+        "Low 356 x 200 render resolution scaled to window or full screen",
+        "Written in Lua with the LÖVE engine, with the full source published",
+        "Windows and Linux builds distributed on itch.io"
+      ],
+      "insight": "Foppygames kept an awkward detail on purpose. Rendering at a Commodore-64-sized resolution and scaling it up is a choice about pixel discipline, and it shows how a small team can make a retro racer feel period-correct rather than merely retro-styled.",
+      "officialUrl": "https://foppygames.itch.io/max-downforce",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Foppygames/max-downforce"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://foppygames.itch.io/max-downforce"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Foppygames/max-downforce/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://foppygames.itch.io/max-downforce",
+        "githubRepo": "Foppygames/max-downforce"
+      },
+      "asset": {
+        "path": "/images/discover/max-downforce.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Foppygames/max-downforce/HEAD/images/max-downforce.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Foppygames/max-downforce/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/max-downforce-GPL-3.0.txt",
+        "attribution": "Max Downforce icon from the Foppygames/max-downforce repository, licensed under GPL-3.0. In-game music is separately credited to Kevin MacLeod under CC-BY-4.0 and is not reproduced here.",
+        "alt": "Max Downforce game icon of a racing car",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Foppygames/max-downforce/HEAD/README.md",
+            "label": "Official repository readme with gameplay, resolution, platforms and music credits",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://foppygames.itch.io/max-downforce",
+            "label": "Developer itch.io page with downloads, platforms and price",
+            "checks": [
+              "price",
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/Foppygames/max-downforce",
+            "label": "GitHub repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Foppygames/max-downforce/HEAD/LICENSE",
+            "label": "Repository licence covering the icon artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Foppygames/max-downforce/HEAD/images/max-downforce.png",
+            "label": "Official icon file used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "synthein",
+      "kind": "game",
+      "name": "Synthein",
+      "developer": "Jordan Christiansen and randomguyeatspotato",
+      "category": "Ship-building sandbox",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://api.github.com/repos/synthein/synthein",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Synthein is a LÖVE-based sandbox in which you assemble a spacecraft block by block, then fight enemies that spawn while you work. Engines, weapons, armour and utility blocks each have placement rules, and allied ships can be built to the same blueprint so a fleet follows the design logic you wrote rather than a preset loadout. Releases are published from the repository, and the packaging folder carries a Linux desktop entry and a macOS property list beside the icon.",
+      "features": [
+        "Grid-based ship construction from engines, weapons, armour and utility blocks",
+        "Randomly spawning hostiles to fight with the ship you just built",
+        "Allied ships that follow the player and attack nearby enemies",
+        "Spawn menu, opened in play, for placing individual blocks",
+        "Runs on LÖVE from source, with packaged releases on GitHub"
+      ],
+      "insight": "Ship builders usually separate the garage from the battlefield. Synthein keeps both on one screen, which makes the interesting moment the compromise: every block mounted for a fight is a block not spent on the engine that has to carry it.",
+      "officialUrl": "https://github.com/synthein/synthein",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/synthein/synthein"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/synthein/synthein/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/synthein/synthein",
+        "githubRepo": "synthein/synthein"
+      },
+      "asset": {
+        "path": "/images/discover/synthein.png",
+        "sourceUrl": "https://raw.githubusercontent.com/synthein/synthein/HEAD/package/synthein.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/synthein/synthein/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/synthein-GPL-3.0.txt",
+        "attribution": "Synthein icon from the synthein/synthein repository; its readme states that the code and assets are distributed under GPL-3.0.",
+        "alt": "Synthein icon of a player-built spacecraft",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/synthein/synthein/HEAD/README.md",
+            "label": "Official repository readme describing mechanics, licence and downloads",
+            "checks": [
+              "identity",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/synthein/synthein/releases/latest",
+            "label": "Latest GitHub release assets: macOS, Windows and Linux packages",
+            "checks": [
+              "platforms"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/synthein/synthein",
+            "label": "GitHub repository metadata; no monetary price published",
+            "checks": [
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/synthein/synthein/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the packaged icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/synthein/synthein/HEAD/package/synthein.png",
+            "label": "Official icon file used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "chogan",
+      "kind": "app",
+      "name": "Chogan",
+      "developer": "Choganhq",
+      "category": "Offline game collection",
+      "platforms": [
+        "Android",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, no ads and no in-app purchases",
+        "sourceUrl": "https://raw.githubusercontent.com/choganhq/chogan/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Chogan is a collection of fifty short, finishable games inside one Android app: board, card, puzzle and arcade sets that all run from local assets. The manifest declares the vibration permission and nothing else, not even internet access, because no part of the app reaches the network. The same codebase also runs as an installable web app and as a Telegram mini app, and the developer states that both Android sources ship the same signed APK.",
+      "features": [
+        "Fifty offline games spanning board, card, puzzle and arcade formats",
+        "Android manifest declares only the vibration permission, with no internet access",
+        "No ads, in-app purchases, analytics or trackers",
+        "Menu search, pinned games, recently played and new titles rows",
+        "Long-press shortcuts on the app icon launch individual games",
+        "Browser and Telegram builds run the same game code"
+      ],
+      "insight": "Permission lists are the most honest product documentation there is. Chogan asking for vibration alone is what makes its offline claim checkable, and it shows a game anthology being used as an argument that collections do not need a backend to work.",
+      "officialUrl": "https://playchogan.com",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/choganhq/chogan"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.choganhq.chogan/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/choganhq/chogan/releases"
+        },
+        {
+          "label": "Official web build",
+          "url": "https://playchogan.com"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://playchogan.com",
+        "androidPackageId": "io.github.choganhq.chogan",
+        "githubRepo": "choganhq/chogan"
+      },
+      "asset": {
+        "path": "/images/discover/chogan.png",
+        "sourceUrl": "https://raw.githubusercontent.com/choganhq/chogan/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/choganhq/chogan/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/chogan-MIT.txt",
+        "attribution": "Chogan app icon from the choganhq/chogan repository, licensed under MIT. Bundled fonts are separately licensed under the SIL OFL and are not reproduced here.",
+        "alt": "Chogan app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/choganhq/chogan/HEAD/README.md",
+            "label": "Official repository readme with permissions, distribution routes, price and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/choganhq/chogan",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/choganhq/chogan/HEAD/LICENSE",
+            "label": "MIT licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/choganhq/chogan/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "mihrab",
+      "kind": "app",
+      "name": "Mihrab",
+      "developer": "MihrabHQ",
+      "category": "Prayer times and Qur'an",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, with no in-app purchases in any build",
+        "sourceUrl": "https://raw.githubusercontent.com/MihrabHQ/Mihrab/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Mihrab is a Muslim daily companion built around prayer times that match published official timetables to the printed minute, including Diyanet, Islamiska Forbundet, Morocco, Algeria and Kemenag, with on-device calculation as a fallback. Around the clock it carries the Madinah mus-haf with recitation, a prayer journal and a fasting log. Settings, saved places and journals stay on the device, encrypted at rest, and the developer states there are no accounts, ads, trackers or Google Play Services in the F-Droid build.",
+      "features": [
+        "Prayer times aligned to published national and community timetables, with a month view up to a year ahead",
+        "Falls back to on-device calculation when the timetable source is unreachable",
+        "Madinah mus-haf reading with recitation and word-by-word study modes",
+        "Prayer journal, fasting log and saved places stored encrypted on the device",
+        "Ad-free with no accounts and no Google Play Services in the F-Droid build",
+        "Also published for iOS, Mac, Windows, Linux and in the browser"
+      ],
+      "insight": "Prayer-time apps usually argue about astronomy; Mihrab argues about trust. Matching an official printed timetable, then caching it for offline use, is what makes the app usable in a mosque or on a plane, and the privacy section names exactly which numbers ever leave the phone.",
+      "officialUrl": "https://mihrab.elghamri.se/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/MihrabHQ/Mihrab"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.prayer_times"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.prayer_times/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/MihrabHQ/Mihrab/releases/latest"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://mihrab.elghamri.se/",
+        "androidPackageId": "com.prayer_times",
+        "githubRepo": "MihrabHQ/Mihrab"
+      },
+      "asset": {
+        "path": "/images/discover/mihrab.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MihrabHQ/Mihrab/HEAD/assets/app-icon-square.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/MihrabHQ/Mihrab/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/mihrab-AGPL-3.0.txt",
+        "attribution": "Mihrab app icon from the MihrabHQ/Mihrab repository, which is licensed under AGPL-3.0.",
+        "alt": "Mihrab app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MihrabHQ/Mihrab/HEAD/README.md",
+            "label": "Official repository readme with timetables, features, privacy, stores and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/MihrabHQ/Mihrab",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MihrabHQ/Mihrab/HEAD/LICENSE",
+            "label": "AGPL-3.0 licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MihrabHQ/Mihrab/HEAD/assets/app-icon-square.png",
+            "label": "Official app icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "traffic-light",
+      "kind": "app",
+      "name": "Traffic Light",
+      "developer": "leekleak",
+      "category": "Network usage monitor",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/leekleak/traffic-light/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Traffic Light counts the mobile and Wi-Fi data your phone actually moves, entirely on the device, and presents it as a status-bar indicator plus home-screen widgets. It tracks data plans separately for each SIM, keeps historical usage for review, and documents its own battery cost in the project wiki rather than asking users to take it on faith.",
+      "features": [
+        "Per-SIM mobile data and Wi-Fi tracking with data plan limits",
+        "Status-bar network indicator and home-screen usage widgets",
+        "Historical usage series and at-a-glance analytics on the phone",
+        "Optional Shizuku or root setup for multi-SIM tracking",
+        "Battery cost measured and published in the project wiki"
+      ],
+      "insight": "GlassWire-style monitoring is a well-worn idea on desktop and almost absent on Android, where the OS hides per-app traffic. Traffic Light's interesting part is method: it publishes measured battery figures and an optional Shizuku path, which is a more useful engineering disclosure than most paid utilities offer.",
+      "officialUrl": "https://github.com/leekleak/traffic-light",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/leekleak/traffic-light"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.leekleak.trafficlight"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/com.leekleak.trafficlight/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/leekleak/traffic-light/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/leekleak/traffic-light",
+        "androidPackageId": "com.leekleak.trafficlight",
+        "githubRepo": "leekleak/traffic-light"
+      },
+      "asset": {
+        "path": "/images/discover/traffic-light.png",
+        "sourceUrl": "https://raw.githubusercontent.com/leekleak/traffic-light/HEAD/app/src/lite/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/leekleak/traffic-light/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/traffic-light-GPL-3.0.txt",
+        "attribution": "Traffic Light app icon from the leekleak/traffic-light repository, licensed under GPL-3.0.",
+        "alt": "Traffic Light app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/leekleak/traffic-light/HEAD/README.md",
+            "label": "Official repository readme with features and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/leekleak/traffic-light",
+            "label": "GitHub repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/leekleak/traffic-light/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/leekleak/traffic-light/HEAD/app/src/lite/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "flex",
+      "kind": "app",
+      "name": "Flex",
+      "developer": "Brandon Presley",
+      "category": "Workout tracker",
+      "platforms": [
+        "Android",
+        "Windows",
+        "iOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/brandonp2412/Flex/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Flex is an offline-first training log for strength and cardio work. You build your own workout plans, record weights, reps and rest periods while you train, and read progress back through exercise history and graphs. Everything is written to the device, so the app is usable in a gym without signal, and the same Flutter codebase ships on Android, Windows and iOS.",
+      "features": [
+        "Custom workout plans rather than preset programmes",
+        "Live logging of weights, reps, cardio sessions and rest timers",
+        "Exercise history and progress graphs stored on the device",
+        "Works without an internet connection",
+        "Distributed on Google Play, F-Droid and the Microsoft Store"
+      ],
+      "insight": "Gym apps trend towards coaching subscriptions and cloud accounts. Flex keeps the boring part local, which is the part that matters in a basement gym with no signal: the log still opens, and your data has no server to be stranded on.",
+      "officialUrl": "https://brandonp2412.github.io/Flex/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/brandonp2412/Flex"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.presley.flexify"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.presley.flexify"
+        },
+        {
+          "label": "Microsoft Store",
+          "url": "https://apps.microsoft.com/detail/Flex/9P13THVK7F69"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://brandonp2412.github.io/Flex/",
+        "androidPackageId": "com.presley.flexify",
+        "githubRepo": "brandonp2412/Flex"
+      },
+      "asset": {
+        "path": "/images/discover/flex.png",
+        "sourceUrl": "https://raw.githubusercontent.com/brandonp2412/Flex/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/brandonp2412/Flex/HEAD/LICENSE.md",
+        "noticePath": "/images/discover/licenses/flex-MIT.txt",
+        "attribution": "Flex app icon from the brandonp2412/Flex repository, licensed under MIT.",
+        "alt": "Flex app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/Flex/HEAD/README.md",
+            "label": "Official repository readme with features, offline behaviour and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/brandonp2412/Flex",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/Flex/HEAD/LICENSE.md",
+            "label": "MIT licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/brandonp2412/Flex/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "network-scanner",
+      "kind": "app",
+      "name": "Network Scanner",
+      "developer": "Usama Iqbal",
+      "category": "Local network tool",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/usamaiqb/network-scanner/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Network Scanner maps the devices on the local Wi-Fi and names them as well as it can. It combines a parallel ICMP sweep with TCP fallback, the ARP cache, mDNS, SSDP/UPnP and NetBIOS, then adds OUI vendor lookups and OS fingerprinting from open ports and banners. Nothing leaves the phone: there are no ads, no tracking and no root requirement, and deeper ARP reads are opt-in through Shizuku or root.",
+      "features": [
+        "Parallel ping sweep with TCP fallback for hosts that ignore ICMP",
+        "mDNS, SSDP/UPnP and NetBIOS discovery for printers, TVs, Chromecasts and Windows shares",
+        "MAC vendor lookup with detection of randomised addresses",
+        "OS fingerprinting and device-type icons from open ports and banners",
+        "Full 65,535-port scan with banner grabbing, or a quick common-port pass",
+        "Works offline with no ads and no tracking"
+      ],
+      "insight": "The hard part of a network scanner is not finding hosts, it identifying them. This one stacks five discovery protocols and admits what it cannot do, including the Android 10 limit on MAC addresses and the opt-in Shizuku route around it.",
+      "officialUrl": "https://usamaiqb.github.io/network-scanner/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/usamaiqb/network-scanner"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.networkscanner.app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.networkscanner.app/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/usamaiqb/network-scanner/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://usamaiqb.github.io/network-scanner/",
+        "androidPackageId": "com.networkscanner.app",
+        "githubRepo": "usamaiqb/network-scanner"
+      },
+      "asset": {
+        "path": "/images/discover/network-scanner.png",
+        "sourceUrl": "https://raw.githubusercontent.com/usamaiqb/network-scanner/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/usamaiqb/network-scanner/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/network-scanner-GPL-3.0.txt",
+        "attribution": "Network Scanner app icon from the usamaiqb/network-scanner repository, licensed under GPL-3.0.",
+        "alt": "Network Scanner app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/usamaiqb/network-scanner/HEAD/README.md",
+            "label": "Official repository readme with discovery methods, limitations and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/usamaiqb/network-scanner",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/usamaiqb/network-scanner/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/usamaiqb/network-scanner/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "markleaf",
+      "kind": "app",
+      "name": "Markleaf",
+      "developer": "jeiel85",
+      "category": "Markdown notes",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/jeiel85/markleaf-android/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Markleaf is a local-first Markdown note app that tries to make plain Markdown feel like an editor rather than a text box. A slash command inserts headings, tables, callouts and wikilinks as ordinary Markdown, footnotes jump between reference and definition, and tags are inferred from hashes in the body instead of a folder tree. The developer currently pauses Play updates pending a Korean business-registration requirement, so F-Droid and GitHub Releases carry the current build.",
+      "features": [
+        "Quick-insert commands that write standard Markdown rather than rich text",
+        "GFM tables, checkboxes, blockquotes and callouts rendered in preview",
+        "Syntax highlighting for ten languages inside code blocks",
+        "Bidirectional footnote jumping and in-note find and replace",
+        "Tag autocomplete from hashes in the note body, with no folders required",
+        "Hardware keyboard shortcuts and a choice of bundled or user-supplied fonts"
+      ],
+      "insight": "Most note apps lock your text into their schema. Markleaf keeps writing standard Markdown and lets you bring your own font file, which is the right trade for a local-first tool: the notes stay readable by whatever replaces the app.",
+      "officialUrl": "https://jeiel85.github.io/markleaf-android/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/jeiel85/markleaf-android"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.markleaf.notes/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/jeiel85/markleaf-android/releases/latest"
+        },
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.markleaf.notes"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://jeiel85.github.io/markleaf-android/",
+        "androidPackageId": "com.markleaf.notes",
+        "githubRepo": "jeiel85/markleaf-android"
+      },
+      "asset": {
+        "path": "/images/discover/markleaf.png",
+        "sourceUrl": "https://raw.githubusercontent.com/jeiel85/markleaf-android/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/jeiel85/markleaf-android/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/markleaf-Apache-2.0.txt",
+        "attribution": "Markleaf app icon from the jeiel85/markleaf-android repository, licensed under Apache-2.0. The SVG logo used elsewhere in the readme is not reproduced.",
+        "alt": "Markleaf app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jeiel85/markleaf-android/HEAD/README.md",
+            "label": "Official repository readme with features, installation routes and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/jeiel85/markleaf-android",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jeiel85/markleaf-android/HEAD/LICENSE",
+            "label": "Apache-2.0 licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jeiel85/markleaf-android/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "pgpony",
+      "kind": "app",
+      "name": "PGPony",
+      "developer": "NorseHorse",
+      "category": "OpenPGP encryption",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/norsehorse-dev/PGPonyAndroid/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "PGPony is an OpenPGP client that keeps the whole trust model on the phone. It encrypts, decrypts, signs and verifies text and files, generates modern RFC 9580 (OpenPGP v6) Ed25519 and X25519 keys protected with Argon2id, and can hold private keys on a hardware security key over NFC or USB. The foss build has no Google dependencies, and release APKs carry published hashes so the signer can be checked with AppVerifier.",
+      "features": [
+        "Encrypt, decrypt, sign and verify messages and files on device",
+        "RFC 9580 OpenPGP v6 key generation with Argon2id passphrase protection",
+        "Private keys held on YubiKey 5 NFC or Token2 hardware over NFC or USB",
+        "Read-only password-store support, including hardware-key entries",
+        "Key discovery through WKD and the keys.openpgp.org verifying keyserver",
+        "Biometric lock, secure-screen flag and a Google-free foss flavour"
+      ],
+      "insight": "Phone PGP is usually a compromise, because the private key sits in app storage. PGPony's differentiator is the opposite posture: keys can stay on a hardware token, and the project publishes signing certificate hashes so you can verify the APK you just installed before trusting it with anything.",
+      "officialUrl": "https://pgpony.app",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/norsehorse-dev/PGPonyAndroid"
+      },
+      "distribution": [
+        {
+          "label": "Official site",
+          "url": "https://pgpony.app"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/norsehorse-dev/PGPonyAndroid/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://pgpony.app",
+        "androidPackageId": "com.pgpony.android",
+        "githubRepo": "norsehorse-dev/PGPonyAndroid"
+      },
+      "asset": {
+        "path": "/images/discover/pgpony.png",
+        "sourceUrl": "https://raw.githubusercontent.com/norsehorse-dev/PGPonyAndroid/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/norsehorse-dev/PGPonyAndroid/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/pgpony-Apache-2.0.txt",
+        "attribution": "PGPony app icon from the norsehorse-dev/PGPonyAndroid repository, licensed under Apache-2.0.",
+        "alt": "PGPony app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/norsehorse-dev/PGPonyAndroid/HEAD/README.md",
+            "label": "Official repository readme with features, build flavours, package name and verification procedure",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/norsehorse-dev/PGPonyAndroid",
+            "label": "GitHub repository metadata and project homepage",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/norsehorse-dev/PGPonyAndroid/HEAD/LICENSE",
+            "label": "Apache-2.0 licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/norsehorse-dev/PGPonyAndroid/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    }
+  ]
+}

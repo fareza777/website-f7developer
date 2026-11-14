@@ -1,0 +1,26 @@
+C-Dogs SDL artwork notice
+======================
+
+Asset used: build/linux/cdogs-icon.256.png from the cxong/cdogs-sdl repository
+(https://github.com/cxong/cdogs-sdl), fetched on 2026-11-14.
+
+The repository's data readme (doc/README_DATA.md) states:
+
+  "All graphics and _included_ (ogre.inc, bem.inc) mission data is copyright (c)
+   Ronny Wester."
+
+and records that on 2016-04-13 Ronny Wester relicensed the C-Dogs data files
+under the Creative Commons Attribution licence:
+
+  "RW: CC-BY is fine. I think SA may be a bit too restrictive."
+
+The project README summarises the same split: "GPLv2 for code, CC0/CC-BY/CC-BY-SA
+for assets", and notes that new data is CC0 unless specified otherwise.
+
+Attribution required by CC-BY 3.0:
+  C-Dogs game graphics by Ronny Wester, used under CC-BY 3.0
+  (https://creativecommons.org/licenses/by/3.0/).
+  C-Dogs SDL is by Cong Xu and contributors, https://cxong.github.io/cdogs-sdl/.
+
+Code in the repository is GPL-2.0 (with BSD-2-clause portions); the icon used
+here is artwork, not code, and is credited under the CC-BY grant above.
