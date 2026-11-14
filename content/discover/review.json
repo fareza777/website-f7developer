@@ -5572,5 +5572,499 @@
     "reasons": [
       "Daily target already filled; retain candidate for fresh verification on a later date"
     ]
+  },
+  {
+    "candidate": {
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "slug": "libchecker",
+      "kind": "app",
+      "name": "LibChecker",
+      "developer": "LibChecker Project",
+      "category": "App inspection tool",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/LibChecker/LibChecker/HEAD/README.md",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "LibChecker reads the package details that Android hides. It inspects installed apps, APK files and split packages, then lists the libraries, components, permissions, metadata and target SDKs inside, and can watch for package changes over time.",
+      "features": [
+        "Inspect installed apps and APK/APKS files, including split APKs",
+        "Lists native and framework libraries with versions",
+        "Reports components, permissions, metadata and package names",
+        "Flags multi-architecture packages and 16 KB page-size readiness",
+        "Tracks package changes on the device over time"
+      ],
+      "insight": "A store listing tells you an app's version; it never tells you what is inside it. LibChecker is the kind of tool that makes the Android supply chain legible on the device itself, which is useful long before it is technical.",
+      "officialUrl": "https://github.com/LibChecker/LibChecker",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/LibChecker/LibChecker"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.absinthe.libchecker/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/LibChecker/LibChecker/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/LibChecker/LibChecker",
+        "androidPackageId": "com.absinthe.libchecker",
+        "githubRepo": "LibChecker/LibChecker"
+      },
+      "asset": {
+        "path": "/images/discover/libchecker.png",
+        "sourceUrl": "https://raw.githubusercontent.com/LibChecker/LibChecker/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/LibChecker/LibChecker/HEAD/LICENSE",
+        "noticePath": "/images/discover/licenses/libchecker-Apache-2.0.txt",
+        "attribution": "LibChecker app icon from the LibChecker/LibChecker repository, licensed under Apache-2.0.",
+        "alt": "LibChecker app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/LibChecker/LibChecker/HEAD/README.md",
+            "label": "Official repository readme with features and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/LibChecker/LibChecker",
+            "label": "GitHub repository metadata",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/LibChecker/LibChecker/HEAD/LICENSE",
+            "label": "Apache-2.0 licence covering the app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/LibChecker/LibChecker/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-14",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "darkest-pixel-dungeon",
+      "kind": "game",
+      "name": "Darkest Pixel Dungeon",
+      "developer": "egoal",
+      "category": "Roguelike",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://api.github.com/repos/egoal/darkest-pixel-dungeon",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Darkest Pixel Dungeon is a heavily modified Pixel Dungeon build with randomly generated levels, items, enemies and traps, distributed as desktop and Android builds from GitHub Releases.",
+      "features": [
+        "Randomly generated levels, items, enemies and traps",
+        "Modded progression built on the Pixel Dungeon and Shattered Pixel Dungeon codebases",
+        "Release builds published from the project's GitHub Releases page"
+      ],
+      "insight": "The Pixel Dungeon family is one of the most productive open-source mod lineages in mobile roguelikes, and this branch is worth a second look once its artwork provenance is settled.",
+      "officialUrl": "https://github.com/egoal/darkest-pixel-dungeon",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/egoal/darkest-pixel-dungeon"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/egoal/darkest-pixel-dungeon/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/egoal/darkest-pixel-dungeon",
+        "githubRepo": "egoal/darkest-pixel-dungeon"
+      },
+      "asset": {
+        "path": "/images/discover/darkest-pixel-dungeon.png",
+        "sourceUrl": "https://api.github.com/repos/egoal/darkest-pixel-dungeon",
+        "license": "Unverified: launcher icon predates this fork's GPL grant",
+        "licenseUrl": "https://raw.githubusercontent.com/egoal/darkest-pixel-dungeon/HEAD/LICENSE.txt",
+        "attribution": "No artwork selected. The fork is GPL-3.0, but the icon and tile art descend from Pixel Dungeon assets whose separate upstream licence was not evidenced during this run, so no in-repo image has a confirmed grant for this entry.",
+        "alt": "Darkest Pixel Dungeon pending artwork"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/egoal/darkest-pixel-dungeon/HEAD/README.md",
+            "label": "Official repository readme describing the mod and its downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/egoal/darkest-pixel-dungeon",
+            "label": "GitHub repository metadata; no monetary price published",
+            "checks": [
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/egoal/darkest-pixel-dungeon/HEAD/LICENSE.txt",
+            "label": "GPL-3.0 licence file for the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-14",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "turbo-fat",
+      "kind": "game",
+      "name": "Turbo Fat",
+      "developer": "Aaron Pieper",
+      "category": "Block puzzle",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://api.github.com/repos/Poobslag/turbofat",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Turbo Fat is a Godot-built block-dropping puzzle game published as a free download on itch.io, with its source and desktop builds on GitHub.",
+      "features": [
+        "Block-dropping puzzle gameplay built in Godot",
+        "Source published on GitHub with desktop release builds",
+        "Free download page on the developer's itch.io account"
+      ],
+      "insight": "The interesting engineering note is the workstation setup documented in the repository, which explains how a one-person Godot project keeps its builds reproducible.",
+      "officialUrl": "https://poobslag.itch.io/turbo-fat",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Poobslag/turbofat"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://poobslag.itch.io/turbo-fat"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Poobslag/turbofat/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://poobslag.itch.io/turbo-fat",
+        "githubRepo": "Poobslag/turbofat"
+      },
+      "asset": {
+        "path": "/images/discover/turbo-fat.png",
+        "sourceUrl": "https://api.github.com/repos/Poobslag/turbofat",
+        "license": "Unverified: game resources are CC-BY-NC",
+        "licenseUrl": "https://raw.githubusercontent.com/Poobslag/turbofat/HEAD/LICENSE.md",
+        "attribution": "No artwork selected. The repository readme states that the code is MIT but that Turbo Fat's game resources are CC-BY-NC and that other bundled resources carry their own licences, so no in-repo image has an evidenced grant for editorial reuse here.",
+        "alt": "Turbo Fat pending artwork"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Poobslag/turbofat/HEAD/README.md",
+            "label": "Official repository readme, including the separate resource licence notice",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/Poobslag/turbofat",
+            "label": "GitHub repository metadata; no monetary price published",
+            "checks": [
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Poobslag/turbofat/HEAD/LICENSE.md",
+            "label": "MIT code licence, which excludes the CC-BY-NC game resources",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-14",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "ricochlime",
+      "kind": "game",
+      "name": "Ricochlime",
+      "developer": "Adil Hanney",
+      "category": "Arcade shooter",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "iOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://api.github.com/repos/adil192/ricochlime",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Ricochlime is a Flutter-built arcade shooter about bouncing shots between enemies, published as source on GitHub with desktop installers, an F-Droid package and mobile builds.",
+      "features": [
+        "Ricochet-based shooting mechanic across short arcade runs",
+        "Built with Flutter and the Flame engine",
+        "Desktop installers published from GitHub Releases",
+        "Android package listed on F-Droid, plus iOS and Flathub builds"
+      ],
+      "insight": "A single Flutter codebase reaching phone, desktop and Flathub is a useful data point for what cross-platform indie delivery now costs one developer.",
+      "officialUrl": "https://github.com/adil192/ricochlime",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/adil192/ricochlime"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.adilhanney.ricochlime/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/adil192/ricochlime/releases"
+        },
+        {
+          "label": "Flathub",
+          "url": "https://flathub.org/apps/com.adilhanney.ricochlime"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/adil192/ricochlime",
+        "githubRepo": "adil192/ricochlime"
+      },
+      "asset": {
+        "path": "/images/discover/ricochlime.png",
+        "sourceUrl": "https://api.github.com/repos/adil192/ricochlime",
+        "license": "Unverified: repository licence excludes its assets",
+        "licenseUrl": "https://raw.githubusercontent.com/adil192/ricochlime/HEAD/LICENSE.md",
+        "attribution": "No artwork selected. The readme states the repository is AGPL-3.0 excluding assets, and that visual and audio assets are licensed independently, so no in-repo image has an evidenced reuse grant for this entry.",
+        "alt": "Ricochlime pending artwork"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/adil192/ricochlime/HEAD/README.md",
+            "label": "Official repository readme with engine, platforms and the asset licence exclusion",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/adil192/ricochlime",
+            "label": "GitHub repository metadata; no monetary price published",
+            "checks": [
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/adil192/ricochlime/HEAD/LICENSE.md",
+            "label": "AGPL-3.0 code licence, which the readme says excludes assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-14",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "curse-of-the-arrow",
+      "kind": "game",
+      "name": "Curse of the Arrow",
+      "developer": "Egor Dorichev",
+      "category": "Action roguelite",
+      "platforms": [
+        "Windows"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://api.github.com/repos/egordorichev/CurseOfTheArrow",
+        "checkedAt": "2026-11-14"
+      },
+      "summary": "Curse of the Arrow is the released source code of an earlier indie action game, published on GitHub with its code under GPL-3.0 for study and reuse.",
+      "features": [
+        "Full source code of a completed commercial indie action game",
+        "Documented as an early learning project by its author",
+        "Repository published with a separate licence for code and assets"
+      ],
+      "insight": "Publishing an old commercial project with an honest note about its quality is a useful pattern for developers who want their history to be readable rather than curated.",
+      "officialUrl": "https://github.com/egordorichev/CurseOfTheArrow",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/egordorichev/CurseOfTheArrow"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/egordorichev/CurseOfTheArrow/releases"
+        }
+      ],
+      "identity": {
+        "canonicalUrl": "https://github.com/egordorichev/CurseOfTheArrow",
+        "githubRepo": "egordorichev/CurseOfTheArrow"
+      },
+      "asset": {
+        "path": "/images/discover/curse-of-the-arrow.png",
+        "sourceUrl": "https://api.github.com/repos/egordorichev/CurseOfTheArrow",
+        "license": "Unverified: assets are CC-BY-NC-SA",
+        "licenseUrl": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/LICENSE",
+        "attribution": "No artwork selected. The readme splits the licence: GPL-3.0 for code and CC-BY-NC-SA 4.0 for assets, so the in-repo images carry a non-commercial term that this editorial use cannot rely on.",
+        "alt": "Curse of the Arrow pending artwork"
+      },
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-14",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/README.md",
+            "label": "Official repository readme with the separate code and asset licences",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://api.github.com/repos/egordorichev/CurseOfTheArrow",
+            "label": "GitHub repository metadata; no monetary price published",
+            "checks": [
+              "price",
+              "identity"
+            ],
+            "accessedAt": "2026-11-14"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/LICENSE",
+            "label": "GPL-3.0 code licence, which does not cover the CC-BY-NC-SA assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-14"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-14",
+    "reasons": [
+      "Artwork requires evidenced reuse permission"
+    ]
   }
 ]
