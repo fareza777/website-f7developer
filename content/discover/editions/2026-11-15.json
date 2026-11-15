@@ -1,0 +1,1355 @@
+{
+  "date": "2026-11-15",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-15T07:32:57.042Z",
+  "entries": [
+    {
+      "slug": "kubefactory",
+      "kind": "game",
+      "name": "KubeFactory",
+      "developer": "DasCondor",
+      "category": "Management sim",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "KubeFactory turns a live Kubernetes cluster into a first-person factory floor. Nodes become platforms and pods become machines you walk up to, each carrying a type plate with its real pod name, an icon for the workload and a screen with dashboard, metrics, logs and storage views. Connecting needs only a kubeconfig, so the machines you inspect are the ones actually running, and a browser sandbox with four demo worlds lets you learn the controls before touching a real cluster.",
+      "features": [
+        "Nodes are walkable platforms and pods are machines labelled with their real pod names",
+        "Machine screens switch between dashboard, metrics, logs and storage views",
+        "Connects with a kubeconfig directly, with no kubectl installation required",
+        "A datapad collects logs, events and an audit ledger while tools need hold-to-confirm actions",
+        "Foreman answers plain-language questions with checked proposals that still need your approval",
+        "Four sandbox demo worlds model a web shop, a home-media stack, Home Assistant and a build farm"
+      ],
+      "insight": "Operations dashboards flatten everything to the same size of rectangle. KubeFactory restores scale: a crash-looping pod is a machine that pulses on your minimap, so the failing part of the system becomes somewhere you can walk to instead of a row you scroll past.",
+      "officialUrl": "https://dascondor.github.io/kubefactory/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/DasCondor/kubefactory"
+      },
+      "distribution": [
+        {
+          "label": "Official website",
+          "url": "https://dascondor.github.io/kubefactory/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/DasCondor/kubefactory/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://dascondor.github.io/kubefactory/",
+        "githubRepo": "DasCondor/kubefactory"
+      },
+      "asset": {
+        "path": "/images/discover/kubefactory.webp",
+        "sourceUrl": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/docs/overview.webp",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/LICENSE",
+        "attribution": "KubeFactory overview screenshot from the DasCondor/kubefactory repository, MIT-licensed (c) 2026 DasCondor. The project documents that it is not affiliated with Kubernetes, Docker or Portainer.",
+        "alt": "KubeFactory machines and their screens arranged across a cluster floor",
+        "noticePath": "/images/discover/licenses/kubefactory-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/README.md",
+            "label": "Developer readme covering gameplay, controls, downloads and browser demo",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/LICENSE",
+            "label": "MIT license for the repository and its documentation images",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/docs/THIRDPARTY.md",
+            "label": "Third-party notice: bundled engine, external tools and trademark disclaimers",
+            "checks": [
+              "identity",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/DasCondor/kubefactory/HEAD/docs/overview.webp",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tophat-shooter",
+      "kind": "game",
+      "name": "TopHat-ShooterOS",
+      "developer": "Paycei",
+      "category": "Bullet heaven",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/Paycei/TopHat-Shooter/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "TopHat-ShooterOS is a bullet-heaven in Nim and Raylib where the whole game is presented as a desktop operating system. You are one process defending the TOPHAT kernel, so the start menu runs WAVE0.exe, cosmetics come from CHROMA.db, the manual opens in a terminal and MODS.exe changes the rules. Behind the interface sit 88 power-ups, 28 enemy types, 21 bosses and five modes, including online play for up to 16 people.",
+      "features": [
+        "Menus, shop, manual and mod manager are presented as desktop applications",
+        "Five modes: a 60-wave campaign, the Deep Recovery roguelite, 20-minute Time Survival, online PvP for 2-16 players and a sandbox",
+        "88 power-ups, 28 enemy types and 21 bosses split into separate mode rosters",
+        "Elemental build families with auras, orbs, walls, turrets, a dash and a rerollable level-up draft",
+        "Modding through Lua, with MODS.exe exposed inside the game shell",
+        "Sound and music are generated on first launch, so no asset files ship with the build"
+      ],
+      "insight": "The operating-system conceit is not decoration: making the shop, manual and mod loader into windows changes how a run-and-gun is learned. Players browse the rules the way they would any app, which is why a dense 88-power-up roster stays approachable.",
+      "officialUrl": "https://github.com/Paycei/TopHat-Shooter",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Paycei/TopHat-Shooter"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Paycei/TopHat-Shooter/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Paycei/TopHat-Shooter",
+        "githubRepo": "Paycei/TopHat-Shooter"
+      },
+      "asset": {
+        "path": "/images/discover/tophat-shooter.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Paycei/TopHat-Shooter/HEAD/media/3.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Paycei/TopHat-Shooter/HEAD/LICENSE",
+        "attribution": "TopHat-ShooterOS screenshot from the Paycei/TopHat-Shooter repository, Apache License 2.0.",
+        "alt": "TopHat-ShooterOS playfield seen inside its desktop-operating-system shell",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Paycei/TopHat-Shooter/HEAD/README.md",
+            "label": "Developer readme with modes, content counts, controls and download instructions",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Paycei/TopHat-Shooter/HEAD/LICENSE",
+            "label": "Apache License 2.0 for the repository and included media",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Paycei/TopHat-Shooter/HEAD/media/3.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "microcosm",
+      "kind": "game",
+      "name": "Microcosm",
+      "developer": "ChrisNeedham24",
+      "category": "4X strategy",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/ChrisNeedham24/microcosm/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Microcosm is a compact 4X strategy game written in Python on top of the Pyxel retro engine, with online play and a rule reference built into the game rather than bolted on. The author ships standalone builds for macOS, Linux and Windows, publishes the package on PyPI as microcosm-4x, and documents a local game server you can run yourself for people who would rather host than join.",
+      "features": [
+        "A 4X strategy game built as a Python project on the Pyxel pixel engine",
+        "Global multiplayer, with the developer documenting UPnP as the network requirement",
+        "Self-hostable local game server started with a single Python command",
+        "Standalone builds for macOS on ARM64, Linux on x86 and Windows",
+        "Installable as the microcosm-4x package from PyPI for anyone already running Python 3.12+",
+        "A rules wiki maintained both in-game and on the project's GitHub wiki"
+      ],
+      "insight": "Microcosm is interesting as a small-team answer to a genre that usually needs hundreds of person-hours: the retro engine keeps the surface tiny, and the hosting model is the same idea you would meet in a self-hosted feed reader rather than in a strategy game.",
+      "officialUrl": "https://github.com/ChrisNeedham24/microcosm",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/ChrisNeedham24/microcosm"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/ChrisNeedham24/microcosm/releases/latest"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/ChrisNeedham24/microcosm"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/ChrisNeedham24/microcosm",
+        "githubRepo": "ChrisNeedham24/microcosm"
+      },
+      "asset": {
+        "path": "/images/discover/microcosm.png",
+        "sourceUrl": "https://raw.githubusercontent.com/ChrisNeedham24/microcosm/HEAD/source/resources/microcosm_gameplay_screenshot.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/ChrisNeedham24/microcosm/HEAD/COPYING",
+        "attribution": "Microcosm gameplay screenshot from the ChrisNeedham24/microcosm repository, GPL-3.0 (COPYING).",
+        "alt": "Microcosm gameplay showing its pixel 4X map",
+        "noticePath": "/images/discover/licenses/microcosm-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ChrisNeedham24/microcosm/HEAD/README.md",
+            "label": "Developer readme with genre, engine, multiplayer requirements, server hosting and platform builds",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ChrisNeedham24/microcosm/HEAD/COPYING",
+            "label": "GPL-3.0 license covering the repository, including its screenshot resources",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/ChrisNeedham24/microcosm/HEAD/source/resources/microcosm_gameplay_screenshot.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bansoko",
+      "kind": "game",
+      "name": "Bansoko",
+      "developer": "kfurtak1024",
+      "category": "Sokoban puzzle",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free on itch.io and GitHub Releases",
+        "sourceUrl": "https://raw.githubusercontent.com/kfurtak1024/bansoko/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Bansoko is a space-themed reworking of Soko-Ban, the 1984 MS-DOS puzzle, rebuilt in Python with the Pyxel engine. You are a scavenger directing a remote-controlled robot through abandoned ships, pushing cargo into bays with a rule the game states plainly: crates can be pushed, never pulled. Unlimited undo is part of the design, which turns a puzzle famous for irreversible mistakes into one you can argue with.",
+      "features": [
+        "Reimagines the 1984 Soko-Ban crate-pushing puzzle as deep-space salvage",
+        "Push-only cargo rule carried over from the original design",
+        "Undo as many steps as needed, so a blocked layout can always be talked back",
+        "Standalone Windows and Linux builds bundle Python and every library used",
+        "Also installable as the bansoko package with pip on Python 3.11+",
+        "Distributed through the developer's itch.io page and GitHub Releases"
+      ],
+      "insight": "Undo is the whole editorial argument here. Soko-Ban's 1984 difficulty came partly from puzzles that punished a single wrong push; shipping a remake that removes that punishment while keeping the push-only rule is a deliberate design position, not a convenience.",
+      "officialUrl": "https://github.com/kfurtak1024/bansoko",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/kfurtak1024/bansoko"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://kfurtak1024.itch.io/bansoko"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/kfurtak1024/bansoko/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/kfurtak1024/bansoko",
+        "githubRepo": "kfurtak1024/bansoko"
+      },
+      "asset": {
+        "path": "/images/discover/bansoko.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kfurtak1024/bansoko/HEAD/docs/images/screen_shot4.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/kfurtak1024/bansoko/HEAD/LICENSE",
+        "attribution": "Bansoko screenshot from the kfurtak1024/bansoko repository, MIT license.",
+        "alt": "Bansoko puzzle room with a robot and cargo crates",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kfurtak1024/bansoko/HEAD/README.md",
+            "label": "Developer readme with premise, undo rule, downloads and install options",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kfurtak1024/bansoko/HEAD/LICENSE",
+            "label": "MIT license for the repository and its documentation screenshots",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kfurtak1024/bansoko/HEAD/docs/images/screen_shot4.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "slide-puzzle-godot",
+      "kind": "game",
+      "name": "Slide Puzzle",
+      "developer": "3ddelano",
+      "category": "Sliding puzzle",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/3ddelano/slide-puzzle-godot/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Slide Puzzle is a straightforward take on the sliding-tile picture puzzle, built in Godot and published as a complete open-source project with prebuilt desktop archives. Its interest is in the small set of knobs the developer chose to expose: the board size is configurable, any image can become the puzzle, tile numbers can be shown or hidden, and both mouse and keyboard input are supported.",
+      "features": [
+        "Configurable board size, so the same puzzle can be 3x3 or far larger",
+        "Custom background images turn any picture into the tile layout",
+        "Tile numbers can be shown or hidden for players who want a numeric or a visual puzzle",
+        "Both mouse and keyboard input are supported",
+        "Prebuilt Windows x64 and Linux archives published on GitHub Releases",
+        "Godot project published under an MIT license"
+      ],
+      "insight": "There is a lesson in keeping a one-mechanic game open source: the four options the author exposes, board size, image, numbering and input, are exactly the ones that decide whether a familiar puzzle is still yours.",
+      "officialUrl": "https://github.com/3ddelano/slide-puzzle-godot",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/3ddelano/slide-puzzle-godot"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/3ddelano/slide-puzzle-godot/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/3ddelano/slide-puzzle-godot",
+        "githubRepo": "3ddelano/slide-puzzle-godot"
+      },
+      "asset": {
+        "path": "/images/discover/slide-puzzle-godot.png",
+        "sourceUrl": "https://raw.githubusercontent.com/3ddelano/slide-puzzle-godot/HEAD/media/game_screen.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/3ddelano/slide-puzzle-godot/HEAD/LICENSE",
+        "attribution": "Slide Puzzle game screen from the 3ddelano/slide-puzzle-godot repository, MIT license.",
+        "alt": "Slide Puzzle game screen with a scrambled picture of numbered tiles",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/3ddelano/slide-puzzle-godot/HEAD/README.md",
+            "label": "Developer readme listing supported features and screenshots",
+            "checks": [
+              "identity",
+              "features",
+              "platforms",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://api.github.com/repos/3ddelano/slide-puzzle-godot/releases/latest",
+            "label": "Latest GitHub release with Windows x64 and Linux archives",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/3ddelano/slide-puzzle-godot/HEAD/LICENSE",
+            "label": "MIT license for the repository and its media files",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/3ddelano/slide-puzzle-godot/HEAD/media/game_screen.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ctetris",
+      "kind": "game",
+      "name": "cTetris",
+      "developer": "tmpstpdwn",
+      "category": "Falling-block puzzle",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/tmpstpdwn/cTetris/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "cTetris is a deliberately minimal implementation of Tetris in C using Raylib, published with the rules written out rather than left implicit. The readme documents a 20x10 grid, level-driven drop speed, wall and floor kicks, a half-second lock timer, a 15-move budget that forces a hard drop, and a high score persisted to disk, which makes the project useful as a readable reference for how modern falling-block games actually resolve a piece.",
+      "features": [
+        "20x10 grid with level-scaled drop speed in plain C on top of Raylib",
+        "Rotation with wall and floor kicks, soft drop and hard drop",
+        "0.5-second lock timer that resets on movement, with an airborne and grounded distinction",
+        "A 15-move budget per piece that forces a hard drop when exhausted",
+        "High score kept on disk between sessions",
+        "Keyboard controls with pause, restart, mute and a light/dark theme toggle"
+      ],
+      "insight": "Most open-source Tetris clones stop at the grid. cTetris documents the parts that decide competitive feel, lock timers, move budgets, kick behaviour, which is why it reads less like a toy and more like a specification you could argue with.",
+      "officialUrl": "https://github.com/tmpstpdwn/cTetris",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/tmpstpdwn/cTetris"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/tmpstpdwn/cTetris/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/tmpstpdwn/cTetris",
+        "githubRepo": "tmpstpdwn/cTetris"
+      },
+      "asset": {
+        "path": "/images/discover/ctetris.png",
+        "sourceUrl": "https://raw.githubusercontent.com/tmpstpdwn/cTetris/HEAD/media/cTetris_512x512.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/tmpstpdwn/cTetris/HEAD/LICENSE",
+        "attribution": "cTetris mark from the tmpstpdwn/cTetris repository, MIT license.",
+        "alt": "cTetris square logo with stacked blocks",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tmpstpdwn/cTetris/HEAD/README.md",
+            "label": "Developer readme documenting grid, mechanics, controls, scoring and releases",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tmpstpdwn/cTetris/HEAD/LICENSE",
+            "label": "MIT license for the repository and its media files",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tmpstpdwn/cTetris/HEAD/media/cTetris_512x512.png",
+            "label": "Official logo file used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bim",
+      "kind": "game",
+      "name": "Bim!",
+      "developer": "Julien Jorge",
+      "category": "Multiplayer arena",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, with no pay-to-win features",
+        "sourceUrl": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Bim! is an open-source online multiplayer game for Android in the last-man-standing mould: up to four players share a small arena, dropping bombs to break crates, expose bonuses and finish off opponents. Its distinguishing idea is the feature draft. As you play you unlock gameplay modifiers, and each match combines your selection with your opponents', so a round can change shape without anyone buying an advantage.",
+      "features": [
+        "Up to four players per online match in a bomb-and-crates arena",
+        "Breaking crates can reveal bonuses such as extra bombs or longer blast radius",
+        "Unlockable gameplay features are selected before a match and combine with opponents' choices",
+        "The developer states that every selected feature affects all players equally, with no pay to win",
+        "Published in beta on Google Play, with APK releases, F-Droid and Obtainium as alternatives",
+        "Code is AGPL-3.0 and most graphics and sounds are CC BY-SA 4.0, credited per file"
+      ],
+      "insight": "Letting players draft modifiers is the rare mobile design that trades balance for conversation: matches become readable as a clash of chosen rules rather than of accounts, and the licence list behind it shows how much non-code work a small game carries.",
+      "officialUrl": "https://github.com/j-jorge/bim",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/j-jorge/bim"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=bim.app"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/bim.app/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/j-jorge/bim/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/j-jorge/bim",
+        "androidPackageId": "bim.app",
+        "githubRepo": "j-jorge/bim"
+      },
+      "asset": {
+        "path": "/images/discover/bim.png",
+        "sourceUrl": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/metadata/en-US/images/icon.png",
+        "license": "CC-BY-SA-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/AUTHORS.md",
+        "attribution": "Bim! app icon by Julien Jorge, licensed CC BY-SA 4.0 as listed in the project's AUTHORS.md.",
+        "alt": "Bim! app icon of a cartoon bomb",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/bim-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/README.md",
+            "label": "Developer readme with genre, match rules, install routes and license summary",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/metadata/en-US/full_description.txt",
+            "label": "Developer store description confirming match size, bonuses, feature selection and no pay-to-win",
+            "checks": [
+              "features",
+              "price",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/AUTHORS.md",
+            "label": "Asset credit list assigning metadata/en-US/images/icon.png to Julien Jorge under CC-BY-SA 4.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/j-jorge/bim/HEAD/metadata/en-US/images/icon.png",
+            "label": "Official store icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://api.github.com/repos/j-jorge/bim",
+            "label": "GitHub repository metadata confirming the project name and default license",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sparkledns",
+      "kind": "app",
+      "name": "SparkleDNS",
+      "developer": "kalarina-bit",
+      "category": "DNS privacy",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/kalarina-bit/Sparkledns/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "SparkleDNS is a lightweight DNS-over-HTTPS client for Android that runs a local VPN holding nothing but DNS. Queries go to the resolver you choose over RFC 8484 while all other traffic keeps using your normal connection, and the activity views, blocklists and logs stay on the device. It ships without analytics or Google Play Services and documents a signing fingerprint so you can verify an APK before installing.",
+      "features": [
+        "Local VPN that captures only DNS traffic and forwards it to a chosen DoH server",
+        "One-tap connect and disconnect, including a Quick Settings tile",
+        "Server switching that restarts the tunnel automatically, with a built-in latency and protocol test",
+        "24-hour and 7-day activity charts, a filterable live log and one-tap blocking, computed on device",
+        "Per-app DNS so selected apps bypass the tunnel",
+        "Custom blocklists by URL, including HaGeZi presets refreshed daily or weekly"
+      ],
+      "insight": "Splitting DNS from the rest of the tunnel is the interesting engineering choice: a VPN API is used only for packet selection, which keeps a privacy tool from becoming the bottleneck for everything else on the phone.",
+      "officialUrl": "https://github.com/kalarina-bit/Sparkledns",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/kalarina-bit/Sparkledns"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/cc.skysparkle.sparkledns/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/kalarina-bit/Sparkledns/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/kalarina-bit/Sparkledns",
+        "androidPackageId": "cc.skysparkle.sparkledns",
+        "githubRepo": "kalarina-bit/Sparkledns"
+      },
+      "asset": {
+        "path": "/images/discover/sparkledns.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kalarina-bit/Sparkledns/HEAD/fastlane/metadata/android/en-US/images/featureGraphic.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/kalarina-bit/Sparkledns/HEAD/LICENSE",
+        "attribution": "SparkleDNS store banner from the kalarina-bit/Sparkledns repository, GPL-3.0-only.",
+        "alt": "SparkleDNS banner with the app name and its star mark",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/sparkledns-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kalarina-bit/Sparkledns/HEAD/README.md",
+            "label": "Developer readme with architecture, feature list, install routes, signing check and license",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kalarina-bit/Sparkledns/HEAD/LICENSE",
+            "label": "GPL-3.0 license covering the repository and its store graphics",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kalarina-bit/Sparkledns/HEAD/fastlane/metadata/android/en-US/images/featureGraphic.png",
+            "label": "Official store banner used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "alarm-clock-xtreme",
+      "kind": "app",
+      "name": "AlarmClockXtreme",
+      "developer": "SysAdminDoc",
+      "category": "Clock and alarm",
+      "platforms": [
+        "Android",
+        "Wear OS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source APK downloads",
+        "sourceUrl": "https://raw.githubusercontent.com/SysAdminDoc/AlarmClockXtreme/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "AlarmClockXtreme is an open-source Android alarm clock aimed at heavy sleepers and shift workers. It uses Android's exact alarm path, restores schedules after a reboot and keeps a Direct Boot fallback for the next alarm, then backs the wake-up with thirty dismiss challenge types and shift patterns such as 4-on-4-off, Panama and Pitman. Releases are signed APKs published with checksums and certificate fingerprints.",
+      "features": [
+        "Exact alarm scheduling with recovery after reboot and a minimal Direct Boot fallback",
+        "Thirty dismiss challenge types, from math and typing to walking, NFC, barcode and photo match, chainable into missions",
+        "Rotating shift support for DDNNO, 4-on-4-off, Panama, DuPont and Pitman cycles, with vacation and holiday skips",
+        "Alarms can play a ringtone, an HTTPS radio stream, Spotify or saved sounds, with light fade-up via Philips Hue or DIRIGERA",
+        "Webhooks and Tasker broadcasts fire on alarm events, and a wake-readiness check warns before bedtime",
+        "Today tab adds local weather, air quality and sunrise timing alongside timers, world clocks and Wear OS controls"
+      ],
+      "insight": "The interesting engineering is unglamorous: exact alarms, reboot restoration, Direct Boot fallback and published checksums. Those are the parts that decide whether a clock app deserves to be trusted with a 4am shift, rather than whether it looks nice.",
+      "officialUrl": "https://github.com/SysAdminDoc/AlarmClockXtreme",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/SysAdminDoc/AlarmClockXtreme"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/SysAdminDoc/AlarmClockXtreme/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/SysAdminDoc/AlarmClockXtreme",
+        "githubRepo": "SysAdminDoc/AlarmClockXtreme"
+      },
+      "asset": {
+        "path": "/images/discover/alarm-clock-xtreme.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SysAdminDoc/AlarmClockXtreme/HEAD/store-assets/feature-graphic.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/SysAdminDoc/AlarmClockXtreme/HEAD/LICENSE",
+        "attribution": "AlarmClockXtreme feature graphic from the SysAdminDoc/AlarmClockXtreme repository, Apache License 2.0.",
+        "alt": "AlarmClockXtreme feature graphic showing the app name and alarm screens",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/AlarmClockXtreme/HEAD/README.md",
+            "label": "Developer readme with reliability behaviour, challenges, shift patterns, automation and download routes",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/AlarmClockXtreme/HEAD/LICENSE",
+            "label": "Apache License 2.0 covering the repository and its store assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SysAdminDoc/AlarmClockXtreme/HEAD/store-assets/feature-graphic.png",
+            "label": "Official feature graphic used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "carpelines",
+      "kind": "app",
+      "name": "CarpeLines",
+      "developer": "jayfunc",
+      "category": "Lyrics display",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/jayfunc/CarpeLines/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "CarpeLines displays live, word-by-word lyrics for whatever is playing on your phone, without owning a music library. It attaches to the active Android media session, resolves lyrics from seven sources including embedded tags, sibling .lrc files and several streaming providers, and renders them with word-level timing, character-level handling for CJK text and translations or romanization kept in sync.",
+      "features": [
+        "Word-level highlighting, with character-by-character animation and a spring effect for Chinese, Japanese and Korean lyrics",
+        "Reads the system media session through NotificationListenerService and MediaSessionManager, so it drives the player you already use",
+        "Seven lyric sources: embedded tags, sibling .lrc files, QQ Music, NetEase Cloud Music, Kugou, LRCLIB and Apple Music, in a configurable order",
+        "Duet and backing-vocal layouts with separate columns and per-line styling",
+        "Three widgets, including a now-playing bar, a lyric control card and a square tile",
+        "Full-screen page samples the current album artwork for its palette, with fluid and album-blur animated backgrounds"
+      ],
+      "insight": "CarpeLines is built around an absence: no audio engine and no library of its own. Handing playback back to the active session is what lets one overlay serve every player on the device, which is the opposite of the usual all-in-one music app.",
+      "officialUrl": "https://github.com/jayfunc/CarpeLines",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/jayfunc/CarpeLines"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/jayfunc/CarpeLines/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/jayfunc/CarpeLines",
+        "androidPackageId": "io.github.jayfunc.carpelines",
+        "githubRepo": "jayfunc/CarpeLines"
+      },
+      "asset": {
+        "path": "/images/discover/carpelines.png",
+        "sourceUrl": "https://raw.githubusercontent.com/jayfunc/CarpeLines/HEAD/docs/assets/banner/carpe-banner-1280x640-light.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/jayfunc/CarpeLines/HEAD/LICENSE",
+        "attribution": "CarpeLines banner drawn from the project's own brand geometry in jayfunc/CarpeLines, GPL-3.0-or-later.",
+        "alt": "CarpeLines banner reading Seize the Line, Keep the Time over three lyric lines",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/carpelines-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jayfunc/CarpeLines/HEAD/README.md",
+            "label": "Developer readme with package id, Android version, features, sources and license credits",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jayfunc/CarpeLines/HEAD/logo/README.md",
+            "label": "Brand mark specification describing the icon geometry and raster outputs",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jayfunc/CarpeLines/HEAD/LICENSE",
+            "label": "GPL-3.0 license text for the repository including its logo and docs assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://github.com/jayfunc/CarpeLines/releases",
+            "label": "GitHub release downloads listed by the developer as the install route",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "grove",
+      "kind": "app",
+      "name": "Grove",
+      "developer": "resurrectdev1",
+      "category": "Habit tracker",
+      "platforms": [
+        "Android",
+        "Web browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/resurrectdev1/Grove/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Grove tracks streaks as a forest. Each habit you plant becomes a procedurally generated fractal tree that grows through real stages as days pass, and the app offers two modes: abstinence, which records relapses with notes, and check-in, which builds streaks while letting you excuse days or freeze a streak. Everything runs offline, with widgets, milestone reminders and biometric or PIN locking for privacy.",
+      "features": [
+        "Each habit is a unique procedurally generated fractal tree that advances through growth stages",
+        "Abstinence mode tracks current streak, all-time best and every relapse with notes",
+        "Check-in mode supports excused days and streak freezes so planned breaks do not reset progress",
+        "Four layouts: 3D vertical drum, horizontal carousel, compact grid and list",
+        "Live tree and calendar home-screen widgets plus milestone reminders",
+        "Biometric, fingerprint or PIN locking, local backups and 14 languages, all offline"
+      ],
+      "insight": "Streak apps usually show a number and a calendar grid. Grove's growth model changes what a lapse means visually, and its two modes admit that quitting something and starting something need different record-keeping even when the interface looks the same.",
+      "officialUrl": "https://github.com/resurrectdev1/Grove",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/resurrectdev1/Grove"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.resurrect.grove/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/resurrectdev1/Grove/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/resurrectdev1/Grove",
+        "androidPackageId": "com.resurrect.grove",
+        "githubRepo": "resurrectdev1/Grove"
+      },
+      "asset": {
+        "path": "/images/discover/grove.png",
+        "sourceUrl": "https://raw.githubusercontent.com/resurrectdev1/Grove/HEAD/assets/app_icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/resurrectdev1/Grove/HEAD/LICENSE",
+        "attribution": "Grove app icon from the resurrectdev1/Grove repository, GPL-3.0.",
+        "alt": "Grove app icon showing a stylised tree",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/grove-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/HEAD/README.md",
+            "label": "Developer readme with tracking modes, layouts, widgets, privacy, languages and downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/HEAD/LICENSE",
+            "label": "GPL-3.0 license covering the repository and its app icon",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/resurrectdev1/Grove/HEAD/assets/app_icon.png",
+            "label": "Official app icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "moke",
+      "kind": "app",
+      "name": "Moke",
+      "developer": "briqt",
+      "category": "Terminal and remote access",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/briqt/moke/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Moke is a native Android SSH and mosh terminal with a userspace Tailscale client built in, so a tailnet can be reached without taking over the system VPN slot. It handles password, PEM-key and Tailscale SSH authentication, per-host proxies, multiple background sessions with remote tmux management, and SFTP transfers that resume. Network credentials and tailnet login state are stored through the Android Keystore.",
+      "features": [
+        "SSH and mosh with password, PEM private-key and Tailscale SSH identity authentication",
+        "Built-in userspace Tailscale for official or self-hosted control servers, leaving the system VPN slot free",
+        "HTTP, HTTPS, SOCKS4 and SOCKS5 proxies selectable per host",
+        "Multiple background sessions, remote tmux management and port forwarding bound to the device loopback only",
+        "SFTP browsing with resumable uploads and downloads",
+        "Terminal with custom extra keys, IME and text-block input, fonts and colour schemes, in English or Chinese"
+      ],
+      "insight": "Shipping a userspace tailnet client inside a terminal is the pragmatic call: it gives a phone direct reach to machines that only exist on a private network, without asking the user to run a second always-on VPN app.",
+      "officialUrl": "https://github.com/briqt/moke",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/briqt/moke"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/briqt/moke/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/briqt/moke",
+        "githubRepo": "briqt/moke"
+      },
+      "asset": {
+        "path": "/images/discover/moke.png",
+        "sourceUrl": "https://raw.githubusercontent.com/briqt/moke/HEAD/docs/screenshot-terminal.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/briqt/moke/HEAD/LICENSE",
+        "attribution": "Moke terminal screenshot from the briqt/moke repository; the product layer is GPL-3.0-or-later with vendored Apache-2.0 terminal modules listed in THIRD_PARTY_NOTICES.md.",
+        "alt": "Moke terminal session open on an Android phone",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/moke-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/briqt/moke/HEAD/README.md",
+            "label": "Developer readme with features, Tailscale setup, Android 11 and arm64 requirement, install and licensing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/briqt/moke/HEAD/LICENSE",
+            "label": "GPL-3.0 license text applied to the product layer",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/briqt/moke/HEAD/docs/screenshot-terminal.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "usugami",
+      "kind": "app",
+      "name": "Usugami",
+      "developer": "Nath-Goa",
+      "category": "PDF tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/Nath-Goa/usugami/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Usugami is an offline PDF toolkit for Android that converts photos, ID cards, Word, PowerPoint, Excel and EPUB files into PDFs and then works on them: read, annotate, print, split, merge, reorganise, rotate, crop, number, watermark, sign, compress, flatten and redact. It was called PDFer before version 1.2.0, and the app itself carries no internet permission, so nothing is uploaded.",
+      "features": [
+        "Converts images, Word, PowerPoint, Excel and EPUB documents into PDFs on the device",
+        "Full editing set: split, merge, reorganise, rotate, crop, page numbering, watermark, sign, compress, flatten and redact",
+        "Three signed editions: the main app, a smaller Lite build with no Google code, and an OCR build with PaddleOCR models bundled inside",
+        "OCR editions either use Play services recognition or run entirely offline, depending on which you install",
+        "Long-press app shortcuts jump straight to Scan document, Images to PDF and Merge PDF",
+        "No ads, no tracking, no account and no uploads, distributed as APKs with Obtainium updates"
+      ],
+      "insight": "Splitting one app into three signed editions is an honest answer to a hard constraint: on-device recognition needs a model, so the author lets you choose between a small APK, no Google code at all, or a bigger file that works with no network ever.",
+      "officialUrl": "https://github.com/Nath-Goa/usugami",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Nath-Goa/usugami"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Nath-Goa/usugami/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Nath-Goa/usugami",
+        "androidPackageId": "io.github.nath_goa.usugami",
+        "githubRepo": "Nath-Goa/usugami"
+      },
+      "asset": {
+        "path": "/images/discover/usugami.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Nath-Goa/usugami/HEAD/docs/social-preview.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Nath-Goa/usugami/HEAD/LICENSE",
+        "attribution": "Usugami social preview image from the Nath-Goa/usugami repository, GPL-3.0; the badge artwork credited in the readme was not reused.",
+        "alt": "Usugami preview graphic showing the app's PDF tools",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/usugami-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Nath-Goa/usugami/HEAD/README.md",
+            "label": "Developer readme with capabilities, the three editions, package name, offline behaviour and downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Nath-Goa/usugami/HEAD/LICENSE",
+            "label": "GPL-3.0 license covering the repository and its documentation images",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Nath-Goa/usugami/HEAD/docs/social-preview.png",
+            "label": "Official preview image used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "repertoire",
+      "kind": "app",
+      "name": "Repertoire",
+      "developer": "Adithya-Jayan",
+      "category": "Setlist and practice",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/Adithya-Jayan/MyRepertoirApp/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Repertoire organises the work of performing rather than the work of note-taking. Each piece in your library keeps its PDF sheet music viewable in-app, Markdown notes for annotations and lyrics, reference images, audio files you can slow down or shift in pitch, and video links, while practice sessions are logged per piece so you can see what you last worked on and how often.",
+      "features": [
+        "Pieces stored with title, composer or artist and custom tags in list or grid views",
+        "In-app PDF sheet music, Markdown notes, images, audio with speed and pitch control, and video links",
+        "Practice session logs showing when a piece was last played and how many sessions it has",
+        "Search and filter by title, composer, tags, genre, difficulty and practice history",
+        "Whole-library backup and restore",
+        "Android via F-Droid or GitHub APK, Windows and Linux builds, plus a live web version"
+      ],
+      "insight": "Musicians already have notes apps; what they rarely have is audio that changes speed and pitch without leaving the piece it belongs to. Making practice history a first-class field turns a filing cabinet into something closer to a rehearsal log.",
+      "officialUrl": "https://adithyajayan.in/MyRepertoirApp/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Adithya-Jayan/MyRepertoirApp"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.adithya_jayan.myrepertoirapp.fdroid/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Adithya-Jayan/MyRepertoirApp/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://adithyajayan.in/MyRepertoirApp/",
+        "androidPackageId": "io.github.adithya_jayan.myrepertoirapp.fdroid",
+        "githubRepo": "Adithya-Jayan/MyRepertoirApp"
+      },
+      "asset": {
+        "path": "/images/discover/repertoire.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Adithya-Jayan/MyRepertoirApp/HEAD/app_fdroid/web/icons/Icon-512.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Adithya-Jayan/MyRepertoirApp/HEAD/LICENSE",
+        "attribution": "Repertoire icon from the Adithya-Jayan/MyRepertoirApp repository, Apache License 2.0; the developer uses the same file as the project logo.",
+        "alt": "Repertoire app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Adithya-Jayan/MyRepertoirApp/HEAD/README.md",
+            "label": "Developer readme with target users, media attachments, practice tracking, install routes and platform builds",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Adithya-Jayan/MyRepertoirApp/HEAD/LICENSE",
+            "label": "Apache License 2.0 covering the repository and its icon assets",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Adithya-Jayan/MyRepertoirApp/HEAD/app_fdroid/web/icons/Icon-512.png",
+            "label": "Official icon used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    }
+  ]
+}

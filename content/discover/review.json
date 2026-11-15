@@ -6066,5 +6066,718 @@
     "reasons": [
       "Artwork requires evidenced reuse permission"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "bisshare",
+      "kind": "app",
+      "name": "BIShare",
+      "developer": "BIShare-project",
+      "category": "File transfer",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free & open source, no account or ads",
+        "sourceUrl": "https://raw.githubusercontent.com/BIShare-project/bishare-flutter/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "BIShare sends files directly between iPhone, Android, Mac, Windows and Linux over Wi-Fi with end-to-end encryption, and the receiving side only needs a browser. The readme describes it as AirDrop for every device, with no account, no ads and no cloud relay.",
+      "features": [
+        "Device-to-device file transfer across iOS, Android, macOS, Windows and Linux",
+        "Receiver needs only a browser rather than the app",
+        "End-to-end encrypted transfer at local Wi-Fi speed",
+        "Google Play, App Store, Microsoft Store, web and GitHub release builds published by the developer"
+      ],
+      "insight": "The protocol design is the interesting part: a browser-only receiver makes cross-platform transfer work without installing a second copy of the app.",
+      "officialUrl": "https://bishare.app/transfer",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/BIShare-project/bishare-flutter"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bishare.app"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/BIShare-project/bishare-flutter/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://bishare.app/transfer",
+        "androidPackageId": "com.bishare.app",
+        "githubRepo": "BIShare-project/bishare-flutter"
+      },
+      "asset": {
+        "path": "/images/discover/bisshare.png",
+        "sourceUrl": "https://raw.githubusercontent.com/BIShare-project/bishare-flutter/HEAD/assets/icon/bishare_icon.png",
+        "license": "unknown",
+        "licenseUrl": "https://raw.githubusercontent.com/BIShare-project/bishare-flutter/HEAD/TRADEMARKS.md",
+        "attribution": "BIShare icon is reserved by its developers: the readme states the Apache-2.0 code licence does not cover the name, logo and app icon, so no reuse grant was established.",
+        "alt": "BIShare app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/BIShare-project/bishare-flutter/HEAD/README.md",
+            "label": "Developer readme with platforms, store links and the licence note reserving name, logo and icon",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "bestia-behemoth",
+      "kind": "game",
+      "name": "Bestia Behemoth",
+      "developer": "tfelix",
+      "category": "MMORPG",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Bestia Behemoth is an open-source fantasy MMORPG whose server is written in Kotlin with Spring Boot and its client in Godot 4 with C#, including procedural settlement generation for its world.",
+      "features": [
+        "Kotlin and Spring Boot server with a Godot 4 C# client",
+        "Procedural world generation that lays out settlements from partitioned building plots",
+        "Brand and application icon assets tracked in the repository"
+      ],
+      "insight": "Its architecture notes are worth reading even though the game cannot be played yet, because the project documents how GPL code derived from another generator is attributed file by file.",
+      "officialUrl": "https://github.com/tfelix/bestia-behemoth",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/tfelix/bestia-behemoth"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/tfelix/bestia-behemoth"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/tfelix/bestia-behemoth",
+        "githubRepo": "tfelix/bestia-behemoth"
+      },
+      "asset": {
+        "path": "/images/discover/bestia-behemoth.png",
+        "sourceUrl": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/assets/brand/bestia_app_icon_256.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/LICENSE",
+        "attribution": "Bestia Behemoth application icon from the tfelix/bestia-behemoth repository, GPL-3.0.",
+        "alt": "Bestia Behemoth app icon of a dragon-shaped letter B",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/README.md",
+            "label": "Developer readme stating the project is pre-alpha with no public server and no stable build",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tfelix/bestia-behemoth/HEAD/THIRD-PARTY.md",
+            "label": "Third-party work notice describing the project's GPL-3.0 licensing",
+            "checks": [
+              "asset-license",
+              "identity"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "bound-to-rot",
+      "kind": "game",
+      "name": "Bound To Rot",
+      "developer": "MangasMango",
+      "category": "Action RPG",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Bound To Rot is a western dark-fantasy isometric action RPG built in Python, with a delve-style loop, inventory, currency cards and a dev console, and its own logo and item sprites tracked as original art in the repository.",
+      "features": [
+        "16-direction isometric sprites rendered through the author's own 3D-to-isometric pipeline",
+        "Delve-style descent loop with a bank, stash and blacksmith panels",
+        "Dev console with help commands and documented keyboard control set",
+        "Original logo, item sprites and player enemy sets recorded as no-third-party art in credits/SOURCES.txt"
+      ],
+      "insight": "The asset credits file is the model for this kind of project: it names which files are original and which are CC0, CC-BY or CC-BY-SA third-party work, file area by file area.",
+      "officialUrl": "https://github.com/MangasMango/bound-to-rot",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/MangasMango/bound-to-rot"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/MangasMango/bound-to-rot"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MangasMango/bound-to-rot",
+        "githubRepo": "MangasMango/bound-to-rot"
+      },
+      "asset": {
+        "path": "/images/discover/bound-to-rot.png",
+        "sourceUrl": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/assets/logo/logo.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/LICENSE",
+        "attribution": "Bound To Rot logo from the MangasMango/bound-to-rot repository, listed as original art with no third-party source in credits/SOURCES.txt.",
+        "alt": "Bound To Rot game logo",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/README.md",
+            "label": "Developer readme with gameplay, controls and the release workflow",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://api.github.com/repos/MangasMango/bound-to-rot/releases/latest",
+            "label": "Latest release v0.2.2 is published without any downloadable build files",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/credits/SOURCES.txt",
+            "label": "Asset source list separating original art from third-party CC0, CC-BY and CC-BY-SA work",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "control-of-chaos-tcg",
+      "kind": "game",
+      "name": "Control of Chaos",
+      "developer": "crisdesivo",
+      "category": "Card battler",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/crisdesivo/Control-of-chaos-TCG/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Control of Chaos is a retro two-player trading card duel in Python and Pyxel, drawn in a 256x256 pixel window. Its rules engine is screen-independent, so the same code drives the GUI, an AI opponent and a headless runner that can play a thousand AI-versus-AI duels in about a second.",
+      "features": [
+        "Deploy units, attach energies of five types and use techniques against 20 life points",
+        "Rules engine that knows nothing about the display, shared by GUI, AI and headless runs",
+        "Mouse-driven pixel-art interface with card fanning, inspection, highlighted targets and scrolling announcements",
+        "Headless simulation of about 1,000 AI-versus-AI duels per second for rule testing"
+      ],
+      "insight": "Separating the rules from the screen is what makes the project interesting to read as software: the same engine answers a player's click, an AI's choice and a thousand unattended duels.",
+      "officialUrl": "https://github.com/crisdesivo/Control-of-chaos-TCG",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/crisdesivo/Control-of-chaos-TCG"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/crisdesivo/Control-of-chaos-TCG"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/crisdesivo/Control-of-chaos-TCG",
+        "githubRepo": "crisdesivo/Control-of-chaos-TCG"
+      },
+      "asset": {
+        "path": "/images/discover/control-of-chaos-tcg.png",
+        "sourceUrl": "https://raw.githubusercontent.com/crisdesivo/Control-of-chaos-TCG/HEAD/ui/assets/good_neighbors.png",
+        "license": "unknown",
+        "licenseUrl": "https://raw.githubusercontent.com/crisdesivo/Control-of-chaos-TCG/HEAD/LICENSE.txt",
+        "attribution": "Repository media review pending: the only in-game images are small card sprites and an animated GIF, which is not an allowed artwork format for this section.",
+        "alt": "Control of Chaos card artwork",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/crisdesivo/Control-of-chaos-TCG/HEAD/README.md",
+            "label": "Developer readme with game rules, engine design and simulation behaviour",
+            "checks": [
+              "identity",
+              "features",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/crisdesivo/Control-of-chaos-TCG/HEAD/LICENSE.txt",
+            "label": "GPL-3.0 licence text for the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Only verified entries may publish",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Price source URL must have price evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "blinks-thinks",
+      "kind": "game",
+      "name": "Blink's Thinks",
+      "developer": "jhayden02",
+      "category": "Point-and-click puzzle",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Web browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/jhayden02/blinks_thinks/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Blink's Thinks is a small self-hosting point-and-click puzzle game in C++ on a custom raylib engine, recompiled to GitHub Pages by CI so the browser build stays current with the source.",
+      "features": [
+        "Point-and-click puzzle gameplay built on a small custom raylib engine",
+        "Compilable for Windows and Linux, with an Emscripten web build",
+        "GitHub Actions rebuilds the hosted web game whenever source files change"
+      ],
+      "insight": "Treating a web build as part of the repository, regenerated by CI on every push, is a cheap way for a solo project to keep its playable link honest.",
+      "officialUrl": "https://jhayden02.github.io/blinks-thinks/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/jhayden02/blinks_thinks"
+      },
+      "distribution": [
+        {
+          "label": "Official web build",
+          "url": "https://jhayden02.github.io/blinks-thinks/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://jhayden02.github.io/blinks-thinks/",
+        "githubRepo": "jhayden02/blinks_thinks"
+      },
+      "asset": {
+        "path": "/images/discover/blinks-thinks.png",
+        "sourceUrl": "https://raw.githubusercontent.com/jhayden02/blinks_thinks/HEAD/res/img/title_text.png",
+        "license": "unknown",
+        "licenseUrl": "https://raw.githubusercontent.com/jhayden02/blinks_thinks/HEAD/LICENSE",
+        "attribution": "Artwork unresolved: the repository tracks only a 1kB title-text strip, which is not a usable cover image for this section.",
+        "alt": "Blink's Thinks title text",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jhayden02/blinks_thinks/HEAD/README.md",
+            "label": "Developer readme with engine, platforms, hosted build and licence notes",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jhayden02/blinks_thinks/HEAD/LICENSE",
+            "label": "GPL-3.0 licence text for the repository",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Only verified entries may publish",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "zen-games",
+      "kind": "game",
+      "name": "Zen Games",
+      "developer": "vurglepuddle",
+      "category": "Puzzle collection",
+      "platforms": [
+        "Android",
+        "Web browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/vurglepuddle/retro-zen-games/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Zen Games is an open-source puzzle toybox of small no-fail mini-games, built with Godot for Android and the browser, with match-three, tile-chain, sorting and garden puzzles in a single package.",
+      "features": [
+        "Collection of mini-games with no fail states, built for relaxed play",
+        "Godot project with Android and web export targets tracked in the repository",
+        "Includes match-three, tile chain, sorting and garden puzzle modes",
+        "Own pixel artwork, music, sound effects and a pixel font"
+      ],
+      "insight": "The project keeps its own artwork, audio and font under one explicit licence, which is exactly the record an editorial reuse decision needs.",
+      "officialUrl": "https://github.com/vurglepuddle/retro-zen-games",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/vurglepuddle/retro-zen-games"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/vurglepuddle/retro-zen-games"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/vurglepuddle/retro-zen-games",
+        "githubRepo": "vurglepuddle/retro-zen-games"
+      },
+      "asset": {
+        "path": "/images/discover/zen-games.png",
+        "sourceUrl": "https://raw.githubusercontent.com/vurglepuddle/retro-zen-games/HEAD/assets/social/zen-games-cover.jpg",
+        "license": "unknown",
+        "licenseUrl": "https://raw.githubusercontent.com/vurglepuddle/retro-zen-games/HEAD/CREDITS.md",
+        "attribution": "CREDITS.md licenses the original Zen Games artwork as CC BY-NC-SA 4.0, which restricts reuse to non-commercial purposes, so no artwork grant is available for this site.",
+        "alt": "Zen Games cover artwork",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/vurglepuddle/retro-zen-games/HEAD/README.md",
+            "label": "Developer readme describing the mini-game collection and its export targets",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "price"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/vurglepuddle/retro-zen-games/HEAD/CREDITS.md",
+            "label": "Asset licence grant: CC BY-NC-SA 4.0, non-commercial only, with listed exclusions",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Only verified entries may publish",
+      "Missing distribution evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "little-farmer",
+      "kind": "game",
+      "name": "Little Farmer",
+      "developer": "levalyukov",
+      "category": "Farming sim",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://github.com/levalyukov/little-farmer",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "Little Farmer is a pixel farming simulator made with Godot 4.2.2, whose repository splits its licensing between GPL-3.0 code and CC-BY-4.0 material.",
+      "features": [
+        "Pixel-art farm simulation built with Godot 4.2.2",
+        "Seasonal building and animal sprites tracked in the repository",
+        "Documentation assets licensed CC-BY-4.0 separately from GPL-3.0 code"
+      ],
+      "insight": "The dual licence file layout is unusually tidy, even though the project itself has no readme to explain what the game offers.",
+      "officialUrl": "https://github.com/levalyukov/little-farmer",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/levalyukov/little-farmer"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/levalyukov/little-farmer"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/levalyukov/little-farmer",
+        "githubRepo": "levalyukov/little-farmer"
+      },
+      "asset": {
+        "path": "/images/discover/little-farmer.png",
+        "sourceUrl": "https://raw.githubusercontent.com/levalyukov/little-farmer/HEAD/LICENSE-CCBY-4.0",
+        "license": "CC-BY-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/levalyukov/little-farmer/HEAD/LICENSE-CCBY-4.0",
+        "attribution": "No cover image has been published in the repository; only in-game sprite sheets exist, and none has been verified as promotional artwork.",
+        "alt": "Little Farmer placeholder",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/levalyukov/little-farmer/HEAD/LICENSE-CCBY-4.0",
+            "label": "CC-BY-4.0 licence text for the project's documentation and artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "url": "https://api.github.com/repos/levalyukov/little-farmer",
+            "label": "GitHub repository metadata; the project has no readme or homepage to verify features",
+            "checks": [
+              "identity"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Only verified entries may publish",
+      "Missing platforms evidence",
+      "Missing features evidence",
+      "Missing distribution evidence",
+      "Missing price evidence",
+      "Price source URL must have price evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "composelife",
+      "kind": "app",
+      "name": "ComposeLife",
+      "developer": "alexvanyo",
+      "category": "Cellular automata",
+      "platforms": [
+        "Android",
+        "Wear OS",
+        "Desktop",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/alexvanyo/composelife/HEAD/README.md",
+        "checkedAt": "2026-11-15"
+      },
+      "summary": "ComposeLife is a work-in-progress Game of Life simulator built as a Kotlin Multiplatform app with Jetpack Compose, covering a phone simulator, desktop app, web app and a Wear OS watchface that shows the time while a random soup evolves around it.",
+      "features": [
+        "Game of Life simulator with running, editing and pattern exploration on mobile",
+        "Wear OS watchface showing a stable time pattern inside evolving soup",
+        "Desktop and web targets from the same Kotlin Multiplatform codebase",
+        "Rendering through AGSL, OpenGL and SKSL"
+      ],
+      "insight": "The watchface is the most original part: a clock whose decoration is a live cellular automaton that can destroy the display while you are reading it.",
+      "officialUrl": "https://github.com/alexvanyo/composelife",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/alexvanyo/composelife"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/alexvanyo/composelife"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/alexvanyo/composelife",
+        "githubRepo": "alexvanyo/composelife"
+      },
+      "asset": {
+        "path": "/images/discover/composelife.png",
+        "sourceUrl": "https://raw.githubusercontent.com/alexvanyo/composelife/HEAD/app/src/androidMain/ic_launcher-playstore.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/alexvanyo/composelife/HEAD/LICENSE",
+        "attribution": "ComposeLife launcher icon from the alexvanyo/composelife repository, Apache License 2.0.",
+        "alt": "ComposeLife app icon",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/alexvanyo/composelife/HEAD/README.md",
+            "label": "Developer readme with module list, platforms, watchface and licence; no packaged install route is published",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-15"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-15",
+    "reasons": [
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
   }
 ]
