@@ -1,0 +1,1329 @@
+{
+  "date": "2026-11-17",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-17T07:28:29.444Z",
+  "entries": [
+    {
+      "slug": "project-boki",
+      "kind": "game",
+      "name": "Project Boki",
+      "developer": "OrriBogdan2",
+      "category": "Creature Collector",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Project Boki pairs a creature-raising farm with PvPvE extraction runs in one Godot 4.6 game. You bond with a Boki companion, raise it on a floating-island farm between expeditions, then race rival crews to the Wyrmheart while the creature you trained fights beside you, on its own, or occasionally against your better judgment.",
+      "features": [
+        "Six companion species built from pairs of real animals, each with its own element and personality that remembers how you treat it",
+        "Extraction matches against rival crews with rideable, throwable and autonomous companion combat, plus a bond-meter ultimate",
+        "A floating-island farm loop where Boki live, grow and decide how much to trust you between runs",
+        "Compatibility renderer keeps the same build running on Windows, macOS, Linux and the web",
+        "A generated wiki covering classes, creatures, expeditions and the codebase architecture"
+      ],
+      "insight": "Most creature collectors keep the pet as a stat line; Boki makes the companion a second decision-maker that can refuse an order it thinks is reckless, which turns trust-raising into an actual mechanic instead of a progress bar.",
+      "officialUrl": "https://github.com/OrriBogdan2/project-boki",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/OrriBogdan2/project-boki"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/OrriBogdan2/project-boki/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/OrriBogdan2/project-boki",
+        "githubRepo": "OrriBogdan2/project-boki"
+      },
+      "asset": {
+        "path": "/images/discover/project-boki.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/docs/shots/albert-clean1/albert_vex_cinder.jpg",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/LICENSE",
+        "attribution": "Project Boki gameplay screenshot from the OrriBogdan2/project-boki repository, GPL-3.0 (c) the Project Boki authors. Third-party CC0 model packs are credited separately in the repository.",
+        "alt": "Project Boki hunter with a companion creature in a match",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/project-boki-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/README.md",
+            "label": "Developer readme covering the farm loop, creatures, controls and platforms",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/docs/ASSET_CREDITS.md",
+            "label": "Asset credits naming CC0 third-party packs and the artwork scope",
+            "checks": [
+              "identity",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/OrriBogdan2/project-boki/releases/latest",
+            "label": "Release metadata with Windows, macOS and Linux builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/OrriBogdan2/project-boki/HEAD/docs/shots/albert-clean1/albert_vex_cinder.jpg",
+            "label": "Official gameplay screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "game-of-crowns",
+      "kind": "game",
+      "name": "Game of Crowns",
+      "developer": "off-grid-ai",
+      "category": "Grand Strategy",
+      "platforms": [
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/off-grid-ai/game-of-crowns/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Game of Crowns is a medieval grand strategy game about holding a throne with grain, gold and your word at court. Seven great houses want yours, every lord keeps a grudge ledger with the year and the reason, and the story of your reign is told through the promises you keep or break.",
+      "features": [
+        "Court-first rule: answer grievances at court with amends, hearings or cold decree, and watch houses remember for a decade",
+        "83 lords, consorts, heirs and bannermen whose interlocking pasts hide ten bannermen already planning to turn their coats",
+        "Story scenarios such as The Broken Oath, The Long Winter and The Crown's Debt, or let the realm choose for you",
+        "Famine, harvest and war managed through a Hand of the King counsel and the towns behind your castle walls",
+        "Built on Godot with Freeciv lineage, free for Apple Silicon Macs"
+      ],
+      "insight": "Crusader Kings taught the genre memory, but a free open-source take that logs every snub with the exact year and reason, then brings it back at court, is a rare thing to find outside AAA budgets.",
+      "officialUrl": "https://github.com/off-grid-ai/game-of-crowns",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/off-grid-ai/game-of-crowns"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/off-grid-ai/game-of-crowns/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/off-grid-ai/game-of-crowns",
+        "githubRepo": "off-grid-ai/game-of-crowns"
+      },
+      "asset": {
+        "path": "/images/discover/game-of-crowns.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/off-grid-ai/game-of-crowns/HEAD/docs/play/launch/king_throne.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/off-grid-ai/game-of-crowns/HEAD/LICENSE",
+        "attribution": "Game of Crowns launch scene from the off-grid-ai/game-of-crowns repository, MIT license (c) 2026 The Game of Crowns authors.",
+        "alt": "The king on his throne as a lord stands before the court",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/game-of-crowns-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/off-grid-ai/game-of-crowns/HEAD/README.md",
+            "label": "Developer readme covering court mechanics, houses and the macOS download",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/off-grid-ai/game-of-crowns/HEAD/LICENSE",
+            "label": "MIT license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/off-grid-ai/game-of-crowns/releases/latest",
+            "label": "Release metadata with the arm64 macOS build",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/off-grid-ai/game-of-crowns/HEAD/docs/play/launch/king_throne.jpg",
+            "label": "Official launch scene used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "simcruise",
+      "kind": "game",
+      "name": "SimCruise",
+      "developer": "simcruisegame",
+      "category": "Driving Simulator",
+      "platforms": [
+        "Windows"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/simcruisegame/simcruise/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "SimCruise is a free, open-source driving simulator that builds real American roads on the fly: type any US address and Unreal Engine 5 assembles the streets, terrain and trees from OpenStreetMap, USGS elevation and aerial photos, then lets you drive them with cars calibrated against real road tests.",
+      "features": [
+        "Drive any real road in the US, generated live from OpenStreetMap data, USGS elevation and aerial imagery",
+        "Cars calibrated against real road tests with keyboard, Xbox controller or USB wheel support",
+        "Famous-roads tours including the Tail of the Dragon, routed by the built-in GPS",
+        "No account, no keys, no telemetry; only free public data cached on disk",
+        "Windows installer and portable zip from GitHub releases"
+      ],
+      "insight": "Flight sims have mapped the whole planet for years, but an open-source driving sim that renders any US road you name, for free and without telemetry, is the kind of open-data project that usually stays a research demo.",
+      "officialUrl": "https://github.com/simcruisegame/simcruise",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/simcruisegame/simcruise"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/simcruisegame/simcruise/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/simcruisegame/simcruise",
+        "githubRepo": "simcruisegame/simcruise"
+      },
+      "asset": {
+        "path": "/images/discover/simcruise.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/simcruisegame/simcruise/HEAD/docs/images/release-2.0.2/06-miata-tail-of-the-dragon-chase.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/simcruisegame/simcruise/HEAD/LICENSE",
+        "attribution": "SimCruise screenshot from the simcruisegame/simcruise repository, MIT license (c) 2026 OSDS contributors. The pictured world is built from OpenStreetMap data (c) OpenStreetMap contributors and USGS imagery.",
+        "alt": "A Mazda Miata on the Tail of the Dragon built from real map data",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/simcruise-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/simcruisegame/simcruise/HEAD/README.md",
+            "label": "Developer readme covering data sources, requirements and downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/simcruisegame/simcruise/HEAD/LICENSE",
+            "label": "MIT license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/simcruisegame/simcruise/releases/latest",
+            "label": "Release metadata with the Windows setup and zip",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/simcruisegame/simcruise/HEAD/docs/images/release-2.0.2/06-miata-tail-of-the-dragon-chase.jpg",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bound-to-rot",
+      "kind": "game",
+      "name": "Bound To Rot",
+      "developer": "MangasMango",
+      "category": "Action RPG",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Bound To Rot is a western dark-fantasy isometric action RPG written in Python, built around an endless descent where depth drives monster levels, loot quality and everything else. A mobile light anchor called the Pulse paces each run: step outside its radius and the darkness starts eating you.",
+      "features": [
+        "Endless isometric descent (Anima) with depth-driven difficulty, monster levels and reward quality",
+        "The Pulse light anchor with chart checkpoints and a pick-one-of-three relic boon between waves",
+        "Items drop unidentified and are revealed with tarot cards that double as crafting currency; socketed gems grant abilities",
+        "Fallout-style leveling with seven attributes, a level cap of 70 and death that costs 10 percent of current-level XP",
+        "A per-file credits file separating original art from CC0, CC-BY and CC-BY-SA third-party assets"
+      ],
+      "insight": "A solo developer shipping a Diablo-style ARPG in Python is unusual enough; documenting every sprite's provenance in credits/SOURCES.txt, file area by file area, makes it a model open-source game to boot.",
+      "officialUrl": "https://github.com/MangasMango/bound-to-rot",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/MangasMango/bound-to-rot"
+      },
+      "distribution": [
+        {
+          "label": "Steam",
+          "url": "https://store.steampowered.com/app/4840980/Bound_to_Rot/"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/MangasMango/bound-to-rot"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MangasMango/bound-to-rot",
+        "githubRepo": "MangasMango/bound-to-rot"
+      },
+      "asset": {
+        "path": "/images/discover/bound-to-rot.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/assets/logo/github-logo.jpg",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/LICENSE",
+        "attribution": "Bound To Rot logo from the MangasMango/bound-to-rot repository, GPL-3.0 (c) MangasMango. credits/SOURCES.txt lists assets/logo/ as original art with no third-party source.",
+        "alt": "Bound To Rot western dark fantasy logo banner",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/bound-to-rot-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/README.md",
+            "label": "Developer readme covering gameplay, runs, downloads and the Steam store link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/credits/SOURCES.txt",
+            "label": "Asset credits listing assets/logo/ as original art and licensing every third-party pack",
+            "checks": [
+              "identity",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/MangasMango/bound-to-rot/releases/latest",
+            "label": "Release metadata for the latest tagged build",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MangasMango/bound-to-rot/HEAD/assets/logo/github-logo.jpg",
+            "label": "Official logo used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sunstreak",
+      "kind": "game",
+      "name": "Sunstreak",
+      "developer": "reneweller-coding",
+      "category": "Arcade Racing",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/reneweller-coding/Sunstreak/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Sunstreak is an arcade racer in the spirit of Lotus III that tours the whole world: the road is generated five metres at a time as you drive through 781 real places in all 202 countries and territories, with seasons, festivals, border forks and a clock that only checkpoints refill. Every pixel and every radio station is produced by the program itself.",
+      "features": [
+        "Procedurally generated world-tour roads through 781 real places in 202 countries, with seasons and festivals",
+        "Everything generated in code: low-poly world, sky, stroke font and 31 radio stations composing music as you listen; the game is a single 9 MB file",
+        "Border forks let you choose the next country, and continents are crossed by glass sea-floor tunnels or the Channel car train",
+        "Arcade checkpoint racing with traffic to slice through, on Windows, Linux and Steam Deck",
+        "A self-illustrated manual PDF plus itch.io distribution alongside GitHub releases"
+      ],
+      "insight": "OutRun-style Scorpio games used to need hand-drawn stages; Sunstreak composes its scenery and even its radio music live from code, which makes a world tour of 202 countries fit in a 9 MB download.",
+      "officialUrl": "https://github.com/reneweller-coding/Sunstreak",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/reneweller-coding/Sunstreak"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/reneweller-coding/Sunstreak/releases/latest"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://reneweller-coding.itch.io/sunstreak"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/reneweller-coding/Sunstreak",
+        "githubRepo": "reneweller-coding/Sunstreak"
+      },
+      "asset": {
+        "path": "/images/discover/sunstreak.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/reneweller-coding/Sunstreak/HEAD/docs/screenshots/tokyo-night.jpg",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/reneweller-coding/Sunstreak/HEAD/LICENSE",
+        "attribution": "Sunstreak screenshot (Tokyo at night, stage one of a world tour) from the reneweller-coding/Sunstreak repository, AGPL-3.0 (c) the Sunstreak authors.",
+        "alt": "Sunstreak's Tokyo at night stage from the world tour",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/sunstreak-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/reneweller-coding/Sunstreak/HEAD/README.md",
+            "label": "Developer readme covering the world tour, downloads and procedural scope",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/reneweller-coding/Sunstreak/HEAD/LICENSE",
+            "label": "AGPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/reneweller-coding/Sunstreak/releases/latest",
+            "label": "Release metadata with Windows and Linux packages",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/reneweller-coding/Sunstreak/HEAD/docs/screenshots/tokyo-night.jpg",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gone-fishing",
+      "kind": "game",
+      "name": "Gone Fishing",
+      "developer": "SkyWalker541",
+      "category": "Fishing",
+      "platforms": [
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free (CC BY-NC-ND licensed)",
+        "sourceUrl": "https://raw.githubusercontent.com/SkyWalker541/Gone-Fishing/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Gone Fishing is a cozy pixel-art fishing game for PortMaster handhelds, made with LÖVE. Row or motor across five places from an autumn lake to the Columbia River under Mt. Hood, watch fish swim under your boat and place your lure where they actually are, with realistic casting and line physics.",
+      "features": [
+        "45 fish, including five legends, each with its own fight, across five hand-paced locations",
+        "Realistic casting, line physics, bobbers with settable depth, lures and a trolling motor",
+        "Weather, shore wildlife, 66 achievements, gear upgrades and three save slots",
+        "A dog or cat for company, with a dedicated pet button on the control map",
+        "Ready-to-run PortMaster package, tested on the TrimUI Brick with NextUI"
+      ],
+      "insight": "Handheld-native cozy games rarely leave phone stores, but this one targets the PortMaster scene directly: watching real fish under the boat before casting is a small simulation touch most fishing games skip.",
+      "officialUrl": "https://github.com/SkyWalker541/Gone-Fishing",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/SkyWalker541/Gone-Fishing"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/SkyWalker541/Gone-Fishing/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/SkyWalker541/Gone-Fishing",
+        "githubRepo": "SkyWalker541/Gone-Fishing"
+      },
+      "asset": {
+        "path": "/images/discover/gone-fishing.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/SkyWalker541/Gone-Fishing/HEAD/cover.jpg",
+        "license": "CC-BY-NC-ND-4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/SkyWalker541/Gone-Fishing/HEAD/README.md",
+        "attribution": "Gone Fishing cover from the SkyWalker541/Gone-Fishing repository, used unmodified. The project readme licenses the work CC BY-NC-ND 4.0: free to share with attribution, not for sale, no modified versions.",
+        "alt": "Gone Fishing pixel-art cover",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/gone-fishing-CC-BY-NC-ND-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SkyWalker541/Gone-Fishing/HEAD/README.md",
+            "label": "Developer readme with game facts, controls and the CC BY-NC-ND 4.0 license statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/SkyWalker541/Gone-Fishing/releases/latest",
+            "label": "Release metadata with the PortMaster package",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SkyWalker541/Gone-Fishing/HEAD/cover.jpg",
+            "label": "Official cover used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "horus",
+      "kind": "app",
+      "name": "Horus",
+      "developer": "scarif-labs",
+      "category": "Developer Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/scarif-labs/horus/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Horus runs Claude Code, Codex and OpenCode inside a real Alpine Linux workspace on an Android phone. It needs no root and no Termux: the terminal, the agents and the files live in one app, with F-Droid and GitHub APK distribution for Android 7.0 and later on arm64.",
+      "features": [
+        "Real Alpine Linux workspace on Android with no root and no Termux",
+        "Claude Code, Codex and OpenCode command-line agents running on-device",
+        "MIT-licensed and distributed through F-Droid as well as GitHub APK releases",
+        "Android 7.0+ on arm64 devices",
+        "Docs, a CLI reference and issue tracker maintained alongside the app"
+      ],
+      "insight": "Phone-based coding agents usually mean a browser tab; Horus instead ships the whole proot Linux sandbox plus the agent CLIs, turning an Android 7 phone into a usable agent workstation.",
+      "officialUrl": "https://github.com/scarif-labs/horus",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/scarif-labs/horus"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.scariflabs.horus/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/scarif-labs/horus/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/scarif-labs/horus",
+        "androidPackageId": "com.scariflabs.horus",
+        "githubRepo": "scarif-labs/horus"
+      },
+      "asset": {
+        "path": "/images/discover/horus.png",
+        "sourceUrl": "https://raw.githubusercontent.com/scarif-labs/horus/HEAD/docs/readme/banner.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/scarif-labs/horus/HEAD/LICENSE",
+        "attribution": "Horus banner from the scarif-labs/horus repository, MIT license (c) 2026 0x1379. Horus is not affiliated with the agent vendors named in its readme.",
+        "alt": "Horus banner showing the supported coding agents",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/horus-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/scarif-labs/horus/HEAD/README.md",
+            "label": "Developer readme covering the workspace, supported agents and store links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/scarif-labs/horus/HEAD/LICENSE",
+            "label": "MIT license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/scarif-labs/horus/releases/latest",
+            "label": "Release metadata with the signed APK and checksums",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/scarif-labs/horus/HEAD/docs/readme/banner.png",
+            "label": "Official banner used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "agent-vscreen",
+      "kind": "app",
+      "name": "Agent-VScreen",
+      "developer": "kilolonion",
+      "category": "AI Tools",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/kilolonion/agent-vscreen/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Agent-VScreen gives any Android AI agent a background second screen: the agent opens and drives apps on an invisible virtual display while your real screen stays yours, and a small floating window shows what it is doing so you can watch, take over or stop at any moment.",
+      "features": [
+        "Apps operate on an invisible virtual display while the user keeps using the phone normally",
+        "A floating window mirrors the agent's progress and supports taking over or stopping mid-task",
+        "Three integration paths: a vscreen CLI for terminal agents, MCP for agent frameworks, and plain HTTP for custom code",
+        "Shizuku-based setup with no root required, on Android 11 and later",
+        "Bilingual English and Chinese documentation"
+      ],
+      "insight": "Phone agents are stuck behind the fact that only one screen exists; giving them an invisible one, with a floating mirror you can grab back instantly, is a genuinely new interaction model for mobile automation.",
+      "officialUrl": "https://github.com/kilolonion/agent-vscreen",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/kilolonion/agent-vscreen"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/kilolonion/agent-vscreen/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/kilolonion/agent-vscreen",
+        "githubRepo": "kilolonion/agent-vscreen"
+      },
+      "asset": {
+        "path": "/images/discover/agent-vscreen.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kilolonion/agent-vscreen/HEAD/docs/agents.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/kilolonion/agent-vscreen/HEAD/LICENSE",
+        "attribution": "Agent-VScreen diagram from the kilolonion/agent-vscreen repository, MIT license (c) 2026 kilolonion.",
+        "alt": "Diagram of Agent-VScreen's supported agent integrations",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/agent-vscreen-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kilolonion/agent-vscreen/HEAD/README.md",
+            "label": "Developer readme covering the virtual display, integrations and requirements",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kilolonion/agent-vscreen/HEAD/LICENSE",
+            "label": "MIT license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/kilolonion/agent-vscreen/releases/latest",
+            "label": "Release metadata with the APK package",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kilolonion/agent-vscreen/HEAD/docs/agents.png",
+            "label": "Official diagram used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nonius",
+      "kind": "app",
+      "name": "Nonius",
+      "developer": "john-athan",
+      "category": "Utilities",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/john-athan/nonius/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Nonius packs ten measuring instruments Android does not ship into about 1.5 MB, with no network permission at all: a level, compass, ruler, sound level meter, tuner, counter, altimeter, light meter, metronome and G-force meter, each with per-device calibration you control.",
+      "features": [
+        "Ten instruments reading the gravity sensor, magnetometer, barometer, light sensor and microphone your phone already has",
+        "No network permission ever; one microphone permission, requested only when the sound meter or tuner opens",
+        "Per-device calibrations for level zero point, ruler correction, compass declination, concert pitch, altimeter reference pressure and more",
+        "Instrument-first faces drawn from scratch rather than stock UI components, in roughly 1.5 MB",
+        "The compass face doubles as a metal detector and switches to true north via a set declination instead of location access"
+      ],
+      "insight": "The app-store instrument category is mostly ads wrapped around a bubble level; Nonius proves the same sensors can drive ten honest, calibrated tools in 1.5 MB with literally zero network access.",
+      "officialUrl": "https://github.com/john-athan/nonius",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/john-athan/nonius"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/john-athan/nonius/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/john-athan/nonius",
+        "githubRepo": "john-athan/nonius"
+      },
+      "asset": {
+        "path": "/images/discover/nonius.png",
+        "sourceUrl": "https://raw.githubusercontent.com/john-athan/nonius/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/john-athan/nonius/HEAD/LICENSE",
+        "attribution": "Nonius screenshot from the john-athan/nonius repository, GPL-3.0 (c) john-athan.",
+        "alt": "Nonius instrument screen on a phone",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/nonius-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/john-athan/nonius/HEAD/README.md",
+            "label": "Developer readme listing all ten instruments, permissions and calibrations",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/john-athan/nonius/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/john-athan/nonius/releases/latest",
+            "label": "Release metadata with the APK package",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/john-athan/nonius/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/01.png",
+            "label": "Official store screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "shelf",
+      "kind": "app",
+      "name": "Shelf",
+      "developer": "tn3w",
+      "category": "Books & Reading",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/tn3w/Shelf/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Shelf is a private, offline book app for Android that finds, tracks and reads books without an account: scan covers, follow reading streaks, and read EPUB, PDF, Kindle and comics in one place, as a Goodreads alternative with no ads and no tracking.",
+      "features": [
+        "Find books offline through Open Library and OPDS catalogs",
+        "Cover scanning and reading streaks without any account",
+        "Reads EPUB, PDF, Kindle files and CBZ comics in one reader",
+        "No account, no ads, no tracking; library stays on the device",
+        "Distributed through F-Droid and GitHub with Material You design"
+      ],
+      "insight": "Book tracking has quietly become an account-service business; Shelf rebuilds the whole loop, from discovery to streaks to reading, entirely offline and local-first.",
+      "officialUrl": "https://github.com/tn3w/Shelf",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/tn3w/Shelf"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.tn3w.shelf/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/tn3w/Shelf/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/tn3w/Shelf",
+        "androidPackageId": "dev.tn3w.shelf",
+        "githubRepo": "tn3w/Shelf"
+      },
+      "asset": {
+        "path": "/images/discover/shelf.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/tn3w/Shelf/HEAD/android/app/fastlane/metadata/android/en-US/images/phoneScreenshots/3_reader.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/tn3w/Shelf/HEAD/LICENSE",
+        "attribution": "Shelf reader screenshot from the tn3w/Shelf repository, MIT license (c) 2026 TN3W.",
+        "alt": "Shelf's EPUB reader screen",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/shelf-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/tn3w/Shelf/HEAD/README.md",
+            "label": "Developer readme covering formats, catalogs and distribution",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tn3w/Shelf/HEAD/LICENSE",
+            "label": "MIT license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/tn3w/Shelf/releases/latest",
+            "label": "Release metadata with changelogs and APK",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/tn3w/Shelf/HEAD/android/app/fastlane/metadata/android/en-US/images/phoneScreenshots/3_reader.jpg",
+            "label": "Official store screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kite-maps",
+      "kind": "app",
+      "name": "Kite Maps",
+      "developer": "MatteoFX1",
+      "category": "Maps & Navigation",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Kite Maps is an open-source maps and turn-by-turn navigation app for Android and iPhone made for driving, with the same experience and version numbers on both platforms and no Google account required. It is a beta hobby project distributed through its own F-Droid repository and GitHub releases.",
+      "features": [
+        "Turn-by-turn driving navigation without a Google account",
+        "Map rendered from OpenStreetMap data through MapLibre",
+        "Saved places, light and dark themes, and searchable browsing",
+        "Identical app and version numbers on Android 8+ and iOS 16+",
+        "Installed by adding the developer's F-Droid repository on Android, or AltStore on iPhone"
+      ],
+      "insight": "Cross-platform map apps usually fork into two products; Kite keeps one experience across iPhone and Android while leaving the Google account behind, which is rare even among paid navigation apps.",
+      "officialUrl": "https://github.com/MatteoFX1/kite-maps",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/MatteoFX1/kite-maps"
+      },
+      "distribution": [
+        {
+          "label": "Developer F-Droid repository",
+          "url": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/fdroid/repo"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/MatteoFX1/kite-maps/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MatteoFX1/kite-maps",
+        "githubRepo": "MatteoFX1/kite-maps"
+      },
+      "asset": {
+        "path": "/images/discover/kite-maps.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/HEAD/docs/screenshots/android/directions.jpg",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/HEAD/LICENSE",
+        "attribution": "Kite Maps navigation screenshot from the MatteoFX1/kite-maps repository, GPL-3.0 (c) MatteoFX1. Map data (c) OpenStreetMap contributors; Kite Maps is not affiliated with Google.",
+        "alt": "Kite Maps turn-by-turn directions screen",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/kite-maps-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/HEAD/README.md",
+            "label": "Developer readme covering navigation, platforms and the F-Droid repo install",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/MatteoFX1/kite-maps/releases/latest",
+            "label": "Release metadata with the Android and iOS packages",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MatteoFX1/kite-maps/HEAD/docs/screenshots/android/directions.jpg",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "apodroid",
+      "kind": "app",
+      "name": "APODroid",
+      "developer": "buerlino",
+      "category": "Personalization",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/buerlino/APODroid/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "APODroid sets NASA's Astronomy Picture of the Day as your Android wallpaper on its own schedule, and can rotate in NASA's Image of the Day and the Earth Observatory's Image of the Day, with no account, no tracking and no proprietary dependencies.",
+      "features": [
+        "NASA's Astronomy Picture of the Day applied as home screen, lock screen or both, on a schedule you set",
+        "Optional rotation of NASA Image of the Day and Earth Observatory Image of the Day every 3 to 24 hours",
+        "Handles APOD video days by skipping, substituting or using your own picture",
+        "Saves every new picture to your gallery and marks which one is currently on the wallpaper",
+        "No account, no tracking, no proprietary dependencies; distributed on F-Droid and GitHub"
+      ],
+      "insight": "Wallpaper apps are usually ad-ware with a photo pack; this one quietly turns your phone into a daily window onto NASA's archive, video days and all, in a few hundred kilobytes of Kotlin.",
+      "officialUrl": "https://github.com/buerlino/APODroid",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/buerlino/APODroid"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.buerlino.apodroid/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/buerlino/APODroid/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/buerlino/APODroid",
+        "androidPackageId": "io.github.buerlino.apodroid",
+        "githubRepo": "buerlino/APODroid"
+      },
+      "asset": {
+        "path": "/images/discover/apodroid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/buerlino/APODroid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/buerlino/APODroid/HEAD/LICENSE",
+        "attribution": "APODroid screenshot from the buerlino/APODroid repository, GPL-3.0 (c) buerlino. The pictured NASA content follows NASA's own imagery credit and usage policy.",
+        "alt": "APODroid showing today's Astronomy Picture of the Day",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/apodroid-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/buerlino/APODroid/HEAD/README.md",
+            "label": "Developer readme covering sources, scheduling and F-Droid link",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/buerlino/APODroid/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/buerlino/APODroid/releases/latest",
+            "label": "Release metadata with the APK package",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/buerlino/APODroid/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+            "label": "Official store screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pingogram",
+      "kind": "app",
+      "name": "Pingogram",
+      "developer": "kyra-labs",
+      "category": "Messaging",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/kyra-labs/pingogram-android/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "Pingogram is an open-source third-party Telegram client for Android built from scratch in Kotlin and Jetpack Compose on TDLib, Telegram's official client library, wrapped in Material 3 Expressive design with no analytics, no ads and no telemetry.",
+      "features": [
+        "Full Telegram account client built on the official TDLib library",
+        "Material 3 Expressive interface: Google Sans Flex type, expressive shapes, spring motion and dynamic color from your wallpaper",
+        "Layouts that adapt from phones to tablets and foldables",
+        "Talks only to Telegram's servers through TDLib, with no analytics or ads",
+        "GPL-3.0 with per-ABI and universal APK releases and Weblate translations"
+      ],
+      "insight": "Telegram's third-party scene has settled into a few big forks; Pingogram is a from-scratch Compose client betting that interface expressiveness, not feature parity, is what a messenger refresh needs.",
+      "officialUrl": "https://github.com/kyra-labs/pingogram-android",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/kyra-labs/pingogram-android"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/kyra-labs/pingogram-android/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/kyra-labs/pingogram-android",
+        "githubRepo": "kyra-labs/pingogram-android"
+      },
+      "asset": {
+        "path": "/images/discover/pingogram.png",
+        "sourceUrl": "https://raw.githubusercontent.com/kyra-labs/pingogram-android/HEAD/docs/screenshots/chat-light.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/kyra-labs/pingogram-android/HEAD/LICENSE",
+        "attribution": "Pingogram chat screenshot from the kyra-labs/pingogram-android repository, GPL-3.0 (c) kyra-labs. Pingogram is not affiliated with Telegram.",
+        "alt": "Pingogram's Material 3 Expressive chat screen",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/pingogram-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/kyra-labs/pingogram-android/HEAD/README.md",
+            "label": "Developer readme covering TDLib, design and the no-telemetry stance",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kyra-labs/pingogram-android/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/kyra-labs/pingogram-android/releases/latest",
+            "label": "Release metadata with universal and per-ABI APKs",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/kyra-labs/pingogram-android/HEAD/docs/screenshots/chat-light.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    }
+  ]
+}

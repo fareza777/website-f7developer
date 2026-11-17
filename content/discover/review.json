@@ -6779,5 +6779,213 @@
       "Artwork license URL must have asset-license evidence",
       "Daily target already filled; retain candidate for fresh verification on a later date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "unbraid",
+      "kind": "app",
+      "name": "unbraid",
+      "developer": "Quiet-Crafts",
+      "category": "Networking",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/Quiet-Crafts/unbraid/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "unbraid is a split tunneling VPN client for Android that gives every app its own exit at the same time: your banking app can skip the VPN while one streaming app leaves from the US and another from Italy, with Tailscale running inside so your tailnet stays reachable.",
+      "features": [
+        "Per-app VPN exits running simultaneously for different apps",
+        "Bring your own VPN: WireGuard, OpenVPN, Shadowsocks and sing-box supported",
+        "Tailscale runs inside the tunnel, so tailnet access coexists with per-app VPNs",
+        "Android 13 or later, no root, GPL-3.0",
+        "Also available for macOS through the same developer"
+      ],
+      "insight": "Split tunneling is usually one allow-list; unbraid treats per-app exits as parallel tunnels instead, which is the model multi-country streaming and banking users have been asking for.",
+      "officialUrl": "https://github.com/Quiet-Crafts/unbraid",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Quiet-Crafts/unbraid"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Quiet-Crafts/unbraid/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Quiet-Crafts/unbraid",
+        "githubRepo": "Quiet-Crafts/unbraid"
+      },
+      "asset": {
+        "path": "/images/discover/unbraid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Quiet-Crafts/unbraid/HEAD/.github/screenshots/routes.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Quiet-Crafts/unbraid/HEAD/LICENSE",
+        "attribution": "unbraid routes screen from the Quiet-Crafts/unbraid repository, GPL-3.0 (c) Quiet-Crafts.",
+        "alt": "unbraid's per-app routing screen",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/unbraid-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Quiet-Crafts/unbraid/HEAD/README.md",
+            "label": "Developer readme covering exits, protocols and requirements",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Quiet-Crafts/unbraid/HEAD/LICENSE",
+            "label": "GPL-3.0 license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/Quiet-Crafts/unbraid/releases/latest",
+            "label": "Release metadata with the APK package",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Quiet-Crafts/unbraid/HEAD/.github/screenshots/routes.png",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-17",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "unitask",
+      "kind": "app",
+      "name": "UniTask",
+      "developer": "CondaLabs",
+      "category": "Education",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/CondaLabs/unitask/HEAD/README.md",
+        "checkedAt": "2026-11-17"
+      },
+      "summary": "UniTask is a local-first Android task manager for university students: deadlines, timetable, reminders, personal tasks and study groups in one app, with offline reminders that keep working and no advertising or tracking.",
+      "features": [
+        "Deadlines, timetable and personal tasks in one local-first app",
+        "Reminders that work offline",
+        "Study groups share tasks and chat",
+        "Jetpack Compose UI on Android 7.0 and later, MIT-licensed",
+        "Security scanning and OpenSSF Scorecard maintained in the repository"
+      ],
+      "insight": "Student planners tend to lock timetables behind accounts; UniTask keeps the core offline and local-first and reserves the network for the one thing that genuinely needs it, study groups.",
+      "officialUrl": "https://github.com/CondaLabs/unitask",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/CondaLabs/unitask"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/CondaLabs/unitask/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/CondaLabs/unitask",
+        "githubRepo": "CondaLabs/unitask"
+      },
+      "asset": {
+        "path": "/images/discover/unitask.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/CondaLabs/unitask/HEAD/docs/screenshots/deadlines.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/CondaLabs/unitask/HEAD/LICENSE",
+        "attribution": "UniTask deadlines screenshot from the CondaLabs/unitask repository, MIT license (c) 2026 Ahmad Maqsood.",
+        "alt": "UniTask deadlines screen",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/unitask-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/CondaLabs/unitask/HEAD/README.md",
+            "label": "Developer readme covering features, platforms and downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CondaLabs/unitask/HEAD/LICENSE",
+            "label": "MIT license of the repository",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://api.github.com/repos/CondaLabs/unitask/releases/latest",
+            "label": "Release metadata with the signed APK",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-17"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CondaLabs/unitask/HEAD/docs/screenshots/deadlines.jpg",
+            "label": "Official screenshot used as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-17"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-17",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
   }
 ]
