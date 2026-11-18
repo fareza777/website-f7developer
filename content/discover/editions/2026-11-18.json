@@ -1,0 +1,1328 @@
+{
+  "date": "2026-11-18",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-18T07:19:42.162Z",
+  "entries": [
+    {
+      "slug": "blocks-beyond-the-stars",
+      "kind": "game",
+      "name": "Blocks Beyond the Stars",
+      "developer": "marceld23",
+      "category": "Voxel Space Crafting",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/marceld23/BlocksBeyondTheStars/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A block-based 3D space crafting game built by a father and his ten-year-old, who is credited as lead product manager. You wake on your own ship, fly system-scale routes to procedurally generated planets, mine and craft, tame creatures, and build bases or whole ships block by block, solo or with friends on a self-hostable server.",
+      "features": [
+        "48 planet types across generated star systems, from gas giants with floating sky cities to bone deserts, plus one-off landmark worlds and rare two-way wormholes",
+        "Per-position weather and seasons with storms, acid rain and meteor showers that have real consequences, and a day/night terminator you can dress for",
+        "A bio lab that samples every species you harvest or defeat, identifies its effects, and lets you clone and cross plants and animals into new ones",
+        "Ships you lay keel by keel and keep growing during a spacewalk, planet bases with life-support fields, and monorail hover trains you can build",
+        "Movement kit of climbing, an energy rope to reel across gaps, a glider, hover speeders and boats, plus giants up to sixty blocks tall to survive",
+        "Persistent client/server multiplayer with a content filter, one-command reporting and per-player mute, aimed at family play"
+      ],
+      "insight": "The design doc here is a child's imagination, and it shows in the small rules: bandits are chased off rather than killed, weapons default to tools, and every world wraps east-west so you can walk all the way around a planet. It is a rare open-source game where the safety design and the wonder design come from the same person.",
+      "officialUrl": "https://github.com/marceld23/BlocksBeyondTheStars",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/marceld23/BlocksBeyondTheStars"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/marceld23/BlocksBeyondTheStars/releases/latest"
+        },
+        {
+          "label": "Browser build",
+          "url": "https://play.blocksbeyondthestars.de/?lang=en"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/marceld23/BlocksBeyondTheStars",
+        "githubRepo": "marceld23/BlocksBeyondTheStars"
+      },
+      "asset": {
+        "path": "/images/discover/blocks-beyond-the-stars.png",
+        "sourceUrl": "https://raw.githubusercontent.com/marceld23/BlocksBeyondTheStars/HEAD/docs/screenshots/en/boss_guardian_giant.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/marceld23/BlocksBeyondTheStars/HEAD/LICENSE",
+        "attribution": "Blocks Beyond the Stars artwork from the marceld23/BlocksBeyondTheStars repository, GNU Affero General Public License v3.0.",
+        "alt": "A player facing a swarm of eye-patterned creatures and a Guardian giant boss bar on a rust-coloured voxel planet",
+        "noticePath": "/images/discover/licenses/blocks-beyond-the-stars-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/marceld23/BlocksBeyondTheStars/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/marceld23/BlocksBeyondTheStars/HEAD/LICENSE",
+            "label": "AGPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/marceld23/BlocksBeyondTheStars/HEAD/docs/screenshots/en/boss_guardian_giant.png",
+            "label": "Official docs/screenshots/en/boss_guardian_giant.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/marceld23/BlocksBeyondTheStars/releases.atom",
+            "label": "Release feed with the current Windows, Linux and macOS builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ashfolk",
+      "kind": "game",
+      "name": "Ashfolk",
+      "developer": "imsvidskiy",
+      "category": "God Game",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "freemium",
+        "label": "Free to play in the browser, with an optional paid supporter tier",
+        "sourceUrl": "https://raw.githubusercontent.com/imsvidskiy/ashfolk/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A god simulator that runs on WebGPU in your browser. You shape a seeded floating island, then watch its first tribes gather, hunt, farm and build their way from the Stone Age to the Iron Age while you decide what kind of weather they get.",
+      "features": [
+        "Islands generated from a seed with rivers, lakes, waterfalls, swamps, biomes, seasons and snow",
+        "Tribes that expand, raid each other over land and later sign peace, with a chronicle you can read",
+        "Wildlife that the tribes share the island with: deer, mammoths, ibex, hares and wolf packs that hunt them",
+        "Powers ranging from a single meteor to lightning storms, tornado swarms, a black hole over a camp, or a mushroom cloud that leaves a crater",
+        "Land that heals: burnt ground grows back and craters fill into lakes",
+        "A short guided first island, plus worlds that save themselves in the browser"
+      ],
+      "insight": "Most god games score you on population. Ashfolk's interesting mechanic is the fe ledger: tribes remember raids, negotiate peace, and keep growing whether or not you interfere, so the meteor is a comment on their story rather than the point of it.",
+      "officialUrl": "https://github.com/imsvidskiy/ashfolk",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/imsvidskiy/ashfolk"
+      },
+      "distribution": [
+        {
+          "label": "Official website (browser play)",
+          "url": "https://github.com/imsvidskiy/ashfolk"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/imsvidskiy/ashfolk",
+        "githubRepo": "imsvidskiy/ashfolk"
+      },
+      "asset": {
+        "path": "/images/discover/ashfolk.png",
+        "sourceUrl": "https://raw.githubusercontent.com/imsvidskiy/ashfolk/HEAD/public/icon-192.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/imsvidskiy/ashfolk/HEAD/LICENSE",
+        "attribution": "Ashfolk artwork from the imsvidskiy/ashfolk repository, MIT license.",
+        "alt": "Ashfolk app icon",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/ashfolk-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/imsvidskiy/ashfolk/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/imsvidskiy/ashfolk/HEAD/LICENSE",
+            "label": "MIT license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/imsvidskiy/ashfolk/HEAD/public/icon-192.png",
+            "label": "Official public/icon-192.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/imsvidskiy/ashfolk/releases.atom",
+            "label": "Release feed showing the versioned builds of the browser game",
+            "checks": [
+              "distribution"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "operation-steel-tide",
+      "kind": "game",
+      "name": "Operation Steel Tide",
+      "developer": "AetherRadar",
+      "category": "Tactical Extraction FPS",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/AetherRadar/operation-steel-tide/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "An open-source tactical FPS made in Godot 4.6 with C#, set in the Jianghai old-city port. Three modes share one build: a three-operator extraction run with AI squadmates, an independent 5v5 demolition match, and a training range where you choose bots, weapons and ammunition before you shoot. Downloads need no Godot or .NET install.",
+      "features": [
+        "Extraction loop: pick a class and loadout, close the comms relay, download the cargo manifest, loot, then reach the green zone and board before the timer",
+        "Only loot above your deployment baseline is banked, so a bad run can genuinely cost you",
+        "Five operator classes with follow, hold and move orders, class skills, combat and revive behaviour, plus AI takeover when a co-op player drops",
+        "Separate 5v5 demolition with a buy phase, plant and defuse, side swap at half-time and overtime on a draw",
+        "A dedicated training range with configurable bot types, counts, weapons and ammo tiers, and bots that respawn automatically"
+      ],
+      "insight": "Extraction shooters are almost always live services with inventory you buy back. Steel Tide keeps the same tension — bank only what beats your baseline — inside a plain downloadable MIT-licensed build, which makes the risk maths something you can read in the source.",
+      "officialUrl": "https://github.com/AetherRadar/operation-steel-tide",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/AetherRadar/operation-steel-tide"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/AetherRadar/operation-steel-tide/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/AetherRadar/operation-steel-tide",
+        "githubRepo": "AetherRadar/operation-steel-tide"
+      },
+      "asset": {
+        "path": "/images/discover/operation-steel-tide.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AetherRadar/operation-steel-tide/HEAD/docs/media/gameplay-extraction-zh.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/AetherRadar/operation-steel-tide/HEAD/LICENSE",
+        "attribution": "Operation Steel Tide artwork from the AetherRadar/operation-steel-tide repository, MIT license.",
+        "alt": "Operation Steel Tide extraction match: an operator moving through the Jianghai port district with a squad HUD",
+        "noticePath": "/images/discover/licenses/operation-steel-tide-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AetherRadar/operation-steel-tide/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AetherRadar/operation-steel-tide/HEAD/LICENSE",
+            "label": "MIT license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AetherRadar/operation-steel-tide/HEAD/docs/media/gameplay-extraction-zh.png",
+            "label": "Official docs/media/gameplay-extraction-zh.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/AetherRadar/operation-steel-tide/releases.atom",
+            "label": "Release feed with the Windows x64 and macOS universal builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "i-keep-having-this-dream",
+      "kind": "game",
+      "name": "I Keep Having This Dream",
+      "developer": "FuzionCD",
+      "category": "Tile-path Roguelike",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/FuzionCD/dream-game-android/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A strategy roguelike where each cycle of a dream is a grid you escape by laying tiles. Staying longer makes the cycle more dangerous, so every detour toward an item is a bet against the enemies that get stronger near the exit.",
+      "features": [
+        "Build a route tile by tile out of each dreamscape cycle, with danger rising the longer you linger",
+        "25+ upgradeable perks that push your strategy toward attack, defence or tempo",
+        "150+ collectible items and 100+ special enemies whose abilities can end a run if ignored",
+        "80+ one-off events offering a temporary boost when you take the detour",
+        "Persistent unlocks of enemies, events and cosmetics across several playthroughs",
+        "A C++ game core in a thin Java and SDL2 shell, building for arm64-v8a and armeabi-v7a on Android 5.0 and up"
+      ],
+      "insight": "The clock here is attached to your own greed rather than a wave timer: the cycle only gets worse while you keep looting it, so the game is really about deciding when a route is finished.",
+      "officialUrl": "https://github.com/FuzionCD/dream-game-android",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/FuzionCD/dream-game-android"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.fireflame.dream/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/FuzionCD/dream-game-android/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/FuzionCD/dream-game-android",
+        "androidPackageId": "com.fireflame.dream",
+        "githubRepo": "FuzionCD/dream-game-android"
+      },
+      "asset": {
+        "path": "/images/discover/i-keep-having-this-dream.png",
+        "sourceUrl": "https://raw.githubusercontent.com/FuzionCD/dream-game-android/HEAD/meta/screenshots/carousel1.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/FuzionCD/dream-game-android/HEAD/LICENSE.md",
+        "attribution": "I Keep Having This Dream artwork from the FuzionCD/dream-game-android repository, GNU General Public License v3.0.",
+        "alt": "I Keep Having This Dream gameplay: a path of placed tiles across a dreamscape grid",
+        "noticePath": "/images/discover/licenses/i-keep-having-this-dream-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/FuzionCD/dream-game-android/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/FuzionCD/dream-game-android/HEAD/LICENSE.md",
+            "label": "GPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/FuzionCD/dream-game-android/HEAD/meta/screenshots/carousel1.png",
+            "label": "Official meta/screenshots/carousel1.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/FuzionCD/dream-game-android/releases.atom",
+            "label": "Release feed with the published Android builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "astro-loop",
+      "kind": "game",
+      "name": "Astro Loop",
+      "developer": "PubDeer",
+      "category": "Roguelike Shooter",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/PubDeer/astro-loop/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A roguelike space shooter about surviving endless asteroid and enemy waves in a loop you were not meant to escape. One finger steers, the guns fire themselves, and difficulty keeps climbing so the only real decision is which upgrade you take next.",
+      "features": [
+        "Single-finger steering with automatic weapons, built for one-handed play",
+        "Recruit a crew of pilots and unlock new ships between runs",
+        "Fresh weapon and upgrade choices every run against a difficulty curve that never stops rising",
+        "No internet permission at all: no ads, no tracking, and nothing leaves the phone",
+        "No camera, microphone, location, contacts, file or network permissions requested",
+        "Drawn as vectors on an Android Canvas in pure Kotlin, with no game engine"
+      ],
+      "insight": "Astro Loop's constraint is the interesting part: with no network permission the whole roguelike has to live on the device, which is why it plays on a plane and why no progress can be held hostage by a server.",
+      "officialUrl": "https://github.com/PubDeer/astro-loop",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/PubDeer/astro-loop"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.astroloop.game/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/PubDeer/astro-loop/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/PubDeer/astro-loop",
+        "androidPackageId": "com.astroloop.game",
+        "githubRepo": "PubDeer/astro-loop"
+      },
+      "asset": {
+        "path": "/images/discover/astro-loop.png",
+        "sourceUrl": "https://raw.githubusercontent.com/PubDeer/astro-loop/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/PubDeer/astro-loop/HEAD/LICENSE",
+        "attribution": "Astro Loop artwork from the PubDeer/astro-loop repository, GNU General Public License v3.0.",
+        "alt": "Astro Loop gameplay screenshot: a ship firing through an asteroid wave",
+        "noticePath": "/images/discover/licenses/astro-loop-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/HEAD/LICENSE",
+            "label": "GPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/PubDeer/astro-loop/HEAD/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+            "label": "Official fastlane/metadata/android/en-US/images/phoneScreenshots/1.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/PubDeer/astro-loop/releases.atom",
+            "label": "Release feed with the signed APK builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "thank-you-for-the-fish",
+      "kind": "game",
+      "name": "Thank You for the Fish",
+      "developer": "AmethystineAlpaca",
+      "category": "Idle Fishing",
+      "platforms": [
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source, with an optional donation on itch.io",
+        "sourceUrl": "https://raw.githubusercontent.com/AmethystineAlpaca/thank-you-for-the-fish/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A tiny boat that sits in the corner of a Mac desktop and fishes while you work. It catches on its own, keeps a collection of 160 creatures, and takes breaks for you as well, so the game paces itself to a working day rather than demanding one.",
+      "features": [
+        "160 sea creatures including 10 legends, with four traits producing 640 possible appearances",
+        "Bite intervals you set anywhere from 1 to 120 minutes, so fishing matches your task length",
+        "Automatic breaks after a chosen number of catches",
+        "A draggable, resizable desktop boat with local saves that works offline after setup",
+        "A v0.5.1 art pass giving the 60 expansion creatures toy-like artwork, transparent edges and anatomy-specific motion",
+        "Interface defaults to Simplified Chinese, with an experimental partial English translation in Settings"
+      ],
+      "insight": "The forced-break timer turns an idle game inside out: instead of asking for your attention, it is the reason you look away from the spreadsheet, which is a more honest use of a desktop pet.",
+      "officialUrl": "https://github.com/AmethystineAlpaca/thank-you-for-the-fish",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/AmethystineAlpaca/thank-you-for-the-fish"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/AmethystineAlpaca/thank-you-for-the-fish/releases/latest"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://alpacewhite.itch.io/thank-you-for-the-fish"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/AmethystineAlpaca/thank-you-for-the-fish",
+        "githubRepo": "AmethystineAlpaca/thank-you-for-the-fish"
+      },
+      "asset": {
+        "path": "/images/discover/thank-you-for-the-fish.png",
+        "sourceUrl": "https://raw.githubusercontent.com/AmethystineAlpaca/thank-you-for-the-fish/HEAD/docs/images/collection-showcase.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/AmethystineAlpaca/thank-you-for-the-fish/HEAD/LICENSE",
+        "attribution": "Thank You for the Fish artwork from the AmethystineAlpaca/thank-you-for-the-fish repository, MIT license.",
+        "alt": "The Thank You for the Fish collection screen showing dozens of caught sea creatures",
+        "noticePath": "/images/discover/licenses/thank-you-for-the-fish-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/AmethystineAlpaca/thank-you-for-the-fish/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AmethystineAlpaca/thank-you-for-the-fish/HEAD/LICENSE",
+            "label": "MIT license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AmethystineAlpaca/thank-you-for-the-fish/HEAD/docs/images/collection-showcase.png",
+            "label": "Official docs/images/collection-showcase.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/AmethystineAlpaca/thank-you-for-the-fish/releases.atom",
+            "label": "Release feed with the Apple Silicon Mac build",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "trackhop",
+      "kind": "app",
+      "name": "Trackhop",
+      "developer": "xlollx",
+      "category": "Playlist Sync",
+      "platforms": [
+        "Android",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, donation-funded, no ads",
+        "sourceUrl": "https://raw.githubusercontent.com/xlollx/Trackhop/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "Trackhop keeps playlists identical across music services, on a schedule, from your phone. There is no Trackhop account and no Trackhop server: the sync runs on the device and access tokens never leave it.",
+      "features": [
+        "Mirrors playlists across Spotify, Apple Music, YouTube Music, Amazon Music, TIDAL, Deezer, SoundCloud, LiveOne, Subsonic/Navidrome, Koel, Jellyfin, Emby, Plex, Lyrion and Mopidy",
+        "Reads sources from Last.fm, ListenBrainz, NetEase Cloud Music, QQ Music and JioSaavn links, and bridges anything else through CSV, TSV, M3U, iTunes XML, JSON or pasted text",
+        "Scheduled syncs with one shared list of tracks that could not be matched, reviewable before you act",
+        "Group playlists shared so each member keeps them on their own service, plus Discover pages that follow a playlist's artists for releases, concerts and setlists",
+        "Store builds use official APIs only; the free Trackhop Bridge plugin, and the GitHub and F-Droid builds, add quick sign-in routes for services without one",
+        "Desktop and Docker builds for running the same sync on a computer or server"
+      ],
+      "insight": "Playlist migration tools normally ask you to hand your service tokens to their backend. Trackhop inverts that: the phone does the work and the tokens stay on it, which is the difference between a sync service and a sync you own.",
+      "officialUrl": "https://github.com/xlollx/Trackhop",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/xlollx/Trackhop"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.xlollx.songport"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/com.xlollx.songport/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/xlollx/Trackhop/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/xlollx/Trackhop",
+        "androidPackageId": "com.xlollx.songport",
+        "githubRepo": "xlollx/Trackhop"
+      },
+      "asset": {
+        "path": "/images/discover/trackhop.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/xlollx/Trackhop/HEAD/docs/assets/gallery/01.jpg",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/xlollx/Trackhop/HEAD/LICENSE",
+        "attribution": "Trackhop artwork from the xlollx/Trackhop repository, GNU Affero General Public License v3.0.",
+        "alt": "Trackhop intro card with the app icon and the line Keep your playlists identical across music services",
+        "noticePath": "/images/discover/licenses/trackhop-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/xlollx/Trackhop/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/xlollx/Trackhop/HEAD/LICENSE",
+            "label": "AGPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/xlollx/Trackhop/HEAD/docs/assets/gallery/01.jpg",
+            "label": "Official docs/assets/gallery/01.jpg from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/xlollx/Trackhop/releases.atom",
+            "label": "Release feed listing the Android, desktop and server builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fonte",
+      "kind": "app",
+      "name": "Fonte",
+      "developer": "Turtlecute33",
+      "category": "App Updates",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/Turtlecute33/Fonte/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A small open-source updater for apps you installed outside an app store. Give it a repository link and Fonte finds the latest release, picks the APK matching your phone, verifies it and installs it, with no trackers and no Google Play Services.",
+      "features": [
+        "Sources include GitHub (private repositories too, with a token), self-hosted GitLab, Codeberg, Forgejo, Gitea, F-Droid, IzzyOnDroid and other F-Droid repositories",
+        "Chooses the build for your processor, with an optional regular-expression name filter and pre-releases if you want them",
+        "Background checks every 3, 6, 12 or 24 hours that wait for an unmetered network by default",
+        "Deliberately smaller attack surface than Obtainium: no native code, no WebView and no dynamic code loading, so it works with GrapheneOS dynamic-code-loading restrictions on",
+        "Imports your existing Obtainium app list, and checks all apps at once over HTTP/3 and HTTP/2 with not-modified responses for unchanged sources"
+      ],
+      "insight": "Fonte describes itself as an Obtainium alternative with fewer features, and that framing is the point: an updater that installs other apps is the worst place to add a WebView, so the missing capabilities are the security model.",
+      "officialUrl": "https://github.com/Turtlecute33/Fonte",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Turtlecute33/Fonte"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Turtlecute33/Fonte/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Turtlecute33/Fonte",
+        "githubRepo": "Turtlecute33/Fonte"
+      },
+      "asset": {
+        "path": "/images/discover/fonte.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Turtlecute33/Fonte/HEAD/docs/banner.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Turtlecute33/Fonte/HEAD/LICENSE",
+        "attribution": "Fonte artwork from the Turtlecute33/Fonte repository, GNU General Public License v3.0.",
+        "alt": "Fonte banner showing three phones with the update list, an app detail page and the add-app sheet",
+        "presentation": "contain",
+        "noticePath": "/images/discover/licenses/fonte-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Turtlecute33/Fonte/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Turtlecute33/Fonte/HEAD/LICENSE",
+            "label": "GPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Turtlecute33/Fonte/HEAD/docs/banner.png",
+            "label": "Official docs/banner.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/Turtlecute33/Fonte/releases.atom",
+            "label": "Release feed with the published APK versions",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "appdns",
+      "kind": "app",
+      "name": "AppDNS",
+      "developer": "Shishir-ip",
+      "category": "Per-app DNS",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/Shishir-ip/AppDNS/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "AppDNS gives each Android app its own Private DNS (DNS-over-TLS) setting and switches it when you open that app. It writes directly to Android's built-in setting, so there is no VPN tunnel, no always-on notification and no drain on battery.",
+      "features": [
+        "Per-app rules assigning any DNS profile to any app, with search and filters",
+        "Switching is event-driven rather than polled, landing in under 10 ms after an app opens",
+        "Built-in Cloudflare, AdGuard, Google and Quad9 profiles plus unlimited custom DoT hostnames such as NextDNS, Control D and Mullvad",
+        "Configurable exit behaviour: turn DNS off, restore your default, or keep it when you leave the app",
+        "A permission watchdog that warns you if a reboot or update silently disables a grant, and in-app updates with live download progress",
+        "About 2.3 MB, no analytics, and an accessibility service that reads only the foreground package name, never screen content; the one-time DNS permission is granted over ADB"
+      ],
+      "insight": "Because it drives Android's own Private DNS setting instead of a local proxy, AppDNS can give your browser AdGuard's blocking while your real WireGuard or work VPN keeps working — per-app DNS without a second tunnel.",
+      "officialUrl": "https://github.com/Shishir-ip/AppDNS",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Shishir-ip/AppDNS"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Shishir-ip/AppDNS/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Shishir-ip/AppDNS",
+        "githubRepo": "Shishir-ip/AppDNS"
+      },
+      "asset": {
+        "path": "/images/discover/appdns.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Shishir-ip/AppDNS/HEAD/docs/screenshots/home-light.png",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Shishir-ip/AppDNS/HEAD/LICENSE",
+        "attribution": "AppDNS artwork from the Shishir-ip/AppDNS repository, Apache License 2.0.",
+        "alt": "AppDNS home screen in its light theme listing apps and the DNS profile assigned to each",
+        "noticePath": "/images/discover/licenses/appdns-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Shishir-ip/AppDNS/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Shishir-ip/AppDNS/HEAD/LICENSE",
+            "label": "Apache-2.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Shishir-ip/AppDNS/HEAD/docs/screenshots/home-light.png",
+            "label": "Official docs/screenshots/home-light.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/Shishir-ip/AppDNS/releases.atom",
+            "label": "Release feed with the current v3.0 APK",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "twinndroid",
+      "kind": "app",
+      "name": "TwinnDroid",
+      "developer": "starlightjulie",
+      "category": "App Cloning",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "TwinnDroid runs two or more copies of the same app, each with its own login, and can wall them into a sandbox. It uses no root and no virtualisation layer: every copy is a real app that Android itself keeps apart.",
+      "features": [
+        "Clones an installed app, or an .apk, .apks, .xapk or .apkm file, with its own name and icon so Discord and Discord (Alt) sit side by side",
+        "An optional work-profile sandbox with separate storage, accounts and contacts, which also runs apps that refuse to be cloned",
+        "Hardening that stops a clone from seeing other apps or being reached by them, and keeps clones from being linked to each other",
+        "Permission stripping per copy, such as removing location or contacts",
+        "One-tap clone updates when the original app updates, without logging you out, plus APK extraction with splits included",
+        "Backup and restore for clones and settings, 23 languages with right-to-left layouts, and theming with Material You"
+      ],
+      "insight": "Dual-app features usually fake a second space inside one process. TwinnDroid installs a genuinely separate signed package, which means the clone inherits Android's own isolation instead of trusting the cloner to enforce it.",
+      "officialUrl": "https://github.com/starlightjulie/TwinnDroid",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/starlightjulie/TwinnDroid"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/starlightjulie/TwinnDroid/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/starlightjulie/TwinnDroid",
+        "githubRepo": "starlightjulie/TwinnDroid"
+      },
+      "asset": {
+        "path": "/images/discover/twinndroid.png",
+        "sourceUrl": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/HEAD/docs/screenshots/clones.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/HEAD/LICENSE",
+        "attribution": "TwinnDroid artwork from the starlightjulie/TwinnDroid repository, GNU General Public License v3.0.",
+        "alt": "TwinnDroid clones screen listing duplicated apps with their own names and icons",
+        "noticePath": "/images/discover/licenses/twinndroid-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/HEAD/LICENSE",
+            "label": "GPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/starlightjulie/TwinnDroid/HEAD/docs/screenshots/clones.png",
+            "label": "Official docs/screenshots/clones.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/starlightjulie/TwinnDroid/releases.atom",
+            "label": "Release feed with the current 2.2.x APK",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fern",
+      "kind": "app",
+      "name": "Fern",
+      "developer": "Project Endroid",
+      "category": "System Monitor",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/wized2/Fern/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "An offline Material You system monitor for Android that charts CPU, RAM, battery, thermals, storage and network in one dashboard, and stays useful without an account, an ad network or a tracker.",
+      "features": [
+        "Live dashboard with smooth history charts for CPU, RAM, battery, storage and network",
+        "Details and peak views, including shareable metric snapshots",
+        "A process view with per-app CPU and RAM when you grant elevated access",
+        "An optional compact overlay, dynamic-island style, for temperature and memory",
+        "Advanced sampling through Shizuku (preferred) or root, with everything else working without either",
+        "Seed-colour theming with light, dark and system modes, plus an AMOLED-friendly dark theme"
+      ],
+      "insight": "Fern splits its data honestly: the unprivileged view always works, and the per-app attribution that needs Shizuku or root is opt-in, so you can see exactly what you are trading for a more accurate reading.",
+      "officialUrl": "https://github.com/wized2/Fern",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/wized2/Fern"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/wized2/Fern/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/wized2/Fern",
+        "githubRepo": "wized2/Fern"
+      },
+      "asset": {
+        "path": "/images/discover/fern.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/wized2/Fern/HEAD/assets/home-light.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/wized2/Fern/HEAD/LICENSE",
+        "attribution": "Fern artwork from the wized2/Fern repository, MIT license.",
+        "alt": "Fern home screen in its light theme showing CPU, RAM, thermal, storage and battery gauges",
+        "noticePath": "/images/discover/licenses/fern-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/wized2/Fern/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wized2/Fern/HEAD/LICENSE",
+            "label": "MIT license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/wized2/Fern/HEAD/assets/home-light.png",
+            "label": "Official assets/home-light.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/wized2/Fern/releases.atom",
+            "label": "Release feed with the 1.12.x APK",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "relay",
+      "kind": "app",
+      "name": "Relay",
+      "developer": "Mahdi-mortazavi",
+      "category": "Internet Sharing",
+      "platforms": [
+        "Android",
+        "Windows"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/Mahdi-mortazavi/relay/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "Relay shares your phone's internet — mobile data, Wi-Fi or its active VPN — with a Windows PC over one encrypted WireGuard tunnel, for every app on the PC and for both TCP and UDP. No root, no account and no relay server in the middle.",
+      "features": [
+        "Three-step start: tap Start Sharing on the phone, pick the device or type the two digits it shows, then tap Allow",
+        "The phone runs a small WireGuard endpoint while the PC client routes the whole system through it",
+        "Pairs over the same Wi-Fi, the phone's hotspot, or a USB cable, offering to enable USB tethering for you",
+        "Fresh keys per pairing, an explicit approval before any computer gets in, and keys destroyed when sharing stops",
+        "A companion Windows client built alongside the Android app, both released from the same repository"
+      ],
+      "insight": "Reverse tethering normally means a root hack or a paid utility that proxies your PC. Relay instead makes the phone the WireGuard endpoint, so the PC gets an ordinary encrypted tunnel to a device you already trust.",
+      "officialUrl": "https://github.com/Mahdi-mortazavi/relay",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Mahdi-mortazavi/relay"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Mahdi-mortazavi/relay/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Mahdi-mortazavi/relay",
+        "githubRepo": "Mahdi-mortazavi/relay"
+      },
+      "asset": {
+        "path": "/images/discover/relay.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Mahdi-mortazavi/relay/HEAD/docs/assets/android-sharing.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Mahdi-mortazavi/relay/HEAD/LICENSE",
+        "attribution": "Relay artwork from the Mahdi-mortazavi/relay repository, GNU General Public License v3.0.",
+        "alt": "Relay on an Android phone showing the sharing screen with the pairing code",
+        "noticePath": "/images/discover/licenses/relay-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Mahdi-mortazavi/relay/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Mahdi-mortazavi/relay/HEAD/LICENSE",
+            "label": "GPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Mahdi-mortazavi/relay/HEAD/docs/assets/android-sharing.png",
+            "label": "Official docs/assets/android-sharing.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/Mahdi-mortazavi/relay/releases.atom",
+            "label": "Release feed with the Android APK and the Windows installer",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "and-code",
+      "kind": "app",
+      "name": "AndCode",
+      "developer": "yuga-hashimoto",
+      "category": "Coding Agents",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source; bring your own agent accounts",
+        "sourceUrl": "https://raw.githubusercontent.com/yuga-hashimoto/and-code/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A native Android GUI for coding agents: OpenCode, Claude Code, Codex and Google Antigravity, driven by touch instead of a terminal. The agents run on the phone itself inside a PRoot Linux environment, or remotely against your own OpenCode server. AndCode is an independent project and does not provide model access or subscriptions.",
+      "features": [
+        "On-device runtime that installs Alpine Linux, Git, bash, curl, ripgrep and the agent CLIs automatically, with a Debian rootfs alongside for the glibc-linked Antigravity binary",
+        "An embedded real-PTY terminal with streamed output, stdin, Ctrl+C and colours, opening in the workspace you came from",
+        "Dev servers started in that terminal appear as chips that open the page in the in-app browser, and loopback previews can be pinned inside the conversation as live cards that reload as files change",
+        "Git status and diff review from the GUI, plus streaming tool execution with explicit approval requests",
+        "OAuth credentials for Antigravity stored only inside the Linux rootfs rather than Android preferences, and a live model catalog read from the signed-in instance",
+        "Remote mode connecting to an existing OpenCode server on your own PC, Mac or Linux machine"
+      ],
+      "insight": "The distinction that matters is that AndCode installs the agent on the handset rather than streaming your desktop to it: a phone that carries its own git, shell and agent runtime is a workstation you can lose, which is why the credential storage choice is in the rootfs.",
+      "officialUrl": "https://github.com/yuga-hashimoto/and-code",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/yuga-hashimoto/and-code"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/yuga-hashimoto/and-code/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/yuga-hashimoto/and-code",
+        "githubRepo": "yuga-hashimoto/and-code"
+      },
+      "asset": {
+        "path": "/images/discover/and-code.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/yuga-hashimoto/and-code/HEAD/screenshots/repository-chat.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/yuga-hashimoto/and-code/HEAD/LICENSE",
+        "attribution": "AndCode artwork from the yuga-hashimoto/and-code repository, MIT license.",
+        "alt": "AndCode repository chat screen running a coding agent on an Android phone",
+        "noticePath": "/images/discover/licenses/and-code-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/yuga-hashimoto/and-code/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yuga-hashimoto/and-code/HEAD/LICENSE",
+            "label": "MIT license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/yuga-hashimoto/and-code/HEAD/screenshots/repository-chat.jpg",
+            "label": "Official screenshots/repository-chat.jpg from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://github.com/yuga-hashimoto/and-code/releases.atom",
+            "label": "Release feed with the current v1.2.x Android builds",
+            "checks": [
+              "distribution",
+              "platforms"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    }
+  ]
+}
