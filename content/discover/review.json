@@ -6987,5 +6987,690 @@
     "reasons": [
       "Daily target already filled; retain candidate for fresh verification on a later date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "keyboard-warrior",
+      "kind": "game",
+      "name": "Keyboard Warrior",
+      "developer": "elicoggins",
+      "category": "Rhythm Typing",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free for personal, non-commercial use",
+        "sourceUrl": "https://raw.githubusercontent.com/elicoggins/keyboardwarrior/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A rhythm typing game in Rust where each note is a letter, so you type words in time with the music using the Clone Hero or YARG chart library you already have.",
+      "features": [
+        "Assigns a letter to every note, forming words, on top of Guitar Hero-style timing",
+        "Reads your existing Clone Hero and YARG chart library, with a built-in bridge to Chorus Encore for community charts",
+        "Ships songs under Creative Commons licences from Jonathan Coulton and Brad Sucks with credit to the artists and charter authors",
+        "Runs on macOS, Windows and Linux, with a playable browser demo",
+        "Released as versioned builds, 2.0.1 included in the release feed"
+      ],
+      "insight": "Reusing an existing chart library instead of authoring new tracks is what makes a typing game with a real song list possible for one developer.",
+      "officialUrl": "https://github.com/elicoggins/keyboardwarrior",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/elicoggins/keyboardwarrior"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/elicoggins/keyboardwarrior/releases/latest"
+        },
+        {
+          "label": "Browser demo",
+          "url": "https://keyboardwarrior.app"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/elicoggins/keyboardwarrior",
+        "githubRepo": "elicoggins/keyboardwarrior"
+      },
+      "asset": {
+        "path": "/images/discover/keyboard-warrior.png",
+        "sourceUrl": "https://raw.githubusercontent.com/elicoggins/keyboardwarrior/HEAD/assets/Github/screenshot.png",
+        "license": "LicenseRef-KeyboardWarrior-Personal-Use",
+        "licenseUrl": "https://raw.githubusercontent.com/elicoggins/keyboardwarrior/HEAD/LICENSE.md",
+        "attribution": "Keyboard Warrior artwork from the elicoggins/keyboardwarrior repository, the project's own terms of use.",
+        "alt": "Keyboard Warrior gameplay"
+      },
+      "verification": {
+        "status": "pending-asset-permission",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/elicoggins/keyboardwarrior/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/elicoggins/keyboardwarrior/HEAD/LICENSE.md",
+            "label": "LicenseRef-KeyboardWarrior-Personal-Use license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/elicoggins/keyboardwarrior/HEAD/assets/Github/screenshot.png",
+            "label": "Official assets/Github/screenshot.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "open-doctrines",
+      "kind": "game",
+      "name": "Open Doctrines",
+      "developer": "Pr1nted",
+      "category": "Grand Strategy",
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, source-available",
+        "sourceUrl": "https://raw.githubusercontent.com/Pr1nted/Open-Doctrines/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A free, source-available grand strategy game in C++ and raylib that runs in a browser tab with no download or account, and also on desktop, Android and TempleOS.",
+      "features": [
+        "1641 provinces with population and industry, and a research tree you commit to",
+        "Six historical scenarios plus a map editor and multiplayer",
+        "A WebAssembly mod SDK covering thirteen languages",
+        "Runs in a browser, on Windows, macOS, Linux, Android and TempleOS"
+      ],
+      "insight": "The mod SDK compiled to WebAssembly is the interesting engineering claim: a grand strategy game that people can mod in the browser without owning a C++ toolchain.",
+      "officialUrl": "https://github.com/Pr1nted/Open-Doctrines",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Pr1nted/Open-Doctrines"
+      },
+      "distribution": [
+        {
+          "label": "itch.io",
+          "url": "https://pr1nted.itch.io/open-doctrines"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Pr1nted/Open-Doctrines/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Pr1nted/Open-Doctrines",
+        "githubRepo": "Pr1nted/Open-Doctrines"
+      },
+      "asset": {
+        "path": "/images/discover/open-doctrines.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Pr1nted/Open-Doctrines/HEAD/docs/img/map.png",
+        "license": "LicenseRef-OpenDoctrines-NonCommercial-1.1",
+        "licenseUrl": "https://raw.githubusercontent.com/Pr1nted/Open-Doctrines/HEAD/LICENSE",
+        "attribution": "Open Doctrines artwork from the Pr1nted/Open-Doctrines repository, the OpenDoctrines Non-Commercial License version 1.1.",
+        "alt": "Open Doctrines world map"
+      },
+      "verification": {
+        "status": "pending-asset-permission",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Pr1nted/Open-Doctrines/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pr1nted/Open-Doctrines/HEAD/LICENSE",
+            "label": "LicenseRef-OpenDoctrines-NonCommercial-1.1 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Pr1nted/Open-Doctrines/HEAD/docs/img/map.png",
+            "label": "Official docs/img/map.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "vibeworld",
+      "kind": "game",
+      "name": "VibeWorld",
+      "developer": "SorBalda",
+      "category": "Terminal Social World",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free to play",
+        "sourceUrl": "https://raw.githubusercontent.com/SorBalda/vibeworld/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A persistent cyberpunk multiplayer world that lives entirely in a terminal, written in Go with Bubble Tea, where a neon planet of ten sciences hosts developers and communities.",
+      "features": [
+        "A terminal-native social world with avatar editing, an agora, arcade multiplayer and 3D city views",
+        "Runs natively on Windows, macOS and Linux, or in a browser terminal that streams the app from a server",
+        "Voice chat and websocket multiplayer with profiles preserved between browser visits",
+        "Versioned releases in the release feed up to v0.17.9"
+      ],
+      "insight": "Choosing a TUI as the client for a social world makes the whole thing cheap enough to run on a phone on a bad connection, which is the opposite trade-off most MMOs make.",
+      "officialUrl": "https://github.com/SorBalda/vibeworld",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/SorBalda/vibeworld"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/SorBalda/vibeworld/releases/latest"
+        },
+        {
+          "label": "Browser terminal",
+          "url": "https://vibeworld.fly.dev/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/SorBalda/vibeworld",
+        "githubRepo": "SorBalda/vibeworld"
+      },
+      "asset": {
+        "path": "/images/discover/vibeworld.png",
+        "sourceUrl": "https://raw.githubusercontent.com/SorBalda/vibeworld/HEAD/docs/screenshots/city-3d.png",
+        "license": "PolyForm-Perimeter-1.0.0",
+        "licenseUrl": "https://raw.githubusercontent.com/SorBalda/vibeworld/HEAD/LICENSE",
+        "attribution": "VibeWorld artwork from the SorBalda/vibeworld repository, PolyForm Perimeter 1.0.0 for the client tier.",
+        "alt": "VibeWorld three-dimensional city view in the terminal"
+      },
+      "verification": {
+        "status": "pending-asset-permission",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/SorBalda/vibeworld/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SorBalda/vibeworld/HEAD/LICENSE",
+            "label": "PolyForm-Perimeter-1.0.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/SorBalda/vibeworld/HEAD/docs/screenshots/city-3d.png",
+            "label": "Official docs/screenshots/city-3d.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "golab",
+      "kind": "game",
+      "name": "Golab",
+      "developer": "NiiightmareXD",
+      "category": "Arena Shooter",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/NiiightmareXD/golab/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A goofy cartoonish multiplayer first-person shooter written in Rust with Bevy, where everything is round and soft and the bullets are tiny glowing red blobs.",
+      "features": [
+        "Blob-like low-poly characters with first-person and third-person views",
+        "Movement tech: jump, crouch, dash and zipping around the arena",
+        "Multiplayer client plus dedicated server powered by Lightyear",
+        "Health, respawn, ping, name tags and HUD indicators, with in-game settings for sensitivity, audio, graphics, shadows and anti-aliasing"
+      ],
+      "insight": "It is a small open-source demonstration of Bevy plus Lightyear doing netcode for a first-person shooter, which is the part most people trying Rust game networking want to read.",
+      "officialUrl": "https://github.com/NiiightmareXD/golab",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/NiiightmareXD/golab"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/NiiightmareXD/golab"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/NiiightmareXD/golab",
+        "githubRepo": "NiiightmareXD/golab"
+      },
+      "asset": {
+        "path": "/images/discover/golab.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/NiiightmareXD/golab/HEAD/assets/Github/preview.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/NiiightmareXD/golab/HEAD/LICENSE",
+        "attribution": "Golab artwork from the NiiightmareXD/golab repository, MIT license.",
+        "alt": "Golab arena with round blob characters"
+      },
+      "verification": {
+        "status": "pending-distribution-evidence",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/NiiightmareXD/golab/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/NiiightmareXD/golab/HEAD/LICENSE",
+            "label": "MIT license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/NiiightmareXD/golab/HEAD/assets/Github/preview.jpg",
+            "label": "Official assets/Github/preview.jpg from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "rexpocket",
+      "kind": "app",
+      "name": "RexPocket",
+      "developer": "leizhiyuan",
+      "category": "Terminal Multiplexer",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/leizhiyuan/rexpocket/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "An Android client for Rex, the terminal multiplexer, showing every host, session and tab and opening any pane as a full-screen terminal built on the Ghostty emulator.",
+      "features": [
+        "Lists every session on your own Rex servers down to the tab",
+        "Opens any pane as a full-screen terminal you type into directly, using the official libghostty-vt library",
+        "Connects over the local network, through a built-in Tailscale node, or via the computer's own SSH daemon",
+        "Aimed at driving coding agents such as pi, Claude Code, Codex and Gemini from the phone"
+      ],
+      "insight": "A multiplexer client that only talks to servers you already run is a cleaner mobile story than SSH-plus-tmux wrappers, because session state stays where you put it.",
+      "officialUrl": "https://github.com/leizhiyuan/rexpocket",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/leizhiyuan/rexpocket"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/leizhiyuan/rexpocket/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/leizhiyuan/rexpocket",
+        "githubRepo": "leizhiyuan/rexpocket"
+      },
+      "asset": {
+        "path": "/images/discover/rexpocket.png",
+        "sourceUrl": "https://raw.githubusercontent.com/leizhiyuan/rexpocket/HEAD/docs/screenshots/home-en.png",
+        "license": "LicenseRef-Unlicensed-Repository",
+        "licenseUrl": "https://raw.githubusercontent.com/leizhiyuan/rexpocket/HEAD/LICENSE",
+        "attribution": "RexPocket artwork from the leizhiyuan/rexpocket repository, no license file found at the repository root.",
+        "alt": "RexPocket home screen listing Rex sessions"
+      },
+      "verification": {
+        "status": "pending-asset-permission",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/leizhiyuan/rexpocket/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/leizhiyuan/rexpocket/HEAD/LICENSE",
+            "label": "LicenseRef-Unlicensed-Repository license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/leizhiyuan/rexpocket/HEAD/docs/screenshots/home-en.png",
+            "label": "Official docs/screenshots/home-en.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "litedash",
+      "kind": "app",
+      "name": "LiteDash",
+      "developer": "IrvingGuerra",
+      "category": "Car Head-unit Launcher",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/IrvingGuerra/litedash/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A 2.2 MB launcher for Android car and motorcycle head units that bundles offline navigation, an OBD2 scanner, tyre-pressure readouts, factory FM radio control and a USB music player.",
+      "features": [
+        "Runs on Android 6.0 and up on aftermarket head units, with no ads",
+        "OBD2 diagnostics with an Elm327 reader and factory tyre-pressure (TPMS) recipes",
+        "Offline map navigation sized for a dash screen",
+        "Controls the factory FM radio on NWD and Hengchen units and plays music from USB"
+      ],
+      "insight": "The hard part of head-unit software is hardware access rather than UI, and this project documents FM and TPMS control for specific Chinese head-unit families.",
+      "officialUrl": "https://github.com/IrvingGuerra/litedash",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/IrvingGuerra/litedash"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.irvingguerra.litedash"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/IrvingGuerra/litedash/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/IrvingGuerra/litedash",
+        "androidPackageId": "com.irvingguerra.litedash",
+        "githubRepo": "IrvingGuerra/litedash"
+      },
+      "asset": {
+        "path": "/images/discover/litedash.png",
+        "sourceUrl": "https://raw.githubusercontent.com/IrvingGuerra/litedash/HEAD/brand/png/litedash-horizontal-sobre-claro.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/IrvingGuerra/litedash/HEAD/LICENSE",
+        "attribution": "LiteDash artwork from the IrvingGuerra/litedash repository, GNU General Public License v3.0, which the project states does not cover the name and logo.",
+        "alt": "LiteDash logo banner",
+        "presentation": "contain"
+      },
+      "verification": {
+        "status": "pending-asset-permission",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/IrvingGuerra/litedash/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/IrvingGuerra/litedash/HEAD/LICENSE",
+            "label": "GPL-3.0 license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/IrvingGuerra/litedash/HEAD/brand/png/litedash-horizontal-sobre-claro.png",
+            "label": "Official brand/png/litedash-horizontal-sobre-claro.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "callvault",
+      "kind": "app",
+      "name": "CallVault",
+      "developer": "madkongo",
+      "category": "Call Recording",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/madkongo/CallVault/HEAD/README.md",
+        "checkedAt": "2026-11-18"
+      },
+      "summary": "A free and open-source call recorder that captures both sides of a call on its own over built-in ADB, or through Shizuku if you already use it, with no root and no PC required.",
+      "features": [
+        "Records both sides of a call without root or a computer",
+        "Uses built-in ADB self-activation, or Shizuku when already installed",
+        "Stores recordings with playback, notes and on-device transcription",
+        "Transcript search and configurable transcription settings"
+      ],
+      "insight": "Call recording on modern Android is mostly a permissions problem rather than an audio one, and this fork solves it by driving the framework's own API over ADB.",
+      "officialUrl": "https://github.com/madkongo/CallVault",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/madkongo/CallVault"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/madkongo/CallVault/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/madkongo/CallVault",
+        "githubRepo": "madkongo/CallVault"
+      },
+      "asset": {
+        "path": "/images/discover/callvault.png",
+        "sourceUrl": "https://raw.githubusercontent.com/madkongo/CallVault/HEAD/docs/screenshots/03-transcript.png",
+        "license": "GPL-3.0-with-section-7-terms",
+        "licenseUrl": "https://raw.githubusercontent.com/madkongo/CallVault/HEAD/LICENSE",
+        "attribution": "CallVault artwork from the madkongo/CallVault repository, GNU General Public License v3.0 with additional Section 7 trademark and fork-attribution terms.",
+        "alt": "CallVault transcript screen"
+      },
+      "verification": {
+        "status": "pending-asset-permission",
+        "verifiedAt": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/madkongo/CallVault/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, features, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/madkongo/CallVault/HEAD/LICENSE",
+            "label": "GPL-3.0-with-section-7-terms license file of the repository, covering the artwork used here",
+            "checks": [
+              "asset-license",
+              "price"
+            ],
+            "accessedAt": "2026-11-18"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/madkongo/CallVault/HEAD/docs/screenshots/03-transcript.png",
+            "label": "Official docs/screenshots/03-transcript.png from the repository, used unmodified as this entry's artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-18"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-18",
+    "reasons": [
+      "Only verified entries may publish",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
   }
 ]
