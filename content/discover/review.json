@@ -7672,5 +7672,606 @@
       "Only verified entries may publish",
       "Daily target already filled; retain candidate for fresh verification on a later date"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "zafiro",
+      "kind": "app",
+      "name": "Zafiro",
+      "developer": "niki914",
+      "category": "AI Agent",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/niki914/zafiro/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A bring-your-own-key agent that runs on Android and acts on the phone rather than only chatting: it drives other apps through accessibility, runs a shell and Python 3 locally, and supports Skills and MCP. Models come from OpenAI, Anthropic, Google Gemini, DeepSeek or OpenRouter through your own keys.",
+      "features": [
+        "Performs tasks across apps with a Phone-Use screen driver that extracts the node tree and dispatches gestures",
+        "Runs shell commands and SSH sessions through its own terminal library, with backends including libsu and Shizuku",
+        "Runs Python 3 natively on the device through Chaquopy",
+        "Supports Skills, MCP, memory and a workspace, and can wrap new tools itself for search or downloads",
+        "Ships BYOK support for OpenAI, Anthropic, Google Gemini, DeepSeek and OpenRouter out of the box"
+      ],
+      "insight": "Phone agents usually stop at a chat window with tool calls. Zafiro is built around actually operating the device — node-tree access, gesture dispatch, a real shell and Python runtime — which is why its hardest problems are permissions rather than prompts.",
+      "officialUrl": "https://github.com/niki914/zafiro",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/niki914/zafiro"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/niki914/zafiro/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/niki914/zafiro",
+        "githubRepo": "niki914/zafiro"
+      },
+      "asset": {
+        "path": "/images/discover/zafiro.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/niki914/zafiro/HEAD/res/brand/zafiro_social_preview_with_g2.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/niki914/zafiro/HEAD/LICENSE",
+        "attribution": "Zafiro social preview from the niki914/zafiro repository, MIT licensed, unmodified.",
+        "alt": "Zafiro project banner with its logo"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/niki914/zafiro/HEAD/README.md",
+            "label": "Developer readme stating identity, agent capabilities, platforms and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/niki914/zafiro/HEAD/LICENSE",
+            "label": "MIT licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "minkowski-kart",
+      "kind": "game",
+      "name": "Minkowski Kart",
+      "developer": "Robson Christie (rchristie95)",
+      "category": "Relativistic Racing",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/rchristie95/MinkowskiKart/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A GPL-licensed 3D kart racer built on the SuperTuxKart codebase in which special relativity is the mechanic: time dilation, Doppler colour shift and aberration change what you see and when, and the developer documents which physics are exact and which are approximations.",
+      "features": [
+        "Renders relativistic colour shift and time dilation from work drawing on the MIT Game Lab's OpenRelativity",
+        "Ships Windows stable builds and a separate Android release tag from CI",
+        "Documents its physics approximations and its multiplayer status openly rather than claiming exact simulation",
+        "Keeps a required licence-file check inside its Windows preview workflow"
+      ],
+      "insight": "A racing game that makes Lorentz transformation visible is a physics teaching tool that nobody has to be told to play. Its attribution file is unusually disciplined too: it warns which images are not genuine gameplay captures.",
+      "officialUrl": "https://github.com/rchristie95/MinkowskiKart",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/rchristie95/MinkowskiKart"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/rchristie95/MinkowskiKart"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/rchristie95/MinkowskiKart",
+        "githubRepo": "rchristie95/MinkowskiKart"
+      },
+      "asset": {
+        "path": "/images/discover/minkowski-kart.png",
+        "sourceUrl": "https://github.com/rchristie95/MinkowskiKart/blob/HEAD",
+        "license": "Artwork reuse not evidenced: ATTRIBUTION.md says assets keep their own adjacent licences and that marketing concept images lack a provenance record, so no repository image can be licensed for this site without further checking.",
+        "licenseUrl": "https://raw.githubusercontent.com/rchristie95/MinkowskiKart/HEAD/LICENSE",
+        "attribution": "Artwork reuse not evidenced: ATTRIBUTION.md says assets keep their own adjacent licences and that marketing concept images lack a provenance record, so no repository image can be licensed for this site without further checking.",
+        "alt": "Minkowski Kart"
+      },
+      "verification": {
+        "status": "not-verified-for-publication",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/rchristie95/MinkowskiKart/HEAD/README.md",
+            "label": "Developer readme checked for identity, platforms, features, distribution and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/rchristie95/MinkowskiKart/HEAD/LICENSE",
+            "label": "Repository licence reviewed for artwork reuse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      },
+      "note": "Artwork reuse not evidenced: ATTRIBUTION.md says assets keep their own adjacent licences and that marketing concept images lack a provenance record, so no repository image can be licensed for this site without further checking."
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "rimworld-go",
+      "kind": "game",
+      "name": "rimworld-go",
+      "developer": "Arthur Rodrigues Xavier da Silva",
+      "category": "Colony Sim",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/arxdsilva/rimworld-go/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A Go and Ebitengine colony simulation inspired by RimWorld: raids, farming, weather, day-night lighting and original art, shipped as desktop builds from GitHub releases with separate gallery, feature and playing documents.",
+      "features": [
+        "Simulates raids, farming, seasons, weather and lighting in a colony management loop",
+        "Draws sun, moon and shadows across the day and animates grass in the wind",
+        "Documents features, gallery and privacy handling as separate files in the repository"
+      ],
+      "insight": "Writing a colony sim in Go with Ebitengine rather than a mainstream engine is a deliberate smallness: the source is readable enough that the simulation itself is the documentation.",
+      "officialUrl": "https://github.com/arxdsilva/rimworld-go",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/arxdsilva/rimworld-go"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/arxdsilva/rimworld-go"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/arxdsilva/rimworld-go",
+        "githubRepo": "arxdsilva/rimworld-go"
+      },
+      "asset": {
+        "path": "/images/discover/rimworld-go.png",
+        "sourceUrl": "https://github.com/arxdsilva/rimworld-go/blob/HEAD",
+        "license": "Artwork licence restricts redistribution to unmodified builds of the game ('Art and audio: not covered by the GPL; share only as part of unmodified rimworld-go builds'), which does not extend to reuse on this site.",
+        "licenseUrl": "https://raw.githubusercontent.com/arxdsilva/rimworld-go/HEAD/LICENSE",
+        "attribution": "Artwork licence restricts redistribution to unmodified builds of the game ('Art and audio: not covered by the GPL; share only as part of unmodified rimworld-go builds'), which does not extend to reuse on this site.",
+        "alt": "rimworld-go"
+      },
+      "verification": {
+        "status": "not-verified-for-publication",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/arxdsilva/rimworld-go/HEAD/README.md",
+            "label": "Developer readme checked for identity, platforms, features, distribution and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/arxdsilva/rimworld-go/HEAD/LICENSE",
+            "label": "Repository licence reviewed for artwork reuse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      },
+      "note": "Artwork licence restricts redistribution to unmodified builds of the game ('Art and audio: not covered by the GPL; share only as part of unmodified rimworld-go builds'), which does not extend to reuse on this site."
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "librehold",
+      "kind": "game",
+      "name": "LibreHold",
+      "developer": "Szymon Kocur",
+      "category": "Browser Strategy",
+      "platforms": [
+        "Browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free to play, no sign-up",
+        "sourceUrl": "https://raw.githubusercontent.com/librehold-game/librehold/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "An AGPL browser strategy game in which a settlement grows from a hut to a castle, you raise an army, and you raid or trade with neighbours; it can also be self-hosted, with hosting instructions in the repository.",
+      "features": [
+        "Plays in the browser with no download and no sign-up",
+        "Covers settlement growth, army raising, raiding and diplomacy in one loop",
+        "Documents self-hosting so a community can run its own server",
+        "Keeps code under AGPL-3.0 with additional terms recorded separately"
+      ],
+      "insight": "Browser strategy games are usually free-to-play funnels. LibreHold is AGPL, self-hostable and ad-free, which makes the server an option rather than the operator.",
+      "officialUrl": "https://github.com/librehold-game/librehold",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/librehold-game/librehold"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/librehold-game/librehold"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/librehold-game/librehold",
+        "githubRepo": "librehold-game/librehold"
+      },
+      "asset": {
+        "path": "/images/discover/librehold.png",
+        "sourceUrl": "https://github.com/librehold-game/librehold/blob/HEAD",
+        "license": "Artwork permission in LICENSE-ART.md covers using the art only as graphics of LibreHold distributed with its source, and non-commercial play; anything else needs the author's written permission, so it cannot be republished here yet.",
+        "licenseUrl": "https://raw.githubusercontent.com/librehold-game/librehold/HEAD/LICENSE",
+        "attribution": "Artwork permission in LICENSE-ART.md covers using the art only as graphics of LibreHold distributed with its source, and non-commercial play; anything else needs the author's written permission, so it cannot be republished here yet.",
+        "alt": "LibreHold"
+      },
+      "verification": {
+        "status": "not-verified-for-publication",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/librehold-game/librehold/HEAD/README.md",
+            "label": "Developer readme checked for identity, platforms, features, distribution and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/librehold-game/librehold/HEAD/LICENSE",
+            "label": "Repository licence reviewed for artwork reuse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      },
+      "note": "Artwork permission in LICENSE-ART.md covers using the art only as graphics of LibreHold distributed with its source, and non-commercial play; anything else needs the author's written permission, so it cannot be republished here yet."
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "samory",
+      "kind": "game",
+      "name": "Samory",
+      "developer": "D-Generation S (xanatos)",
+      "category": "Memory Puzzle",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/D-Generation-S/Samory/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A Godot 4 memory game that also lets side-loaded custom card decks change what the board contains, distributed through GitHub releases, itch.io and an Arch Linux AUR package.",
+      "features": [
+        "Accepts custom card decks loaded alongside the game",
+        "Published on itch.io, GitHub Releases and as an AUR binary package",
+        "Built on Godot 4.7 with code, scripts and shaders under MIT"
+      ],
+      "insight": "A memory game is only as interesting as its card set, and Samory treats the deck as user-supplied content rather than fixed data.",
+      "officialUrl": "https://github.com/D-Generation-S/Samory",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/D-Generation-S/Samory"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/D-Generation-S/Samory"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/D-Generation-S/Samory",
+        "githubRepo": "D-Generation-S/Samory"
+      },
+      "asset": {
+        "path": "/images/discover/samory.png",
+        "sourceUrl": "https://github.com/D-Generation-S/Samory/blob/HEAD",
+        "license": "Artwork rights unresolved: the licence covers only code, scripts and shaders, and the sprite sheets include third-party art under CC BY-NC-SA 4.0, whose non-commercial term does not cover this site.",
+        "licenseUrl": "https://raw.githubusercontent.com/D-Generation-S/Samory/HEAD/LICENSE",
+        "attribution": "Artwork rights unresolved: the licence covers only code, scripts and shaders, and the sprite sheets include third-party art under CC BY-NC-SA 4.0, whose non-commercial term does not cover this site.",
+        "alt": "Samory"
+      },
+      "verification": {
+        "status": "not-verified-for-publication",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/D-Generation-S/Samory/HEAD/README.md",
+            "label": "Developer readme checked for identity, platforms, features, distribution and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/D-Generation-S/Samory/HEAD/LICENSE",
+            "label": "Repository licence reviewed for artwork reuse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      },
+      "note": "Artwork rights unresolved: the licence covers only code, scripts and shaders, and the sprite sheets include third-party art under CC BY-NC-SA 4.0, whose non-commercial term does not cover this site."
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "curse-of-the-arrow",
+      "kind": "game",
+      "name": "Curse of the Arrow",
+      "developer": "Egor Dorichev",
+      "category": "Retro Platformer",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source",
+        "sourceUrl": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A retro-styled action platformer written in Lua with LÖVE by a developer known for homebrew handheld ports, published with its source under GPL-3.0 and an itch.io build.",
+      "features": [
+        "Written in Lua on the LÖVE framework",
+        "Source published under GPL-3.0 with assets licensed separately under CC BY-NC-SA 4.0",
+        "Distributed through itch.io alongside the public repository"
+      ],
+      "insight": "It is a rare thing to see a finished commercial-style retro platformer with its whole source public, even when the art is licensed apart from the code.",
+      "officialUrl": "https://github.com/egordorichev/CurseOfTheArrow",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/egordorichev/CurseOfTheArrow"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/egordorichev/CurseOfTheArrow"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/egordorichev/CurseOfTheArrow",
+        "githubRepo": "egordorichev/CurseOfTheArrow"
+      },
+      "asset": {
+        "path": "/images/discover/curse-of-the-arrow.png",
+        "sourceUrl": "https://github.com/egordorichev/CurseOfTheArrow/blob/HEAD",
+        "license": "Artwork licence is CC BY-NC-SA 4.0, whose non-commercial term does not cover reuse on this site; separate written permission is needed.",
+        "licenseUrl": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/LICENSE",
+        "attribution": "Artwork licence is CC BY-NC-SA 4.0, whose non-commercial term does not cover reuse on this site; separate written permission is needed.",
+        "alt": "Curse of the Arrow"
+      },
+      "verification": {
+        "status": "not-verified-for-publication",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/README.md",
+            "label": "Developer readme checked for identity, platforms, features, distribution and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/egordorichev/CurseOfTheArrow/HEAD/LICENSE",
+            "label": "Repository licence reviewed for artwork reuse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      },
+      "note": "Artwork licence is CC BY-NC-SA 4.0, whose non-commercial term does not cover reuse on this site; separate written permission is needed."
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "pokerth-web-client",
+      "kind": "game",
+      "name": "PokerTH Web Client",
+      "developer": "narmod",
+      "category": "Browser Card Game",
+      "platforms": [
+        "Browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, no ads, play money only",
+        "sourceUrl": "https://raw.githubusercontent.com/narmod/pokerth-web-client/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A browser Texas Hold'em client for PokerTH servers: join as a guest with only a nickname, invite friends by link, or self-host with Docker, with responsive seat layouts for phones and desktops and free community tournaments.",
+      "features": [
+        "Guest play with a nickname on any LAN or dedicated server, and invitation links",
+        "Play-money chips only, no ads and nothing to buy",
+        "Four portrait seat layouts plus a drag-and-drop custom layout",
+        "Runs in Docker for self-hosting, with Raspberry Pi instructions",
+        "Delivers rules, FAQ and how-to-play pages in 83 languages"
+      ],
+      "insight": "Open-source card rooms usually die with their desktop client. This one rebuilt the front end for browsers and phones while keeping the AGPL server model, so a group can still deal its own tables.",
+      "officialUrl": "https://github.com/narmod/pokerth-web-client",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/narmod/pokerth-web-client"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/narmod/pokerth-web-client"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/narmod/pokerth-web-client",
+        "githubRepo": "narmod/pokerth-web-client"
+      },
+      "asset": {
+        "path": "/images/discover/pokerth-web-client.png",
+        "sourceUrl": "https://github.com/narmod/pokerth-web-client/blob/HEAD",
+        "license": "No official original artwork located: the readme carries no repository image and the licence grants were not established for a hosted preview asset, so the entry cannot be published with evidenced artwork.",
+        "licenseUrl": "https://raw.githubusercontent.com/narmod/pokerth-web-client/HEAD/LICENSE",
+        "attribution": "No official original artwork located: the readme carries no repository image and the licence grants were not established for a hosted preview asset, so the entry cannot be published with evidenced artwork.",
+        "alt": "PokerTH Web Client"
+      },
+      "verification": {
+        "status": "not-verified-for-publication",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/narmod/pokerth-web-client/HEAD/README.md",
+            "label": "Developer readme checked for identity, platforms, features, distribution and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/narmod/pokerth-web-client/HEAD/LICENSE",
+            "label": "Repository licence reviewed for artwork reuse",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      },
+      "note": "No official original artwork located: the readme carries no repository image and the licence grants were not established for a hosted preview asset, so the entry cannot be published with evidenced artwork."
+    },
+    "queuedAt": "2026-11-19",
+    "reasons": [
+      "Only verified entries may publish"
+    ]
   }
 ]
