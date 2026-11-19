@@ -1,0 +1,1169 @@
+{
+  "date": "2026-11-19",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-19T07:26:37.617Z",
+  "entries": [
+    {
+      "slug": "el-almojarife",
+      "kind": "game",
+      "name": "El Almojarife",
+      "developer": "HALCONDEORO (Marco Tevar)",
+      "category": "Historical Trading Sim",
+      "platforms": [
+        "Browser",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source beta download",
+        "sourceUrl": "https://raw.githubusercontent.com/HALCONDEORO/almojarife-game/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A maritime trading game set on the Iberian and North African coast in the 15th and 16th centuries. You found a merchant house and run it as a business: buy cargo in one port, sail it somewhere it is scarce, then reinvest in hulls, crews, warehouses and city property. The build is an explicit beta, and the developer documents which betas actually ship binaries.",
+      "features": [
+        "Trades 20 goods across 33 cities while markets move and stock runs out, so a route that paid last voyage may not pay twice",
+        "Sells you rumours and dockside price reports and leaves unvisited ports genuinely unknown instead of hiding the same data behind a menu",
+        "Automatic routes support multi-stop buy and sell rules, price limits and a cash reserve you decide not to touch",
+        "Shipyards sell hull repairs, equipment, captains and convoys, and weapons occupy cargo space you have to budget for",
+        "Warehouse stewards buy only up to a stock target, sell only above a floor you set, and can lock outflow during a voyage"
+      ],
+      "insight": "Trading games usually solve their own history by handing the player a complete map. El Almojarife prices information as cargo: a run to Huelva is profitable because you paid to learn something about it, which turns bookkeeping into exploration.",
+      "officialUrl": "https://github.com/HALCONDEORO/almojarife-game",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/HALCONDEORO/almojarife-game"
+      },
+      "distribution": [
+        {
+          "label": "Official web build",
+          "url": "https://halcondeoro.github.io/almojarife-game/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/HALCONDEORO/almojarife-game/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/HALCONDEORO/almojarife-game",
+        "githubRepo": "HALCONDEORO/almojarife-game"
+      },
+      "asset": {
+        "path": "/images/discover/el-almojarife.png",
+        "sourceUrl": "https://raw.githubusercontent.com/HALCONDEORO/almojarife-game/HEAD/docs/img/player-guide/market.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://raw.githubusercontent.com/HALCONDEORO/almojarife-game/HEAD/LICENSE-ART.md",
+        "attribution": "El Almojarife market screenshot by Marco Tevar, reused under the repository's art and documentation licence (CC BY 4.0); code is MIT. Natural Earth cartography keeps its own public-domain terms.",
+        "alt": "El Almojarife market screen showing cargo, quoted prices and warehouse stock",
+        "noticePath": "/images/discover/licenses/el-almojarife-CC-BY-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/HALCONDEORO/almojarife-game/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, gameplay, downloads and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HALCONDEORO/almojarife-game/HEAD/LICENSE-ART.md",
+            "label": "Art and documentation licence: original artwork is CC BY 4.0",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/HALCONDEORO/almojarife-game/HEAD/LICENSE",
+            "label": "MIT licence for the code",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "late-eastern-han-dynasty",
+      "kind": "game",
+      "name": "Late Eastern Han Dynasty",
+      "developer": "CtxPilot",
+      "category": "Historical Grand Strategy",
+      "platforms": [
+        "Browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source web build",
+        "sourceUrl": "https://raw.githubusercontent.com/CtxPilot/Late-Eastern-Han-Dynasty/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A grand strategy game set in 190 CE, when the Han court had lost its grip and warlords rose across thirteen provinces. It calls itself a playable prototype rather than a release, and the loop it demonstrates is the classical one: govern, gather officers, campaign, fight and claim a title.",
+      "features": [
+        "Develops agriculture, trade and city walls, recruits and trains troops, and keeps a population fed through drought and winter",
+        "Appoints officers along three parallel career tracks — civil, military and nobility — and raises officer families across generations",
+        "Assembles armies with a commander, deputy commanders, an adviser and five-position squads before marching roads and besieging cities",
+        "Resolves battles three ways: automatic summary, standard close combat, or tactical hex control, plus single duels",
+        "Documents 27 interlocking systems, including hidden attributes, faction politics and fame, treasure equipment and relationship webs"
+      ],
+      "insight": "Chinese historical strategy normally reaches players through commercial series. This prototype rebuilds the same loop in the open and publishes an asset manifest that names the author and licence of every screenshot and font, keeping commercial character art out of the build entirely.",
+      "officialUrl": "https://ctxpilot.github.io/Late-Eastern-Han-Dynasty/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/CtxPilot/Late-Eastern-Han-Dynasty"
+      },
+      "distribution": [
+        {
+          "label": "Official web build",
+          "url": "https://ctxpilot.github.io/Late-Eastern-Han-Dynasty/"
+        },
+        {
+          "label": "Source build from GitHub",
+          "url": "https://github.com/CtxPilot/Late-Eastern-Han-Dynasty"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://ctxpilot.github.io/Late-Eastern-Han-Dynasty",
+        "githubRepo": "CtxPilot/Late-Eastern-Han-Dynasty"
+      },
+      "asset": {
+        "path": "/images/discover/late-eastern-han-dynasty.png",
+        "sourceUrl": "https://raw.githubusercontent.com/CtxPilot/Late-Eastern-Han-Dynasty/HEAD/docs/screenshots/leh-strategic-realm.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/CtxPilot/Late-Eastern-Han-Dynasty/HEAD/LICENSE",
+        "attribution": "Late Eastern Han Dynasty screenshot from the CtxPilot/Late-Eastern-Han-Dynasty repository under the MIT licence, unmodified. Its embedded Natural Earth basemap is public domain.",
+        "alt": "Late Eastern Han Dynasty strategic map view of thirteen provinces",
+        "noticePath": "/images/discover/licenses/late-eastern-han-dynasty-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/CtxPilot/Late-Eastern-Han-Dynasty/HEAD/README.md",
+            "label": "Developer readme stating identity, platforms, systems, web build and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CtxPilot/Late-Eastern-Han-Dynasty/HEAD/ASSET_MANIFEST.md",
+            "label": "Asset provenance manifest covering screenshots and fonts",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CtxPilot/Late-Eastern-Han-Dynasty/HEAD/LICENSE",
+            "label": "MIT licence for code and project-made screenshots",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "the-human-box",
+      "kind": "game",
+      "name": "The Human Box",
+      "developer": "Mohamad Homsi",
+      "category": "Emergent Simulation",
+      "platforms": [
+        "Browser",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, no install for the browser build",
+        "sourceUrl": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A live emergent simulation of Stone Age tribes that runs in a browser tab and needs no install. Nothing is scripted: individuals are born with traits mixed from both parents, learn by reinforcement, and inherit a slightly mutated copy of their mother's decision table, her vocabulary and her attitudes to other tribes.",
+      "features": [
+        "Simulates an 800 by 400 tile world across ten biomes with elevation, rivers, lakes, weather and four seasons",
+        "Lets tribes invent their own languages, lineages, cultures and wars instead of climbing a authored tech tree",
+        "Gives about 160 tools in five categories — life, nature, resources, deadly and world — for dropping people, raising land or sending plagues",
+        "Forces whole tribes to migrate or hands them food and tools, then lets the consequences run unassisted",
+        "Plays back at any speed from half speed to 5000 times, or pauses without losing state"
+      ],
+      "insight": "God games usually bury the simulation under quests. The Human Box leaves the agents exposed: reinforcement learning, inherited vocabularies and mutated tribal attitudes are the content, and the 160 tools only change what those agents already react to.",
+      "officialUrl": "https://thehumanbox.com/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/1homsi/thehumanbox"
+      },
+      "distribution": [
+        {
+          "label": "Play in browser",
+          "url": "https://thehumanbox.com"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/1homsi/thehumanbox/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://thehumanbox.com",
+        "githubRepo": "1homsi/thehumanbox"
+      },
+      "asset": {
+        "path": "/images/discover/the-human-box.png",
+        "presentation": "contain",
+        "sourceUrl": "https://thehumanbox.com/og-cover.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/LICENSE",
+        "attribution": "The Human Box cover art from the official site thehumanbox.com by Mohamad Homsi, unmodified; the project's code and repository artwork are MIT licensed.",
+        "alt": "The Human Box cover showing a Stone Age tribe building its first settlement",
+        "noticePath": "/images/discover/licenses/the-human-box-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/README.md",
+            "label": "Developer readme stating identity, world rules, tools, platforms and downloads",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thehumanbox.com/",
+            "label": "Official project site serving the cover image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/1homsi/thehumanbox/HEAD/LICENSE",
+            "label": "MIT licence for the project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "margin-space-mission-design",
+      "kind": "game",
+      "name": "Margin",
+      "developer": "farfromoffice",
+      "category": "Space Mission Design",
+      "platforms": [
+        "Browser",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/farfromoffice/margin/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A spacecraft mission design game built for the NASA Space Apps Challenge 2026 by an independent team that states plainly it is not a NASA product. You pick an instrument, power, radio, ground stations, orbit and launcher; the game blocks the launch if the numbers do not add up, then flies the mission through the failures you chose.",
+      "features": [
+        "Refuses launch when mass, budget, orbit or structure size do not fit, and warns about power, downlink, memory and pointing margins",
+        "Takes orbits, eclipses and ground station passes from NASA GMAT R2025a runs, then simulates the spacecraft in 60-second steps",
+        "Lets you decide how many failures may strike, from training runs to none, and shows the ascent in 3D from pad to deployment",
+        "Locks hardware, orbit and launcher once you are flying, so redesign happens between missions rather than during one",
+        "Ends every run with a report and a design loop: change the spacecraft, launch again"
+      ],
+      "insight": "Most space games let you spend an unlimited budget. Margin's teaching value is the constraint it names: it tells you which subsystem fails first, then makes you live with that choice after the fairing separates.",
+      "officialUrl": "https://github.com/farfromoffice/margin",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/farfromoffice/margin"
+      },
+      "distribution": [
+        {
+          "label": "Official web build",
+          "url": "https://farfromoffice.github.io/margin/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/farfromoffice/margin/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://farfromoffice.github.io/margin",
+        "githubRepo": "farfromoffice/margin"
+      },
+      "asset": {
+        "path": "/images/discover/margin.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/farfromoffice/margin/HEAD/docs/screenshots/orbit.jpg",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/farfromoffice/margin/HEAD/LICENSE",
+        "attribution": "Margin orbit screenshot from the farfromoffice/margin repository, MIT licensed and unmodified. In-game art also uses NASA public-domain imagery, CC0 Kenney assets and OFL fonts listed in the project credits.",
+        "alt": "Margin screenshot of a built spacecraft separated and deployed in orbit",
+        "noticePath": "/images/discover/licenses/margin-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/farfromoffice/margin/HEAD/README.md",
+            "label": "Developer readme stating identity, simulation model, platforms, downloads and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/farfromoffice/margin/HEAD/LICENSE",
+            "label": "MIT licence covering the code and repository screenshots",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "frozen-bubble-sdl3",
+      "kind": "game",
+      "name": "Frozen-Bubble: SDL3",
+      "developer": "dchau360",
+      "category": "Bubble Shooter",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android",
+        "Browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source on every platform",
+        "sourceUrl": "https://raw.githubusercontent.com/dchau360/frozen-bubble-sdl3/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "An independently written rewrite of the 2002 puzzle shooter on SDL3, developed without affiliation to the original project and credited to it in the readme. The aim-and-match loop survives; the multiplayer layer underneath it is rebuilt, with rooms for up to 20 players, bots, tournaments and a public scoreboard.",
+      "features": [
+        "Rewritten in C++ against SDL3, with online rooms for up to 20 players, bots and tournament play",
+        "Hosts retune each mode's numbers, and attack bubbles work as on, off or blockable so surplus malus is queued against you",
+        "Runs on desktop, Android and Android TV, plus a browser build that plays on phones with no install",
+        "Opens a full in-game settings guide from the help button or F1, including how malus targeting changes at six or more live players",
+        "Publishes 70 numbered differences from the original, including fixes to the original's own server code"
+      ],
+      "insight": "Remakes usually stop at matching the original. This one goes after what the original was weak at — a 20-player room, a maintained scoreboard and a bot model reimplemented against its own board — while publishing the diff from the 2002 game instead of claiming its authorship.",
+      "officialUrl": "https://github.com/dchau360/frozen-bubble-sdl3",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/dchau360/frozen-bubble-sdl3"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=org.frozenbubble"
+        },
+        {
+          "label": "itch.io",
+          "url": "https://dchau360.itch.io/frozenbubble2"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/dchau360/frozen-bubble-sdl3/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/dchau360/frozen-bubble-sdl3",
+        "androidPackageId": "org.frozenbubble",
+        "githubRepo": "dchau360/frozen-bubble-sdl3"
+      },
+      "asset": {
+        "path": "/images/discover/frozen-bubble-sdl3.jpg",
+        "sourceUrl": "https://raw.githubusercontent.com/dchau360/frozen-bubble-sdl3/HEAD/docs/screenshots/modern-gameplay.jpg",
+        "license": "GPL-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/dchau360/frozen-bubble-sdl3/HEAD/LICENSE",
+        "attribution": "Frozen-Bubble SDL3 gameplay screenshot from the dchau360/frozen-bubble-sdl3 repository under GPL-2.0, unmodified. Vendored and linked third-party components keep their own notices.",
+        "alt": "Frozen-Bubble SDL3 gameplay board with coloured bubbles and a aiming shot",
+        "noticePath": "/images/discover/licenses/frozen-bubble-sdl3-GPL-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/dchau360/frozen-bubble-sdl3/HEAD/README.md",
+            "label": "Developer readme stating identity, modes, platforms, stores and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/dchau360/frozen-bubble-sdl3/HEAD/LICENSE",
+            "label": "GPL-2.0 licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "synmergia",
+      "kind": "game",
+      "name": "Synmergia",
+      "developer": "Creadev.org (dhaupin)",
+      "category": "Browser MMORPG",
+      "platforms": [
+        "Browser"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source early-access build",
+        "sourceUrl": "https://raw.githubusercontent.com/dhaupin/synmergia/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A browser-first open-world MMORPG built on Godot 4.7.2 and exported to WebAssembly, on a hand-built 20 km spherical planet with streamed terrain. It is honestly labelled early access: the readme keeps a separate list of what works today and what has not shipped yet, including the player-run market and public launch.",
+      "features": [
+        "Streams a 20 km spherical planet with clipmap terrain, procedural props, player housing and timed world bosses",
+        "Offers 18 playable classes across six archetypes and three species, with a skill academy, buffs, arena combat and open-world PvP",
+        "Runs guilds with ranks and permissions, parties, raids, friends and ignore lists, chat, territory claims and community governance",
+        "Keeps the world alive while you are offline through an authoritative Godot server on a Docker-based shard mesh",
+        "Exposes an in-build agent bridge the project uses to test and operate the game world"
+      ],
+      "insight": "Browser MMOs normally mean a tile map and a chat window. Synmergia puts a round, streamed planet inside the same tab as a WebAssembly Godot build — and its 'still in progress' list is a more useful guide to an early-access world than most launch trailers.",
+      "officialUrl": "https://synmergia.creadev.org/",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/dhaupin/synmergia"
+      },
+      "distribution": [
+        {
+          "label": "Play in browser",
+          "url": "https://synmergia.creadev.org/play"
+        },
+        {
+          "label": "Official GitHub repository",
+          "url": "https://github.com/dhaupin/synmergia"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://synmergia.creadev.org",
+        "githubRepo": "dhaupin/synmergia"
+      },
+      "asset": {
+        "path": "/images/discover/synmergia.png",
+        "presentation": "contain",
+        "sourceUrl": "https://synmergia.creadev.org/og-image.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/dhaupin/synmergia/HEAD/LICENSE",
+        "attribution": "Synmergia preview art from the official site synmergia.creadev.org, unmodified; the project is MIT licensed (c) 2026 Creadev.org.",
+        "alt": "Synmergia banner showing the spherical world of its browser MMORPG",
+        "noticePath": "/images/discover/licenses/synmergia-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/dhaupin/synmergia/HEAD/README.md",
+            "label": "Developer readme stating identity, shipped systems, browser client and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://synmergia.creadev.org/",
+            "label": "Official project site serving the preview image",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/dhaupin/synmergia/HEAD/LICENSE",
+            "label": "MIT licence for the project",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "food-expiration-dates",
+      "kind": "app",
+      "name": "Food Expiration Dates",
+      "developer": "Lorenzo Vainigli",
+      "category": "Food Expiry Tracker",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source, donation-funded",
+        "sourceUrl": "https://raw.githubusercontent.com/lorenzovngl/FoodExpirationDates/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "Keeps a list of what is in your kitchen and shows it in the order it will be thrown away. Adding an item is mostly a barcode scan: the product comes back from the Open Food Facts database, and you only type what the scanner could not find.",
+      "features": [
+        "Sorts food by soonest expiry, with the date you opened a product kept apart from its best-before date",
+        "Reads a barcode and fills the item in from the Open Food Facts database",
+        "Sends notifications as products approach their dates",
+        "Publishes a Google Play build and an IzzyOnDroid F-Droid build with Google services removed",
+        "Maintained in 16 languages through a public Weblate project"
+      ],
+      "insight": "Fridge inventory apps fail because entering the food costs more effort than the food is worth. Food Expiration Dates removes the typing — a barcode scan and an opening date are enough to get a reminder, which is the only version of this habit that survives a busy week.",
+      "officialUrl": "https://github.com/lorenzovngl/FoodExpirationDates",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/lorenzovngl/FoodExpirationDates"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.lorenzovainigli.foodexpirationdates"
+        },
+        {
+          "label": "F-Droid (IzzyOnDroid)",
+          "url": "https://apt.izzysoft.de/fdroid/index/apk/com.lorenzovainigli.foodexpirationdates.foss"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/lorenzovngl/FoodExpirationDates/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/lorenzovngl/FoodExpirationDates",
+        "androidPackageId": "com.lorenzovainigli.foodexpirationdates",
+        "githubRepo": "lorenzovngl/FoodExpirationDates"
+      },
+      "asset": {
+        "path": "/images/discover/food-expiration-dates.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/lorenzovngl/FoodExpirationDates/HEAD/app/src/main/res/drawable/fed_icon.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/lorenzovngl/FoodExpirationDates/HEAD/LICENSE",
+        "attribution": "Food Expiration Dates app icon from the lorenzovngl/FoodExpirationDates repository, MIT licensed, unmodified.",
+        "alt": "Food Expiration Dates app icon",
+        "noticePath": "/images/discover/licenses/food-expiration-dates-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/lorenzovngl/FoodExpirationDates/HEAD/README.md",
+            "label": "Developer readme stating identity, features, stores, languages and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/lorenzovngl/FoodExpirationDates/HEAD/LICENSE",
+            "label": "MIT licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "aucards",
+      "kind": "app",
+      "name": "Aucards",
+      "developer": "vadimerenkov",
+      "category": "Communication Cards",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Completely free, open source and no ads",
+        "sourceUrl": "https://raw.githubusercontent.com/vadimerenkov/Aucards/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "Turns a phone into a touch board for augmentative and alternative communication: you write a message once, colour its card, then hand the phone over so a single tap opens it fullscreen at speaking size. It is aimed at autistic and ADHD users, people recovering speech, and anyone whose words are hard to get out in the moment.",
+      "features": [
+        "Stores reusable messages as colour-coded cards you can drag into any order or mark as favourites",
+        "Opens a tapped card in fullscreen so one message can be shown or read out at distance",
+        "Adds optional extra context text underneath the message itself",
+        "Edits or deletes a card with a long press, so the board is shaped by its user",
+        "Publishes the same package on Google Play and as an F-Droid build"
+      ],
+      "insight": "AAC software is usually priced like clinical equipment and locked to one therapy plan. Aucards is a free, offline board anyone can reshape in minutes — which matters most when the person who needs it is the one doing the editing.",
+      "officialUrl": "https://github.com/vadimerenkov/Aucards",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/vadimerenkov/Aucards"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=vadimerenkov.aucards"
+        },
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/packages/vadimerenkov.aucards/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/vadimerenkov/Aucards",
+        "androidPackageId": "vadimerenkov.aucards",
+        "githubRepo": "vadimerenkov/Aucards"
+      },
+      "asset": {
+        "path": "/images/discover/aucards.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/vadimerenkov/Aucards/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/vadimerenkov/Aucards/HEAD/LICENSE",
+        "attribution": "Aucards app icon from the vadimerenkov/Aucards repository, GPL-3.0 licensed, unmodified.",
+        "alt": "Aucards app icon",
+        "noticePath": "/images/discover/licenses/aucards-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/vadimerenkov/Aucards/HEAD/README.md",
+            "label": "Developer readme stating identity, workflow, stores, price and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/vadimerenkov/Aucards/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "eigentone",
+      "kind": "app",
+      "name": "Eigentone",
+      "developer": "Dragjon",
+      "category": "System-Wide Equaliser",
+      "platforms": [
+        "Android",
+        "Windows"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free with no paid tier, ads, account or tracking",
+        "sourceUrl": "https://raw.githubusercontent.com/Dragjon/eigentone/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A free, open-source equaliser that sits under every app on the phone rather than inside one player, so your headphones and your hearing are corrected once, system wide, without root. Its correction is two-stage: headphone measurements first, then a hearing check that fits the result to you.",
+      "features": [
+        "Applies AutoEq corrections per headphone model, then adds a separate EQ for each ear and a hearing check",
+        "Includes reverb, surround and a compressor with nothing held back for a paid tier",
+        "Loudness-matches comparisons and bypass, and warns when a setting could clip",
+        "Builds its curves on ISO 226:2003 equal-loudness contours, ANSI S3.5 weighting and published Harman listening research",
+        "Ships a separate GPL-licensed Windows client alongside the Android app"
+      ],
+      "insight": "System-wide EQ on Android is normally a root-only trick or a freemium shell with the useful filters behind a paywall. Eigentone does the unglamorous engineering — per-ear correction and loudness-matched bypass so louder cannot win by accident — and gives all of it away under GPL.",
+      "officialUrl": "https://github.com/Dragjon/eigentone",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Dragjon/eigentone"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Dragjon/eigentone/releases"
+        },
+        {
+          "label": "Windows builds (eigentone-windows)",
+          "url": "https://github.com/Dragjon/eigentone-windows/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Dragjon/eigentone",
+        "githubRepo": "Dragjon/eigentone"
+      },
+      "asset": {
+        "path": "/images/discover/eigentone.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/Dragjon/eigentone/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Dragjon/eigentone/HEAD/LICENSE",
+        "attribution": "Eigentone app icon from the Dragjon/eigentone repository, GPL-3.0 licensed, unmodified. Bundled headphone data comes from AutoEq under MIT.",
+        "alt": "Eigentone app icon",
+        "noticePath": "/images/discover/licenses/eigentone-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Dragjon/eigentone/HEAD/README.md",
+            "label": "Developer readme stating identity, features, platforms, price and research basis",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Dragjon/eigentone/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tomevoice",
+      "kind": "app",
+      "name": "TomeVoice",
+      "developer": "Sayandeep1013",
+      "category": "Text To Speech Reader",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, offline, open source",
+        "sourceUrl": "https://raw.githubusercontent.com/Sayandeep1013/TomeVoice/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "Opens almost any book file you already own and reads it aloud with the voices installed on the phone — EPUB, PDF including scanned pages, DOCX, ODT, MOBI and AZW3, DjVu through its hidden text, and plain text. There is no account, and narration continues with the screen off.",
+      "features": [
+        "Runs Tesseract OCR on scanned PDFs on the device so page images can still be spoken",
+        "Reads quoted dialogue in a second voice, with an experimental voice per character",
+        "Plays EPUB 3 media overlays when a book already ships its own recorded narration",
+        "Highlights the sentence being read and the exact word under the voice",
+        "Splits one long TXT web novel into chapters you define, and can swap in a corrected edition of a file",
+        "Offers lock-screen playback and roughly 180 optional natural-sounding voices across 42 languages"
+      ],
+      "insight": "E-readers treat audiobooks as a separate purchase. TomeVoice treats them as the same file: any EPUB, scanned PDF or page you share from the browser becomes speech on hardware you already own, which is the cheapest route to making a library accessible.",
+      "officialUrl": "https://github.com/Sayandeep1013/TomeVoice",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Sayandeep1013/TomeVoice"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/Sayandeep1013/TomeVoice/releases/latest"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Sayandeep1013/TomeVoice",
+        "githubRepo": "Sayandeep1013/TomeVoice"
+      },
+      "asset": {
+        "path": "/images/discover/tomevoice.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/Sayandeep1013/TomeVoice/HEAD/app/assets/brand/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/Sayandeep1013/TomeVoice/HEAD/LICENSE",
+        "attribution": "TomeVoice app icon from the Sayandeep1013/TomeVoice repository, GPL-3.0 licensed, unmodified.",
+        "alt": "TomeVoice app icon",
+        "noticePath": "/images/discover/licenses/tomevoice-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Sayandeep1013/TomeVoice/HEAD/README.md",
+            "label": "Developer readme stating identity, formats, speech features, licence and price",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Sayandeep1013/TomeVoice/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "jotsy",
+      "kind": "app",
+      "name": "Jotsy",
+      "developer": "CikeSeven",
+      "category": "Offline Journal",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source download",
+        "sourceUrl": "https://raw.githubusercontent.com/CikeSeven/jotsy/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A Flutter journal that keeps entries on your device and reads your own history back to you. Each note takes 23 rich-text tools, photos, video, attachments and pauseable recordings, with drafts saved automatically so a half-written page is never lost; backfill, anniversaries and word counts turn the archive into something you can revisit.",
+      "features": [
+        "23 editor tools including headings, colour, lists and tables, plus multi-image, video, any-type attachments and pauseable audio",
+        "Stamps entries with location and weather automatically, with 10 mood emoji and a five-level energy rating",
+        "Lists the photos you took on a past date when you backfill that day, so you choose which to insert",
+        "Organises notes into journals a single entry can belong to, with tags, search, pinning, archiving and a reversible trash",
+        "Adds lunar calendar dates, solar terms, public holidays and repeating anniversaries to month and week views",
+        "Exports any card or detail style as a code so layouts can be shared between people"
+      ],
+      "insight": "Journal apps optimise the writing moment and forget the reading one. Jotsy builds both halves: capture with weather, mood and location attached, then recovery through lunar-calendar anniversaries, camera-roll backfill and per-entry word counts.",
+      "officialUrl": "https://github.com/CikeSeven/jotsy",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/CikeSeven/jotsy"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/CikeSeven/jotsy/releases/latest"
+        },
+        {
+          "label": "Official project page",
+          "url": "https://cikeseven.github.io/jotsy/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/CikeSeven/jotsy",
+        "githubRepo": "CikeSeven/jotsy"
+      },
+      "asset": {
+        "path": "/images/discover/jotsy.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/CikeSeven/jotsy/HEAD/assets/app_icon/mingcute_icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/CikeSeven/jotsy/HEAD/LICENSE",
+        "attribution": "Jotsy app icon from the CikeSeven/jotsy repository, GPL-3.0 licensed, unmodified.",
+        "alt": "Jotsy app icon",
+        "noticePath": "/images/discover/licenses/jotsy-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/CikeSeven/jotsy/HEAD/README.md",
+            "label": "Developer readme stating identity, editor features, platforms, downloads and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/CikeSeven/jotsy/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nevumi",
+      "kind": "app",
+      "name": "Nevumi",
+      "developer": "D3SOX",
+      "category": "Music Player",
+      "platforms": [
+        "Android",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source APK, Arch package and AppImage",
+        "sourceUrl": "https://raw.githubusercontent.com/D3SOX/Nevumi/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "A Material You music player for Android 12 and Linux, written in Kotlin and Compose, that treats your self-hosted server as the library rather than as a remote folder. Navidrome and Subsonic-compatible servers are browsed, streamed, downloaded, rated and scrobbled through the same API.",
+      "features": [
+        "Streams, downloads, playlists, favourites, ratings and scrobbling over the Subsonic REST API from version 1.13.0",
+        "Browses local files by song, album, artist, genre and folder, with artist separators you control",
+        "Edits tags and artwork on local files or on Navidrome over SFTP, with MusicBrainz metadata lookups",
+        "Adds YouTube Music and SoundCloud on request, contacting YouTube only after you switch it on in Settings",
+        "Runs a MilkDrop visualiser built on projectM, with preset packs reproduced from checksum-verified archives",
+        "Bundles a tsnet-based Tailscale client so private servers stay private, and ships arm64 and x86_64 APKs from CI"
+      ],
+      "insight": "Players that advertise server support usually give you a thin remote view. Nevumi treats the Subsonic API as the library itself — scrobbling, playlist covers written back through Navidrome's native API, SFTP tag editing — which is what makes a self-hosted collection feel local.",
+      "officialUrl": "https://github.com/D3SOX/Nevumi",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/D3SOX/Nevumi"
+      },
+      "distribution": [
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/D3SOX/Nevumi/releases"
+        },
+        {
+          "label": "Developer F-Droid repository",
+          "url": "https://nevumi.app/fdroid/repo"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/D3SOX/Nevumi",
+        "androidPackageId": "me.d3sox.nevumi",
+        "githubRepo": "D3SOX/Nevumi"
+      },
+      "asset": {
+        "path": "/images/discover/nevumi.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/D3SOX/Nevumi/HEAD/packaging/screenshots/home.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/D3SOX/Nevumi/HEAD/LICENSE",
+        "attribution": "Nevumi home screen from the D3SOX/Nevumi repository packaging, AGPL-3.0 licensed, unmodified. Namida inspired its feature list; no Namida implementation or assets are included.",
+        "alt": "Nevumi home screen showing library sections on a Material You interface",
+        "noticePath": "/images/discover/licenses/nevumi-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/D3SOX/Nevumi/HEAD/README.md",
+            "label": "Developer readme stating identity, server support, platforms, packaging and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/D3SOX/Nevumi/HEAD/LICENSE",
+            "label": "AGPL-3.0 licence covering the repository screenshots",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "droynis",
+      "kind": "app",
+      "name": "Droynis",
+      "developer": "capitan0n",
+      "category": "Security Audit",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source, no network permission",
+        "sourceUrl": "https://raw.githubusercontent.com/capitan0n/droynis/HEAD/README.md",
+        "checkedAt": "2026-11-19"
+      },
+      "summary": "An offline security and privacy audit for Android, modelled on Lynis but run on the phone itself: more than 90 read-only checks across device integrity, access control, apps and permissions, network and radios. It holds no INTERNET permission, so nothing it learns can leave the device.",
+      "features": [
+        "Runs 90 plus read-only checks at several privilege levels — base, ADB and Shizuku where you grant them",
+        "Scores passed weight against scored weight so a device can be compared over time",
+        "Reports a check as unknown when Android will not give up a value, instead of guessing a pass",
+        "Mutes checks only the manufacturer can fix and trusts apps that legitimately need wide access",
+        "Exports Markdown or JSON reports with personal details hidden by default, and can schedule daily or weekly scans",
+        "Checks against a maintained open stalkerware-indicator list without any network access"
+      ],
+      "insight": "Phone security tools either demand root or sell you a scan. Droynis borrows Lynis's discipline instead: every check says what it actually read, unknown stays unknown, and the score becomes a diff you can watch between updates — which is what an audit looks like.",
+      "officialUrl": "https://github.com/capitan0n/droynis",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/capitan0n/droynis"
+      },
+      "distribution": [
+        {
+          "label": "F-Droid",
+          "url": "https://f-droid.org/en/packages/io.github.capitan0n.droynis/"
+        },
+        {
+          "label": "GitHub Releases",
+          "url": "https://github.com/capitan0n/droynis/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/capitan0n/droynis",
+        "androidPackageId": "io.github.capitan0n.droynis",
+        "githubRepo": "capitan0n/droynis"
+      },
+      "asset": {
+        "path": "/images/discover/droynis.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/capitan0n/droynis/HEAD/fastlane/metadata/android/en-US/images/icon.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/capitan0n/droynis/HEAD/LICENSE",
+        "attribution": "Droynis app icon from the capitan0n/droynis repository, GPL-3.0 licensed, unmodified.",
+        "alt": "Droynis app icon",
+        "noticePath": "/images/discover/licenses/droynis-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-19",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/capitan0n/droynis/HEAD/README.md",
+            "label": "Developer readme stating identity, checks, tiers, install routes and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-19"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/capitan0n/droynis/HEAD/LICENSE",
+            "label": "GPL-3.0 licence covering the repository artwork",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-19"
+          }
+        ]
+      }
+    }
+  ]
+}
