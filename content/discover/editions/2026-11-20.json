@@ -1,0 +1,1255 @@
+{
+  "date": "2026-11-20",
+  "title": "Independent ideas. Extraordinary finds.",
+  "intro": "A daily selection of independent games and useful Android apps, with original F7 insights and links to their creators.",
+  "publishedAt": "2026-11-20T07:35:01.230Z",
+  "entries": [
+    {
+      "slug": "source-of-mana",
+      "kind": "game",
+      "name": "Source of Mana",
+      "developer": "Manasource",
+      "category": "Open-Source MMORPG",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source (MIT-licensed code, permissively licensed content)",
+        "sourceUrl": "https://raw.githubusercontent.com/sourceofmana/sourceofmana/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "An open-source 2D MMORPG built on Godot 4 by veterans of The Mana World, chasing the feel of late-1990s pixel-art RPGs. The project is still in early development yet already offers a playable solo and multiplayer experience with a server-authoritative world, quests, monster combat and loot. Desktop, Android and browser clients are listed as targets of the same codebase, and the client, server, maps and credited art library are all public.",
+      "features": [
+        "Godot 4 client and server with a dynamic, server-authoritative world you can read and run yourself",
+        "Quests, monster battles and loot collection in a pixel-art fantasy world mapped with Tiled",
+        "Desktop (Windows, macOS, Linux), Android and HTML5/WebAssembly clients named as platform targets",
+        "Labelled keyboard shortcuts for stats, skills, quests, minimap, chat and social panels, alongside click-to-move",
+        "MIT-licensed code with a separately credited CC BY-SA 4.0 art and sound list, so contributors can reuse assets lawfully"
+      ],
+      "insight": "MMOs normally end the day their operator stops paying for servers. A world whose client, server and content are all under permissive licences can be re-hosted by the people who played it, which makes Source of Mana as much a preservation experiment as a role-playing game.",
+      "officialUrl": "https://github.com/sourceofmana/sourceofmana",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/sourceofmana/sourceofmana"
+      },
+      "distribution": [
+        {
+          "label": "Official source repository (client, server and content)",
+          "url": "https://github.com/sourceofmana/sourceofmana"
+        },
+        {
+          "label": "Official Manasource project site",
+          "url": "https://manasource.org"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/sourceofmana/sourceofmana",
+        "githubRepo": "sourceofmana/sourceofmana"
+      },
+      "asset": {
+        "path": "/images/discover/source-of-mana.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/sourceofmana/sourceofmana/HEAD/data/press/readme/header.png",
+        "license": "MIT (repository default); CC BY-SA 4.0 for the separately listed art and sound files",
+        "licenseUrl": "https://raw.githubusercontent.com/sourceofmana/sourceofmana/HEAD/LICENSE.md",
+        "attribution": "Press header image from the sourceofmana repository by Manasource (https://manasource.org), reproduced unmodified. The project's LICENSE.md places the repository under MIT apart from an enumerated CC BY-SA 4.0 art list that does not include this file, and requires a link to https://github.com/sourceofmana in credits.",
+        "alt": "Source of Mana pixel-art promotional banner showing characters in a grassy fantasy landscape",
+        "noticePath": "/images/discover/licenses/source-of-mana-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/sourceofmana/sourceofmana/HEAD/README.md",
+            "label": "Source of Mana README: project description, engine, platforms, gameplay and licence summary",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/sourceofmana/sourceofmana/HEAD/LICENSE.md",
+            "label": "Source of Mana LICENSE.md: MIT default terms and enumerated CC BY-SA 4.0 artwork list",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cave-express",
+      "kind": "game",
+      "name": "Cave Express",
+      "developer": "Martin Gerhardy",
+      "category": "Physics Platformer",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android",
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source (GPL-3.0-or-later code, CC BY-SA 4.0 assets)",
+        "sourceUrl": "https://raw.githubusercontent.com/mgerhardy/caveexpress/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A classic 2D platformer with physics-based gameplay: you master a pedal-powered flying machine, collect packages from cave-dwelling clients and drop them at the collection point while mastodons and pterodactyls object. The same repository also ships CavePacker, a sokoban puzzle game built from XSokoban, KSokoban, sasquatch, microban and gri* maps. Both games carry network multiplayer and a built-in map editor, and both are playable as official browser builds.",
+      "features": [
+        "Box2D physics platforming across dozens of levels, with the map editor reachable from the main menu",
+        "CavePacker sokoban included, with its own editor and network-based multiplayer",
+        "Official Emscripten web builds of both games hosted on GitHub Pages",
+        "Windows, macOS, Linux and Android builds, an apt package in Debian, stable releases on GitHub and nightly CI artefacts",
+        "In-game console on Shift+Tab plus an optional runtime command pipe for scripting and headless debugging"
+      ],
+      "insight": "Cave Express still ships the tools that produced its own level pool: the editor sits in the menu, the artwork is licensed for reuse, and the browser build means the shortest path from curiosity to playing is a single link rather than an installer.",
+      "officialUrl": "https://github.com/mgerhardy/caveexpress",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/mgerhardy/caveexpress"
+      },
+      "distribution": [
+        {
+          "label": "Official Cave Express web build",
+          "url": "https://mgerhardy.github.io/caveexpress/caveexpress.html"
+        },
+        {
+          "label": "Official CavePacker web build",
+          "url": "https://mgerhardy.github.io/caveexpress/cavepacker.html"
+        },
+        {
+          "label": "Stable release 2.4 on GitHub Releases",
+          "url": "https://github.com/mgerhardy/caveexpress/releases/tag/2.4"
+        },
+        {
+          "label": "Nightly builds from project CI",
+          "url": "https://github.com/mgerhardy/caveexpress/actions"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/mgerhardy/caveexpress",
+        "githubRepo": "mgerhardy/caveexpress"
+      },
+      "asset": {
+        "path": "/images/discover/cave-express.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/mgerhardy/caveexpress/HEAD/contrib/assets/media/caveexpress/950x500.png",
+        "license": "CC BY-SA 4.0 (the project states all artwork and assets are CC-BY-SA-4.0)",
+        "licenseUrl": "https://raw.githubusercontent.com/mgerhardy/caveexpress/HEAD/LICENSE",
+        "attribution": "Cave Express key art by Martin Gerhardy / Cave Productions, from the mgerhardy/caveexpress repository, reproduced unmodified under the project's CC BY-SA 4.0 artwork licence. Code is GPL-3.0-or-later with separately licensed third-party libraries.",
+        "alt": "Cave Express title artwork of a pedalled flying machine carrying parcels through a cave",
+        "noticePath": "/images/discover/licenses/cave-express-CC-BY-SA-4.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mgerhardy/caveexpress/HEAD/README.md",
+            "label": "Cave Express README: both games, features, editors, web builds, installation and platform builds",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mgerhardy/caveexpress/HEAD/LICENSE",
+            "label": "Cave Express LICENSE: GPL-3.0-or-later code and CC-BY-SA-4.0 artwork and assets statement",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rhythia",
+      "kind": "game",
+      "name": "Rhythia",
+      "developer": "Rhythia Project",
+      "category": "Rhythm Action",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free-to-play, open-source (AGPL-3.0)",
+        "sourceUrl": "https://raw.githubusercontent.com/Rhythia/Client/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A free and open-source rhythm game in which notes arrive across a 3x3 grid and your mouse is the instrument. Formerly Sound Space Plus, it is being rebuilt in Godot 4.7 with C#, while the legacy Nightly client remains downloadable for new players. Beatmaps come from the community into a user folder, and the project is emphatic that it shares no connection with the commercial Steam title of the same name.",
+      "features": [
+        "Mouse-driven play across a 3x3 grid rather than the usual lane keys",
+        "Rewrite client built with Godot 4.7 and C#, with Windows and Linux builds on GitHub Releases",
+        "Legacy Nightly client still published from the original sound-space-plus repository, with current development focused on the rewrite",
+        "Maps are distributed separately into a user folder, so communities can share their own beatmaps",
+        "AGPL-3.0 source, with the project explicitly supporting modification of its logos and content under that licence"
+      ],
+      "insight": "A name collision with a commercial Steam rhythm game could have drowned this one. Instead, the README draws the boundary in a warning box, points players at the correct downloads and then invites people to remix its own artwork under the AGPL - a confident, unusual use of a copyleft licence.",
+      "officialUrl": "https://github.com/Rhythia/Client",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Rhythia/Client"
+      },
+      "distribution": [
+        {
+          "label": "Rewrite client for Windows (GitHub Releases)",
+          "url": "https://github.com/Rhythia/Client/releases/latest/download/windows.zip"
+        },
+        {
+          "label": "Rewrite client for Linux (GitHub Releases)",
+          "url": "https://github.com/Rhythia/Client/releases/latest/download/linux.zip"
+        },
+        {
+          "label": "Legacy Nightly releases",
+          "url": "https://github.com/David20122/sound-space-plus/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Rhythia/Client",
+        "githubRepo": "Rhythia/Client"
+      },
+      "asset": {
+        "path": "/images/discover/rhythia.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/Rhythia/Client/HEAD/textures/RhythiaSquircle.png",
+        "license": "AGPL-3.0 (project invites modification of its logos and content under this licence)",
+        "licenseUrl": "https://raw.githubusercontent.com/Rhythia/Client/HEAD/LICENSE",
+        "attribution": "Rhythia squircle logo from the Rhythia/Client repository, reproduced unmodified under the project's AGPL-3.0 licence. Rhythia is not affiliated with CAPO Games, Steam Rhythia or rhythia.com.",
+        "alt": "Rhythia game logo: a rounded square emblem with the title in stylised lettering",
+        "noticePath": "/images/discover/licenses/rhythia-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Rhythia/Client/HEAD/README.md",
+            "label": "Rhythia README: game description, engine, download links for both clients, map handling and licence note",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Rhythia/Client/HEAD/LICENSE",
+            "label": "Rhythia LICENSE: GNU AGPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "no-survivor-game",
+      "kind": "game",
+      "name": "No Survivor Game",
+      "developer": "Mocas-12",
+      "category": "Survivors-Like Shooter",
+      "platforms": [
+        "Web (desktop and mobile browsers)"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source browser build (MIT)",
+        "sourceUrl": "https://raw.githubusercontent.com/Mocas-12/no-survivor-game/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A three-act science-fiction survivors-like that runs entirely in a browser tab: a Godot 4 export delivered as WebAssembly, piloted with the mouse on desktop and a virtual joystick on phones. Each run mixes dual-element gunfire, enemy hardware you salvage mid-battle and rule-changing module cards. Unusually for the genre, the project publishes its own automated test results and states which claims those tests cannot support.",
+      "features": [
+        "Three-act campaign of shattered orbit, storm front and mothership approach, with two shuffled regular bosses, an OMEGA finale and endless play after victory",
+        "Dual-element main fire where five elements produce ten pair reactions and a third element replaces a chosen slot",
+        "Six recoverable hardware types - cannons, mines, reflective armour, tractor equipment, tail bombers and splitters - that visibly attach to the wings",
+        "54 illustrated module cards with three rerolls per run, plus six rule modifications across two active slots",
+        "Twelve encounter patterns and six tactical support roles, with captured turrets that provide real covering fire",
+        "Save data and discovery history stay on the device, and controlled screenshots are labelled as staged rather than natural progression"
+      ],
+      "insight": "The README admits what its own checks cannot prove: no phone thermals, no balance data, no player-retention evidence, and screenshots that are staged engine captures. In a genre marketed almost entirely through highlight reels, publishing the limits of your evidence is a distinctive form of design discipline.",
+      "officialUrl": "https://github.com/Mocas-12/no-survivor-game",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Mocas-12/no-survivor-game"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build on GitHub Pages",
+          "url": "https://mocas-12.github.io/no-survivor-game/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/Mocas-12/no-survivor-game"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Mocas-12/no-survivor-game",
+        "githubRepo": "Mocas-12/no-survivor-game"
+      },
+      "asset": {
+        "path": "/images/discover/no-survivor-game.png",
+        "presentation": "cover",
+        "sourceUrl": "https://raw.githubusercontent.com/Mocas-12/no-survivor-game/HEAD/screenshots/salvage-cards.png",
+        "license": "MIT",
+        "licenseUrl": "https://raw.githubusercontent.com/Mocas-12/no-survivor-game/HEAD/LICENSE",
+        "attribution": "In-engine screenshot of the dual-element and rule selection cards from the Mocas-12/no-survivor-game repository, reproduced unmodified under the project's MIT licence. The project labels such captures as controlled presentations.",
+        "alt": "No Survivor Game screenshot showing module upgrade cards with elemental and rule choices over a space battlefield",
+        "noticePath": "/images/discover/licenses/no-survivor-game-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Mocas-12/no-survivor-game/HEAD/README.md",
+            "label": "No Survivor Game README: version notes, systems, controls, browser deployment and test results",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Mocas-12/no-survivor-game/HEAD/LICENSE",
+            "label": "No Survivor Game LICENSE: MIT licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "togetherness-table",
+      "kind": "game",
+      "name": "Togetherness Table",
+      "developer": "sjbrown",
+      "category": "Local-First Virtual Tabletop",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source (AGPL-3.0), self-host or use a public demo",
+        "sourceUrl": "https://raw.githubusercontent.com/sjbrown/togetherness/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A web virtual tabletop built around one decision: the session is an SVG document. Players move toys, draw and edit shapes and author rules and behaviours inside that shared document, which syncs peer-to-peer while the signalling server only brokers WebRTC handshakes and never sees content. There are no accounts and no canonical server copy, so documents persist in IndexedDB, keep working offline and merge when peers reconnect.",
+      "features": [
+        "The entire game state lives in one shared SVG document you can save to disk and edit in tools such as Inkscape",
+        "Peer-to-peer CRDT synchronisation, with a signalling server that never receives document content",
+        "No accounts, no server-side storage and no build step: clone the repository, run one command and open a browser",
+        "Offline-first persistence through IndexedDB, with sync resuming automatically when peers return",
+        "Real-time join by sharing a URL hash, tested with Playwright end-to-end against a full app and signalling stack"
+      ],
+      "insight": "Virtual tabletops are the subscription product most exposed to shutdown, because your campaign lives in their database. Making the canvas an ordinary SVG file with local-first sync is the technical answer to a very human worry, and it is stated as a goal: survival post-demise.",
+      "officialUrl": "https://github.com/sjbrown/togetherness",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/sjbrown/togetherness"
+      },
+      "distribution": [
+        {
+          "label": "Official hosted demo",
+          "url": "https://apps.1kfa.com/table/index.html"
+        },
+        {
+          "label": "Official beta demo (GitHub Pages)",
+          "url": "https://sjbrown.github.io/togetherness/index.html"
+        },
+        {
+          "label": "Official source repository for self-hosting",
+          "url": "https://github.com/sjbrown/togetherness"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/sjbrown/togetherness",
+        "githubRepo": "sjbrown/togetherness"
+      },
+      "asset": {
+        "path": "/images/discover/togetherness-table.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/sjbrown/togetherness/HEAD/images/wordmark.png",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/sjbrown/togetherness/HEAD/LICENSE.md",
+        "attribution": "Togetherness Table wordmark from the sjbrown/togetherness repository, reproduced unmodified under the project's AGPL-3.0 licence.",
+        "alt": "Togetherness Table wordmark logo",
+        "noticePath": "/images/discover/licenses/togetherness-table-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/sjbrown/togetherness/HEAD/README.md",
+            "label": "Togetherness Table README: mission, features, local-first goals, live demos, quick start and testing",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/sjbrown/togetherness/HEAD/LICENSE.md",
+            "label": "Togetherness Table LICENSE.md: GNU AGPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "neon-mayhem",
+      "kind": "game",
+      "name": "Neon Mayhem",
+      "developer": "pranshuparmar",
+      "category": "Open-World Action",
+      "platforms": [
+        "Web (keyboard, controller and touch)"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free in the browser, with no install, account or ads",
+        "sourceUrl": "https://raw.githubusercontent.com/pranshuparmar/neon-mayhem/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A neon open world set in Costa Rosa in 1986 that plays from a browser tab: steal a ride, outrun the heat, take a job or buy a condo with the takings, or cruise the beachfront at night with the radio on. It is written in plain JavaScript on three.js with no build step, so it runs from any static host, and all music and sound are synthesised at runtime with the Web Audio API. This fan-made tribute states that no assets from the game that inspired it are used.",
+      "features": [
+        "Two islands linked by bridges you earn, with enterable shops, a casino with horse racing, a glass car showroom and homes you can buy",
+        "Six stars of heat answered by roadblocks, spike strips, harbour launches, a searchlight helicopter and, at the top level, the army",
+        "Sports cars, bikes, a limo, an ice-cream truck, a monster truck, a tank, a helicopter, a looping plane, speedboats, a jet ski and swimming",
+        "Street races, couriers, rampages, takedowns, taxi and ambulance shifts and story jobs, plus 35 stunt jumps and 30 hidden mixtapes",
+        "Three radio stations with a fourth to find, every note synthesised live in the browser with the Web Audio API",
+        "Keyboard, controller and touch layouts, with progress saved in the browser and classic cheat codes entered by list or button combo"
+      ],
+      "insight": "The engineering constraint is the appeal: no downloaded media, no build step and audio synthesised at runtime, so a whole crime-sandbox city exists as source you could host yourself. It is a concrete answer to how much of an open world code can carry.",
+      "officialUrl": "https://github.com/pranshuparmar/neon-mayhem",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/pranshuparmar/neon-mayhem"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build (GitHub Pages)",
+          "url": "https://pranshuparmar.github.io/neon-mayhem/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/pranshuparmar/neon-mayhem"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://pranshuparmar.github.io/neon-mayhem/",
+        "githubRepo": "pranshuparmar/neon-mayhem"
+      },
+      "asset": {
+        "path": "/images/discover/neon-mayhem.jpg",
+        "presentation": "cover",
+        "sourceUrl": "https://raw.githubusercontent.com/pranshuparmar/neon-mayhem/HEAD/media/shots/chase.jpg",
+        "license": "Apache-2.0",
+        "licenseUrl": "https://raw.githubusercontent.com/pranshuparmar/neon-mayhem/HEAD/LICENSE",
+        "attribution": "Neon Mayhem screenshot of a four-star police chase at night, from the pranshuparmar/neon-mayhem repository, reproduced unmodified under the project's Apache-2.0 licence. The project states everything in it is original work and that no assets from the game that inspired it are used; it is a fan-made tribute, not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.",
+        "alt": "Night-time neon city street with two police cruisers and a helicopter searchlight chasing a car",
+        "noticePath": "/images/discover/licenses/neon-mayhem-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/pranshuparmar/neon-mayhem/HEAD/README.md",
+            "label": "Neon Mayhem README: browser play link, controls, world content, radio and originality statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/pranshuparmar/neon-mayhem/HEAD/LICENSE",
+            "label": "Neon Mayhem LICENSE: Apache License 2.0 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "redocted",
+      "kind": "game",
+      "name": "Redocted",
+      "developer": "Jorge Hermes",
+      "category": "Daily Word Puzzle",
+      "platforms": [
+        "Web"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free in the browser",
+        "sourceUrl": "https://raw.githubusercontent.com/jhermesn/redocted/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A daily guessing game played on a page of AWS or Kubernetes documentation with most of its words blacked out. Every guess is revealed wherever it appears, and you win by uncovering all of the title. Word matching happens in the browser against a committed corpus, a new puzzle lands at 00:00 UTC for everyone, older puzzles stay playable and an endless mode serves random articles without touching your streak.",
+      "features": [
+        "Two daily boards, AWS and Kubernetes, built from documentation excerpts of at most 700 words with a link back to each source page",
+        "Morphological matching with no shipped dictionary, so policy reveals policies while look-alikes such as plan and plane stay apart",
+        "Hints reveal the word with the most matches first, never a title word, and never count as guesses",
+        "Tap a black bar for its letter count, enable counts permanently, or rely on screen-reader announcements of every hidden word's length",
+        "Result card with accuracy, guesses and hints used, plus spoiler-free sharing to X, Bluesky, LinkedIn, WhatsApp or Telegram",
+        "Interface in English and Portuguese, with a separate Portuguese board and a browser-only endless mode"
+      ],
+      "insight": "Vendor documentation is about the driest reading available, which is exactly why the puzzle works: it turns a few thousand pages of cloud reference into a daily vocabulary drill in the specific language people are paid to understand.",
+      "officialUrl": "https://github.com/jhermesn/redocted",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/jhermesn/redocted"
+      },
+      "distribution": [
+        {
+          "label": "Official English board",
+          "url": "https://jhermesn.dev/redocted/"
+        },
+        {
+          "label": "Official Portuguese board",
+          "url": "https://jhermesn.dev/redocted/pt-br/"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/jhermesn/redocted"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/jhermesn/redocted",
+        "githubRepo": "jhermesn/redocted"
+      },
+      "asset": {
+        "path": "/images/discover/redocted.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/jhermesn/redocted/HEAD/src/assets/banner.png",
+        "license": "MIT (project licence for the repository; its documentation excerpts and fonts remain separately credited)",
+        "licenseUrl": "https://raw.githubusercontent.com/jhermesn/redocted/HEAD/LICENSE",
+        "attribution": "Redocted title banner from the jhermesn/redocted repository, reproduced unmodified under the project's MIT licence. The banner is the project's own artwork; Redocted is not affiliated with or endorsed by Amazon Web Services, the Kubernetes authors or Redactle.",
+        "alt": "Redocted title banner with the game logo and tagline Guess the Docs",
+        "noticePath": "/images/discover/licenses/redocted-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/jhermesn/redocted/HEAD/README.md",
+            "label": "Redocted README: gameplay rules, boards, hints, accessibility, content credits and play links",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/jhermesn/redocted/HEAD/LICENSE",
+            "label": "Redocted LICENSE: MIT licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "quickbuds",
+      "kind": "app",
+      "name": "QuickBuds",
+      "developer": "spizganed",
+      "category": "Earbud Controller",
+      "platforms": [
+        "Android",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source (GPL-3.0-or-later), with optional Ko-fi support",
+        "sourceUrl": "https://raw.githubusercontent.com/spizganed/QuickBuds/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "An open-source companion for OnePlus, OPPO and realme earbuds that replaces HeyMelody and realme Link by talking to already-paired buds and showing only the controls your model actually has. Android gets home-screen widgets and Quick Settings tiles, desktop gets a tray panel, and the model database is published with owner confirmations recorded per device. It is a hobby project that can outlive the vendor apps it substitutes.",
+      "features": [
+        "Covers all 140 models in the HeyMelody and realme Link lists, with 49 confirmed working by owners",
+        "Adaptive feature surface: ANC, EQ, high-quality audio, 3D audio, low-latency mode, gesture remapping, find-my-earbud and hearing and fit tests, shown only where supported",
+        "Home-screen widgets, Quick Settings tiles and a battery notification on Android; a system-tray panel on Windows and Linux",
+        "Android 8 or later, Windows 10 and 11 from a no-installer zip, and x64 Linux on any distribution, all from GitHub Releases, named as the only official downloads",
+        "Interface in 27 languages with four styles and many themes, updating itself from GitHub releases",
+        "A published SHA-256 signing-certificate fingerprint so an APK from elsewhere can be checked for genuineness"
+      ],
+      "insight": "Earbud features disappear whenever a vendor rewrites its companion app or a phone stops shipping it. QuickBuds documents the reverse-engineered protocol and keeps per-model owner confirmations, which is what turns a hobby alternative into infrastructure people can rely on after the official app is abandoned.",
+      "officialUrl": "https://github.com/spizganed/QuickBuds",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/spizganed/QuickBuds"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub Releases (Android APK, Windows and Linux builds)",
+          "url": "https://github.com/spizganed/QuickBuds/releases/latest"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/spizganed/QuickBuds"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/spizganed/QuickBuds",
+        "githubRepo": "spizganed/QuickBuds"
+      },
+      "asset": {
+        "path": "/images/discover/quickbuds.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/spizganed/QuickBuds/HEAD/docs/images/hero.png",
+        "license": "GPL-3.0-or-later",
+        "licenseUrl": "https://raw.githubusercontent.com/spizganed/QuickBuds/HEAD/LICENSE",
+        "attribution": "QuickBuds documentation hero image from the spizganed/QuickBuds repository, reproduced unmodified under the project's GPL-3.0-or-later licence. Earbud model names are trademarks of their owners and appear only to identify supported devices.",
+        "alt": "QuickBuds app screens shown on a phone and on a desktop PC tray panel",
+        "noticePath": "/images/discover/licenses/quickbuds-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/spizganed/QuickBuds/HEAD/README.md",
+            "label": "QuickBuds README: purpose, install paths per platform, supported model counts, official download policy and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/spizganed/QuickBuds/HEAD/LICENSE",
+            "label": "QuickBuds LICENSE: GNU GPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mpvium",
+      "kind": "app",
+      "name": "mpvium",
+      "developer": "Aryan447",
+      "category": "Video Player",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free and open-source (GPL-3.0-or-later), no ads",
+        "sourceUrl": "https://raw.githubusercontent.com/Aryan447/mpvium/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "An Android front end for libmpv that keeps the engine's flexibility and wraps it in a Material 3 interface with real media browsing and network sources. The stated philosophy is sane defaults with pro-level control, and the reasoning behind those defaults is written down rather than left to guesswork. Preview builds ship from GitHub Releases as universal and per-architecture APKs.",
+      "features": [
+        "Hardware-accelerated playback through libmpv, with picture-in-picture and background playback",
+        "One-tap intro and recap skipping with a countdown chip and an offline cache of detected markers",
+        "Gesture controls, zoom and orientation controls, plus chapters, playlists, playback history and resume",
+        "Local browsing in folder and tree views, with network playback over SMB, FTP and WebDAV",
+        "Custom mpv configuration, script support and advanced playback options when the defaults are not enough",
+        "External subtitles and audio tracks, metadata caching, and no advertisements or unnecessary permissions"
+      ],
+      "insight": "mpv is famously powerful and famously awkward on a phone. mpvium's contribution is the layer between: it keeps config files and scripts reachable while encoding its judgement in a written doctrine, so a new user inherits sensible behaviour instead of an empty text file.",
+      "officialUrl": "https://github.com/Aryan447/mpvium",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Aryan447/mpvium"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub Releases (universal and per-architecture APKs)",
+          "url": "https://github.com/aryan447/mpvium/releases/latest"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/aryan447/mpvium"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/aryan447/mpvium",
+        "githubRepo": "Aryan447/mpvium"
+      },
+      "asset": {
+        "path": "/images/discover/mpvium.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/Aryan447/mpvium/HEAD/docs/icon.png",
+        "license": "GPL-3.0-or-later (the project states mpvium as a whole is distributed under GPL-3.0-or-later)",
+        "licenseUrl": "https://raw.githubusercontent.com/Aryan447/mpvium/HEAD/LICENSE",
+        "attribution": "mpvium application icon from the Aryan447/mpvium repository, reproduced unmodified under the project's GPL-3.0-or-later licence. It links GPL components (mpv, mpv-android, FFmpeg), attributed in the repository NOTICE file.",
+        "alt": "mpvium app icon",
+        "noticePath": "/images/discover/licenses/mpvium-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Aryan447/mpvium/HEAD/README.md",
+            "label": "mpvium README: description, feature list, download and APK architectures, licence statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Aryan447/mpvium/HEAD/LICENSE",
+            "label": "mpvium LICENSE: GNU GPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "z-sync",
+      "kind": "app",
+      "name": "Z-Sync",
+      "developer": "Kjell Behrends",
+      "category": "Browser Workspace Companion",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free and ad-free (MIT)",
+        "sourceUrl": "https://raw.githubusercontent.com/Kjell6/Z-Sync/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A companion app for Zen Browser that carries its space-based workflow to a phone. It syncs spaces, tabs and essentials over Firefox Sync, accepts links shared from other apps into a chosen space as a pinned or ordinary tab, and opens follow-up lookups in a small built-in browser so you never leave the list. Native Kotlin and Compose on Android, SwiftUI on iOS, maintained by one developer.",
+      "features": [
+        "Syncs Zen Browser spaces, tabs and essentials through Firefox Sync, with a published sync contract and golden fixtures in the repository",
+        "Share-sheet integration saves a link into a chosen space as a pinned tab or a normal tab",
+        "Quick in-app browser for lookups without leaving the current space",
+        "Bundled EasyList and EasyPrivacy blocking plus DuckDuckGo autoconsent for cookie banners",
+        "Native clients on both platforms: Kotlin with Jetpack Compose, and SwiftUI generated with XcodeGen",
+        "Free and ad-free, MIT-licensed, with Zen-derived icons kept separately under MPL-2.0"
+      ],
+      "insight": "Vertical-tab workspaces fixed desktop browsing and quietly abandoned the phone, where tab sprawl is worst. Z-Sync bets that a workspace is worth carrying around and that Firefox Sync is already the plumbing for it - a small app filling a gap the browser vendors left open.",
+      "officialUrl": "https://github.com/Kjell6/Z-Sync",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Kjell6/Z-Sync"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=de.kjell.zencompanion"
+        },
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/app/id6804470330"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/Kjell6/Z-Sync"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Kjell6/Z-Sync",
+        "androidPackageId": "de.kjell.zencompanion",
+        "githubRepo": "Kjell6/Z-Sync"
+      },
+      "asset": {
+        "path": "/images/discover/z-sync.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/Kjell6/Z-Sync/HEAD/.github/assets/spaces.png",
+        "license": "MIT (documentation screenshot; Zen-derived icons shown remain MPL-2.0)",
+        "licenseUrl": "https://raw.githubusercontent.com/Kjell6/Z-Sync/HEAD/LICENSE",
+        "attribution": "Z-Sync documentation image captioned 'Z-Sync on iOS and Android' from the Kjell6/Z-Sync repository, reproduced unmodified under its MIT licence. Space icons shown derive from Zen Browser and are MPL-2.0. Z-Sync is not affiliated with or endorsed by Zen Browser.",
+        "alt": "Z-Sync app screens on an iPhone and an Android phone listing browser spaces",
+        "noticePath": "/images/discover/licenses/z-sync-MIT.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Kjell6/Z-Sync/HEAD/README.md",
+            "label": "Z-Sync README: function, store links, repository layout, support and licence notes",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Kjell6/Z-Sync/HEAD/LICENSE",
+            "label": "Z-Sync LICENSE: MIT licence text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "petal-browser",
+      "kind": "app",
+      "name": "Petal",
+      "developer": "Shrey Agarwal",
+      "category": "Privacy Browser",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free (GPL-3.0), with GitHub, Google Play and F-Droid builds",
+        "sourceUrl": "https://raw.githubusercontent.com/shreyagarwal72/petal/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "An Android browser built on Mozilla GeckoView 159 rather than the system WebView, which is what lets it install genuine Firefox add-ons from AMO or a .xpi file. Blocking runs through a bundled WebExtension fed by EasyList, uBlock Origin uAssets and Hagezi lists alongside Gecko's strict tracking protection, and optional encrypted sync works through a folder you own.",
+      "features": [
+        "GeckoView 159 with Mozilla Android Components, so rendering and extension APIs match desktop Firefox",
+        "Firefox WebExtensions support: add-on manager, AMO installs, .xpi import and ten built-in extensions",
+        "Built-in petal_network_blocker using EasyList, uBlock Origin uAssets and Hagezi lists, with Enhanced Tracking Protection on Strict by default",
+        "Optional encrypted sync of bookmarks, history, passwords and tabs through a folder you control, plus Send to device",
+        "100 percent Kotlin 2.4 with Jetpack Compose and Material 3 Expressive, on Android 8.0 and newer, with 28 translations",
+        "Builds on GitHub with an in-app updater, on Google Play, and on F-Droid without ads or Google code"
+      ],
+      "insight": "Most Android browsers marketed on privacy are WebView skins with a filter list. Shipping a Firefox engine is a far larger maintenance promise, but it is the only route to real add-ons - which is why Petal can run the blocker itself rather than imitate one.",
+      "officialUrl": "https://github.com/shreyagarwal72/petal",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/shreyagarwal72/petal"
+      },
+      "distribution": [
+        {
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.petal.browser"
+        },
+        {
+          "label": "Official GitHub Releases with in-app updater",
+          "url": "https://github.com/shreyagarwal72/petal/releases/latest"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/shreyagarwal72/petal"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/shreyagarwal72/petal",
+        "androidPackageId": "com.petal.browser",
+        "githubRepo": "shreyagarwal72/petal"
+      },
+      "asset": {
+        "path": "/images/discover/petal-browser.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/shreyagarwal72/petal/HEAD/docs/readme/hero-light.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/shreyagarwal72/petal/HEAD/LICENSE",
+        "attribution": "Petal README hero artwork from the shreyagarwal72/petal repository, reproduced unmodified under the project's GNU GPL v3.0 licence.",
+        "alt": "Petal browser banner showing the app name and interface screenshots",
+        "noticePath": "/images/discover/licenses/petal-browser-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/shreyagarwal72/petal/HEAD/README.md",
+            "label": "Petal README: quick facts table, features, permissions, tech stack, build channels and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/shreyagarwal72/petal/HEAD/LICENSE",
+            "label": "Petal LICENSE: GNU GPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xgesture",
+      "kind": "app",
+      "name": "XGesture",
+      "developer": "qpst4",
+      "category": "Gesture and Reachability Suite",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free with no ads (AGPL-3.0)",
+        "sourceUrl": "https://raw.githubusercontent.com/qpst4/XGesture/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A system-level gesture and one-hand productivity suite for Android 12 and newer, built on accessibility services rather than firmware so Samsung, Xiaomi, Pixel and everything else behave the same. Behind the edge swipes sits an offline text and image toolkit - OCR, translation, search aggregation and reverse image search - that reads what is on screen without a cloud round trip.",
+      "features": [
+        "Multi-angle screen-edge triggers mapped to 50+ system actions, with dedicated landscape handles, animations and per-app anti-mistouch rules",
+        "Reachability floating cursor, multi-function floating ball, and shake, desk-flip and back-tap triggers",
+        "On-device OCR through ML Kit, Tesseract and PaddleOCR ONNX, offered as a full build with bundled engines or a compact lite build",
+        "Text selection panel for translate, copy and search, plus multi-engine reverse image search with an in-app preview",
+        "Notification and OTP managers, app freezer, widget overlays and freeform windows adapted to MIUI, HyperOS and Flyme small windows",
+        "Optional Shizuku, Root or KernelSU or Magisk, and LSPosed privilege modes, with Obtainium installing updates from GitHub Releases"
+      ],
+      "insight": "OEM gesture suites are firmware features that vanish the moment you change brands. Rebuilding that layer as accessibility services with optional elevated privileges means the muscle memory survives the phone upgrade, which explains why its documentation is written around hand positions rather than features.",
+      "officialUrl": "https://github.com/qpst4/XGesture",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/qpst4/XGesture"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub Releases (full and lite APKs)",
+          "url": "https://github.com/qpst4/XGesture/releases/latest"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/qpst4/XGesture"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/qpst4/XGesture",
+        "androidPackageId": "com.slideindex.app",
+        "githubRepo": "qpst4/XGesture"
+      },
+      "asset": {
+        "path": "/images/discover/xgesture.webp",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/qpst4/XGesture/HEAD/art/screenshots/hero_showcase.webp",
+        "license": "AGPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/qpst4/XGesture/HEAD/LICENSE",
+        "attribution": "XGesture showcase screenshot from the qpst4/XGesture repository, reproduced unmodified under the project's AGPL-3.0 licence.",
+        "alt": "XGesture feature showcase montage of edge panels, floating cursor and OCR panels on a phone",
+        "noticePath": "/images/discover/licenses/xgesture-AGPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/qpst4/XGesture/HEAD/README.md",
+            "label": "XGesture README: overview, package name, version, requirements, feature tables and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/qpst4/XGesture/HEAD/LICENSE",
+            "label": "XGesture LICENSE: GNU AGPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "femto-car-launcher",
+      "kind": "app",
+      "name": "Femto Car Launcher",
+      "developer": "Seiji Kohara",
+      "category": "In-Car Dashboard Launcher",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source (Apache-2.0); the optional Google Maps provider bills your own key",
+        "sourceUrl": "https://raw.githubusercontent.com/seijikohara/femto-car-launcher/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "An Android home launcher that replaces the screen with a single fixed dashboard designed for automotive viewing distances and touch accuracy: a live map fills the display while driving data, weather, calendar and media sit in glanceable panels. It targets aftermarket CarPlay and Android Auto boxes, Android head units and dash-mounted phones, and it records trips entirely on the device.",
+      "features": [
+        "Live map behind the interface, using a keyless OpenStreetMap provider through OpenFreeMap or a Google Maps provider with your own API key",
+        "Heading-up navigation camera with easing, a compass toggle to north-up, detachable panning, and optional 3D buildings and terrain relief",
+        "Speed overlay with trip distance, average speed, altitude and reverse-geocoded address, GPX export and a 3D wireframe flythrough of recorded tracks",
+        "Weather from the Norwegian Meteorological Institute with offline caching, a device-calendar strip, and now-playing controls for any media session",
+        "An optional video window over the map whose picture stays hidden until GPS reads the vehicle as stopped, while audio keeps playing",
+        "Android 13 and newer, stable and nightly APKs on GitHub Releases, with dashboard screenshots kept as CI screenshot-test references"
+      ],
+      "insight": "Car screens are usually served by phone apps scaled up. Femto treats the dashboard as the launcher itself - one screen, no app switching - and pins its look to screenshot tests that block a pull request when the interface drifts, which is how a hobby project keeps a glanceable UI honest.",
+      "officialUrl": "https://github.com/seijikohara/femto-car-launcher",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/seijikohara/femto-car-launcher"
+      },
+      "distribution": [
+        {
+          "label": "Official stable APK on GitHub Releases",
+          "url": "https://github.com/seijikohara/femto-car-launcher/releases/latest"
+        },
+        {
+          "label": "Official nightly APK channel on GitHub Releases",
+          "url": "https://github.com/seijikohara/femto-car-launcher/releases/tag/nightly"
+        },
+        {
+          "label": "Official project site with feature guide and screenshot catalogue",
+          "url": "https://seijikohara.github.io/femto-car-launcher/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/seijikohara/femto-car-launcher",
+        "githubRepo": "seijikohara/femto-car-launcher"
+      },
+      "asset": {
+        "path": "/images/discover/femto-car-launcher.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/seijikohara/femto-car-launcher/HEAD/app/src/test/screenshots/dashboard-head-unit-853x512.png",
+        "license": "Apache-2.0 (repository licence); the map beneath the interface is OpenStreetMap data, © OpenStreetMap contributors",
+        "licenseUrl": "https://raw.githubusercontent.com/seijikohara/femto-car-launcher/HEAD/LICENSE",
+        "attribution": "Femto Car Launcher dashboard screenshot, one of the project's own screenshot-test references from the seijikohara/femto-car-launcher repository, reproduced unmodified under Apache-2.0. The map is a still capture of the OpenStreetMap provider rendered via OpenFreeMap; © OpenStreetMap contributors (https://www.openstreetmap.org/copyright).",
+        "alt": "Femto Car Launcher dashboard on a head-unit display: map background with clock, calendar, weather, media and trip panels and a dock",
+        "noticePath": "/images/discover/licenses/femto-car-launcher-Apache-2.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/seijikohara/femto-car-launcher/HEAD/README.md",
+            "label": "Femto Car Launcher README: purpose, hardware targets, map providers, panels, requirements and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/seijikohara/femto-car-launcher/HEAD/LICENSE",
+            "label": "Femto Car Launcher LICENSE: Apache License 2.0 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "afinity",
+      "kind": "app",
+      "name": "AFinity",
+      "developer": "MakD",
+      "category": "Media Server Client",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, open-source (GPL-3.0); requires your own Jellyfin server",
+        "sourceUrl": "https://raw.githubusercontent.com/MakD/AFinity/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A native Android client for Jellyfin 12, written in Kotlin and Jetpack Compose with libmpv for playback, that goes well past streaming: live TV with a guide, Audiobookshelf books and podcasts, community subtitle discovery, and title requests through Seerr. Everything beyond Jellyfin is opt-in per server and per profile, and the privacy section states plainly that nothing is tracked or analysed.",
+      "features": [
+        "libmpv-backed playback of movies, shows, music and live TV with multiple audio, subtitle and version selection and trickplay previews",
+        "Home screen rows you reorder, hide or build from a library, genre, studio, collection, playlist or filter, including franchise grouping and ranked IMDb Top 250 rows",
+        "Audiobookshelf integration for audiobooks and podcasts, with Audible ratings fetched on book pages",
+        "Online subtitle search through your server's plugins and TheSubtitleDB, tagged for hearing-impaired and AI-generated tracks",
+        "Media requests via Seerr and per-server opt-in for MDBList, TMDB, OMDb, Last.fm and Wikidata",
+        "Requires Jellyfin 12.0 and Android 15 or newer, with GPL-3.0 source, no analytics and update checks off until enabled"
+      ],
+      "insight": "Jellyfin's official apps have long trailed the server's own capabilities, so the community keeps building better front ends. AFINITY is interesting for how it resists growth: every external metadata source stays off until you enable it, and its privacy page names the exact identifier each service receives.",
+      "officialUrl": "https://github.com/MakD/AFinity",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/MakD/AFinity"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub Releases",
+          "url": "https://github.com/MakD/AFinity/releases/latest"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/MakD/AFinity"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/MakD/AFinity",
+        "githubRepo": "MakD/AFinity"
+      },
+      "asset": {
+        "path": "/images/discover/afinity.png",
+        "presentation": "contain",
+        "sourceUrl": "https://raw.githubusercontent.com/MakD/AFinity/HEAD/screenshots/Logo/GithubBanner.png",
+        "license": "GPL-3.0",
+        "licenseUrl": "https://raw.githubusercontent.com/MakD/AFinity/HEAD/LICENSE.md",
+        "attribution": "AFinity banner artwork from the MakD/AFinity repository, reproduced unmodified under the project's GPL-3.0 licence. Jellyfin is a trademark of its foundation; AFINITY is a separate client and is not an official Jellyfin product.",
+        "alt": "AFinity banner artwork with the app logo and a grid of interface artwork",
+        "noticePath": "/images/discover/licenses/afinity-GPL-3.0.txt"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/MakD/AFinity/HEAD/README.md",
+            "label": "AFinity README: overview, requirements, home screen features, subtitle search, privacy and licence",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price"
+            ],
+            "accessedAt": "2026-11-20"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/MakD/AFinity/HEAD/LICENSE.md",
+            "label": "AFinity LICENSE.md: GNU GPL version 3 full text",
+            "checks": [
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    }
+  ]
+}

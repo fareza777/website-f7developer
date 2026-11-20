@@ -8273,5 +8273,420 @@
     "reasons": [
       "Only verified entries may publish"
     ]
+  },
+  {
+    "candidate": {
+      "slug": "miras-journal",
+      "kind": "game",
+      "name": "Miras Journal",
+      "developer": "Iris Hormoviti",
+      "category": "Narrative Adventure",
+      "platforms": [
+        "Windows"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/IrisHormoviti/Miras-Journal/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A short narrative adventure that is mirrored on Codeberg and GitHub and listed on Steam. Research stopped before publication because the repository's art directory is explicitly reserved to its author while the GPL applies elsewhere, so no official image could be reused with evidenced permission.",
+      "features": [
+        "Source mirrored on Codeberg and GitHub by the same author",
+        "Public Steam store page used as the product's distribution route",
+        "Code licensed GPL with an art directory carrying a separate rights reservation"
+      ],
+      "insight": "Retained for a later run once an official, reusable image is documented: the code licence is clear, the artwork rights are deliberately not.",
+      "officialUrl": "https://github.com/IrisHormoviti/Miras-Journal",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/IrisHormoviti/Miras-Journal"
+      },
+      "distribution": [
+        {
+          "label": "Steam store page",
+          "url": "https://store.steampowered.com/app/4059970"
+        },
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/IrisHormoviti/Miras-Journal"
+        },
+        {
+          "label": "Codeberg mirror",
+          "url": "https://codeberg.org/RaiDev/Miras-Journal"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/IrisHormoviti/Miras-Journal",
+        "githubRepo": "IrisHormoviti/Miras-Journal"
+      },
+      "asset": {
+        "path": "/images/discover/miras-journal.png",
+        "sourceUrl": "https://shared.steamstatic.com/store_item_assets/steam/apps/4059970/capsule_616x353_2x.jpg",
+        "license": "All rights reserved by the artist for the art directory",
+        "licenseUrl": "https://raw.githubusercontent.com/IrisHormoviti/Miras-Journal/HEAD/README.md",
+        "attribution": "No reuse permission established for the artwork, so no file was downloaded or published.",
+        "alt": "Not published pending artwork permission"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/IrisHormoviti/Miras-Journal/HEAD/README.md",
+            "label": "Miras Journal README: distribution links and the art rights reservation",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-20",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Only verified entries may publish",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "kingdom-architect",
+      "kind": "game",
+      "name": "Kingdom Architect",
+      "developer": "trymnilsen",
+      "category": "Kingdom Builder",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/trymnilsen/kingdomarchitect/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A kingdom-building strategy game whose source is published under a custom licence. Research stopped before publication because the project's own licence terms restrict distributing builds and releasing derivative works, which makes republishing its official artwork here unsupported by the grant.",
+      "features": [
+        "Public source repository with build instructions for desktop platforms",
+        "Custom project licence rather than a standard open-source grant",
+        "Licence text restricts store distribution and derivative releases"
+      ],
+      "insight": "Kept in review because a custom licence needs reading, not assuming: the restriction is explicit and the honest outcome is to skip rather than negotiate around it.",
+      "officialUrl": "https://github.com/trymnilsen/kingdomarchitect",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/trymnilsen/kingdomarchitect"
+      },
+      "distribution": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/trymnilsen/kingdomarchitect"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/trymnilsen/kingdomarchitect",
+        "githubRepo": "trymnilsen/kingdomarchitect"
+      },
+      "asset": {
+        "path": "/images/discover/kingdom-architect.png",
+        "sourceUrl": "https://raw.githubusercontent.com/trymnilsen/kingdomarchitect/HEAD/README.md",
+        "license": "Custom project licence restricting distribution",
+        "licenseUrl": "https://raw.githubusercontent.com/trymnilsen/kingdomarchitect/HEAD/LICENSE",
+        "attribution": "No reuse permission established for the artwork, so no file was downloaded or published.",
+        "alt": "Not published pending artwork permission"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/trymnilsen/kingdomarchitect/HEAD/README.md",
+            "label": "Kingdom Architect README: description, platforms, builds and licence pointer",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-20",
+    "reasons": [
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "urlate",
+      "kind": "game",
+      "name": "URLATE",
+      "developer": "Mugfalling",
+      "category": "Rhythm Action",
+      "platforms": [
+        "Web",
+        "Windows"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "sourceUrl": "https://raw.githubusercontent.com/Mugfalling/urlate/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A browser rhythm game with an original soundtrack. Research stopped before publication because the project states its licence covers the source code and does not apply to the assets, so no artwork could be reused under an evidenced grant.",
+      "features": [
+        "Plays in the browser as well as from desktop builds",
+        "Original music-driven gameplay with a community chart ecosystem",
+        "Licence text explicitly excludes the assets from its grant"
+      ],
+      "insight": "An exact fit for the rule this section exists to respect: a code licence that names its own boundary is clear evidence to stop, not a loophole.",
+      "officialUrl": "https://github.com/Mugfalling/urlate",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/Mugfalling/urlate"
+      },
+      "distribution": [
+        {
+          "label": "Official source repository",
+          "url": "https://github.com/Mugfalling/urlate"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/Mugfalling/urlate",
+        "githubRepo": "Mugfalling/urlate"
+      },
+      "asset": {
+        "path": "/images/discover/urlate.png",
+        "sourceUrl": "https://raw.githubusercontent.com/Mugfalling/urlate/HEAD/README.md",
+        "license": "Source code licence only; assets excluded by the project",
+        "licenseUrl": "https://raw.githubusercontent.com/Mugfalling/urlate/HEAD/LICENSE",
+        "attribution": "No reuse permission established for the artwork, so no file was downloaded or published.",
+        "alt": "Not published pending artwork permission"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/Mugfalling/urlate/HEAD/README.md",
+            "label": "URLATE README: description, platforms, play links and the asset exclusion statement",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-20",
+    "reasons": [
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "mah",
+      "kind": "game",
+      "name": "Mah Seasons",
+      "developer": "ffalt",
+      "category": "Puzzle Game",
+      "platforms": [
+        "Web",
+        "Windows",
+        "Linux"
+      ],
+      "price": {
+        "model": "unknown",
+        "label": "Check official site",
+        "checkedAt": "2026-11-20",
+        "sourceUrl": "https://raw.githubusercontent.com/ffalt/mah/HEAD/README.md"
+      },
+      "summary": "A tile-matching puzzle game with a browser build and packaged desktop releases. Research stopped before publication because the artwork is a collection of separately credited third-party assets in SVG form, and no single evidenced grant covers the images used by the game.",
+      "features": [
+        "Playable in the browser from the project's GitHub Pages site",
+        "Releases published on GitHub for desktop platforms",
+        "Per-asset third-party credit lists maintained alongside the sources"
+      ],
+      "insight": "Held for review because a multi-source art library demands per-file diligence; the honest next step is tracing each credit entry, not approximating one licence for the whole set.",
+      "officialUrl": "https://github.com/ffalt/mah",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/ffalt/mah"
+      },
+      "distribution": [
+        {
+          "label": "Official browser build",
+          "url": "https://ffalt.github.io/mah/"
+        },
+        {
+          "label": "Official releases",
+          "url": "https://github.com/ffalt/mah/releases"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/ffalt/mah",
+        "githubRepo": "ffalt/mah"
+      },
+      "asset": {
+        "path": "/images/discover/mah.png",
+        "sourceUrl": "https://ffalt.github.io/mah/",
+        "license": "Third-party art assets under individually listed credits",
+        "licenseUrl": "https://raw.githubusercontent.com/ffalt/mah/HEAD/LICENSE",
+        "attribution": "No single evidenced artwork grant, so no file was downloaded or published.",
+        "alt": "Not published pending artwork permission"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/ffalt/mah/HEAD/README.md",
+            "label": "Mah README: description, platforms, browser build, releases and asset credit structure",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-20",
+    "reasons": [
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
+  },
+  {
+    "candidate": {
+      "slug": "dualsub-replay",
+      "kind": "app",
+      "name": "DualSub Replay",
+      "developer": "Hoang Trung Kien",
+      "category": "Language Learning",
+      "platforms": [
+        "Android"
+      ],
+      "price": {
+        "model": "free",
+        "label": "Free, no ads, no account (MIT source, GPL-3.0 app distribution)",
+        "sourceUrl": "https://raw.githubusercontent.com/hoangkien1703/dual-sub-replay/HEAD/README.md",
+        "checkedAt": "2026-11-20"
+      },
+      "summary": "A dual-subtitle YouTube app for Android: captions in the original language plus a translation into any of 101 languages, one-tap sentence replay, word and grammar lookup and saved-word spaced repetition, with no account and no ads. Research stopped before publication only over artwork: the project states its MIT licence covers the code and not the name or logo.",
+      "features": [
+        "Bilingual subtitles with a translation into any of 101 languages",
+        "Tap a sentence to replay it and tap a word for definitions and English, Spanish, Japanese or Chinese grammar notes",
+        "Saved words practise through spaced repetition, with on-device translation available",
+        "Free with no account, no ads and no analytics or tracking SDKs",
+        "Android 8.0 or newer, installed from GitHub Releases, with Google developer verification of the package name"
+      ],
+      "insight": "Strong product, unresolved artwork question: the README draws a bright line between the MIT code and the reserved name and logo, so the candidate is kept until a properly licensed official image is published.",
+      "officialUrl": "https://github.com/hoangkien1703/dual-sub-replay",
+      "discoverySource": {
+        "name": "GitHub",
+        "url": "https://github.com/hoangkien1703/dual-sub-replay"
+      },
+      "distribution": [
+        {
+          "label": "Official GitHub Releases",
+          "url": "https://github.com/hoangkien1703/dual-sub-replay/releases/latest"
+        },
+        {
+          "label": "Official project site",
+          "url": "https://hoangkien1703.github.io/dual-sub-replay/"
+        }
+      ],
+      "release": {
+        "kind": "newly-discovered",
+        "date": null,
+        "evidenceUrl": null
+      },
+      "identity": {
+        "canonicalUrl": "https://github.com/hoangkien1703/dual-sub-replay",
+        "androidPackageId": "com.kienhoang.dualsubreplay",
+        "githubRepo": "hoangkien1703/dual-sub-replay"
+      },
+      "asset": {
+        "path": "/images/discover/dualsub-replay.webp",
+        "sourceUrl": "https://raw.githubusercontent.com/hoangkien1703/dual-sub-replay/HEAD/docs/images/dualsub-replay-english-vietnamese.webp",
+        "license": "All rights reserved for the app name and logo; MIT covers the code only",
+        "licenseUrl": "https://raw.githubusercontent.com/hoangkien1703/dual-sub-replay/HEAD/LICENSE",
+        "attribution": "Artwork withdrawn from publication after the licence review; no file is committed for this candidate.",
+        "alt": "Not published pending artwork permission"
+      },
+      "verification": {
+        "status": "review",
+        "verifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/hoangkien1703/dual-sub-replay/HEAD/README.md",
+            "label": "DualSub Replay README: features, requirements, comparison table, package name and the name and logo reservation",
+            "checks": [
+              "identity",
+              "platforms",
+              "features",
+              "distribution",
+              "price",
+              "asset-license"
+            ],
+            "accessedAt": "2026-11-20"
+          }
+        ]
+      }
+    },
+    "queuedAt": "2026-11-20",
+    "reasons": [
+      "Artwork requires evidenced reuse permission",
+      "Only verified entries may publish",
+      "Artwork license URL must have asset-license evidence",
+      "Daily target already filled; retain candidate for fresh verification on a later date"
+    ]
   }
 ]
